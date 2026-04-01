@@ -1,0 +1,11 @@
+=== ROCK2 MD — 11:58:29 ===
+Downloaded ROCK2 (4UMX)
+Fixed: 15720 atoms
+Solvated: 681758 atoms
+Minimizing...
+Minimized in 456.7s
+Equilibrating 100ps...
+Equilibrated in 624.4s
+Production MD: 10ns (681758 atoms)...
+10ns in 42692.0s = 20.2 ns/day
+ROCK2 10ns COMPLETE!

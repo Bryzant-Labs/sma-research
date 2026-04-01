@@ -1,0 +1,8 @@
+=== CFL2 MD — 10:38:33 ===
+Fixed: 2642 atoms
+Solvated: 35150 atoms
+Minimizing...
+Equilibrated
+Production 10ns (35150 atoms)...
+10ns in 4740.1s = 182.3 ns/day
+CFL2 10ns COMPLETE!

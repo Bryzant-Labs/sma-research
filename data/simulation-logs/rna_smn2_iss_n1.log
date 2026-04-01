@@ -1,0 +1,7 @@
+=== RhoFold+ RNA Structure: SMN2_ISS_N1 (SMA) — 12:56:51 ===
+Sequence: 114 nt
+Running RhoFold+ prediction...
+Prediction done in 0.0s
+STDERR: python3: can't open file '/opt/RhoFold/predict.py': [Errno 2] No such file or directory
+
+SMN2_ISS_N1 RhoFold+ COMPLETE!

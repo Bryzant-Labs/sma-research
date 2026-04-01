@@ -1,0 +1,6 @@
+=== IDH2 MD Simulation (IDH1) — 07:26:21 ===
+Traceback (most recent call last):
+  File "/tmp/md_idh2.py", line 18, in <module>
+    print(f'PDB: IDH2 (AlphaFold {uniprot})', flush=True)
+                                  ^^^^^^^
+NameError: name 'uniprot' is not defined

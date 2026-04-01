@@ -1,0 +1,7 @@
+=== RhoFold+ RNA Structure: KCNA2_mRNA_4AP (SMA) — 13:08:02 ===
+Sequence: 173 nt
+Running RhoFold+ prediction...
+Prediction done in 0.0s
+STDERR: python3: can't open file '/opt/RhoFold/predict.py': [Errno 2] No such file or directory
+
+KCNA2_mRNA_4AP RhoFold+ COMPLETE!

@@ -1,0 +1,17 @@
+=== MSTN MD Simulation (SMA) — 15:56:49 ===
+PDB: MSTN (3HH2)
+Fixing PDB...
+Fixed: 12937 atoms in 37.8s
+Building force field + solvation...
+Solvated: 186956 atoms in 8.3s
+Creating CUDA simulation...
+Traceback (most recent call last):
+  File "/tmp/md_mstn.py", line 48, in <module>
+    sim = Simulation(modeller.topology, system, integrator, platform)
+  File "/opt/miniforge3/lib/python3.13/site-packages/openmm/app/simulation.py", line 103, in __init__
+    self.context = mm.Context(self.system, self.integrator, platform)
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniforge3/lib/python3.13/site-packages/openmm/openmm.py", line 6217, in __init__
+    _openmm.Context_swiginit(self, _openmm.new_Context(*args))
+                                   ~~~~~~~~~~~~~~~~~~~^^^^^^^
+openmm.OpenMMException: Error loading CUDA module: CUDA_ERROR_UNSUPPORTED_PTX_VERSION (222)

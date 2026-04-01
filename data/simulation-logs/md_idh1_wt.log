@@ -1,0 +1,10 @@
+=== IDH1-WT MD (Wildtype comparison) — 15:02:00 ===
+Downloaded IDH1-WT (5TQH) — comparison with R132H mutant
+Fixed: 28134 atoms
+Solvated: 1106142 atoms
+Minimizing...
+Minimized in 2256.1s
+Equilibrated
+Production 10ns (1106142 atoms)...
+10ns in 68805.2s = 12.6 ns/day
+IDH1-WT 10ns COMPLETE!

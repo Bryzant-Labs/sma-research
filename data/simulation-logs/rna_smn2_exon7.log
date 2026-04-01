@@ -1,0 +1,6 @@
+Starting RhoFold+ for SMN2 Exon 7...
+Done in 0.0s
+no stdout
+ERROR: /opt/miniforge3/bin/python3: can't open file '/opt/RhoFold/predict.py': [Errno 2] No such file or directory
+
+COMPLETE!

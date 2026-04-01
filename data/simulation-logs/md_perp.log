@@ -1,0 +1,17 @@
+=== PERP MD Simulation (SMA) — 15:46:48 ===
+PDB: PERP (AlphaFold Q96FX8)
+Fixing PDB...
+Fixed: 2999 atoms in 0.5s
+Building force field + solvation...
+Solvated: 91064 atoms in 3.5s
+Creating CUDA simulation...
+Traceback (most recent call last):
+  File "/tmp/md_perp.py", line 48, in <module>
+    sim = Simulation(modeller.topology, system, integrator, platform)
+  File "/opt/miniforge3/lib/python3.13/site-packages/openmm/app/simulation.py", line 103, in __init__
+    self.context = mm.Context(self.system, self.integrator, platform)
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniforge3/lib/python3.13/site-packages/openmm/openmm.py", line 6217, in __init__
+    _openmm.Context_swiginit(self, _openmm.new_Context(*args))
+                                   ~~~~~~~~~~~~~~~~~~~^^^^^^^
+openmm.OpenMMException: Error loading CUDA module: CUDA_ERROR_UNSUPPORTED_PTX_VERSION (222)

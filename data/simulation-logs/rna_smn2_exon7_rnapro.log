@@ -1,0 +1,22 @@
+=== RhoFold+ RNA Structure: SMN2_Exon7_RNAPro (SMA) — 12:48:01 ===
+Installing RhoFold+...
+Traceback (most recent call last):
+  File "/tmp/rna_smn2_exon7_rnapro.py", line 15, in <module>
+    subprocess.run(['pip3', 'install', '-q', 'biopython', 'einops', 'ml-collections', 'dm-tree',
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    'torch', 'fair-esm'], capture_output=True, timeout=300)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniforge/lib/python3.13/subprocess.py", line 556, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniforge/lib/python3.13/subprocess.py", line 1222, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniforge/lib/python3.13/subprocess.py", line 2155, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniforge/lib/python3.13/subprocess.py", line 1269, in _check_timeout
+    raise TimeoutExpired(
+    ...<2 lines>...
+            stderr=b''.join(stderr_seq) if stderr_seq else None)
+subprocess.TimeoutExpired: Command '['pip3', 'install', '-q', 'biopython', 'einops', 'ml-collections', 'dm-tree', 'torch', 'fair-esm']' timed out after 300 seconds

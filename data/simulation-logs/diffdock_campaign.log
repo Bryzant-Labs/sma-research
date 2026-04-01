@@ -1,0 +1,96 @@
+============================================================
+DiffDock Docking Campaign — Local GPU
+Started: 2026-03-31T11:17:12.863168
+Targets: 4 | Compounds: 12 | Dockings: 19
+============================================================
+
+GPU: NVIDIA GeForce RTX 3090 (25.3 GB)
+[OK] IDH1_R132H: /results/structures/IDH1_R132H.pdb
+[OK] IDH1_WT: /results/structures/IDH1_WT.pdb
+[OK] ROCK2: /results/structures/ROCK2.pdb
+[OK] ROCK1: /results/structures/ROCK1.pdb
+
+
+========================================
+Target: IDH1_R132H
+========================================
+
+[1/19] Ivosidenib -> IDH1_R132H
+  [OK] 11 poses, best_conf=-2.160, 265.1s
+
+[2/19] Vorasidenib -> IDH1_R132H
+  [OK] 11 poses, best_conf=-1.730, 218.4s
+
+[3/19] Olutasidenib -> IDH1_R132H
+  [OK] 11 poses, best_conf=-0.770, 183.7s
+
+[4/19] Riluzole -> IDH1_R132H
+  [OK] 11 poses, best_conf=-0.240, 132.6s
+
+[5/19] Aspirin -> IDH1_R132H
+  [OK] 11 poses, best_conf=-0.360, 126.2s
+
+[6/19] Caffeine -> IDH1_R132H
+  [OK] 11 poses, best_conf=-0.390, 118.7s
+
+========================================
+Target: IDH1_WT
+========================================
+
+[7/19] Ivosidenib -> IDH1_WT
+  [OK] 11 poses, best_conf=-2.330, 191.5s
+
+[8/19] Vorasidenib -> IDH1_WT
+  [OK] 11 poses, best_conf=-1.470, 164.9s
+
+[9/19] Olutasidenib -> IDH1_WT
+  [OK] 11 poses, best_conf=-1.820, 141.9s
+
+========================================
+Target: ROCK2
+========================================
+
+[10/19] Fasudil -> ROCK2
+  [OK] 11 poses, best_conf=-0.710, 144.0s
+
+[11/19] Ripasudil -> ROCK2
+  [OK] 11 poses, best_conf=-1.340, 149.9s
+
+[12/19] Y-27632 -> ROCK2
+  [OK] 11 poses, best_conf=-1.040, 147.0s
+
+[13/19] Netarsudil -> ROCK2
+  [OK] 11 poses, best_conf=-0.570, 149.0s
+
+[14/19] Aspirin -> ROCK2
+  [OK] 11 poses, best_conf=-0.940, 119.5s
+
+[15/19] Caffeine -> ROCK2
+  [OK] 11 poses, best_conf=-0.690, 111.2s
+
+========================================
+Target: ROCK1
+========================================
+
+[16/19] Fasudil -> ROCK1
+  [OK] 11 poses, best_conf=-0.060, 109.6s
+
+[17/19] Ripasudil -> ROCK1
+  [OK] 11 poses, best_conf=-0.420, 138.5s
+
+[18/19] Y-27632 -> ROCK1
+  [OK] 11 poses, best_conf=-0.400, 176.4s
+
+[19/19] Netarsudil -> ROCK1
+  [OK] 11 poses, best_conf=-0.690, 132.8s
+
+
+============================================================
+CAMPAIGN COMPLETE
+============================================================
+Total runtime: 2921.2s (48.7 min)
+Successful: 19/19
+Total poses: 209
+Best hit: Fasudil -> ROCK1 (conf=-0.06)
+Results: /results/docking_results.json
+============================================================

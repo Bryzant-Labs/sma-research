@@ -1,0 +1,17 @@
+=== ROCK1 10ns MD — 16:21:33 ===
+Fixed: 13595 atoms
+Solvated: 356750 atoms
+Minimized
+Equilibrated
+10ns in 14211.7s = 60.8 ns/day
+ROCK1 COMPLETE!
+ted: 362810 atoms in 16.3s
+Creating CUDA simulation...
+Minimizing...
+Minimized in 200.7s
+Equilibrating 100ps...
+Equilibrated in 141.0s
+Production MD: 10ns (362810 atoms)...
+10ns in 14315.2s = 60.4 ns/day
+SAVED to /results/md_sims/ROCK1/
+ROCK1 10ns COMPLETE!

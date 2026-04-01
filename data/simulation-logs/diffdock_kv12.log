@@ -1,0 +1,15 @@
+=== DiffDock Screen: Kv12 (SMA) — 07:03:22 ===
+Installing DiffDock...
+DiffDock ready in 0s
+Target: Kv12 (2R9R)
+Fetching compound library from ChEMBL...
+Library: 967 compounds
+Batch 1: compounds 1-500/967
+  Batch done in 24s (0.0s/cpd), ~0.0h remaining
+Batch 2: compounds 501-967/967
+  Batch done in 23s (0.0s/cpd), ~0.0h remaining
+
+=== SCREENING COMPLETE ===
+Screened: 967 compounds
+Hits (conf > 0): 0
+Kv12 DiffDock COMPLETE!
