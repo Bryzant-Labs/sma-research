@@ -1,0 +1,821 @@
+[
+  {
+    "smiles": "Cc1ccc(C=C2CCN(C(=O)C3=CNC=CC=C3)CC2)cc1",
+    "qed": 0.9058946112474895,
+    "seed": "Necrostatin_1",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "Cc1ccc(CNC(=O)C2C=CC=CC=C2)cc1C",
+    "qed": 0.8801387116027886,
+    "seed": "Necrostatin_1",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(Cc1ccccc1)Nc1ccccc1",
+    "qed": 0.8305851686304766,
+    "seed": "Necrostatin_1",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "Cc1ccccc1NC(=O)c1ccccc1",
+    "qed": 0.8112788228538133,
+    "seed": "Necrostatin_1",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "C=CCc1ccc(C(=O)Nc2ccccc2)cc1",
+    "qed": 0.8075866349205576,
+    "seed": "Necrostatin_1",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(Nc1ccccc1)C1C=CC=CC=C1",
+    "qed": 0.8002412307398983,
+    "seed": "Necrostatin_1",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(Nc1ccccc1)c1ccccc1",
+    "qed": 0.7874913866928777,
+    "seed": "Necrostatin_1",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "Cc1ccc(C(=O)NCC2CC=CC2)cc1",
+    "qed": 0.7716283149237995,
+    "seed": "Necrostatin_1",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "C=C1C=CC(C)=C=C1NC(=O)c1ccccc1",
+    "qed": 0.7671876953282704,
+    "seed": "Necrostatin_1",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(Nc1ccccc1-c1ccccc1)c1ccccc1",
+    "qed": 0.7416968378270442,
+    "seed": "Necrostatin_1",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "Cc1ccccc1C(=O)Nc1ccc(C(=O)O)cc1",
+    "qed": 0.8856631665720405,
+    "seed": "Necrostatin_1",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(NCCc1ccccc1)c1ccccc1",
+    "qed": 0.851183960102705,
+    "seed": "Necrostatin_1",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "C=C1CCC(O)(CNC(=O)c2ccc(C)cc2C)CC1",
+    "qed": 0.8319524722390396,
+    "seed": "Necrostatin_1",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(NCc1ccccc1)c1ccccc1",
+    "qed": 0.8303445311416687,
+    "seed": "Necrostatin_1",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "C=CCC(C)(C)C(=O)CNC(=O)c1ccccc1",
+    "qed": 0.782927435807455,
+    "seed": "Necrostatin_1",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CC(C)=CCNC(=O)c1cc(C)ccc1C",
+    "qed": 0.7747151030310476,
+    "seed": "Necrostatin_1",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CC(C)=CCNC(=O)c1c(C)cccc1C",
+    "qed": 0.7747151030310476,
+    "seed": "Necrostatin_1",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CC(C)=C=CCNC(=O)c1cccc(C)c1",
+    "qed": 0.7717161299423161,
+    "seed": "Necrostatin_1",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CC(C)=CCNC(=O)c1ccc(C)cc1",
+    "qed": 0.7517784742187514,
+    "seed": "Necrostatin_1",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "Cc1ccc(NC(=O)C(C)(C)c2ccccn2)cc1",
+    "qed": 0.9126856777093147,
+    "seed": "Necrostatin_1",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CC(C)[C@H](NC(=O)c1ccccc1)c1ccccn1",
+    "qed": 0.9099262053126874,
+    "seed": "Necrostatin_1",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CC(C)(NC(=O)C1C=CC=CC=C1)C(=O)Nc1ccccc1",
+    "qed": 0.897327759755712,
+    "seed": "Necrostatin_1",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "Cc1ncccc1C(=O)NCc1ccccc1",
+    "qed": 0.8722720699617905,
+    "seed": "Necrostatin_1",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CC(C)(C)c1ccc(NC(=O)C2C=CC=CC=C2)cc1",
+    "qed": 0.8536343429809351,
+    "seed": "Necrostatin_1",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CC(C)(C)c1ccc(NC(=O)c2ccccc2)cc1",
+    "qed": 0.8519246655604717,
+    "seed": "Necrostatin_1",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "Cc1ccc(CC(=O)N2CCC(C)(c3ccccc3)CC2)cc1",
+    "qed": 0.8351260612006456,
+    "seed": "Necrostatin_1",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "Cc1cccc(C(=O)NC2=CCCCCC2)c1",
+    "qed": 0.824866622581798,
+    "seed": "Necrostatin_1",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(C=C1C=CC=CC=C1)Nc1ccccc1",
+    "qed": 0.7661052281472813,
+    "seed": "Necrostatin_1",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "Cc1ccc(Nc2cccc(C)c2N)cc1",
+    "qed": 0.7458901418103819,
+    "seed": "Necrostatin_1",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CC(=O)Nc1ccc(NC(=O)c2c(C)cccc2C)cc1",
+    "qed": 0.904636648985046,
+    "seed": "Necrostatin_1",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CC(=O)Nc1ccc(NC(=O)C2=CC=CC=CC=C2)cc1",
+    "qed": 0.8929547936227099,
+    "seed": "Necrostatin_1",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CC(=O)Nc1ccc(NC(=O)c2ccccc2)cc1",
+    "qed": 0.8843772868530373,
+    "seed": "Necrostatin_1",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "Cc1ccc(C(=O)Nc2ccc(NC(=O)C3C=CC=CC=C3)cc2)cc1",
+    "qed": 0.858738800325621,
+    "seed": "Necrostatin_1",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CC(=O)c1ccc(NC(=O)c2ccccc2C)cc1",
+    "qed": 0.8514528641506841,
+    "seed": "Necrostatin_1",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "Cc1cc(C)c(NC(=O)c2ccccc2)c(C)c1",
+    "qed": 0.8466046975520894,
+    "seed": "Necrostatin_1",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "C=CC(=O)Nc1ccc(NC(=O)c2ccccc2)cc1",
+    "qed": 0.8354697825036683,
+    "seed": "Necrostatin_1",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "Cc1ccc(NC(=O)c2ccccc2)c(I)c1",
+    "qed": 0.82892790345758,
+    "seed": "Necrostatin_1",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(NCC1=CCN(C(=O)C2C=CC=CC=C2)CC1)c1ccccc1",
+    "qed": 0.8609495081796682,
+    "seed": "GSK872_RIPK3i",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CC(C)[C@@H](CCNC(=O)c1ccccc1)NC(=O)C1C=CC=CC=C1",
+    "qed": 0.8016883035194736,
+    "seed": "GSK872_RIPK3i",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "C[C@@H](CCNC(=O)c1ccccc1)NC(=O)[C@H]1CC12CC=CC2",
+    "qed": 0.7934948631742507,
+    "seed": "GSK872_RIPK3i",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "C=C/C(C)=C\\CC(=O)NC1CC2(C1)CC(NC(=O)c1ccccc1)C2",
+    "qed": 0.7814865800935601,
+    "seed": "GSK872_RIPK3i",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(NCC1(NC(=O)c2ccccc2)CC1)c1ccc2ccccc2c1",
+    "qed": 0.743777996321877,
+    "seed": "GSK872_RIPK3i",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(NCCCNC(=O)c1cc2c(ccc1=O)CCC2)C1=Cc2ccccc2CC1",
+    "qed": 0.7298949003021785,
+    "seed": "GSK872_RIPK3i",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "N#Cc1cccc(C(=O)c2ccccc2)c1",
+    "qed": 0.7102713435876672,
+    "seed": "GSK872_RIPK3i",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CCn1nc(C)c(C=c2sc(=C(C#N)C(=O)c3ccccc3)n(C)c2=O)c1C",
+    "qed": 0.6327228757789397,
+    "seed": "GSK872_RIPK3i",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "C=CCn1c(C)cc(C(=O)NCCCNC(=O)c2ccccc2)c1C",
+    "qed": 0.5737118999548202,
+    "seed": "GSK872_RIPK3i",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "C=CCn1nc(C)c(CC(=O)NCCNC(=O)c2ccccc2)c1C",
+    "qed": 0.5679818844622525,
+    "seed": "GSK872_RIPK3i",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(NCCN(C(=O)C1C=CC=CC=C1)C1CC1)c1ccccc1",
+    "qed": 0.8752811083922658,
+    "seed": "GSK872_RIPK3i",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(NCCn1c(=O)[nH]c2c(c1=O)CCCC2)C1=CCCC1",
+    "qed": 0.8559911086994924,
+    "seed": "GSK872_RIPK3i",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "C[C@H]1CN(C(=O)[C@@H]2CC=CCC2)CCN1CCNC(=O)c1ccccc1",
+    "qed": 0.8248757433836585,
+    "seed": "GSK872_RIPK3i",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "C[C@@H]1CN(C(=O)c2ccccc2)CCN1CCNC(=O)C1(C)CC=CC1",
+    "qed": 0.8248757433836584,
+    "seed": "GSK872_RIPK3i",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "C=C1C(Nc2ccccc2)=NC(=O)C1=NNC(=O)C1=CN(C)C=CC=C1",
+    "qed": 0.8186909944055739,
+    "seed": "GSK872_RIPK3i",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "C=C1C=CC(=O)N1CCn1c(C)nn(CCNC(=O)c2ccccc2)c1=O",
+    "qed": 0.7799631953677939,
+    "seed": "GSK872_RIPK3i",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CC(C(=O)NCCN(C(=O)c1ccccc1)C1CC1)=C1C=CC=NC1=N",
+    "qed": 0.77177969834738,
+    "seed": "GSK872_RIPK3i",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "C=C1C=CC(=O)C=C1COC(=O)c1ccccc1",
+    "qed": 0.7621280670577337,
+    "seed": "GSK872_RIPK3i",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CN(CCNC(=O)c1ccccc1)CC(=O)NC(=O)NC1CCCC1",
+    "qed": 0.6899253464242857,
+    "seed": "GSK872_RIPK3i",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(OCc1cccc2ccccc12)c1ccccc1",
+    "qed": 0.661242558978733,
+    "seed": "GSK872_RIPK3i",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(N[C@@H]1Cc2cccnc2N=C1N1C=CC=CC1)c1ccccc1",
+    "qed": 0.9210333780490545,
+    "seed": "GSK872_RIPK3i",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "C[C@@H](NC(=O)c1ccccc1)C(=O)N1CCN(C2=NCC(C)(C)C2)CC1",
+    "qed": 0.8977754395162321,
+    "seed": "GSK872_RIPK3i",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "C[C@@H]1CN=C(N2CCN(C(=O)[C@H](NC(=O)c3ccccc3)C(C)(C)C)CC2)C1",
+    "qed": 0.8703918676601434,
+    "seed": "GSK872_RIPK3i",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CC(CNC(=O)c1ccccc1)CNC(=O)c1ccccc1",
+    "qed": 0.8601383172417096,
+    "seed": "GSK872_RIPK3i",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "C[C@H](NC(=O)c1ccccc1)C1=CCN(C(=O)[C@H]2CN3CC=C2CC3)CC1",
+    "qed": 0.8327747887212494,
+    "seed": "GSK872_RIPK3i",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(N[C@H](CNC(=O)[C@H]1CN2CCC1CC2)C1CC1)c1ccccc1",
+    "qed": 0.8270857993910276,
+    "seed": "GSK872_RIPK3i",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "C[C@@H](CNC(=O)c1ccccc1)N1CCN(C(=O)[C@@H]2CC=CCC2)CC1",
+    "qed": 0.8248757433836583,
+    "seed": "GSK872_RIPK3i",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "C[C@H](NC(=O)c1ccccc1)C(=O)N1CCN(C(=O)[C@H]2CC3CCN2CC3)CC1",
+    "qed": 0.820076953701355,
+    "seed": "GSK872_RIPK3i",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "C=C(N[C@@H](C)C1=CC=C2C=CC=CC=C2N=C1N1CCCC1)c1ccccc1",
+    "qed": 0.8081314012498474,
+    "seed": "GSK872_RIPK3i",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CC1=C[C@H]2C=CC(C(=O)N[C@H](C)CNC(=O)c3ccccc3)=CN2CC1",
+    "qed": 0.8010159941333087,
+    "seed": "GSK872_RIPK3i",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(NCCN(C(=O)c1ccccc1)C1CC1)c1ccccn1",
+    "qed": 0.8887917764426997,
+    "seed": "GSK872_RIPK3i",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(NCCN1CCN(C(=O)c2ccccc2)CC1)C1C=CC=CC=C1",
+    "qed": 0.8809774865597567,
+    "seed": "GSK872_RIPK3i",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(NCC1CN(C(=O)C2C=CC=CC=C2)C1)C1C=CC=CC=C1",
+    "qed": 0.8621294328066719,
+    "seed": "GSK872_RIPK3i",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "Cn1cnc(-c2noc(C3=CCN(C(=O)C4C=CC=CC=C4)CC3)n2)n1",
+    "qed": 0.8380719135469927,
+    "seed": "GSK872_RIPK3i",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(c1ccccc1)N1CCC2(CCN(C(=O)C3C=CC=CC=C3)CC2)C1",
+    "qed": 0.8085856392198342,
+    "seed": "GSK872_RIPK3i",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(NCCCn1c(C(=O)N=C2C=CC=C=N2)cccc1=O)c1ccccc1",
+    "qed": 0.7839882905084659,
+    "seed": "GSK872_RIPK3i",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(Nc1ccc2cccc(=O)n2c1)c1ccccc1",
+    "qed": 0.7729681447680664,
+    "seed": "GSK872_RIPK3i",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(c1ccccc1)N1CC2(CCCN2C(=O)C2=CC=NC2=Nc2c(F)cccc2F)C1",
+    "qed": 0.7420869126942521,
+    "seed": "GSK872_RIPK3i",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(Nc1ccc(F)cc1F)C1=CN=C2NC(NC(=O)c3ccccc3)=CN2C1",
+    "qed": 0.7416590969994167,
+    "seed": "GSK872_RIPK3i",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(NCCNc1nnc2ccccc2n1)c1ccccc1",
+    "qed": 0.701960948826442,
+    "seed": "GSK872_RIPK3i",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(NCC1CCCCC1)c1cc(=O)cccc1C(=O)NC1CCCCC1",
+    "qed": 0.833826586561955,
+    "seed": "ISRIB",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CC1CCC(NC(=O)C2CCN(C(=O)c3cccc4nc(=O)cccc4c3=O)CC2)CC1",
+    "qed": 0.7991385689010894,
+    "seed": "ISRIB",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(N=c1ccn(Cc2cccc3cccc(=O)cc23)cc1)NC1CCCCC1",
+    "qed": 0.7384649326791466,
+    "seed": "ISRIB",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(/C=C/C=C1\\C=CC2(C=CC1=O)CCCCC2)NC1CCC(N2CCCC2)CC1",
+    "qed": 0.6897220590378734,
+    "seed": "ISRIB",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(Cc1ccc(NC(=O)NC2CCCCC2)cc1)NCCN1CCCC1",
+    "qed": 0.6889827852818834,
+    "seed": "ISRIB",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "COC(=O)C1=CC(=O)C=CC1=C1CCC(C(=O)NCC(=O)NC2CCCCC2)CC1",
+    "qed": 0.6722856368080945,
+    "seed": "ISRIB",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "COC(=O)COc1ccc(-c2ccc(C(=O)NC(=O)NC3CCCCC3)cc2)cc1OC",
+    "qed": 0.636862679085591,
+    "seed": "ISRIB",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(NC1CCCCC1)C1=CC=CC2=CC(=CC(=O)c3ccccc3)C=C2N1",
+    "qed": 0.6176245053828405,
+    "seed": "ISRIB",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(Cc1ccc(NC(=O)NCC2CCCCCC2)cc1)NC1CCCCC1",
+    "qed": 0.6174028254202152,
+    "seed": "ISRIB",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "COC(=O)c1ccccc1CCS(=O)(=O)NC1CCC(NC(=O)NC2CCCCC2)CC1",
+    "qed": 0.5110459883616478,
+    "seed": "ISRIB",
+    "target": "RIPK1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CN1CCC(NC(=O)C2CCC(NC(=O)c3ccccc3)CC2)CC1",
+    "qed": 0.8808581744212819,
+    "seed": "ISRIB",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "C[C@H](C#N)C(=O)NCCC1=CCN(C(=O)c2ccccc2)CC1",
+    "qed": 0.8465934310535861,
+    "seed": "ISRIB",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CNC(=O)C1CCN(C(=O)C2=CC=CC(=Cc3ccc4ccccc4c3)CC2)CC1",
+    "qed": 0.8255979711450496,
+    "seed": "ISRIB",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CN1CC=C(C(=O)N2CCC(CC3=CC(=Cc4ccccc4)C=C3)CC2)CC1",
+    "qed": 0.7769392469198553,
+    "seed": "ISRIB",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CN1CCC(NC(=O)C2=C(C(=O)NCc3ccccc3)CCC3C=CC=CC[C@@H]23)CC1",
+    "qed": 0.7694623703661471,
+    "seed": "ISRIB",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CN1CCC(C(=O)NCCC2CCC(C(=O)NCc3ccccc3)CC2)CC1",
+    "qed": 0.7585657269403564,
+    "seed": "ISRIB",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CN1CCC(C(=O)NCC2CCC(C(=O)NCCc3ccccc3)CC2)CC1",
+    "qed": 0.7584451708370542,
+    "seed": "ISRIB",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CN1CC=C(C(=O)NCCc2[nH]ccc2CC(=O)c2ccccc2)CC1",
+    "qed": 0.7528570117363659,
+    "seed": "ISRIB",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CN1CCC(C(=O)NCCCN(CC2=CC=CC2)C(=O)c2ccccc2)CC1",
+    "qed": 0.7047361707723436,
+    "seed": "ISRIB",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(C1=CC=C(C(=O)N2CCC(CC(=O)N3CCCC3)CC2)CC1)c1ccccc1",
+    "qed": 0.6997184469086726,
+    "seed": "ISRIB",
+    "target": "RIPK3",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CC1CCN(C(=O)C2=C(c3ccco3)NC3(CCN(C(=O)c4ccccc4)CC3)C2)CC1",
+    "qed": 0.7969420400841755,
+    "seed": "ISRIB",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(/C=C/C(=O)N1CCC(C(=O)Nc2ccccc2)CC1)NC1CCCC1",
+    "qed": 0.7828902863551525,
+    "seed": "ISRIB",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(/C=C/C(=O)N1CCC2(C=CC(=Cc3ccccc3)C=C2)CC1)NC1CCCC1",
+    "qed": 0.7581733695658267,
+    "seed": "ISRIB",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(NC1CCCCC1)C1CCN(C(=O)NCC/C=C/c2ccccc2)CC1",
+    "qed": 0.7305932590640067,
+    "seed": "ISRIB",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CC1CCN(C(=O)C2CCN(C(=O)C3=CC(=C4C=CC=CC=C4)C=C3)CC2)CC1",
+    "qed": 0.7160952445134003,
+    "seed": "ISRIB",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "C/C=C1/C=C/C(=O)N[C@@H](c2nncn2C)C(C(=O)N2CCC(C)CC2)=C(c2ccccc2)C1=O",
+    "qed": 0.7122066162857272,
+    "seed": "ISRIB",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "C/C=C1/C=CC=CC(/C=C/C(=O)N2CC=C(C(=O)N3CCC(C)CC3)CC2)=C1",
+    "qed": 0.6976901551564532,
+    "seed": "ISRIB",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "CC1CCC(NC(=O)C2=CC3(C=C2)CCN(C(=O)/C=C/C(=O)NC2CCCCC2)CC3)CC1",
+    "qed": 0.621868244120708,
+    "seed": "ISRIB",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(NCc1ccccc1)C1CCN(C(=O)/C=C/c2ccc(-c3ccccc3)cc2)CC1",
+    "qed": 0.5710951509608428,
+    "seed": "ISRIB",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(/C=C/c1cn(CC(=O)NC2=CC3(C=C2)CCNCC3)nn1)NC1CCCCCC1",
+    "qed": 0.4794389515132823,
+    "seed": "ISRIB",
+    "target": "MLKL",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(NCC1CCCCC1)c1ccccc1C(=O)NCC1CCCC1",
+    "qed": 0.8231257216860046,
+    "seed": "ISRIB",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(/C=C\\c1ccc2c(c1)OCCCO2)NCc1noc(C2CCCC2)n1",
+    "qed": 0.8145977789212758,
+    "seed": "ISRIB",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(NCCCNC(=O)C1CCCCC1)C1C=CC=CC=C1",
+    "qed": 0.7406390745807737,
+    "seed": "ISRIB",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(C[C@@H]1CC=CCC1)NCC1(CNC(=O)c2ccccc2)CCCCC1",
+    "qed": 0.707741624878685,
+    "seed": "ISRIB",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(CCN(C(=O)CC1C=CCC=C1)C1CCCCC1)NC1CCCC1",
+    "qed": 0.6960898778308083,
+    "seed": "ISRIB",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "Cc1cc(C(=O)NCC2(CNC(=O)c3ccccc3)CCCCC2)c2cccnc2n1",
+    "qed": 0.6349787708825667,
+    "seed": "ISRIB",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(/C=C/c1ccnc(C(F)(F)F)c1)NCC1=CCN(C(=O)C2CC2)CC1",
+    "qed": 0.6321923610115885,
+    "seed": "ISRIB",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(CNC(=O)C1CCCCC1)NCC1CCC(NC(=O)C2CCCC2)CC1",
+    "qed": 0.623436790902553,
+    "seed": "ISRIB",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "N#Cc1cncc(C=C[C@@H]2NC(=O)NC(C(=O)NC3CCC3)=C2C(=O)NC2CC2)c1",
+    "qed": 0.5552415815512871,
+    "seed": "ISRIB",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  },
+  {
+    "smiles": "O=C(NC1CC1)c1cccc(C=NN=C/C=C\\c2ccc(C(F)(F)F)cc2[N+](=O)[O-])c1",
+    "qed": 0.39419257848252914,
+    "seed": "ISRIB",
+    "target": "SARM1",
+    "method": "MolMIM-Necro-Pass6"
+  }
+]

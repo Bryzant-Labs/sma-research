@@ -1,0 +1,440 @@
+[
+  {
+    "smiles": "Brc1ccncc1CNc1ccncc1",
+    "qed": 0.925778738601989,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP"
+  },
+  {
+    "smiles": "Nc1cc(Br)cnc1Oc1ccncc1",
+    "qed": 0.9070657808557362,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP"
+  },
+  {
+    "smiles": "Nc1cc(Oc2ccncc2)ncc1Br",
+    "qed": 0.9070657808557362,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP"
+  },
+  {
+    "smiles": "Nc1cc(Br)cnc1NCc1ccncc1",
+    "qed": 0.9053281843384333,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP"
+  },
+  {
+    "smiles": "Brc1cncc(Nc2ccncc2)c1",
+    "qed": 0.8897563713867772,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP"
+  },
+  {
+    "smiles": "Brc1ccc(Nc2ccncc2)nc1",
+    "qed": 0.8897563713867772,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP"
+  },
+  {
+    "smiles": "Brc1cncnc1Nc1ccncc1",
+    "qed": 0.8896797954190306,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP"
+  },
+  {
+    "smiles": "Nc1cc(Br)cnc1Nc1ccncc1",
+    "qed": 0.8754123733547453,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP"
+  },
+  {
+    "smiles": "Nc1cnc(NCc2ccncc2)nc1",
+    "qed": 0.7762075034456849,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP"
+  },
+  {
+    "smiles": "c1cncc(Nc2ccncc2)c1",
+    "qed": 0.752389705777418,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP"
+  },
+  {
+    "smiles": "Brc1ccc(Nc2ccncc2)cc1",
+    "qed": 0.8791859921808192,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP"
+  },
+  {
+    "smiles": "O=C(CCc1ccccc1)Nc1ccncc1",
+    "qed": 0.8703908172852269,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP"
+  },
+  {
+    "smiles": "FC(F)(F)c1cccc(Nc2ccncc2)c1",
+    "qed": 0.8591902182030918,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP"
+  },
+  {
+    "smiles": "Cc1ccc(Nc2cncc(F)c2)cc1",
+    "qed": 0.8079345290168771,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP"
+  },
+  {
+    "smiles": "O=C(CCCCc1ccccc1)Nc1cccnc1",
+    "qed": 0.8023323582248425,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP"
+  },
+  {
+    "smiles": "c1cc(Nc2ccc3c(c2)CC3)ccn1",
+    "qed": 0.7983936028846236,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP"
+  },
+  {
+    "smiles": "Fc1ccc(Nc2ccncc2)cc1",
+    "qed": 0.7832173615209348,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP"
+  },
+  {
+    "smiles": "Fc1cncc(Nc2ccccc2)c1",
+    "qed": 0.7832173615209348,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP"
+  },
+  {
+    "smiles": "Cc1ccc(Nc2ccncc2)cc1",
+    "qed": 0.7751532167672754,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP"
+  },
+  {
+    "smiles": "Cc1cccc(Nc2ccncc2)c1",
+    "qed": 0.7751532167672754,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP"
+  },
+  {
+    "smiles": "c1ccc(Nc2ccns2)cc1",
+    "qed": 0.7606192880198511,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP"
+  },
+  {
+    "smiles": "Fc1cccc(Nc2ccccc2)c1",
+    "qed": 0.7573856954519275,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP"
+  },
+  {
+    "smiles": "c1ccc(Nc2ccncc2)cc1",
+    "qed": 0.7491788913484071,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP"
+  },
+  {
+    "smiles": "c1ccc(Nc2cccnc2)cc1",
+    "qed": 0.749178891348407,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP"
+  },
+  {
+    "smiles": "Cc1ccc(Br)cc1[C@H](N)c1ccncc1",
+    "qed": 0.9150746724433154,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "O[C@H](c1ccsc1)c1ncncc1Br",
+    "qed": 0.9117182641022552,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "N[C@@H](c1cccnc1)c1cscc1Br",
+    "qed": 0.9098783845015566,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Cc1cc(-c2cnccc2OCC(F)(F)F)ccc1N",
+    "qed": 0.8752449513544838,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Nc1nccnc1-c1ccc(Br)cc1",
+    "qed": 0.8453514338324772,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Nc1ccncc1-c1ccccc1Br",
+    "qed": 0.8428625165511547,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Nc1c(C(F)(F)F)ccnc1-c1ccncc1",
+    "qed": 0.8319472469227797,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Nc1ccncc1-c1ccc(C(F)(F)F)cc1",
+    "qed": 0.8269391484713134,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "CC(C)OCc1ccc(CNCc2cnccc2Br)cc1",
+    "qed": 0.818627428544727,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Nc1ccnc(Br)c1-c1ccc(C(F)(F)F)cc1",
+    "qed": 0.8039604265399319,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Cc1ccc(-n2ccnc2C#N)c(Br)c1",
+    "qed": 0.7924644469273673,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Cc1ccc(-c2cnccc2C(F)(F)F)c(N)c1",
+    "qed": 0.7864977205503468,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Cc1cc(Br)ccc1-c1cnccc1C(F)F",
+    "qed": 0.7788426807491727,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Cc1ccncc1-c1cnccc1C(F)(F)F",
+    "qed": 0.7597518426074399,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Cc1cc(Br)ccc1-c1ccncc1",
+    "qed": 0.7470865423780022,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Cc1ccccc1-c1ccncc1N",
+    "qed": 0.7395325326267945,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Cc1ccccc1-c1cnccc1N",
+    "qed": 0.7395325326267945,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Cc1ccc([C@H](NN)c2ccncc2Br)cc1",
+    "qed": 0.6752903372589206,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Cc1cc(C)c([C@H](NN)c2cnccc2Br)cn1",
+    "qed": 0.6750091879824938,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Cc1cncc(Nc2ccnc(N3CCC3)c2)c1",
+    "qed": 0.8952672798283826,
+    "seed": "Amifampridine",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "CN(C)c1cccc(NCc2cncc(N)c2)c1",
+    "qed": 0.8637503553867644,
+    "seed": "Amifampridine",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "CN(C)c1cccc(Nc2cncc(N)c2)c1",
+    "qed": 0.8470101974891083,
+    "seed": "Amifampridine",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "COc1ccc(NCc2cncc(N)c2)cc1",
+    "qed": 0.8440305886939049,
+    "seed": "Amifampridine",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Cc1cncc(Nc2cccc(C#N)c2)c1",
+    "qed": 0.8266159060028098,
+    "seed": "Amifampridine",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "COc1cncc(OC(=O)c2cncc(O)c2)c1",
+    "qed": 0.8244130898911702,
+    "seed": "Amifampridine",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "COc1cncc(Nc2cncc(N)c2)c1",
+    "qed": 0.8181247059149181,
+    "seed": "Amifampridine",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Nc1ccc(Nc2ccc(Cl)cc2)nc1",
+    "qed": 0.8163779948433609,
+    "seed": "Amifampridine",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "N#Cc1cncc(Nc2cncc(N)c2)c1",
+    "qed": 0.7884452016175953,
+    "seed": "Amifampridine",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Cc1cncc(Nc2cncc(N)c2)c1",
+    "qed": 0.7788758674505905,
+    "seed": "Amifampridine",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Cc1cncc(Nc2cc(N)ccn2)c1",
+    "qed": 0.7788758674505905,
+    "seed": "Amifampridine",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Cc1cncc(NC(=O)Nc2cncc(N)c2)c1",
+    "qed": 0.7517411302458793,
+    "seed": "Amifampridine",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Cc1cncc(Nc2ccc(N)cc2)c1",
+    "qed": 0.731006031325402,
+    "seed": "Amifampridine",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Cc1cncc(Nc2cccc(N)c2)c1",
+    "qed": 0.731006031325402,
+    "seed": "Amifampridine",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Nc1cncc(Nc2cc(N)ccn2)c1",
+    "qed": 0.6825924840169328,
+    "seed": "Amifampridine",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Cc1ccc(N)cc1Nc1cncc(N)c1",
+    "qed": 0.6702268849866536,
+    "seed": "Amifampridine",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Nc1cccc(-c2cncc(N)c2)c1",
+    "qed": 0.6668378508915932,
+    "seed": "Amifampridine",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "Nc1ccc(Nc2cncc(N)c2)cc1",
+    "qed": 0.6477407995721851,
+    "seed": "Amifampridine",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "CCCNC(CC)(CC)CC(F)(F)F",
+    "qed": 0.7086853554075091,
+    "seed": "Tetraethylammonium",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "CCC(CC)(CC)n1cc(C)cn1",
+    "qed": 0.6957948780959682,
+    "seed": "Tetraethylammonium",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "CCCNC(CC)(CC)CC",
+    "qed": 0.6247982371476056,
+    "seed": "Tetraethylammonium",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "CCCN(CCC)CC(C)(C)C",
+    "qed": 0.6139626293809048,
+    "seed": "Tetraethylammonium",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "CCC(CC)(CC)CC(F)(F)F",
+    "qed": 0.6121315063580832,
+    "seed": "Tetraethylammonium",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "CCCC(CC)(CC)CC",
+    "qed": 0.5439364955611166,
+    "seed": "Tetraethylammonium",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "CCC(CC)(CC)CC",
+    "qed": 0.5422404874814915,
+    "seed": "Tetraethylammonium",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "CCC(CC)CC(CC)CC",
+    "qed": 0.5390786258511792,
+    "seed": "Tetraethylammonium",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "CCCC(CC)(CC)CCC",
+    "qed": 0.5346655687039277,
+    "seed": "Tetraethylammonium",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "CCC(CC)CC",
+    "qed": 0.5112703489666591,
+    "seed": "Tetraethylammonium",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "C#CC(CC)(CC)CC",
+    "qed": 0.5073966066213074,
+    "seed": "Tetraethylammonium",
+    "method": "MolMIM-4AP-analog"
+  },
+  {
+    "smiles": "C#CCCC(CC)CC",
+    "qed": 0.5054285689129527,
+    "seed": "Tetraethylammonium",
+    "method": "MolMIM-4AP-analog"
+  }
+]

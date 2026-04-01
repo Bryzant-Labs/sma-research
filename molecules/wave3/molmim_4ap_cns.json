@@ -1,0 +1,794 @@
+[
+  {
+    "smiles": "O=S(=O)(Nc1cnn(Br)c1)c1ccncc1",
+    "qed": 0.9251463200131771,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cc(NS(=O)(=O)c2ccc(Br)cc2)ccn1",
+    "qed": 0.904698708582107,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Brc1ccc(Nc2cncnc2)cc1",
+    "qed": 0.8897563713867772,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1ncc(Nc2ccc(Br)cc2)cn1",
+    "qed": 0.8754123733547453,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1ccc(-c2ccc(Br)cc2)cn1",
+    "qed": 0.8428625165511547,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cncc(NS(=O)(=O)c2ccncc2)c1",
+    "qed": 0.8414461917951848,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "c1cc(-c2ccc(N3CCCCC3)cc2)ccn1",
+    "qed": 0.7919986607117907,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Cc1ccc(Nc2cncc(N)c2)cc1",
+    "qed": 0.7814398795746542,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cncc(Nc2ccncc2)c1",
+    "qed": 0.7502230162208529,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1ccc(Nc2ccncc2)nc1",
+    "qed": 0.7502230162208529,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1ccc(-c2ccncc2)nc1",
+    "qed": 0.7103828943707657,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1ccc(-c2ccncc2)cn1",
+    "qed": 0.7103828943707657,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cncc(-c2ccncc2)c1",
+    "qed": 0.7103828943707656,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1ccc(Nc2cncnc2)cc1",
+    "qed": 0.7018038930839922,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cnn(-c2ccccc2)c1",
+    "qed": 0.6840470334583565,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1ccc(-c2ccncc2)cc1",
+    "qed": 0.6669358517742449,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cncc(Br)c1",
+    "qed": 0.6438224852215956,
+    "seed": "4-AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cncc(Oc2ccc(OC(F)(F)F)cc2)c1",
+    "qed": 0.9286745126876562,
+    "seed": "3,4-DAP_Amifampridine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "FC(F)(F)c1cc(Oc2cncc(N3CCNCC3)c2)c[nH]1",
+    "qed": 0.9146746942362056,
+    "seed": "3,4-DAP_Amifampridine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cncc(Oc2cncc(C(F)(F)F)c2)c1",
+    "qed": 0.8957982124450036,
+    "seed": "3,4-DAP_Amifampridine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1ccnc(Oc2cccc(N3CCNCC3)c2)c1",
+    "qed": 0.8911097461769907,
+    "seed": "3,4-DAP_Amifampridine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cncc(Nc2cncc(C(F)(F)F)c2)c1",
+    "qed": 0.8644884913829646,
+    "seed": "3,4-DAP_Amifampridine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "c1ncc(C2CC2)cc1O[C@H]1CCNC1",
+    "qed": 0.8133616488292398,
+    "seed": "3,4-DAP_Amifampridine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Cc1cncc(Oc2cncc(N)c2)c1",
+    "qed": 0.8082999490633103,
+    "seed": "3,4-DAP_Amifampridine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "FC(F)(F)c1cncc(N2CCNCC2)c1",
+    "qed": 0.7936955081961079,
+    "seed": "3,4-DAP_Amifampridine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "FC(F)(F)c1cc(N2CCNCC2)ccn1",
+    "qed": 0.7936955081961079,
+    "seed": "3,4-DAP_Amifampridine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "c1ncc(N2CCOCC2)cc1N1CCCC1",
+    "qed": 0.7740787140981319,
+    "seed": "3,4-DAP_Amifampridine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cncc(Oc2cncc(N)c2)c1",
+    "qed": 0.7687693424111788,
+    "seed": "3,4-DAP_Amifampridine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cncc(OC(F)(F)F)c1",
+    "qed": 0.7093604734946952,
+    "seed": "3,4-DAP_Amifampridine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cncc(O[C@@H]2CCNC2)c1",
+    "qed": 0.6897595689901231,
+    "seed": "3,4-DAP_Amifampridine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cncc(Nc2cncc(N)c2)c1",
+    "qed": 0.6825924840169327,
+    "seed": "3,4-DAP_Amifampridine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cncc(N2CCNCC2)c1",
+    "qed": 0.6388787534740478,
+    "seed": "3,4-DAP_Amifampridine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cncc(C(F)(F)F)c1",
+    "qed": 0.6298579267061943,
+    "seed": "3,4-DAP_Amifampridine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Cc1cccc(Nc2ccc(Br)cn2)c1",
+    "qed": 0.8884027001904775,
+    "seed": "4-AP_methyl",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CC(C)c1ccnc(NC2CCC(F)(F)CC2)c1",
+    "qed": 0.8742355460042529,
+    "seed": "4-AP_methyl",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Cc1cccc(NC2CCC3(CC2)CC[C@H](N)C3)n1",
+    "qed": 0.8569434859987242,
+    "seed": "4-AP_methyl",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Cc1ccnc(NC2CCC(F)(F)CC2)c1",
+    "qed": 0.8357735164310789,
+    "seed": "4-AP_methyl",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Cc1ccnc(NC2C[C@H]3[C@H](C2)C3(F)F)c1",
+    "qed": 0.8351143082040062,
+    "seed": "4-AP_methyl",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Cc1ccnc(C(=O)N[C@H]2CC[C@H](NC(=O)C3CC=CC3)CC2)c1",
+    "qed": 0.8348588713602908,
+    "seed": "4-AP_methyl",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CC(C)(C)C(=O)N1[C@@H]2CC[C@H]1CC(N1CC(c3ccccn3)=CC1=O)C2",
+    "qed": 0.8214423648493533,
+    "seed": "4-AP_methyl",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1ccnc(NC2CCC(Br)CC2)c1",
+    "qed": 0.8123311863077012,
+    "seed": "4-AP_methyl",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Cc1cncc(NC2CCC(=O)CC2)c1",
+    "qed": 0.8034163356342076,
+    "seed": "4-AP_methyl",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Cc1ccnc(N[C@H]2CC[C@H](C)CC2)c1",
+    "qed": 0.7984726082222168,
+    "seed": "4-AP_methyl",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Cc1ccnc(NC2=CC[C@@H](C)CC2)c1",
+    "qed": 0.793490998228384,
+    "seed": "4-AP_methyl",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1ccnc(N2C[C@@H]3CC[C@@H](C2)C3=O)c1",
+    "qed": 0.7643335585340129,
+    "seed": "4-AP_methyl",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Cc1ccc(N2CCC[C@@H](N)CC2)cn1",
+    "qed": 0.7585783578569778,
+    "seed": "4-AP_methyl",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Cc1cccc(Cc2cccc(N)c2)n1",
+    "qed": 0.7530904464606782,
+    "seed": "4-AP_methyl",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Cc1cccc(N2CC[C@H]3CC(=O)[C@H]3CC2)n1",
+    "qed": 0.7412003211263706,
+    "seed": "4-AP_methyl",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Cc1cc(N)cnc1N1CC[C@@H](C)C1",
+    "qed": 0.7358814900205274,
+    "seed": "4-AP_methyl",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Cc1cncc(N2CCC[C@H](C)CC2)c1",
+    "qed": 0.69874943079255,
+    "seed": "4-AP_methyl",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Cc1cccc(N2CCC(C)(C)CC2)n1",
+    "qed": 0.69874943079255,
+    "seed": "4-AP_methyl",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Cc1cnc(NC(C)(C)C)c(N)c1",
+    "qed": 0.6943913489589113,
+    "seed": "4-AP_methyl",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "",
+    "qed": 0.33942358984550913,
+    "seed": "4-AP_methyl",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Fc1cnc(Nc2ccc(Br)cc2)cn1",
+    "qed": 0.9087949943039758,
+    "seed": "4-AP_fluoro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Fc1cncc(Nc2cncc(Br)c2)c1",
+    "qed": 0.9087949943039757,
+    "seed": "4-AP_fluoro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CNc1cncc(Nc2cncc(Br)c2)c1",
+    "qed": 0.9063301105194246,
+    "seed": "4-AP_fluoro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "O=C(Nc1cncc(F)c1)Nc1cncc(Br)c1",
+    "qed": 0.8956622394691939,
+    "seed": "4-AP_fluoro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cncc(Nc2cncc(Br)c2)c1",
+    "qed": 0.8754123733547453,
+    "seed": "4-AP_fluoro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CN(C)CCOc1cncc(Nc2ncc(F)cn2)c1",
+    "qed": 0.8666915605700423,
+    "seed": "4-AP_fluoro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CCOC(=O)c1cc(Br)cnc1Nc1cncc(F)c1",
+    "qed": 0.8655453496138855,
+    "seed": "4-AP_fluoro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CN(C)c1cncc(-c2ncc(F)cc2Br)c1",
+    "qed": 0.852383934460137,
+    "seed": "4-AP_fluoro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Fc1cncc(Nc2cncc(Cl)c2)c1",
+    "qed": 0.8505964833141326,
+    "seed": "4-AP_fluoro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CNc1cncc(-c2cncc(F)c2)c1",
+    "qed": 0.8134956241879352,
+    "seed": "4-AP_fluoro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "NCCCOc1cncc(Nc2cncc(Br)c2)c1",
+    "qed": 0.7998245899804151,
+    "seed": "4-AP_fluoro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cncc(Nc2cncc(F)c2)c1",
+    "qed": 0.7841934614991295,
+    "seed": "4-AP_fluoro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Fc1cncc(Nc2cnc3ccc(Br)cc3n2)c1",
+    "qed": 0.7828922693179237,
+    "seed": "4-AP_fluoro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1ccnc(Sc2cncc(Cl)c2)c1",
+    "qed": 0.8727960883498848,
+    "seed": "4-AP_chloro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cc(Sc2cncc(Cl)c2)ccn1",
+    "qed": 0.8727960883498848,
+    "seed": "4-AP_chloro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cncc(Sc2cc(Cl)ccn2)c1",
+    "qed": 0.8727960883498846,
+    "seed": "4-AP_chloro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cncc(Sc2cncc(Cl)c2)c1",
+    "qed": 0.8727960883498846,
+    "seed": "4-AP_chloro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cncc(Oc2cncc(Cl)c2)c1",
+    "qed": 0.8465720247092968,
+    "seed": "4-AP_chloro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cncc(Sc2cncc(F)c2)c1",
+    "qed": 0.8452952752959988,
+    "seed": "4-AP_chloro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1ccnc(Nc2cccc(Cl)c2)c1",
+    "qed": 0.8163779948433609,
+    "seed": "4-AP_chloro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cncc(Nc2cncc(Cl)c2)c1",
+    "qed": 0.816208948339202,
+    "seed": "4-AP_chloro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1ccnc(Sc2cncc(Cl)c2)n1",
+    "qed": 0.813410762821914,
+    "seed": "4-AP_chloro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cccc(Sc2cncc(Cl)c2)c1",
+    "qed": 0.8119576720958438,
+    "seed": "4-AP_chloro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cc(Nc2cncc(Cl)c2)ncn1",
+    "qed": 0.8094845999468867,
+    "seed": "4-AP_chloro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cncc(Sc2cnccn2)c1",
+    "qed": 0.8045736999955078,
+    "seed": "4-AP_chloro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cccc(Oc2cncc(Cl)c2)c1",
+    "qed": 0.7915206204033384,
+    "seed": "4-AP_chloro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cccc(Nc2cncc(Cl)c2)c1",
+    "qed": 0.7636892532240186,
+    "seed": "4-AP_chloro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cc(Sc2ccncc2)ccc1[N+](=O)[O-]",
+    "qed": 0.5119676054598538,
+    "seed": "4-AP_chloro",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CCc1ccncc1CNC(=O)CN(C)C(=O)OC(C)(C)C",
+    "qed": 0.9042823447632358,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CCc1cnccc1CNC(=O)OC(C)(C)C",
+    "qed": 0.8774069625052033,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CCc1ccncc1CC(=O)NCC(C)(C)C",
+    "qed": 0.8685689597377271,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CC(C)(C)Cc1ccncc1NC(=O)C(C)(C)C",
+    "qed": 0.8675753365646534,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CCc1ccncc1C[C@@H](N)CNC(=O)OC(C)(C)C",
+    "qed": 0.8643532327608724,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CCc1ccncc1CN1CCN(C(=O)C(C)(C)C)CC1",
+    "qed": 0.8567141123364636,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CCc1cncc(CNC(=O)C(C)(C)C)c1",
+    "qed": 0.8489514140480238,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CCc1ccncc1CN1CCNC(=O)[C@H]1C",
+    "qed": 0.8456553202961085,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CCc1ccncc1C[C@@H](N)C(=O)OC(C)(C)C",
+    "qed": 0.828269332830683,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CCc1ccncc1C[C@@H](N)C(C)(C)C",
+    "qed": 0.8251728146194773,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Cc1ccncc1CNC(=O)C(C)(C)C",
+    "qed": 0.8043279782218566,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Cc1ccnc2c1CN(C(=O)c1ccc(C(C)(C)C)cc1)CC2",
+    "qed": 0.80061002225062,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CCc1ccncc1[C@@H]1CCCN1[C@@H](C)CC(C)(C)C",
+    "qed": 0.7970416897971072,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CCc1ccncc1CNC(C)(C)C",
+    "qed": 0.7957195862261156,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CCc1ccncc1CN(C)CC(C)(C)C",
+    "qed": 0.7747597681938501,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CCc1ccncc1C[C@@H](C)N",
+    "qed": 0.735516638391063,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CCc1ccncc1CNC(=O)CN",
+    "qed": 0.7183665330742889,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CCc1ccncc1CNC(=O)C(N)=O",
+    "qed": 0.6698082717616565,
+    "seed": "Fampridine_extended",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CN1CCC(c2ccccc2-c2ccncc2C(N)=O)CC1",
+    "qed": 0.9467265338128676,
+    "seed": "4-AP_piperidine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "NC(=O)c1ccncc1-c1ccccc1C1CCNCC1",
+    "qed": 0.9068691967165372,
+    "seed": "4-AP_piperidine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "NC(=O)c1ccncc1-c1ccc(C2CCNCC2)cc1",
+    "qed": 0.9068691967165371,
+    "seed": "4-AP_piperidine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "NC(=O)c1cccnc1-c1ccc(C2CCNCC2)cc1",
+    "qed": 0.9068691967165371,
+    "seed": "4-AP_piperidine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Brc1ccncc1-c1ccc(C2CCNCC2)cc1",
+    "qed": 0.9061535227320433,
+    "seed": "4-AP_piperidine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Clc1ccncc1-c1ccc(C2CCNCC2)cc1",
+    "qed": 0.8977029217958861,
+    "seed": "4-AP_piperidine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Cc1ccncc1Nc1ccccc1C1CCNCC1",
+    "qed": 0.8918542514447975,
+    "seed": "4-AP_piperidine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Cc1ccncc1-c1ccccc1C1CCNCC1",
+    "qed": 0.8841897622448752,
+    "seed": "4-AP_piperidine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1ccncc1-c1ccc(C2CCC(N)CC2)cc1",
+    "qed": 0.8769267139069997,
+    "seed": "4-AP_piperidine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1ccncc1-c1ccc(C2CCNCC2)cc1",
+    "qed": 0.8649591581167999,
+    "seed": "4-AP_piperidine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1ccncc1-c1ccccc1C1CCNCC1",
+    "qed": 0.8649591581167999,
+    "seed": "4-AP_piperidine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cnccc1-c1ccccc1C1CCNCC1",
+    "qed": 0.8649591581167999,
+    "seed": "4-AP_piperidine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1cccnc1-c1ccc(C2=CCNCC2)cc1",
+    "qed": 0.8624945516626868,
+    "seed": "4-AP_piperidine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Nc1c(-c2ccccc2Br)cccc1C1CCNCC1",
+    "qed": 0.810955252046437,
+    "seed": "4-AP_piperidine",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CN(C)c1ccc(CNC(=O)C2=C3CCCC(=O)N3CCC2)cc1",
+    "qed": 0.9239475011046246,
+    "seed": "Tetrahydropyridine_4AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "O=C(NCc1ccc(C(F)(F)F)cc1)C1=C2CCCC(=O)N2CC1",
+    "qed": 0.9210565645244098,
+    "seed": "Tetrahydropyridine_4AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "O=C(NCc1ncccc1C(F)(F)F)C1=C(N2CCCC2)CCC1",
+    "qed": 0.9158408786333357,
+    "seed": "Tetrahydropyridine_4AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "O=C(NCc1ccc(C(F)(F)F)cc1)c1ccccc1",
+    "qed": 0.9128249828622245,
+    "seed": "Tetrahydropyridine_4AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Cc1ccc(C2CCN(C(=O)C3=NNC(=O)CCC3)CC2)cc1",
+    "qed": 0.9108303796606447,
+    "seed": "Tetrahydropyridine_4AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "NC1=C(C(=O)NCc2ccc(C(F)(F)F)cc2)CCCC=N1",
+    "qed": 0.9010634941312884,
+    "seed": "Tetrahydropyridine_4AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CN(C)c1ccc(CNC(=O)C2=CCCCC2)cc1",
+    "qed": 0.9003483725972761,
+    "seed": "Tetrahydropyridine_4AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CN(C)Cc1ccc(CNC(=O)C2=C3CCCN(CC2)C3=O)cc1",
+    "qed": 0.8952657563973296,
+    "seed": "Tetrahydropyridine_4AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Cc1ccccc1C1CN(C(=O)NCC2(C(N)=O)CCCCC2)C1",
+    "qed": 0.8904953250255452,
+    "seed": "Tetrahydropyridine_4AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CN(C)c1ccc(CNC(=O)N2CCC3=C(CCCC(=O)N3)C2)cc1",
+    "qed": 0.8852189515048788,
+    "seed": "Tetrahydropyridine_4AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "O=C(NCc1ccc(OC(F)(F)F)cc1)C1=NN(C2CCCC2)CCC1",
+    "qed": 0.8629418279378357,
+    "seed": "Tetrahydropyridine_4AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "O=C(C1=CCCC1)N1CC2(CCN(Cc3ccccc3)C2)C1",
+    "qed": 0.8561062880219661,
+    "seed": "Tetrahydropyridine_4AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CN(Cc1ccc(N(C)C)cc1)C(=O)C1=NN=CCC1",
+    "qed": 0.8405930767705727,
+    "seed": "Tetrahydropyridine_4AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "COc1ccc2c(c1)CCN(C(=O)C1=CCCCC1)C2",
+    "qed": 0.826991842082563,
+    "seed": "Tetrahydropyridine_4AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "Cc1ccccc1CNC(=O)N1CCC2=C(CCCC2)C1",
+    "qed": 0.8235478566751786,
+    "seed": "Tetrahydropyridine_4AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CN(C)c1ccc(CNC(=O)C2(C(=O)O)CCCC2)cc1",
+    "qed": 0.813959671647856,
+    "seed": "Tetrahydropyridine_4AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "CC(C)(C)OC(=O)N1CCCC12CN(C(=O)NCc1ccc(C(F)(F)F)cc1)C2",
+    "qed": 0.7973211792207244,
+    "seed": "Tetrahydropyridine_4AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "C[C@@H]1c2ccccc2CCN1C(=O)C1=COCCCC1",
+    "qed": 0.7846168951168598,
+    "seed": "Tetrahydropyridine_4AP",
+    "method": "MolMIM-4AP-CNS"
+  },
+  {
+    "smiles": "COC(=O)C12C=CC(C(=O)N(C)Cc3ccc(N(C)C)cc3)(CC1)CC2",
+    "qed": 0.6010980948919334,
+    "seed": "Tetrahydropyridine_4AP",
+    "method": "MolMIM-4AP-CNS"
+  }
+]

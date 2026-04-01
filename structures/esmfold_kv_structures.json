@@ -1,0 +1,17 @@
+[
+  {
+    "target": "KCNA1_Kv1.1",
+    "length": 206,
+    "status": "predicted"
+  },
+  {
+    "target": "KCNA2_Kv1.2",
+    "length": 205,
+    "status": "predicted"
+  },
+  {
+    "target": "KCNA4_Kv1.4",
+    "length": 104,
+    "status": "predicted"
+  }
+]

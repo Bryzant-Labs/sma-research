@@ -1,0 +1,1034 @@
+[
+  {
+    "smiles": "CC1(C)CC(=O)N(C[C@H]2[C@@H](c3ccccc3)[C@@H](C(=O)O)C2(C)C)C1",
+    "qed": 0.9210248671881669,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC1=C(C(=O)OC(C)(C)C)[C@H](C(=O)O)[C@H](c2cccc(Cl)c2)O1",
+    "qed": 0.8500426870914125,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CCOC(=O)C1=C(C)OC(O)=C(C#N)[C@H]1c1cccc(C(F)(F)F)c1",
+    "qed": 0.8325620103756859,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CCOC(=O)c1c(C)n(CCOc2ccccc2)c(=O)[nH]c1=O",
+    "qed": 0.805544651734372,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "NC(=O)COc1ccc(/C=C/CC2(C(=O)O)CC(=O)C2)cc1",
+    "qed": 0.7912105186058884,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC(C)(C)OC(=O)C1=C(C(=O)OC(C)(C)C)[C@H](c2ccccc2)C(C#N)=C(N)O1",
+    "qed": 0.7763313488698356,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(O)C1=C(S(=O)(=O)CCN2C(=O)CCC2=O)C[C@H]1c1ccccc1",
+    "qed": 0.7576227972326548,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "COC(=O)C1=C(C(=O)OC(C)(C)C)/C(=C/C(=O)O)[C@@H](c2ccccc2)O1",
+    "qed": 0.6504780242483454,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CCOC(=O)C1(NC2=C(C(=O)OC)[C@H](c3ccccc3)NC(=O)N2)CC(C)(C)C1",
+    "qed": 0.6309049991434323,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "COC(=O)C1=C(CN2C(=O)CC(C)(C)CC2=O)C(=O)O[C@H]1c1ccccc1",
+    "qed": 0.5933970228019377,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC1(C)COCC2(CO1)CC(NC(=O)/C=C\\c1ccccc1)C2",
+    "qed": 0.8726381818835188,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC1(C)CCC2(CC1)NC(=O)N(C/C=C\\c1ccccc1)C2=O",
+    "qed": 0.8671455493166644,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CN1C(=O)NC(=O)C12CCN(C/C=C\\c1ccccc1)CC2",
+    "qed": 0.8646775990310008,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC1(C)CC(NC(=O)/C=C\\c2ccccc2)CC(C)(C)S1(=O)=O",
+    "qed": 0.8639268661509907,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CN1C(=O)SC2(CCN(C/C=C\\c3ccccc3)CC2)C1=O",
+    "qed": 0.8596215065738668,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "Cc1noc(C2CCC3(CC2)NC(=O)N(C/C=C\\c2ccccc2)C3=O)n1",
+    "qed": 0.8404211059832294,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC1(C)CC(C)(C)CC2(C1)NC(=O)N(C/C=C\\c1ccccc1)C2=O",
+    "qed": 0.837352548398471,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC1(C)/C(=N\\[C@H](CCS(C)(=O)=O)c2ccccc2)NC(=O)C12CCOCC2",
+    "qed": 0.83435267540011,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CCC1(O)CCC2(CC1)C(=O)N(CC/C=C\\c1ccccc1)C(=O)N2C",
+    "qed": 0.8223257131088592,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "COCCN1C(=O)NC2(CCN(C/C=C\\c3ccccc3)CC2)C1=O",
+    "qed": 0.7993657201108834,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "Cc1noc(C)c1CN1C(=O)N(C)C(=O)C12CCN(Cc1ccccc1)CC2",
+    "qed": 0.7607193891585129,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CN1C[C@H](C(=O)NC2(CNC(=O)/C=C\\c3ccccc3)CCC2)CC1=O",
+    "qed": 0.755957683138269,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "C=C1CC(C)(C(=O)N2CCC3(CCN(C/C=C\\c4ccccc4)CC3)C2)C1",
+    "qed": 0.7408049000824628,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC1(C)CC(=O)NC2(CCN(C(=O)/C=C\\C=C\\c3ccco3)CC2)C1",
+    "qed": 0.67789406398758,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(/C=C\\c1ccccc1)N1CCC2(CC1)C(=O)CN(CCO)C2=O",
+    "qed": 0.6457697640180033,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CN1C(=O)N(C)C2(CCC(CO)(NC(=O)/C=C/c3ccccc3)CC2)C1=O",
+    "qed": 0.618120833351421,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC1(C)CC(C)(C(=O)NC/C=C/CNCc2cnon2)C1",
+    "qed": 0.5899204492368316,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CN1CC(C)(C)N(CCS(C)(=O)=O)C(=O)/C(=C/c2cccnc2)C1=O",
+    "qed": 0.5755767946932474,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C1/C(=C/c2ccco2)C2(CCCCC2)C(=O)N1Cc1ccc(-c2ccccc2)nc1",
+    "qed": 0.43397048965857526,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "",
+    "qed": 0.33942358984550913,
+    "seed": "Cytochalasin_D",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC1(C)CC(CCN2CCOC3(CCC(C(=O)O)CC3)CC2)C1",
+    "qed": 0.8594017830008421,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "COC1CCC(CCN2CCC(C)(C(=O)O)CC2)CC1",
+    "qed": 0.8426509298289999,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CN(C)C(=O)COC1CCC2(CC1)CCN(CC1CC(O)C1)CC2",
+    "qed": 0.831633780252073,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(O)C1CCC2(CC1)OCCN(CCC1CCC(O)CC1)C2=O",
+    "qed": 0.815420621617894,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C1CC2(CCN(CCCC3CCC(C(=O)O)CC3)CC2)CN1",
+    "qed": 0.8144323135665705,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CN1C(=O)CCC2(CCN(CCC3CCOCC3)CC2)C1(C)C",
+    "qed": 0.8007777215575006,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC1(C)OC2(CCN(CCCC3CCOCC3)CC2)CC1=O",
+    "qed": 0.8002952380743951,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(O)C1COC2(CCN(C/C=C\\C3CC3)CC2)C1",
+    "qed": 0.7888764715461072,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C1CC2(CCN(CCCC3CCOCC3)CC2)CO1",
+    "qed": 0.7407469382460306,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC(C)(CCCN1CCC2(CC1)CCN(CC1CC(=O)C1)CCO2)C(=O)O",
+    "qed": 0.7314173610955763,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C1CCC(CCC2CCSCC2)(C(=O)O)CC1",
+    "qed": 0.8524388106876607,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C1CCC(CCC2(C(=O)O)CCCCC2)CC1",
+    "qed": 0.8319091168715916,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(O)CC1(CC2CCSCC2)CCCCC1",
+    "qed": 0.8273651612567412,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C1CCC(CCC2CCSCC2)(C(=O)O)CN1",
+    "qed": 0.8191976165438045,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C1CCC(CCC2CCCC2)(C(=O)O)CC1",
+    "qed": 0.8180384698381,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CCC1(C(=O)O)CCC2(CCCCC2)CC(=O)C1",
+    "qed": 0.8171374606299989,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC1CCC(CCC2(CN)CCCCC2)(C(=O)O)CC1",
+    "qed": 0.8014935648012369,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CCC1(C(=O)O)CCC(CC)(C2CCCCC2)CC1",
+    "qed": 0.7755403655846009,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C1CC(CC2(C(=O)O)CCSCC2)CC1=O",
+    "qed": 0.7751384952130448,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC1(C)CC2(CC(COC3CCSCC3)C2)C(=O)O1",
+    "qed": 0.746348894646027,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC1(C)OC(=O)C2(CCCCC2)N(CCCC2COC(=O)C2)C1(C)C",
+    "qed": 0.726256782514154,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CCC1(CC)CC(=O)C2=C(C1)SCCC2",
+    "qed": 0.7064969738372158,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CCC1(CC)CC(=O)N(CCCC2CCCC2)C1=O",
+    "qed": 0.6890153685569275,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CCC1(CCC2CCCCC2)CCC(=O)CC1",
+    "qed": 0.679150343761269,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C1CCC2(CC1)CC(=O)N(CCCCCSC(=O)O)C2=O",
+    "qed": 0.5949547634739794,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CCC1(CO)OC(=O)C(=O)C(CC)(CC)O1",
+    "qed": 0.5705816703185922,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C1COC2(CCSCC2)C(=O)N1",
+    "qed": 0.5571436194610121,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "NC(=O)CCC1(CO)CC(=O)NC(=O)C1",
+    "qed": 0.5032989073992554,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C1CSC(=O)N1",
+    "qed": 0.48427840594124827,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC[C@@H]1CC(=O)NC(=O)[C@H]1C(=O)O",
+    "qed": 0.45907252786973407,
+    "seed": "Latrunculin_A",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "COC(=O)c1c(C)oc(C)c(CC(=O)N2[C@H](C)C[C@@H](C)CC2(C)C)c1=O",
+    "qed": 0.7716886071820824,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "COC(=O)C1=C(C)OC(C)=C(C(=O)CN2CC(C)(C(=O)NC3CC3)C2)C1",
+    "qed": 0.7171068102340159,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC1(C)CCC(C)(CNC(=O)C(=O)N2CCC(C3(C)CCCCC3)CC2)CC1",
+    "qed": 0.6955561462407422,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "C=CCC1(CNC(=O)C2=C(C)N(C[C@H]3CCCO3)C(=O)N[C@H]2C)CCCCC1",
+    "qed": 0.654900631282696,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC1(C)CC(=O)C=C(CC(=O)CC2(C)CCC(C(=O)NCCN3CCOCC3)CC2)C1",
+    "qed": 0.6369337285368406,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC1=C(C(=O)Cn2c(=O)[nH]c(C)c(C(=O)OC(C)(C)C)c2=O)[C@H](C)C(=O)N1CC1CCOCC1",
+    "qed": 0.6183861819738079,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "COC(=O)c1c(C)oc(C)c1CC(=O)C1CCC(CC(=O)N2C[C@@H](C)CC(C)(C)C2)CC1",
+    "qed": 0.5830512473341724,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CCOC(=O)c1c(C)oc(C)c1C(=O)NCC(C)(C)C1CCC(CC(=O)N2CCOCC2)CC1",
+    "qed": 0.5719292246452949,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CCOC(=O)C1=C(C)CC(=O)C=C1C1CCN(CC(C)(C)C2C[C@@H](C)O[C@@H](C)C2)CC1",
+    "qed": 0.5703691532284293,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC(C)(C)OC(=O)N1CC=C(C(C)(C)CNC(=O)C2CCC(C(=O)NCc3ccccc3)CC2)CC1",
+    "qed": 0.528961284315054,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC1=C(c2ccc(Br)cc2)CC(=O)N1c1nc(C)cc(C(N)=O)n1",
+    "qed": 0.8772878175380576,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CCN(C(=O)c1ccc(C(=O)O)cn1)c1cc2c(cc1Br)C(=O)CO2",
+    "qed": 0.8405775056108912,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC1=C(NC(=O)c2ccc(C(=O)O)cn2)CC(=O)N1c1nc2c(s1)CCC2",
+    "qed": 0.8349604691076312,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC1=C(C(=O)NC2(C#N)CCC(C)(C)C2)C[C@H](C)O1",
+    "qed": 0.8318149345525997,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "C[C@@H]1CN(c2nc(C3CC3)nc(C3CC3)c2Br)C[C@@H](C)C1=O",
+    "qed": 0.8214087110871683,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "C=C(C)C(=O)NC1=C(C)N(S(=O)(=O)c2ccc(F)cn2)C(=O)C1(C)C",
+    "qed": 0.8173205682734104,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "C[C@@H]1CC(NC(=O)C2CC(=O)C2)C(C)(C)CN1C(=O)C1(C)CC=CC1",
+    "qed": 0.7984016932315875,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC1=C(C(=O)N2CCC(C)(C(N)=O)CC2)CC(=O)N1C(=O)OC(C)(C)C",
+    "qed": 0.79801396443654,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC1=C(C(=O)NCc2ccc(C(=O)OC(C)(C)C)cn2)C(C)(C)C(=O)N1C(C)(C)C",
+    "qed": 0.7593415560430671,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "Cc1nn(-c2ccc(C(=O)O)cn2)c(C)c1N1C(=O)c2ccccc2C1=O",
+    "qed": 0.717324374938406,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CCC1(CC)CCC(CC)(CN2C(=O)C(C)=C(C)C2=O)CC1",
+    "qed": 0.7028082725694226,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC1(NC(=O)C2=CC[C@@H](O)C2)CC(C)(C(=O)O)C1",
+    "qed": 0.6949027992240645,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CCN(CC(C)(C)CN1C(=O)C[C@@H](C)C1=O)C(=O)C1CCC(C(=O)O)CC1",
+    "qed": 0.6829832314496317,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CCn1c(CN2C(=O)CC(C(=O)c3ccc(O)cn3)=C2C)nc2oc3c(c2c1=O)CCC3",
+    "qed": 0.6129487603664161,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CCC(CC)(CC(=O)OC(C)(C)C)NN=C1CC(=O)CCC1(C)C",
+    "qed": 0.5869158970643588,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "C=CCn1ccc(C(=O)NC(CC)(CC)CNC(=O)CCC(=O)C2CCC2)n1",
+    "qed": 0.5384199189852615,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "C=CCC1(C(=O)NCC(CC)(CC)NC(=O)c2ccc(C(=O)O)cc2)CCC1",
+    "qed": 0.5360910937834926,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "COC(=O)C1=C(C)C(=O)N(CC2CC(C)(C)CC(C)(C)C2)C1=O",
+    "qed": 0.4553406112863646,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "C=CCCC(CC)(CC)NCC1(CC)CCC(C#N)(NC(=O)OC(C)(C)C)CC1",
+    "qed": 0.44650668188488934,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CCC1=C(C(=O)O[C@@H]2CC[C@H]2C)C2(CCCC2)C(=O)N(CC(CC)(CC)CC)C1=O",
+    "qed": 0.40312427040283016,
+    "seed": "Jasplakinolide",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "Cc1ccc(C(=O)Nc2ccc(N3CCCC3=O)cc2)cc1C",
+    "qed": 0.9399787966006984,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "COc1ccc(C(=O)Nc2ccc(N3CCCC3=O)cc2)cc1C",
+    "qed": 0.9377148739132782,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "Cc1ccc(Cc2ccc(N3CCCC3=O)cc2)cc1O",
+    "qed": 0.9361639880261742,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC(C)(C(=O)Nc1ccc(N2CCCC2=O)cc1)c1ccccc1",
+    "qed": 0.9322140800155317,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC(C)(C(=O)Nc1cccc(N2CCCC2=O)c1)c1ccc(O)cc1",
+    "qed": 0.8971069210963297,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "Cc1cc(C(=O)Nc2ccc(N3CCCC3=O)cc2)ccc1C(=O)O",
+    "qed": 0.8967908407939589,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "Cc1ccc(C(=O)Nc2ccc(N3CCCC3=O)cc2)cc1C(=O)O",
+    "qed": 0.8967908407939589,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "Cc1cc(N2CCCC2=O)ccc1Nc1ccc(C)c(C(=O)O)c1",
+    "qed": 0.8954477135348441,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C1CCCN1c1ccc(NC(=O)C2(c3ccccc3)CC(O)C2)cc1",
+    "qed": 0.8907811544688503,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "COC(=O)c1cc(Nc2ccc(N3CCCC3=O)cc2)ccc1C",
+    "qed": 0.8722198866926544,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C1C[C@H](Nc2ccc(N3CCCC3=O)cc2)c2ccccc21",
+    "qed": 0.9431019121089568,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(Nc1ccc(N2CCCC2=O)cc1)C1=Cc2ccccc2OC1",
+    "qed": 0.9374128527886274,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(Nc1cccc(N2CCCC2=O)c1)C1=Cc2ccccc2OC1",
+    "qed": 0.9374128527886274,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C1C[C@H](C(=O)Nc2cccc(N3CCCC3)c2)Cc2ccccc21",
+    "qed": 0.9315635162620527,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC1=C(C(=O)Nc2cccc(N3CCCC3=O)c2)CCO1",
+    "qed": 0.9281589852392639,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(Nc1cccc(N2CCCC2=O)c1)C1=Cc2ccccc2C(=O)C1",
+    "qed": 0.9259022372813609,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC1=C(C(=O)Nc2ccc(N3CCCC3)cc2)CCO1",
+    "qed": 0.9195391480910153,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CN1C(=O)CC(C(=O)Nc2cccc(N3CCCC3=O)c2)=C1c1ccccc1",
+    "qed": 0.8930496087775308,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C1C(O)=C(c2ccccc2)C(=O)N1c1cccc(N2CCCC2)c1",
+    "qed": 0.8762537072651512,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C1CC(C(=O)Nc2cccc(N3CCCC3=O)c2)(c2ccc(Cl)cc2)C1",
+    "qed": 0.8761406118270839,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C1OCC(c2ccccc2)=C1Nc1cccc(N2CCCC2=O)c1",
+    "qed": 0.8725717813871183,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C1OCC(c2ccccc2)=C1Nc1cccc(N2CCCCC2=O)c1",
+    "qed": 0.8581857991907973,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "C[C@@]1(C(=O)Nc2ccc(N3CCCC3=O)cc2)Cc2ccccc2C(=O)O1",
+    "qed": 0.8499435613490943,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C1CCCN1C1CCN(c2nc(C3=Cc4ccccc4OC3)no2)CC1",
+    "qed": 0.8314797640052956,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C1NCCC[C@@H]1NC1CN(C(=O)Cc2ccco2)C1",
+    "qed": 0.8058265841991228,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C1Cc2ccccc2C(=O)N1c1cccc(N2CCCC2)c1",
+    "qed": 0.8008623151607737,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=c1oc2ccccc2cc1Nc1ccc(N2CCCCC2)cc1",
+    "qed": 0.720376185937427,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(Cc1ccc(N2C(=O)CC2=O)cc1)Nc1ccc(N2CCCC2)cc1",
+    "qed": 0.6550516366781244,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(Nc1cccc(C2(NC(=O)c3cc(=O)cc[nH]3)CCC2)c1)c1ccc2c(c1)CCC2=O",
+    "qed": 0.5625046725642964,
+    "seed": "Blebbistatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(Nc1cccc(C2CC2)n1)c1ccc(Cl)cn1",
+    "qed": 0.9337809620406844,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(Nc1ccc(Cl)c(-c2ccccn2)n1)N1CCCC1",
+    "qed": 0.9243952913801037,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(Nc1ccc(N2CCCC2)cc1)c1ccc(Cl)cc1",
+    "qed": 0.9214507025724068,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(Nc1cccc(-c2cccnc2)n1)c1ccc(Cl)cn1",
+    "qed": 0.8043016418638494,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(Nc1cccc(-c2ncccn2)c1)c1ccc(Cl)cn1",
+    "qed": 0.8043016418638494,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(Cc1ccc(Cl)cn1)Nc1cccc(-c2ncccn2)c1",
+    "qed": 0.7985815880232924,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(Nc1cccc(-c2ncccn2)c1)c1ccc(Cl)cc1",
+    "qed": 0.7938075332869645,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(Nc1ccc(Cl)cc1)c1cccc(-c2ncccn2)c1",
+    "qed": 0.7938075332869644,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(Nc1nc(-c2cccnc2)cs1)c1ccc(Cl)cc1",
+    "qed": 0.7909737450982978,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(Cc1ccc(Cl)cc1)Nc1cccc(-c2ncccn2)c1",
+    "qed": 0.7898207435764645,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CN(Cc1ccncc1)C(=O)NCc1ccc(Cl)cc1",
+    "qed": 0.9399896728352292,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "C[C@@H](Nc1ccc(Cl)cc1)C(=O)N(C)Cc1cccnc1",
+    "qed": 0.9223937691718341,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CN(Cc1ccc(Cl)nc1)C(=O)Nc1ccc(Br)cc1",
+    "qed": 0.8411904128825016,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(Nc1ccc(Cl)cc1)c1ccc(-c2ncccn2)cc1",
+    "qed": 0.7938075332869644,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(Nc1ccc(Cl)cn1)c1ccc(-c2ccccn2)cc1",
+    "qed": 0.7938075332869644,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(Nc1ccc(Cl)cc1)c1ccc(-c2cccnc2)cc1",
+    "qed": 0.7646595160738371,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(NCc1ccc(Cl)cn1)Nc1ccc(-c2ncccn2)cc1",
+    "qed": 0.7618670884068879,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC(C)Oc1ccc(NC(=O)c2ccc(-c3ccccn3)cc2)cn1",
+    "qed": 0.7604575670856859,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(NCc1ccncc1)Nc1ccc(Oc2ccccc2)nc1",
+    "qed": 0.7530074137687901,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(Nc1ccc(Cl)nc1)c1ccc(-c2ncccn2)cc1",
+    "qed": 0.7523923037142976,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CN(C(=O)c1cccc(-n2cccn2)c1)c1ccc(Cl)cc1",
+    "qed": 0.7375877750851803,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CN(CC(=O)Nc1ccc(Cl)cc1)C(=O)c1ccc(-c2ncccn2)cc1",
+    "qed": 0.734553767818645,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CN(Cc1ccc(Cl)cc1)C(=O)c1ccc(-n2cccn2)cc1",
+    "qed": 0.7315045194570476,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CN(C(=O)c1ccc(-c2ncccn2)cc1)c1ccc(Cl)cc1",
+    "qed": 0.7294730197504912,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "Cc1ccc(Oc2ccc(-c3cnccn3)cc2)cc1",
+    "qed": 0.7076081126202995,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CN(Cc1ccc(Cl)cc1)C(=O)c1ccc(-c2ccncc2)cc1",
+    "qed": 0.6930476323484698,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CNc1ccc(NC(=O)c2ccc(Nc3ccccn3)cc2)cn1",
+    "qed": 0.6704530672543313,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CN(Cc1ccc(Cl)cc1)C(=O)Nc1ccc(CNc2ncccn2)cc1",
+    "qed": 0.6632636909167942,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "C[C@H](CNC(=O)Nc1ccc(-c2ncccn2)cc1)Nc1ccccc1",
+    "qed": 0.6341672881842926,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "Cc1ccc(OC(=O)c2ccc(-c3ncccn3)cc2)cc1",
+    "qed": 0.5452750869794531,
+    "seed": "Rho_Activator",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(Nc1ccc(C(=O)N2CCCCCC2)cc1)C1CC1",
+    "qed": 0.9281010746137098,
+    "seed": "Wiskostatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CNC(=O)c1ccc(OC)c(N=C2CCCCC2)c1",
+    "qed": 0.9075277276044403,
+    "seed": "Wiskostatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CNC(=O)c1cccc(NC(=O)c2ccn(C3CCCCC3)n2)c1",
+    "qed": 0.9066165538185185,
+    "seed": "Wiskostatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "NC1(c2ccc(C(=O)Nc3cccc(N4CCCCC4)c3)cc2)CCC1",
+    "qed": 0.8666125788707921,
+    "seed": "Wiskostatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "C[C@H]1C[C@H]1C(=O)Nc1cccc(NC(=O)c2cn(C3CCCCC3)nn2)c1",
+    "qed": 0.8444250929507559,
+    "seed": "Wiskostatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(NC1CCCCCC1)c1ccc(NC(=O)C2CC2)cc1",
+    "qed": 0.8362828606965839,
+    "seed": "Wiskostatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "COC(=O)c1cccc(NC(=O)c2ccc(OC3CCCCC3)cc2)c1",
+    "qed": 0.807407350596876,
+    "seed": "Wiskostatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC(=O)Nc1ccc(NC(=O)c2n[nH]c(C3CCCCC3)n2)cc1",
+    "qed": 0.8031973718301127,
+    "seed": "Wiskostatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "C/C(=C\\C(=O)Nc1ccc(C(=O)NC2CCCCC2)cc1)C1CC1",
+    "qed": 0.8022304281623359,
+    "seed": "Wiskostatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(NC1CCCCC1)c1ccc(NC(=O)c2n[nH]c(C3CC3)n2)cc1",
+    "qed": 0.769137251683614,
+    "seed": "Wiskostatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC(=O)N1CC(NC(=O)c2ccc(OC3CCCCC3)cc2)C1",
+    "qed": 0.927483295397695,
+    "seed": "Wiskostatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC(=O)N1CC(NC(=O)c2ccc(OC3CCCC3)cc2)C1",
+    "qed": 0.9248306547596732,
+    "seed": "Wiskostatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC(=O)N1CC(NC(=O)c2cccc(OC3CCCC3)c2)C1",
+    "qed": 0.9248306547596732,
+    "seed": "Wiskostatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "COC(=O)N1CC(NC(=O)c2ccc(OC3CCCC3)cc2)C1",
+    "qed": 0.923832640329322,
+    "seed": "Wiskostatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC(=O)N1C[C@H]2C(NC(=O)c3ccc(OC4CCCC4)cc3)[C@@H]2C1",
+    "qed": 0.9218143552941883,
+    "seed": "Wiskostatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC(=O)N1C[C@H]2C(NC(=O)c3cccc(OC4CCCC4)c3)[C@@H]2C1",
+    "qed": 0.9218143552941883,
+    "seed": "Wiskostatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(NC1CN(C(=O)C2CC2)C1)c1ccc(OC2CCCCC2)cc1",
+    "qed": 0.8950225117364891,
+    "seed": "Wiskostatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "O=C(NC1CN(C(=O)c2ccc[nH]2)C1)c1ccc(OC2CCCC2)cc1",
+    "qed": 0.8675847543747481,
+    "seed": "Wiskostatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC(C)NC(=O)N1CC(NC(=O)c2ccc(OC3CCCC3)cc2)C1",
+    "qed": 0.861441338196756,
+    "seed": "Wiskostatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC(=O)N1CC(N(C)C(=O)c2ccc(OC3CCCC3)cc2)C1",
+    "qed": 0.8563209226736805,
+    "seed": "Wiskostatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CC(=O)N1CC(N(C)C(=O)c2ccc(-n3ccnc3)cc2)C1",
+    "qed": 0.8545974965004698,
+    "seed": "Wiskostatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "CN(C)C(=O)Nc1cccc(NC(=O)c2ccc(OC3CCCC3)cc2)c1",
+    "qed": 0.8250685362066241,
+    "seed": "Wiskostatin",
+    "method": "MolMIM-Actin-Pass5"
+  },
+  {
+    "smiles": "NC(=O)C(=O)N1CC(NC(=O)c2ccc(OC3CCCC3)cc2)C1",
+    "qed": 0.7813534451847676,
+    "seed": "Wiskostatin",
+    "method": "MolMIM-Actin-Pass5"
+  }
+]

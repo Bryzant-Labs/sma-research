@@ -1,0 +1,408 @@
+[
+  {
+    "smiles": "CS(C)(=O)=Nc1ccc(NCc2ccc(F)cc2)cc1",
+    "qed": 0.9309993732442022,
+    "seed": "Retigabine_Kv7",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "CC(=O)Nc1ccc(NC(=O)Cc2ccc(F)cc2)cc1F",
+    "qed": 0.9115879839161887,
+    "seed": "Retigabine_Kv7",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "O=C1COc2ccc(CNCc3ccc(F)cc3)cc2N1",
+    "qed": 0.9073953432920144,
+    "seed": "Retigabine_Kv7",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "O=C(Cc1ccc(F)cc1)Nc1ccc(F)c(F)c1",
+    "qed": 0.9061307948652352,
+    "seed": "Retigabine_Kv7",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "COC(=O)Nc1ccc(NCCc2ccc(F)cc2)cc1F",
+    "qed": 0.8831839508497642,
+    "seed": "Retigabine_Kv7",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "O=C(O)c1ccc(NCCc2ccc(F)cc2)cc1F",
+    "qed": 0.8810734045441854,
+    "seed": "Retigabine_Kv7",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "COC(=O)c1ccc(NCc2ccc(F)cc2)cc1F",
+    "qed": 0.8707743537086625,
+    "seed": "Retigabine_Kv7",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "COC(=O)c1ccc(CNCc2ccc(F)cc2)s1",
+    "qed": 0.8551497301324031,
+    "seed": "Retigabine_Kv7",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "COc1c(N)cc(CNC(=O)c2ccc(F)cc2)cc1Br",
+    "qed": 0.8305817526995909,
+    "seed": "Retigabine_Kv7",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "Oc1ccc(CNc2cc(F)c(Br)c(F)c2)cc1F",
+    "qed": 0.8265952637206507,
+    "seed": "Retigabine_Kv7",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "NC(=O)Nc1ccc(NCc2ccc(F)c(F)c2)cc1F",
+    "qed": 0.8104924370815363,
+    "seed": "Retigabine_Kv7",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "NC(=O)c1ccc(NCc2ccc(F)c(O)c2)cc1F",
+    "qed": 0.803384684951944,
+    "seed": "Retigabine_Kv7",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "NC(=O)Nc1ccc(NCCc2ccc(F)cc2)cc1F",
+    "qed": 0.7920494617831297,
+    "seed": "Retigabine_Kv7",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "NC(=O)C(=O)Nc1ccc(CNC(=O)Cc2ccc(F)cc2)cc1",
+    "qed": 0.7161908538377966,
+    "seed": "Retigabine_Kv7",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "CCn1c(=S)[nH]c2ccc(NC(=O)Cc3ccc(F)cc3)cc2c1=O",
+    "qed": 0.703479200032805,
+    "seed": "Retigabine_Kv7",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "C[C@@H]1CC[C@@](C)(COc2ccc3nc(N)sc3c2)O1",
+    "qed": 0.9362526328807593,
+    "seed": "Riluzole",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "Nc1ccc(Oc2ccc(OC(F)(F)F)cc2)cn1",
+    "qed": 0.9286745126876563,
+    "seed": "Riluzole",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "Nc1nc2ccc(OCC(F)(F)F)cc2s1",
+    "qed": 0.888512059567406,
+    "seed": "Riluzole",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "Nc1nc2c(F)cc(OCC(F)(F)F)cc2s1",
+    "qed": 0.8499901538692676,
+    "seed": "Riluzole",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "Nc1cc(OCC(F)(F)F)cc2scnc12",
+    "qed": 0.8311678114030503,
+    "seed": "Riluzole",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "CC(C)OCCOc1ccc2nc(N)sc2c1",
+    "qed": 0.8311447215367448,
+    "seed": "Riluzole",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "Nc1nc2ccc(OC(F)(F)F)cc2s1",
+    "qed": 0.8248286060077297,
+    "seed": "Riluzole",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "FC(F)(F)COc1ccc2nccnc2c1",
+    "qed": 0.7918571853375396,
+    "seed": "Riluzole",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "FC(F)(F)Oc1ccc(Nc2ccc3ncsc3c2)cc1",
+    "qed": 0.743863019015487,
+    "seed": "Riluzole",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "NS(=O)(=O)CC1(C(=O)OCc2ccccc2)CCCC1",
+    "qed": 0.835916338485144,
+    "seed": "Gabapentin",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "CC(C)(F)C(=O)NCC1(CC(=O)O)CCCC1",
+    "qed": 0.7768760452854662,
+    "seed": "Gabapentin",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "O=C(O)CC1(CNC(=O)C(F)F)CCCC1",
+    "qed": 0.7565789014419639,
+    "seed": "Gabapentin",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "CC(C)(CC(=O)NCC1CCCCCC1)C(=O)O",
+    "qed": 0.7419400990134483,
+    "seed": "Gabapentin",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "O=C(O)CC1(CNC(=O)CCCF)CCCCC1",
+    "qed": 0.7367663081795012,
+    "seed": "Gabapentin",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "CCCN(CC(=O)O)CC1CCCCC1",
+    "qed": 0.7360469591314306,
+    "seed": "Gabapentin",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "NS(=O)(=O)CC1(C(=O)O)CCCCC1",
+    "qed": 0.7162234886757773,
+    "seed": "Gabapentin",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "CC(C)(C)C(=O)C1(C(=O)O)CCCCC1",
+    "qed": 0.7157624158536858,
+    "seed": "Gabapentin",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "CC(=O)NCC1(CC(=O)O)CCCC1",
+    "qed": 0.7135499055016278,
+    "seed": "Gabapentin",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "CCNCC1(CC(=O)O)CCCCC1",
+    "qed": 0.7118802557110622,
+    "seed": "Gabapentin",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "NCC1(CC(=O)O)CCCCC1",
+    "qed": 0.6737273296978754,
+    "seed": "Gabapentin",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "O=C(O)CC1(CNCCF)CCCCC1",
+    "qed": 0.6686805527835393,
+    "seed": "Gabapentin",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "O=C(O)C1(C(=O)c2ccc(F)cc2)CCCC1",
+    "qed": 0.6480085763686632,
+    "seed": "Gabapentin",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "O=C(O)CC1(CNS(=O)(=O)CC(=O)O)CCCC1",
+    "qed": 0.6040738741253125,
+    "seed": "Gabapentin",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "CC(C)(C)CN(CC(=O)O)CC(F)(F)F",
+    "qed": 0.7979291658906096,
+    "seed": "Pregabalin",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "CC(C)N(CC(=O)O)CC(F)(F)F",
+    "qed": 0.7423633351956811,
+    "seed": "Pregabalin",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "CC(C)[C@@H]1[C@H]2CC[C@@H](C2)[C@H]1NC(=O)CC(=O)O",
+    "qed": 0.7329727785630472,
+    "seed": "Pregabalin",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "CC(C)C(=O)N(CC(=O)O)C(C)C",
+    "qed": 0.7128914908011837,
+    "seed": "Pregabalin",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "CC(C)C(C(=O)O)C(F)(F)F",
+    "qed": 0.6867394874131201,
+    "seed": "Pregabalin",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "CC(C)CN(CC(=O)O)C(C)C",
+    "qed": 0.6835230056963714,
+    "seed": "Pregabalin",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "CC(C)N(CC(=O)O)C(C)C",
+    "qed": 0.6694863557522291,
+    "seed": "Pregabalin",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "CCC(CC)(CC)C(=O)N(CC(C)C)CC(C)C",
+    "qed": 0.6314372740084818,
+    "seed": "Pregabalin",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "O=C(O)CC1(Cc2ccc(Cl)cc2)CCOCC1",
+    "qed": 0.9124320009990724,
+    "seed": "Baclofen",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "O=C(O)CCC1(c2ccc(Cl)cc2)CCOCC1",
+    "qed": 0.9117524014904875,
+    "seed": "Baclofen",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "O=C(O)CC1(c2ccc(Cl)cc2)CCOCC1",
+    "qed": 0.9022824128292445,
+    "seed": "Baclofen",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "O=C(O)CCC1(c2ccc(Cl)cc2)COC1",
+    "qed": 0.8795935017222036,
+    "seed": "Baclofen",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "O=C(O)C1(c2ccc(Cl)cc2)CCOCC1",
+    "qed": 0.8639751456106133,
+    "seed": "Baclofen",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "O=C(O)Cc1cc(Cl)ccc1C(F)(F)F",
+    "qed": 0.8600441212047562,
+    "seed": "Baclofen",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "CC(C)(CCC(=O)O)c1ccc(Cl)cc1",
+    "qed": 0.8536100366684187,
+    "seed": "Baclofen",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "O=C(O)CCC1(c2ccc(Cl)cc2)CC1",
+    "qed": 0.8527223555174762,
+    "seed": "Baclofen",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "O=C(O)CCc1cc(Cl)ccc1C(=O)O",
+    "qed": 0.82723820745728,
+    "seed": "Baclofen",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "O=C(O)CCC(CC(=O)O)c1ccc(Cl)cc1",
+    "qed": 0.8206758987948444,
+    "seed": "Baclofen",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "Cc1cc(Cl)ccc1CCC(=O)O",
+    "qed": 0.8110271692216802,
+    "seed": "Baclofen",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  },
+  {
+    "smiles": "Cc1ccc(Cl)cc1C(C(=O)O)C(=O)O",
+    "qed": 0.7752268196379376,
+    "seed": "Baclofen",
+    "target": "proprioception",
+    "method": "MolMIM-Proprio"
+  }
+]

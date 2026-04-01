@@ -1,0 +1,27 @@
+[
+  {
+    "target": "PERP",
+    "length": 165,
+    "status": "predicted"
+  },
+  {
+    "target": "MSTN_GDF8",
+    "length": 258,
+    "status": "predicted"
+  },
+  {
+    "target": "AGRN_NMJ",
+    "length": 167,
+    "status": "predicted"
+  },
+  {
+    "target": "SARM1",
+    "length": 127,
+    "status": "predicted"
+  },
+  {
+    "target": "RIPK1_necro",
+    "length": 194,
+    "status": "predicted"
+  }
+]

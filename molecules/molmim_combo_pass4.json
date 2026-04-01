@@ -1,0 +1,692 @@
+[
+  {
+    "smiles": "CC(C)(C)C(=O)N1CCC[C@H](NC(=O)c2cnc3c(cnn3C3CCCC3)c2)C1",
+    "qed": 0.8616001212308909,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)(C)C(=O)N1CCC[C@H](NC(=O)c2ccc(-c3nc4n(n3)CCCC4)cc2)C1",
+    "qed": 0.8449536641247303,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)(C)C(=O)N1CCC[C@@H](NC(=O)c2ccc3nc(CC4CCCC4)nn3c2)C1",
+    "qed": 0.8376909763665056,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)(C)C(=O)N1CCC[C@H](NC(=O)c2ccc(-c3nnc4n3CCCCC4)cc2)C1",
+    "qed": 0.8201208337400735,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)(C)C(=O)N1CC[C@H](NC(=O)Nc2ccc3c(c2)nc2n3CCCCC2)C1",
+    "qed": 0.8135694602255296,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)(C)C(=O)N1CC[C@H](NC(=O)c2ccc3nc4c(n3c2)CCCCC4)C1",
+    "qed": 0.8122546048438224,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "C[C@@H]1CN(C(=O)NC(C)(C)C)C[C@H]1NC(=O)c1cnc2c(cnn2CC2CCCC2)c1",
+    "qed": 0.7854024341525193,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)(C)C(=O)N1CC[C@@H](NC(=O)c2ccc(NC(=O)CN3CCCCC3)cc2)C1",
+    "qed": 0.775642286764972,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)(C)C(=O)N1CC[C@@H](NC(=O)c2ccc(CCc3cc4c([nH]3)CCCC4)cc2)C1",
+    "qed": 0.764758131386684,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)(C)NC(=O)N1CC[C@H](NC(=O)c2ccc3[nH]c4c(c3c2)CCCC4)C1",
+    "qed": 0.7447755208588882,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CN1C(=O)Cc2cc(C(=O)Nc3ccc(C(=O)N4CCN(C(=O)C(C)(C)C)CC4)cc3)ccc21",
+    "qed": 0.7596428291473405,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)(C)C(=O)N1CCC(NC(=O)NC2CCN(C(=O)C3CCCC3)CC2)CC1",
+    "qed": 0.7555261922739905,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)(C)C(=O)N1CCC(NC(=O)c2ccc(OCC3CC3)c(-c3nn[nH]n3)c2)CC1",
+    "qed": 0.7334483261503764,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC1CCN(Cc2ccc(C(=O)NCCNC(=O)C3CC(=O)C3)cc2)CC1",
+    "qed": 0.7159369377799086,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC1CCC(C(=O)N2CCC(NC(=O)c3ccc(CN4C(=O)CCC4=O)cc3)CC2)CC1",
+    "qed": 0.7150145425773435,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)(C)C(=O)N1CCC(N2CCC(NC(=O)c3cc(Cl)cc(-c4nn[nH]n4)c3)CC2)CC1",
+    "qed": 0.7065912001630443,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)(C)C(=O)N1CCC(NC(=O)c2ccc(-c3n[nH]c(=O)n3CC3CCOCC3)cc2)CC1",
+    "qed": 0.6990863157958256,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)(C)C(=O)N1CCN(C(=O)c2ccc(NC(=O)C3CCN(C(=O)C(F)(F)F)CC3)cc2)CC1",
+    "qed": 0.6970741033949316,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC1CCN(Cc2ccc(C(=O)NC3CCN(C(=O)CN4CC(C)(C)CC4=O)CC3)cc2)CC1",
+    "qed": 0.6968811494622293,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "O=C1CC(C(=O)N2CCC(N3CCC(NC(=O)c4ccc(-c5nn[nH]n5)cc4)CC3)CC2)C1",
+    "qed": 0.6957182308041996,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)(C)C(=O)N1CCC(NC(=O)c2ccc(-n3cccc3)c(-c3nn[nH]n3)c2)CC1",
+    "qed": 0.6724932780098282,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)C(=O)N1CCC(NC(=O)c2ccc(NC(=O)C3CCN(C(=O)C4CC4)CC3)cc2)CC1",
+    "qed": 0.6705633625333481,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "Cc1cc(C(=O)NC2CCN(C(=O)C3CCN(C(=O)OC(C)(C)C)CC3)CC2)cc(-c2nn[nH]n2)c1",
+    "qed": 0.663014827595198,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)(C)C(=O)N1CCC(N2CCC(NC(=O)c3ccc(CN4C(=O)CCC4=O)cc3)CC2)CC1",
+    "qed": 0.6518168536633048,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)CC(=O)N1CCC(C(=O)Nc2ccc(C(=O)N3CCC(C(=O)OC(C)(C)C)CC3)cc2)CC1",
+    "qed": 0.5946553685379486,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "COC(=O)c1ccc(N2CCC(NC(=O)c3ccc(-n4ccc(C(F)(F)F)n4)cc3)CC2)cc1",
+    "qed": 0.5667664341157348,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)(C)c1ccc(C(=O)N2CCC(NC(=O)c3ccc(-c4n[nH]c(C5CC5)n4)cc3)CC2)cc1",
+    "qed": 0.5652181471806795,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)(C)OC(=O)C1CCC(NC(=O)c2ccc(NC(=O)C3CCC3)c(-c3nn[nH]n3)c2)CC1",
+    "qed": 0.5531345111450711,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "O=C(NC1CCN(C(=O)C2CCCC2)CC1)c1ccc(CN2C(=O)C3(CCCC3)C2=O)cc1",
+    "qed": 0.550748397184229,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)(C)C1CCN(C(=O)c2ccc(NCc3ccc(-n4ncnc4C(F)(F)F)cc3)cc2)CC1",
+    "qed": 0.49647146219989907,
+    "seed": "Ivo_Olaparib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(=O)Nc1cccc(-n2ccc3c2CCCNC3=O)c1",
+    "qed": 0.8863680955773924,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "COCCN=c1ccc(Cl)cn1-c1cccc(NC(=O)C(C)C)c1",
+    "qed": 0.8152215063793954,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(=O)Nc1cccc(-n2c(C(N)=O)nc3ccccc32)c1",
+    "qed": 0.7745835842392604,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(=O)Nc1cccc(-n2c(=O)n(CCN)c3cc(Cl)ccc32)c1",
+    "qed": 0.7618864315533739,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(=O)NCc1nc2ccc(Cl)cc2n1-c1cccc(NC(C)=O)c1",
+    "qed": 0.752849605983547,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CNC(=O)Cn1c(=O)n(-c2cccc(NC(C)=O)c2)c2ccc(Cl)cc21",
+    "qed": 0.7354798348123365,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(=O)Nc1ccc2ncn(-c3c(F)cc(Cl)cc3C(N)=O)c(=O)c2c1",
+    "qed": 0.732526820714348,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(=O)Nc1c(Cl)cccc1-n1ncc(C=O)c1-c1ccccc1F",
+    "qed": 0.7147603064918078,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CCCNC(=O)c1cc2ccc(Cl)cc2n1-c1cccc(NC(C)=O)c1",
+    "qed": 0.7004903532379573,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(=O)Nc1cccc(-n2cncc2/C=C\\C(=O)Nc2ccccc2F)c1",
+    "qed": 0.6790962558200624,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(=O)Nc1cccc(-c2cn(C3=CCOCC3)c(=O)n2C)c1",
+    "qed": 0.9432218264563161,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CCN=c1ccc(F)nn1-c1cccc(NC(C)=O)c1",
+    "qed": 0.9287880263174685,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(=O)Nc1cccc(-n2nc(N3CCOCC3)ccc2=O)c1",
+    "qed": 0.9154345875401755,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(=O)Nc1ccc(F)c(-n2nc(CN3CCOCC3)ccc2=O)c1",
+    "qed": 0.8991050103036168,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(=O)Nc1ccc(F)c(-n2cc(CNC3CC3)ccc2=O)c1",
+    "qed": 0.8888388857017007,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(=O)Nc1cccc(-n2c(CNC3CC3)cn(C)c2=O)c1",
+    "qed": 0.8765164442311769,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(=O)NCc1ccc(=O)n(-c2cccc(NC(C)=O)c2)n1",
+    "qed": 0.8742206969509863,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(=O)Nc1ccc2c(c1)n(C)c(=O)n2C1CCNCC1",
+    "qed": 0.8729251478402557,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CCN=c1ccnc(F)n1-c1cccc(NC(C)=O)c1",
+    "qed": 0.8688443817718197,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(=O)Nc1ccc(NC(=O)Cn2ccc(C=O)n2)cc1F",
+    "qed": 0.8172300460656716,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "Cn1c(NC(=O)c2cncc(F)c2)c(-c2ccc(F)cc2)oc1=O",
+    "qed": 0.800084801967237,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(=O)Nc1cccc(-c2nc(Cn3ccccc3=O)no2)c1",
+    "qed": 0.7946346403809431,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(=O)Nc1cccc(-n2c(=O)cc(F)c3cnccc32)c1",
+    "qed": 0.7900763174371489,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(=O)Nc1ccc(F)c(-c2cc(=O)n3ccc(Cl)cc3n2)c1",
+    "qed": 0.784442196921984,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(=O)Nc1cccc(-n2c(C=O)nc3cc(F)ccc32)c1",
+    "qed": 0.7559405773974522,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(=O)N=c1ccn(CN2CCCCC2=O)n1C",
+    "qed": 0.7548144186104687,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(=O)NCc1ccc(-n2cnc3ccc(CNC(C)=O)cc32)cc1",
+    "qed": 0.7504994685459215,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(=O)Nc1ccc(Cl)c(-n2c(C=O)cc3cc(F)cnc32)c1",
+    "qed": 0.7458932491027466,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "COC(=O)CNC(=O)c1cc2ccc(F)cc2n1-c1cc(NC(C)=O)ccc1Cl",
+    "qed": 0.6232982647150179,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "",
+    "qed": 0.33942358984550913,
+    "seed": "Ivo_Trametinib",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "NS(=O)(=O)c1cccc(-c2cccc3c2NC(=O)C3)c1",
+    "qed": 0.8771092081122219,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CCn1c(-c2cccc(S(N)(=O)=O)c2)nc2ccccc21",
+    "qed": 0.8063857110680503,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CCn1c(=O)ccc2c(-c3cccc(S(N)(=O)=O)c3)cccc21",
+    "qed": 0.8008840051680628,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CCn1c(=O)cc(-c2ccccc2S(N)(=O)=O)c2ccccc21",
+    "qed": 0.8008840051680628,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CCCn1c(=O)cc(-c2cccc(S(N)(=O)=O)c2)c2ccccc21",
+    "qed": 0.7912381827652053,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC[C@@H](C)n1ccc2c(-c3cccc(S(N)(=O)=O)c3)cccc21",
+    "qed": 0.7884432011976044,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "Cn1ccc2cccc(-c3cccc(S(N)(=O)=O)c3)c21",
+    "qed": 0.7862640970843571,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "NS(=O)(=O)c1cccc(-c2cccc3cccnc23)c1",
+    "qed": 0.7856043851199483,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "Cn1c(=O)n(C)c2c(-c3cccc(S(N)(=O)=O)c3)cccc21",
+    "qed": 0.7699694664287536,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "NS(=O)(=O)c1cccc(-n2c3ccccc3c3ccccc32)c1",
+    "qed": 0.6142585035501269,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "Nc1cc(-c2ccccc2S(=O)(=O)C(F)F)ccn1",
+    "qed": 0.9384161174978325,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "Nc1cc(C(=O)N2C[C@@H]3CC[C@]3(NC(=O)[C@@H]3CC3(F)F)C2)ccn1",
+    "qed": 0.8631743701455652,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "Nc1cc(-c2ccccc2S(=O)(=O)c2ccccc2)ccn1",
+    "qed": 0.8061849440189237,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "Nc1ccc(-c2ccccc2S(=O)(=O)c2ccccc2)cn1",
+    "qed": 0.8061849440189237,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "N#Cc1cccc(-c2nccn2CC2=CCCCC2)c1",
+    "qed": 0.7874197925596209,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "NS(=O)(=O)c1ccccc1-c1cccc2ccccc12",
+    "qed": 0.7850063118538536,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CS(C)(=O)=NC(=O)c1ccccc1NCc1cccc2cccnc12",
+    "qed": 0.7759303059461978,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "Nc1cc(-c2ccc3ccn(C(=O)C(F)(F)F)c3c2)ccn1",
+    "qed": 0.7483654528027298,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "N#Cc1cccc(-c2ccccc2S(=O)(=O)c2ccccc2)n1",
+    "qed": 0.7407794289404215,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "NC(=O)c1cccc(-c2cccc(S(=O)(=O)Nc3ccccc3)c2)c1",
+    "qed": 0.7384707736483006,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "Cc1cccc(S(=O)(=O)C(c2ccccc2)c2ccccc2)n1",
+    "qed": 0.7300840443849479,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CS(=O)(=O)n1ccc2cccc(-c3ccccn3)c21",
+    "qed": 0.7199557769951376,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "O=S(=O)(c1ccccc1)c1cccc2ncccc12",
+    "qed": 0.7179784531525429,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "C[C@@]1(C(=O)N[C@@H]2CCCN(CCCC#N)C2)C=CCC1",
+    "qed": 0.6181069145001711,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "Nc1cc(-c2cn(S(=O)(=O)c3ccccc3)c3ccccc23)ccn1",
+    "qed": 0.613696415355244,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "COc1cccc(S(=O)(=O)n2cc(-c3ccccc3)c3ccccc32)n1",
+    "qed": 0.5500699784654924,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "c1ccc(-c2cccc(-c3cccc4cccnc34)c2)nc1",
+    "qed": 0.5188266954784562,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "O=C(Nc1ccccc1S(=O)(=O)c1ccccc1)c1cccc(-c2ccccn2)c1",
+    "qed": 0.5072797720758652,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CS(=O)(=O)n1ccc2cccc(NC(=O)c3ccnc(-c4cccc(N)c4)c3)c21",
+    "qed": 0.505567956732127,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "Cn1ccc2c(-c3cccc4ncccc34)cccc21",
+    "qed": 0.4947442805490939,
+    "seed": "Fasudil_4AP",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)C(=O)N1CCC(NC(=O)c2cccc3ccncc23)CC1",
+    "qed": 0.9433769550726411,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)C(=O)NC1CCN(C(=O)c2cccc3ccncc23)CC1",
+    "qed": 0.9433769550726411,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)NC(=O)C1CCN(C(=O)c2cccc3ccncc23)CC1",
+    "qed": 0.9433769550726411,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "Cc1cnccc1C(=O)N1CCC(CNC(=O)C(C)C)CC1",
+    "qed": 0.9253158626691323,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)C(=O)NC1CCN(C(=O)c2ccncc2)CC1",
+    "qed": 0.9080672400906329,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(=O)N(C)C1CCC(NC(=O)c2cncnc2-c2ccccc2)CC1",
+    "qed": 0.91783819337196,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)C(=O)N(C)C1CC(NC(=O)c2ncnc3c2CCC3)C1",
+    "qed": 0.9093926118031681,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)C(=O)N1CCC(NC(=O)c2cccnc2)CC1",
+    "qed": 0.908067240090633,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)C(=O)N(C)C1CC(NC(=O)C2(c3cccnc3)CC2)C1",
+    "qed": 0.9021526653479219,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)C(=O)N1CCC(NS(=O)(=O)c2cccnc2)CC1",
+    "qed": 0.8996987352100677,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)C(=O)N1CCC(NC(=O)c2cncnc2)CC1",
+    "qed": 0.8879110679484542,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "Cc1ncc2c(n1)CC[C@@H](NC(=O)N1CCC(N(C)C(=O)C(C)C)CC1)C2",
+    "qed": 0.8781075711222003,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CS(=O)(=O)C1CCN(C(=O)NC2CCc3cnccc3C2)CC1",
+    "qed": 0.8780981344061376,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)C(=O)N1CCC(NC(=O)c2nc(O)nc3c2CCC3)CC1",
+    "qed": 0.8624032803661781,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)=C(C)CN1CCC(NC(=O)c2cncnc2)CC1",
+    "qed": 0.8612984599417982,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "C=C(C)CN1CCC(NC(=O)c2ocnc2-c2ccccc2)CC1",
+    "qed": 0.8582750988224174,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)C(=O)N1CCC(N(C)C(=O)c2cncs2)CC1",
+    "qed": 0.8550711938595177,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)C(=O)N1CCC(N(C)C(=O)C2(c3ccncc3)CC2)CC1",
+    "qed": 0.8509652796426597,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)CC(=O)N1CCC(N2CCC(NC(=O)c3cncnc3)CC2)CC1",
+    "qed": 0.8500305960702299,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "Cc1ncncc1C(=O)N(C)C1CCN(C(=O)C(C)C)CC1",
+    "qed": 0.848632186412084,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(C)C(=O)N1CCC(N(C)C(=O)c2cc(-c3ccncc3)ncn2)CC1",
+    "qed": 0.8280965167168297,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CN(C(=O)C1Cc2cncnc2C1)C1CCN(C(=O)C(C)(F)F)CC1",
+    "qed": 0.8223625490139848,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CN(C(=O)c1cc(-c2cccnc2)nc2c1CCC2)C1CN(C(=O)C(C)(C)C)C1",
+    "qed": 0.8054894519559522,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CN(C(=O)c1ccnnc1)C1CCN(C(=O)C(C)(C)C(N)=O)CC1",
+    "qed": 0.7831024599324742,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  },
+  {
+    "smiles": "CC(=O)N(C)C1CCN(c2nnc(-c3cnccn3)n2CC2(C)CC(C)(C)C2)CC1",
+    "qed": 0.7524162891826724,
+    "seed": "Ivo_BBB",
+    "method": "MolMIM-Combo-Pass4"
+  }
+]

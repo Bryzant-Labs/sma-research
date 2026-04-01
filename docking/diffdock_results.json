@@ -1,0 +1,181 @@
+{
+  "campaign": "DiffDock Local GPU",
+  "gpu": "RTX 3090 24GB",
+  "instance": "vastai-33885184",
+  "started": "2026-03-31T11:17:14.225521",
+  "completed_so_far": 19,
+  "total_planned": 19,
+  "results": [
+    {
+      "target": "IDH1_R132H",
+      "compound": "Ivosidenib",
+      "smiles": "CC(C1=CC=C(C=C1)C2=CC(=NN2C(=O)C3=CC(=CC=C3)F)C(F)(F)F)N4C(=O)C5=CC=CC=C5C4=O",
+      "status": "success",
+      "poses": 11,
+      "best_confidence": -2.16,
+      "runtime_seconds": 265.14
+    },
+    {
+      "target": "IDH1_R132H",
+      "compound": "Vorasidenib",
+      "smiles": "CC(C1=CC=C(C=C1)C2=CC(=NN2C(=O)C(F)(F)Cl)C(F)(F)F)N3C(=O)C4=CC=CC=C4C4=CC=CC=C43",
+      "status": "success",
+      "poses": 11,
+      "best_confidence": -1.73,
+      "runtime_seconds": 218.4
+    },
+    {
+      "target": "IDH1_R132H",
+      "compound": "Olutasidenib",
+      "smiles": "CC1=NC2=CC=CC=C2N1C(=O)C3=CC(=CC=C3Cl)C4=CN(N=N4)CC(F)(F)F",
+      "status": "success",
+      "poses": 11,
+      "best_confidence": -0.77,
+      "runtime_seconds": 183.66
+    },
+    {
+      "target": "IDH1_R132H",
+      "compound": "Riluzole",
+      "smiles": "C1=CC2=C(C=C1OC(F)(F)F)N=C(S2)N",
+      "status": "success",
+      "poses": 11,
+      "best_confidence": -0.24,
+      "runtime_seconds": 132.64
+    },
+    {
+      "target": "IDH1_R132H",
+      "compound": "Aspirin",
+      "smiles": "CC(=O)Oc1ccccc1C(=O)O",
+      "status": "success",
+      "poses": 11,
+      "best_confidence": -0.36,
+      "runtime_seconds": 126.23
+    },
+    {
+      "target": "IDH1_R132H",
+      "compound": "Caffeine",
+      "smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+      "status": "success",
+      "poses": 11,
+      "best_confidence": -0.39,
+      "runtime_seconds": 118.74
+    },
+    {
+      "target": "IDH1_WT",
+      "compound": "Ivosidenib",
+      "smiles": "CC(C1=CC=C(C=C1)C2=CC(=NN2C(=O)C3=CC(=CC=C3)F)C(F)(F)F)N4C(=O)C5=CC=CC=C5C4=O",
+      "status": "success",
+      "poses": 11,
+      "best_confidence": -2.33,
+      "runtime_seconds": 191.49
+    },
+    {
+      "target": "IDH1_WT",
+      "compound": "Vorasidenib",
+      "smiles": "CC(C1=CC=C(C=C1)C2=CC(=NN2C(=O)C(F)(F)Cl)C(F)(F)F)N3C(=O)C4=CC=CC=C4C4=CC=CC=C43",
+      "status": "success",
+      "poses": 11,
+      "best_confidence": -1.47,
+      "runtime_seconds": 164.93
+    },
+    {
+      "target": "IDH1_WT",
+      "compound": "Olutasidenib",
+      "smiles": "CC1=NC2=CC=CC=C2N1C(=O)C3=CC(=CC=C3Cl)C4=CN(N=N4)CC(F)(F)F",
+      "status": "success",
+      "poses": 11,
+      "best_confidence": -1.82,
+      "runtime_seconds": 141.92
+    },
+    {
+      "target": "ROCK2",
+      "compound": "Fasudil",
+      "smiles": "O=S(=O)(C1=CC=C2C(=C1)C=CN2)N3CCCNCC3",
+      "status": "success",
+      "poses": 11,
+      "best_confidence": -0.71,
+      "runtime_seconds": 144.01
+    },
+    {
+      "target": "ROCK2",
+      "compound": "Ripasudil",
+      "smiles": "O=S(=O)(C1=CC=C2C(=C1)C=CN2)N3CCC[C@@H](C3)NCC4=CC=CC=C4F",
+      "status": "success",
+      "poses": 11,
+      "best_confidence": -1.34,
+      "runtime_seconds": 149.93
+    },
+    {
+      "target": "ROCK2",
+      "compound": "Y-27632",
+      "smiles": "CC(N)C1CCC(CC1)C(=O)NC2=CC=NC=C2",
+      "status": "success",
+      "poses": 11,
+      "best_confidence": -1.04,
+      "runtime_seconds": 147.04
+    },
+    {
+      "target": "ROCK2",
+      "compound": "Netarsudil",
+      "smiles": "CC(C)C(=O)N[C@@H]1CCN(C1)C(=O)COC2=CC3=C(C=C2)CC(=O)N3",
+      "status": "success",
+      "poses": 11,
+      "best_confidence": -0.57,
+      "runtime_seconds": 148.96
+    },
+    {
+      "target": "ROCK2",
+      "compound": "Aspirin",
+      "smiles": "CC(=O)Oc1ccccc1C(=O)O",
+      "status": "success",
+      "poses": 11,
+      "best_confidence": -0.94,
+      "runtime_seconds": 119.48
+    },
+    {
+      "target": "ROCK2",
+      "compound": "Caffeine",
+      "smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+      "status": "success",
+      "poses": 11,
+      "best_confidence": -0.69,
+      "runtime_seconds": 111.22
+    },
+    {
+      "target": "ROCK1",
+      "compound": "Fasudil",
+      "smiles": "O=S(=O)(C1=CC=C2C(=C1)C=CN2)N3CCCNCC3",
+      "status": "success",
+      "poses": 11,
+      "best_confidence": -0.06,
+      "runtime_seconds": 109.61
+    },
+    {
+      "target": "ROCK1",
+      "compound": "Ripasudil",
+      "smiles": "O=S(=O)(C1=CC=C2C(=C1)C=CN2)N3CCC[C@@H](C3)NCC4=CC=CC=C4F",
+      "status": "success",
+      "poses": 11,
+      "best_confidence": -0.42,
+      "runtime_seconds": 138.54
+    },
+    {
+      "target": "ROCK1",
+      "compound": "Y-27632",
+      "smiles": "CC(N)C1CCC(CC1)C(=O)NC2=CC=NC=C2",
+      "status": "success",
+      "poses": 11,
+      "best_confidence": -0.4,
+      "runtime_seconds": 176.39
+    },
+    {
+      "target": "ROCK1",
+      "compound": "Netarsudil",
+      "smiles": "CC(C)C(=O)N[C@@H]1CCN(C1)C(=O)COC2=CC3=C(C=C2)CC(=O)N3",
+      "status": "success",
+      "poses": 11,
+      "best_confidence": -0.69,
+      "runtime_seconds": 132.81
+    }
+  ]
+}
