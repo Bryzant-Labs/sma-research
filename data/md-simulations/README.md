@@ -9,7 +9,7 @@
 The full molecular dynamics trajectory files (.dcd, 200MB-10GB each) are too large for GitHub.
 
 **Download trajectories from Dropbox (read-only):**
-→ [Link will be added — Dropbox shared folder with all DCD files]
+→ **[Download from Dropbox (read-only)](https://www.dropbox.com/scl/fo/1ahu8dollwd2dpgu66s7b/AET3U4xKANiWUvEZLnhi7Dk?rlkey=ozheicu5wfya2ae3yxocb172n&dl=0)**
 
 Available trajectories:
 | Target | Atoms | Duration | DCD Size | GPU |
