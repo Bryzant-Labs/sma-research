@@ -1,0 +1,12 @@
+{
+  "target": "ROCK1",
+  "project": "SMA",
+  "pdb_source": "2ESM",
+  "simulation_ns": 10,
+  "tool": "OpenMM 8.2.0",
+  "force_field": "Amber14 + TIP3P",
+  "temperature_K": 300,
+  "timestep_fs": 2,
+  "gpu": "RTX 4090",
+  "date": "2026-04-01"
+}
