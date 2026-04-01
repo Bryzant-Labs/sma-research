@@ -1,0 +1,8 @@
+=== GPU MD Simulation — START 09:56:48 ===
+Downloaded 1L2Y (Trp-cage, 20aa)
+Fixed: 304 atoms
+Solvated: 4826 atoms
+CUDA SIMULATION CREATED — GPU SHOULD BE ACTIVE
+Running 10ns...
+10ns in 742.3s = 1164.0 ns/day
+GPU WAS BURNING!

@@ -1,0 +1,6 @@
+=== 4AP_CORO1C_100ns MD Simulation (SMA) — 09:39:45 ===
+Traceback (most recent call last):
+  File "/tmp/md_4ap_coro1c_100ns.py", line 18, in <module>
+    print(f'PDB: 4AP_CORO1C_100ns (AlphaFold {uniprot})', flush=True)
+                                              ^^^^^^^
+NameError: name 'uniprot' is not defined
