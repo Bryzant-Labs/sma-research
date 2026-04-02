@@ -112,5 +112,29 @@ Computational evidence supports 4-Aminopyridine as a multi-target SMA compound a
 
 *Christian Fischer | Bryzant Labs | sma-research.info*
 *Computational analysis — experimental validation required*
-*All data: https://github.com/Bryzant-Labs/sma-research*
 *Contact: christian@bryzant.com*
+
+---
+
+### Data Availability (Open Access)
+
+All data, figures, and raw results are publicly available:
+
+**GitHub Repository**: https://github.com/Bryzant-Labs/sma-research/tree/main/4-AP-Campaign
+
+| Resource | Link |
+|----------|------|
+| **Findings Summary** | [4-AP-FINDINGS-SUMMARY.md](https://github.com/Bryzant-Labs/sma-research/blob/main/4-AP-Campaign/4-AP-FINDINGS-SUMMARY.md) |
+| **Paper Draft** | [4-AP-PAPER-DRAFT-FOR-PROFESSOR.md](https://github.com/Bryzant-Labs/sma-research/blob/main/4-AP-Campaign/4-AP-PAPER-DRAFT-FOR-PROFESSOR.md) |
+| **Fig 1: DiffDock Heatmap** | [fig1_diffdock_heatmap.png](https://github.com/Bryzant-Labs/sma-research/blob/main/4-AP-Campaign/figures/fig1_diffdock_heatmap.png) |
+| **Fig 2: Energy Profiles** | [fig2_energy_comparison.png](https://github.com/Bryzant-Labs/sma-research/blob/main/4-AP-Campaign/figures/fig2_energy_comparison.png) |
+| **Fig 3: ADMET Radar** | [fig3_admet_radar.png](https://github.com/Bryzant-Labs/sma-research/blob/main/4-AP-Campaign/figures/fig3_admet_radar.png) |
+| **Fig 4: Multi-Target Pathway** | [fig4_multitarget_pathway.png](https://github.com/Bryzant-Labs/sma-research/blob/main/4-AP-Campaign/figures/fig4_multitarget_pathway.png) |
+| **Fig 5: SMD Unbinding** | [fig5_smd_unbinding.png](https://github.com/Bryzant-Labs/sma-research/blob/main/4-AP-Campaign/figures/fig5_smd_unbinding.png) |
+| **Fig 6: Cost Comparison** | [fig6_cost_comparison.png](https://github.com/Bryzant-Labs/sma-research/blob/main/4-AP-Campaign/figures/fig6_cost_comparison.png) |
+| **Energy CSVs** | [data/energy/](https://github.com/Bryzant-Labs/sma-research/tree/main/4-AP-Campaign/data/energy) |
+| **PDB Structures** | [data/structures/](https://github.com/Bryzant-Labs/sma-research/tree/main/4-AP-Campaign/data/structures) |
+| **DiffDock Scores** | [data/docking/](https://github.com/Bryzant-Labs/sma-research/tree/main/4-AP-Campaign/data/docking) |
+| **ADMET Profile** | [data/4AP_admet.json](https://github.com/Bryzant-Labs/sma-research/blob/main/4-AP-Campaign/data/4AP_admet.json) |
+| **MD Trajectories (37 GB)** | Dropbox shared folder (contact christian@bryzant.com) |
+| **Platform (queryable)** | https://sma-research.info |

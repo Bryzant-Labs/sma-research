@@ -148,4 +148,22 @@ We conducted the first systematic computational screening of 4-Aminopyridine (4-
 
 ---
 
+---
+
+## Open Access Data
+
+All raw data, figures, and analysis files:
+**https://github.com/Bryzant-Labs/sma-research/tree/main/4-AP-Campaign**
+
+| Data | Link |
+|------|------|
+| Energy CSVs (SMD, FEP, Kv1.2) | [data/energy/](https://github.com/Bryzant-Labs/sma-research/tree/main/4-AP-Campaign/data/energy) |
+| PDB Structures (9 files) | [data/structures/](https://github.com/Bryzant-Labs/sma-research/tree/main/4-AP-Campaign/data/structures) |
+| DiffDock Analog Scores | [data/docking/](https://github.com/Bryzant-Labs/sma-research/tree/main/4-AP-Campaign/data/docking) |
+| ADMET Profile (full JSON) | [data/4AP_admet.json](https://github.com/Bryzant-Labs/sma-research/blob/main/4-AP-Campaign/data/4AP_admet.json) |
+| Paper Draft | [4-AP-PAPER-DRAFT.md](https://github.com/Bryzant-Labs/sma-research/blob/main/4-AP-Campaign/4-AP-PAPER-DRAFT-FOR-PROFESSOR.md) |
+| Figures (6 publication-ready) | [figures/](https://github.com/Bryzant-Labs/sma-research/tree/main/4-AP-Campaign/figures) |
+| MD Trajectories (37 GB DCDs) | Dropbox shared folder — contact christian@bryzant.com |
+| Full platform (queryable) | https://sma-research.info |
+
 *Analysis: Christian Fischer, Bryzant Labs | Platform: sma-research.info | Date: April 2026*
