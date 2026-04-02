@@ -7,7 +7,7 @@
 
 ### Documents
 - [Findings Summary](4-AP-FINDINGS-SUMMARY.md) — Complete overview of 18 GPU analyses
-- [Paper Draft](4-AP-PAPER-DRAFT-FOR-PROFESSOR.md) — Draft for academic discussion
+- [Computational Analysis](4-AP-Computational-Analysis.md) — Draft for academic discussion
 - [Analysis Tasks 2-4](4-AP-ANALYSIS-TASKS-2-4.md) — SMD comparison, analog ranking, co-binding
 
 ### Figures

@@ -1,6 +1,6 @@
 # Computational identification of 4-Aminopyridine as a multi-target compound for Spinal Muscular Atrophy via actin cytoskeleton modulation
 
-## DRAFT — For discussion with Prof. Schoeneberg / Simon
+## Computational Analysis — Christian Fischer, Bryzant Labs
 
 ---
 
