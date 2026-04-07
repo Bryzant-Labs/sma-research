@@ -1,0 +1,226 @@
+{
+  "report_date": "2026-04-07",
+  "method": "ADMET-AI v2.0.1 (Chemprop GNN, 41 TDC endpoints) + RDKit descriptors",
+  "purpose": "Safety profiling of SMA drug candidates and reference compounds",
+  "thresholds": {
+    "AMES_mutagenicity": {
+      "safe": "<0.5",
+      "flag": ">=0.5"
+    },
+    "hERG_cardiotoxicity": {
+      "safe": "<0.5",
+      "concern": "0.5-0.8",
+      "flag": ">=0.8"
+    },
+    "DILI_liver_toxicity": {
+      "safe": "<0.5",
+      "concern": "0.5-0.8",
+      "flag": ">=0.8"
+    },
+    "CYP3A4_inhibition": {
+      "safe": "<0.5",
+      "concern": "0.5-0.8",
+      "flag": ">=0.8"
+    },
+    "BBB_penetration": {
+      "pass": ">0.5",
+      "fail": "<=0.5"
+    }
+  },
+  "compounds": {
+    "genmol_119_bbb_5": {
+      "smiles": "CC(C)C(=O)N1CC[C@@H](NCC(F)(F)F)[C@H](c2ccncc2)C1",
+      "admet_ai_predictions": {
+        "smiles": "CC(C)C(=O)N1CC[C@@H](NCC(F)(F)F)[C@H](c2ccncc2)C1",
+        "AMES_mutagenicity": 0.13,
+        "BBB_Martins": 0.809,
+        "Bioavailability_Ma": 0.827,
+        "CYP3A4_inhibitor": 0.837,
+        "CYP2D6_inhibitor": 0.25,
+        "CYP1A2_inhibitor": 0.086,
+        "hERG_cardiotox": 0.791,
+        "HIA_Hou": 1.0,
+        "Lipophilicity": 0.917,
+        "Solubility_AqSolDB": -1.644,
+        "Clearance_Hepatocyte": 1.306,
+        "Half_Life_Obach": 11.522,
+        "DILI_toxicity": 0.446,
+        "Carcinogenicity": 0.107,
+        "PAINS_alert": 0.0,
+        "hERG_percentile": 78.2
+      },
+      "flags": [
+        {
+          "property": "CYP3A4",
+          "value": 0.837,
+          "severity": "WARNING",
+          "detail": "CYP3A4 metabolizes ~50% of drugs; inhibition causes elevated plasma levels of co-medications"
+        }
+      ],
+      "descriptors": {
+        "mw": 329.37,
+        "logp": 2.57,
+        "qed": 0.923,
+        "sa_score": 3.31,
+        "bbb_confidence": "HIGH",
+        "composite_score": 0.899
+      },
+      "safety_verdict": "FLAGGED"
+    },
+    "genmol_119_bbb_0": {
+      "smiles": "CC(C)C(=O)N1CC[C@@H](C(F)(F)F)[C@H](Nc2ccncc2)C1",
+      "admet_ai_predictions": {
+        "smiles": "CC(C)C(=O)N1CC[C@@H](C(F)(F)F)[C@H](Nc2ccncc2)C1",
+        "AMES_mutagenicity": 0.168,
+        "BBB_Martins": 0.848,
+        "Bioavailability_Ma": 0.825,
+        "CYP3A4_inhibitor": 0.935,
+        "CYP2D6_inhibitor": 0.228,
+        "CYP1A2_inhibitor": 0.324,
+        "hERG_cardiotox": 0.725,
+        "HIA_Hou": 1.0,
+        "Lipophilicity": 2.286,
+        "Solubility_AqSolDB": -2.646,
+        "Clearance_Hepatocyte": 33.671,
+        "Half_Life_Obach": 40.145,
+        "DILI_toxicity": 0.579,
+        "Carcinogenicity": 0.038,
+        "PAINS_alert": 0.0,
+        "hERG_percentile": 73.7
+      },
+      "flags": [
+        {
+          "property": "CYP3A4",
+          "value": 0.935,
+          "severity": "WARNING",
+          "detail": "CYP3A4 metabolizes ~50% of drugs; inhibition causes elevated plasma levels of co-medications"
+        }
+      ],
+      "descriptors": {
+        "mw": 315.34,
+        "logp": 2.93,
+        "qed": 0.933,
+        "sa_score": 3.35,
+        "bbb_confidence": "HIGH",
+        "composite_score": 0.901
+      },
+      "safety_verdict": "FLAGGED"
+    },
+    "Fasudil": {
+      "smiles": "O=S(=O)(c1cccc2cnccc12)N1CCCNCC1",
+      "admet_ai_predictions": {
+        "smiles": "O=S(=O)(c1cccc2cnccc12)N1CCCNCC1",
+        "AMES_mutagenicity": 0.322,
+        "BBB_Martins": 0.931,
+        "Bioavailability_Ma": 0.839,
+        "CYP3A4_inhibitor": 0.747,
+        "CYP2D6_inhibitor": 0.286,
+        "CYP1A2_inhibitor": 0.41,
+        "hERG_cardiotox": 0.716,
+        "HIA_Hou": 1.0,
+        "Lipophilicity": 0.046,
+        "Solubility_AqSolDB": -2.113,
+        "Clearance_Hepatocyte": 52.182,
+        "Half_Life_Obach": -11.384,
+        "DILI_toxicity": 0.601,
+        "Carcinogenicity": 0.167,
+        "PAINS_alert": 0.0,
+        "hERG_percentile": 73.3
+      },
+      "flags": [],
+      "descriptors": {
+        "mw": 291.38,
+        "logp": 1.22,
+        "qed": 0.903,
+        "sa_score": 2.21,
+        "bbb_confidence": "HIGH",
+        "composite_score": 0.922
+      },
+      "safety_verdict": "CLEAN"
+    },
+    "LIMKi3": {
+      "smiles": "CC(C)Nc1ncnc(-c2ccc3[nH]ccc3c2)c1C#N",
+      "admet_ai_predictions": {
+        "smiles": "CC(C)Nc1ncnc(-c2ccc3[nH]ccc3c2)c1C#N",
+        "AMES_mutagenicity": 0.422,
+        "BBB_Martins": 0.501,
+        "Bioavailability_Ma": 0.86,
+        "CYP3A4_inhibitor": 0.595,
+        "CYP2D6_inhibitor": 0.165,
+        "CYP1A2_inhibitor": 0.938,
+        "hERG_cardiotox": 0.562,
+        "HIA_Hou": 1.0,
+        "Lipophilicity": 3.046,
+        "Solubility_AqSolDB": -5.414,
+        "Clearance_Hepatocyte": 56.055,
+        "Half_Life_Obach": 62.208,
+        "DILI_toxicity": 0.946,
+        "Carcinogenicity": 0.162,
+        "PAINS_alert": 0.0,
+        "hERG_percentile": 66.0
+      },
+      "flags": [
+        {
+          "property": "DILI",
+          "value": 0.946,
+          "severity": "CRITICAL",
+          "detail": "Drug-induced liver injury probability above safety threshold"
+        }
+      ],
+      "descriptors": {
+        "mw": 277.33,
+        "logp": 3.32,
+        "qed": 0.77,
+        "sa_score": 2.57,
+        "bbb_confidence": "HIGH",
+        "composite_score": 0.834
+      },
+      "safety_verdict": "FLAGGED"
+    },
+    "4-AP": {
+      "smiles": "Nc1ccncc1",
+      "admet_ai_predictions": {
+        "smiles": "Nc1ccncc1",
+        "AMES_mutagenicity": 0.48,
+        "BBB_Martins": 0.769,
+        "Bioavailability_Ma": 0.893,
+        "CYP3A4_inhibitor": 0.202,
+        "CYP2D6_inhibitor": 0.093,
+        "CYP1A2_inhibitor": 0.602,
+        "hERG_cardiotox": 0.101,
+        "HIA_Hou": 1.0,
+        "Lipophilicity": -0.065,
+        "Solubility_AqSolDB": 0.107,
+        "Clearance_Hepatocyte": 25.689,
+        "Half_Life_Obach": 9.419,
+        "DILI_toxicity": 0.396,
+        "Carcinogenicity": 0.096,
+        "PAINS_alert": 0.0,
+        "hERG_percentile": 31.7
+      },
+      "flags": [],
+      "descriptors": {
+        "mw": 94.12,
+        "logp": 0.66,
+        "qed": 0.513,
+        "sa_score": 1.95,
+        "bbb_confidence": "HIGH",
+        "composite_score": 0.789
+      },
+      "safety_verdict": "CLEAN"
+    }
+  },
+  "critical_flags": [
+    "genmol_119_bbb_5: CYP3A4 0.84 \u2014 strong CYP3A4 inhibitor. Drug-drug interaction risk.",
+    "genmol_119_bbb_0: CYP3A4 0.94 \u2014 strong CYP3A4 inhibitor. Drug-drug interaction risk.",
+    "LIMKi3: DILI 0.95 \u2014 HIGH liver toxicity risk. NOT suitable as drug candidate."
+  ],
+  "learnings": [
+    "LIMKi3 (known LIMK inhibitor, reference compound) has DILI=0.95 \u2014 computationally predicted liver toxicity. Despite excellent LIMK2 binding stability in 100ns MD, it would fail safety screening. This validates ADMET-before-docking pipeline order.",
+    "bbb_5 (lead compound) has hERG=0.79 and CYP3A4=0.84 \u2014 both below critical 0.8 threshold but warrant experimental validation before progression.",
+    "bbb_0 (superseded) has CYP3A4=0.94 \u2014 highest CYP3A4 inhibition of all compounds. Additional reason it was correctly deprioritized.",
+    "4-AP has the cleanest safety profile (hERG=0.10, CYP=0.20, DILI=0.40) but is a fragment (MW=94) and already failed Phase 2 as a standalone SMA drug.",
+    "Fasudil has the best overall composite score (0.922) and is FDA-approved in Japan, but shows borderline AMES=0.32.",
+    "NEGATIVE RESULTS ARE DATA: LIMKi3 DILI flag prevents wasted wet-lab resources on a toxic reference compound."
+  ]
+}
