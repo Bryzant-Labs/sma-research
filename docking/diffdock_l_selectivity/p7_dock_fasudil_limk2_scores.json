@@ -1,0 +1,46 @@
+{
+  "task_id": "p7_dock_fasudil_limk2",
+  "n_poses": 10,
+  "scores": [
+    {
+      "rank": 10,
+      "confidence": -2.63
+    },
+    {
+      "rank": 1,
+      "confidence": -0.7
+    },
+    {
+      "rank": 2,
+      "confidence": -0.83
+    },
+    {
+      "rank": 3,
+      "confidence": -0.9
+    },
+    {
+      "rank": 4,
+      "confidence": -0.96
+    },
+    {
+      "rank": 5,
+      "confidence": -1.11
+    },
+    {
+      "rank": 6,
+      "confidence": -1.21
+    },
+    {
+      "rank": 7,
+      "confidence": -1.65
+    },
+    {
+      "rank": 8,
+      "confidence": -1.83
+    },
+    {
+      "rank": 9,
+      "confidence": -1.88
+    }
+  ]
+}

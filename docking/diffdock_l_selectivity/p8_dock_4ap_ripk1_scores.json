@@ -1,0 +1,47 @@
+{
+  "task_id": "p8_dock_4ap_ripk1",
+  "n_poses": 10,
+  "scores": [
+    {
+      "rank": 10,
+      "confidence": -1.73
+    },
+    {
+      "rank": 1,
+      "confidence": 0.3
+    },
+    {
+      "rank": 2,
+      "confidence": 0.26
+    },
+    {
+      "rank": 3,
+      "confidence": 0.26
+    },
+    {
+      "rank": 4,
+      "confidence": 0.25
+    },
+    {
+      "rank": 5,
+      "confidence": 0.04
+    },
+    {
+      "rank": 6,
+      "confidence": -0.15
+    },
+    {
+      "rank": 7,
+      "confidence": -0.21
+    },
+    {
+      "rank": 8,
+      "confidence": -0.56
+    },
+    {
+      "rank": 9,
+      "confidence": -0.67
+    }
+  ],
+  "mw_warning": "MW=94 small molecule bias"
+}

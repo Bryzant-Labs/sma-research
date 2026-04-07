@@ -1,0 +1,47 @@
+{
+  "task_id": "p8_dock_4ap_sarm1",
+  "n_poses": 10,
+  "scores": [
+    {
+      "rank": 10,
+      "confidence": -4.33
+    },
+    {
+      "rank": 1,
+      "confidence": -1.55
+    },
+    {
+      "rank": 2,
+      "confidence": -2.44
+    },
+    {
+      "rank": 3,
+      "confidence": -3.13
+    },
+    {
+      "rank": 4,
+      "confidence": -3.41
+    },
+    {
+      "rank": 5,
+      "confidence": -3.42
+    },
+    {
+      "rank": 6,
+      "confidence": -3.52
+    },
+    {
+      "rank": 7,
+      "confidence": -3.56
+    },
+    {
+      "rank": 8,
+      "confidence": -4.13
+    },
+    {
+      "rank": 9,
+      "confidence": -4.24
+    }
+  ],
+  "mw_warning": "MW=94 small molecule bias"
+}
