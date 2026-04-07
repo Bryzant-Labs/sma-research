@@ -1,0 +1,12 @@
+{
+  "target": "LIMK2_BMS5_holo",
+  "project": "SMA",
+  "pdb_source": "4TPT",
+  "simulation_ns": 20,
+  "tool": "OpenMM 8.2.0",
+  "force_field": "Amber14 + TIP3P",
+  "temperature_K": 300,
+  "timestep_fs": 2,
+  "gpu": "RTX 3090",
+  "date": "2026-04-07"
+}
