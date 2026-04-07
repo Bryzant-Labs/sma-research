@@ -7,6 +7,6 @@
   "force_field": "Amber14 + TIP3P",
   "temperature_K": 300,
   "timestep_fs": 2,
-  "gpu": "RTX 3090",
+  "gpu": "A100 PCIE",
   "date": "2026-04-07"
 }
