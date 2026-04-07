@@ -1,0 +1,47 @@
+{
+  "date": "2026-04-07",
+  "method": "ADMET-AI v2.0.1 (Chemprop GNN, 41 TDC endpoints)",
+  "total_compounds": 256,
+  "safety_pass": 23,
+  "safety_flagged": 233,
+  "pass_rate": "9.0%",
+  "thresholds": {
+    "DILI": ">= 0.8 = CRITICAL",
+    "hERG": ">= 0.8 = CRITICAL",
+    "CYP3A4": ">= 0.8 = WARNING",
+    "AMES": ">= 0.5 = CONCERN"
+  },
+  "flag_distribution": {
+    "DILI": 216,
+    "hERG": 130,
+    "CYP3A4": 112,
+    "AMES": 72
+  },
+  "key_finding": "91% of platform compounds fail ADMET safety screening. DILI (liver toxicity) is the primary failure mode (84%). Most kinase inhibitors inherently carry hepatotoxicity risk. This validates ADMET-before-docking pipeline order.",
+  "passed_compounds": [
+    "Fasudil",
+    "CHEMBL305177",
+    "CHEMBL354249",
+    "CHEMBL443763",
+    "CHEMBL162476",
+    "CHEMBL168069",
+    "CHEMBL301030",
+    "CHEMBL280525",
+    "CHEMBL282189",
+    "CHEMBL432221",
+    "CHEMBL38937",
+    "genmol_059",
+    "CHEMBL304397",
+    "CHEMBL120226",
+    "CHEMBL36866",
+    "CHEMBL305253",
+    "CHEMBL2051983",
+    "CHEMBL141648",
+    "CHEMBL141576",
+    "CHEMBL69713",
+    "CHEMBL2374254",
+    "CHEMBL303654",
+    "CHEMBL3349432"
+  ],
+  "implication": "Platform compound rankings must integrate ADMET safety scores. Compounds with DILI >= 0.8 should be visually flagged. Only 23/256 compounds are viable drug candidates after safety filtering."
+}
