@@ -1,0 +1,41 @@
+[08:52:09] === HOLO MD: bbb_5 + LIMK2 ===
+[08:52:09] Output dir: /results/md_sims/LIMK2_bbb5_holo
+[08:52:09] Downloading 4TPT from RCSB...
+[08:52:11] Downloaded 4TPT.pdb (756KB)
+[08:52:11] Running PDBFixer...
+[08:52:16] PDBFixer done. Protein atoms: 8979
+[08:52:16] Generating bbb_5 3D conformer with RDKit...
+[08:52:16] bbb_5 conformer generated. Atoms: 45
+[08:52:16] bbb_5 SDF saved: /results/md_sims/LIMK2_bbb5_holo/bbb5.sdf
+[08:52:16] Binding site center (ATP region): [-13.16867857   6.43778571  27.99967857]
+[08:52:16] Ligand translated to binding site. New center: [-13.16867857   6.43778571  27.99967857]
+[08:52:16] Setting up GAFF2 force field template...
+[08:52:21] OpenFF molecule created. Formal charge: 0.0 elementary_charge
+[08:52:22] NAGL AM1BCC charges assigned
+[08:52:22] GAFF2 template generator initialized
+[08:52:22] Building OpenMM system...
+[08:52:22] Force fields loaded: amber14-all + TIP3P-FB + GAFF2
+[08:52:22] OpenFF mol from RDKit: 45 atoms
+[08:52:22] Ligand topology: 45 atoms, 1 residues
+[08:52:22] Combined topology: 9024 atoms
+[08:52:22] Solvating system (1nm padding, TIP3P-FB)...
+[08:53:34] Solvated system: 96586 atoms
+[08:53:36] Initial complex PDB saved: /results/md_sims/LIMK2_bbb5_holo/initial_complex.pdb
+[08:53:36] HETATM records in initial PDB: 87697 (ligand + waters)
+[08:53:36] Creating OpenMM system...
+[08:53:38] System created: 96586 particles
+[08:53:38] Using CUDA platform
+[08:53:40] Energy minimizing...
+[08:54:40] Minimization done in 59.6s
+[08:54:40] Equilibrating 100ps...
+[08:55:38] Equilibration done
+[08:55:38] Starting 20ns production MD (10000000 steps)...
+[12:14:06] Production done in 3.31h (198.5min)
+[12:14:06] Saving final structure...
+[12:14:08] Final PDB HETATM records: 87697 total, ~45 ligand atoms
+[12:14:08] VERIFICATION PASSED: Ligand present in final structure
+[12:14:08] === COMPLETE ===
+[12:14:08] Results in: /results/md_sims/LIMK2_bbb5_holo
+[12:14:08]   trajectory.dcd  - 221MB
+[12:14:08]   energy.csv      - 21KB
+[12:14:08]   final_20ns.pdb  - 7641KB
