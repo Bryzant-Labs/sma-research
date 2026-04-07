@@ -1,0 +1,12 @@
+{
+  "target": "ROCK2_Fasudil_FEP-SPell",
+  "project": "SMA",
+  "pdb_source": "2H9V",
+  "simulation_ns": 10,
+  "tool": "OpenMM 8.2.0",
+  "force_field": "Amber14 + TIP3P",
+  "temperature_K": 300,
+  "timestep_fs": 2,
+  "gpu": "RTX 3090",
+  "date": "2026-04-07"
+}
