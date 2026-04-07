@@ -1,0 +1,12 @@
+{
+  "task": "ROCK2_Fasudil_holo",
+  "target": "ROCK2",
+  "pdb": "2H9V",
+  "ligand": "Fasudil",
+  "smiles": "O=S(=O)(c1cccc2cnccc12)N1CCCNCC1",
+  "duration_ns": 20,
+  "total_atoms": 100334,
+  "hetatm_lines": 94205,
+  "elapsed_hours": 2.26,
+  "completed_at": "2026-04-07T13:17:44"
+}
