@@ -1,0 +1,23 @@
+[09:43:49] === HOLO MD: LIMKi3 + LIMK2 (reference, DILI=0.95) ===
+[09:43:49] Compound: LIMKi3_reference
+[09:43:49] SMILES: CC(C)Nc1ncnc(-c2ccc3[nH]ccc3c2)c1C#N
+[09:43:49] DILI score: 0.95 — HIGH liver toxicity (reference comparator only)
+[09:43:49] Downloading 4TPT from RCSB...
+[09:43:52] Downloaded 756KB
+[09:43:52] Running PDBFixer...
+[09:44:04] PDBFixer done. Protein atoms: 8979
+[09:44:04] Generating 3D conformer...
+[09:44:04] Conformer done. Atoms: 36
+[09:44:04] ATP site center: [-13.16867857   6.43778571  27.99967857]
+[09:44:04] Ligand positioned at ATP site
+[09:44:04] Setting up GAFF2...
+[09:44:11] Force fields loaded
+[09:44:11] Combined atoms: 9015
+[09:44:26] Solvated: 95615 atoms
+[09:44:34] Minimizing...
+[09:45:42] Minimization done in 68.6s
+[09:45:42] Equilibrating 100ps...
+[09:46:37] Starting 20ns production...
+[15:48:55] Production done in 6.04h
+[15:48:57] Final: 86726 HETATM, ~203 ligand atoms
+[15:48:57] VERIFICATION PASSED: Ligand present
