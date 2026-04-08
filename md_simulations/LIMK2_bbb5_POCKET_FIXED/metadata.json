@@ -8,5 +8,5 @@
   "temperature_K": 300,
   "timestep_fs": 2,
   "gpu": "A100 PCIE",
-  "date": "2026-04-07"
+  "date": "2026-04-08"
 }
