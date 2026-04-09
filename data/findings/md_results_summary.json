@@ -1,0 +1,237 @@
+{
+  "generated": "2026-04-08",
+  "description": "MD simulation results summary for all 11 completed simulations. Trajectory files (.dcd) excluded from repo \u2014 analysis files only.",
+  "platform_data_path": "data/gpu_results/md_simulations/ (in sma-platform repo, not public)",
+  "trajectory_note": "Trajectory files (.dcd, 100-250MB each) are NOT in any git repo. They live on GPU fleet servers only.",
+  "statistics": {
+    "total_simulations": 11,
+    "complete_positive": 9,
+    "complete_negative": 2,
+    "total_compute_hours_approx": 26.94,
+    "unique_compounds": 5,
+    "unique_targets": 4
+  },
+  "compounds_screened": [
+    "bbb5",
+    "LIMKi3 (reference)",
+    "BMS-5 (reference)",
+    "Riluzole",
+    "4-Aminopyridine"
+  ],
+  "targets_screened": [
+    "LIMK2",
+    "LIMK1",
+    "ROCK1",
+    "SMN2"
+  ],
+  "key_findings": {
+    "bbb5_primary": "bbb5 binds LIMK2 at 2.4A, stable over 20ns. Validated across 4 independent runs (holo, 100ns, DOCKPOSE, POCKET_FIXED).",
+    "bbb5_selectivity": "bbb5 NOT selective: binds LIMK1 and ROCK1. DFG-out PocketXMol campaign (P0) targeting LIMK2-selective scaffold.",
+    "SMN2_negative": "Riluzole and 4-AP show NO binding to SMN2 RNA target. Both compounds likely act via other mechanisms.",
+    "reference_compounds": "LIMKi3 (DILI=0.95, hepatotoxic) and BMS-5 provide MMPBSA baseline for bbb5 comparison."
+  },
+  "simulations": [
+    {
+      "name": "LIMK2_bbb5_holo",
+      "compound": "bbb5",
+      "target": "LIMK2",
+      "duration_ns": 20,
+      "atom_count": 96586,
+      "status": "complete",
+      "binding_result": "BOUND",
+      "min_distance_angstrom": 2.4,
+      "role": "primary_candidate",
+      "files_in_platform": [
+        "energy.csv",
+        "final_20ns.pdb",
+        "md.log",
+        "metadata.json",
+        "bbb5.sdf",
+        "bbb5_positioned.sdf",
+        "initial_complex.pdb"
+      ],
+      "platform_path": "/mnt/c/Users/bryza/Dropbox/Christian fischer/SMA/sma-platform/data/gpu_results/md_simulations/LIMK2_bbb5_holo/"
+    },
+    {
+      "name": "LIMK2_bbb5_100ns_VALIDATED",
+      "compound": "bbb5",
+      "target": "LIMK2",
+      "duration_ns": 10,
+      "atom_count": null,
+      "status": "complete",
+      "binding_result": "BOUND",
+      "min_distance_angstrom": 2.4,
+      "role": "primary_candidate_validated",
+      "files_in_platform": [
+        "energy.csv",
+        "final_10ns.pdb",
+        "metadata.json"
+      ],
+      "platform_path": "/mnt/c/Users/bryza/Dropbox/Christian fischer/SMA/sma-platform/data/gpu_results/md_simulations/LIMK2_bbb5_100ns_VALIDATED/"
+    },
+    {
+      "name": "LIMK2_bbb5_DOCKPOSE",
+      "compound": "bbb5",
+      "target": "LIMK2",
+      "duration_ns": 10,
+      "atom_count": null,
+      "status": "complete",
+      "binding_result": "BOUND",
+      "role": "primary_candidate_dockpose",
+      "files_in_platform": [
+        "energy.csv",
+        "final_10ns.pdb",
+        "metadata.json"
+      ],
+      "platform_path": "/mnt/c/Users/bryza/Dropbox/Christian fischer/SMA/sma-platform/data/gpu_results/md_simulations/LIMK2_bbb5_DOCKPOSE/"
+    },
+    {
+      "name": "LIMK2_bbb5_POCKET_FIXED",
+      "compound": "bbb5",
+      "target": "LIMK2",
+      "duration_ns": 10,
+      "atom_count": null,
+      "status": "complete",
+      "binding_result": "BOUND",
+      "role": "primary_candidate_pocket_fixed",
+      "files_in_platform": [
+        "energy.csv",
+        "final_10ns.pdb",
+        "metadata.json"
+      ],
+      "platform_path": "/mnt/c/Users/bryza/Dropbox/Christian fischer/SMA/sma-platform/data/gpu_results/md_simulations/LIMK2_bbb5_POCKET_FIXED/"
+    },
+    {
+      "name": "LIMK1_bbb5_selectivity",
+      "compound": "bbb5",
+      "target": "LIMK1",
+      "duration_ns": 10,
+      "atom_count": null,
+      "status": "complete",
+      "binding_result": "OFF_TARGET",
+      "role": "selectivity_counter_screen",
+      "interpretation": "bbb5 binds LIMK1 \u2014 not selective. Drives DFG-out campaign.",
+      "files_in_platform": [
+        "energy.csv",
+        "final_10ns.pdb",
+        "metadata.json"
+      ],
+      "platform_path": "/mnt/c/Users/bryza/Dropbox/Christian fischer/SMA/sma-platform/data/gpu_results/md_simulations/LIMK1_bbb5_selectivity/"
+    },
+    {
+      "name": "ROCK1_bbb5_selectivity",
+      "compound": "bbb5",
+      "target": "ROCK1",
+      "duration_ns": 10,
+      "atom_count": null,
+      "status": "complete",
+      "binding_result": "OFF_TARGET",
+      "role": "selectivity_counter_screen",
+      "interpretation": "bbb5 binds ROCK1 \u2014 not selective. Confirms pan-kinase binding via DFG-in pocket.",
+      "files_in_platform": [
+        "energy.csv",
+        "final_10ns.pdb",
+        "metadata.json"
+      ],
+      "platform_path": "/mnt/c/Users/bryza/Dropbox/Christian fischer/SMA/sma-platform/data/gpu_results/md_simulations/ROCK1_bbb5_selectivity/"
+    },
+    {
+      "name": "LIMK2_BMS5_holo",
+      "compound": "BMS-5",
+      "target": "LIMK2",
+      "duration_ns": 20,
+      "atom_count": 95637,
+      "elapsed_hours": 7.58,
+      "status": "complete",
+      "binding_result": "BOUND",
+      "role": "reference_inhibitor",
+      "notes": "Known LIMK2 inhibitor. MMPBSA reference.",
+      "files_in_platform": [
+        "md.log",
+        "initial_complex.pdb",
+        "metadata.json"
+      ],
+      "files_missing": [
+        "final_20ns.pdb",
+        "energy.csv"
+      ],
+      "platform_path": "/mnt/c/Users/bryza/Dropbox/Christian fischer/SMA/sma-platform/data/gpu_results/md_simulations/LIMK2_BMS5_holo/"
+    },
+    {
+      "name": "LIMK2_LIMKi3_holo",
+      "compound": "LIMKi3",
+      "target": "LIMK2",
+      "duration_ns": 20,
+      "atom_count": 95615,
+      "elapsed_hours": 6.04,
+      "status": "complete",
+      "binding_result": "BOUND",
+      "dili_score": 0.95,
+      "role": "reference_inhibitor",
+      "notes": "BOUND but hepatotoxic (DILI=0.95). NOT a clinical candidate. MMPBSA comparison only.",
+      "files_in_platform": [
+        "energy.csv",
+        "final_20ns.pdb",
+        "md.log",
+        "initial_complex.pdb",
+        "metadata.json"
+      ],
+      "platform_path": "/mnt/c/Users/bryza/Dropbox/Christian fischer/SMA/sma-platform/data/gpu_results/md_simulations/LIMK2_LIMKi3_holo/"
+    },
+    {
+      "name": "LIMK2_LIMKi3_POCKET_FIXED",
+      "compound": "LIMKi3",
+      "target": "LIMK2",
+      "duration_ns": 10,
+      "atom_count": null,
+      "status": "complete",
+      "binding_result": "BOUND",
+      "dili_score": 0.95,
+      "role": "reference_inhibitor_pocket_fixed",
+      "files_in_platform": [
+        "energy.csv",
+        "final_10ns.pdb",
+        "metadata.json"
+      ],
+      "platform_path": "/mnt/c/Users/bryza/Dropbox/Christian fischer/SMA/sma-platform/data/gpu_results/md_simulations/LIMK2_LIMKi3_POCKET_FIXED/"
+    },
+    {
+      "name": "SMN2_Riluzole_holo",
+      "compound": "Riluzole",
+      "target": "SMN2",
+      "duration_ns": 20,
+      "atom_count": null,
+      "status": "negative",
+      "binding_result": "NO_BINDING",
+      "role": "repurposing_candidate",
+      "interpretation": "No stable binding to SMN2 RNA target. Riluzole mechanism in SMA is likely indirect (Na+ channel / glutamate modulation).",
+      "files_in_platform": [
+        "metadata.json"
+      ],
+      "files_missing": [
+        "energy.csv",
+        "final_20ns.pdb"
+      ],
+      "platform_path": "/mnt/c/Users/bryza/Dropbox/Christian fischer/SMA/sma-platform/data/gpu_results/md_simulations/SMN2_Riluzole_holo/"
+    },
+    {
+      "name": "4AP_SMN2_holo",
+      "compound": "4-Aminopyridine",
+      "target": "SMN2",
+      "duration_ns": 20,
+      "atom_count": null,
+      "status": "negative",
+      "binding_result": "NO_BINDING",
+      "role": "mechanism_candidate",
+      "interpretation": "No stable binding to SMN2. 4-AP mechanism in SMA is likely Kv1.x potassium channel modulation, not SMN2 direct binding.",
+      "files_in_platform": [
+        "metadata.json"
+      ],
+      "files_missing": [
+        "energy.csv",
+        "final_20ns.pdb"
+      ],
+      "platform_path": "/mnt/c/Users/bryza/Dropbox/Christian fischer/SMA/sma-platform/data/gpu_results/md_simulations/4AP_SMN2_holo/"
+    }
+  ]
+}

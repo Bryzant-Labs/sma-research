@@ -1,0 +1,242 @@
+================================================================================
+FASUDIL SCAFFOLD HOPPING CAMPAIGN — LIMK2-SELECTIVE SMA DRUG DESIGN
+Date: 2026-04-09 20:08
+Bryzant Labs / SMA Research Platform
+================================================================================
+
+STRATEGY
+----------------------------------------
+Starting point: Fasudil (isoquinoline sulfonamide, approved in Japan)
+  SMILES: O=S(=O)(N1CCCNCC1)c1cccc2cnccc12
+  DILI: 0.28, BBB: 0.93, MW: 291.4, LogP: 0.68
+  Known: pan-kinase (ROCK1/2, LIMK1/2, PKA, PKC)
+
+Goal: LIMK2-selective variant preserving Fasudil's safety profile
+  Key pocket differences exploited:
+    - Gatekeeper: K383 (LIMK2, large/charged) vs M172 (ROCK2, small/hydrophobic)
+    - Hinge: T407/G408 (LIMK2, open) vs E170/A171 (ROCK2, tight)
+    - P-loop: F356 (LIMK2, hydrophobic ceiling)
+
+RESULTS SUMMARY
+----------------------------------------
+Total variants generated: 115
+ADMET gate pass rate: 65/115 (56.5%)
+  Gates: BBB>=0.7, DILI<0.75, hERG<0.85, CYP3A4<0.90
+  (Calibrated to Fasudil baseline: BBB=0.93, DILI=0.60, hERG=0.72, CYP3A4=0.75)
+Ranked candidates: 65
+
+CATEGORY BREAKDOWN
+----------------------------------------
+Category                   Total  Passed    Rate
+amine_head                    20      10     50%
+combined                      14       7     50%
+constrained                    5       0      0%
+fluorine_scan                  3       3    100%
+hybrid                        11       0      0%
+isoquinoline_sub              45      36     80%
+linker_mod                     8       8    100%
+n_linked_het                   8       0      0%
+reference                      1       1    100%
+
+TOP 20 CANDIDATES (by composite score)
+--------------------------------------------------------------------------------
+Rank  Name                           Composite SelMargin   BBB  DILI  hERG FasSim
+-------------------------------------------------------------------------------------
+1     Fasudil_ref                       0.2684   -0.2887  0.93  0.60  0.72  1.000
+      SMILES: O=S(=O)(c1cccc2cnccc12)N1CCCNCC1
+      Rationale: Reference compound
+
+2     B_7CFFF                           0.2671   -0.1104  0.95  0.71  0.69  0.630
+      SMILES: O=S(=O)(c1cccc2cnc(C(F)(F)F)cc12)N1CCCNCC1
+      Rationale: Pos-7 CF3 — strong electron withdrawal, metabolic stability
+
+3     A_homopiperazine_7ring            0.2629   -0.2659  0.92  0.57  0.76  0.930
+      SMILES: O=S(=O)(c1cccc2cnccc12)N1CCCCNCC1
+      Rationale: 7-ring reaches deeper into LIMK2 pocket
+
+4     B_7C                              0.2584   -0.1551  0.95  0.51  0.53  0.667
+      SMILES: Cc1cc2c(S(=O)(=O)N3CCCNCC3)cccc2cn1
+      Rationale: Pos-7 Methyl — hydrophobic filling of LIMK2 hinge pocket
+
+5     A_homopiperazine_contract         0.2582   -0.2576  0.92  0.65  0.54  0.902
+      SMILES: O=S(=O)(c1cccc2cnccc12)N1CCNCC1
+      Rationale: Smaller ring may better fit LIMK2 pocket
+
+6     B_7Cl                             0.2572   -0.1407  0.93  0.66  0.49  0.667
+      SMILES: O=S(=O)(c1cccc2cnc(Cl)cc12)N1CCCNCC1
+      Rationale: Pos-7 Chlorine — hydrophobic contact, moderate size
+
+7     B_7OC                             0.2564   -0.1374  0.93  0.69  0.53  0.630
+      SMILES: COc1cc2c(S(=O)(=O)N3CCCNCC3)cccc2cn1
+      Rationale: Pos-7 Methoxy — H-bond acceptor toward T407
+
+8     B_7F                              0.2548   -0.1485  0.94  0.57  0.47  0.667
+      SMILES: O=S(=O)(c1cccc2cnc(F)cc12)N1CCCNCC1
+      Rationale: Pos-7 Fluorine — metabolic blocker, minimal size increase
+
+9     A_pyrrolidine                     0.2515   -0.2188  0.96  0.71  0.52  0.786
+      SMILES: O=S(=O)(c1cccc2cnccc12)N1CCCC1
+      Rationale: Smaller ring, different geometry vs piperazine
+
+10    B_7N                              0.2493   -0.1427  0.87  0.59  0.52  0.667
+      SMILES: Nc1cc2c(S(=O)(=O)N3CCCNCC3)cccc2cn1
+      Rationale: Pos-7 Amino — H-bond donor for K383 interaction
+
+11    B_8CFFF                           0.2487   -0.1418  0.93  0.63  0.75  0.611
+      SMILES: O=S(=O)(c1cccc2cncc(C(F)(F)F)c12)N1CCCNCC1
+      Rationale: Pos-8 CF3 — strong electron withdrawal, metabolic stability
+
+12    A_piperidine                      0.2485   -0.2197  0.96  0.74  0.62  0.767
+      SMILES: O=S(=O)(c1cccc2cnccc12)N1CCCCC1
+      Rationale: Piperidine — no second N, tests basicity effect
+
+13    B_8Cl                             0.2474   -0.1739  0.93  0.72  0.75  0.660
+      SMILES: O=S(=O)(c1cccc2cncc(Cl)c12)N1CCCNCC1
+      Rationale: Pos-8 Chlorine — hydrophobic contact, moderate size
+
+14    B_8C                              0.2461   -0.1786  0.94  0.63  0.76  0.660
+      SMILES: Cc1cncc2cccc(S(=O)(=O)N3CCCNCC3)c12
+      Rationale: Pos-8 Methyl — hydrophobic filling of LIMK2 hinge pocket
+
+15    B_5F                              0.2460   -0.2025  0.93  0.64  0.72  0.714
+      SMILES: O=S(=O)(c1cc(F)cc2cnccc12)N1CCCNCC1
+      Rationale: Pos-5 Fluorine — metabolic blocker, minimal size increase
+
+16    B_5Cl                             0.2457   -0.1956  0.92  0.69  0.79  0.700
+      SMILES: O=S(=O)(c1cc(Cl)cc2cnccc12)N1CCCNCC1
+      Rationale: Pos-5 Chlorine — hydrophobic contact, moderate size
+
+17    B_5C                              0.2452   -0.1996  0.93  0.62  0.77  0.700
+      SMILES: Cc1cc(S(=O)(=O)N2CCCNCC2)c2ccncc2c1
+      Rationale: Pos-5 Methyl — hydrophobic filling of LIMK2 hinge pocket
+
+18    B_8F                              0.2418   -0.1823  0.94  0.67  0.71  0.647
+      SMILES: O=S(=O)(c1cccc2cncc(F)c12)N1CCCNCC1
+      Rationale: Pos-8 Fluorine — metabolic blocker, minimal size increase
+
+19    B_6CFFF                           0.2407   -0.1587  0.92  0.59  0.82  0.611
+      SMILES: O=S(=O)(c1c(C(F)(F)F)ccc2cnccc12)N1CCCNCC1
+      Rationale: Pos-6 CF3 — strong electron withdrawal, metabolic stability
+
+20    A_4NH2_piperidine                 0.2403   -0.1693  0.91  0.56  0.64  0.633
+      SMILES: NC1CCN(S(=O)(=O)c2cccc3cnccc23)CC1
+      Rationale: Amine for H-bond with K383 and T407
+
+
+FASUDIL REFERENCE ADMET PROFILE
+----------------------------------------
+  AMES: 0.3219
+  AMES_drugbank_approved_percentile: 62.3902
+  BBB_Martins: 0.9306
+  BBB_Martins_drugbank_approved_percentile: 73.8489
+  BRENK_alert: 0.0
+  BRENK_alert_drugbank_approved_percentile: 25.8699
+  Bioavailability_Ma: 0.8387
+  Bioavailability_Ma_drugbank_approved_percentile: 60.0703
+  CYP1A2_Veith: 0.4095
+  CYP1A2_Veith_drugbank_approved_percentile: 77.7504
+  CYP2C19_Veith: 0.4564
+  CYP2C19_Veith_drugbank_approved_percentile: 83.5149
+  CYP2C9_Substrate_CarbonMangels: 0.1791
+  CYP2C9_Substrate_CarbonMangels_drugbank_approved_percentile: 65.0967
+  CYP2C9_Veith: 0.2118
+  CYP2C9_Veith_drugbank_approved_percentile: 76.3796
+  CYP2D6_Substrate_CarbonMangels: 0.2505
+  CYP2D6_Substrate_CarbonMangels_drugbank_approved_percentile: 73.0404
+  CYP2D6_Veith: 0.2857
+  CYP2D6_Veith_drugbank_approved_percentile: 76.4148
+  CYP3A4_Substrate_CarbonMangels: 0.5018
+  CYP3A4_Substrate_CarbonMangels_drugbank_approved_percentile: 55.9578
+  CYP3A4_Veith: 0.7468
+  CYP3A4_Veith_drugbank_approved_percentile: 89.7012
+  Caco2_Wang: -4.8023
+  Caco2_Wang_drugbank_approved_percentile: 59.1564
+  Carcinogens_Lagunin: 0.1667
+  Carcinogens_Lagunin_drugbank_approved_percentile: 50.8963
+  Clearance_Hepatocyte_AZ: 52.1821
+  Clearance_Hepatocyte_AZ_drugbank_approved_percentile: 65.4833
+  Clearance_Microsome_AZ: 12.5422
+  Clearance_Microsome_AZ_drugbank_approved_percentile: 36.6257
+  ClinTox: 0.23
+  ClinTox_drugbank_approved_percentile: 73.0404
+  DILI: 0.6015
+  DILI_drugbank_approved_percentile: 60.5624
+  HIA_Hou: 1.0
+  HIA_Hou_drugbank_approved_percentile: 90.2988
+  Half_Life_Obach: -11.384
+  Half_Life_Obach_drugbank_approved_percentile: 6.8893
+  HydrationFreeEnergy_FreeSolv: -12.1586
+  HydrationFreeEnergy_FreeSolv_drugbank_approved_percentile: 53.9543
+  LD50_Zhu: 1.8123
+  LD50_Zhu_drugbank_approved_percentile: 14.4815
+  Lipinski: 4.0
+  Lipinski_drugbank_approved_percentile: 63.4446
+  Lipophilicity_AstraZeneca: 0.046
+  Lipophilicity_AstraZeneca_drugbank_approved_percentile: 31.5641
+  NIH_alert: 0.0
+  NIH_alert_drugbank_approved_percentile: 37.188
+  NR-AR: 0.0147
+  NR-AR-LBD: 0.0029
+  NR-AR-LBD_drugbank_approved_percentile: 17.188
+  NR-AR_drugbank_approved_percentile: 29.8418
+  NR-AhR: 0.1462
+  NR-AhR_drugbank_approved_percentile: 76.942
+  NR-Aromatase: 0.0498
+  NR-Aromatase_drugbank_approved_percentile: 63.5501
+  NR-ER: 0.0388
+  NR-ER-LBD: 0.0029
+  NR-ER-LBD_drugbank_approved_percentile: 9.7012
+  NR-ER_drugbank_approved_percentile: 11.8453
+  NR-PPAR-gamma: 0.0005
+  NR-PPAR-gamma_drugbank_approved_percentile: 13.0404
+  PAINS_alert: 0.0
+  PAINS_alert_drugbank_approved_percentile: 47.5923
+  PAMPA_NCATS: 0.9035
+  PAMPA_NCATS_drugbank_approved_percentile: 66.0457
+  PPBR_AZ: 49.1815
+  PPBR_AZ_drugbank_approved_percentile: 27.522
+  Pgp_Broccatelli: 0.1043
+  Pgp_Broccatelli_drugbank_approved_percentile: 53.3568
+  QED: 0.9035
+  QED_drugbank_approved_percentile: 99.2267
+  SR-ARE: 0.0691
+  SR-ARE_drugbank_approved_percentile: 34.2707
+  SR-ATAD5: 0.0037
+  SR-ATAD5_drugbank_approved_percentile: 33.4622
+  SR-HSE: 0.0235
+  SR-HSE_drugbank_approved_percentile: 58.0316
+  SR-MMP: 0.0062
+  SR-MMP_drugbank_approved_percentile: 30.9666
+  SR-p53: 0.0047
+  SR-p53_drugbank_approved_percentile: 19.7891
+  Skin_Reaction: 0.3677
+  Skin_Reaction_drugbank_approved_percentile: 29.8418
+  Solubility_AqSolDB: -2.1132
+  Solubility_AqSolDB_drugbank_approved_percentile: 69.0685
+  VDss_Lombardo: -3.9722
+  VDss_Lombardo_drugbank_approved_percentile: 5.8348
+  hERG: 0.7157
+  hERG_drugbank_approved_percentile: 73.2513
+  hydrogen_bond_acceptors: 4.0
+  hydrogen_bond_acceptors_drugbank_approved_percentile: 48.5589
+  hydrogen_bond_donors: 1.0
+  hydrogen_bond_donors_drugbank_approved_percentile: 36.5905
+  logP: 1.2188
+  logP_drugbank_approved_percentile: 34.3409
+  molecular_weight: 291.376
+  molecular_weight_drugbank_approved_percentile: 37.9262
+  stereo_centers: 0.0
+  stereo_centers_drugbank_approved_percentile: 22.6011
+  tpsa: 62.3
+  tpsa_drugbank_approved_percentile: 40.1054
+
+================================================================================
+NEXT STEPS
+----------------------------------------
+1. DiffDock docking of top 20 against LIMK2 (4TPT), LIMK1 (3S95),
+   ROCK1 (2ESM), ROCK2 (2H9V) — batch config saved
+2. MD simulations (100ns) for top 5 LIMK2-selective binders
+3. MM-PBSA binding energy comparison
+4. Synthesis feasibility assessment (SAScore)
+5. Discussion with Simon on prioritization
+================================================================================

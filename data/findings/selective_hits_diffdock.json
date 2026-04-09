@@ -1,0 +1,18 @@
+{
+  "date": "2026-04-09",
+  "campaign": "PocketXMol DFG-out 20K + DiffDock selectivity",
+  "status": "IN PROGRESS — 114/4346 docked, 7 selective hits so far",
+  "selectivity_threshold": 0.3,
+  "hits": [
+    {"mol_id": "1387_0", "smiles": "COn1c2c(F)cccc2c(=O)n2c3cccc4c3c(c12)N=c1ccccc1=N4", "scaffold": "fluoroquinazolinone", "limk2": 0.110, "limk1": -0.870, "rock1": -3.110, "margin": 0.980, "bbb": 0.65, "dili": 0.99, "herg": 0.70, "cyp3a4": 0.59, "admet_pass": false, "note": "Best selectivity but worst ADMET"},
+    {"mol_id": "1256_0", "smiles": "O=C(Nc1nc(-c2ccccc2)cs1)c1cccn1Cc1ccccc1", "scaffold": "thiazole-pyrrole", "limk2": -0.470, "limk1": -1.210, "rock1": -1.310, "margin": 0.740, "bbb": 0.73, "dili": 0.96, "herg": 0.63, "cyp3a4": 0.55, "admet_pass": false, "note": "Good BBB, DILI kills it"},
+    {"mol_id": "1219_0", "smiles": "Cc1c(CNC(=O)CCCc2nccn2C[C@H]2CCNC2)nn2ccccc12", "scaffold": "pyrazolo-pyridine", "limk2": -0.240, "limk1": -0.670, "rock1": -1.230, "margin": 0.430, "bbb": 0.73, "dili": 0.24, "herg": 0.88, "cyp3a4": 0.81, "admet_pass": false, "note": "BEST CANDIDATE — BBB+DILI pass, hERG/CYP optimizable"},
+    {"mol_id": "1429_0", "smiles": "Cc1c(-c2cnc3ccccc3[nH+]2)cc(NCc2ccco2)c2[nH]ccc12", "scaffold": "indole-quinoline", "limk2": -0.770, "limk1": -1.190, "rock1": -1.300, "margin": 0.420, "bbb": 0.39, "dili": 0.86, "herg": 0.93, "cyp3a4": 0.99, "admet_pass": false, "note": "Fails all ADMET"},
+    {"mol_id": "1326_0", "smiles": "O=C(O)[C@H](Oc1ccc(F)cc1)c1cccc(-c2n[nH]c3ccccc23)c1", "scaffold": "indazole-fluorophenyl", "limk2": -0.280, "limk1": -0.590, "rock1": -1.190, "margin": 0.310, "bbb": 0.28, "dili": 0.97, "herg": 0.21, "cyp3a4": 0.05, "admet_pass": false, "note": "Clean hERG+CYP but fails BBB+DILI"},
+    {"mol_id": "1334_0", "smiles": "Cc1cc(NS(=O)(=O)c2cccc(Nc3cc(-c4ccccc4)ccn3)c2)ccn1", "scaffold": "sulfonamide-pyridine", "limk2": -0.690, "limk1": -1.000, "rock1": -1.500, "margin": 0.310, "bbb": 0.52, "dili": 0.98, "herg": 0.86, "cyp3a4": 0.95, "admet_pass": false, "note": "Sulfonamide like Fasudil but different scaffold"},
+    {"mol_id": "1345_0", "smiles": "Oc1ccc2[nH]c(-c3[nH+]ccn3-c3ccccc3)nc2c1-c1ccccc1", "scaffold": "benzimidazole-imidazole", "limk2": -0.300, "limk1": -0.610, "rock1": -3.870, "margin": 0.310, "bbb": 0.23, "dili": 0.70, "herg": 0.77, "cyp3a4": 0.50, "admet_pass": false, "note": "Strong ROCK1 anti-binding"}
+  ],
+  "key_insight": "1219_0 (pyrazolo-pyridine) is the lead: BBB 0.73 PASS + DILI 0.24 PASS. hERG 0.88 and CYP3A4 0.81 are optimizable via medicinal chemistry (reduce basicity, lower lipophilicity). 1326_0 has complementary ADMET (hERG 0.21, CYP 0.05) — hybrid scaffold merging could combine best properties.",
+  "negative_result_fasudil": "0/20 Fasudil variants achieved LIMK2 selectivity. Isoquinoline sulfonamide scaffold is inherently ROCK-preferring. Different scaffolds required.",
+  "campaign_progress": "114/4346 molecules docked on 1/4 GPUs. Projected: 20-50 total selective hits when complete."
+}
