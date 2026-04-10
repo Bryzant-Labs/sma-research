@@ -1,0 +1,163 @@
+{
+  "campaign": "fasudil_scaffold_hop",
+  "date": "2026-04-09T20:08:09.282003",
+  "n_samples": 20,
+  "targets": {
+    "LIMK2": {
+      "pdb": "4TPT",
+      "center": [
+        -13.2,
+        6.4,
+        28.0
+      ]
+    },
+    "LIMK1": {
+      "pdb": "3S95",
+      "center": [
+        31.0,
+        14.5,
+        50.8
+      ]
+    },
+    "ROCK1": {
+      "pdb": "2ESM",
+      "center": [
+        25.2,
+        118.3,
+        23.7
+      ]
+    },
+    "ROCK2": {
+      "pdb": "2H9V",
+      "center": [
+        19.5,
+        -2.3,
+        15.8
+      ]
+    }
+  },
+  "compounds": [
+    {
+      "name": "Fasudil_ref",
+      "smiles": "O=S(=O)(c1cccc2cnccc12)N1CCCNCC1",
+      "rationale": "Reference compound",
+      "composite_score": 0.2684
+    },
+    {
+      "name": "B_7CFFF",
+      "smiles": "O=S(=O)(c1cccc2cnc(C(F)(F)F)cc12)N1CCCNCC1",
+      "rationale": "Pos-7 CF3 \u2014 strong electron withdrawal, metabolic stability",
+      "composite_score": 0.2671
+    },
+    {
+      "name": "A_homopiperazine_7ring",
+      "smiles": "O=S(=O)(c1cccc2cnccc12)N1CCCCNCC1",
+      "rationale": "7-ring reaches deeper into LIMK2 pocket",
+      "composite_score": 0.2629
+    },
+    {
+      "name": "B_7C",
+      "smiles": "Cc1cc2c(S(=O)(=O)N3CCCNCC3)cccc2cn1",
+      "rationale": "Pos-7 Methyl \u2014 hydrophobic filling of LIMK2 hinge pocket",
+      "composite_score": 0.2584
+    },
+    {
+      "name": "A_homopiperazine_contract",
+      "smiles": "O=S(=O)(c1cccc2cnccc12)N1CCNCC1",
+      "rationale": "Smaller ring may better fit LIMK2 pocket",
+      "composite_score": 0.2582
+    },
+    {
+      "name": "B_7Cl",
+      "smiles": "O=S(=O)(c1cccc2cnc(Cl)cc12)N1CCCNCC1",
+      "rationale": "Pos-7 Chlorine \u2014 hydrophobic contact, moderate size",
+      "composite_score": 0.2572
+    },
+    {
+      "name": "B_7OC",
+      "smiles": "COc1cc2c(S(=O)(=O)N3CCCNCC3)cccc2cn1",
+      "rationale": "Pos-7 Methoxy \u2014 H-bond acceptor toward T407",
+      "composite_score": 0.2564
+    },
+    {
+      "name": "B_7F",
+      "smiles": "O=S(=O)(c1cccc2cnc(F)cc12)N1CCCNCC1",
+      "rationale": "Pos-7 Fluorine \u2014 metabolic blocker, minimal size increase",
+      "composite_score": 0.2548
+    },
+    {
+      "name": "A_pyrrolidine",
+      "smiles": "O=S(=O)(c1cccc2cnccc12)N1CCCC1",
+      "rationale": "Smaller ring, different geometry vs piperazine",
+      "composite_score": 0.2515
+    },
+    {
+      "name": "B_7N",
+      "smiles": "Nc1cc2c(S(=O)(=O)N3CCCNCC3)cccc2cn1",
+      "rationale": "Pos-7 Amino \u2014 H-bond donor for K383 interaction",
+      "composite_score": 0.2493
+    },
+    {
+      "name": "B_8CFFF",
+      "smiles": "O=S(=O)(c1cccc2cncc(C(F)(F)F)c12)N1CCCNCC1",
+      "rationale": "Pos-8 CF3 \u2014 strong electron withdrawal, metabolic stability",
+      "composite_score": 0.2487
+    },
+    {
+      "name": "A_piperidine",
+      "smiles": "O=S(=O)(c1cccc2cnccc12)N1CCCCC1",
+      "rationale": "Piperidine \u2014 no second N, tests basicity effect",
+      "composite_score": 0.2485
+    },
+    {
+      "name": "B_8Cl",
+      "smiles": "O=S(=O)(c1cccc2cncc(Cl)c12)N1CCCNCC1",
+      "rationale": "Pos-8 Chlorine \u2014 hydrophobic contact, moderate size",
+      "composite_score": 0.2474
+    },
+    {
+      "name": "B_8C",
+      "smiles": "Cc1cncc2cccc(S(=O)(=O)N3CCCNCC3)c12",
+      "rationale": "Pos-8 Methyl \u2014 hydrophobic filling of LIMK2 hinge pocket",
+      "composite_score": 0.2461
+    },
+    {
+      "name": "B_5F",
+      "smiles": "O=S(=O)(c1cc(F)cc2cnccc12)N1CCCNCC1",
+      "rationale": "Pos-5 Fluorine \u2014 metabolic blocker, minimal size increase",
+      "composite_score": 0.246
+    },
+    {
+      "name": "B_5Cl",
+      "smiles": "O=S(=O)(c1cc(Cl)cc2cnccc12)N1CCCNCC1",
+      "rationale": "Pos-5 Chlorine \u2014 hydrophobic contact, moderate size",
+      "composite_score": 0.2457
+    },
+    {
+      "name": "B_5C",
+      "smiles": "Cc1cc(S(=O)(=O)N2CCCNCC2)c2ccncc2c1",
+      "rationale": "Pos-5 Methyl \u2014 hydrophobic filling of LIMK2 hinge pocket",
+      "composite_score": 0.2452
+    },
+    {
+      "name": "B_8F",
+      "smiles": "O=S(=O)(c1cccc2cncc(F)c12)N1CCCNCC1",
+      "rationale": "Pos-8 Fluorine \u2014 metabolic blocker, minimal size increase",
+      "composite_score": 0.2418
+    },
+    {
+      "name": "B_6CFFF",
+      "smiles": "O=S(=O)(c1c(C(F)(F)F)ccc2cnccc12)N1CCCNCC1",
+      "rationale": "Pos-6 CF3 \u2014 strong electron withdrawal, metabolic stability",
+      "composite_score": 0.2407
+    },
+    {
+      "name": "A_4NH2_piperidine",
+      "smiles": "NC1CCN(S(=O)(=O)c2cccc3cnccc23)CC1",
+      "rationale": "Amine for H-bond with K383 and T407",
+      "composite_score": 0.2403
+    }
+  ],
+  "total_jobs": 80,
+  "estimated_time_minutes": 240
+}

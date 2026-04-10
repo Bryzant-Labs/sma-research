@@ -1,0 +1,9 @@
+{
+  "target": "LIMK2_LIMKi3_POCKET_FIXED",
+  "type": "holo",
+  "compound": "COc1cc2ncnc(Nc3cc(OC)c(OC)c(OC)c3)c2cc1OC",
+  "ns": 10,
+  "ns_per_day": 35.3,
+  "atoms": 220190,
+  "elapsed_s": 24451.8
+}

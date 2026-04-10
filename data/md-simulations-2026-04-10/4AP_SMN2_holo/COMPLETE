@@ -1,0 +1,12 @@
+{
+  "job": "4AP_SMN2_holo",
+  "type": "holo",
+  "smiles": "Nc1ccncc1",
+  "pdb": "AF-Q02447",
+  "ns": 20,
+  "atoms_total": 433761,
+  "hetatm_lines": 422419,
+  "elapsed_h": 24.392,
+  "binding_contacts": [],
+  "status": "COMPLETE"
+}

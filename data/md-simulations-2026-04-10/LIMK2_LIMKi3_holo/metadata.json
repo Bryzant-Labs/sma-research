@@ -1,0 +1,14 @@
+{
+  "compound_id": "LIMKi3_reference",
+  "smiles": "CC(C)Nc1ncnc(-c2ccc3[nH]ccc3c2)c1C#N",
+  "target": "LIMK2",
+  "pdb_template": "4TPT",
+  "simulation_ns": 20,
+  "total_atoms": 95615,
+  "force_field": "amber14 + GAFF2 + TIP3P-FB",
+  "elapsed_hours": 6.04,
+  "status": "COMPLETE",
+  "ligand_present_final": true,
+  "dili_score": 0.95,
+  "note": "LIMKi3 reference \u2014 HIGH liver toxicity (DILI=0.95). For MMPBSA comparison only, not clinical candidate."
+}

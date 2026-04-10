@@ -1,0 +1,14 @@
+{
+  "model_name": "SMA-Foundation-v1",
+  "architecture": "ESM-2 650M backbone + task heads",
+  "task_heads": {
+    "drug_target_binding": "affinity regression",
+    "splicing_prediction": "delta-PSI regression",
+    "pathway_activity": "GSEA hallmark regression",
+    "toxicity": "ADMET multi-label",
+    "disease_relevance": "SMA score 0-1"
+  },
+  "hardware_for_training": "8x A100 80GB (XE9680 cluster)",
+  "prep_status": "COMPLETE",
+  "generated": "2026-04-09T22:54:56.803405+00:00"
+}

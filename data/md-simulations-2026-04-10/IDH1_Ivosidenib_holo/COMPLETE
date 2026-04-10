@@ -1,0 +1,9 @@
+{
+  "target": "IDH1_Ivosidenib_holo",
+  "type": "holo",
+  "compound": "N#Cc1ccc(-c2cc(C(F)(F)Cl)nn2-c2ccc(OC3(C(=O)NC4CC4)CC3)cc2)cn1",
+  "ns": 20,
+  "ns_per_day": 13.1,
+  "atoms": 946206,
+  "elapsed_s": 132098.6
+}

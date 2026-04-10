@@ -1,0 +1,42 @@
+=================================================================
+DiffDock Fasudil Scaffold-Hop Selectivity Report
+Date     : 2026-04-09 20:25:41
+Runtime  : 1.63h
+Compounds: 20
+Targets  : LIMK2 (4TPT), LIMK1 (3S95), ROCK1 (2ESM), ROCK2 (2H9V)
+Poses/job: 10
+Threshold: margin > 0.3
+=================================================================
+
+SELECTIVE compounds (0/20):
+-----------------------------------------------------------------
+  None above threshold.
+
+ALL COMPOUNDS (ranked by selectivity margin):
+-----------------------------------------------------------------
+Name                            LIMK2  LIMK1  ROCK1  ROCK2  Margin
+B_7Cl                           0.050 -0.140 -0.460 -0.110   0.160  
+B_7F                           -0.090 -0.090 -0.020 -0.160  -0.070  
+B_7CFFF                        -0.460 -0.360 -1.560 -1.180  -0.100  
+B_7C                           -0.150 -0.040 -0.630 -0.450  -0.110  
+B_7OC                          -0.280  0.030 -0.660 -0.460  -0.310  
+A_4NH2_piperidine              -0.080  0.080 -0.220  0.280  -0.360  
+B_5Cl                          -0.140  0.050  0.370  0.080  -0.510  
+B_5F                           -0.150  0.140  0.360  0.150  -0.510  
+A_homopiperazine_contract      -0.480 -0.080  0.100 -0.020  -0.580  
+A_homopiperazine_7ring         -0.470 -0.170  0.130 -0.070  -0.600  
+B_7N                           -0.450  0.210 -0.220  0.260  -0.710  
+A_piperidine                   -0.740 -0.220  0.040  0.010  -0.780  
+B_6CFFF                        -0.810 -0.190 -0.790  0.000  -0.810  
+B_8C                           -0.850 -0.020 -0.310 -0.190  -0.830  
+A_pyrrolidine                  -0.270  0.050  0.010  0.600  -0.870  
+B_8CFFF                        -1.190 -0.140 -0.570 -0.380  -1.050  
+B_8F                           -0.490  0.010  0.030  0.620  -1.110  
+B_5C                           -0.590  0.330  0.000  0.580  -1.170  
+Fasudil_ref                    -0.850 -0.040 -0.150  0.350  -1.200  
+B_8Cl                          -0.870 -0.010  0.040  0.450  -1.320  
+
+Key insight: * = selective (LIMK2 margin > 0.3 vs best off-target)
+ROCK2: Fasudil binds this strongly — selective compounds should show
+       reduced ROCK2 confidence compared to Fasudil_ref.
+=================================================================

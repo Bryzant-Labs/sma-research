@@ -1,0 +1,13 @@
+{
+  "compound_id": "BMS5_reference",
+  "smiles": "COc1cc2c(Nc3ccc(F)c(F)c3)ncnc2cc1OCCCN1CCOCC1",
+  "target": "LIMK2",
+  "pdb_template": "4TPT",
+  "simulation_ns": 20,
+  "total_atoms": 95637,
+  "force_field": "amber14 + GAFF2 + TIP3P-FB",
+  "elapsed_hours": 7.58,
+  "status": "COMPLETE",
+  "ligand_present_final": true,
+  "note": "BMS-5 reference inhibitor for MMPBSA comparison"
+}

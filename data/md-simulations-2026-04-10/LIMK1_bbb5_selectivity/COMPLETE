@@ -1,0 +1,9 @@
+{
+  "target": "LIMK1_bbb5_selectivity",
+  "type": "holo",
+  "compound": "CC(C)C(=O)N1CC[C@@H](NCC(F)(F)F)[C@H](c2ccncc2)C1",
+  "ns": 10,
+  "ns_per_day": 42.4,
+  "atoms": 190242,
+  "elapsed_s": 20400.1
+}

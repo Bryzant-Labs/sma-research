@@ -1,0 +1,9 @@
+{
+  "target": "SMN2_vs_Kv12_4AP_selectivity",
+  "type": "holo",
+  "compound": "Nc1ccncc1",
+  "ns": 10,
+  "ns_per_day": 18.8,
+  "atoms": 992611,
+  "elapsed_s": 45949.9
+}

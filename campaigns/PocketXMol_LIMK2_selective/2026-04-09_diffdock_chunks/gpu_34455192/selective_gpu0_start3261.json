@@ -1,0 +1,79 @@
+[
+  {
+    "mol_id": "84_0",
+    "smiles": "O=C(NCc1cccnc1-c1ccccc1)N1CCN2CC=C=C21",
+    "limk2_confidence": -0.17,
+    "limk1_confidence": -0.85,
+    "rock1_confidence": -1.23,
+    "selectivity_margin": 0.68,
+    "selective": true,
+    "best_pose_sdf": "/results/diffdock_selectivity/docked/84_0/LIMK2/complex_0/rank1_confidence-0.17.sdf",
+    "errors": []
+  },
+  {
+    "mol_id": "851_0",
+    "smiles": "O=c1c2nc3cc4c(nc3c=2c2ccnc3cccc1c32)=c1ccccc1=N4",
+    "limk2_confidence": -0.05,
+    "limk1_confidence": -0.73,
+    "rock1_confidence": -4.03,
+    "selectivity_margin": 0.68,
+    "selective": true,
+    "best_pose_sdf": "/results/diffdock_selectivity/docked/851_0/LIMK2/complex_0/rank1_confidence-0.05.sdf",
+    "errors": []
+  },
+  {
+    "mol_id": "293_0",
+    "smiles": "Nc1ncc(-c2ccc(-c3ccc4c(Cc5cccnc5)cccc4n3)cc2)cn1",
+    "limk2_confidence": -0.68,
+    "limk1_confidence": -1.48,
+    "rock1_confidence": -1.22,
+    "selectivity_margin": 0.54,
+    "selective": true,
+    "best_pose_sdf": "/results/diffdock_selectivity/docked/293_0/LIMK2/complex_0/rank1_confidence-0.68.sdf",
+    "errors": []
+  },
+  {
+    "mol_id": "987_0",
+    "smiles": "CC1=C2C(=Nc3ccccc32)C=C1c1nc2c3c(nn(C)c3n1)C=C2",
+    "limk2_confidence": -0.21,
+    "limk1_confidence": -0.73,
+    "rock1_confidence": -0.67,
+    "selectivity_margin": 0.46,
+    "selective": true,
+    "best_pose_sdf": "/results/diffdock_selectivity/docked/987_0/LIMK2/complex_0/rank1_confidence-0.21.sdf",
+    "errors": []
+  },
+  {
+    "mol_id": "1019_0",
+    "smiles": "COC(=O)c1cccc(-c2nccc(-c3ccccc3C(=O)O)n2)c1",
+    "limk2_confidence": -0.51,
+    "limk1_confidence": -0.97,
+    "rock1_confidence": -1.87,
+    "selectivity_margin": 0.46,
+    "selective": true,
+    "best_pose_sdf": "/results/diffdock_selectivity/docked/1019_0/LIMK2/complex_0/rank1_confidence-0.51.sdf",
+    "errors": []
+  },
+  {
+    "mol_id": "307_0",
+    "smiles": "Oc1cccc(Cn2c(NCCc3ccccc3)nc3c4ncccc4ccc32)c1",
+    "limk2_confidence": -0.65,
+    "limk1_confidence": -1.04,
+    "rock1_confidence": -1.87,
+    "selectivity_margin": 0.39,
+    "selective": true,
+    "best_pose_sdf": "/results/diffdock_selectivity/docked/307_0/LIMK2/complex_0/rank1_confidence-0.65.sdf",
+    "errors": []
+  },
+  {
+    "mol_id": "434_0",
+    "smiles": "O=C1CN(c2ccccc2)c2ccccc2CN1CCc1cccc2ncccc12",
+    "limk2_confidence": -0.86,
+    "limk1_confidence": -1.19,
+    "rock1_confidence": -2.05,
+    "selectivity_margin": 0.33,
+    "selective": true,
+    "best_pose_sdf": "/results/diffdock_selectivity/docked/434_0/LIMK2/complex_0/rank1_confidence-0.86.sdf",
+    "errors": []
+  }
+]

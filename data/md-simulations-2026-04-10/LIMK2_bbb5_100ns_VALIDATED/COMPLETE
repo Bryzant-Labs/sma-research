@@ -1,0 +1,9 @@
+{
+  "target": "LIMK2_bbb5_100ns_VALIDATED",
+  "type": "holo",
+  "compound": "CC(C)C(=O)N1CC[C@@H](NCC(F)(F)F)[C@H](c2ccncc2)C1",
+  "ns": 10,
+  "ns_per_day": 39.7,
+  "atoms": 219212,
+  "elapsed_s": 21751.8
+}

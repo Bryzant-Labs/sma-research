@@ -1,0 +1,12 @@
+{
+  "job": "SMN2_Riluzole_holo",
+  "type": "holo",
+  "smiles": "Nc1nc2ccc(OC(F)(F)F)cc2s1",
+  "pdb": "AF-Q02447",
+  "ns": 20,
+  "atoms_total": 436522,
+  "hetatm_lines": 425180,
+  "elapsed_h": 24.387,
+  "binding_contacts": [],
+  "status": "COMPLETE"
+}

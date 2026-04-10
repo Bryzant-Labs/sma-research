@@ -1,0 +1,18 @@
+{
+  "target": "LIMK2_BMS5_POCKET_FIXED",
+  "type": "holo",
+  "pdb": "4TPT",
+  "pocket_method": "POCKET_FIXED_validated",
+  "pocket_center": [
+    -13.2,
+    6.4,
+    28.0
+  ],
+  "compound": "COc1cc2c(Nc3ccc(F)c(F)c3)ncnc2cc1OCCCN1CCOCC1",
+  "compound_id": "BMS5_reference",
+  "ns": 20,
+  "ns_per_day": 54.5,
+  "atoms": 229467,
+  "elapsed_s": 31680.8,
+  "note": "BMS-5 reference inhibitor. POCKET_FIXED re-run with NAGL charges."
+}

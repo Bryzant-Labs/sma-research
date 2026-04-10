@@ -1,0 +1,75 @@
+======================================================================
+PocketXMol DFG-out LIMK2 Selective — Pipeline Report
+Generated: 2026-04-09T15:15:06.503662+00:00
+Pipeline: v2.1 (ADMET + Retrosynthesis + Safety + Selectivity proxy)
+======================================================================
+
+CAMPAIGN
+--------
+Target: LIMK2 DFG-out allosteric pocket (4TPT)
+Goal: LIMK2-selective Type II inhibitor (DFG-out conformation)
+Rationale: bbb5 failed selectivity (ROCK1 binding > LIMK2).
+          DFG-out pocket exposes LIMK2-unique residues (K383, T407, G408).
+
+FUNNEL SUMMARY
+--------------
+  Input molecules:          17458
+  Stage 1 (ADMET):          11256  (64.5%)
+  Stage 1.5 (SAScore):      10700  (61.3%)
+  Stage 2 (Safety):          4346  (24.9%)
+  Stage 3 (Selectivity):       16  (0.1%)
+
+STAGE DETAILS
+-------------
+  Stage 1 ADMET thresholds:
+    QED >= 0.35
+    BBB score >= 0.3
+    Lipinski violations <= 1
+    MW: 200-600 Da
+  Stage 1.5 retrosynthesis: SAScore < 4.0
+    Method: SAScore (Ertl 2009)
+  Stage 2 safety: PAINS_A/B/C + Brenk filters
+    MW: 200-500 Da, LogP: 0-5, HBD<=5, HBA<=10
+  Stage 3 selectivity proxy (structural similarity):
+    LIMK2_similarity - max(LIMK1_sim, ROCK1_sim) > 0.15
+    Method: Morgan-Tanimoto similarity proxy (not real docking)
+    NOTE: All survivors MUST be validated by DiffDock on GPU.
+
+TOP 50 CANDIDATES
+--------------------
+Ranking formula: 0.35*selectivity + 0.30*BBB + 0.20*QED + 0.15*SAScore
+
+Rank  Name                           Score   BBB    QED    SA    SelMar   SMILES
+----------------------------------------------------------------------------------------------------------------------------------
+1     302-incomp_0                   0.6492  0.762  0.715  1.53  0.205    CNc1cccc(C)c1.O=C(Nc1ccccc1)c1ccccc1
+2     302-incomp_0                   0.6492  0.762  0.715  1.53  0.205    CNc1cccc(C)c1.O=C(Nc1ccccc1)c1ccccc1
+3     159-incomp_0                   0.6195  0.558  0.734  1.47  0.242    Cc1cccc(C(=O)O)c1.O=C(Nc1ccccc1)c1ccccc1
+4     159-incomp_0                   0.6195  0.558  0.734  1.47  0.242    Cc1cccc(C(=O)O)c1.O=C(Nc1ccccc1)c1ccccc1
+5     1169-incomp_0                  0.5775  0.558  0.734  1.47  0.182    Cc1cccc(NC(=O)c2ccccc2)c1.O=C(O)c1ccccc1
+6     1169-incomp_0                  0.5775  0.558  0.734  1.47  0.182    Cc1cccc(NC(=O)c2ccccc2)c1.O=C(O)c1ccccc1
+7     758_0                          0.5425  0.686  0.460  2.44  0.197    COc1ccc2c(c1)NC(=O)c1c3ccccc3n3c1c-2nc1ccccc13
+8     758_0                          0.5425  0.686  0.460  2.44  0.197    COc1ccc2c(c1)NC(=O)c1c3ccccc3n3c1c-2nc1ccccc13
+9     1222_0                         0.5354  0.521  0.749  2.16  0.163    CN1c2ccccc2N(C)c2cc(-c3ccc(S(N)(=O)=O)cc3)ccc21
+10    1222_0                         0.5354  0.521  0.749  2.16  0.163    CN1c2ccccc2N(C)c2cc(-c3ccc(S(N)(=O)=O)cc3)ccc21
+11    179-incomp_0                   0.5166  0.455  0.656  1.6   0.167    Cc1ccc(O)cc1.O=C(O)c1cccc(NC(=O)c2ccccc2)c1
+12    179-incomp_0                   0.5166  0.455  0.656  1.6   0.167    Cc1ccc(O)cc1.O=C(O)c1cccc(NC(=O)c2ccccc2)c1
+13    2138_0                         0.4933  0.469  0.473  2.65  0.225    Cn1c2ccccc2c2c3c(c(C(=O)O)cc21)Nc1ccccc1C(=O)N3
+14    2138_0                         0.4933  0.469  0.473  2.65  0.225    Cn1c2ccccc2c2c3c(c(C(=O)O)cc21)Nc1ccccc1C(=O)N3
+15    1740-incomp_0                  0.4724  0.545  0.471  2.81  0.170    Cc1ccccc1C.Cn1c(=O)[nH+]c(-c2nc3ccccc3[nH]2)c2ccccc21
+16    1740-incomp_0                  0.4724  0.545  0.471  2.81  0.170    Cc1ccccc1C.Cn1c(=O)[nH+]c(-c2nc3ccccc3[nH]2)c2ccccc21
+
+NEXT STEPS
+----------
+  - GPU docking: 16 molecules vs LIMK2 (4TPT), LIMK1 (3S95), ROCK1 (2ESM)
+  - Apply real docking selectivity gate: LIMK2 > LIMK1 + 0.3 AND LIMK2 > ROCK1 + 0.3
+  - MMPBSA binding free energy on top-10 after docking
+  - Send top-20 to Simon for manual review
+
+IMPORTANT CAVEAT
+----------------
+Stage 3 selectivity is a STRUCTURAL PROXY, not real docking.
+Tanimoto similarity to LIMK2 binders is used because DiffDock is not local.
+All 16 survivors are flagged for GPU docking validation.
+Do not report selectivity to Simon as confirmed until DiffDock results are in.
+
+======================================================================

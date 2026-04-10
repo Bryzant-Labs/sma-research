@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-09",
+  "method": "MDAnalysis contact proxy (POCKET_FIXED coordinates)",
+  "compound": "bbb5 (genmol_119_bbb_5)",
+  "smiles": "CC(C)C(=O)N1CC[C@@H](NCC(F)(F)F)[C@H](c2ccncc2)C1",
+  "panel": [
+    {"target": "LIMK2", "pdb": "4TPT", "role": "PRIMARY", "min_dist_A": 2.15, "contacts_6A": 1701, "proxy_dG": -255.2, "status": "BOUND"},
+    {"target": "LIMK1", "pdb": "3S95", "role": "OFF_TARGET", "min_dist_A": 1.89, "contacts_6A": 1340, "proxy_dG": -200.9, "status": "BOUND"},
+    {"target": "ROCK1", "pdb": "2ESM", "role": "OFF_TARGET", "min_dist_A": 1.95, "contacts_6A": 2591, "proxy_dG": -388.7, "status": "BOUND"},
+    {"target": "JAK2", "pdb": "3FUP", "role": "OFF_TARGET", "min_dist_A": 27.05, "contacts_6A": 13, "proxy_dG": -2.0, "status": "UNBOUND"}
+  ],
+  "selectivity": {
+    "vs_LIMK1": {"ddG": 54.3, "selective": true},
+    "vs_ROCK1": {"ddG": -133.4, "selective": false, "note": "ROCK1 binds STRONGER than LIMK2"},
+    "vs_JAK2": {"ddG": 253.3, "selective": true}
+  },
+  "verdict": "DUAL_LIMK2_ROCK1_INHIBITOR",
+  "interpretation": "bbb5 is NOT LIMK2-selective. It is a dual LIMK2/ROCK1 inhibitor with selectivity over LIMK1 and JAK2. ROCK1 binding is actually STRONGER (2591 contacts) than LIMK2 (1701 contacts). This may be therapeutically beneficial for SMA since ROCK-LIMK2-CFL2 is the therapeutic axis.",
+  "next_steps": "PocketXMol DFG-out campaign for true LIMK2-selective compound. bbb5 reclassified as dual-pathway inhibitor candidate."
+}

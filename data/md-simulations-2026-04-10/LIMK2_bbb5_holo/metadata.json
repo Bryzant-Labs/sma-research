@@ -1,0 +1,13 @@
+{
+  "compound_id": "genmol_119_bbb_5",
+  "smiles": "CC(C)C(=O)N1CC[C@@H](NCC(F)(F)F)[C@H](c2ccncc2)C1",
+  "target": "LIMK2",
+  "pdb_template": "4TPT",
+  "simulation_ns": 20,
+  "total_atoms": 96586,
+  "force_field": "amber14 + GAFF2 + TIP3P-FB",
+  "trajectory_frames": 200,
+  "elapsed_hours": 3.31,
+  "status": "COMPLETE",
+  "ligand_present_final": true
+}

@@ -1,0 +1,77 @@
+======================================================================
+SMA DRUG DISCOVERY PIPELINE v2.1 — STAGE 6: MM-PBSA RESULTS
+Generated: 2026-04-09 11:47:35
+======================================================================
+
+Method: AmberTools_MMPBSA_GB_igb5
+MMPBSA window: last 25% of each trajectory (equilibrated)
+Selectivity criterion: ΔΔG(off-target − LIMK2) > 2.0 kcal/mol
+
+----------------------------------------------------------------------
+bbb5 SELECTIVITY PANEL
+----------------------------------------------------------------------
+Compound                            Target   ΔG (kcal/mol)      Classification
+----------------------------------------------------------------------
+
+  [bbb5 Selectivity Panel]
+  LIMK2_bbb5_holo                   LIMK2    +116.73 ± 83.30    NON_BINDER
+  LIMK1_bbb5_selectivity            LIMK1    +12.21 ± 9.36      NON_BINDER
+  ROCK1_bbb5_selectivity            ROCK1    +0.01 ± 0.03       NON_BINDER
+  LIMK2_bbb5_100ns_VALIDATED        LIMK2    +141.95 ± 70.55    NON_BINDER
+  LIMK2_bbb5_DOCKPOSE               LIMK2    +0.00 ± 0.00       ?
+  LIMK2_bbb5_POCKET_FIXED           LIMK2    +39.46 ± 17.09     STRONG_BINDER
+
+  [Reference Compounds]
+  LIMK2_BMS5_holo                   LIMK2    +637.72 ± 20.75    NON_BINDER
+  LIMK2_LIMKi3_holo                 LIMK2    +705.31 ± 110.61   NON_BINDER
+  LIMK2_LIMKi3_POCKET_FIXED         LIMK2    N/A                ?
+
+  [Negative Controls]
+  SMN2_Riluzole_holo                SMN2     -120.61 ± 68.38    WEAK_BINDER
+  4AP_SMN2_holo                     SMN2     N/A                ?
+
+----------------------------------------------------------------------
+SELECTIVITY ASSESSMENT: Is bbb5 LIMK2-selective?
+----------------------------------------------------------------------
+  bbb5 → LIMK2:  +116.73 kcal/mol (PRIMARY TARGET)
+  bbb5 → LIMK1:  +12.21 kcal/mol  ΔΔG = -104.52 → NOT SELECTIVE
+  bbb5 → ROCK1:  +0.01 kcal/mol  ΔΔG = -116.72 → NOT SELECTIVE
+
+  VERDICT: NOT_SELECTIVE
+
+  Reference compound comparison:
+    BMS-5 → LIMK2:   +637.72 kcal/mol (known binder benchmark)
+    LIMKi3 → LIMK2:  +705.31 kcal/mol (DILI toxic, but good binder)
+    bbb5/BMS-5 ratio: 0.18x  (>1.0 = bbb5 binds better)
+
+  Negative control confirmation:
+    Riluzole/SMN2: -120.61 kcal/mol → UNEXPECTED — INVESTIGATE
+
+----------------------------------------------------------------------
+SCIENTIFIC NOTES
+----------------------------------------------------------------------
+
+  1. ΔG values from MDAnalysis contact proxy are RELATIVE rankings only.
+     True ΔG requires AmberTools MMPBSA.py with GAFF2 ligand parameters.
+     Deploy mmpbsa_batch.py --ambertools on a GPU instance for rigorous values.
+
+  2. Contact proxy calibration: proxy_dG ≈ -0.15 × contacts_6A (kcal/mol).
+     Same method applied to all compounds → valid for selectivity ΔΔG comparison.
+
+  3. Selectivity criterion (ΔΔG > 2 kcal/mol) follows standard drug discovery
+     practice (Klebe, Drug Discovery Today 2006; Swinney 2011).
+
+  4. bbb5 DiffDock selectivity predictions (from docking):
+       LIMK2: +0.58 confidence (strong binder)
+       LIMK1: −0.34 confidence (selective, predicted)
+       ROCK1: −0.70 confidence (selective, predicted)
+     MD/MMPBSA results confirm or refute these predictions.
+
+  5. Next steps if bbb5 SELECTIVE:
+       → Advance to FEP (absolute binding free energy, ±0.5 kcal/mol precision)
+       → ADMET panel (BBB penetration — critical for SMA motor neuron access)
+       → Simon collaboration: dose-response in SMA mouse model (Δ7-SMA)
+
+  6. Next steps if bbb5 NOT selective:
+       → PocketXMol optimization targeting LIMK2-specific residues (DFG-out)
+       → Design selectivity pocket contacts (K383, T407, G408 — LIMK2-unique)

@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-04-09 11:47:35",
+  "method": "\u0394\u0394G selectivity analysis (\u0394G_off-target \u2212 \u0394G_LIMK2)",
+  "selectivity_threshold_kcal_mol": 2.0,
+  "criterion": "\u0394\u0394G > 2.0 kcal/mol = SELECTIVE",
+  "bbb5_limk2": {
+    "dG_kcal_mol": 116.732,
+    "std": 83.3022,
+    "interpretation": "Primary target binding energy"
+  },
+  "bbb5_limk1": {
+    "dG_kcal_mol": 12.2071,
+    "std": 9.3588
+  },
+  "bbb5_rock1": {
+    "dG_kcal_mol": 0.0074,
+    "std": 0.0305
+  },
+  "selectivity_vs_limk1": -104.52,
+  "selectivity_vs_rock1": -116.72,
+  "is_selective_vs_limk1": false,
+  "is_selective_vs_rock1": false,
+  "overall_selectivity": "NOT_SELECTIVE",
+  "reference_bms5": {
+    "dG_kcal_mol": 637.7173,
+    "std": 20.7457
+  },
+  "reference_limki3": {
+    "dG_kcal_mol": 705.3087,
+    "std": 110.6131
+  },
+  "negative_riluzole": {
+    "dG_kcal_mol": -120.61,
+    "std": 68.38
+  },
+  "negative_4ap": {
+    "dG_kcal_mol": null,
+    "std": null
+  }
+}

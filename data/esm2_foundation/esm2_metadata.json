@@ -1,0 +1,50 @@
+{
+  "SMN1": {
+    "uniprot": "Q16637",
+    "role": "Survival Motor Neuron 1 - disease gene",
+    "seq_len": 294,
+    "embedding_dim": 1280
+  },
+  "SMN2": {
+    "uniprot": "P0C7T4",
+    "role": "SMN2 - base editing target",
+    "seq_len": 53,
+    "embedding_dim": 1280
+  },
+  "ROCK1": {
+    "uniprot": "Q13464",
+    "role": "ROCK1 - ROCK-LIMK2-CFL2 axis",
+    "seq_len": 1022,
+    "embedding_dim": 1280
+  },
+  "ROCK2": {
+    "uniprot": "O75116",
+    "role": "ROCK2 - therapeutic target",
+    "seq_len": 1022,
+    "embedding_dim": 1280
+  },
+  "LIMK1": {
+    "uniprot": "P53667",
+    "role": "LIMK1 - actin dynamics",
+    "seq_len": 647,
+    "embedding_dim": 1280
+  },
+  "LIMK2": {
+    "uniprot": "P53671",
+    "role": "LIMK2 - SMA selective ZERO competitors",
+    "seq_len": 638,
+    "embedding_dim": 1280
+  },
+  "CFL2": {
+    "uniprot": "Q9Y281",
+    "role": "Cofilin-2 - downstream effector",
+    "seq_len": 166,
+    "embedding_dim": 1280
+  },
+  "PTEN": {
+    "uniprot": "P60484",
+    "role": "PTEN - neuroprotection",
+    "seq_len": 403,
+    "embedding_dim": 1280
+  }
+}
