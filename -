@@ -1,0 +1,274 @@
+'use client'
+
+import { useState, useEffect } from 'react'
+
+interface Approach {
+  id: string; name: string; full_name: string; status: string; status_label: string
+  mechanism: string; target_edit?: string; advantages: string[]; limitations: string[]
+  key_paper?: string; key_paper_pmid?: string; our_phase?: string
+}
+interface Task { name: string; status: string; details?: string }
+interface Phase {
+  id: number; name: string; duration: string; status: string; status_label: string
+  description: string; tasks: Task[]
+}
+interface Overview {
+  tagline: string; competitive_position: string; key_advantages: string[]; key_risks: string[]
+}
+
+function StatusBadge({ status, label }: { status: string; label: string }) {
+  const classes: Record<string, string> = {
+    PRIMARY: 'bg-green-100 text-green-800',
+    STARTING: 'bg-blue-100 text-blue-800',
+    PHASE_1_STARTING: 'bg-blue-100 text-blue-800',
+    BACKUP: 'bg-yellow-100 text-yellow-800',
+    RESEARCH_TOOL: 'bg-gray-100 text-gray-700',
+    APPROVED: 'bg-purple-100 text-purple-800',
+    planned: 'bg-gray-100 text-gray-600',
+    starting: 'bg-blue-100 text-blue-700',
+  }
+  return (
+    <span className={`inline-block px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wide ${classes[status] || 'bg-gray-100 text-gray-600'}`}>
+      {label}
+    </span>
+  )
+}
+
+export default function GeneEditingPage() {
+  const [overview, setOverview] = useState<Overview | null>(null)
+  const [approaches, setApproaches] = useState<Approach[]>([])
+  const [roadmap, setRoadmap] = useState<Phase[]>([])
+  const [selected, setSelected] = useState<Approach | null>(null)
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
+
+  useEffect(() => {
+    Promise.all([
+      fetch('/api/v2/gene-editing/overview').then(r => r.json()),
+      fetch('/api/v2/gene-editing/approaches').then(r => r.json()),
+      fetch('/api/v2/gene-editing/roadmap').then(r => r.json()),
+    ])
+    .then(([ov, ap, rm]) => {
+      setOverview(ov); setApproaches(ap.approaches || []); setRoadmap(rm.phases || []); setLoading(false)
+    })
+    .catch(e => { setError(e.message); setLoading(false) })
+  }, [])
+
+  if (loading) return <div className="py-16 text-center text-text-secondary text-sm">Loading...</div>
+  if (error) return <div className="py-16 text-center text-red-500 text-sm">Error: {error}</div>
+
+  return (
+    <div className="space-y-8">
+
+      {/* Hero */}
+      <div className="bg-panel border border-line rounded-lg p-6 border-l-4 border-l-accent">
+        <div className="flex items-start justify-between gap-4 flex-wrap">
+          <div>
+            <h1 className="text-2xl font-bold text-text mb-1">SMN2 &rarr; SMN1: One Nucleotide Cure</h1>
+            <p className="text-text-secondary text-sm max-w-2xl">{overview?.tagline}</p>
+          </div>
+          <StatusBadge status="PHASE_1_STARTING" label="Phase 1 Starting" />
+        </div>
+
+        {/* DNA diagram */}
+        <div className="mt-5 p-4 bg-bg border border-line rounded-md font-mono text-sm">
+          <div className="text-xs text-muted font-sans mb-2">SMN2 exon 7 position 6 &mdash; root cause of SMA:</div>
+          <div className="flex flex-wrap gap-8">
+            <div>
+              <div className="text-xs text-muted font-sans mb-1">SMN2 (disease)</div>
+              <span className="text-text">...AGTA</span><span className="text-red-500 font-bold bg-red-50 px-0.5 rounded">C</span><span className="text-text">TTGCT...</span>
+              <div className="text-xs text-red-500 mt-0.5 font-sans">&uarr; C at pos 6 &rarr; exon 7 skipped &rarr; short SMN</div>
+            </div>
+            <div className="text-text-secondary text-xl self-center">&rarr; ABE8e &rarr;</div>
+            <div>
+              <div className="text-xs text-muted font-sans mb-1">Edited (SMN1-equivalent)</div>
+              <span className="text-text">...AGTA</span><span className="text-green-600 font-bold bg-green-50 px-0.5 rounded">T</span><span className="text-text">TTGCT...</span>
+              <div className="text-xs text-green-600 mt-0.5 font-sans">&uarr; T at pos 6 &rarr; exon 7 included &rarr; full-length SMN</div>
+            </div>
+          </div>
+        </div>
+
+        {overview && (
+          <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <div className="text-xs font-bold text-text uppercase tracking-wide mb-2">Key Advantages</div>
+              {overview.key_advantages.map((a, i) => (
+                <div key={i} className="flex gap-2 text-xs text-text-secondary py-0.5">
+                  <span className="text-green-500">&#10003;</span>{a}
+                </div>
+              ))}
+            </div>
+            <div>
+              <div className="text-xs font-bold text-text uppercase tracking-wide mb-2">Key Risks</div>
+              {overview.key_risks.map((r, i) => (
+                <div key={i} className="flex gap-2 text-xs text-text-secondary py-0.5">
+                  <span className="text-amber-500">!</span>{r}
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+        {overview?.competitive_position && (
+          <div className="mt-4 text-xs font-bold text-accent bg-blue-bg border border-blue-200 rounded px-3 py-2">
+            {overview.competitive_position}
+          </div>
+        )}
+      </div>
+
+      {/* Approaches */}
+      <div>
+        <h2 className="text-sm font-bold uppercase tracking-wide text-text mb-3">Approaches &mdash; Click for Details</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+          {approaches.map(ap => (
+            <button key={ap.id} onClick={() => setSelected(selected?.id === ap.id ? null : ap)}
+              className={`text-left p-4 border rounded-lg transition-colors ${selected?.id === ap.id ? 'border-accent bg-blue-bg' : 'border-line bg-panel hover:border-accent hover:bg-blue-bg'}`}>
+              <div className="flex items-start justify-between gap-2 mb-2">
+                <div className="text-sm font-semibold text-text">{ap.name}</div>
+                <StatusBadge status={ap.status} label={ap.status_label} />
+              </div>
+              <div className="text-xs text-text-secondary">{ap.mechanism.slice(0, 100)}...</div>
+              {ap.target_edit && <div className="mt-2 text-xs font-mono text-accent">{ap.target_edit}</div>}
+            </button>
+          ))}
+        </div>
+        {selected && (
+          <div className="mt-4 bg-panel border border-accent rounded-lg p-5">
+            <div className="flex items-start justify-between mb-3">
+              <div><h3 className="font-bold text-text">{selected.name}</h3><div className="text-xs text-muted">{selected.full_name}</div></div>
+              <button onClick={() => setSelected(null)} className="text-muted hover:text-text text-xs">&#10005;</button>
+            </div>
+            <div className="text-sm text-text-secondary mb-4">{selected.mechanism}</div>
+            <div className="grid grid-cols-2 gap-4 text-xs">
+              <div>
+                <div className="font-bold text-text uppercase tracking-wide mb-2">Advantages</div>
+                {selected.advantages.map((a, i) => <div key={i} className="flex gap-2 text-text-secondary py-0.5"><span className="text-green-500">&#10003;</span>{a}</div>)}
+              </div>
+              <div>
+                <div className="font-bold text-text uppercase tracking-wide mb-2">Limitations</div>
+                {selected.limitations.map((l, i) => <div key={i} className="flex gap-2 text-text-secondary py-0.5"><span className="text-amber-500">!</span>{l}</div>)}
+              </div>
+            </div>
+            {selected.key_paper && (
+              <div className="mt-3 pt-3 border-t border-line text-xs text-muted">
+                Key paper: <a href={`https://pubmed.ncbi.nlm.nih.gov/${selected.key_paper_pmid}/`} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">{selected.key_paper}</a>
+              </div>
+            )}
+            {selected.our_phase && <div className="mt-2 text-xs font-semibold text-accent">{selected.our_phase}</div>}
+          </div>
+        )}
+      </div>
+
+      {/* Comparison */}
+      <div>
+        <h2 className="text-sm font-bold uppercase tracking-wide text-text mb-3">Modality Comparison</h2>
+        <div className="overflow-x-auto border border-line rounded-lg">
+          <table className="w-full text-xs">
+            <thead>
+              <tr className="bg-panel border-b border-line">
+                <th className="text-left px-3 py-2 text-text-secondary">Criterion</th>
+                <th className="text-left px-3 py-2 text-green-700">Base Editing (ABE8e)</th>
+                <th className="text-left px-3 py-2 text-text-secondary">Zolgensma</th>
+                <th className="text-left px-3 py-2 text-text-secondary">Nusinersen</th>
+                <th className="text-left px-3 py-2 text-text-secondary">Risdiplam</th>
+              </tr>
+            </thead>
+            <tbody>
+              {([
+                ['Root cause fix', 'YES — corrects SMN2', 'Partial — adds SMN1', 'NO — symptomatic', 'NO — symptomatic'],
+                ['Permanence', 'Permanent (genomic)', 'Semi-permanent', 'Repeat dosing', 'Repeat dosing'],
+                ['DSBs', 'None', 'None', 'None', 'None'],
+                ['Dosing', 'One time', 'One time', 'q4-6 months', 'Oral daily'],
+                ['Approved', 'No — Phase 1 design', 'Yes (2019)', 'Yes (2016)', 'Yes (2020)'],
+              ] as string[][]).map((row, i) => (
+                <tr key={i} className="border-b border-line last:border-0 hover:bg-blue-bg">
+                  <td className="px-3 py-2 font-medium text-text">{row[0]}</td>
+                  <td className="px-3 py-2 text-green-700 font-medium">{row[1]}</td>
+                  <td className="px-3 py-2 text-text-secondary">{row[2]}</td>
+                  <td className="px-3 py-2 text-text-secondary">{row[3]}</td>
+                  <td className="px-3 py-2 text-text-secondary">{row[4]}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      {/* Roadmap */}
+      <div>
+        <h2 className="text-sm font-bold uppercase tracking-wide text-text mb-3">Development Roadmap</h2>
+        <div className="space-y-4">
+          {roadmap.map(phase => (
+            <div key={phase.id} className={`border rounded-lg overflow-hidden ${phase.status === 'STARTING' ? 'border-accent' : 'border-line'}`}>
+              <div className={`flex items-center justify-between px-4 py-3 ${phase.status === 'STARTING' ? 'bg-blue-bg' : 'bg-panel'}`}>
+                <div className="flex items-center gap-3">
+                  <div className={`w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold ${phase.status === 'STARTING' ? 'bg-accent text-white' : 'bg-line text-text-secondary'}`}>{phase.id}</div>
+                  <div>
+                    <div className="font-semibold text-text text-sm">{phase.name}</div>
+                    <div className="text-xs text-muted">{phase.duration}</div>
+                  </div>
+                </div>
+                <StatusBadge status={phase.status} label={phase.status_label} />
+              </div>
+              <div className="px-4 py-3 bg-bg">
+                <p className="text-xs text-text-secondary mb-3">{phase.description}</p>
+                <div className="divide-y divide-line">
+                  {phase.tasks.map((task, ti) => (
+                    <div key={ti} className="flex items-start gap-3 py-2">
+                      <div className={`mt-1.5 w-2 h-2 rounded-full flex-shrink-0 ${task.status === 'starting' ? 'bg-blue-500' : 'bg-gray-300'}`} />
+                      <div className="flex-1">
+                        <div className="text-sm font-medium text-text">{task.name}</div>
+                        {task.details && <div className="text-xs text-text-secondary mt-0.5">{task.details}</div>}
+                      </div>
+                      <StatusBadge status={task.status} label={task.status === 'starting' ? 'Starting' : 'Planned'} />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Guide RNA placeholder */}
+      <div>
+        <h2 className="text-sm font-bold uppercase tracking-wide text-text mb-1">Guide RNA Results</h2>
+        <p className="text-xs text-muted mb-3">Phase 1 not yet started. Top guide candidates populate here as computation runs.</p>
+        <div className="border border-line rounded-lg overflow-hidden">
+          <table className="w-full text-xs">
+            <thead>
+              <tr className="bg-panel border-b border-line">
+                {['#', 'Sequence (20 nt)', 'PAM', 'GC%', 'Window A', 'Bystander', 'Off-target', 'SpliceAI'].map(h => (
+                  <th key={h} className="text-left px-3 py-2 text-text-secondary">{h}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td colSpan={8} className="px-3 py-8 text-center text-muted italic">No guides yet &mdash; Phase 1 screening in progress</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      {/* Why different */}
+      <div className="bg-panel border border-line rounded-lg p-5">
+        <h2 className="text-sm font-bold uppercase tracking-wide text-text mb-3">Why This Is Different</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+          {[
+            { label: 'Permanent', desc: 'One genomic correction. No lifetime repeat dosing.' },
+            { label: 'Root Cause', desc: 'We fix the molecular defect at SMN2 exon 7 position 6. Not downstream symptoms.' },
+            { label: 'No Competitors', desc: 'Zero published groups pursuing ABE8e-mediated SMN2 C6T correction. Uncontested space.' },
+          ].map(item => (
+            <div key={item.label} className="p-3 bg-bg border border-line rounded">
+              <div className="font-bold text-text mb-1">{item.label}</div>
+              <div className="text-text-secondary">{item.desc}</div>
+            </div>
+          ))}
+        </div>
+        <div className="mt-4 text-xs text-muted border-t border-line pt-3">
+          Richter et al. (2020) Nature Biotechnology &mdash; ABE8e adenine base editor. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/33106683/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">33106683</a>
+        </div>
+      </div>
+
+    </div>
+  )
+}
