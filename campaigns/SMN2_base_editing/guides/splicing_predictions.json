@@ -1,0 +1,119 @@
+{
+  "timestamp": "2026-04-09T21:58:37.289231+00:00",
+  "smn2_analysis": {
+    "label": "SMN2 (disease - T at pos 6)",
+    "sequence": "GGTTTTAGACAAAATCAAAAAGAAGGAAGGTGCTCACATTCCTTAAATTAAGGA",
+    "motifs": {
+      "SF2_ASF": {
+        "present": false,
+        "strength": "DISRUPTED",
+        "sequence": "TAGACAA",
+        "effect": "Reduced exon 7 inclusion (SMA pathology)"
+      },
+      "Tra2_beta1": {
+        "ga_rich_count": 5,
+        "strength": "STRONG",
+        "effect": "Promotes exon 7 inclusion (cooperative with SF2/ASF)"
+      }
+    },
+    "ese_score": 6,
+    "predicted_inclusion": "HIGH"
+  },
+  "smn1_analysis": {
+    "label": "SMN1 (healthy - C at pos 6)",
+    "sequence": "GGTTTCAGACAAAATCAAAAAGAAGGAAGGTGCTCACATTCCTTAAATTAAGGA",
+    "motifs": {
+      "SF2_ASF": {
+        "present": true,
+        "strength": "STRONG",
+        "sequence": "CAGACAA",
+        "effect": "Promotes exon 7 inclusion"
+      },
+      "Tra2_beta1": {
+        "ga_rich_count": 5,
+        "strength": "STRONG",
+        "effect": "Promotes exon 7 inclusion (cooperative with SF2/ASF)"
+      }
+    },
+    "ese_score": 10,
+    "predicted_inclusion": "HIGH"
+  },
+  "bystander_variants": [
+    {
+      "position": 6,
+      "original": "T",
+      "edited": "C",
+      "sequence": "GGTTTCAGACAAAATCAAAAAGAAGGAAGGTGCTCACATTCCTTAAATTAAGGA",
+      "description": "Target edit T6->C (restores SMN1 sequence)",
+      "ese_score": 10,
+      "predicted_inclusion": "HIGH",
+      "sf2_asf_status": "STRONG"
+    },
+    {
+      "position": 3,
+      "original": "T",
+      "edited": "C",
+      "sequence": "GGCTTTAGACAAAATCAAAAAGAAGGAAGGTGCTCACATTCCTTAAATTAAGGA",
+      "description": "Bystander edit at position 3 (T->C)",
+      "ese_score": 6,
+      "predicted_inclusion": "HIGH",
+      "sf2_asf_status": "DISRUPTED"
+    },
+    {
+      "position": 4,
+      "original": "T",
+      "edited": "C",
+      "sequence": "GGTCTTAGACAAAATCAAAAAGAAGGAAGGTGCTCACATTCCTTAAATTAAGGA",
+      "description": "Bystander edit at position 4 (T->C)",
+      "ese_score": 6,
+      "predicted_inclusion": "HIGH",
+      "sf2_asf_status": "DISRUPTED"
+    },
+    {
+      "position": 5,
+      "original": "T",
+      "edited": "C",
+      "sequence": "GGTTCTAGACAAAATCAAAAAGAAGGAAGGTGCTCACATTCCTTAAATTAAGGA",
+      "description": "Bystander edit at position 5 (T->C)",
+      "ese_score": 6,
+      "predicted_inclusion": "HIGH",
+      "sf2_asf_status": "DISRUPTED"
+    },
+    {
+      "position": "6+3",
+      "original": "T+T",
+      "edited": "C+C",
+      "sequence": "GGCTTCAGACAAAATCAAAAAGAAGGAAGGTGCTCACATTCCTTAAATTAAGGA",
+      "description": "Target edit T6->C + bystander at position 3",
+      "ese_score": 10,
+      "predicted_inclusion": "HIGH",
+      "sf2_asf_status": "STRONG"
+    },
+    {
+      "position": "6+4",
+      "original": "T+T",
+      "edited": "C+C",
+      "sequence": "GGTCTCAGACAAAATCAAAAAGAAGGAAGGTGCTCACATTCCTTAAATTAAGGA",
+      "description": "Target edit T6->C + bystander at position 4",
+      "ese_score": 10,
+      "predicted_inclusion": "HIGH",
+      "sf2_asf_status": "STRONG"
+    },
+    {
+      "position": "6+5",
+      "original": "T+T",
+      "edited": "C+C",
+      "sequence": "GGTTCCAGACAAAATCAAAAAGAAGGAAGGTGCTCACATTCCTTAAATTAAGGA",
+      "description": "Target edit T6->C + bystander at position 5",
+      "ese_score": 10,
+      "predicted_inclusion": "HIGH",
+      "sf2_asf_status": "STRONG"
+    }
+  ],
+  "conclusion": {
+    "target_edit_effect": "T6->C RESTORES SF2/ASF ESE, should restore exon 7 inclusion",
+    "published_validation": "Confirmed by Liu lab: 99% editing -> full SMN protein restoration",
+    "bystander_risk": "Most nearby T's are outside the SF2/ASF motif - low splicing risk",
+    "recommendation": "Prioritize guides with minimal bystander A's in editing window"
+  }
+}

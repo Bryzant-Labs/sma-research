@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+title: "SMA Research — Open Drug Discovery Catalog"
+abstract: >-
+  Open-source computational drug discovery data and findings for
+  Spinal Muscular Atrophy (SMA). Includes molecular dynamics
+  trajectories, docking results, ADMET profiles, selective
+  kinase-inhibitor campaigns, SMN2 base-editing guide designs,
+  and AAV capsid engineering. All artifacts are released under
+  CC-BY-4.0 to enable reproduction and extension by other groups.
+type: dataset
+authors:
+  - family-names: "Fischer"
+    given-names: "Christian"
+    affiliation: "Bryzant Labs"
+    email: "christian@bryzant.com"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+repository-code: "https://github.com/Bryzant-Labs/sma-research"
+url: "https://sma-research.info"
+license: CC-BY-4.0
+keywords:
+  - spinal muscular atrophy
+  - SMA
+  - drug discovery
+  - molecular dynamics
+  - LIMK2
+  - ROCK2
+  - fasudil
+  - SMN2
+  - base editing
+  - AAV capsid
+  - open science
+date-released: 2026-04-10
+version: "2026.04.10"

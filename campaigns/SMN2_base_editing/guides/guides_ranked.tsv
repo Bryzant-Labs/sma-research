@@ -1,0 +1,12 @@
+rank	sequence	pam	strand	target_pos	composite_score	position_score	bystander_score	bystander_a_count	gc_content	pam_type	splicing_annotations
+1	GGGTTTTAGACAAAATCAAA	AAG	sense	7	0.755	1.0	1.0	0	0.30	other	OVERLAPS_SF2ASF_ESE (target region - GOOD for editing); OVERLAPS_TRA2B1 (caution: may affect splicing)
+2	GGTTTTAGACAAAATCAAAA	AGA	sense	6	0.735	1.0	1.0	0	0.25	NGA	OVERLAPS_SF2ASF_ESE (target region - GOOD for editing); OVERLAPS_TRA2B1 (caution: may affect splicing)
+3	TTGTCTAAAACCCATATAAT	AGC	antisense	7	0.695	1.0	0.6	1	0.25	other	OVERLAPS_SF2ASF_ESE (target region - GOOD for editing)
+4	TGGGTTTTAGACAAAATCAA	AAA	sense	8	0.665	0.7	1.0	0	0.30	other	OVERLAPS_SF2ASF_ESE (target region - GOOD for editing); OVERLAPS_TRA2B1 (caution: may affect splicing)
+5	TTTGTCTAAAACCCATATAA	TAG	antisense	8	0.655	0.7	1.0	0	0.25	other	OVERLAPS_SF2ASF_ESE (target region - GOOD for editing)
+6	GTTTTAGACAAAATCAAAAA	GAA	sense	5	0.595	1.0	0.6	1	0.20	other	OVERLAPS_SF2ASF_ESE (target region - GOOD for editing); OVERLAPS_TRA2B1 (caution: may affect splicing)
+7	ATGGGTTTTAGACAAAATCA	AAA	sense	9	0.545	0.3	1.0	0	0.30	other	OVERLAPS_SF2ASF_ESE (target region - GOOD for editing); OVERLAPS_TRA2B1 (caution: may affect splicing)
+8	TCTAAAACCCATATAATAGC	CAG	antisense	4	0.540	0.7	0.1	3	0.30	other	OVERLAPS_SF2ASF_ESE (target region - GOOD for editing)
+9	TTTTAGACAAAATCAAAAAG	AAG	sense	4	0.505	0.7	0.6	1	0.20	other	OVERLAPS_SF2ASF_ESE (target region - GOOD for editing); OVERLAPS_TRA2B1 (caution: may affect splicing)
+10	CTAAAACCCATATAATAGCC	AGT	antisense	3	0.420	0.3	0.1	3	0.35	other	OVERLAPS_SF2ASF_ESE (target region - GOOD for editing)
+11	TTTAGACAAAATCAAAAAGA	AGG	sense	3	0.380	0.3	0.1	3	0.20	NGG	OVERLAPS_SF2ASF_ESE (target region - GOOD for editing); OVERLAPS_TRA2B1 (caution: may affect splicing)

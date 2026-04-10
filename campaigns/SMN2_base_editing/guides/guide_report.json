@@ -1,0 +1,250 @@
+{
+  "timestamp": "2026-04-09T22:10:48.994455+00:00",
+  "parameters": {
+    "pam_type": "NRN",
+    "editor": "ABE8e",
+    "guide_length": 20
+  },
+  "target": {
+    "gene": "SMN2",
+    "region": "exon 7 + flanking introns",
+    "edit_site": "T6 (position 6 of exon 7)",
+    "desired_edit": "T->C (via ABE: A->G on antisense strand)",
+    "smn2_exon7_seq": "GGTTTTAGACAAAATCAAAAAGAAGGAAGGTGCTCACATTCCTTAAATTAAGGA",
+    "smn1_exon7_seq": "GGTTTCAGACAAAATCAAAAAGAAGGAAGGTGCTCACATTCCTTAAATTAAGGA"
+  },
+  "published_benchmarks": {
+    "liu_lab_2023": {
+      "pmid": "36996170",
+      "efficiency_cells": "99%",
+      "efficiency_in_vivo": "87%",
+      "editor": "ABE8e variants",
+      "delivery": "AAV9-ABE ICV injection"
+    },
+    "nat_bme_2024": {
+      "pmid": "38057426",
+      "note": "Optimized >100 guides + editors, PAM-flexible Cas9",
+      "efficiency": "up to 99% in fibroblasts"
+    }
+  },
+  "total_guides_found": 28,
+  "guides_in_window": 11,
+  "top_guides": [
+    {
+      "rank": 1,
+      "sequence": "GGGTTTTAGACAAAATCAAA",
+      "pam": "AAG",
+      "strand": "sense",
+      "target_pos": 7,
+      "composite_score": 0.755,
+      "bystander_a_count": 0,
+      "gc_content": 0.3,
+      "splicing": [
+        "OVERLAPS_SF2ASF_ESE (target region - GOOD for editing)",
+        "OVERLAPS_TRA2B1 (caution: may affect splicing)"
+      ],
+      "off_targets": {
+        "smn1_hit": true,
+        "smn1_edit_risk": "LOW",
+        "genome_wide": "REQUIRES_CAS_OFFINDER",
+        "note": "SMN1 cross-reactivity is safe: ABE only converts A->G, SMN1 has C at pos 6"
+      }
+    },
+    {
+      "rank": 2,
+      "sequence": "GGTTTTAGACAAAATCAAAA",
+      "pam": "AGA",
+      "strand": "sense",
+      "target_pos": 6,
+      "composite_score": 0.735,
+      "bystander_a_count": 0,
+      "gc_content": 0.25,
+      "splicing": [
+        "OVERLAPS_SF2ASF_ESE (target region - GOOD for editing)",
+        "OVERLAPS_TRA2B1 (caution: may affect splicing)"
+      ],
+      "off_targets": {
+        "smn1_hit": true,
+        "smn1_edit_risk": "LOW",
+        "genome_wide": "REQUIRES_CAS_OFFINDER",
+        "note": "SMN1 cross-reactivity is safe: ABE only converts A->G, SMN1 has C at pos 6"
+      }
+    },
+    {
+      "rank": 3,
+      "sequence": "TTGTCTAAAACCCATATAAT",
+      "pam": "AGC",
+      "strand": "antisense",
+      "target_pos": 7,
+      "composite_score": 0.695,
+      "bystander_a_count": 1,
+      "gc_content": 0.25,
+      "splicing": [
+        "OVERLAPS_SF2ASF_ESE (target region - GOOD for editing)"
+      ],
+      "off_targets": {
+        "smn1_hit": true,
+        "smn1_edit_risk": "LOW",
+        "genome_wide": "REQUIRES_CAS_OFFINDER",
+        "note": "SMN1 cross-reactivity is safe: ABE only converts A->G, SMN1 has C at pos 6"
+      }
+    },
+    {
+      "rank": 4,
+      "sequence": "TGGGTTTTAGACAAAATCAA",
+      "pam": "AAA",
+      "strand": "sense",
+      "target_pos": 8,
+      "composite_score": 0.665,
+      "bystander_a_count": 0,
+      "gc_content": 0.3,
+      "splicing": [
+        "OVERLAPS_SF2ASF_ESE (target region - GOOD for editing)",
+        "OVERLAPS_TRA2B1 (caution: may affect splicing)"
+      ],
+      "off_targets": {
+        "smn1_hit": true,
+        "smn1_edit_risk": "LOW",
+        "genome_wide": "REQUIRES_CAS_OFFINDER",
+        "note": "SMN1 cross-reactivity is safe: ABE only converts A->G, SMN1 has C at pos 6"
+      }
+    },
+    {
+      "rank": 5,
+      "sequence": "TTTGTCTAAAACCCATATAA",
+      "pam": "TAG",
+      "strand": "antisense",
+      "target_pos": 8,
+      "composite_score": 0.655,
+      "bystander_a_count": 0,
+      "gc_content": 0.25,
+      "splicing": [
+        "OVERLAPS_SF2ASF_ESE (target region - GOOD for editing)"
+      ],
+      "off_targets": {
+        "smn1_hit": true,
+        "smn1_edit_risk": "LOW",
+        "genome_wide": "REQUIRES_CAS_OFFINDER",
+        "note": "SMN1 cross-reactivity is safe: ABE only converts A->G, SMN1 has C at pos 6"
+      }
+    },
+    {
+      "rank": 6,
+      "sequence": "GTTTTAGACAAAATCAAAAA",
+      "pam": "GAA",
+      "strand": "sense",
+      "target_pos": 5,
+      "composite_score": 0.595,
+      "bystander_a_count": 1,
+      "gc_content": 0.2,
+      "splicing": [
+        "OVERLAPS_SF2ASF_ESE (target region - GOOD for editing)",
+        "OVERLAPS_TRA2B1 (caution: may affect splicing)"
+      ],
+      "off_targets": {
+        "smn1_hit": true,
+        "smn1_edit_risk": "LOW",
+        "genome_wide": "REQUIRES_CAS_OFFINDER",
+        "note": "SMN1 cross-reactivity is safe: ABE only converts A->G, SMN1 has C at pos 6"
+      }
+    },
+    {
+      "rank": 7,
+      "sequence": "ATGGGTTTTAGACAAAATCA",
+      "pam": "AAA",
+      "strand": "sense",
+      "target_pos": 9,
+      "composite_score": 0.545,
+      "bystander_a_count": 0,
+      "gc_content": 0.3,
+      "splicing": [
+        "OVERLAPS_SF2ASF_ESE (target region - GOOD for editing)",
+        "OVERLAPS_TRA2B1 (caution: may affect splicing)"
+      ],
+      "off_targets": {
+        "smn1_hit": true,
+        "smn1_edit_risk": "LOW",
+        "genome_wide": "REQUIRES_CAS_OFFINDER",
+        "note": "SMN1 cross-reactivity is safe: ABE only converts A->G, SMN1 has C at pos 6"
+      }
+    },
+    {
+      "rank": 8,
+      "sequence": "TCTAAAACCCATATAATAGC",
+      "pam": "CAG",
+      "strand": "antisense",
+      "target_pos": 4,
+      "composite_score": 0.54,
+      "bystander_a_count": 3,
+      "gc_content": 0.3,
+      "splicing": [
+        "OVERLAPS_SF2ASF_ESE (target region - GOOD for editing)"
+      ],
+      "off_targets": {
+        "smn1_hit": true,
+        "smn1_edit_risk": "LOW",
+        "genome_wide": "REQUIRES_CAS_OFFINDER",
+        "note": "SMN1 cross-reactivity is safe: ABE only converts A->G, SMN1 has C at pos 6"
+      }
+    },
+    {
+      "rank": 9,
+      "sequence": "TTTTAGACAAAATCAAAAAG",
+      "pam": "AAG",
+      "strand": "sense",
+      "target_pos": 4,
+      "composite_score": 0.505,
+      "bystander_a_count": 1,
+      "gc_content": 0.2,
+      "splicing": [
+        "OVERLAPS_SF2ASF_ESE (target region - GOOD for editing)",
+        "OVERLAPS_TRA2B1 (caution: may affect splicing)"
+      ],
+      "off_targets": {
+        "smn1_hit": true,
+        "smn1_edit_risk": "LOW",
+        "genome_wide": "REQUIRES_CAS_OFFINDER",
+        "note": "SMN1 cross-reactivity is safe: ABE only converts A->G, SMN1 has C at pos 6"
+      }
+    },
+    {
+      "rank": 10,
+      "sequence": "CTAAAACCCATATAATAGCC",
+      "pam": "AGT",
+      "strand": "antisense",
+      "target_pos": 3,
+      "composite_score": 0.42,
+      "bystander_a_count": 3,
+      "gc_content": 0.35,
+      "splicing": [
+        "OVERLAPS_SF2ASF_ESE (target region - GOOD for editing)"
+      ],
+      "off_targets": {
+        "smn1_hit": true,
+        "smn1_edit_risk": "LOW",
+        "genome_wide": "REQUIRES_CAS_OFFINDER",
+        "note": "SMN1 cross-reactivity is safe: ABE only converts A->G, SMN1 has C at pos 6"
+      }
+    },
+    {
+      "rank": 11,
+      "sequence": "TTTAGACAAAATCAAAAAGA",
+      "pam": "AGG",
+      "strand": "sense",
+      "target_pos": 3,
+      "composite_score": 0.38,
+      "bystander_a_count": 3,
+      "gc_content": 0.2,
+      "splicing": [
+        "OVERLAPS_SF2ASF_ESE (target region - GOOD for editing)",
+        "OVERLAPS_TRA2B1 (caution: may affect splicing)"
+      ],
+      "off_targets": {
+        "smn1_hit": true,
+        "smn1_edit_risk": "LOW",
+        "genome_wide": "REQUIRES_CAS_OFFINDER",
+        "note": "SMN1 cross-reactivity is safe: ABE only converts A->G, SMN1 has C at pos 6"
+      }
+    }
+  ]
+}

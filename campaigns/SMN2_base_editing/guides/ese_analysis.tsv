@@ -1,0 +1,10 @@
+variant	position	ese_score	predicted_inclusion	sf2_asf
+SMN2_wildtype	-	6	HIGH	DISRUPTED
+SMN1_target	-	10	HIGH	STRONG
+Target edit T6->C (restores SMN1 sequence)	6	10	HIGH	STRONG
+Bystander edit at position 3 (T->C)	3	6	HIGH	DISRUPTED
+Bystander edit at position 4 (T->C)	4	6	HIGH	DISRUPTED
+Bystander edit at position 5 (T->C)	5	6	HIGH	DISRUPTED
+Target edit T6->C + bystander at position 3	6+3	10	HIGH	STRONG
+Target edit T6->C + bystander at position 4	6+4	10	HIGH	STRONG
+Target edit T6->C + bystander at position 5	6+5	10	HIGH	STRONG
