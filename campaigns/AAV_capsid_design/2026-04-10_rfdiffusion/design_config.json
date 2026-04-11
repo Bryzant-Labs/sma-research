@@ -1,0 +1,61 @@
+{
+  "pdb": "/data/structures/AAV9_3UX1.pdb",
+  "vr_regions": {
+    "VR-I": [
+      261,
+      272
+    ],
+    "VR-II": [
+      329,
+      336
+    ],
+    "VR-III": [
+      384,
+      396
+    ],
+    "VR-IV": [
+      451,
+      460
+    ],
+    "VR-V": [
+      490,
+      506
+    ],
+    "VR-VI": [
+      527,
+      539
+    ],
+    "VR-VII": [
+      545,
+      558
+    ],
+    "VR-VIII": [
+      581,
+      597
+    ],
+    "VR-IX": [
+      704,
+      716
+    ]
+  },
+  "key_residues": [
+    484,
+    490,
+    496,
+    531,
+    533,
+    535,
+    584,
+    588,
+    591,
+    592
+  ],
+  "target_receptors": [
+    "AAVR (KIAA0319L)",
+    "LRP1",
+    "Galactose (SIA)"
+  ],
+  "optimization_goal": "Motor neuron tropism for SMA gene therapy",
+  "n_designs": 50,
+  "n_mpnn_seqs": 8
+}

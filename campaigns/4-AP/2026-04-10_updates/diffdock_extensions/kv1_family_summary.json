@@ -1,0 +1,47 @@
+{
+  "batch": "batch_4ap_kv1_family",
+  "compounds": [
+    {
+      "key": "4AP",
+      "smiles": "Nc1ccncc1",
+      "name": "4-Aminopyridine (Ampyra)"
+    }
+  ],
+  "elapsed_sec": 261.5,
+  "n_jobs": 3,
+  "results": [
+    {
+      "compound": "4AP",
+      "smiles": "Nc1ccncc1",
+      "target": "Kv1.1",
+      "pdb": "6EBK",
+      "note": "Human Kv1.1 channel",
+      "success": true,
+      "top_confidence": -0.05,
+      "best_pose_sdf": "/results/diffdock_4ap_ext/batch_4ap_kv1_family/docked/4AP/Kv1.1/complex_0/rank1_confidence-0.05.sdf",
+      "elapsed_sec": 95.2
+    },
+    {
+      "compound": "4AP",
+      "smiles": "Nc1ccncc1",
+      "target": "Kv1.3",
+      "pdb": "3OC3",
+      "note": "Kv1.3 (mammalian)",
+      "success": true,
+      "top_confidence": -0.78,
+      "best_pose_sdf": "/results/diffdock_4ap_ext/batch_4ap_kv1_family/docked/4AP/Kv1.3/complex_0/rank1_confidence-0.78.sdf",
+      "elapsed_sec": 92.2
+    },
+    {
+      "compound": "4AP",
+      "smiles": "Nc1ccncc1",
+      "target": "Kv1.5",
+      "pdb": "7SIT",
+      "note": "Human Kv1.5 (common drug target)",
+      "success": true,
+      "top_confidence": -0.1,
+      "best_pose_sdf": "/results/diffdock_4ap_ext/batch_4ap_kv1_family/docked/4AP/Kv1.5/complex_0/rank1_confidence-0.10.sdf",
+      "elapsed_sec": 74.2
+    }
+  ]
+}

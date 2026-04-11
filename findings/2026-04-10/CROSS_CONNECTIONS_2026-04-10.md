@@ -8,7 +8,40 @@ These are real connections that exist in our current data **right now**. None of
 
 ---
 
-## Insight 1: 4-AP + LIMK2-selective hits = Complete ROCK-LIMK2-CFL2 Axis Coverage
+## ⚠️ RETRACTION + REPLACEMENT (2026-04-10 evening, post-orphan-analysis)
+
+**Insight 1 retracted as originally written.** Orphan-trajectory analysis revealed that `CFL2_gpu33887147.dcd` was an APO CFL2 simulation (35,150 atoms = protein + solvent only, no ligand). The claimed "4-AP + CFL2 MD" never happened. See `ORPHAN_TRAJECTORY_ANALYSIS.md` finding #6.
+
+**However, a BETTER insight emerged from the same analysis run:**
+
+### Insight 1-REVISED: 4-AP binds a novel SMN2 pocket — shared with Riluzole
+
+The SAME orphan analysis re-examined `4AP_SMN2_holo/trajectory.dcd` (18.5 ns) with a topology-fix (trimmed 405 extra water atoms). Result: **4-AP stays engaged 100% of frames** at:
+- PRO268 (92%), VAL413 (92%), ASN270 (92%), SER271 (89%), PHE266 (81%), VAL267 (81%), ILE269 (74%), TYR657 (63%)
+
+My earlier "0 binding contacts" verdict was a **topology-mismatch artifact**, not a real negative.
+
+Even bigger: **Riluzole binds the SAME pocket** (`SMN2_Riluzole_holo` analysis):
+- Shared residues: PRO268, SER271, TYR657
+- Two structurally different compounds, same pocket → **this is a real druggable site**
+
+**Implications:**
+1. **Track 5 (Riluzole closure) needs REVIEW** — it was marked "negative" but the MD shows real binding at the same site 4-AP finds
+2. **Novel SMN2 druggable pocket** (PRO268 / SER271 / TYR657 region) that's NOT the RNA binding site — could be targeted by small molecules that Nusinersen/Risdiplam don't reach
+3. **4-AP has TWO real mechanisms**: Kv1 channel blockade (Ampyra mechanism, validated) + weak SMN2 pocket binding (newly rediscovered)
+4. **The 4-AP story for Simon is richer than anticipated** — not a "multi-mechanism recovery agent" (structurally unsupported) and not "pure Kv blocker" (we have SMN2 binding evidence), but **"selective axonal Kv1 blocker WITH secondary SMN2 pocket engagement at a druggable site shared with Riluzole"**
+
+**Action needed:**
+1. Analyze the SMN2 PRO268/SER271/TYR657 pocket structurally — is it solvent-accessible?
+2. Run ChEMBL substructure search: what other small molecules hit this region?
+3. Re-evaluate Track 5 Riluzole — is it a real hit we prematurely closed?
+4. For Simon: propose 4-AP + Riluzole combination testing (both FDA-approved, different primary mechanisms, converge on SMN2 pocket)
+
+---
+
+## ORIGINAL Insight 1 (now retracted — preserved for provenance):
+
+## ~~Insight 1: 4-AP + LIMK2-selective hits = Complete ROCK-LIMK2-CFL2 Axis Coverage~~ [RETRACTED]
 
 **The connection nobody saw:**
 

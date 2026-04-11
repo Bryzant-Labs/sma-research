@@ -1,0 +1,157 @@
+{
+  "batch": "batch_34DAP",
+  "compounds": [
+    {
+      "key": "34DAP",
+      "smiles": "Nc1ccnc(N)c1",
+      "name": "3,4-Diaminopyridine (Firdapse)"
+    }
+  ],
+  "elapsed_sec": 969.8,
+  "n_jobs": 13,
+  "results": [
+    {
+      "compound": "34DAP",
+      "smiles": "Nc1ccnc(N)c1",
+      "target": "BDNF",
+      "pdb": "1BND",
+      "note": "BDNF homodimer (NGF family). TrkB kinase domain not available as solo SM-bound PDB",
+      "success": true,
+      "top_confidence": -0.11,
+      "best_pose_sdf": "/results/diffdock_4ap_ext/batch_34DAP/docked/34DAP/BDNF/complex_0/rank1_confidence-0.11.sdf",
+      "elapsed_sec": 67.1
+    },
+    {
+      "compound": "34DAP",
+      "smiles": "Nc1ccnc(N)c1",
+      "target": "TrkB",
+      "pdb": "4ASZ",
+      "note": "Human TrkB tyrosine kinase domain",
+      "success": true,
+      "top_confidence": -0.69,
+      "best_pose_sdf": "/results/diffdock_4ap_ext/batch_34DAP/docked/34DAP/TrkB/complex_0/rank1_confidence-0.69.sdf",
+      "elapsed_sec": 78.6
+    },
+    {
+      "compound": "34DAP",
+      "smiles": "Nc1ccnc(N)c1",
+      "target": "STAT3",
+      "pdb": "1BG1",
+      "note": "STAT3 beta homodimer bound to DNA (SH2 present)",
+      "success": true,
+      "top_confidence": -0.16,
+      "best_pose_sdf": "/results/diffdock_4ap_ext/batch_34DAP/docked/34DAP/STAT3/complex_0/rank1_confidence-0.16.sdf",
+      "elapsed_sec": 73.5
+    },
+    {
+      "compound": "34DAP",
+      "smiles": "Nc1ccnc(N)c1",
+      "target": "PTEN",
+      "pdb": "1D5R",
+      "note": "Human PTEN tumor suppressor phosphatase",
+      "success": true,
+      "top_confidence": -0.18,
+      "best_pose_sdf": "/results/diffdock_4ap_ext/batch_34DAP/docked/34DAP/PTEN/complex_0/rank1_confidence-0.18.sdf",
+      "elapsed_sec": 72.2
+    },
+    {
+      "compound": "34DAP",
+      "smiles": "Nc1ccnc(N)c1",
+      "target": "mTOR_FRB",
+      "pdb": "4DRI",
+      "note": "mTOR FRB domain bound to FKBP12-rapamycin",
+      "success": true,
+      "top_confidence": -0.16,
+      "best_pose_sdf": "/results/diffdock_4ap_ext/batch_34DAP/docked/34DAP/mTOR_FRB/complex_0/rank1_confidence-0.16.sdf",
+      "elapsed_sec": 74.0
+    },
+    {
+      "compound": "34DAP",
+      "smiles": "Nc1ccnc(N)c1",
+      "target": "Kv1.1",
+      "pdb": "6EBK",
+      "note": "Human Kv1.1 channel",
+      "success": true,
+      "top_confidence": -0.17,
+      "best_pose_sdf": "/results/diffdock_4ap_ext/batch_34DAP/docked/34DAP/Kv1.1/complex_0/rank1_confidence-0.17.sdf",
+      "elapsed_sec": 91.7
+    },
+    {
+      "compound": "34DAP",
+      "smiles": "Nc1ccnc(N)c1",
+      "target": "Kv1.3",
+      "pdb": "3OC3",
+      "note": "Kv1.3 (mammalian)",
+      "success": true,
+      "top_confidence": -1.17,
+      "best_pose_sdf": "/results/diffdock_4ap_ext/batch_34DAP/docked/34DAP/Kv1.3/complex_0/rank1_confidence-1.17.sdf",
+      "elapsed_sec": 103.1
+    },
+    {
+      "compound": "34DAP",
+      "smiles": "Nc1ccnc(N)c1",
+      "target": "Kv1.5",
+      "pdb": "7SIT",
+      "note": "Human Kv1.5 (common drug target)",
+      "success": true,
+      "top_confidence": -0.3,
+      "best_pose_sdf": "/results/diffdock_4ap_ext/batch_34DAP/docked/34DAP/Kv1.5/complex_0/rank1_confidence-0.30.sdf",
+      "elapsed_sec": 71.0
+    },
+    {
+      "compound": "34DAP",
+      "smiles": "Nc1ccnc(N)c1",
+      "target": "Kv1.2",
+      "pdb": "2R9R",
+      "note": "Kv1.2 \u2014 April 2 positive control",
+      "success": true,
+      "top_confidence": -0.52,
+      "best_pose_sdf": "/results/diffdock_4ap_ext/batch_34DAP/docked/34DAP/Kv1.2/complex_0/rank1_confidence-0.52.sdf",
+      "elapsed_sec": 71.5
+    },
+    {
+      "compound": "34DAP",
+      "smiles": "Nc1ccnc(N)c1",
+      "target": "NCALD",
+      "pdb": "2EC6",
+      "note": "Neurocalcin delta",
+      "success": true,
+      "top_confidence": -1.18,
+      "best_pose_sdf": "/results/diffdock_4ap_ext/batch_34DAP/docked/34DAP/NCALD/complex_0/rank1_confidence-1.18.sdf",
+      "elapsed_sec": 82.6
+    },
+    {
+      "compound": "34DAP",
+      "smiles": "Nc1ccnc(N)c1",
+      "target": "SMN2",
+      "pdb": "4QK9",
+      "note": "SMN Tudor domain (proxy for SMN2 protein)",
+      "success": false,
+      "top_confidence": null,
+      "best_pose_sdf": null,
+      "elapsed_sec": 51.2
+    },
+    {
+      "compound": "34DAP",
+      "smiles": "Nc1ccnc(N)c1",
+      "target": "SMN1",
+      "pdb": "4QK9",
+      "note": "SMN Tudor \u2014 same structure, SMN1/2 differ only in exon 7 splicing",
+      "success": false,
+      "top_confidence": null,
+      "best_pose_sdf": null,
+      "elapsed_sec": 38.9
+    },
+    {
+      "compound": "34DAP",
+      "smiles": "Nc1ccnc(N)c1",
+      "target": "UBA1",
+      "pdb": "6DC6",
+      "note": "Human UBA1 E1 ubiquitin-activating enzyme",
+      "success": true,
+      "top_confidence": -0.06,
+      "best_pose_sdf": "/results/diffdock_4ap_ext/batch_34DAP/docked/34DAP/UBA1/complex_0/rank1_confidence-0.06.sdf",
+      "elapsed_sec": 94.3
+    }
+  ]
+}

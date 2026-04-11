@@ -1,0 +1,69 @@
+{
+  "batch": "batch_4ap_regeneration",
+  "compounds": [
+    {
+      "key": "4AP",
+      "smiles": "Nc1ccncc1",
+      "name": "4-Aminopyridine (Ampyra)"
+    }
+  ],
+  "elapsed_sec": 456.3,
+  "n_jobs": 5,
+  "results": [
+    {
+      "compound": "4AP",
+      "smiles": "Nc1ccncc1",
+      "target": "BDNF",
+      "pdb": "1BND",
+      "note": "BDNF homodimer (NGF family). TrkB kinase domain not available as solo SM-bound PDB",
+      "success": true,
+      "top_confidence": -2.96,
+      "best_pose_sdf": "/results/diffdock_4ap_ext/batch_4ap_regeneration/docked/4AP/BDNF/complex_0/rank1_confidence-2.96.sdf",
+      "elapsed_sec": 79.2
+    },
+    {
+      "compound": "4AP",
+      "smiles": "Nc1ccncc1",
+      "target": "TrkB",
+      "pdb": "4ASZ",
+      "note": "Human TrkB tyrosine kinase domain",
+      "success": true,
+      "top_confidence": -0.19,
+      "best_pose_sdf": "/results/diffdock_4ap_ext/batch_4ap_regeneration/docked/4AP/TrkB/complex_0/rank1_confidence-0.19.sdf",
+      "elapsed_sec": 83.7
+    },
+    {
+      "compound": "4AP",
+      "smiles": "Nc1ccncc1",
+      "target": "STAT3",
+      "pdb": "1BG1",
+      "note": "STAT3 beta homodimer bound to DNA (SH2 present)",
+      "success": true,
+      "top_confidence": -0.16,
+      "best_pose_sdf": "/results/diffdock_4ap_ext/batch_4ap_regeneration/docked/4AP/STAT3/complex_0/rank1_confidence-0.16.sdf",
+      "elapsed_sec": 88.1
+    },
+    {
+      "compound": "4AP",
+      "smiles": "Nc1ccncc1",
+      "target": "PTEN",
+      "pdb": "1D5R",
+      "note": "Human PTEN tumor suppressor phosphatase",
+      "success": true,
+      "top_confidence": -0.38,
+      "best_pose_sdf": "/results/diffdock_4ap_ext/batch_4ap_regeneration/docked/4AP/PTEN/complex_0/rank1_confidence-0.38.sdf",
+      "elapsed_sec": 106.0
+    },
+    {
+      "compound": "4AP",
+      "smiles": "Nc1ccncc1",
+      "target": "mTOR_FRB",
+      "pdb": "4DRI",
+      "note": "mTOR FRB domain bound to FKBP12-rapamycin",
+      "success": true,
+      "top_confidence": -0.17,
+      "best_pose_sdf": "/results/diffdock_4ap_ext/batch_4ap_regeneration/docked/4AP/mTOR_FRB/complex_0/rank1_confidence-0.17.sdf",
+      "elapsed_sec": 99.4
+    }
+  ]
+}

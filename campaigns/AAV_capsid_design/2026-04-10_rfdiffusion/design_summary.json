@@ -1,0 +1,383 @@
+{
+  "generated": "2026-04-10T20:35:35.212075+00:00",
+  "pipeline": "RFdiffusion + ProteinMPNN",
+  "target": "AAV9 VP1 capsid for motor neuron tropism (SMA gene therapy)",
+  "vr_regions_redesigned": [
+    "VR-V (490-506)",
+    "VR-VIII (581-597)"
+  ],
+  "n_designs": 52,
+  "designs": [
+    {
+      "name": "rfdiffusion_VR5_VR8_0.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_0.pdb",
+      "pdb_size_bytes": 135876,
+      "mpnn_sequences": 1,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_0"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_1.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_1.pdb",
+      "pdb_size_bytes": 137484,
+      "mpnn_sequences": 1,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_1"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_10.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_10.pdb",
+      "pdb_size_bytes": 138288,
+      "mpnn_sequences": 1,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_10"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_11.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_11.pdb",
+      "pdb_size_bytes": 137216,
+      "mpnn_sequences": 1,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_11"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_12.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_12.pdb",
+      "pdb_size_bytes": 139360,
+      "mpnn_sequences": 1,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_12"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_13.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_13.pdb",
+      "pdb_size_bytes": 136948,
+      "mpnn_sequences": 1,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_13"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_14.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_14.pdb",
+      "pdb_size_bytes": 140432,
+      "mpnn_sequences": 1,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_14"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_15.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_15.pdb",
+      "pdb_size_bytes": 137752,
+      "mpnn_sequences": 1,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_15"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_16.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_16.pdb",
+      "pdb_size_bytes": 139092,
+      "mpnn_sequences": 1,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_16"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_17.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_17.pdb",
+      "pdb_size_bytes": 139628,
+      "mpnn_sequences": 1,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_17"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_18.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_18.pdb",
+      "pdb_size_bytes": 139628,
+      "mpnn_sequences": 1,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_18"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_19.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_19.pdb",
+      "pdb_size_bytes": 139360,
+      "mpnn_sequences": 1,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_19"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_2.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_2.pdb",
+      "pdb_size_bytes": 138288,
+      "mpnn_sequences": 1,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_2"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_20.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_20.pdb",
+      "pdb_size_bytes": 139092,
+      "mpnn_sequences": 1,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_20"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_21.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_21.pdb",
+      "pdb_size_bytes": 140432,
+      "mpnn_sequences": 1,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_21"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_22.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_22.pdb",
+      "pdb_size_bytes": 141236,
+      "mpnn_sequences": 1,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_22"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_23.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_23.pdb",
+      "pdb_size_bytes": 138020,
+      "mpnn_sequences": 1,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_23"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_24.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_24.pdb",
+      "pdb_size_bytes": 139360,
+      "mpnn_sequences": 1,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_24"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_25.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_25.pdb",
+      "pdb_size_bytes": 135876,
+      "mpnn_sequences": 1,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_25"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_26.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_26.pdb",
+      "pdb_size_bytes": 137484,
+      "mpnn_sequences": 1,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_26"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_27.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_27.pdb",
+      "pdb_size_bytes": 142040,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_27"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_28.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_28.pdb",
+      "pdb_size_bytes": 140432,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_28"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_29.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_29.pdb",
+      "pdb_size_bytes": 142308,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_29"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_3.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_3.pdb",
+      "pdb_size_bytes": 141236,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_3"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_30.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_30.pdb",
+      "pdb_size_bytes": 141236,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_30"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_31.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_31.pdb",
+      "pdb_size_bytes": 139628,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_31"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_32.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_32.pdb",
+      "pdb_size_bytes": 142040,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_32"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_33.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_33.pdb",
+      "pdb_size_bytes": 138824,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_33"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_34.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_34.pdb",
+      "pdb_size_bytes": 137484,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_34"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_35.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_35.pdb",
+      "pdb_size_bytes": 137216,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_35"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_36.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_36.pdb",
+      "pdb_size_bytes": 141772,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_36"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_37.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_37.pdb",
+      "pdb_size_bytes": 139360,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_37"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_38.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_38.pdb",
+      "pdb_size_bytes": 136680,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_38"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_39.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_39.pdb",
+      "pdb_size_bytes": 140164,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_39"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_4.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_4.pdb",
+      "pdb_size_bytes": 138288,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_4"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_40.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_40.pdb",
+      "pdb_size_bytes": 143112,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_40"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_41.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_41.pdb",
+      "pdb_size_bytes": 141236,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_41"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_42.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_42.pdb",
+      "pdb_size_bytes": 140432,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_42"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_43.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_43.pdb",
+      "pdb_size_bytes": 138288,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_43"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_44.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_44.pdb",
+      "pdb_size_bytes": 139360,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_44"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_45.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_45.pdb",
+      "pdb_size_bytes": 139360,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_45"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_46.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_46.pdb",
+      "pdb_size_bytes": 140432,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_46"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_47.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_47.pdb",
+      "pdb_size_bytes": 139360,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_47"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_48.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_48.pdb",
+      "pdb_size_bytes": 141236,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_48"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_49.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_49.pdb",
+      "pdb_size_bytes": 139360,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_49"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_5.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_5.pdb",
+      "pdb_size_bytes": 136412,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_5"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_6.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_6.pdb",
+      "pdb_size_bytes": 138556,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_6"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_7.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_7.pdb",
+      "pdb_size_bytes": 138824,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_7"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_8.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_8.pdb",
+      "pdb_size_bytes": 139360,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_8"
+    },
+    {
+      "name": "rfdiffusion_VR5_VR8_9.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_VR5_VR8_9.pdb",
+      "pdb_size_bytes": 138824,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_VR5_VR8_9"
+    },
+    {
+      "name": "rfdiffusion_test_0.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_test_0.pdb",
+      "pdb_size_bytes": 140432,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_test_0"
+    },
+    {
+      "name": "rfdiffusion_test_1.pdb",
+      "pdb_file": "/results/aav_capsid_design/rfdiffusion_test_1.pdb",
+      "pdb_size_bytes": 135608,
+      "mpnn_sequences": 0,
+      "mpnn_dir": "/results/aav_capsid_design/mpnn_rfdiffusion_test_1"
+    }
+  ],
+  "next_steps": [
+    "Rosetta FastRelax energy minimization",
+    "AlphaFold2 structure validation",
+    "In silico docking with AAVR (KIAA0319L)",
+    "Viral packaging score prediction",
+    "Select top 5 for experimental validation"
+  ]
+}
