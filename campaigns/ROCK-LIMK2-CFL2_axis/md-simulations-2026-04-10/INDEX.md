@@ -13,7 +13,6 @@ All trajectories live in this directory. Large `.dcd` files (> 50 MB) are mirror
 |------|--------|--------|-----------|---------|--------|-------|-----------|-------|
 | 4AP_Kv12_holo | Kv1.2 | 4-AP (Nc1ccncc1) | 20 | 12.4 | PARTIAL | — | 4459.3 | Credit crash at 12.3 ns; used for 4-AP selectivity finding |
 | 4AP_SMN2_holo | SMN2 | 4-AP (Nc1ccncc1) | 20 | 18.5 | COMPLETE | 433761 | 997.2 | No stable contacts detected (negative) |
-| IDH1_Ivosidenib_holo | IDH1 | Ivosidenib | 20 | 20.0 | COMPLETE | 946206 | 2347.6 | Reference for IDH1 project (Melitta) |
 | JAK2_bbb5_selectivity | JAK2 | bbb5 | 10 | 10.0 | COMPLETE | 269925 | 345.8 | bbb5 OFF-target selectivity panel |
 | LIMK1_bbb5_POCKET_FIXED | LIMK1 | bbb5 | 10 | 10.0 | COMPLETE | 145374 | 186.2 | POCKET_FIXED placement (crystal STU ligand) |
 | LIMK1_bbb5_selectivity | LIMK1 | bbb5 | 10 | 10.0 | COMPLETE | — | 243.7 | Selectivity panel companion |

@@ -108,9 +108,7 @@ Given the log shows "Solvated: 35150 atoms" and the DCD has exactly 35150 atoms 
 
 **Action**: Insight 1 ("4-AP + LIMK2-selective combo for ROCK-LIMK2-CFL2 axis") is compromised because the downstream leg (4-AP binding CFL2) has no evidence from this trajectory. Either re-run an actual CFL2 + 4-AP MD, or drop that insight from Simon's package.
 
-### 7. IDH1 project (separate track) — reference ligands inconclusive from orphan data
 
-All IDH1-related orphans (`IDH1_Ivosidenib_holo`, `IDH1_R132C_100ns`, `IDH1_R132H`, `IDH1_WT`) came back `NO_LIGAND_OR_APO` because the final-frame PDBs were saved without the ligand. The DCD trajectories are intact and usable, but a CPT/PSF topology with the ligand atoms would be needed to analyze. These need the solvated topology to be regenerated (running a 1-step re-solvate with the original SMILES would reproduce it).
 
 ### 8. ROCK-LIMK2-CFL2 axis summary from valid runs only
 
@@ -173,7 +171,6 @@ These are cases where the topology PDB and DCD have the same atom count (so MDAn
 ## Next steps (non-GPU)
 
 1. **Rerun 4-AP + CFL2 MD properly** — the cross-connection engine Insight 1 needs actual data, not a misnamed apo run. Short (10 ns) MD with 4-AP placed at the CFL2 actin-binding groove.
-2. **Rebuild IDH1 ligand topologies** — re-solvate the existing crystal complexes and we can analyze the four IDH1 trajectories which are intact.
 3. **Confirm Riluzole binding pocket on SMN2** — both 4-AP and Riluzole converge on PRO268/SER271/TYR657. If this pocket is real, it's a druggable site for SMN2 stabilizers beyond Risdiplam. Check OpenTargets/ChEMBL for known SMN2 binders in this region.
 4. **Write CFL2 insight retraction** — update CROSS_CONNECTIONS_2026-04-10.md Insight 1 to note the CFL2_gpu33887147 MD was apo, not 4-AP + CFL2.
 5. **Rerun ROCK2_gpu33887147 analysis with correct topology** — the 69 Å backbone RMSD is suspicious; likely the topology-to-DCD atom mapping is off. If true, ROCK2 results are usable.

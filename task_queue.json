@@ -456,71 +456,6 @@
     "updated": "2026-04-01T14:42:39.717954"
   },
   {
-    "id": "idh1_parp1_md",
-    "project": "IDH1",
-    "type": "md_simulation",
-    "target": "PARP1",
-    "pdb_id": "7KK4",
-    "description": "PARP1 MD 10ns \u2014 BRCAness exploitation for Olaparib",
-    "priority": 1,
-    "status": "running",
-    "ns": 10,
-    "gpu_id": "33919734",
-    "updated": "2026-04-01T02:44:08.477879"
-  },
-  {
-    "id": "idh1_idh2_md",
-    "project": "IDH1",
-    "type": "md_simulation",
-    "target": "IDH2",
-    "pdb_id": "AF-P48735",
-    "description": "IDH2-WT MD 10ns \u2014 isoform escape resistance mechanism",
-    "priority": 1,
-    "status": "running",
-    "ns": 10,
-    "gpu_id": "33921115",
-    "updated": "2026-04-01T09:26:21.250197"
-  },
-  {
-    "id": "idh1_egfr_md",
-    "project": "IDH1",
-    "type": "md_simulation",
-    "target": "EGFR",
-    "pdb_id": "1M17",
-    "description": "EGFR MD 10ns \u2014 Erlotinib repurposing target",
-    "priority": 2,
-    "status": "running",
-    "ns": 10,
-    "gpu_id": "33897783",
-    "updated": "2026-04-01T15:11:01.853733"
-  },
-  {
-    "id": "idh1_map2k1_md",
-    "project": "IDH1",
-    "type": "md_simulation",
-    "target": "MAP2K1",
-    "pdb_id": "3EQI",
-    "description": "MAP2K1/MEK1 MD 10ns \u2014 MAPK resistance interception",
-    "priority": 2,
-    "status": "completed",
-    "ns": 10,
-    "gpu_id": "33885969",
-    "updated": "2026-04-01T17:22:46.508939"
-  },
-  {
-    "id": "idh1_nras_md",
-    "project": "IDH1",
-    "type": "md_simulation",
-    "target": "NRAS",
-    "pdb_id": "5UHV",
-    "description": "NRAS MD 10ns \u2014 resistance driver in ClarIDHy patients",
-    "priority": 2,
-    "status": "running",
-    "ns": 10,
-    "gpu_id": "33921115",
-    "updated": "2026-04-01T17:13:42.283930"
-  },
-  {
     "id": "sma_perp_md",
     "project": "SMA",
     "type": "md_simulation",
@@ -545,30 +480,6 @@
     "ns": 10,
     "gpu_id": "33966226",
     "updated": "2026-04-01T17:56:49.076787"
-  },
-  {
-    "id": "idh1_ezh2_md",
-    "project": "IDH1",
-    "type": "md_simulation",
-    "target": "EZH2",
-    "pdb_id": "5HYN",
-    "description": "EZH2 MD 10ns \u2014 Tazemetostat target if ARID1A mutant",
-    "priority": 3,
-    "status": "running",
-    "ns": 10,
-    "gpu_id": "33966229",
-    "updated": "2026-04-01T17:57:04.121183"
-  },
-  {
-    "id": "idh1_dnmt3a_md",
-    "project": "IDH1",
-    "type": "md_simulation",
-    "target": "DNMT3A",
-    "pdb_id": "4U7T",
-    "description": "DNMT3A MD 10ns \u2014 epigenetic writer for Azacitidine combo",
-    "priority": 3,
-    "status": "queued",
-    "ns": 10
   },
   {
     "id": "sma_rock1_md",
@@ -633,37 +544,12 @@
     "gpu_class": "A100"
   },
   {
-    "id": "idh1_af2multi_idh1_dimer",
-    "project": "IDH1",
-    "type": "alphafold2_multimer",
-    "target": "IDH1_HOMODIMER",
-    "pdb_id": "IDH1+IDH1",
-    "description": "AlphaFold2-Multimer: IDH1-R132C homodimer with Ivosidenib binding pocket. Direct Melitta relevance.",
-    "priority": 0,
-    "status": "queued",
-    "requires_vram": 80,
-    "gpu_class": "A100"
-  },
-  {
     "id": "sma_rock2_md100ns",
     "project": "SMA",
     "type": "md_simulation",
     "target": "ROCK2_100ns",
     "pdb_id": "4WOT",
     "description": "ROCK2 100ns production MD \u2014 therapeutic axis, drug binding dynamics. A100 for speed.",
-    "priority": 0,
-    "status": "queued",
-    "ns": 100,
-    "requires_vram": 80,
-    "gpu_class": "A100"
-  },
-  {
-    "id": "idh1_r132c_md100ns",
-    "project": "IDH1",
-    "type": "md_simulation",
-    "target": "IDH1_R132C_100ns",
-    "pdb_id": "6ADG",
-    "description": "IDH1-R132C 100ns production MD \u2014 Melitta target, Ivosidenib binding dynamics.",
     "priority": 0,
     "status": "queued",
     "ns": 100,
@@ -711,20 +597,6 @@
     "batch_size": 500,
     "gpu_id": "33919734",
     "updated": "2026-04-01T11:04:46.684193"
-  },
-  {
-    "id": "idh1_diffdock_idh1_25k",
-    "project": "IDH1",
-    "type": "diffdock_screen",
-    "target": "IDH1_R132C",
-    "pdb_id": "6ADG",
-    "description": "DiffDock 25K compounds vs IDH1-R132C \u2014 find better inhibitors than Ivosidenib. For Melitta.",
-    "priority": 1,
-    "status": "completed",
-    "n_compounds": 25000,
-    "batch_size": 500,
-    "gpu_id": "33919734",
-    "updated": "2026-04-01T11:17:11.055484"
   },
   {
     "id": "sma_rfdiff_coro1c_100",

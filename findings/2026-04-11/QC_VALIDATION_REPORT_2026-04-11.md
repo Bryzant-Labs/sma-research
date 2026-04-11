@@ -46,7 +46,6 @@ These ARE what the Simon Mega Pack should cite:
 
 | Trajectory | Problem | What to do |
 |---|---|---|
-| **IDH1_Ivosidenib_holo** | APO BUG — labeled holo but no ligand in topology | Not Simon pack relevant (separate IDH1 project) |
 | **JAK2_bbb5_selectivity** | COM placement + wrong site (0/4 JAK2 hits) | Remove as "negative control" — it's broken, not a real negative |
 | **LIMK1_bbb5_selectivity** | COM placement + wrong site (0/5 LIMK1 hits) | Same — don't cite as "bbb5 LIMK1 selective" |
 | **ROCK1_bbb5_selectivity** | COM placement, ligand 43 Å away, dissociated | Same — don't cite |

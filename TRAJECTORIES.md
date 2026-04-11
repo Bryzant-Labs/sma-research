@@ -6,7 +6,6 @@ Raw DCD trajectory files from MD simulations. Too large for GitHub (up to 4GB ea
 
 | Target | Atoms | Duration | Size | GPU |
 |--------|-------|----------|------|-----|
-| IDH1-R132H | 670K | 10ns | 3.8 GB | RTX 3090 |
 | ROCK2 (GPU1) | 700K | 10ns | 4.0 GB | RTX 3090 |
 | ROCK2 (GPU2) | 681K | 10ns | 2.0 GB | RTX 3090 |
 | LIMK2 | 85K | 10ns | 490 MB | RTX 3090 |
