@@ -1,0 +1,135 @@
+{
+  "target": "ROCK2",
+  "ligand": null,
+  "type": "apo",
+  "pdb_ref": "2F2U",
+  "duration_ns": 99.9,
+  "n_frames": 1000,
+  "n_atoms_total": 710181,
+  "n_protein_atoms": 12708,
+  "n_protein_residues": 804,
+  "chains": [
+    "A",
+    "B"
+  ],
+  "rmsd_ca_all": {
+    "mean_A": 10.85895757950918,
+    "stdev_A": 2.023870856937002,
+    "max_A": 13.894329319720077,
+    "final_A": 13.586497884179082
+  },
+  "rmsd_dfg_region": {
+    "mean_A": 6.133437048129501,
+    "stdev_A": 1.1726466797783233,
+    "max_A": 8.0182423713401
+  },
+  "rmsd_nlobe": {
+    "mean_A": 9.743938578944324,
+    "stdev_A": 1.9057990886326233,
+    "max_A": 13.013537491338662
+  },
+  "rmsf": {
+    "min_A": 1.0582880519361373,
+    "max_A": 21.752423847971944,
+    "mean_A": 3.0813404399014197,
+    "top10_flexible": [
+      {
+        "chain": "B",
+        "resid": 1,
+        "resname": "GLY",
+        "rmsf_A": 21.752423847971944
+      },
+      {
+        "chain": "B",
+        "resid": 2,
+        "resname": "ALA",
+        "rmsf_A": 19.846919183055867
+      },
+      {
+        "chain": "B",
+        "resid": 3,
+        "resname": "SER",
+        "rmsf_A": 19.833226437857192
+      },
+      {
+        "chain": "B",
+        "resid": 4,
+        "resname": "GLY",
+        "rmsf_A": 19.45406451573183
+      },
+      {
+        "chain": "A",
+        "resid": 1,
+        "resname": "GLY",
+        "rmsf_A": 18.069688704428845
+      },
+      {
+        "chain": "B",
+        "resid": 5,
+        "resname": "ASP",
+        "rmsf_A": 17.643560639148674
+      },
+      {
+        "chain": "A",
+        "resid": 2,
+        "resname": "ALA",
+        "rmsf_A": 17.09078684661647
+      },
+      {
+        "chain": "B",
+        "resid": 6,
+        "resname": "GLY",
+        "rmsf_A": 16.880602918976383
+      },
+      {
+        "chain": "A",
+        "resid": 5,
+        "resname": "ASP",
+        "rmsf_A": 16.630001467094278
+      },
+      {
+        "chain": "A",
+        "resid": 3,
+        "resname": "SER",
+        "rmsf_A": 16.529033935294624
+      }
+    ]
+  },
+  "dfg_dihedral": {
+    "resid": 217,
+    "mean_deg": 153.70279717447747,
+    "stdev_deg": 13.002040497917482,
+    "min_deg": -179.53325018850646,
+    "max_deg": 175.00749152002703,
+    "fraction_negative": 0.001,
+    "fraction_positive": 0.999,
+    "classification": "DFG-out"
+  },
+  "pocket_rg": {
+    "shell_resids": [
+      121,
+      123,
+      125,
+      162,
+      164,
+      169,
+      171,
+      175,
+      178,
+      180,
+      181,
+      182,
+      225,
+      226,
+      232,
+      233,
+      234
+    ],
+    "shell_ca_count": 17,
+    "mean_A": 16.87177560019266,
+    "stdev_A": 0.19416690737185635,
+    "min_A": 16.32112420247007,
+    "max_A": 17.425060611125552,
+    "cv_pct": 1.1508386074648784
+  }
+}
