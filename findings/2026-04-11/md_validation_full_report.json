@@ -1,0 +1,1136 @@
+[check] 4AP_Kv12_holo...
+[check] 4AP_Kv12_holo_v2...
+[check] 4AP_SMN2_holo...
+[check] IDH1_Ivosidenib_holo...
+[check] JAK2_bbb5_selectivity...
+[check] LIMK1_bbb5_POCKET_FIXED...
+[check] LIMK1_bbb5_selectivity...
+[check] LIMK2_BMS5_POCKET_FIXED...
+[check] LIMK2_BMS5_holo...
+[check] LIMK2_BMS5_reference...
+[check] LIMK2_LIMKi3_POCKET_FIXED...
+[check] LIMK2_LIMKi3_POCKET_FIXED_v2...
+[check] LIMK2_LIMKi3_holo...
+[check] LIMK2_LIMKi3_reference...
+[check] LIMK2_bbb5_100ns...
+[check] LIMK2_bbb5_100ns_VALIDATED...
+[check] LIMK2_bbb5_DOCKPOSE...
+[check] LIMK2_bbb5_POCKET_FIXED...
+[check] LIMK2_bbb5_holo...
+[check] LIMK2_genmol_119_bbb_0...
+[check] ROCK1_bbb5_POCKET_FIXED...
+[check] ROCK1_bbb5_selectivity...
+[check] ROCK2_CHEMBL38735_active...
+[check] ROCK2_Fasudil_holo...
+[check] SMN2_4AP_MMPBSA...
+[check] SMN2_Riluzole_holo...
+[check] SMN2_vs_Kv12_4AP_selectivity...
+{
+  "total": 27,
+  "pass": 8,
+  "warn": 5,
+  "fail": 5,
+  "error": 0,
+  "incomplete": 7,
+  "load_failed": 2,
+  "results": [
+    {
+      "name": "4AP_Kv12_holo",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/4AP_Kv12_holo",
+      "target_guess": "KV12",
+      "checks": {
+        "topology_file": null,
+        "trajectory_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/4AP_Kv12_holo/trajectory.dcd"
+      },
+      "issues": [
+        "Missing topology or trajectory file"
+      ],
+      "verdict": "INCOMPLETE"
+    },
+    {
+      "name": "4AP_Kv12_holo_v2",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/4AP_Kv12_holo_v2",
+      "target_guess": "KV12",
+      "checks": {
+        "topology_file": null,
+        "trajectory_file": null
+      },
+      "issues": [
+        "Missing topology or trajectory file"
+      ],
+      "verdict": "INCOMPLETE"
+    },
+    {
+      "name": "4AP_SMN2_holo",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/4AP_SMN2_holo",
+      "target_guess": "SMN2",
+      "checks": {
+        "topology_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/4AP_SMN2_holo/final_20ns.pdb",
+        "trajectory_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/4AP_SMN2_holo/trajectory.dcd"
+      },
+      "issues": [
+        "Cannot load Universe: The topology and DCD trajectory files don't have the same number of atoms!\nTopology number of atoms 433761\nTrajectory: /home/bryza/gpu-fleet/results/SMA/md_sims/4AP_SMN2_holo/trajectory.dcd Number of atoms 433356"
+      ],
+      "verdict": "LOAD_FAILED"
+    },
+    {
+      "name": "IDH1_Ivosidenib_holo",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/IDH1_Ivosidenib_holo",
+      "target_guess": null,
+      "checks": {
+        "topology_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/IDH1_Ivosidenib_holo/final_20ns.pdb",
+        "trajectory_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/IDH1_Ivosidenib_holo/trajectory.dcd",
+        "topology_atoms": 946206,
+        "dcd_frame_atoms": 946206,
+        "n_frames": 200,
+        "has_box": "True",
+        "box_dimensions": [
+          212.8,
+          212.8,
+          212.8
+        ],
+        "n_protein_atoms": 26232,
+        "n_ligand_atoms": 0,
+        "has_ligand": false,
+        "temperature_mean": 300.28,
+        "temperature_std": 0.31
+      },
+      "issues": [
+        "APO BUG: directory name suggests holo but NO LIGAND in topology (protein=26232, ligand=0)"
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "name": "JAK2_bbb5_selectivity",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/JAK2_bbb5_selectivity",
+      "target_guess": "JAK2",
+      "checks": {
+        "topology_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/JAK2_bbb5_selectivity/final_10ns.pdb",
+        "trajectory_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/JAK2_bbb5_selectivity/trajectory.dcd",
+        "topology_atoms": 269925,
+        "dcd_frame_atoms": 269925,
+        "n_frames": 100,
+        "has_box": "True",
+        "box_dimensions": [
+          140.5,
+          140.5,
+          140.5
+        ],
+        "n_protein_atoms": 9648,
+        "n_ligand_atoms": 45,
+        "has_ligand": true,
+        "dist_pbc_first_A": 34.85,
+        "dist_pbc_last_A": 4.94,
+        "dist_nopbc_first_A": 36.09,
+        "dist_nopbc_last_A": 46.66,
+        "pbc_wrapping_detected": true,
+        "binding_verdict": "BOUND",
+        "top_contacts_sampled": [
+          "ASP1",
+          "PRO2"
+        ],
+        "expected_residues": [
+          "ASP994",
+          "GLY935",
+          "LEU932",
+          "VAL863"
+        ],
+        "expected_hits_count": 0,
+        "expected_hits": [],
+        "temperature_mean": 300.21,
+        "temperature_std": 0.68
+      },
+      "issues": [
+        "NOTE: PBC wrapping present (non-PBC=46.7 \u00c5, PBC=4.9 \u00c5). Only trust PBC-aware distance calculations on this trajectory.",
+        "COM PLACEMENT BUG? Ligand starts 34.8 \u00c5 from nearest C\u03b1 (even with PBC wrapping). Likely COM placement artifact.",
+        "WRONG SITE? Ligand contacts 2 residues but NONE match expected JAK2 binding site ['GLY935', 'VAL863', 'ASP994', 'LEU932']..."
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "name": "LIMK1_bbb5_POCKET_FIXED",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK1_bbb5_POCKET_FIXED",
+      "target_guess": "LIMK1",
+      "checks": {
+        "topology_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK1_bbb5_POCKET_FIXED/final_10ns.pdb",
+        "trajectory_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK1_bbb5_POCKET_FIXED/trajectory.dcd",
+        "topology_atoms": 145374,
+        "dcd_frame_atoms": 145374,
+        "n_frames": 100,
+        "has_box": "True",
+        "box_dimensions": [
+          114.6,
+          114.6,
+          114.6
+        ],
+        "n_protein_atoms": 9414,
+        "n_ligand_atoms": 45,
+        "has_ligand": true,
+        "dist_pbc_first_A": 3.18,
+        "dist_pbc_last_A": 3.02,
+        "dist_nopbc_first_A": 3.18,
+        "dist_nopbc_last_A": 3.02,
+        "binding_verdict": "BOUND",
+        "top_contacts_sampled": [
+          "ALA122",
+          "ARG156",
+          "ASN128",
+          "ASP180",
+          "GLU181",
+          "HIS125",
+          "ILE129",
+          "ILE130",
+          "LEU157",
+          "LYS182",
+          "MET121",
+          "MET158",
+          "PHE250",
+          "SER126",
+          "SER249"
+        ],
+        "expected_residues": [
+          "ASN128",
+          "ASP194",
+          "GLU181",
+          "HIS125",
+          "LEU30",
+          "PHE195"
+        ],
+        "expected_hits_count": 3,
+        "expected_hits": [
+          "ASN128",
+          "GLU181",
+          "HIS125"
+        ],
+        "binding_site_verdict": "CORRECT_POCKET",
+        "temperature_mean": 300.22,
+        "temperature_std": 0.82
+      },
+      "issues": [],
+      "verdict": "PASS"
+    },
+    {
+      "name": "LIMK1_bbb5_selectivity",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK1_bbb5_selectivity",
+      "target_guess": "LIMK1",
+      "checks": {
+        "topology_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK1_bbb5_selectivity/final_10ns.pdb",
+        "trajectory_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK1_bbb5_selectivity/trajectory.dcd",
+        "topology_atoms": 190242,
+        "dcd_frame_atoms": 190242,
+        "n_frames": 100,
+        "has_box": "True",
+        "box_dimensions": [
+          125.1,
+          125.1,
+          125.1
+        ],
+        "n_protein_atoms": 9414,
+        "n_ligand_atoms": 45,
+        "has_ligand": true,
+        "dist_pbc_first_A": 11.49,
+        "dist_pbc_last_A": 4.71,
+        "dist_nopbc_first_A": 63.26,
+        "dist_nopbc_last_A": 70.03,
+        "pbc_wrapping_detected": true,
+        "binding_verdict": "BOUND",
+        "top_contacts_sampled": [
+          "ARG32",
+          "ARG8",
+          "PRO9",
+          "SER10"
+        ],
+        "expected_residues": [
+          "ASN128",
+          "ASP194",
+          "GLU181",
+          "HIS125",
+          "LEU30",
+          "PHE195"
+        ],
+        "expected_hits_count": 0,
+        "expected_hits": [],
+        "temperature_mean": 300.34,
+        "temperature_std": 0.63
+      },
+      "issues": [
+        "NOTE: PBC wrapping present (non-PBC=70.0 \u00c5, PBC=4.7 \u00c5). Only trust PBC-aware distance calculations on this trajectory.",
+        "WRONG SITE? Ligand contacts 4 residues but NONE match expected LIMK1 binding site ['LEU30', 'GLU181', 'ASN128', 'ASP194', 'PHE195']..."
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "name": "LIMK2_BMS5_POCKET_FIXED",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_BMS5_POCKET_FIXED",
+      "target_guess": "LIMK2",
+      "checks": {
+        "topology_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_BMS5_POCKET_FIXED/final_20ns.pdb",
+        "trajectory_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_BMS5_POCKET_FIXED/trajectory.dcd",
+        "topology_atoms": 229467,
+        "dcd_frame_atoms": 229467,
+        "n_frames": 200,
+        "has_box": "True",
+        "box_dimensions": [
+          133.3,
+          133.3,
+          133.3
+        ],
+        "n_protein_atoms": 9802,
+        "n_ligand_atoms": 55,
+        "has_ligand": true,
+        "dist_pbc_first_A": 3.0,
+        "dist_pbc_last_A": 3.1,
+        "dist_nopbc_first_A": 83.3,
+        "dist_nopbc_last_A": 87.33,
+        "pbc_wrapping_detected": true,
+        "binding_verdict": "BOUND",
+        "top_contacts_sampled": [
+          "ALA185",
+          "ASN190",
+          "ASP226",
+          "GLY179",
+          "GLY191",
+          "LEU189",
+          "LEU225",
+          "LEU257",
+          "LYS192",
+          "MET184",
+          "MET188",
+          "PHE227",
+          "PRO181",
+          "PRO186",
+          "PRO218"
+        ],
+        "expected_residues": [
+          "ASN167",
+          "ASN190",
+          "ASP203",
+          "GLU164",
+          "LEU163",
+          "LEU166",
+          "LEU189",
+          "MET184",
+          "PHE204",
+          "PRO163"
+        ],
+        "expected_hits_count": 3,
+        "expected_hits": [
+          "ASN190",
+          "LEU189",
+          "MET184"
+        ],
+        "binding_site_verdict": "CORRECT_POCKET",
+        "temperature_mean": 300.21,
+        "temperature_std": 0.58
+      },
+      "issues": [
+        "NOTE: PBC wrapping present (non-PBC=87.3 \u00c5, PBC=3.1 \u00c5). Only trust PBC-aware distance calculations on this trajectory."
+      ],
+      "verdict": "WARN"
+    },
+    {
+      "name": "LIMK2_BMS5_holo",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_BMS5_holo",
+      "target_guess": "LIMK2",
+      "checks": {
+        "topology_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_BMS5_holo/final_20ns.pdb",
+        "trajectory_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_BMS5_holo/trajectory.dcd",
+        "topology_atoms": 95637,
+        "dcd_frame_atoms": 95637,
+        "n_frames": 200,
+        "metadata_ns": 20,
+        "estimated_ns_at_100ps_stride": 20.0,
+        "has_box": "True",
+        "box_dimensions": [
+          98.3,
+          98.3,
+          98.3
+        ],
+        "n_protein_atoms": 8889,
+        "n_ligand_atoms": 55,
+        "has_ligand": true,
+        "dist_pbc_first_A": 2.29,
+        "dist_pbc_last_A": 2.26,
+        "dist_nopbc_first_A": 49.9,
+        "dist_nopbc_last_A": 52.04,
+        "pbc_wrapping_detected": true,
+        "binding_verdict": "BOUND",
+        "top_contacts_sampled": [
+          "ALA159",
+          "ARG151",
+          "ARG197",
+          "ASN164",
+          "ASN167",
+          "ASP200",
+          "ASP203",
+          "GLU164",
+          "GLU235",
+          "GLY165",
+          "GLY168",
+          "LEU163",
+          "LEU166",
+          "LEU199",
+          "LEU202"
+        ],
+        "expected_residues": [
+          "ASN167",
+          "ASN190",
+          "ASP203",
+          "GLU164",
+          "LEU163",
+          "LEU166",
+          "LEU189",
+          "MET184",
+          "PHE204",
+          "PRO163"
+        ],
+        "expected_hits_count": 7,
+        "expected_hits": [
+          "ASN167",
+          "ASP203",
+          "GLU164",
+          "LEU163",
+          "LEU166",
+          "PHE204",
+          "PRO163"
+        ],
+        "binding_site_verdict": "CORRECT_POCKET",
+        "temperature_mean": 300.29,
+        "temperature_std": 1.0
+      },
+      "issues": [
+        "NOTE: PBC wrapping present (non-PBC=52.0 \u00c5, PBC=2.3 \u00c5). Only trust PBC-aware distance calculations on this trajectory."
+      ],
+      "verdict": "WARN"
+    },
+    {
+      "name": "LIMK2_BMS5_reference",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_BMS5_reference",
+      "target_guess": "LIMK2",
+      "checks": {
+        "topology_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_BMS5_reference/final_100ns.pdb",
+        "trajectory_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_BMS5_reference/trajectory.dcd",
+        "topology_atoms": 184076,
+        "dcd_frame_atoms": 184076,
+        "n_frames": 1000,
+        "has_box": "True",
+        "box_dimensions": [
+          124.2,
+          124.2,
+          124.2
+        ],
+        "n_protein_atoms": 9802,
+        "n_ligand_atoms": 0,
+        "has_ligand": false,
+        "temperature_mean": 300.32,
+        "temperature_std": 0.69
+      },
+      "issues": [],
+      "verdict": "PASS (apo)"
+    },
+    {
+      "name": "LIMK2_LIMKi3_POCKET_FIXED",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_LIMKi3_POCKET_FIXED",
+      "target_guess": "LIMK2",
+      "checks": {
+        "topology_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_LIMKi3_POCKET_FIXED/final_10ns.pdb",
+        "trajectory_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_LIMKi3_POCKET_FIXED/trajectory.dcd"
+      },
+      "issues": [
+        "Cannot load Universe: The topology and DCD trajectory files don't have the same number of atoms!\nTopology number of atoms 220191\nTrajectory: /home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_LIMKi3_POCKET_FIXED/trajectory.dcd Number of atoms 199922"
+      ],
+      "verdict": "LOAD_FAILED"
+    },
+    {
+      "name": "LIMK2_LIMKi3_POCKET_FIXED_v2",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_LIMKi3_POCKET_FIXED_v2",
+      "target_guess": "LIMK2",
+      "checks": {
+        "topology_file": null,
+        "trajectory_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_LIMKi3_POCKET_FIXED_v2/trajectory.dcd"
+      },
+      "issues": [
+        "Missing topology or trajectory file"
+      ],
+      "verdict": "INCOMPLETE"
+    },
+    {
+      "name": "LIMK2_LIMKi3_holo",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_LIMKi3_holo",
+      "target_guess": "LIMK2",
+      "checks": {
+        "topology_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_LIMKi3_holo/final_20ns.pdb",
+        "trajectory_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_LIMKi3_holo/trajectory.dcd",
+        "topology_atoms": 95615,
+        "dcd_frame_atoms": 95615,
+        "n_frames": 200,
+        "metadata_ns": 20,
+        "estimated_ns_at_100ps_stride": 20.0,
+        "has_box": "True",
+        "box_dimensions": [
+          98.3,
+          98.3,
+          98.3
+        ],
+        "n_protein_atoms": 8889,
+        "n_ligand_atoms": 36,
+        "has_ligand": true,
+        "dist_pbc_first_A": 2.68,
+        "dist_pbc_last_A": 2.72,
+        "dist_nopbc_first_A": 51.76,
+        "dist_nopbc_last_A": 88.09,
+        "pbc_wrapping_detected": true,
+        "binding_verdict": "BOUND",
+        "top_contacts_sampled": [
+          "ASN164",
+          "ASN167",
+          "ASP200",
+          "ASP203",
+          "GLU161",
+          "GLU164",
+          "GLY165",
+          "LEU163",
+          "LEU166",
+          "LEU199",
+          "LEU234",
+          "LYS166",
+          "LYS169",
+          "MET162",
+          "PHE201"
+        ],
+        "expected_residues": [
+          "ASN167",
+          "ASN190",
+          "ASP203",
+          "GLU164",
+          "LEU163",
+          "LEU166",
+          "LEU189",
+          "MET184",
+          "PHE204",
+          "PRO163"
+        ],
+        "expected_hits_count": 7,
+        "expected_hits": [
+          "ASN167",
+          "ASP203",
+          "GLU164",
+          "LEU163",
+          "LEU166",
+          "PHE204",
+          "PRO163"
+        ],
+        "binding_site_verdict": "CORRECT_POCKET",
+        "temperature_mean": 300.28,
+        "temperature_std": 1.02
+      },
+      "issues": [
+        "NOTE: PBC wrapping present (non-PBC=88.1 \u00c5, PBC=2.7 \u00c5). Only trust PBC-aware distance calculations on this trajectory."
+      ],
+      "verdict": "WARN"
+    },
+    {
+      "name": "LIMK2_LIMKi3_reference",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_LIMKi3_reference",
+      "target_guess": "LIMK2",
+      "checks": {
+        "topology_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_LIMKi3_reference/final_100ns.pdb",
+        "trajectory_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_LIMKi3_reference/trajectory.dcd",
+        "topology_atoms": 223523,
+        "dcd_frame_atoms": 223523,
+        "n_frames": 1000,
+        "has_box": "True",
+        "box_dimensions": [
+          132.1,
+          132.1,
+          132.1
+        ],
+        "n_protein_atoms": 9802,
+        "n_ligand_atoms": 0,
+        "has_ligand": false,
+        "temperature_mean": 300.29,
+        "temperature_std": 0.62
+      },
+      "issues": [],
+      "verdict": "PASS (apo)"
+    },
+    {
+      "name": "LIMK2_bbb5_100ns",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_bbb5_100ns",
+      "target_guess": "LIMK2",
+      "checks": {
+        "topology_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_bbb5_100ns/final_10ns.pdb",
+        "trajectory_file": null
+      },
+      "issues": [
+        "Missing topology or trajectory file"
+      ],
+      "verdict": "INCOMPLETE"
+    },
+    {
+      "name": "LIMK2_bbb5_100ns_VALIDATED",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_bbb5_100ns_VALIDATED",
+      "target_guess": "LIMK2",
+      "checks": {
+        "topology_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_bbb5_100ns_VALIDATED/final_10ns.pdb",
+        "trajectory_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_bbb5_100ns_VALIDATED/trajectory.dcd",
+        "topology_atoms": 219212,
+        "dcd_frame_atoms": 219212,
+        "n_frames": 100,
+        "has_box": "True",
+        "box_dimensions": [
+          131.3,
+          131.3,
+          131.3
+        ],
+        "n_protein_atoms": 9802,
+        "n_ligand_atoms": 45,
+        "has_ligand": true,
+        "dist_pbc_first_A": 2.68,
+        "dist_pbc_last_A": 2.78,
+        "dist_nopbc_first_A": 77.34,
+        "dist_nopbc_last_A": 81.59,
+        "pbc_wrapping_detected": true,
+        "binding_verdict": "BOUND",
+        "top_contacts_sampled": [
+          "ASN190",
+          "ASP226",
+          "GLY191",
+          "LEU189",
+          "LEU225",
+          "LEU257",
+          "LYS173",
+          "LYS192",
+          "MET184",
+          "MET188",
+          "PHE227",
+          "PRO186",
+          "VAL177"
+        ],
+        "expected_residues": [
+          "ASN167",
+          "ASN190",
+          "ASP203",
+          "GLU164",
+          "LEU163",
+          "LEU166",
+          "LEU189",
+          "MET184",
+          "PHE204",
+          "PRO163"
+        ],
+        "expected_hits_count": 3,
+        "expected_hits": [
+          "ASN190",
+          "LEU189",
+          "MET184"
+        ],
+        "binding_site_verdict": "CORRECT_POCKET",
+        "temperature_mean": 300.3,
+        "temperature_std": 0.61
+      },
+      "issues": [
+        "NOTE: PBC wrapping present (non-PBC=81.6 \u00c5, PBC=2.8 \u00c5). Only trust PBC-aware distance calculations on this trajectory."
+      ],
+      "verdict": "WARN"
+    },
+    {
+      "name": "LIMK2_bbb5_DOCKPOSE",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_bbb5_DOCKPOSE",
+      "target_guess": "LIMK2",
+      "checks": {
+        "topology_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_bbb5_DOCKPOSE/final_10ns.pdb",
+        "trajectory_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_bbb5_DOCKPOSE/trajectory.dcd",
+        "topology_atoms": 198371,
+        "dcd_frame_atoms": 198371,
+        "n_frames": 100,
+        "has_box": "True",
+        "box_dimensions": [
+          127.2,
+          127.2,
+          127.2
+        ],
+        "n_protein_atoms": 9802,
+        "n_ligand_atoms": 0,
+        "has_ligand": false,
+        "temperature_mean": 300.29,
+        "temperature_std": 0.62
+      },
+      "issues": [],
+      "verdict": "PASS (apo)"
+    },
+    {
+      "name": "LIMK2_bbb5_POCKET_FIXED",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_bbb5_POCKET_FIXED",
+      "target_guess": "LIMK2",
+      "checks": {
+        "topology_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_bbb5_POCKET_FIXED/final_10ns.pdb",
+        "trajectory_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_bbb5_POCKET_FIXED/trajectory.dcd",
+        "topology_atoms": 189956,
+        "dcd_frame_atoms": 189956,
+        "n_frames": 100,
+        "has_box": "True",
+        "box_dimensions": [
+          125.3,
+          125.3,
+          125.3
+        ],
+        "n_protein_atoms": 9802,
+        "n_ligand_atoms": 45,
+        "has_ligand": true,
+        "dist_pbc_first_A": 2.73,
+        "dist_pbc_last_A": 3.17,
+        "dist_nopbc_first_A": 77.85,
+        "dist_nopbc_last_A": 3.17,
+        "binding_verdict": "BOUND",
+        "top_contacts_sampled": [
+          "ASN190",
+          "ASP226",
+          "GLU187",
+          "GLY191",
+          "LEU189",
+          "LEU225",
+          "LEU257",
+          "LYS192",
+          "MET184",
+          "MET188",
+          "PHE227",
+          "PRO181",
+          "PRO186",
+          "VAL177"
+        ],
+        "expected_residues": [
+          "ASN167",
+          "ASN190",
+          "ASP203",
+          "GLU164",
+          "LEU163",
+          "LEU166",
+          "LEU189",
+          "MET184",
+          "PHE204",
+          "PRO163"
+        ],
+        "expected_hits_count": 3,
+        "expected_hits": [
+          "ASN190",
+          "LEU189",
+          "MET184"
+        ],
+        "binding_site_verdict": "CORRECT_POCKET",
+        "temperature_mean": 300.26,
+        "temperature_std": 0.68
+      },
+      "issues": [],
+      "verdict": "PASS"
+    },
+    {
+      "name": "LIMK2_bbb5_holo",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_bbb5_holo",
+      "target_guess": "LIMK2",
+      "checks": {
+        "topology_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_bbb5_holo/final_20ns.pdb",
+        "trajectory_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_bbb5_holo/trajectory.dcd",
+        "topology_atoms": 96586,
+        "dcd_frame_atoms": 96586,
+        "n_frames": 200,
+        "metadata_ns": 20,
+        "estimated_ns_at_100ps_stride": 20.0,
+        "has_box": "True",
+        "box_dimensions": [
+          98.6,
+          98.6,
+          98.6
+        ],
+        "n_protein_atoms": 8889,
+        "n_ligand_atoms": 45,
+        "has_ligand": true,
+        "dist_pbc_first_A": 2.97,
+        "dist_pbc_last_A": 2.89,
+        "dist_nopbc_first_A": 52.99,
+        "dist_nopbc_last_A": 51.61,
+        "pbc_wrapping_detected": true,
+        "binding_verdict": "BOUND",
+        "top_contacts_sampled": [
+          "ARG200",
+          "ASN164",
+          "ASN167",
+          "ASP203",
+          "GLU164",
+          "GLY165",
+          "LEU163",
+          "LEU166",
+          "LEU202",
+          "LEU234",
+          "LYS166",
+          "MET158",
+          "MET162",
+          "PHE201",
+          "PHE204"
+        ],
+        "expected_residues": [
+          "ASN167",
+          "ASN190",
+          "ASP203",
+          "GLU164",
+          "LEU163",
+          "LEU166",
+          "LEU189",
+          "MET184",
+          "PHE204",
+          "PRO163"
+        ],
+        "expected_hits_count": 7,
+        "expected_hits": [
+          "ASN167",
+          "ASP203",
+          "GLU164",
+          "LEU163",
+          "LEU166",
+          "PHE204",
+          "PRO163"
+        ],
+        "binding_site_verdict": "CORRECT_POCKET",
+        "temperature_mean": 300.31,
+        "temperature_std": 0.9
+      },
+      "issues": [
+        "NOTE: PBC wrapping present (non-PBC=51.6 \u00c5, PBC=2.9 \u00c5). Only trust PBC-aware distance calculations on this trajectory."
+      ],
+      "verdict": "WARN"
+    },
+    {
+      "name": "LIMK2_genmol_119_bbb_0",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_genmol_119_bbb_0",
+      "target_guess": "LIMK2",
+      "checks": {
+        "topology_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/LIMK2_genmol_119_bbb_0/final_100ns.pdb",
+        "trajectory_file": null
+      },
+      "issues": [
+        "Missing topology or trajectory file"
+      ],
+      "verdict": "INCOMPLETE"
+    },
+    {
+      "name": "ROCK1_bbb5_POCKET_FIXED",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/ROCK1_bbb5_POCKET_FIXED",
+      "target_guess": "ROCK1",
+      "checks": {
+        "topology_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/ROCK1_bbb5_POCKET_FIXED/final_10ns.pdb",
+        "trajectory_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/ROCK1_bbb5_POCKET_FIXED/trajectory.dcd",
+        "topology_atoms": 365363,
+        "dcd_frame_atoms": 365363,
+        "n_frames": 100,
+        "has_box": "True",
+        "box_dimensions": [
+          155.4,
+          155.4,
+          155.4
+        ],
+        "n_protein_atoms": 13280,
+        "n_ligand_atoms": 45,
+        "has_ligand": true,
+        "dist_pbc_first_A": 3.01,
+        "dist_pbc_last_A": 3.04,
+        "dist_nopbc_first_A": 3.01,
+        "dist_nopbc_last_A": 3.04,
+        "binding_verdict": "BOUND",
+        "top_contacts_sampled": [
+          "ARG19",
+          "ASN26",
+          "ASP20",
+          "ASP28",
+          "ASP35",
+          "CYS29",
+          "ILE63",
+          "ILE66",
+          "LEU17",
+          "LEU18",
+          "LEU30",
+          "LEU31",
+          "LEU34",
+          "MET14",
+          "SER23"
+        ],
+        "expected_residues": [
+          "LEU18",
+          "LEU30",
+          "MET156",
+          "PHE84",
+          "SER27"
+        ],
+        "expected_hits_count": 3,
+        "expected_hits": [
+          "LEU18",
+          "LEU30",
+          "SER27"
+        ],
+        "binding_site_verdict": "CORRECT_POCKET",
+        "temperature_mean": 300.29,
+        "temperature_std": 0.5
+      },
+      "issues": [],
+      "verdict": "PASS"
+    },
+    {
+      "name": "ROCK1_bbb5_selectivity",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/ROCK1_bbb5_selectivity",
+      "target_guess": "ROCK1",
+      "checks": {
+        "topology_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/ROCK1_bbb5_selectivity/final_10ns.pdb",
+        "trajectory_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/ROCK1_bbb5_selectivity/trajectory.dcd",
+        "topology_atoms": 611522,
+        "dcd_frame_atoms": 611522,
+        "n_frames": 100,
+        "has_box": "True",
+        "box_dimensions": [
+          184.2,
+          184.2,
+          184.2
+        ],
+        "n_protein_atoms": 13280,
+        "n_ligand_atoms": 45,
+        "has_ligand": true,
+        "dist_pbc_first_A": 43.24,
+        "dist_pbc_last_A": 25.69,
+        "dist_nopbc_first_A": 79.2,
+        "dist_nopbc_last_A": 101.41,
+        "binding_verdict": "DISSOCIATED",
+        "top_contacts_sampled": [],
+        "expected_residues": [
+          "LEU18",
+          "LEU30",
+          "MET156",
+          "PHE84",
+          "SER27"
+        ],
+        "expected_hits_count": 0,
+        "expected_hits": [],
+        "temperature_mean": 300.3,
+        "temperature_std": 0.36
+      },
+      "issues": [
+        "COM PLACEMENT BUG? Ligand starts 43.2 \u00c5 from nearest C\u03b1 (even with PBC wrapping). Likely COM placement artifact."
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "name": "ROCK2_CHEMBL38735_active",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/ROCK2_CHEMBL38735_active",
+      "target_guess": "ROCK2",
+      "checks": {
+        "topology_file": null,
+        "trajectory_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/ROCK2_CHEMBL38735_active/trajectory.dcd"
+      },
+      "issues": [
+        "Missing topology or trajectory file"
+      ],
+      "verdict": "INCOMPLETE"
+    },
+    {
+      "name": "ROCK2_Fasudil_holo",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/ROCK2_Fasudil_holo",
+      "target_guess": "ROCK2",
+      "checks": {
+        "topology_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/ROCK2_Fasudil_holo/final_20ns.pdb",
+        "trajectory_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/ROCK2_Fasudil_holo/traj_20ns.dcd",
+        "topology_atoms": 100334,
+        "dcd_frame_atoms": 100334,
+        "n_frames": 200,
+        "has_box": "True",
+        "box_dimensions": [
+          101.5,
+          101.5,
+          101.5
+        ],
+        "n_protein_atoms": 6129,
+        "n_ligand_atoms": 37,
+        "has_ligand": true,
+        "dist_pbc_first_A": 2.98,
+        "dist_pbc_last_A": 3.22,
+        "dist_nopbc_first_A": 2.98,
+        "dist_nopbc_last_A": 3.22,
+        "binding_verdict": "BOUND",
+        "top_contacts_sampled": [
+          "ALA177",
+          "ALA207",
+          "ASP208",
+          "CYS212",
+          "GLU116",
+          "GLY210",
+          "HIS188",
+          "ILE119",
+          "ILE181",
+          "LEU178",
+          "LEU186",
+          "LEU197",
+          "LEU206",
+          "LYS205",
+          "LYS97"
+        ],
+        "expected_residues": [
+          "ALA207",
+          "GLU116",
+          "ILE119",
+          "ILE181",
+          "LEU206",
+          "PHE209",
+          "VAL128",
+          "VAL129",
+          "VAL228"
+        ],
+        "expected_hits_count": 8,
+        "expected_hits": [
+          "ALA207",
+          "GLU116",
+          "ILE119",
+          "ILE181",
+          "LEU206",
+          "PHE209",
+          "VAL128",
+          "VAL129"
+        ],
+        "binding_site_verdict": "CORRECT_POCKET",
+        "temperature_mean": 300.3,
+        "temperature_std": 0.9
+      },
+      "issues": [],
+      "verdict": "PASS"
+    },
+    {
+      "name": "SMN2_4AP_MMPBSA",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/SMN2_4AP_MMPBSA",
+      "target_guess": "SMN2",
+      "checks": {
+        "topology_file": null,
+        "trajectory_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/SMN2_4AP_MMPBSA/trajectory.dcd"
+      },
+      "issues": [
+        "Missing topology or trajectory file"
+      ],
+      "verdict": "INCOMPLETE"
+    },
+    {
+      "name": "SMN2_Riluzole_holo",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/SMN2_Riluzole_holo",
+      "target_guess": "SMN2",
+      "checks": {
+        "topology_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/SMN2_Riluzole_holo/final_20ns.pdb",
+        "trajectory_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/SMN2_Riluzole_holo/trajectory.dcd",
+        "topology_atoms": 436522,
+        "dcd_frame_atoms": 436522,
+        "n_frames": 200,
+        "has_box": "True",
+        "box_dimensions": [
+          165.8,
+          165.8,
+          165.8
+        ],
+        "n_protein_atoms": 11342,
+        "n_ligand_atoms": 20,
+        "has_ligand": true,
+        "dist_pbc_first_A": 3.16,
+        "dist_pbc_last_A": 4.62,
+        "dist_nopbc_first_A": 3.16,
+        "dist_nopbc_last_A": 4.62,
+        "binding_verdict": "BOUND",
+        "top_contacts_sampled": [
+          "ALA292",
+          "ARG649",
+          "ARG670",
+          "ASN291",
+          "ASP293",
+          "CYS658",
+          "GLN411",
+          "GLU667",
+          "GLY294",
+          "GLY415",
+          "GLY659",
+          "HIS295",
+          "HIS671",
+          "ILE290",
+          "ILE416"
+        ],
+        "expected_residues": [
+          "ASN270",
+          "GLY294",
+          "ILE269",
+          "PRO268",
+          "SER271",
+          "TYR657",
+          "VAL272",
+          "VAL413"
+        ],
+        "expected_hits_count": 6,
+        "expected_hits": [
+          "GLY294",
+          "PRO268",
+          "SER271",
+          "TYR657",
+          "VAL272",
+          "VAL413"
+        ],
+        "binding_site_verdict": "CORRECT_POCKET",
+        "temperature_mean": 300.33,
+        "temperature_std": 0.41
+      },
+      "issues": [],
+      "verdict": "PASS"
+    },
+    {
+      "name": "SMN2_vs_Kv12_4AP_selectivity",
+      "path": "/home/bryza/gpu-fleet/results/SMA/md_sims/SMN2_vs_Kv12_4AP_selectivity",
+      "target_guess": "KV12",
+      "checks": {
+        "topology_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/SMN2_vs_Kv12_4AP_selectivity/final_10ns.pdb",
+        "trajectory_file": "/home/bryza/gpu-fleet/results/SMA/md_sims/SMN2_vs_Kv12_4AP_selectivity/trajectory.dcd",
+        "topology_atoms": 992611,
+        "dcd_frame_atoms": 992611,
+        "n_frames": 100,
+        "has_box": "True",
+        "box_dimensions": [
+          216.2,
+          216.2,
+          216.2
+        ],
+        "n_protein_atoms": 26232,
+        "n_ligand_atoms": 13,
+        "has_ligand": true,
+        "dist_pbc_first_A": 13.1,
+        "dist_pbc_last_A": 39.32,
+        "dist_nopbc_first_A": 13.1,
+        "dist_nopbc_last_A": 118.3,
+        "binding_verdict": "DISSOCIATED",
+        "top_contacts_sampled": [
+          "ARG23",
+          "GLN17",
+          "GLN326",
+          "GLU27",
+          "GLU31",
+          "GLU327",
+          "GLY325",
+          "ILE24",
+          "LEU28",
+          "PHE398",
+          "TYR322"
+        ],
+        "expected_residues": [
+          "ILE385",
+          "PRO407",
+          "THR374",
+          "TYR377",
+          "VAL381"
+        ],
+        "expected_hits_count": 0,
+        "expected_hits": [],
+        "temperature_mean": 300.26,
+        "temperature_std": 0.28
+      },
+      "issues": [
+        "WRONG SITE? Ligand contacts 11 residues but NONE match expected KV12 binding site ['VAL381', 'TYR377', 'PRO407', 'THR374', 'ILE385']..."
+      ],
+      "verdict": "FAIL"
+    }
+  ]
+}
