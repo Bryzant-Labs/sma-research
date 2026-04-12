@@ -1,0 +1,12 @@
+{
+  "target": "IDH1_R132C_ivo_500ns",
+  "project": "IDH1",
+  "pdb_source": "3INM",
+  "simulation_ns": 500,
+  "tool": "OpenMM 8.2.0",
+  "force_field": "Amber14 + TIP3P",
+  "temperature_K": 300,
+  "timestep_fs": 2,
+  "gpu": "A100 PCIE",
+  "date": "2026-04-12"
+}
