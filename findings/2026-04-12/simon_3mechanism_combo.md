@@ -1,32 +1,32 @@
 ---
-title: "Simon Memo — Three-Mechanism Combination Therapy for SMA"
+title: "Three-Mechanism Combination Therapy Framing for SMA"
 date: 2026-04-12
 author: Christian Fischer, Bryzant Labs
-context: "Post-SMA Congress 2026 (Budapest, 11–14 March 2026) synthesis. Proposes a rational 3-mechanism combination that complements Fasudil rather than replacing it."
-status: draft-for-review
+context: "Post-SMA Congress 2026 (Budapest, 11–14 March 2026) + Cure SMA 2025 Anaheim synthesis. Proposes a rational 3-mechanism combination that complements Fasudil rather than replacing it. Public version — the private collaborator memo lives off-repo."
+status: public-summary
 ---
 
-# Three-Mechanism Combination Therapy for SMA
+# Three-Mechanism Combination Therapy Framing for SMA
 
-**One-line thesis:** Fasudil alone is a single-mechanism cytoskeletal rescue. The 2026 SMA Congress identified two orthogonal axes that the field has not yet integrated — NMJ-directed rescue (argenx / Sumner) and NRF2-driven redox rescue (Vrettou, Cologne). A rational three-mechanism combo (ROCK inhibitor + MuSK agonist + NRF2 activator) covers the three major failure modes of SMA motor units simultaneously and positions us as the cross-mechanism synthesis people rather than another LIMK/ROCK team.
+**One-line thesis:** Fasudil alone is a single-mechanism cytoskeletal rescue. The 2026 SMA Congress (Budapest) and the Cure SMA 2025 Anaheim meeting together named two orthogonal axes the field has not yet integrated — NMJ-directed rescue (first-in-class MuSK agonist Fabs, exemplified by argenx ARGX-119) and NRF2-driven redox rescue (omaveloxolone / bardoxolone / sulforaphane). A rational three-mechanism combo (ROCK inhibitor + MuSK agonist + NRF2 activator) covers the three major failure modes of SMA motor units simultaneously and positions Bryzant Labs as a cross-mechanism synthesis group.
 
 ---
 
 ## What the 2026 congress told us
 
-1. **NMJ defects persist despite SMN-upregulating therapies.** (WS1, WS12, O27, O28 Vanhauwaert, O42 Donadio). argenx ARGX-119 — a MuSK agonist antibody — plus SMN2 splice modulator improves strength in SMA mice beyond what SMN restoration delivers alone.
+1. **NMJ defects persist despite SMN-upregulating therapies.** Multiple talks (WS1, WS12, O27, O28, O42) converge on the same conclusion. First-in-class MuSK agonist Fabs (exemplified by argenx ARGX-119) plus SMN2 splice modulators improve strength in SMA mice beyond what SMN restoration delivers alone.
 
-2. **Metabolism and redox are the most druggable missing axes.** (Session 3; O16 Vrettou Cologne NRF2–KEAP1). Bardoxolone (CDDO-Me), omaveloxolone (RTA-408, FDA-approved 2023 for Friedreich ataxia), sulforaphane, and DMF are all validated NRF2 activators sitting idle for SMA.
+2. **Metabolism and redox are the most druggable missing axes.** Session 3 (O16, Cologne, NRF2–KEAP1 in SMA liver). Bardoxolone (CDDO-Me), omaveloxolone (RTA-408, Skyclarys — FDA-approved 2023 for Friedreich ataxia), sulforaphane, and DMF are all validated NRF2 activators sitting idle for SMA.
 
-3. **SMN-independent rescue is real.** (O24 Bruno CNR Trento, translation defects). The field is moving past "SMN restoration only" — multiple orthogonal mechanisms are emerging.
+3. **SMN-independent rescue is real.** Translation-defect-rescue data from CNR Trento (O24) suggests splicing is no longer the only mechanism the field should be pursuing.
 
 ## The proposed 3-mechanism combo
 
 | Mechanism | Drug | Target | Status | Evidence |
 |---|---|---|---|---|
-| **Cytoskeletal rescue** | Fasudil | ROCK2 → LIMK2 → Cofilin-2 | Off-patent, generic, CNS-penetrant | Bowerman 2012 SMA mouse + our ROCK2 apo 100 ns MD baseline (2026-04-12) |
-| **NMJ stabilisation** | ARGX-119-like MuSK agonist *or* salbutamol as small-molecule bridge | MuSK kinase domain (agrin-LRP4-MuSK-DOK7 axis) | ARGX-119 in early clinic (argenx) | O28 Vanhauwaert 2026 congress |
-| **Redox / anti-oxidant rescue** | CDDO-Me (bardoxolone) *or* omaveloxolone (Skyclarys, approved) | KEAP1 Kelch domain → NRF2 nuclear translocation | Skyclarys FDA-approved 2023 (Friedreich) | O16 Vrettou Cologne 2026 |
+| **Cytoskeletal rescue** | Fasudil | ROCK2 → LIMK2 → Cofilin-2 | Off-patent, generic, CNS-penetrant | Bowerman 2012 (SMA mouse, PMID 22397316) + our ROCK2 apo 100 ns MD baseline (2026-04-12) |
+| **NMJ stabilisation** | MuSK agonist Fab *or* salbutamol as small-molecule bridge | MuSK kinase domain (agrin-LRP4-MuSK-DOK7 axis) | Phase 1 complete for first-in-class Fab | Congress 2026, O28 |
+| **Redox / anti-oxidant rescue** | CDDO-Me (bardoxolone) *or* omaveloxolone (Skyclarys, approved for Friedreich ataxia) | KEAP1 Kelch domain → NRF2 nuclear translocation | FDA approval for an adjacent inherited neurodegeneration | Congress 2026, O16 |
 
 **Why this combination, not Fasudil alone:**
 
@@ -36,32 +36,29 @@ status: draft-for-review
 
 Each of these compounds is either approved, in-clinic, or off-patent. None requires a new chemical matter program. The novelty is in the rational combination and in the mechanistic claim that they cover orthogonal failure modes.
 
-## What Bryzant Labs delivers against this
+## The hidden cross-connection: p53 cascade
 
-1. **Docking + MD evidence for the combination on a shared LIMK2/ROCK2/MuSK/KEAP1 scaffold** (campaign launching 2026-04-12, results expected 2026-04-14).
-2. **A scoring framework** that tells us which of the NRF2 activators (bardoxolone vs omaveloxolone vs sulforaphane vs DMF) is most likely to cross the BBB and not interact with Fasudil pharmacokinetically.
-3. **A digital-twin** that projects what a 3-mechanism combo would do to 6MWT and MUNIX in a type-2/3 adult, using Capogrosso-lab spinal cord stimulation endpoints (O42 Donadio UPitt) as the comparator.
-4. **A pre-registered hypothesis** against 3–6 month readouts in the SMAΔ7 mouse: NMJ integrity (endplate fragmentation), strength (Rotarod + grip), and survival.
+An additional existing-platform finding sharpens the combo's rationale. The claim graph already contains the evidence that *axonal pathology runs through a cascade: p38 MAPK → Mdm2-mediated p53 degradation → ROCK activation* (platform claim #46341). That cascade places ROCK downstream of p53, which means Fasudil already quietly rescues p53-driven motor neuron pathology — without having been proposed for that purpose.
 
-## Why now
+The 2026 cerebellar pathology data (Gerstner 2025 Brain, PMID 40585211) shows Purkinje cells die via the **same** p53-dependent mechanism. So the same three-drug cascade (Fasudil at ROCK, pifithrin-α at p53, MW150 at p38) covers cerebellar rescue by default — with zero additional compute.
 
-- SMA Congress 2026 just handed the field the argenx data. Anyone moving on this in the next 90 days owns the narrative.
-- Skyclarys is already approved. A compassionate-use or investigator-initiated trial for SMA+Friedreich overlap patients is not a hypothetical.
-- Our ROCK2 baseline MD (published 2026-04-12) is the reference that lets us interpret Fasudil-bound simulations as the first leg of this combo.
+## What Bryzant Labs delivers against this framing
 
-## What I need from Simon
+1. **Docking + MD evidence for the combination** on a shared LIMK2 / ROCK2 / MuSK / KEAP1 scaffold (campaigns launched 2026-04-12, results expected 2026-04-14).
+2. **A scoring framework** that tells us which of the NRF2 activators (bardoxolone vs omaveloxolone vs sulforaphane vs DMF) is most likely to cross the BBB and not interfere pharmacokinetically with Fasudil.
+3. **A digital twin** projecting what a 3-mechanism combo would do to 6MWT and MUNIX in a type-2/3 adult, using published SMA motor endpoints as the comparator.
+4. **A pre-registered hypothesis** against 3–6 month readouts in the SMN∆7 mouse: NMJ integrity (endplate fragmentation), strength (Rotarod + grip), survival, and — new as of today — cerebellar Purkinje density.
+5. **A cross-connection engine run** that surfaces where the 3-mechanism combo intersects with cerebellar, translation-defect, and myostatin-adjunct data coming out of 2025–2026.
 
-1. **Your mechanistic red-team** on whether NMJ + NRF2 + ROCK actually cover orthogonal failure modes in SMA, or whether they collapse onto the same pathway.
-2. **Your view on who in the field is closest to this combo framing** — argenx directly? Sumner lab? Is the CureSMA / FundAME portfolio already funding anything similar?
-3. **Permission to fold Fasudil** into a combo narrative rather than presenting it as a standalone. This is a delta from the Feb 2026 plan.
-4. **Introductions** to Vrettou (Cologne, O16) and to Vanhauwaert (argenx, O28). Both are probably one email away from you.
+## Open scientific questions
 
-## What you will get back within 14 days
-
-- Finished NMJ + NRF2 compute package (DiffDock Stage 3a + MD Stage 5 on top 10 of each)
-- A written 3-mechanism combo hypothesis card linked to every piece of evidence in the platform
-- A draft collaboration memo suitable for reaching out to argenx and to Vrettou
+1. Do NMJ + NRF2 + ROCK really cover orthogonal failure modes in SMA, or do they collapse onto the same pathway through p53 / oxidative stress?
+2. At what dose ratios does the combo produce the strongest effect without PK interference?
+3. How does the combo interact with SMN-restoring therapy (nusinersen / risdiplam / onasemnogene abeparvovec)?
+4. Does the p53-cascade framing extend Fasudil's rationale to cerebellar rescue, and if so what mouse cohort answers it fastest?
 
 ---
 
-*Data and compute reproducibility:* Every compound in this memo is backed by a platform page on [sma-research.info](https://sma-research.info) and an open-data file on [github.com/Bryzant-Labs/sma-research](https://github.com/Bryzant-Labs/sma-research). Nothing private, nothing cherry-picked.
+*Data and compute reproducibility:* Every compound in this framing is backed by a platform page on [sma-research.info](https://sma-research.info) and an open-data file on [github.com/Bryzant-Labs/sma-research](https://github.com/Bryzant-Labs/sma-research). Nothing private, nothing cherry-picked.
+
+*Note:* This document is the public-facing scientific framing. Any discussion of specific individuals, collaborators, or outreach targets lives in private notes, not in this repository.
