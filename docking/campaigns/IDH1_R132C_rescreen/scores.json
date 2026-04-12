@@ -1,0 +1,42 @@
+[
+  {
+    "compound": "4-Aminopyridine",
+    "chembl_id": "CHEMBL1535",
+    "smiles": "Nc1ccncc1",
+    "confidence": null,
+    "error": "name 'sys' is not defined",
+    "idx": 0
+  },
+  {
+    "compound": "Fampridine",
+    "chembl_id": "CHEMBL1446",
+    "smiles": "Nc1cc(F)cnc1",
+    "confidence": null,
+    "error": "name 'sys' is not defined",
+    "idx": 1
+  },
+  {
+    "compound": "Phenytoin",
+    "chembl_id": "CHEMBL16",
+    "smiles": "O=C1NC(=O)C(c2ccccc2)(c2ccccc2)C1",
+    "confidence": null,
+    "error": "name 'sys' is not defined",
+    "idx": 2
+  },
+  {
+    "compound": "Flupirtine",
+    "chembl_id": "CHEMBL1336",
+    "smiles": "N#Cc1ccc2[nH]c(=O)c3cc(F)ccc3c2c1",
+    "confidence": null,
+    "error": "name 'sys' is not defined",
+    "idx": 3
+  },
+  {
+    "compound": "Topiramate",
+    "chembl_id": "CHEMBL220492",
+    "smiles": "CC1(C)OC2COC3(COS(N)(=O)=O)OC(C)(C)OC3C2O1",
+    "confidence": null,
+    "error": "name 'sys' is not defined",
+    "idx": 4
+  }
+]
