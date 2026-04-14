@@ -1,8 +1,8 @@
 {
   "target": "ROCK2",
-  "pdb": "4WOT",
+  "pdb": "5WNG",
   "total_screened": 967,
   "total_hits": 0,
   "top_10": [],
-  "errors": 0
+  "errors": 967
 }
