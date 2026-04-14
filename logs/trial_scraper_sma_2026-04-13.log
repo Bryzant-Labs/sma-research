@@ -1,0 +1,29 @@
+2026-04-13 21:50:22,686 [INFO] Log file: /home/bryza/sma-research/logs/trial_scraper_sma_2026-04-13.log
+2026-04-13 21:50:22,686 [INFO] === trial_scraper START topic=sma platform=https://sma-research.info dry_run=True ===
+2026-04-13 21:50:22,686 [INFO] Fetching trials from ClinicalTrials.gov for condition: 'Spinal Muscular Atrophy'
+2026-04-13 21:50:23,371 [INFO] CT active page 1 — 128 studies (total reported: 0)
+2026-04-13 21:50:23,750 [INFO] CT completed page 1 — 17 in window of 207 (total: 0)
+2026-04-13 21:50:23,751 [INFO] Total fetched (deduped): 145 trials
+2026-04-13 21:50:23,754 [INFO] DRY RUN — 145 trials fetched, no platform writes
+2026-04-13 21:50:23,755 [INFO] Sample payload: {
+  "nct_id": "NCT06998134",
+  "title": "Toward Ubiquitous Lower Limb Exoskeleton Use in Children and Young Adults: Exploratory Observational Analysis of Novel Robotic Control Strategies",
+  "brief_title": "Toward Ubiquitous Lower Limb Exoskeleton Use in Children and Young Adults",
+  "status": "recr
+2026-04-13 21:50:23,755 [INFO] Sample payload: {
+  "nct_id": "NCT06839469",
+  "title": "Establishing Walking-related Digital Biomarkers in Rare Childhood Onset Progressive Neuromuscular Disorders",
+  "brief_title": "Establishing Walking-related Digital Biomarkers in Rare Childhood Onset Progressive Neuromuscular Disorders",
+  "status": "recruiti
+2026-04-13 21:50:23,755 [INFO] Sample payload: {
+  "nct_id": "NCT07190300",
+  "title": "TulmiSTAR-02: A Two-part Phase I Dose Escalation Study of Tulmimetostat (DZR123) in Combination With Darolutamide or Abiraterone Followed by Open-label, Randomized, Phase II Dose Expansion Study to Assess the Safety and Efficacy of Tulmimetostat in Combinatio
+2026-04-13 21:50:23,755 [INFO] Sample payload: {
+  "nct_id": "NCT03779334",
+  "title": "An Open-Label Study of Risdiplam in Infants With Genetically Diagnosed and Presymptomatic Spinal Muscular Atrophy",
+  "brief_title": "A Study of Risdiplam in Infants With Genetically Diagnosed and Presymptomatic Spinal Muscular Atrophy",
+  "status": "active_n
+2026-04-13 21:50:23,755 [INFO] Sample payload: {
+  "nct_id": "NCT05861986",
+  "title": "A Phase IV Open-Label Study Evaluating the Effectiveness and Safety of Risdiplam Administered as an Early Intervention in Pediatric Patients With Spinal Muscular Atrophy After Gene Therapy",
+  "brief_title": "A Study Evaluating the Effectiveness and Safety of
