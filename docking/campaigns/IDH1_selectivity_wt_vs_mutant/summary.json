@@ -1,0 +1,8 @@
+{
+  "target": "IDH1_selectivity_wt_vs_mutant",
+  "pdb": "4UMX",
+  "total_screened": 967,
+  "total_hits": 0,
+  "top_10": [],
+  "errors": 967
+}
