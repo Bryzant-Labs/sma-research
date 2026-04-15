@@ -1,0 +1,811 @@
+{
+  "file": "/home/bryza/gpu-fleet/results/NIMS_moltbot/P13_GDF8_MolMIM/molmim_gdf8_1776171922.json",
+  "label": "P13_GDF8_MolMIM_molmim_gdf8_1776171922",
+  "n_input": 1000,
+  "n_passed_gate": 510,
+  "n_top": 100,
+  "pass_rate": 0.51,
+  "top_score": 0.949,
+  "top_smiles": [
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00404",
+      "smiles": "Cc1ccc(S(=O)(=O)Nc2ccccc2F)cc1",
+      "composite": 0.949,
+      "qed": 0.927,
+      "sa": 1.52,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00018",
+      "smiles": "Cc1ccc(Oc2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.948,
+      "qed": 0.924,
+      "sa": 1.54,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00040",
+      "smiles": "Cc1ccc(Oc2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.948,
+      "qed": 0.924,
+      "sa": 1.54,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00050",
+      "smiles": "Cc1ccc(N2CCC(NC(=O)c3ccncc3)CC2)cc1",
+      "composite": 0.948,
+      "qed": 0.947,
+      "sa": 1.83,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00910",
+      "smiles": "NS(=O)(=O)c1ccc(-c2ccc(Br)cc2)cc1",
+      "composite": 0.948,
+      "qed": 0.927,
+      "sa": 1.58,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00080",
+      "smiles": "Cc1ccc(C(=O)N2CCC(NC(=O)c3ccncc3)CC2)cc1",
+      "composite": 0.947,
+      "qed": 0.943,
+      "sa": 1.83,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00310",
+      "smiles": "CCc1ccc(-c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.947,
+      "qed": 0.923,
+      "sa": 1.55,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00550",
+      "smiles": "CNS(=O)(=O)c1ccc(-c2ccc(C)cc2)cc1",
+      "composite": 0.947,
+      "qed": 0.923,
+      "sa": 1.56,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00710",
+      "smiles": "O=C(NC1CCN(c2ccccc2)CC1)c1ccncc1",
+      "composite": 0.947,
+      "qed": 0.94,
+      "sa": 1.77,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00010",
+      "smiles": "Cc1ccc(Sc2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.946,
+      "qed": 0.939,
+      "sa": 1.81,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00011",
+      "smiles": "Cc1ccc(Sc2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.946,
+      "qed": 0.939,
+      "sa": 1.81,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00012",
+      "smiles": "Cc1ccc(Sc2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.946,
+      "qed": 0.939,
+      "sa": 1.81,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00013",
+      "smiles": "Cc1ccc(Sc2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.946,
+      "qed": 0.939,
+      "sa": 1.81,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00014",
+      "smiles": "Cc1ccc(Sc2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.946,
+      "qed": 0.939,
+      "sa": 1.81,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00015",
+      "smiles": "Cc1ccc(Sc2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.946,
+      "qed": 0.939,
+      "sa": 1.81,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00016",
+      "smiles": "Cc1ccc(Sc2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.946,
+      "qed": 0.939,
+      "sa": 1.81,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00017",
+      "smiles": "Cc1ccc(Sc2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.946,
+      "qed": 0.939,
+      "sa": 1.81,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00070",
+      "smiles": "Cc1ccc(Sc2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.946,
+      "qed": 0.939,
+      "sa": 1.81,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00400",
+      "smiles": "Cc1ccc(S(=O)(=O)Nc2c(F)cccc2F)cc1",
+      "composite": 0.946,
+      "qed": 0.941,
+      "sa": 1.75,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00700",
+      "smiles": "Cc1ccc(Sc2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.946,
+      "qed": 0.939,
+      "sa": 1.81,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00701",
+      "smiles": "Cc1ccc(Sc2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.946,
+      "qed": 0.939,
+      "sa": 1.81,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00702",
+      "smiles": "Cc1ccc(Sc2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.946,
+      "qed": 0.939,
+      "sa": 1.81,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00730",
+      "smiles": "Cc1ccc(Sc2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.946,
+      "qed": 0.939,
+      "sa": 1.81,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00920",
+      "smiles": "CCN1CCC(NC(=O)c2ccc(-c3ccncc3)cc2)CC1",
+      "composite": 0.946,
+      "qed": 0.944,
+      "sa": 1.86,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00940",
+      "smiles": "Cc1ccc(Sc2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.946,
+      "qed": 0.939,
+      "sa": 1.81,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00590",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc(-c3ccncc3)cc2)CC1",
+      "composite": 0.945,
+      "qed": 0.944,
+      "sa": 1.9,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00592",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc(-c3cccnc3)cc2)CC1",
+      "composite": 0.945,
+      "qed": 0.944,
+      "sa": 1.89,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00830",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc(-c3ccncc3)cc2)CC1",
+      "composite": 0.945,
+      "qed": 0.944,
+      "sa": 1.9,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00831",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc(-c3ccncc3)cc2)CC1",
+      "composite": 0.945,
+      "qed": 0.944,
+      "sa": 1.9,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00890",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc(-c3cccnc3)cc2)CC1",
+      "composite": 0.945,
+      "qed": 0.944,
+      "sa": 1.89,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00921",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc(-c3ccncc3)cc2)CC1",
+      "composite": 0.945,
+      "qed": 0.944,
+      "sa": 1.9,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00370",
+      "smiles": "Cc1ccc(S(=O)(=O)NC(=O)c2ccc(C)s2)cc1",
+      "composite": 0.944,
+      "qed": 0.946,
+      "sa": 1.96,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00591",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2cccc(-c3ccncc3)c2)CC1",
+      "composite": 0.944,
+      "qed": 0.944,
+      "sa": 1.95,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00551",
+      "smiles": "Cc1cc(-c2ccc(S(N)(=O)=O)cc2)ccc1Cl",
+      "composite": 0.942,
+      "qed": 0.92,
+      "sa": 1.69,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00553",
+      "smiles": "Cc1ccc(-c2ccc(S(N)(=O)=O)cc2Cl)cc1",
+      "composite": 0.942,
+      "qed": 0.92,
+      "sa": 1.71,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00552",
+      "smiles": "Cc1ccc(-c2ccc(Cl)cc2S(N)(=O)=O)cc1",
+      "composite": 0.94,
+      "qed": 0.92,
+      "sa": 1.77,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00981",
+      "smiles": "CC(=O)N1CCN(Cc2ccc(NC(=O)c3ccncc3)cc2)CC1",
+      "composite": 0.94,
+      "qed": 0.926,
+      "sa": 1.83,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00231",
+      "smiles": "O=C(NC1CCN(C(=O)c2cccnc2)CC1)c1ccncc1",
+      "composite": 0.939,
+      "qed": 0.932,
+      "sa": 1.97,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00922",
+      "smiles": "O=C(NC1CCN(C2CC2)CC1)c1ccc(-c2ccncc2)cc1",
+      "composite": 0.939,
+      "qed": 0.941,
+      "sa": 1.96,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00980",
+      "smiles": "CC(=O)N1CC(NC(=O)c2ccc(Oc3cccnc3)cc2)C1",
+      "composite": 0.939,
+      "qed": 0.935,
+      "sa": 2.01,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00230",
+      "smiles": "Cc1ccncc1N1CCC(NC(=O)c2ccncc2)CC1",
+      "composite": 0.938,
+      "qed": 0.943,
+      "sa": 2.13,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00491",
+      "smiles": "NS(=O)(=O)c1ccc(-c2ccc(F)c(F)c2)cc1",
+      "composite": 0.938,
+      "qed": 0.909,
+      "sa": 1.69,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00891",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc(Oc3cccnc3)cc2)CC1",
+      "composite": 0.938,
+      "qed": 0.929,
+      "sa": 1.96,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00254",
+      "smiles": "Cc1ccc(-c2ccc(S(N)(=O)=O)cc2C)cc1",
+      "composite": 0.937,
+      "qed": 0.903,
+      "sa": 1.68,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00380",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc(-c3cnco3)cc2)CC1",
+      "composite": 0.937,
+      "qed": 0.941,
+      "sa": 2.16,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00501",
+      "smiles": "O=C(NC1CCN(C(=O)C2CCCC2)CC1)c1ccncc1",
+      "composite": 0.937,
+      "qed": 0.928,
+      "sa": 1.98,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00832",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc(-n3ccnc3)cc2)CC1",
+      "composite": 0.937,
+      "qed": 0.936,
+      "sa": 2.08,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00911",
+      "smiles": "Cc1ccc(-c2ccc(S(N)(=O)=O)cc2F)cc1",
+      "composite": 0.937,
+      "qed": 0.906,
+      "sa": 1.71,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00112",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc3ncccc3c2)CC1",
+      "composite": 0.936,
+      "qed": 0.922,
+      "sa": 1.93,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00160",
+      "smiles": "CS(=O)(=O)c1ccc(-c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.936,
+      "qed": 0.927,
+      "sa": 1.7,
+      "bbb_conf": "LOW"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00220",
+      "smiles": "Cc1cc(C)cc(-c2ccc(S(N)(=O)=O)cc2)c1",
+      "composite": 0.936,
+      "qed": 0.903,
+      "sa": 1.72,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00312",
+      "smiles": "Cc1cc(C)cc(-c2ccc(S(N)(=O)=O)cc2)c1",
+      "composite": 0.936,
+      "qed": 0.903,
+      "sa": 1.72,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00555",
+      "smiles": "NS(=O)(=O)c1ccc(-c2ccc(F)cc2)cc1",
+      "composite": 0.936,
+      "qed": 0.888,
+      "sa": 1.51,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00130",
+      "smiles": "Cc1ccc(S(=O)(=O)c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.935,
+      "qed": 0.928,
+      "sa": 1.74,
+      "bbb_conf": "LOW"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00131",
+      "smiles": "Cc1ccc(S(=O)(=O)c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.935,
+      "qed": 0.928,
+      "sa": 1.74,
+      "bbb_conf": "LOW"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00172",
+      "smiles": "CC(=O)N1CCc2cc(NC(=O)c3ccncc3)ccc2C1",
+      "composite": 0.935,
+      "qed": 0.924,
+      "sa": 1.99,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00350",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccncc2)(c2ccccc2)CC1",
+      "composite": 0.935,
+      "qed": 0.943,
+      "sa": 2.25,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00580",
+      "smiles": "Cc1ccc(S(=O)(=O)c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.935,
+      "qed": 0.928,
+      "sa": 1.74,
+      "bbb_conf": "LOW"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00581",
+      "smiles": "Cc1ccc(S(=O)(=O)c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.935,
+      "qed": 0.928,
+      "sa": 1.74,
+      "bbb_conf": "LOW"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00582",
+      "smiles": "Cc1ccc(S(=O)(=O)c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.935,
+      "qed": 0.928,
+      "sa": 1.74,
+      "bbb_conf": "LOW"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00583",
+      "smiles": "Cc1ccc(S(=O)(=O)c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.935,
+      "qed": 0.928,
+      "sa": 1.74,
+      "bbb_conf": "LOW"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00584",
+      "smiles": "Cc1ccc(S(=O)(=O)c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.935,
+      "qed": 0.928,
+      "sa": 1.74,
+      "bbb_conf": "LOW"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00585",
+      "smiles": "Cc1ccc(S(=O)(=O)c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.935,
+      "qed": 0.928,
+      "sa": 1.74,
+      "bbb_conf": "LOW"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00610",
+      "smiles": "Cc1ccc(S(=O)(=O)c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.935,
+      "qed": 0.928,
+      "sa": 1.74,
+      "bbb_conf": "LOW"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00611",
+      "smiles": "Cc1ccc(S(=O)(=O)c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.935,
+      "qed": 0.928,
+      "sa": 1.74,
+      "bbb_conf": "LOW"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00612",
+      "smiles": "Cc1ccc(S(=O)(=O)c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.935,
+      "qed": 0.928,
+      "sa": 1.74,
+      "bbb_conf": "LOW"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00613",
+      "smiles": "Cc1ccc(S(=O)(=O)c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.935,
+      "qed": 0.928,
+      "sa": 1.74,
+      "bbb_conf": "LOW"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00614",
+      "smiles": "Cc1ccc(S(=O)(=O)c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.935,
+      "qed": 0.928,
+      "sa": 1.74,
+      "bbb_conf": "LOW"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00615",
+      "smiles": "Cc1ccc(S(=O)(=O)c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.935,
+      "qed": 0.928,
+      "sa": 1.74,
+      "bbb_conf": "LOW"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00684",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc(Br)cc2)CC1",
+      "composite": 0.935,
+      "qed": 0.906,
+      "sa": 1.76,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00703",
+      "smiles": "Cc1ccc(S(=O)(=O)c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.935,
+      "qed": 0.928,
+      "sa": 1.74,
+      "bbb_conf": "LOW"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00733",
+      "smiles": "Cc1ccc(S(=O)(=O)c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.935,
+      "qed": 0.928,
+      "sa": 1.74,
+      "bbb_conf": "LOW"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00833",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc(Br)cc2)CC1",
+      "composite": 0.935,
+      "qed": 0.906,
+      "sa": 1.76,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00834",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc(Br)cc2)CC1",
+      "composite": 0.935,
+      "qed": 0.906,
+      "sa": 1.76,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00835",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc(Br)cc2)CC1",
+      "composite": 0.935,
+      "qed": 0.906,
+      "sa": 1.76,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00836",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc(Br)cc2)CC1",
+      "composite": 0.935,
+      "qed": 0.906,
+      "sa": 1.76,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00837",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc(Br)cc2)CC1",
+      "composite": 0.935,
+      "qed": 0.906,
+      "sa": 1.76,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00941",
+      "smiles": "Cc1ccc(S(=O)(=O)c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.935,
+      "qed": 0.928,
+      "sa": 1.74,
+      "bbb_conf": "LOW"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00942",
+      "smiles": "Cc1ccc(S(=O)(=O)c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.935,
+      "qed": 0.928,
+      "sa": 1.74,
+      "bbb_conf": "LOW"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00943",
+      "smiles": "Cc1ccc(S(=O)(=O)c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.935,
+      "qed": 0.928,
+      "sa": 1.74,
+      "bbb_conf": "LOW"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00944",
+      "smiles": "Cc1ccc(S(=O)(=O)c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.935,
+      "qed": 0.928,
+      "sa": 1.74,
+      "bbb_conf": "LOW"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00945",
+      "smiles": "Cc1ccc(S(=O)(=O)c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.935,
+      "qed": 0.928,
+      "sa": 1.74,
+      "bbb_conf": "LOW"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00946",
+      "smiles": "Cc1ccc(S(=O)(=O)c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.935,
+      "qed": 0.928,
+      "sa": 1.74,
+      "bbb_conf": "LOW"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00947",
+      "smiles": "Cc1ccc(S(=O)(=O)c2ccc(S(N)(=O)=O)cc2)cc1",
+      "composite": 0.935,
+      "qed": 0.928,
+      "sa": 1.74,
+      "bbb_conf": "LOW"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00077",
+      "smiles": "Cc1ccc(-c2cccc(S(N)(=O)=O)c2)cc1",
+      "composite": 0.934,
+      "qed": 0.885,
+      "sa": 1.57,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00078",
+      "smiles": "Cc1ccc(-c2cccc(S(N)(=O)=O)c2)cc1",
+      "composite": 0.934,
+      "qed": 0.885,
+      "sa": 1.57,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00111",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc3cnccc3c2)CC1",
+      "composite": 0.934,
+      "qed": 0.922,
+      "sa": 2.02,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00137",
+      "smiles": "Cc1ccc(-c2cccc(S(N)(=O)=O)c2)cc1",
+      "composite": 0.934,
+      "qed": 0.885,
+      "sa": 1.57,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00410",
+      "smiles": "CC(C)CC(=O)N1CCC(NC(=O)c2ccncc2)CC1",
+      "composite": 0.934,
+      "qed": 0.92,
+      "sa": 2.0,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00430",
+      "smiles": "Cc1ccc(-c2cccc(S(N)(=O)=O)c2)cc1",
+      "composite": 0.934,
+      "qed": 0.885,
+      "sa": 1.57,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00593",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc3cnccc3c2)CC1",
+      "composite": 0.934,
+      "qed": 0.922,
+      "sa": 2.02,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00594",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc3cnccc3c2)CC1",
+      "composite": 0.934,
+      "qed": 0.922,
+      "sa": 2.02,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00595",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc3cnccc3c2)CC1",
+      "composite": 0.934,
+      "qed": 0.922,
+      "sa": 2.02,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00596",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc3cnccc3c2)CC1",
+      "composite": 0.934,
+      "qed": 0.922,
+      "sa": 2.02,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00650",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc3cnccc3c2)CC1",
+      "composite": 0.934,
+      "qed": 0.922,
+      "sa": 2.02,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00651",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc3cnccc3c2)CC1",
+      "composite": 0.934,
+      "qed": 0.922,
+      "sa": 2.02,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00652",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc3cnccc3c2)CC1",
+      "composite": 0.934,
+      "qed": 0.922,
+      "sa": 2.02,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00653",
+      "smiles": "CC(=O)N1CCC(NC(=O)c2ccc3cnccc3c2)CC1",
+      "composite": 0.934,
+      "qed": 0.922,
+      "sa": 2.02,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00737",
+      "smiles": "Cc1ccc(-c2cccc(S(N)(=O)=O)c2)cc1",
+      "composite": 0.934,
+      "qed": 0.885,
+      "sa": 1.57,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "P13_GDF8_MolMIM_molmim_gdf8_1776171922_00770",
+      "smiles": "Cc1cc(N2CCC(NC(=O)c3ccncc3)CC2)nc(C)n1",
+      "composite": 0.934,
+      "qed": 0.937,
+      "sa": 2.19,
+      "bbb_conf": "HIGH"
+    }
+  ]
+}
