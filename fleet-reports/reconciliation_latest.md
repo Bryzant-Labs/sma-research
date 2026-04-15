@@ -1,13 +1,13 @@
-# Fleet Reconciliation Report — 2026-04-15T17:45:01.968552+00:00
+# Fleet Reconciliation Report — 2026-04-15T18:15:01.234298+00:00
 
 **Window**: ±300s match, 24h lookback.
 
 ## Status: 🔴 DRIFT DETECTED
 
-- Deploy failures in learner: **22**
-- In reconcile window (after cutoffs): **22**
+- Deploy failures in learner: **21**
+- In reconcile window (after cutoffs): **21**
 - Matched by watcher: **14** ✓
-- Orphan outcomes (learner failure, no watcher row): **8** ⚠️
+- Orphan outcomes (learner failure, no watcher row): **7** ⚠️
 - Watcher fails without outcome: **0**
 
 ## Orphan outcomes (failures the watcher did NOT see)
@@ -19,4 +19,3 @@
 - `p3_diffdock_ncald_novel` on GPU 34929019 at 2026-04-14 18:42:56 — type=diffdock_screen — `verify_fail: diffdock produced 0 poses (silent failure)`
 - `p1a_diffdock_limk2_admet_top100` on GPU 34929019 at 2026-04-14 18:35:24 — type=diffdock_screen — `verify_fail: diffdock produced 0 poses (silent failure)`
 - `p3_diffdock_ncald_novel` on GPU 34929019 at 2026-04-14 18:18:58 — type=diffdock_screen — `verify_fail: diffdock produced 0 poses (silent failure)`
-- `p1a_diffdock_limk2_admet_top100` on GPU 34929019 at 2026-04-14 18:11:19 — type=diffdock_screen — `verify_fail: diffdock produced 0 poses (silent failure)`
