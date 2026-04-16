@@ -1,0 +1,4 @@
+chain_a,res_a,chain_b,res_b,max_distance_A,confidence
+CHRNA1,192,CHRNA1,193,2.05,1.0
+CHRNA1,193,CHRNB1,110,6.0,0.95
+CHRNA1,189,CHRND,114,6.0,0.95

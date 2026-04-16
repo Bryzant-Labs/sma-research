@@ -1,0 +1,22 @@
+{
+  "agrn_lrp4": {
+    "path": "/home/bryza/fleet-results/cortex_constraints/agrn_lrp4_constraints.csv",
+    "n_constraints": 4
+  },
+  "lrp4_musk": {
+    "path": "/home/bryza/fleet-results/cortex_constraints/lrp4_musk_constraints.csv",
+    "n_constraints": 3
+  },
+  "musk_dok7": {
+    "path": "/home/bryza/fleet-results/cortex_constraints/musk_dok7_constraints.csv",
+    "n_constraints": 2
+  },
+  "rapsn_achr_beta": {
+    "path": "/home/bryza/fleet-results/cortex_constraints/rapsn_achr_beta_constraints.csv",
+    "n_constraints": 3
+  },
+  "achr_pentamer_abde": {
+    "path": "/home/bryza/fleet-results/cortex_constraints/achr_pentamer_abde_constraints.csv",
+    "n_constraints": 3
+  }
+}

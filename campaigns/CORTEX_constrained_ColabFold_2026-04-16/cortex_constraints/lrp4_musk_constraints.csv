@@ -1,0 +1,4 @@
+chain_a,res_a,chain_b,res_b,max_distance_A,confidence
+LRP4,920,MUSK,109,8.0,0.9
+LRP4,1012,MUSK,178,8.0,0.85
+LRP4,1115,MUSK,215,10.0,0.75

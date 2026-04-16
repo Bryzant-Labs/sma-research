@@ -1,0 +1,4 @@
+chain_a,res_a,chain_b,res_b,max_distance_A,confidence
+RAPSN,90,CHRNB1,402,8.0,0.9
+RAPSN,105,CHRNB1,412,8.0,0.9
+RAPSN,189,CHRNB1,438,10.0,0.8
