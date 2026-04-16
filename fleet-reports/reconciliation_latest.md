@@ -1,12 +1,12 @@
-# Fleet Reconciliation Report — 2026-04-16T06:45:01.762357+00:00
+# Fleet Reconciliation Report — 2026-04-16T07:15:01.241506+00:00
 
 **Window**: ±300s match, 24h lookback.
 
 ## Status: 🟢 HEALTHY
 
-- Deploy failures in learner: **6**
-- In reconcile window (after cutoffs): **6**
-- Matched by watcher: **4** ✓
+- Deploy failures in learner: **3**
+- In reconcile window (after cutoffs): **3**
+- Matched by watcher: **1** ✓
 - Orphan outcomes (learner failure, no watcher row): **2** 
 - Watcher fails without outcome: **0**
 
