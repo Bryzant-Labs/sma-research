@@ -1,0 +1,811 @@
+{
+  "label": "NRF2",
+  "source": "/home/bryza/gpu-fleet/results/NIMS_moltbot/P9_NRF2_MolMIM/nrf2_molmim_5k.json",
+  "n_input": 5000,
+  "n_passed_gate": 2841,
+  "n_top": 100,
+  "pass_rate": 0.568,
+  "top_composite_score": 0.948,
+  "top_smiles": [
+    {
+      "name": "NRF2_02681",
+      "smiles": "O=C(NCc1ccc2c(c1)OCO2)c1ccc(F)cc1",
+      "composite": 0.948,
+      "qed": 0.934,
+      "sa": 1.68,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03130",
+      "smiles": "CS(=O)(=O)c1cccc(OCc2cccc(O)c2)c1",
+      "composite": 0.944,
+      "qed": 0.932,
+      "sa": 1.8,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03132",
+      "smiles": "CS(=O)(=O)c1ccc(Cc2cccc(O)c2)cc1",
+      "composite": 0.942,
+      "qed": 0.924,
+      "sa": 1.74,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_02281",
+      "smiles": "CN(Cc1ccc2c(c1)OCO2)c1ccc(C(=O)O)cc1",
+      "composite": 0.941,
+      "qed": 0.936,
+      "sa": 1.95,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_02282",
+      "smiles": "CN(Cc1ccc2c(c1)OCO2)c1ccc(C(=O)O)cc1",
+      "composite": 0.941,
+      "qed": 0.936,
+      "sa": 1.95,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04780",
+      "smiles": "CN(CC(=O)N1CCc2ccccc21)Cc1ccccc1O",
+      "composite": 0.94,
+      "qed": 0.942,
+      "sa": 2.04,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_01430",
+      "smiles": "O=C1CC(c2ccc(-c3ccc(C(=O)O)cc3)cc2)=N1",
+      "composite": 0.939,
+      "qed": 0.927,
+      "sa": 1.91,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_01584",
+      "smiles": "Cc1cc(O)ccc1CN(C)C(=O)c1ccccc1",
+      "composite": 0.939,
+      "qed": 0.916,
+      "sa": 1.76,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_02000",
+      "smiles": "COc1ccc2c(c1)C(=O)C(c1ccc(C(=O)O)cc1)=CC2=O",
+      "composite": 0.939,
+      "qed": 0.943,
+      "sa": 2.11,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03580",
+      "smiles": "O=C(O)c1cc(COc2cccc(Br)c2)on1",
+      "composite": 0.938,
+      "qed": 0.939,
+      "sa": 2.09,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03880",
+      "smiles": "N#Cc1cccc(CN2CC(CNC(=O)c3ccccc3)C2)c1",
+      "composite": 0.937,
+      "qed": 0.923,
+      "sa": 1.92,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_01350",
+      "smiles": "O=C(NCc1ccc2c(c1)COC2)c1ccc2c(c1)C(=O)CC2",
+      "composite": 0.936,
+      "qed": 0.948,
+      "sa": 2.3,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_01580",
+      "smiles": "C=C1c2ccccc2C(=O)N1Cc1ccc(OC)cc1O",
+      "composite": 0.936,
+      "qed": 0.94,
+      "sa": 2.16,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_02782",
+      "smiles": "COc1cc(C)ccc1CNC(=O)Cc1ccccc1",
+      "composite": 0.936,
+      "qed": 0.906,
+      "sa": 1.58,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_02283",
+      "smiles": "O=C1CC(c2ccccc2-c2ccc(C(=O)O)cc2)=N1",
+      "composite": 0.935,
+      "qed": 0.927,
+      "sa": 2.06,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_02830",
+      "smiles": "COc1ccc2c(c1)C(c1ccccc1C(=O)O)=CC2=O",
+      "composite": 0.935,
+      "qed": 0.938,
+      "sa": 2.15,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03140",
+      "smiles": "Cc1nccn1Cc1ccc(NC(=O)C(C)C)cc1",
+      "composite": 0.935,
+      "qed": 0.915,
+      "sa": 1.89,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03730",
+      "smiles": "N#Cc1ccc2c(c1)N(Cc1cccc(C(N)=O)c1)CCO2",
+      "composite": 0.935,
+      "qed": 0.939,
+      "sa": 2.19,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04680",
+      "smiles": "Cc1ccc(C2=NC(=O)N(Cc3ccc(O)cc3)C2=O)cc1",
+      "composite": 0.935,
+      "qed": 0.946,
+      "sa": 2.27,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_00500",
+      "smiles": "Cc1nc2ccccc2c(=O)n1CC1(C(=O)O)CCCCC1",
+      "composite": 0.934,
+      "qed": 0.946,
+      "sa": 2.32,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03101",
+      "smiles": "O=C(O)c1ccc(C2=CC(=O)c3ccccc3C2=O)cc1",
+      "composite": 0.933,
+      "qed": 0.916,
+      "sa": 2.0,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03102",
+      "smiles": "O=C(O)c1ccc(C2=CC(=O)c3ccccc3C2=O)cc1",
+      "composite": 0.933,
+      "qed": 0.916,
+      "sa": 2.0,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04431",
+      "smiles": "O=c1ccc(Br)cn1Cc1cccc(O)c1",
+      "composite": 0.933,
+      "qed": 0.917,
+      "sa": 1.99,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_01180",
+      "smiles": "O=C(NCc1cc(N2CCOC2=O)ccc1Cl)c1ccccc1",
+      "composite": 0.932,
+      "qed": 0.936,
+      "sa": 2.0,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_00110",
+      "smiles": "Cn1c(=O)n(C)c2cc(C(=O)NCC3CCC(C)(C)CC3)ccc21",
+      "composite": 0.931,
+      "qed": 0.941,
+      "sa": 2.37,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03100",
+      "smiles": "NC(=O)c1ccc(OC2=Cc3ccccc3CC2=O)cc1",
+      "composite": 0.931,
+      "qed": 0.937,
+      "sa": 2.33,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03900",
+      "smiles": "O=c1c(C2CC(O)C2)cc(Br)cn1Cc1ccccc1",
+      "composite": 0.931,
+      "qed": 0.938,
+      "sa": 2.31,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_02650",
+      "smiles": "O=C(O)c1cccc(Sc2ccccc(=O)c2)c1",
+      "composite": 0.93,
+      "qed": 0.919,
+      "sa": 2.12,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_00460",
+      "smiles": "CC1(C(=O)NCCC(=O)N2CCc3ccccc3C2)CCCC1",
+      "composite": 0.929,
+      "qed": 0.929,
+      "sa": 2.27,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_01832",
+      "smiles": "O=C(c1ccc(O)cc1)N1CC=C(c2ccc(F)cc2)C1",
+      "composite": 0.929,
+      "qed": 0.92,
+      "sa": 2.09,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_02386",
+      "smiles": "O=C(c1ccc(O)cc1)N1CC=C(c2ccccc2)C1",
+      "composite": 0.929,
+      "qed": 0.907,
+      "sa": 2.01,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03583",
+      "smiles": "Cn1cccc(COc2cccc(C(=O)O)c2)c1=O",
+      "composite": 0.929,
+      "qed": 0.906,
+      "sa": 1.99,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04580",
+      "smiles": "O=c1ccccn1Cc1ccc(O)cc1Br",
+      "composite": 0.929,
+      "qed": 0.917,
+      "sa": 2.14,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_00330",
+      "smiles": "Cc1ncsc1CNCC1CN(C(=O)c2ccccc2)C1",
+      "composite": 0.928,
+      "qed": 0.922,
+      "sa": 2.24,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_01202",
+      "smiles": "O=C(O)c1ccc(CN2C(=O)c3ccccc3C2=O)cc1",
+      "composite": 0.928,
+      "qed": 0.875,
+      "sa": 1.64,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_01203",
+      "smiles": "O=C(O)c1ccc(CN2C(=O)c3ccccc3C2=O)cc1",
+      "composite": 0.928,
+      "qed": 0.875,
+      "sa": 1.64,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_02280",
+      "smiles": "CN(Cc1ccc2c(c1)CCO2)C(=O)c1ccc(O)nc1",
+      "composite": 0.928,
+      "qed": 0.936,
+      "sa": 2.43,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_02387",
+      "smiles": "O=C(c1ccccc1O)N1CC=C(c2ccccc2)C1",
+      "composite": 0.928,
+      "qed": 0.907,
+      "sa": 2.05,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04785",
+      "smiles": "CN(Cc1ccccc1)Cc1ncc(C(=O)O)cc1F",
+      "composite": 0.928,
+      "qed": 0.91,
+      "sa": 2.08,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_01850",
+      "smiles": "COc1cc(F)c(-c2ccc(S(=O)(=O)NC3CC3)cc2)cn1",
+      "composite": 0.927,
+      "qed": 0.917,
+      "sa": 2.19,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_02385",
+      "smiles": "O=C(c1cccc(O)c1)N1CC=C(c2ccccc2)C1",
+      "composite": 0.927,
+      "qed": 0.907,
+      "sa": 2.07,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_02500",
+      "smiles": "O=C1COc2ccc(CN3CCc4cc(O)ccc4C3)cc21",
+      "composite": 0.927,
+      "qed": 0.925,
+      "sa": 2.31,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_02680",
+      "smiles": "Cn1ccc(CNc2cccc(C(=O)N3CCC(F)(F)C3)c2)n1",
+      "composite": 0.927,
+      "qed": 0.942,
+      "sa": 2.51,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_02850",
+      "smiles": "O=C(c1cccc(O)c1)N1CCC(c2ccccc2)CC1",
+      "composite": 0.927,
+      "qed": 0.916,
+      "sa": 1.74,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03142",
+      "smiles": "CC(C)C(=O)Nc1ccc(Cn2cncn2)cc1",
+      "composite": 0.927,
+      "qed": 0.893,
+      "sa": 1.9,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03781",
+      "smiles": "O=C(O)c1ccc(C2=CCN(CCc3cccnc3)CC2)cc1",
+      "composite": 0.927,
+      "qed": 0.922,
+      "sa": 2.14,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_01200",
+      "smiles": "O=C(O)c1ccc(CN2C(=O)c3ccccc3CS2(=O)=O)cc1",
+      "composite": 0.926,
+      "qed": 0.927,
+      "sa": 2.25,
+      "bbb_conf": "MEDIUM"
+    },
+    {
+      "name": "NRF2_03230",
+      "smiles": "COc1c[nH]ccc1=NC(=O)c1cccc(N2CCCCC2)c1",
+      "composite": 0.926,
+      "qed": 0.948,
+      "sa": 2.65,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04082",
+      "smiles": "O=C(NCc1ccc(N2CCOC2=O)cc1)C1CC1",
+      "composite": 0.926,
+      "qed": 0.895,
+      "sa": 1.96,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04330",
+      "smiles": "COc1ccc(CNC(=O)[C@H]2Cc3ccccc32)cc1OC",
+      "composite": 0.926,
+      "qed": 0.923,
+      "sa": 2.32,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04350",
+      "smiles": "O=C(O)C1=CCN(C(=O)c2ccc(Br)cc2)CC1",
+      "composite": 0.926,
+      "qed": 0.912,
+      "sa": 2.19,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04683",
+      "smiles": "Cc1ccc2c(c1)CN(Cc1ccc(O)cc1)C2=O",
+      "composite": 0.926,
+      "qed": 0.894,
+      "sa": 1.95,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04900",
+      "smiles": "O=C(NC1CCN(C(=O)c2ccccc2)CC1)C1=CCOCC1",
+      "composite": 0.926,
+      "qed": 0.925,
+      "sa": 2.33,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04950",
+      "smiles": "O=S(=O)(NC1=Cc2ccccc2OC1)c1ccc2c(c1)CCC2",
+      "composite": 0.926,
+      "qed": 0.943,
+      "sa": 2.55,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_01831",
+      "smiles": "O=C(c1cncc(Cl)c1)N1CC=C(c2ccc(O)cc2)C1",
+      "composite": 0.925,
+      "qed": 0.927,
+      "sa": 2.42,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03985",
+      "smiles": "O=C(CNC(=O)c1ccccc1)OCc1cccc(Cl)c1",
+      "composite": 0.925,
+      "qed": 0.864,
+      "sa": 1.62,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04080",
+      "smiles": "O=C(NCc1ccc(N2CCOC2=O)cc1)C1=CCCC1",
+      "composite": 0.925,
+      "qed": 0.924,
+      "sa": 2.35,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04151",
+      "smiles": "O=C(O)c1ccc(-c2ccc(=O)oc2)cc1C(F)(F)F",
+      "composite": 0.925,
+      "qed": 0.92,
+      "sa": 2.29,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04850",
+      "smiles": "O=C(O)c1cccc(COc2ccc3c(c2)C(=O)C=CC3)c1",
+      "composite": 0.925,
+      "qed": 0.94,
+      "sa": 2.26,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_02286",
+      "smiles": "O=C(O)c1ccc(C2=NC(=O)c3ccccc32)cc1",
+      "composite": 0.924,
+      "qed": 0.891,
+      "sa": 1.98,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03250",
+      "smiles": "O=C1CCC(c2ccc(O)cc2)=NN1c1ccc2c(c1)OCCO2",
+      "composite": 0.924,
+      "qed": 0.922,
+      "sa": 2.36,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03752",
+      "smiles": "O=C(O)c1ccc(F)c(CN2C(=O)c3ccccc3C2=O)c1",
+      "composite": 0.924,
+      "qed": 0.883,
+      "sa": 1.87,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04784",
+      "smiles": "O=C(Cc1cccc(F)c1O)N1C(=O)c2ccccc21",
+      "composite": 0.924,
+      "qed": 0.911,
+      "sa": 2.25,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_01550",
+      "smiles": "Cn1cc(NC(=O)Cc2cccc(Br)c2)c(=O)n1C",
+      "composite": 0.923,
+      "qed": 0.934,
+      "sa": 2.56,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_01583",
+      "smiles": "C=Cc1ccc(C(=O)N2CCc3ncc(O)cc3C2)cc1",
+      "composite": 0.923,
+      "qed": 0.92,
+      "sa": 2.38,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_02880",
+      "smiles": "O=C(NC[C@@H]1Cc2cccc(Cl)c2O1)c1ccccc1",
+      "composite": 0.923,
+      "qed": 0.942,
+      "sa": 2.38,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_02950",
+      "smiles": "O=C(Nc1ccc(=O)n(-c2cccc(Cl)c2)n1)C1=COCC1",
+      "composite": 0.923,
+      "qed": 0.941,
+      "sa": 2.66,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03143",
+      "smiles": "COc1ccc(OC)c(Cn2cc(NC(=O)C(C)C)cn2)c1",
+      "composite": 0.923,
+      "qed": 0.89,
+      "sa": 2.03,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03400",
+      "smiles": "O=C1c2cc(Br)ccc2CN1Cc1ccc(=O)[nH]c1",
+      "composite": 0.923,
+      "qed": 0.923,
+      "sa": 2.42,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03450",
+      "smiles": "O=C(NC1Cc2ccccc2C1)C1=Cc2ccccc2C(=O)C1",
+      "composite": 0.923,
+      "qed": 0.927,
+      "sa": 2.49,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04153",
+      "smiles": "O=C(O)c1ccc(-c2cc(=O)c(C(F)(F)F)co2)cc1",
+      "composite": 0.923,
+      "qed": 0.92,
+      "sa": 2.36,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04782",
+      "smiles": "O=C1CN(C(=O)c2ccc(F)cc2O)C(c2ccccc2)=N1",
+      "composite": 0.923,
+      "qed": 0.921,
+      "sa": 2.41,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04783",
+      "smiles": "O=C1Cc2ccccc2N1Cc1c(F)ccc(O)c1F",
+      "composite": 0.923,
+      "qed": 0.915,
+      "sa": 2.33,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03135",
+      "smiles": "Oc1cccc(OCc2cnc3c(c2)CCC3)c1",
+      "composite": 0.922,
+      "qed": 0.898,
+      "sa": 2.16,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03484",
+      "smiles": "O=C(NCc1cccc(C(=O)N2CC=CC2)c1)c1ccccc1",
+      "composite": 0.922,
+      "qed": 0.883,
+      "sa": 1.97,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04152",
+      "smiles": "O=C(O)c1ccc(-c2ccoc(=O)c2)cc1C(F)(F)F",
+      "composite": 0.922,
+      "qed": 0.92,
+      "sa": 2.41,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04341",
+      "smiles": "COc1ccc(OC)c(C(=O)N2CCN(C(=O)C(C)C)CC2)c1",
+      "composite": 0.922,
+      "qed": 0.846,
+      "sa": 1.88,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04430",
+      "smiles": "CN(Cc1cccc(C(F)F)c1)S(=O)(=O)c1cccc(O)c1",
+      "composite": 0.922,
+      "qed": 0.918,
+      "sa": 2.22,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04581",
+      "smiles": "O=C(NCc1ccc(O)cc1)c1ccc(Br)cc1",
+      "composite": 0.922,
+      "qed": 0.915,
+      "sa": 1.52,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_01480",
+      "smiles": "O=C(N1CCc2cc(F)ccc21)C1(c2cccc(O)c2)CC1",
+      "composite": 0.921,
+      "qed": 0.925,
+      "sa": 2.34,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_02930",
+      "smiles": "O=C(O)c1cc(-c2cc(Br)on2)ccc1F",
+      "composite": 0.921,
+      "qed": 0.921,
+      "sa": 2.46,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03134",
+      "smiles": "O=C1C=Cc2ccc(OCc3cccc(O)c3)cc21",
+      "composite": 0.921,
+      "qed": 0.912,
+      "sa": 2.15,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03232",
+      "smiles": "Cc1ccccc1C1=CCN(C(=O)c2ccccc2O)C1",
+      "composite": 0.921,
+      "qed": 0.916,
+      "sa": 2.16,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03402",
+      "smiles": "O=C(O)c1cccc(-c2ccc3c(c2)CCC3=O)c1",
+      "composite": 0.921,
+      "qed": 0.893,
+      "sa": 1.9,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03551",
+      "smiles": "O=C(O)C1=C(c2cc(F)ccc2F)C(=O)c2ccccc21",
+      "composite": 0.921,
+      "qed": 0.922,
+      "sa": 2.32,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_00461",
+      "smiles": "Cc1ccn(CC(=O)NCC2(C)CCCCC2)c(=O)c1",
+      "composite": 0.92,
+      "qed": 0.917,
+      "sa": 2.44,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_01302",
+      "smiles": "FC(F)(F)Cn1c(-c2ccccc2)nnc1N1CCOCC1",
+      "composite": 0.92,
+      "qed": 0.872,
+      "sa": 2.29,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_01482",
+      "smiles": "O=C(c1cnccn1)N1CC(O)(c2ccc(Cl)c(Cl)c2)C1",
+      "composite": 0.92,
+      "qed": 0.919,
+      "sa": 2.47,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_01700",
+      "smiles": "COc1ccc(C2=CC(=O)C[C@@H](NC(=O)c3ccncc3)C2)cc1",
+      "composite": 0.92,
+      "qed": 0.939,
+      "sa": 2.74,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_02450",
+      "smiles": "COc1ccc2c(c1)C=C(NCc1cccc(=O)n1C)CC2",
+      "composite": 0.92,
+      "qed": 0.942,
+      "sa": 2.78,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_02781",
+      "smiles": "O=C(Cc1cc(Br)ccc1O)n1cccc1",
+      "composite": 0.92,
+      "qed": 0.919,
+      "sa": 2.47,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03231",
+      "smiles": "Cc1cccc(C2=CCN(C(=O)c3cccc(O)c3)C2)c1",
+      "composite": 0.92,
+      "qed": 0.916,
+      "sa": 2.19,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03401",
+      "smiles": "O=C(O)CN(C(=O)c1ccc2c(c1)C(=O)CC2)C1CC1",
+      "composite": 0.92,
+      "qed": 0.902,
+      "sa": 2.26,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04333",
+      "smiles": "CS(=O)(=O)c1ccc(CNC(=O)C[C@H]2Cc3ccccc32)cc1",
+      "composite": 0.92,
+      "qed": 0.916,
+      "sa": 2.44,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04901",
+      "smiles": "O=C(CN1CCOC1=O)NC1CCN(C(=O)c2ccccc2)CC1",
+      "composite": 0.92,
+      "qed": 0.887,
+      "sa": 2.1,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_02960",
+      "smiles": "COc1cc([S@@](=O)Cc2ccccc2)ccc1O",
+      "composite": 0.919,
+      "qed": 0.921,
+      "sa": 2.55,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_03500",
+      "smiles": "O=C(Nc1ccc2c(c1)C(=O)CC2)C1=Cc2ccccc2OC1",
+      "composite": 0.919,
+      "qed": 0.926,
+      "sa": 2.35,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04687",
+      "smiles": "Cc1ccc(C(=O)N2CCc3ccc(O)cc3C2)cc1",
+      "composite": 0.919,
+      "qed": 0.863,
+      "sa": 1.83,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_04952",
+      "smiles": "O=C1CCc2cc(S(=O)(=O)NC3=Cc4ccccc4OC3)ccc21",
+      "composite": 0.919,
+      "qed": 0.931,
+      "sa": 2.68,
+      "bbb_conf": "HIGH"
+    },
+    {
+      "name": "NRF2_00302",
+      "smiles": "CC1(C)CCCCN1C(=O)c1ccc(=O)n(CC(=O)O)c1",
+      "composite": 0.918,
+      "qed": 0.911,
+      "sa": 2.47,
+      "bbb_conf": "HIGH"
+    }
+  ]
+}
