@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "public_release": true,
+    "license": "CC-BY-4.0",
+    "description": "Workloads with observed gate-pass rate <= 50%. Save time \u2014 don't pay for these without fixing upstream first.",
+    "generated_from": "gpu_roi_table.json"
+  },
+  "warnings": [
+    {
+      "workload": "molmim_generate",
+      "gpu": "hosted_NIM",
+      "gate_pass_rate": 0.0,
+      "n_tasks": 61,
+      "severity": "critical",
+      "notes": "gate_pass_rate = 0 -> usd_per_useful_unit is UNDEFINED (infinity). DO NOT route molmim tasks until hosted NIM fixed.",
+      "source": "fleet-logs/molmim_* 0/811 records valid (Triton 500); fleet_events nims_job molmim n=61"
+    },
+    {
+      "workload": "rfdiffusion_binder",
+      "gpu": "hosted_NIM",
+      "gate_pass_rate": 0.0,
+      "n_tasks": 14,
+      "severity": "critical",
+      "notes": "gate_pass_rate = 0 until rfdiff contigs pre-flight added. ROUTE OFF until fixed.",
+      "source": "gpu-benchmark-timings 14 binders 7min; fleet-logs rfdiff_* 0 PDB survival (contigs bug)"
+    },
+    {
+      "workload": "pocketxmol_volume",
+      "gpu": "A100_SXM4_40G",
+      "gate_pass_rate": 0.4,
+      "n_tasks": 15,
+      "severity": "high",
+      "notes": "60% silent-zero rate observed",
+      "source": "memory: pxm LIMK2 DFG-out A100 275 compounds 6h; 15 kinase campaigns Apr 16-17"
+    },
+    {
+      "workload": "diffdock_screen",
+      "gpu": "H100_SXM_80G",
+      "gate_pass_rate": 0.4,
+      "n_tasks": 5,
+      "severity": "high",
+      "notes": "60% silent-zero rate observed",
+      "source": "notes/learnings-diffdock-2026-04-16.md Rule 5: 0.8-1.0 s/dock H100 SXM5 num_poses=10; gate rate from finding-pocketxmol-fails-diffdock-validation-2026-04-16 (110/275)"
+    },
+    {
+      "workload": "protein_mpnn",
+      "gpu": "hosted_NIM",
+      "gate_pass_rate": 0.461,
+      "n_tasks": 752,
+      "severity": "high",
+      "notes": "53% silent-zero rate observed",
+      "source": "fleet-logs/mpnn_* 752/1630 success records"
+    }
+  ]
+}

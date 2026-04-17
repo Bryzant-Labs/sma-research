@@ -1,0 +1,550 @@
+{
+  "_meta": {
+    "schema_version": "1.1",
+    "generated": "2026-04-17",
+    "source": "fleet-logs/ + fleet-logs/fleet_events*.jsonl + vast.ai invoices",
+    "rule": "rows included only when n_tasks >= 5 for (GPU, workload) pair",
+    "extends": "memory/architecture-summary-2026-04-16.md Section 2",
+    "fields": {
+      "workload": "task type",
+      "gpu": "GPU model + VRAM tier",
+      "usd_per_hr": "median from vastai invoices for this class, Apr 14-17 2026",
+      "rate_per_hr": "measured throughput units/hr on single GPU",
+      "rate_units": "units of rate_per_hr",
+      "n_tasks": "observed runs in fleet-results/",
+      "usd_per_unit_raw": "usd_per_hr / rate_per_hr (ignores warmup + contention + gate)",
+      "memory_ceiling": "max problem size observed completed successfully",
+      "warmup_sec": "cold-start time from rental -> first usable output",
+      "warmup_cost_usd": "warmup_sec/3600 * usd_per_hr",
+      "contention_penalty": "throughput slowdown when N callers share endpoint (1.0 = none)",
+      "gate_pass_rate": "fraction of n_tasks outputs passing next-stage gate",
+      "usd_per_useful_unit": "(usd_per_hr / rate_per_hr + warmup_cost_for_one_unit) * contention_n1 / gate_pass_rate",
+      "free_tier_available": "boolean; prefer this first if quota > batch",
+      "source_path": "evidence path for the measurement",
+      "v2_placeholders": "reserved null fields for v2: preemption_rate, stage_budget_usd, disk_net_gb_per_run, price_history, host_reliability"
+    },
+    "public_release": true,
+    "license": "CC-BY-4.0",
+    "source_repo": "https://github.com/Bryzant-Labs/sma-research",
+    "note": "Public sanitized snapshot. Per-rental invoice references and dollar totals are redacted; $/hr vendor prices and throughput measurements are preserved."
+  },
+  "rows": [
+    {
+      "workload": "boltz2_rescore_streaming",
+      "gpu": "H100_NVL_94G",
+      "usd_per_hr": 1.627,
+      "rate_per_hr": 35.7,
+      "rate_units": "compounds_per_gpu_stream",
+      "n_tasks": 500,
+      "usd_per_unit_raw": 0.04557,
+      "memory_ceiling": {
+        "value": 360,
+        "units": "total_residues"
+      },
+      "warmup_sec": 90,
+      "warmup_cost_usd": 0.041,
+      "contention_penalty": {
+        "n1": 1.0,
+        "n3": 1.0,
+        "n5": 1.0
+      },
+      "gate_pass_rate": 0.99,
+      "usd_per_useful_unit": 0.04603,
+      "free_tier_available": false,
+      "free_tier_quota_remaining": 0,
+      "source_path": "fleet-logs/boltz2_pxm10k_rock2_*; vast.ai invoice [instance] H100 NVL BG [h] [amt]",
+      "v2_placeholders": {
+        "preemption_rate": null,
+        "stage_budget_usd": null,
+        "disk_net_gb_per_run": null,
+        "price_history": null,
+        "host_reliability": null
+      }
+    },
+    {
+      "workload": "boltz2_rescore_streaming",
+      "gpu": "H100_SXM_80G",
+      "usd_per_hr": 1.493,
+      "rate_per_hr": 37.0,
+      "rate_units": "compounds_per_gpu_stream",
+      "n_tasks": 500,
+      "usd_per_unit_raw": 0.04035,
+      "memory_ceiling": {
+        "value": 360,
+        "units": "total_residues"
+      },
+      "warmup_sec": 90,
+      "warmup_cost_usd": 0.037,
+      "contention_penalty": {
+        "n1": 1.0,
+        "n3": 1.0,
+        "n5": 1.0
+      },
+      "gate_pass_rate": 0.99,
+      "usd_per_useful_unit": 0.04076,
+      "free_tier_available": false,
+      "free_tier_quota_remaining": 0,
+      "source_path": "fleet-logs/boltz2_pxm10k_jak2_*; vast.ai invoice [instance] [h] [amt]",
+      "v2_placeholders": {
+        "preemption_rate": null,
+        "stage_budget_usd": null,
+        "disk_net_gb_per_run": null,
+        "price_history": null,
+        "host_reliability": null
+      }
+    },
+    {
+      "workload": "boltz2_rescore_streaming",
+      "gpu": "A100_SXM4_40G",
+      "usd_per_hr": 0.847,
+      "rate_per_hr": 35.0,
+      "rate_units": "compounds_per_gpu_stream",
+      "n_tasks": 500,
+      "usd_per_unit_raw": 0.0242,
+      "memory_ceiling": {
+        "value": 360,
+        "units": "total_residues"
+      },
+      "warmup_sec": 90,
+      "warmup_cost_usd": 0.021,
+      "contention_penalty": {
+        "n1": 1.0,
+        "n3": 1.0,
+        "n5": 1.0
+      },
+      "gate_pass_rate": 0.99,
+      "usd_per_useful_unit": 0.02444,
+      "free_tier_available": false,
+      "free_tier_quota_remaining": 0,
+      "source_path": "fleet-logs/boltz2_pxm10k_limk2_*; vast.ai invoice [instance] [h] [amt]",
+      "v2_placeholders": {
+        "preemption_rate": null,
+        "stage_budget_usd": null,
+        "disk_net_gb_per_run": null,
+        "price_history": null,
+        "host_reliability": null
+      }
+    },
+    {
+      "workload": "boltz2_rescore_batched",
+      "gpu": "H100_NVL_94G",
+      "usd_per_hr": 1.627,
+      "rate_per_hr": 3600.0,
+      "rate_units": "compounds_rescored",
+      "n_tasks": 30,
+      "usd_per_unit_raw": 0.00045,
+      "memory_ceiling": {
+        "value": 400,
+        "units": "total_residues"
+      },
+      "warmup_sec": 28,
+      "warmup_cost_usd": 0.0127,
+      "contention_penalty": {
+        "n1": 1.0,
+        "n3": 3.0,
+        "n5": 5.0
+      },
+      "gate_pass_rate": 0.99,
+      "usd_per_useful_unit": 0.00046,
+      "free_tier_available": false,
+      "free_tier_quota_remaining": 0,
+      "source_path": "notes/boltz2-self-host-batched-2026-04-16.md (batch=5 -> 1s/call on h100-two:8003)",
+      "v2_placeholders": {
+        "preemption_rate": null,
+        "stage_budget_usd": null,
+        "disk_net_gb_per_run": null,
+        "price_history": null,
+        "host_reliability": null
+      }
+    },
+    {
+      "workload": "boltz2_rescore_batched",
+      "gpu": "H100_SXM_80G",
+      "usd_per_hr": 1.493,
+      "rate_per_hr": 3600.0,
+      "rate_units": "compounds_rescored",
+      "n_tasks": 30,
+      "usd_per_unit_raw": 0.00041,
+      "memory_ceiling": {
+        "value": 360,
+        "units": "total_residues"
+      },
+      "warmup_sec": 28,
+      "warmup_cost_usd": 0.0116,
+      "contention_penalty": {
+        "n1": 1.0,
+        "n3": 3.0,
+        "n5": 5.0
+      },
+      "gate_pass_rate": 0.99,
+      "usd_per_useful_unit": 0.00042,
+      "free_tier_available": false,
+      "free_tier_quota_remaining": 0,
+      "source_path": "notes/boltz2-self-host-batched \u2014 same server on H100 SXM variant",
+      "v2_placeholders": {
+        "preemption_rate": null,
+        "stage_budget_usd": null,
+        "disk_net_gb_per_run": null,
+        "price_history": null,
+        "host_reliability": null
+      }
+    },
+    {
+      "workload": "protein_mpnn",
+      "gpu": "hosted_NIM",
+      "usd_per_hr": 0.0,
+      "rate_per_hr": 500.0,
+      "rate_units": "designs",
+      "n_tasks": 752,
+      "usd_per_unit_raw": 0.0,
+      "memory_ceiling": {
+        "value": 378,
+        "units": "chain_residues"
+      },
+      "warmup_sec": 0,
+      "warmup_cost_usd": 0.0,
+      "contention_penalty": {
+        "n1": 1.0,
+        "n3": 1.5,
+        "n5": 2.5
+      },
+      "gate_pass_rate": 0.461,
+      "usd_per_useful_unit": 0.0,
+      "free_tier_available": true,
+      "free_tier_quota_remaining": null,
+      "source_path": "fleet-logs/mpnn_* 752/1630 success records",
+      "v2_placeholders": {
+        "preemption_rate": null,
+        "stage_budget_usd": null,
+        "disk_net_gb_per_run": null,
+        "price_history": null,
+        "host_reliability": null
+      }
+    },
+    {
+      "workload": "genmol_generate",
+      "gpu": "hosted_NIM",
+      "usd_per_hr": 0.0,
+      "rate_per_hr": 1200.0,
+      "rate_units": "molecules",
+      "n_tasks": 322,
+      "usd_per_unit_raw": 0.0,
+      "memory_ceiling": {
+        "value": 20,
+        "units": "molecules_per_seed_call"
+      },
+      "warmup_sec": 0,
+      "warmup_cost_usd": 0.0,
+      "contention_penalty": {
+        "n1": 1.0,
+        "n3": 1.5,
+        "n5": 2.0
+      },
+      "gate_pass_rate": 0.92,
+      "usd_per_useful_unit": 0.0,
+      "free_tier_available": true,
+      "free_tier_quota_remaining": null,
+      "source_path": "fleet-logs/genmol_* 322/350 seed-records success",
+      "v2_placeholders": {
+        "preemption_rate": null,
+        "stage_budget_usd": null,
+        "disk_net_gb_per_run": null,
+        "price_history": null,
+        "host_reliability": null
+      }
+    },
+    {
+      "workload": "molmim_generate",
+      "gpu": "hosted_NIM",
+      "usd_per_hr": 0.0,
+      "rate_per_hr": 5.9,
+      "rate_units": "jobs",
+      "n_tasks": 61,
+      "usd_per_unit_raw": 0.0,
+      "memory_ceiling": {
+        "value": 10,
+        "units": "molecules_per_seed_call"
+      },
+      "warmup_sec": 0,
+      "warmup_cost_usd": 0.0,
+      "contention_penalty": {
+        "n1": 1.0,
+        "n3": 1.5,
+        "n5": 2.0
+      },
+      "gate_pass_rate": 0.0,
+      "usd_per_useful_unit": null,
+      "free_tier_available": true,
+      "free_tier_quota_remaining": null,
+      "source_path": "fleet-logs/molmim_* 0/811 records valid (Triton 500); fleet_events nims_job molmim n=61",
+      "notes": "gate_pass_rate = 0 -> usd_per_useful_unit is UNDEFINED (infinity). DO NOT route molmim tasks until hosted NIM fixed.",
+      "v2_placeholders": {
+        "preemption_rate": null,
+        "stage_budget_usd": null,
+        "disk_net_gb_per_run": null,
+        "price_history": null,
+        "host_reliability": null
+      }
+    },
+    {
+      "workload": "openmm_md_production_90K_atoms",
+      "gpu": "A100_PCIE_40G",
+      "usd_per_hr": 0.581,
+      "rate_per_hr": 3.5,
+      "rate_units": "ns_per_hr",
+      "n_tasks": 6,
+      "usd_per_unit_raw": 0.166,
+      "memory_ceiling": {
+        "value": 90000,
+        "units": "atoms"
+      },
+      "warmup_sec": 600,
+      "warmup_cost_usd": 0.097,
+      "contention_penalty": {
+        "n1": 1.0,
+        "n3": 1.0,
+        "n5": 1.0
+      },
+      "gate_pass_rate": null,
+      "usd_per_useful_unit": 0.166,
+      "free_tier_available": false,
+      "free_tier_quota_remaining": 0,
+      "source_path": "vast.ai [instance]/25/35 A100 PCIE sma-*-md [h] @ $0.581/hr; 4_ap_md queue entries",
+      "v2_placeholders": {
+        "preemption_rate": null,
+        "stage_budget_usd": null,
+        "disk_net_gb_per_run": null,
+        "price_history": null,
+        "host_reliability": null
+      }
+    },
+    {
+      "workload": "openmm_md_production_85K_atoms",
+      "gpu": "RTX_3090",
+      "usd_per_hr": 0.17,
+      "rate_per_hr": 4.6,
+      "rate_units": "ns_per_hr",
+      "n_tasks": 5,
+      "usd_per_unit_raw": 0.037,
+      "memory_ceiling": {
+        "value": 85000,
+        "units": "atoms"
+      },
+      "warmup_sec": 600,
+      "warmup_cost_usd": 0.028,
+      "contention_penalty": {
+        "n1": 1.0,
+        "n3": 1.0,
+        "n5": 1.0
+      },
+      "gate_pass_rate": null,
+      "usd_per_useful_unit": 0.037,
+      "free_tier_available": false,
+      "free_tier_quota_remaining": 0,
+      "source_path": "notes/gpu-benchmark-timings LIMK2 85K atoms 10ns in 7819s = 110.5 ns/day",
+      "v2_placeholders": {
+        "preemption_rate": null,
+        "stage_budget_usd": null,
+        "disk_net_gb_per_run": null,
+        "price_history": null,
+        "host_reliability": null
+      }
+    },
+    {
+      "workload": "openmm_md_production_35K_atoms",
+      "gpu": "RTX_3090",
+      "usd_per_hr": 0.17,
+      "rate_per_hr": 7.6,
+      "rate_units": "ns_per_hr",
+      "n_tasks": 5,
+      "usd_per_unit_raw": 0.0224,
+      "memory_ceiling": {
+        "value": 35000,
+        "units": "atoms"
+      },
+      "warmup_sec": 600,
+      "warmup_cost_usd": 0.028,
+      "contention_penalty": {
+        "n1": 1.0,
+        "n3": 1.0,
+        "n5": 1.0
+      },
+      "gate_pass_rate": null,
+      "usd_per_useful_unit": 0.0224,
+      "free_tier_available": false,
+      "free_tier_quota_remaining": 0,
+      "source_path": "notes/gpu-benchmark-timings CFL2 35K atoms 10ns in 4740s = 182.3 ns/day",
+      "v2_placeholders": {
+        "preemption_rate": null,
+        "stage_budget_usd": null,
+        "disk_net_gb_per_run": null,
+        "price_history": null,
+        "host_reliability": null
+      }
+    },
+    {
+      "workload": "pocketxmol_volume",
+      "gpu": "A100_SXM4_40G",
+      "usd_per_hr": 0.847,
+      "rate_per_hr": 46.0,
+      "rate_units": "molecules_per_hr",
+      "n_tasks": 15,
+      "usd_per_unit_raw": 0.01841,
+      "memory_ceiling": {
+        "value": 275,
+        "units": "molecules_per_campaign"
+      },
+      "warmup_sec": 600,
+      "warmup_cost_usd": 0.141,
+      "contention_penalty": {
+        "n1": 1.0,
+        "n3": 1.0,
+        "n5": 1.0
+      },
+      "gate_pass_rate": 0.4,
+      "usd_per_useful_unit": 0.046,
+      "free_tier_available": false,
+      "free_tier_quota_remaining": 0,
+      "source_path": "memory: pxm LIMK2 DFG-out A100 275 compounds 6h; 15 kinase campaigns Apr 16-17",
+      "v2_placeholders": {
+        "preemption_rate": null,
+        "stage_budget_usd": null,
+        "disk_net_gb_per_run": null,
+        "price_history": null,
+        "host_reliability": null
+      }
+    },
+    {
+      "workload": "diffdock_screen",
+      "gpu": "H100_SXM_80G",
+      "usd_per_hr": 1.493,
+      "rate_per_hr": 3600.0,
+      "rate_units": "poses",
+      "n_tasks": 5,
+      "usd_per_unit_raw": 0.00041,
+      "memory_ceiling": {
+        "value": 50,
+        "units": "ligand_heavy_atoms"
+      },
+      "warmup_sec": 300,
+      "warmup_cost_usd": 0.124,
+      "contention_penalty": {
+        "n1": 1.0,
+        "n3": 1.5,
+        "n5": 2.0
+      },
+      "gate_pass_rate": 0.4,
+      "usd_per_useful_unit": 0.00104,
+      "free_tier_available": false,
+      "free_tier_quota_remaining": 0,
+      "source_path": "notes/learnings-diffdock-2026-04-16.md Rule 5: 0.8-1.0 s/dock H100 SXM5 num_poses=10; gate rate from finding-pocketxmol-fails-diffdock-validation-2026-04-16 (110/275)",
+      "v2_placeholders": {
+        "preemption_rate": null,
+        "stage_budget_usd": null,
+        "disk_net_gb_per_run": null,
+        "price_history": null,
+        "host_reliability": null
+      }
+    },
+    {
+      "workload": "colabfold_multimer_small",
+      "gpu": "A100_80G",
+      "usd_per_hr": 0.9,
+      "rate_per_hr": 40.0,
+      "rate_units": "monomer_folds_under_200aa",
+      "n_tasks": 17,
+      "usd_per_unit_raw": 0.0225,
+      "memory_ceiling": {
+        "value": 900,
+        "units": "chain_residues"
+      },
+      "warmup_sec": 600,
+      "warmup_cost_usd": 0.15,
+      "contention_penalty": {
+        "n1": 1.0,
+        "n3": 1.0,
+        "n5": 1.0
+      },
+      "gate_pass_rate": null,
+      "usd_per_useful_unit": 0.0225,
+      "free_tier_available": false,
+      "free_tier_quota_remaining": 0,
+      "source_path": "notes/gpu-benchmark-timings-2026-03-31 \u2014 17 targets <800aa in 30min",
+      "v2_placeholders": {
+        "preemption_rate": null,
+        "stage_budget_usd": null,
+        "disk_net_gb_per_run": null,
+        "price_history": null,
+        "host_reliability": null
+      }
+    },
+    {
+      "workload": "rfdiffusion_binder",
+      "gpu": "hosted_NIM",
+      "usd_per_hr": 0.0,
+      "rate_per_hr": 120.0,
+      "rate_units": "binders_70aa",
+      "n_tasks": 14,
+      "usd_per_unit_raw": 0.0,
+      "memory_ceiling": {
+        "value": 200,
+        "units": "target_residues"
+      },
+      "warmup_sec": 0,
+      "warmup_cost_usd": 0.0,
+      "contention_penalty": {
+        "n1": 1.0,
+        "n3": 1.5,
+        "n5": 2.0
+      },
+      "gate_pass_rate": 0.0,
+      "usd_per_useful_unit": null,
+      "free_tier_available": true,
+      "free_tier_quota_remaining": null,
+      "source_path": "gpu-benchmark-timings 14 binders 7min; fleet-logs rfdiff_* 0 PDB survival (contigs bug)",
+      "notes": "gate_pass_rate = 0 until rfdiff contigs pre-flight added. ROUTE OFF until fixed.",
+      "v2_placeholders": {
+        "preemption_rate": null,
+        "stage_budget_usd": null,
+        "disk_net_gb_per_run": null,
+        "price_history": null,
+        "host_reliability": null
+      }
+    }
+  ],
+  "rows_n_below_5": [
+    {
+      "workload": "diffdock_screen",
+      "gpu": "RTX_4090",
+      "n_tasks": 3,
+      "status": "n<5 INSUFFICIENT \u2014 preliminary rate 2500 poses/hr, keep measuring"
+    },
+    {
+      "workload": "rfdiffusion_binder",
+      "gpu": "H100_SXM_80G",
+      "n_tasks": 5,
+      "status": "n=5 borderline; gate_pass_rate NO_DATA (0 surviving PDBs); raw rate 60/hr estimate"
+    },
+    {
+      "workload": "boltz2_fold_autoscore",
+      "gpu": "mixed",
+      "n_tasks": 2978,
+      "status": "mixed GPU attribution; ~24% silent-zero rate across corpus \u2014 tracked in Table 3"
+    }
+  ],
+  "no_data_cells": [
+    "B200 x all workloads \u2014 2 contracts live but outputs not yet parsed",
+    "TPU_v5p x all workloads \u2014 TRC pending",
+    "A100_80G x boltz2_rescore_streaming",
+    "RTX_4090 x boltz2_rescore_streaming (partial compat)",
+    "H100_NVL_94G x colabfold_multimer_small",
+    "H100_NVL_94G x openmm_md_production",
+    "B200 x boltz2_rescore_batched",
+    "all GPUs x openfold_multistate",
+    "all GPUs x prot_t5_embed",
+    "all GPUs x esm2_embed",
+    "all GPUs x alphafold3_assembly",
+    "all GPUs x esmfold_predict (self-host; NIM has data)",
+    "all GPUs x proteina_complexa / proteina_monomer / openfold2_fold / mmpbsa / chai1"
+  ]
+}

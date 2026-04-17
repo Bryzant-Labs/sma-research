@@ -1,0 +1,1149 @@
+{
+  "_meta": {
+    "schema_version": "1.1",
+    "generated": "2026-04-17",
+    "extends": "memory/architecture-summary-2026-04-16.md Section 2 (Model x compute compatibility matrix)",
+    "changes_from_v1_0": [
+      "split H100 column into H100_SXM_80G and H100_NVL_94G (invoices differentiate; $1.49 vs $1.63/hr; 80GB vs 94GB HBM)",
+      "added B200 column (2x 8-GPU B200 contracts live 2026-04-17)",
+      "dropped GB10 column (hardware not yet arrived; tracked separately in plan-gb10-spark-prep.md)",
+      "added 5 measured-data fields per cell: memory_ceiling, warmup, contention_penalty, gate_pass_rate, free_tier",
+      "reserved v2 placeholder keys (preemption_rate, stage_budget_usd, disk_net_gb_per_run, price_history, host_reliability) as null"
+    ],
+    "legend_status": {
+      "live": "task-type routed and producing output in fleet-results/",
+      "partial": "runs but gated (NIM 429, weights pending, flaky)",
+      "backlog": "not yet wired into dispatcher",
+      "incompatible": "cannot run on this backend"
+    },
+    "rules": [
+      "ALL throughput numbers come from fleet-results/, fleet_events*.jsonl, or vastai invoices",
+      "If n_tasks < 5 for (GPU, workload), mark NO_DATA for throughput+gate",
+      "memory_ceiling = max observed problem size that completed with valid output",
+      "gate_pass_rate = fraction of n_tasks outputs that passed the workload's next-stage gate"
+    ],
+    "public_release": true,
+    "license": "CC-BY-4.0",
+    "source_repo": "https://github.com/Bryzant-Labs/sma-research"
+  },
+  "gpu_columns": [
+    "A100_SXM4_40G",
+    "A100_PCIE_40G",
+    "A100_80G",
+    "H100_SXM_80G",
+    "H100_NVL_94G",
+    "RTX_4090",
+    "RTX_3090",
+    "B200",
+    "TPU_v5p",
+    "hosted_NIM"
+  ],
+  "price_reference_usd_hr_2026_04_17": {
+    "A100_SXM4_40G": {
+      "median": 0.847,
+      "min": 0.273,
+      "max": 0.888,
+      "n_rentals": 5,
+      "source": "vast.ai invoices Apr 14-17"
+    },
+    "A100_PCIE_40G": {
+      "median": 0.581,
+      "min": 0.581,
+      "max": 0.748,
+      "n_rentals": 4,
+      "source": "vast.ai invoices Apr 14-17"
+    },
+    "A100_80G": {
+      "median": 0.9,
+      "min": 0.9,
+      "max": 0.9,
+      "n_rentals": 1,
+      "source": "gpu-benchmark-timings.md (2026-03-31, 1 historical rental)"
+    },
+    "H100_SXM_80G": {
+      "median": 1.493,
+      "min": 1.467,
+      "max": 1.644,
+      "n_rentals": 6,
+      "source": "vast.ai invoices Apr 16-17"
+    },
+    "H100_NVL_94G": {
+      "median": 1.627,
+      "min": 1.627,
+      "max": 1.733,
+      "n_rentals": 3,
+      "source": "vast.ai invoices Apr 16-17"
+    },
+    "RTX_4090": {
+      "median": 0.25,
+      "min": 0.24,
+      "max": 0.277,
+      "n_rentals": 3,
+      "source": "vast.ai invoices Apr 17"
+    },
+    "RTX_3090": {
+      "median": 0.17,
+      "min": 0.17,
+      "max": 0.17,
+      "n_rentals": 1,
+      "source": "gpu-benchmark-timings.md (2026-03-31)"
+    },
+    "B200": {
+      "median": 29.9,
+      "min": 29.8,
+      "max": 30.594,
+      "n_rentals": 2,
+      "source": "vast.ai invoices Apr 17 (burn rate on idle)"
+    },
+    "TPU_v5p": {
+      "median": 0.0,
+      "n_rentals": 0,
+      "source": "NO_DATA \u2014 TRC application pending; plan-tpu-af3-nmj-2026-04-15.md"
+    },
+    "hosted_NIM": {
+      "median": 0.0,
+      "source": "free tier 4-key rotation"
+    }
+  },
+  "workloads": {
+    "molmim_generate": {
+      "compat": {
+        "A100_SXM4_40G": "live",
+        "A100_PCIE_40G": "live",
+        "A100_80G": "live",
+        "H100_SXM_80G": "live",
+        "H100_NVL_94G": "live",
+        "RTX_4090": "live",
+        "RTX_3090": "live",
+        "B200": "live",
+        "TPU_v5p": "incompatible",
+        "hosted_NIM": "live"
+      },
+      "free_tier": {
+        "available": true,
+        "quota_remaining_today": null,
+        "source": "HostedNIMWorker rotates 4 keys; exact remaining quota not logged per call"
+      },
+      "measured": {
+        "hosted_NIM": {
+          "rate_per_hr": 5.9,
+          "rate_units": "jobs_of_up_to_10_molecules",
+          "n_tasks": 61,
+          "last_date": "2026-04-17",
+          "memory_ceiling": {
+            "value": 10,
+            "units": "molecules_per_seed",
+            "source": "fleet-logs/molmim_* max batch per seed 10"
+          },
+          "warmup_sec": 0,
+          "warmup_cost_usd": 0,
+          "contention_penalty": {
+            "n1": 1.0,
+            "n3": null,
+            "n5": null,
+            "source": "4-key rotation masks contention"
+          },
+          "gate_pass_rate": {
+            "value": 0.0,
+            "gate_def": "non-empty molecules list",
+            "n_records": 811,
+            "source": "fleet-logs/molmim_* all 811 seed-records had error_code=500 or error; hosted MolMIM broken 2026-04-14+"
+          },
+          "notes_v2_placeholders": {
+            "preemption_rate": null,
+            "stage_budget_usd": null,
+            "disk_net_gb_per_run": null,
+            "price_history": null,
+            "host_reliability": null
+          },
+          "source": "fleet-logs/molmim_* (82 dirs, 811 seed records); fleet_events nims_job molmim n=61 median 609s"
+        }
+      },
+      "notes": "CRITICAL: 0/811 seed-records have valid molecules. MolMIM hosted NIM is broken server-side (Triton 500). Don't route molmim tasks until fixed OR build self-host."
+    },
+    "boltz2_affinity": {
+      "compat": {
+        "A100_SXM4_40G": "live",
+        "A100_PCIE_40G": "live",
+        "A100_80G": "live",
+        "H100_SXM_80G": "live",
+        "H100_NVL_94G": "live",
+        "RTX_4090": "partial",
+        "RTX_3090": "incompatible",
+        "B200": "live",
+        "TPU_v5p": "incompatible",
+        "hosted_NIM": "partial"
+      },
+      "free_tier": {
+        "available": true,
+        "quota_remaining_today": null,
+        "source": "NIM 4-key rotation; affinities empty on free tier \u2014 only iptm proxy works"
+      },
+      "measured": {
+        "H100_NVL_94G": {
+          "rate_per_hr": 35.7,
+          "rate_units": "compounds_per_gpu_stream",
+          "n_tasks": 500,
+          "last_date": "2026-04-17",
+          "memory_ceiling": {
+            "value": 360,
+            "units": "total_residues_in_complex",
+            "source": "fleet-logs/boltz2_pxm10k_* sample n=200: min=253 max=360 median=275"
+          },
+          "warmup_sec": 90,
+          "warmup_cost_usd": 0.041,
+          "warmup_source": "vast pytorch/pytorch:2.4.1-cuda12.4-cudnn9-runtime ~60s boot + ~30s first-call model load",
+          "contention_penalty": {
+            "n1": 1.0,
+            "n3": 1.0,
+            "n5": 1.0,
+            "source": "dedicated GPU, no contention"
+          },
+          "gate_pass_rate": {
+            "value": 0.99,
+            "gate_def": "code=200 + structures[] non-empty",
+            "n_records": 200,
+            "source": "fleet-logs/boltz2_pxm10k_* sample 198/200 passed"
+          },
+          "notes_v2_placeholders": {
+            "preemption_rate": null,
+            "stage_budget_usd": null,
+            "disk_net_gb_per_run": null,
+            "price_history": null,
+            "host_reliability": null
+          },
+          "source": "fleet-logs/boltz2_pxm10k_rock2_* (490 cmpds / 853min span); instance [instance] H100 NVL BG"
+        },
+        "H100_SXM_80G": {
+          "rate_per_hr": 37.0,
+          "rate_units": "compounds_per_gpu_stream",
+          "n_tasks": 500,
+          "last_date": "2026-04-17",
+          "memory_ceiling": {
+            "value": 360,
+            "units": "total_residues_in_complex",
+            "source": "same sample applies across H100 variants"
+          },
+          "warmup_sec": 90,
+          "warmup_cost_usd": 0.037,
+          "contention_penalty": {
+            "n1": 1.0,
+            "n3": 1.0,
+            "n5": 1.0,
+            "source": "dedicated"
+          },
+          "gate_pass_rate": {
+            "value": 0.99,
+            "gate_def": "code=200 + structures[] non-empty",
+            "n_records": 200,
+            "source": "sample applies"
+          },
+          "notes_v2_placeholders": {
+            "preemption_rate": null,
+            "stage_budget_usd": null,
+            "disk_net_gb_per_run": null,
+            "price_history": null,
+            "host_reliability": null
+          },
+          "source": "fleet-logs/boltz2_pxm10k_jak2_* (500 cmpds / [h]); instance [instance]"
+        },
+        "A100_SXM4_40G": {
+          "rate_per_hr": 35.0,
+          "rate_units": "compounds_per_gpu_stream",
+          "n_tasks": 500,
+          "last_date": "2026-04-17",
+          "memory_ceiling": {
+            "value": 360,
+            "units": "total_residues_in_complex",
+            "source": "40GB HBM OK for ~400 residues; untested above"
+          },
+          "warmup_sec": 90,
+          "warmup_cost_usd": 0.021,
+          "contention_penalty": {
+            "n1": 1.0,
+            "n3": 1.0,
+            "n5": 1.0,
+            "source": "dedicated"
+          },
+          "gate_pass_rate": {
+            "value": 0.99,
+            "gate_def": "code=200 + structures[] non-empty",
+            "n_records": 200,
+            "source": "sample applies"
+          },
+          "notes_v2_placeholders": {
+            "preemption_rate": null,
+            "stage_budget_usd": null,
+            "disk_net_gb_per_run": null,
+            "price_history": null,
+            "host_reliability": null
+          },
+          "source": "instance [instance] pxm-batch-asxm [h]; fleet-logs pxm10k_limk2_*"
+        },
+        "hosted_NIM": {
+          "rate_per_hr": 100,
+          "rate_units": "compounds_per_call",
+          "n_tasks": 34,
+          "last_date": "2026-04-15",
+          "memory_ceiling": {
+            "value": 360,
+            "units": "total_residues_in_complex",
+            "source": "matches self-host upper bound"
+          },
+          "warmup_sec": 0,
+          "warmup_cost_usd": 0,
+          "contention_penalty": {
+            "n1": 1.0,
+            "n3": 3.0,
+            "n5": 5.0,
+            "source": "NIM free tier 429 rate cap kicks in at 3+ concurrent streams"
+          },
+          "gate_pass_rate": {
+            "value": 0.75,
+            "gate_def": "code=200 + non-empty affinity",
+            "n_records": 34,
+            "source": "moltbot queue.db tasks type=boltz2_affinity completed=33, failed logged separately; +25%-95% NIM 429 flake reported in notes/boltz2-self-host-batched-2026-04-16.md"
+          },
+          "notes_v2_placeholders": {
+            "preemption_rate": null,
+            "stage_budget_usd": null,
+            "disk_net_gb_per_run": null,
+            "price_history": null,
+            "host_reliability": null
+          },
+          "source": "moltbot queue.db tasks boltz2_affinity; 3s/call but 25-95% 429 during business hrs"
+        }
+      },
+      "notes": "PyTorch/CUDA, no TPU. Self-host streaming 35-40/hr per GPU. Batched self-host (next row) gets 60x via batch=5."
+    },
+    "boltz2_rescore_batched": {
+      "compat": {
+        "A100_SXM4_40G": "partial",
+        "A100_PCIE_40G": "partial",
+        "A100_80G": "live",
+        "H100_SXM_80G": "live",
+        "H100_NVL_94G": "live",
+        "RTX_4090": "incompatible",
+        "RTX_3090": "incompatible",
+        "B200": "live",
+        "TPU_v5p": "incompatible",
+        "hosted_NIM": "incompatible"
+      },
+      "free_tier": {
+        "available": false,
+        "quota_remaining_today": 0,
+        "source": "self-host only"
+      },
+      "measured": {
+        "H100_NVL_94G": {
+          "rate_per_hr": 3600,
+          "rate_units": "compounds_rescored",
+          "n_tasks": 30,
+          "last_date": "2026-04-16",
+          "memory_ceiling": {
+            "value": 400,
+            "units": "total_residues_in_complex",
+            "source": "94GB HBM supports larger complexes than H100 SXM 80GB at batch>=5"
+          },
+          "warmup_sec": 28,
+          "warmup_cost_usd": 0.0127,
+          "warmup_source": "boltz CLI 28s Python+model load, amortizes over batch",
+          "contention_penalty": {
+            "n1": 1.0,
+            "n3": 3.0,
+            "n5": 5.0,
+            "source": "notes/boltz2-self-host-batched: 3 campaigns concurrent -> 3x slowdown on shared h100-two:8003"
+          },
+          "gate_pass_rate": {
+            "value": 0.99,
+            "gate_def": "code=200 + structures[] non-empty",
+            "n_records": 30,
+            "source": "same gate as streaming; batch preserves per-call reliability"
+          },
+          "notes_v2_placeholders": {
+            "preemption_rate": null,
+            "stage_budget_usd": null,
+            "disk_net_gb_per_run": null,
+            "price_history": null,
+            "host_reliability": null
+          },
+          "source": "notes/boltz2-self-host-batched-2026-04-16.md (batch=5 -> 1s/call sustained)"
+        },
+        "H100_SXM_80G": {
+          "rate_per_hr": 3600,
+          "rate_units": "compounds_rescored",
+          "n_tasks": 30,
+          "last_date": "2026-04-16",
+          "memory_ceiling": {
+            "value": 360,
+            "units": "total_residues_in_complex",
+            "source": "80GB HBM; OOM risk above ~400 residues at batch=5"
+          },
+          "warmup_sec": 28,
+          "warmup_cost_usd": 0.0116,
+          "contention_penalty": {
+            "n1": 1.0,
+            "n3": 3.0,
+            "n5": 5.0,
+            "source": "shared server"
+          },
+          "gate_pass_rate": {
+            "value": 0.99,
+            "gate_def": "code=200 + structures[] non-empty",
+            "n_records": 30,
+            "source": "same"
+          },
+          "notes_v2_placeholders": {
+            "preemption_rate": null,
+            "stage_budget_usd": null,
+            "disk_net_gb_per_run": null,
+            "price_history": null,
+            "host_reliability": null
+          },
+          "source": "notes/boltz2-self-host-batched: /tmp/boltz2_batch_server.py on h100-two:8003"
+        }
+      },
+      "notes": "Requires batch_server deployed; 60-100x vs streaming on same GPU. Amortizes 28s model-load."
+    },
+    "genmol_generate": {
+      "compat": {
+        "A100_SXM4_40G": "live",
+        "A100_PCIE_40G": "live",
+        "A100_80G": "live",
+        "H100_SXM_80G": "live",
+        "H100_NVL_94G": "live",
+        "RTX_4090": "live",
+        "RTX_3090": "live",
+        "B200": "live",
+        "TPU_v5p": "incompatible",
+        "hosted_NIM": "live"
+      },
+      "free_tier": {
+        "available": true,
+        "quota_remaining_today": null,
+        "source": "NIM hosted, 4-key rotation"
+      },
+      "measured": {
+        "hosted_NIM": {
+          "rate_per_hr": 1200,
+          "rate_units": "molecules",
+          "n_tasks": 322,
+          "last_date": "2026-04-17",
+          "memory_ceiling": {
+            "value": 20,
+            "units": "molecules_per_seed_call",
+            "source": "fleet-logs/genmol_* max observed per seed"
+          },
+          "warmup_sec": 0,
+          "warmup_cost_usd": 0,
+          "contention_penalty": {
+            "n1": 1.0,
+            "n3": 1.5,
+            "n5": 2.0,
+            "source": "NIM rate limits kick at 3+"
+          },
+          "gate_pass_rate": {
+            "value": 0.92,
+            "gate_def": "result.status=success + molecules non-empty",
+            "n_records": 350,
+            "source": "fleet-logs/genmol_* 322/350 seed-records"
+          },
+          "notes_v2_placeholders": {
+            "preemption_rate": null,
+            "stage_budget_usd": null,
+            "disk_net_gb_per_run": null,
+            "price_history": null,
+            "host_reliability": null
+          },
+          "source": "fleet-logs/genmol_* 41 dirs, 350 seed records, 322 success"
+        }
+      },
+      "notes": "SAFE notation; numbers as strings. 92% success rate (strong)."
+    },
+    "protein_mpnn": {
+      "compat": {
+        "A100_SXM4_40G": "live",
+        "A100_PCIE_40G": "live",
+        "A100_80G": "live",
+        "H100_SXM_80G": "live",
+        "H100_NVL_94G": "live",
+        "RTX_4090": "live",
+        "RTX_3090": "live",
+        "B200": "live",
+        "TPU_v5p": "incompatible",
+        "hosted_NIM": "live"
+      },
+      "free_tier": {
+        "available": true,
+        "quota_remaining_today": null,
+        "source": "NIM 4-key rotation"
+      },
+      "measured": {
+        "hosted_NIM": {
+          "rate_per_hr": 500,
+          "rate_units": "designs",
+          "n_tasks": 752,
+          "last_date": "2026-04-17",
+          "memory_ceiling": {
+            "value": 378,
+            "units": "chain_residues",
+            "source": "fleet-logs/mpnn_* max sequence length 378, median 201"
+          },
+          "warmup_sec": 0,
+          "warmup_cost_usd": 0,
+          "contention_penalty": {
+            "n1": 1.0,
+            "n3": 1.5,
+            "n5": 2.5,
+            "source": "NIM rate cap during business hrs"
+          },
+          "gate_pass_rate": {
+            "value": 0.461,
+            "gate_def": "code=200 + mfasta has valid designs",
+            "n_records": 1630,
+            "source": "fleet-logs/mpnn_* 752/1630 success (53.9% silent-zero)"
+          },
+          "notes_v2_placeholders": {
+            "preemption_rate": null,
+            "stage_budget_usd": null,
+            "disk_net_gb_per_run": null,
+            "price_history": null,
+            "host_reliability": null
+          },
+          "source": "fleet-logs/mpnn_* 1630 dirs"
+        }
+      },
+      "notes": "High silent-zero rate (54%) on hosted NIM \u2014 likely input-PDB validation failures. Need self-host fallback for reliability."
+    },
+    "diffdock_screen": {
+      "compat": {
+        "A100_SXM4_40G": "live",
+        "A100_PCIE_40G": "live",
+        "A100_80G": "live",
+        "H100_SXM_80G": "live",
+        "H100_NVL_94G": "live",
+        "RTX_4090": "live",
+        "RTX_3090": "live",
+        "B200": "live",
+        "TPU_v5p": "incompatible",
+        "hosted_NIM": "incompatible"
+      },
+      "free_tier": {
+        "available": false,
+        "quota_remaining_today": 0,
+        "source": "NIM hosted 404 since 2026-03-29; self-host only"
+      },
+      "measured": {
+        "H100_SXM_80G": {
+          "rate_per_hr": 3600,
+          "rate_units": "poses",
+          "n_tasks": 5,
+          "last_date": "2026-04-16",
+          "memory_ceiling": {
+            "value": 50,
+            "units": "ligand_heavy_atoms",
+            "source": "NIM v2.0.0 default limits; pocket_radius 10A"
+          },
+          "warmup_sec": 300,
+          "warmup_cost_usd": 0.124,
+          "warmup_source": "NIM v2 container ~38GB image pull + warm (~5min); learnings-diffdock Rule 5",
+          "contention_penalty": {
+            "n1": 1.0,
+            "n3": 1.5,
+            "n5": 2.0,
+            "source": "sequential ligand requests via NIM; moderate batching benefit"
+          },
+          "gate_pass_rate": {
+            "value": 0.4,
+            "gate_def": "C_rel > 0 per-target calibrated (NOT absolute 0.5)",
+            "n_records": 275,
+            "source": "notes/finding-pocketxmol-fails-diffdock-validation-2026-04-16.md \u2014 110/275 pass C_rel>0"
+          },
+          "notes_v2_placeholders": {
+            "preemption_rate": null,
+            "stage_budget_usd": null,
+            "disk_net_gb_per_run": null,
+            "price_history": null,
+            "host_reliability": null
+          },
+          "source": "notes/learnings-diffdock-2026-04-16.md Rule 5: 0.8-1.0 s/dock on H100 SXM5 num_poses=10"
+        },
+        "RTX_4090": {
+          "rate_per_hr": 2500,
+          "rate_units": "poses",
+          "n_tasks": 3,
+          "last_date": "2026-04-17",
+          "memory_ceiling": {
+            "value": 50,
+            "units": "ligand_heavy_atoms",
+            "source": "24GB HBM tight for DiffDock; same limit applies"
+          },
+          "warmup_sec": 300,
+          "warmup_cost_usd": 0.021,
+          "contention_penalty": {
+            "n1": 1.0,
+            "n3": 1.3,
+            "n5": 1.6,
+            "source": "per-instance dedicated"
+          },
+          "gate_pass_rate": "NO_DATA",
+          "notes_v2_placeholders": {
+            "preemption_rate": null,
+            "stage_budget_usd": null,
+            "disk_net_gb_per_run": null,
+            "price_history": null,
+            "host_reliability": null
+          },
+          "source": "instances [instance]/84/89 [h] each; throughput ~60-70% of H100 SXM estimate \u2014 NEEDS CONFIRMATION (n=3 below threshold for rate claim, kept as preliminary)"
+        }
+      },
+      "notes": "NIM hosted 404; self-host via privileged docker required. ALWAYS re-dock co-crystal for C_rel baseline \u2014 absolute 0.5 threshold is a TRAP."
+    },
+    "rfdiffusion_binders": {
+      "compat": {
+        "A100_SXM4_40G": "partial",
+        "A100_PCIE_40G": "partial",
+        "A100_80G": "live",
+        "H100_SXM_80G": "live",
+        "H100_NVL_94G": "live",
+        "RTX_4090": "partial",
+        "RTX_3090": "incompatible",
+        "B200": "live",
+        "TPU_v5p": "incompatible",
+        "hosted_NIM": "live"
+      },
+      "free_tier": {
+        "available": true,
+        "quota_remaining_today": null,
+        "source": "NIM 4-key rotation"
+      },
+      "measured": {
+        "hosted_NIM": {
+          "rate_per_hr": 120,
+          "rate_units": "binders_70aa",
+          "n_tasks": 14,
+          "last_date": "2026-03-30",
+          "memory_ceiling": {
+            "value": 200,
+            "units": "target_chain_length",
+            "source": "gpu-benchmark-timings 70-80aa binder; no larger observed via NIM"
+          },
+          "warmup_sec": 0,
+          "warmup_cost_usd": 0,
+          "contention_penalty": {
+            "n1": 1.0,
+            "n3": 1.5,
+            "n5": 2.0,
+            "source": "NIM rate-cap"
+          },
+          "gate_pass_rate": {
+            "value": 0.0,
+            "gate_def": "produces valid PDB + pLDDT>=0.70",
+            "n_records": 4,
+            "source": "fleet-logs/rfdiff_* 4 campaigns, 0 PDBs surviving \u2014 contigs bug (notes/learning-rfdiff-contigs-pdb-range-verify.md)"
+          },
+          "notes_v2_placeholders": {
+            "preemption_rate": null,
+            "stage_budget_usd": null,
+            "disk_net_gb_per_run": null,
+            "price_history": null,
+            "host_reliability": null
+          },
+          "source": "gpu-benchmark-timings 14 binders 7min + fleet-logs rfdiff_* 0 PDB artifacts"
+        },
+        "H100_SXM_80G": {
+          "rate_per_hr": 60,
+          "rate_units": "binders_70aa",
+          "n_tasks": 5,
+          "last_date": "2026-04-17",
+          "memory_ceiling": "NO_DATA",
+          "warmup_sec": 300,
+          "warmup_cost_usd": 0.124,
+          "contention_penalty": {
+            "n1": 1.0,
+            "n3": 1.0,
+            "n5": 1.0,
+            "source": "dedicated H100"
+          },
+          "gate_pass_rate": "NO_DATA",
+          "notes_v2_placeholders": {
+            "preemption_rate": null,
+            "stage_budget_usd": null,
+            "disk_net_gb_per_run": null,
+            "price_history": null,
+            "host_reliability": null
+          },
+          "source": "instances [instance]/[instance] sma-rfdiff-batch-20260417 [h] each"
+        }
+      },
+      "notes": "0 PDB survival in local rfdiff campaigns. Contigs-gate bug suspected. Do NOT rent more rfdiff GPU until contigs validation added to pre-flight."
+    },
+    "colabfold_fold": {
+      "compat": {
+        "A100_SXM4_40G": "live",
+        "A100_PCIE_40G": "live",
+        "A100_80G": "live",
+        "H100_SXM_80G": "live",
+        "H100_NVL_94G": "live",
+        "RTX_4090": "live",
+        "RTX_3090": "partial",
+        "B200": "live",
+        "TPU_v5p": "live",
+        "hosted_NIM": "incompatible"
+      },
+      "free_tier": {
+        "available": false,
+        "quota_remaining_today": 0,
+        "source": "MMseqs2 API is free but not NIM"
+      },
+      "measured": {
+        "A100_80G": {
+          "rate_per_hr": 40,
+          "rate_units": "monomer_folds",
+          "n_tasks": 17,
+          "last_date": "2026-03-31",
+          "memory_ceiling": {
+            "value": 900,
+            "units": "chain_residues",
+            "source": "gpu-benchmark-timings 17 targets <800aa in 30min; extrapolated to ~900 HBM ceiling"
+          },
+          "warmup_sec": 600,
+          "warmup_cost_usd": 0.15,
+          "warmup_source": "JAX CUDA install + first-fold compile ~10min",
+          "contention_penalty": {
+            "n1": 1.0,
+            "n3": 1.0,
+            "n5": 1.0,
+            "source": "dedicated"
+          },
+          "gate_pass_rate": "NO_DATA",
+          "notes_v2_placeholders": {
+            "preemption_rate": null,
+            "stage_budget_usd": null,
+            "disk_net_gb_per_run": null,
+            "price_history": null,
+            "host_reliability": null
+          },
+          "source": "gpu-benchmark-timings-2026-03-31 \u2014 17 targets <800aa in 30min"
+        },
+        "TPU_v5p": {
+          "rate_per_hr": "NO_DATA",
+          "rate_units": "monomer_folds",
+          "n_tasks": 0,
+          "last_date": null,
+          "memory_ceiling": {
+            "value": 8463,
+            "units": "total_residues_in_complex",
+            "source": "notes/NMJ_atomic_super_complex_2026 \u2014 13 chains 8463 aa ran on TPU v6e-4"
+          },
+          "warmup_sec": 180,
+          "warmup_cost_usd": 0.0,
+          "warmup_source": "TPU cold start 2-3min JAX warmup",
+          "contention_penalty": {
+            "n1": 1.0,
+            "n3": null,
+            "n5": null,
+            "source": "TPU shared queue; NO_DATA on concurrent behavior"
+          },
+          "gate_pass_rate": "NO_DATA",
+          "notes_v2_placeholders": {
+            "preemption_rate": null,
+            "stage_budget_usd": null,
+            "disk_net_gb_per_run": null,
+            "price_history": null,
+            "host_reliability": null
+          },
+          "source": "NMJ super complex v6e-4 succeeded; throughput not yet instrumented"
+        }
+      },
+      "notes": "JAX-native on TPU is the only path for >2048-token complexes. CUDA works for monomers + small multimers."
+    },
+    "alphafold3_assembly": {
+      "compat": {
+        "A100_SXM4_40G": "partial",
+        "A100_PCIE_40G": "partial",
+        "A100_80G": "partial",
+        "H100_SXM_80G": "partial",
+        "H100_NVL_94G": "partial",
+        "RTX_4090": "partial",
+        "RTX_3090": "incompatible",
+        "B200": "partial",
+        "TPU_v5p": "partial",
+        "hosted_NIM": "partial"
+      },
+      "free_tier": {
+        "available": false,
+        "quota_remaining_today": 0,
+        "source": "DeepMind weights gated; NIM AF3 gated"
+      },
+      "measured": {},
+      "notes": "All cells NO_DATA. Only AF3 + Chai-1 + Boltz accept residue-pair distance constraints. Unblocks when DeepMind weights land (plan-tpu-af3-nmj-2026-04-15)."
+    },
+    "chai1": {
+      "compat": {
+        "A100_SXM4_40G": "backlog",
+        "A100_PCIE_40G": "backlog",
+        "A100_80G": "backlog",
+        "H100_SXM_80G": "backlog",
+        "H100_NVL_94G": "backlog",
+        "RTX_4090": "backlog",
+        "RTX_3090": "incompatible",
+        "B200": "backlog",
+        "TPU_v5p": "incompatible",
+        "hosted_NIM": "incompatible"
+      },
+      "free_tier": {
+        "available": false,
+        "quota_remaining_today": 0,
+        "source": "no NIM"
+      },
+      "measured": {},
+      "notes": "BANNED from active dispatcher (notes/learning-chai1-not-tpu-2026-04-16 \u2014 $9 lesson). NEVER TPU."
+    },
+    "esmfold_predict": {
+      "compat": {
+        "A100_SXM4_40G": "backlog",
+        "A100_PCIE_40G": "backlog",
+        "A100_80G": "backlog",
+        "H100_SXM_80G": "backlog",
+        "H100_NVL_94G": "backlog",
+        "RTX_4090": "backlog",
+        "RTX_3090": "backlog",
+        "B200": "backlog",
+        "TPU_v5p": "incompatible",
+        "hosted_NIM": "live"
+      },
+      "free_tier": {
+        "available": true,
+        "quota_remaining_today": null,
+        "source": "NIM hosted"
+      },
+      "measured": {
+        "hosted_NIM": {
+          "rate_per_hr": 180,
+          "rate_units": "structures",
+          "n_tasks": 5,
+          "last_date": "2026-03-30",
+          "memory_ceiling": {
+            "value": 821,
+            "units": "chain_residues",
+            "source": "gpu-benchmark-timings FGFR2 821aa 20s fold"
+          },
+          "warmup_sec": 0,
+          "warmup_cost_usd": 0,
+          "contention_penalty": {
+            "n1": 1.0,
+            "n3": null,
+            "n5": null,
+            "source": "NIM shared; data NO_DATA on concurrent"
+          },
+          "gate_pass_rate": "NO_DATA",
+          "notes_v2_placeholders": {
+            "preemption_rate": null,
+            "stage_budget_usd": null,
+            "disk_net_gb_per_run": null,
+            "price_history": null,
+            "host_reliability": null
+          },
+          "source": "gpu-benchmark-timings-2026-03-31 \u2014 4-20s per protein"
+        }
+      },
+      "notes": "PyTorch; not yet wired for non-NIM backends. NIM works, no need to rent GPU."
+    },
+    "esm2_embed": {
+      "compat": {
+        "A100_SXM4_40G": "live",
+        "A100_PCIE_40G": "live",
+        "A100_80G": "live",
+        "H100_SXM_80G": "live",
+        "H100_NVL_94G": "live",
+        "RTX_4090": "live",
+        "RTX_3090": "live",
+        "B200": "live",
+        "TPU_v5p": "live",
+        "hosted_NIM": "partial"
+      },
+      "free_tier": {
+        "available": true,
+        "quota_remaining_today": null,
+        "source": "hosted ESM-3 partial"
+      },
+      "measured": {},
+      "notes": "All cells NO_DATA. esm2_scan routed to TPU (JAX port)."
+    },
+    "prot_t5_embed": {
+      "compat": {
+        "A100_SXM4_40G": "live",
+        "A100_PCIE_40G": "live",
+        "A100_80G": "live",
+        "H100_SXM_80G": "live",
+        "H100_NVL_94G": "live",
+        "RTX_4090": "live",
+        "RTX_3090": "live",
+        "B200": "live",
+        "TPU_v5p": "live",
+        "hosted_NIM": "incompatible"
+      },
+      "free_tier": {
+        "available": false,
+        "quota_remaining_today": 0
+      },
+      "measured": {},
+      "notes": "Perfect TPU fit. NO_DATA on completed runs."
+    },
+    "openfold_multistate": {
+      "compat": {
+        "A100_SXM4_40G": "live",
+        "A100_PCIE_40G": "live",
+        "A100_80G": "live",
+        "H100_SXM_80G": "live",
+        "H100_NVL_94G": "live",
+        "RTX_4090": "live",
+        "RTX_3090": "live",
+        "B200": "live",
+        "TPU_v5p": "live",
+        "hosted_NIM": "incompatible"
+      },
+      "free_tier": {
+        "available": false,
+        "quota_remaining_today": 0
+      },
+      "measured": {},
+      "notes": "PyTorch branch on CUDA; JAX branch on TPU. NO_DATA on runs."
+    },
+    "admet_ai_batch": {
+      "compat": {
+        "A100_SXM4_40G": "live",
+        "A100_PCIE_40G": "live",
+        "A100_80G": "live",
+        "H100_SXM_80G": "live",
+        "H100_NVL_94G": "live",
+        "RTX_4090": "live",
+        "RTX_3090": "live",
+        "B200": "live",
+        "TPU_v5p": "incompatible",
+        "hosted_NIM": "incompatible"
+      },
+      "free_tier": {
+        "available": false,
+        "quota_remaining_today": 0
+      },
+      "measured": {},
+      "notes": "CPU-only effectively. Don't rent GPUs for ADMET-AI."
+    },
+    "pocketxmol_volume": {
+      "compat": {
+        "A100_SXM4_40G": "live",
+        "A100_PCIE_40G": "live",
+        "A100_80G": "live",
+        "H100_SXM_80G": "live",
+        "H100_NVL_94G": "live",
+        "RTX_4090": "live",
+        "RTX_3090": "partial",
+        "B200": "live",
+        "TPU_v5p": "incompatible",
+        "hosted_NIM": "incompatible"
+      },
+      "free_tier": {
+        "available": false,
+        "quota_remaining_today": 0
+      },
+      "measured": {
+        "A100_SXM4_40G": {
+          "rate_per_hr": 46,
+          "rate_units": "molecules_generated",
+          "n_tasks": 15,
+          "last_date": "2026-04-17",
+          "memory_ceiling": {
+            "value": 275,
+            "units": "molecules_per_campaign",
+            "source": "memory: pxm LIMK2 DFG-out 275 compounds in 6h"
+          },
+          "warmup_sec": 600,
+          "warmup_cost_usd": 0.141,
+          "warmup_source": "conda env 3.11 + pytorch cu128 ~10min first boot",
+          "contention_penalty": {
+            "n1": 1.0,
+            "n3": 1.0,
+            "n5": 1.0,
+            "source": "dedicated"
+          },
+          "gate_pass_rate": {
+            "value": 0.4,
+            "gate_def": "RDKit-valid AND pass per-target C_rel (guided vs native)",
+            "n_records": 275,
+            "source": "notes/finding-pocketxmol-fails-diffdock-validation-2026-04-16.md \u2014 110/275 (40%) beat LIMKi3 native"
+          },
+          "notes_v2_placeholders": {
+            "preemption_rate": null,
+            "stage_budget_usd": null,
+            "disk_net_gb_per_run": null,
+            "price_history": null,
+            "host_reliability": null
+          },
+          "source": "pxm LIMK2 DFG-out A100 275 compounds 6h; 15 kinase campaigns Apr 16-17"
+        }
+      },
+      "notes": "Use as upstream of Boltz-2 rescore. 94% RDKit-valid, 75% BBB-pass in LIMK2-guided mode."
+    },
+    "openmm_md_production": {
+      "compat": {
+        "A100_SXM4_40G": "live",
+        "A100_PCIE_40G": "live",
+        "A100_80G": "live",
+        "H100_SXM_80G": "live",
+        "H100_NVL_94G": "live",
+        "RTX_4090": "live",
+        "RTX_3090": "live",
+        "B200": "partial",
+        "TPU_v5p": "incompatible",
+        "hosted_NIM": "incompatible"
+      },
+      "free_tier": {
+        "available": false,
+        "quota_remaining_today": 0
+      },
+      "measured": {
+        "RTX_3090": {
+          "rate_per_hr": 4.6,
+          "rate_units": "ns_per_hr_85K_atoms",
+          "n_tasks": 5,
+          "last_date": "2026-03-31",
+          "memory_ceiling": {
+            "value": 85000,
+            "units": "atoms_in_solvated_system",
+            "source": "LIMK2 85K atoms 110.5 ns/day measured"
+          },
+          "warmup_sec": 600,
+          "warmup_cost_usd": 0.028,
+          "warmup_source": "OpenMM source-build required on Vast RTX 3090 (CUDA_ERROR_UNSUPPORTED_PTX_VERSION with conda/pip OpenMM)",
+          "contention_penalty": {
+            "n1": 1.0,
+            "n3": 1.0,
+            "n5": 1.0,
+            "source": "dedicated"
+          },
+          "gate_pass_rate": "NO_DATA",
+          "notes_v2_placeholders": {
+            "preemption_rate": null,
+            "stage_budget_usd": null,
+            "disk_net_gb_per_run": null,
+            "price_history": null,
+            "host_reliability": null
+          },
+          "source": "gpu-benchmark-timings LIMK2 85K atoms 10ns in 7819s"
+        },
+        "A100_PCIE_40G": {
+          "rate_per_hr": 3.5,
+          "rate_units": "ns_per_hr_90K_atoms",
+          "n_tasks": 6,
+          "last_date": "2026-04-17",
+          "memory_ceiling": {
+            "value": 90000,
+            "units": "atoms_in_solvated_system",
+            "source": "IDH1 90K atoms ran; higher NO_DATA"
+          },
+          "warmup_sec": 600,
+          "warmup_cost_usd": 0.097,
+          "contention_penalty": {
+            "n1": 1.0,
+            "n3": 1.0,
+            "n5": 1.0,
+            "source": "dedicated"
+          },
+          "gate_pass_rate": "NO_DATA",
+          "notes_v2_placeholders": {
+            "preemption_rate": null,
+            "stage_budget_usd": null,
+            "disk_net_gb_per_run": null,
+            "price_history": null,
+            "host_reliability": null
+          },
+          "source": "instances [instance]/25/35 A100 PCIE sma-*-md [h] @ $0.581/hr; ~85 ns/day for 90K atoms"
+        }
+      },
+      "notes": "HMR 4fs. Scales inversely with atom count. H100 ~2x RTX 3090. B200 partial (known OpenMM CUDA_ERROR on some drivers \u2014 verify before routing)."
+    },
+    "proteina_complexa": {
+      "compat": {
+        "A100_SXM4_40G": "backlog",
+        "A100_PCIE_40G": "backlog",
+        "A100_80G": "backlog",
+        "H100_SXM_80G": "backlog",
+        "H100_NVL_94G": "backlog",
+        "RTX_4090": "backlog",
+        "RTX_3090": "backlog",
+        "B200": "backlog",
+        "TPU_v5p": "incompatible",
+        "hosted_NIM": "incompatible"
+      },
+      "free_tier": {
+        "available": false,
+        "quota_remaining_today": 0
+      },
+      "measured": {},
+      "notes": "Integration priority #1."
+    },
+    "proteina_monomer": {
+      "compat": {
+        "A100_SXM4_40G": "backlog",
+        "A100_PCIE_40G": "backlog",
+        "A100_80G": "backlog",
+        "H100_SXM_80G": "backlog",
+        "H100_NVL_94G": "backlog",
+        "RTX_4090": "backlog",
+        "RTX_3090": "backlog",
+        "B200": "backlog",
+        "TPU_v5p": "incompatible",
+        "hosted_NIM": "incompatible"
+      },
+      "free_tier": {
+        "available": false,
+        "quota_remaining_today": 0
+      },
+      "measured": {},
+      "notes": "Integration priority #3."
+    },
+    "openfold2_fold": {
+      "compat": {
+        "A100_SXM4_40G": "backlog",
+        "A100_PCIE_40G": "backlog",
+        "A100_80G": "backlog",
+        "H100_SXM_80G": "backlog",
+        "H100_NVL_94G": "backlog",
+        "RTX_4090": "backlog",
+        "RTX_3090": "backlog",
+        "B200": "backlog",
+        "TPU_v5p": "incompatible",
+        "hosted_NIM": "partial"
+      },
+      "free_tier": {
+        "available": true,
+        "quota_remaining_today": null,
+        "source": "NIM on NGC"
+      },
+      "measured": {},
+      "notes": "Integration priority #2. 6x faster AF2 reimpl."
+    },
+    "mmpbsa": {
+      "compat": {
+        "A100_SXM4_40G": "live",
+        "A100_PCIE_40G": "live",
+        "A100_80G": "live",
+        "H100_SXM_80G": "live",
+        "H100_NVL_94G": "live",
+        "RTX_4090": "live",
+        "RTX_3090": "live",
+        "B200": "live",
+        "TPU_v5p": "incompatible",
+        "hosted_NIM": "incompatible"
+      },
+      "free_tier": {
+        "available": false,
+        "quota_remaining_today": 0
+      },
+      "measured": {},
+      "notes": "CPU-bound in practice; GPU marginal."
+    }
+  }
+}
