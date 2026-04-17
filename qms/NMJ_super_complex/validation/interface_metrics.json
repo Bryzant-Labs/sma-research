@@ -1,0 +1,181 @@
+{
+  "source_pdb": "/home/bryza/sma-research/qms/NMJ_super_complex/assembly/nmj_super_complex.pdb",
+  "n_chains": 13,
+  "plddt_summary_per_chain": {
+    "A": {
+      "n_residues": 457,
+      "mean_bfactor": 93.73015317286654,
+      "median_bfactor": 96.19,
+      "min": 56.81,
+      "max": 97.31
+    },
+    "C": {
+      "n_residues": 457,
+      "mean_bfactor": 93.73015317286654,
+      "median_bfactor": 96.19,
+      "min": 56.81,
+      "max": 97.31
+    },
+    "B": {
+      "n_residues": 501,
+      "mean_bfactor": 79.45596806387226,
+      "median_bfactor": 89.31,
+      "min": 29.06,
+      "max": 95.88
+    },
+    "D": {
+      "n_residues": 517,
+      "mean_bfactor": 83.73696324951645,
+      "median_bfactor": 90.0,
+      "min": 35.62,
+      "max": 96.69
+    },
+    "E": {
+      "n_residues": 493,
+      "mean_bfactor": 80.71793103448276,
+      "median_bfactor": 86.81,
+      "min": 33.56,
+      "max": 95.5
+    },
+    "F": {
+      "n_residues": 412,
+      "mean_bfactor": 95.54478155339805,
+      "median_bfactor": 96.97,
+      "min": 39.81,
+      "max": 98.0
+    },
+    "J": {
+      "n_residues": 1905,
+      "mean_bfactor": 77.10149606299213,
+      "median_bfactor": 85.44,
+      "min": 24.55,
+      "max": 97.5
+    },
+    "K": {
+      "n_residues": 2068,
+      "mean_bfactor": 68.81010154738877,
+      "median_bfactor": 75.5,
+      "min": 18.03,
+      "max": 97.88
+    },
+    "G": {
+      "n_residues": 490,
+      "mean_bfactor": 90.048,
+      "median_bfactor": 95.56,
+      "min": 42.75,
+      "max": 97.69
+    },
+    "H": {
+      "n_residues": 379,
+      "mean_bfactor": 90.19229551451187,
+      "median_bfactor": 95.88,
+      "min": 37.72,
+      "max": 97.38
+    },
+    "I": {
+      "n_residues": 504,
+      "mean_bfactor": 64.3068253968254,
+      "median_bfactor": 55.095,
+      "min": 27.73,
+      "max": 97.75
+    },
+    "P": {
+      "n_residues": 193,
+      "mean_bfactor": 47.90948186528497,
+      "median_bfactor": 48.55,
+      "min": 27.71,
+      "max": 64.36
+    },
+    "Z": {
+      "n_residues": 87,
+      "mean_bfactor": 87.23574712643678,
+      "median_bfactor": 87.76,
+      "min": 69.58,
+      "max": 94.45
+    }
+  },
+  "interchain_ca_contacts": {
+    "A-D": {
+      "ca_pairs_within_5A": 41,
+      "ca_pairs_within_8A": 246,
+      "min_ca_distance_A": 1.1845824718475342
+    },
+    "A-E": {
+      "ca_pairs_within_5A": 101,
+      "ca_pairs_within_8A": 460,
+      "min_ca_distance_A": 0.950456440448761
+    },
+    "B-C": {
+      "ca_pairs_within_5A": 42,
+      "ca_pairs_within_8A": 233,
+      "min_ca_distance_A": 0.671565055847168
+    },
+    "B-D": {
+      "ca_pairs_within_5A": 64,
+      "ca_pairs_within_8A": 380,
+      "min_ca_distance_A": 1.602417230606079
+    },
+    "C-D": {
+      "ca_pairs_within_5A": 2,
+      "ca_pairs_within_8A": 35,
+      "min_ca_distance_A": 3.3786277770996094
+    },
+    "C-E": {
+      "ca_pairs_within_5A": 18,
+      "ca_pairs_within_8A": 164,
+      "min_ca_distance_A": 2.362049102783203
+    },
+    "D-E": {
+      "ca_pairs_within_5A": 26,
+      "ca_pairs_within_8A": 126,
+      "min_ca_distance_A": 1.5223302841186523
+    },
+    "H-I": {
+      "ca_pairs_within_5A": 54,
+      "ca_pairs_within_8A": 191,
+      "min_ca_distance_A": 0.5620613098144531
+    },
+    "J-K": {
+      "ca_pairs_within_5A": 218,
+      "ca_pairs_within_8A": 862,
+      "min_ca_distance_A": 1.049522876739502
+    },
+    "P-Z": {
+      "ca_pairs_within_5A": 0,
+      "ca_pairs_within_8A": 13,
+      "min_ca_distance_A": 5.021904468536377
+    }
+  },
+  "interchain_clashes": {
+    "A-D": {
+      "heavy_atom_clashes_under_2A": 144
+    },
+    "A-E": {
+      "heavy_atom_clashes_under_2A": 356
+    },
+    "B-C": {
+      "heavy_atom_clashes_under_2A": 177
+    },
+    "B-D": {
+      "heavy_atom_clashes_under_2A": 235
+    },
+    "C-D": {
+      "heavy_atom_clashes_under_2A": 18
+    },
+    "C-E": {
+      "heavy_atom_clashes_under_2A": 64
+    },
+    "D-E": {
+      "heavy_atom_clashes_under_2A": 116
+    },
+    "H-I": {
+      "heavy_atom_clashes_under_2A": 178
+    },
+    "J-K": {
+      "heavy_atom_clashes_under_2A": 802
+    },
+    "P-Z": {
+      "heavy_atom_clashes_under_2A": 0
+    }
+  }
+}

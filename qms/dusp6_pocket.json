@@ -1,0 +1,26 @@
+{
+  "pdb": "1MKP",
+  "chain": "A",
+  "catalytic_cys_resi": 287,
+  "catalytic_arg_resi": 299,
+  "motif": "HCX5R (His292-Cys287-X5-Arg299 P-loop)",
+  "pocket_center": [
+    3.1105,
+    65.39631818181816,
+    21.168454545454548
+  ],
+  "pocket_radius_A": 15.335483622027933,
+  "pocket_residues": [
+    "GLY232",
+    "ILE233",
+    "LYS234",
+    "TYR235",
+    "ALA282",
+    "ARG283",
+    "GLY284",
+    "LYS285",
+    "ASN286",
+    "CYS287",
+    "GLY288"
+  ]
+}

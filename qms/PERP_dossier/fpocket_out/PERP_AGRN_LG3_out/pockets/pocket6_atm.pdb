@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : -0.0018
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8720
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6113
+HEADER 5  - Mean B-factor of pocket residues  : 0.4716
+HEADER 6  - Hydrophobicity Score              : 18.1667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 134.7165
+HEADER 10  -Pocket volume (convex hull)       : 1.2994
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM   1509    C LYS B   1      10.500  21.031   3.623  0.00  0.00           C 0
+ATOM   1520    N ALA B   3      11.633  24.172   6.523  0.00  0.00           N 0
+ATOM   1518    C GLY B   2      11.727  22.828   6.410  0.00  0.00           C 0
+ATOM   1599  CD2 LEU B  13      15.977  23.562   4.277  0.00  0.00           C 0
+ATOM   1510   CB LYS B   1      12.133  20.312   1.864  0.00  0.00           C 0
+ATOM   2764  CE1 HIS B 172      17.531  23.234  -0.140  0.00  0.00           C 0
+ATOM   1513   CD LYS B   1      14.109  19.750   0.417  0.00  0.00           C 0
+ATOM   2763  ND1 HIS B 172      17.047  23.953  -1.137  0.48  2.19           N 0
+ATOM   2761   CG HIS B 172      17.125  25.297  -0.806  0.00  0.00           C 0
+ATOM   2765  NE2 HIS B 172      17.922  24.047   0.824  0.65  1.09           N 0
+ATOM   1583  NH2 ARG B  11      13.812  27.953   3.934  0.00  0.00           N 0
+ATOM   1523   CB ALA B   3      13.273  25.969   6.262  0.00  0.00           C 0
+ATOM   2762  CD2 HIS B 172      17.672  25.344   0.431  0.00  0.00           C 0
+ATOM   1511    O LYS B   1       9.562  21.688   3.170  0.00  0.00           O 0
+TER
+END

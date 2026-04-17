@@ -1,0 +1,202 @@
+[
+  {
+    "smiles": "Cc1nccn2c(-c3ccnc(NCC(C)(C)CO)n3)c(-c3ccc(F)cc3F)nc12",
+    "ki_nM": 0.1259,
+    "log10_ki_nM": -0.8999742698921374,
+    "iptm": 0.9896445274353027,
+    "ptm": 0.9738220572471619,
+    "plddt": 0.9549419283866882,
+    "error": null,
+    "elapsed_s": 35.99305033683777
+  },
+  {
+    "smiles": "COc1nccn2c(-c3ccnc(NCC(C)(C)CO)n3)c(-c3ccc(F)cc3)nc12",
+    "ki_nM": 0.5012,
+    "log10_ki_nM": -0.29998893767788765,
+    "iptm": 0.9867162108421326,
+    "ptm": 0.9710469245910645,
+    "plddt": 0.9590948820114136,
+    "error": null,
+    "elapsed_s": 33.537383794784546
+  },
+  {
+    "smiles": "Cc1ccc(C(N)=O)cc1-c1cc2cnn(-c3c(F)cccc3F)c2n(C)c1=O",
+    "ki_nM": 1.5,
+    "log10_ki_nM": 0.17609125905568124,
+    "iptm": 0.992567777633667,
+    "ptm": 0.9787779450416565,
+    "plddt": 0.9634078145027161,
+    "error": null,
+    "elapsed_s": 36.56047773361206
+  },
+  {
+    "smiles": "Cc1ccc(C(=O)NC2CC2)cc1-c1ccc(C(=O)NCc2ccc(N3CCN(C)CC3)cc2)cc1",
+    "ki_nM": 3.0,
+    "log10_ki_nM": 0.47712125471966244,
+    "iptm": 0.9841505885124207,
+    "ptm": 0.9786686301231384,
+    "plddt": 0.9550687670707703,
+    "error": null,
+    "elapsed_s": 33.918214082717896
+  },
+  {
+    "smiles": "Cc1ccc(C(=O)NC2CC2)cc1-c1ccc2c(=O)n(CC3CC3)nnc2c1",
+    "ki_nM": 6.0,
+    "log10_ki_nM": 0.7781512503836436,
+    "iptm": 0.9928588271141052,
+    "ptm": 0.9815266132354736,
+    "plddt": 0.9598366022109985,
+    "error": null,
+    "elapsed_s": 35.79470872879028
+  },
+  {
+    "smiles": "CCN1CCN(Cc2ccc(NC(=O)Nc3ccc(Oc4cc(NC)ncn4)cc3)cc2C(F)(F)F)CC1",
+    "ki_nM": 10.0,
+    "log10_ki_nM": 1.0,
+    "iptm": 0.9879427552223206,
+    "ptm": 0.9735671281814575,
+    "plddt": 0.9489455819129944,
+    "error": null,
+    "elapsed_s": 34.86457705497742
+  },
+  {
+    "smiles": "Cc1ccc2c(N)n[nH]c2c1-c1ccc2c(N3CCOC[C@@H]3C)nncc2c1",
+    "ki_nM": 16.0,
+    "log10_ki_nM": 1.2041199826559248,
+    "iptm": 0.9901124238967896,
+    "ptm": 0.9804441332817078,
+    "plddt": 0.9547460079193115,
+    "error": null,
+    "elapsed_s": 36.531614780426025
+  },
+  {
+    "smiles": "Cc1ccc(C(=O)NC2CC2)cc1-c1ccc2nc(N)[nH]c(=O)c2c1",
+    "ki_nM": 49.0,
+    "log10_ki_nM": 1.6901960800285136,
+    "iptm": 0.9883849620819092,
+    "ptm": 0.9731910228729248,
+    "plddt": 0.960102379322052,
+    "error": null,
+    "elapsed_s": 34.40336608886719
+  },
+  {
+    "smiles": "Cc1nnc(-c2ccc(C)c(-c3ccc(C(=O)NCc4ccccc4)cc3)c2)o1",
+    "ki_nM": 100.0,
+    "log10_ki_nM": 2.0,
+    "iptm": 0.9842178821563721,
+    "ptm": 0.9773737788200378,
+    "plddt": 0.951048731803894,
+    "error": null,
+    "elapsed_s": 33.015486001968384
+  },
+  {
+    "smiles": "Cc1nnc(-c2ccc(C)c(-c3ccc(C(=O)NCc4cccc(CN5CCOCC5)c4)cc3)c2)o1",
+    "ki_nM": 140.0,
+    "log10_ki_nM": 2.146128035678238,
+    "iptm": 0.9700644612312317,
+    "ptm": 0.9781218767166138,
+    "plddt": 0.9478815793991089,
+    "error": null,
+    "elapsed_s": 33.94074320793152
+  },
+  {
+    "smiles": "CC(C)(C)c1cc(NC(=O)Nc2cccc3ccccc23)n(-c2cccc(C(=O)NCCCCO)c2)n1",
+    "ki_nM": 251.19,
+    "log10_ki_nM": 2.400002345927956,
+    "iptm": 0.9670480489730835,
+    "ptm": 0.9700408577919006,
+    "plddt": 0.9536754488945007,
+    "error": null,
+    "elapsed_s": 33.72428750991821
+  },
+  {
+    "smiles": "Cc1ccc(-n2nc(C(C)(C)C)cc2NC(=O)Nc2cccc3ccccc23)cc1C(=O)NCc1ccncn1",
+    "ki_nM": 327.0,
+    "log10_ki_nM": 2.514547752660286,
+    "iptm": 0.9689801335334778,
+    "ptm": 0.9713019132614136,
+    "plddt": 0.9539095163345337,
+    "error": null,
+    "elapsed_s": 32.71722173690796
+  },
+  {
+    "smiles": "O=C(NCC1CC1)c1ccc(-c2cc(C(=O)NC3CC3)ccc2F)cc1",
+    "ki_nM": 460.0,
+    "log10_ki_nM": 2.6627578316815743,
+    "iptm": 0.9894850850105286,
+    "ptm": 0.9823096990585327,
+    "plddt": 0.961980402469635,
+    "error": null,
+    "elapsed_s": 36.65977692604065
+  },
+  {
+    "smiles": "CC(C)(C)c1cc(NC(=O)Nc2cccc3ccccc23)n(-c2cccc(C(=O)N(CCN)CCO)c2)n1",
+    "ki_nM": 630.96,
+    "log10_ki_nM": 2.800001827817969,
+    "iptm": 0.9703624248504639,
+    "ptm": 0.9671463966369629,
+    "plddt": 0.9532111883163452,
+    "error": null,
+    "elapsed_s": 36.319194316864014
+  },
+  {
+    "smiles": "CC(C)(c1cc(Br)c(O)c(I)c1)c1cc(Br)c(O)c(I)c1",
+    "ki_nM": 1000.0,
+    "log10_ki_nM": 3.0,
+    "iptm": 0.9023497700691223,
+    "ptm": 0.9632308483123779,
+    "plddt": 0.9383887052536011,
+    "error": null,
+    "elapsed_s": 36.65592169761658
+  },
+  {
+    "smiles": "OC(CCc1ccccc1)c1csc(-c2ccc(F)cc2)c1-c1ccncc1",
+    "ki_nM": 1445.0,
+    "log10_ki_nM": 3.1598678470925665,
+    "iptm": 0.9770941138267517,
+    "ptm": 0.9736589193344116,
+    "plddt": 0.9571412205696106,
+    "error": null,
+    "elapsed_s": 34.07130479812622
+  },
+  {
+    "smiles": "Fc1ccc(-c2sc(I)cc2-c2ccncc2)cc1",
+    "ki_nM": 2100.0,
+    "log10_ki_nM": 3.322219294733919,
+    "iptm": 0.9732636213302612,
+    "ptm": 0.9664081931114197,
+    "plddt": 0.9512410163879395,
+    "error": null,
+    "elapsed_s": 34.67374634742737
+  },
+  {
+    "smiles": "NC(=O)c1ccc2nc(-c3ccc([N+](=O)[O-])o3)cn2c1",
+    "ki_nM": 3162.28,
+    "log10_ki_nM": 3.5000003213429354,
+    "iptm": 0.8987632393836975,
+    "ptm": 0.9731352925300598,
+    "plddt": 0.9512813091278076,
+    "error": null,
+    "elapsed_s": 32.82567381858826
+  },
+  {
+    "smiles": "O=c1[nH]cnc2c(Cl)cccc12",
+    "ki_nM": 19952.62,
+    "log10_ki_nM": 4.29999993144297,
+    "iptm": 0.7547897100448608,
+    "ptm": 0.9725585579872131,
+    "plddt": 0.9448860883712769,
+    "error": null,
+    "elapsed_s": 32.847593784332275
+  },
+  {
+    "smiles": "NC(=O)c1cc(-c2cccs2)n2nccc2n1",
+    "ki_nM": 100000.0,
+    "log10_ki_nM": 5.0,
+    "iptm": 0.9600073099136353,
+    "ptm": 0.9753396511077881,
+    "plddt": 0.9559105038642883,
+    "error": null,
+    "elapsed_s": 35.14305281639099
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "OpenAI GPT-4o": {
+    "verdict": "PASS",
+    "blocking_issues": [],
+    "non_blocking_suggestions": [
+      "Consider providing more detailed explanations for the mechanistic explanation of Boltz-2 false-positive mode.",
+      "Clarify the implications of the caveat on H1c_25_s5 regarding its large interface area."
+    ],
+    "dataset_identity": "OK",
+    "effect_size_plausibility": "OK",
+    "citation_traceability": "OK",
+    "narrative_consistency": "OK",
+    "risk_flags": "OK"
+  },
+  "Groq Llama-3.3-70B": {
+    "verdict": "FAIL",
+    "blocking_issues": [
+      "Off-ECL binders are not biologically valid for the SMA NMJ application",
+      "Only 2 of 10 binders survive the on-ECL filter, which may indicate a high false-positive rate in the Boltz-2 screening"
+    ],
+    "non_blocking_suggestions": [
+      "Consider using a more specific binding site definition in the Boltz-2 screening to reduce off-ECL binders",
+      "Perform additional experimental validation to confirm the binding specificity of the top candidates"
+    ],
+    "dataset_identity": "OK",
+    "effect_size_plausibility": "OK",
+    "citation_traceability": "OK",
+    "narrative_consistency": "OK",
+    "risk_flags": "The document highlights the risk of Boltz-2 false-positives, particularly for multi-domain targets with flexible tails, but this is a known limitation of the method rather than an error in the document"
+  },
+  "Gemini 2.0 Flash": {
+    "verdict": "PASS",
+    "blocking_issues": [],
+    "non_blocking_suggestions": [],
+    "dataset_identity": "OK",
+    "effect_size_plausibility": "OK",
+    "citation_traceability": "OK",
+    "narrative_consistency": "OK",
+    "risk_flags": "OK"
+  }
+}

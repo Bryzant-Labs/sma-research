@@ -1,0 +1,19 @@
+{
+  "id": "pocketxmol_kat7_sma_atlas_ext",
+  "type": "pocketxmol",
+  "target": "KAT7_SMA_ATLAS_EXT",
+  "uniprot": "O95251",
+  "pdb_id": "7D0P",
+  "pocket_center": [
+    196.25,
+    -0.02,
+    95.29
+  ],
+  "pocket_radius": 10.0,
+  "n_molecules": 600,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 2,
+  "status": "queued",
+  "_notes": "KAT7/HBO1 MYST HAT + propionyl-CoA pocket. TITLE-verified 2026-04-17 (see TITLE_AUDIT_extended.md). Atlas extended campaign ranks 6-25 Phase-3."
+}

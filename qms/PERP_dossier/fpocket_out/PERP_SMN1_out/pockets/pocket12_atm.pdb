@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : -0.0520
+HEADER 1  - Drug Score                        : 0.0031
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0990
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5849
+HEADER 5  - Mean B-factor of pocket residues  : 0.2483
+HEADER 6  - Hydrophobicity Score              : 57.2000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 6.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 307.6570
+HEADER 10  -Pocket volume (convex hull)       : 7.6961
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.8125
+ATOM   1487   CZ TYR A 190     -16.641 -23.141 -16.094  0.00  0.00           C 0
+ATOM   1485  CE2 TYR A 190     -15.289 -23.453 -16.000  0.00  0.00           C 0
+ATOM   1486   OH TYR A 190     -17.031 -22.000 -16.750  0.69  7.50           O 0
+ATOM      8   CE MET A   1     -11.805 -19.234 -11.000  0.00  0.00           C 0
+ATOM   1468   CB PHE A 189     -12.461 -23.672 -10.383  0.00  0.00           C 0
+ATOM      7   SD MET A   1     -11.258 -18.781 -12.672  0.00  0.00           S 0
+ATOM   1483  CD2 TYR A 190     -14.891 -24.609 -15.344  0.00  0.00           C 0
+ATOM   1465    N PHE A 189     -11.188 -25.484 -11.445  0.00  0.00           N 0
+ATOM   1469    O PHE A 189     -14.625 -25.656 -10.383  0.36  4.29           O 0
+ATOM   1482  CD1 TYR A 190     -17.172 -25.141 -14.875  0.00  0.00           C 0
+ATOM   1484  CE1 TYR A 190     -17.578 -23.984 -15.531  0.00  0.00           C 0
+ATOM   1481   CG TYR A 190     -15.828 -25.469 -14.773  0.00  0.00           C 0
+ATOM   1446    O ARG A 187      -8.555 -24.719 -11.984  0.60  4.29           O 0
+ATOM   1459  CD1 TYR A 188      -9.797 -28.078 -16.188  0.00  0.00           C 0
+ATOM   1454   CA TYR A 188      -9.930 -26.953 -13.039  0.00  0.00           C 0
+TER
+END

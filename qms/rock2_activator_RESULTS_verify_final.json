@@ -1,0 +1,43 @@
+{
+  "OpenAI GPT-4o": {
+    "verdict": "PASS",
+    "blocking_issues": [],
+    "non_blocking_suggestions": [
+      "Ensure medchem review is completed before external sharing.",
+      "Consider adding more detailed explanation of the Boltz-2 scoring process for clarity."
+    ],
+    "dataset_identity": "OK",
+    "effect_size_plausibility": "OK",
+    "citation_traceability": "OK",
+    "narrative_consistency": "OK",
+    "risk_flags": "OK"
+  },
+  "Groq Llama-3.3-70B": {
+    "verdict": "FAIL",
+    "blocking_issues": [
+      "Missing medchem review for flagged scaffolds",
+      "Incomplete Boltz-2 rescore (8/31 compounds pending retry)",
+      "Lack of wet-lab follow-up to validate computational results"
+    ],
+    "non_blocking_suggestions": [
+      "Consider adding more details on the PocketXMol script and its parameters",
+      "Provide additional context on the therapeutic hypothesis and its basis",
+      "Include more information on the planned wet-lab experiments to validate the results"
+    ],
+    "dataset_identity": "OK",
+    "effect_size_plausibility": "OK",
+    "citation_traceability": "OK",
+    "narrative_consistency": "OK",
+    "risk_flags": "Missing caveats on the limitations of computational models and the need for experimental validation"
+  },
+  "Gemini 2.0 Flash": {
+    "verdict": "PASS",
+    "blocking_issues": [],
+    "non_blocking_suggestions": [],
+    "dataset_identity": "OK",
+    "effect_size_plausibility": "OK",
+    "citation_traceability": "OK",
+    "narrative_consistency": "OK",
+    "risk_flags": "OK"
+  }
+}

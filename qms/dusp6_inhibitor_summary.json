@@ -1,0 +1,64 @@
+{
+  "task_id": "dusp6_inhibitor",
+  "n_molecules_collected": 600,
+  "n_smiles": 423,
+  "results_dir": "/results/pocketxmol/dusp6_inhibitor",
+  "sdf_dir": "/results/pocketxmol/dusp6_inhibitor/SDF",
+  "smiles_file": "/results/pocketxmol/dusp6_inhibitor/molecules.smi",
+  "gen_info_csv": "/results/pocketxmol/dusp6_inhibitor/gen_info.csv",
+  "task": {
+    "id": "dusp6_inhibitor",
+    "type": "pocketxmol",
+    "target": "DUSP6_active_site_denovo_inhibitor",
+    "pdb_id": "1MKP",
+    "pocket_center": [
+      3.11,
+      65.4,
+      21.17
+    ],
+    "pocket_radius": 10.0,
+    "n_molecules": 600,
+    "batch_size": 50,
+    "project": "SMA",
+    "priority": 1,
+    "status": "running",
+    "_campaign": {
+      "name": "DUSP6 active-site inhibitor (SMA MAPK survival axis + SSH/DUSP panel reference set)",
+      "campaign_id": "dusp6_inhibitor",
+      "instance_id": "35120543",
+      "offer_id": "38639",
+      "gpu": "A100 SXM4 40GB",
+      "location": "Slovenia",
+      "cost_per_hr": 0.6944,
+      "ssh": "ssh -i ~/.ssh/id_ed25519_vastai -p 10542 root@ssh2.vast.ai"
+    },
+    "_pocket": {
+      "pdb_title_verified": "CRYSTAL STRUCTURE OF PYST1 (MKP3)",
+      "catalytic_cys": "Cys287",
+      "p_loop_arg": "Arg283",
+      "motif": "DSP CX5R (Cys287-Arg283 spatially adjacent P-loop)",
+      "pocket_residues": [
+        "Gly232",
+        "Ile233",
+        "Lys234",
+        "Tyr235",
+        "Ala282",
+        "Arg283",
+        "Gly284",
+        "Lys285",
+        "Asn286",
+        "Cys287",
+        "Gly288"
+      ]
+    },
+    "_rationale": {
+      "sma_link": "DUSP6 inactivates ERK1/2 (MAPK survival). In SMA MN, MAPK stress response is dysregulated. Inhibition sustains pro-survival ERK signalling.",
+      "selectivity_panel": "Top 100 queue Boltz-2 vs DUSP6 + SSH1 + SSH2 + SSH3 (phosphatase selectivity reference set).",
+      "direction_status": "UNRESOLVED \u2014 DUSP6 direction in SMA MN requires meta-analysis. Exploratory compute, not therapy claim."
+    }
+  },
+  "status": "completed",
+  "timestamp": "2026-04-17T08:53:08Z",
+  "device": "cuda:0",
+  "repo_dir": "/opt/PocketXMol"
+}

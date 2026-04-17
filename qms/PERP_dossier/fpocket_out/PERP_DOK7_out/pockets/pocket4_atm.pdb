@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : -0.0721
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.7422
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5105
+HEADER 5  - Mean B-factor of pocket residues  : 0.7995
+HEADER 6  - Hydrophobicity Score              : 16.4000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 134.3781
+HEADER 10  -Pocket volume (convex hull)       : 2.9387
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM    810  CG2 VAL A 106      -8.125  -3.943  -9.367  0.00  0.00           C 0
+ATOM    799   CB LEU A 105      -3.232  -4.426  -7.488  0.00  0.00           C 0
+ATOM   1344   CB PRO A 174      -4.371  -7.941  -4.668  0.00  0.00           C 0
+ATOM    804    N VAL A 106      -5.426  -5.180  -9.641  0.00  0.00           N 0
+ATOM    800    O LEU A 105      -4.457  -7.117  -8.742  0.00  0.00           O 0
+ATOM    805   CA VAL A 106      -6.652  -5.922  -9.906  0.00  0.00           C 0
+ATOM    840   CZ ARG A 109      -8.727  -8.836  -4.066  0.00  0.00           C 0
+ATOM    836   CD ARG A 109      -8.297 -10.008  -6.199  0.00  0.00           C 0
+ATOM    809  CG1 VAL A 106      -9.016  -5.801 -10.805  0.00  0.00           C 0
+ATOM    838  NH1 ARG A 109      -9.891  -8.375  -4.512  0.00  0.00           N 0
+ATOM    837   NE ARG A 109      -7.961  -9.602  -4.836  0.00  0.00           N 0
+ATOM    798    C LEU A 105      -4.418  -5.934  -9.094  0.00  0.00           C 0
+ATOM   1376  OE2 GLU A 177      -3.973  -3.232  -3.898  0.19  2.14           O 0
+ATOM    839  NH2 ARG A 109      -8.328  -8.523  -2.844  0.44  2.19           N 0
+ATOM   1345    O PRO A 174      -3.559  -6.301  -2.057  0.10  2.14           O 0
+TER
+END

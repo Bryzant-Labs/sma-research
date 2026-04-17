@@ -1,0 +1,15 @@
+[triple-llm] verifying /home/bryza/sma-research/qms/chembl_ki_calibration_RESULTS.md (11698 chars)
+
+=== OpenAI GPT-4o ===
+  verdict: PASS
+  note: Consider providing more detailed information on the specific YAML block required for the Boltz-2 affinity module.
+  note: Clarify if there are any plans to address the compute budget limitations for future studies.
+=== Groq Llama-3.3-70B ===
+  verdict: PASS
+  note: Consider adding more pairs per kinase for more confident R² estimates
+  note: Explore using Boltz-2's affinity head for potentially better calibration
+=== Gemini 2.0 Flash ===
+  verdict: PASS
+
+=== AGGREGATE: 3/3 LLMs PASS ===
+OVERALL: PASS

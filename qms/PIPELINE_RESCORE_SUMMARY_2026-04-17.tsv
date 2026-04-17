@@ -1,0 +1,21 @@
+campaign	source_file	n_compounds	n_valid	top_sma_score	median_sma	iptm_source	overlap_top20
+atlas_top5_pxm/BPTF	pxm_smiles_master.csv	566	566	0.5816024876835701	7.483690264295674e-09		
+atlas_top5_pxm/KAT6B	pxm_smiles_master.csv	476	469	0.5816024876835701	7.483690264295674e-09		
+atlas_top5_pxm/LARP1	pxm_smiles_master.csv	523	502	0.5816024876835701	7.483690264295674e-09		
+atlas_top5_pxm/PCIF1	pxm_smiles_master.csv	482	480	0.5816024876835701	7.483690264295674e-09		
+atlas_top5_pxm/SH3BP5	pxm_smiles_master.csv	510	510	0.5816024876835701	7.483690264295674e-09		
+cdk5_activator_p25iface	gen_info.csv	509	496	0.5816024876835701	7.483690264295674e-09		
+cfl1_stabilizer	gen_info.csv	478	478	0.5816024876835701	7.483690264295674e-09		
+hdac2_inhibitor	valid_smiles.csv	577	577	0.5816024876835701	7.483690264295674e-09		
+hdac2_inhibitor_v2_zn_retained	gen_info.csv	503	502	0.5816024876835701	7.483690264295674e-09		
+jak2_inhibitor	gen_info.csv	525	515	0.5816024876835701	7.483690264295674e-09		
+limk2_activator_alphaC	pxm_smiles_raw.csv	558	558	0.5816024876835701	7.483690264295674e-09	top_hits.tsv	4.0
+limk2_atp_inhibitor	gen_info.csv	515	506	0.5816024876835701	7.483690264295674e-09		
+mdm2_activator	gen_info.csv	532	531	0.5816024876835701	7.483690264295674e-09		
+mdm2_activator_v2_allosteric	pxm_smiles_master.csv	535	535	0.9999999751390991	7.483690264295674e-09		
+mtor_frb_allosteric	gen_info.csv	569	569	0.5816024876835701	7.483690264295674e-09		
+mtor_inhibitor	valid_smiles.csv	507	507	0.5816024876835701	7.483690264295674e-09		
+musk_activator_alphaC	pxm_smiles_master.csv	541	541	0.5816024876835701	7.483690264295674e-09		
+nrf2_keap1_campaign	master_library_combined.csv	567	567	0.5816024876835701	7.483690264295674e-09		
+perp_pocket3_alphaC	gen_info.csv	557	557	0.5816024876835701	7.483690264295674e-09		
+rock2_activator_alphaC	pxm_smiles_raw.csv	241	241	7.483690264295674e-09	7.483690264295674e-09	top10_selectivity.tsv	0.0

@@ -1,0 +1,53 @@
+{
+  "OpenAI GPT-4o": {
+    "verdict": "FAIL",
+    "blocking_issues": [
+      "The document is based on a partial dataset (n=31/150) and explicitly states that the rankings and selectivity values are preliminary. This makes the current claims about selectivity_z values unreliable for external communication.",
+      "The document lacks explicit citation or source for the numerical claims regarding the iptm values and selectivity_z calculations, which are critical for traceability."
+    ],
+    "non_blocking_suggestions": [
+      "Clarify the method used for calculating iptm values and ensure it is consistent with standard practices.",
+      "Provide more context on the biological relevance of the selectivity_z threshold used (>0).",
+      "Include a brief explanation of the significance of the scaffold diversity observed in the results section."
+    ],
+    "dataset_identity": "OK",
+    "effect_size_plausibility": "OK",
+    "citation_traceability": "The document lacks explicit citations or sources for the numerical claims regarding iptm values and selectivity_z calculations.",
+    "narrative_consistency": "The narrative is consistent with the data presented, but the conclusions are preliminary due to the partial dataset.",
+    "risk_flags": "The document correctly flags the preliminary nature of the results and the need for further data before external communication."
+  },
+  "Groq Llama-3.3-70B": {
+    "verdict": "FAIL",
+    "blocking_issues": [
+      "The document is in DRAFT status and has not been verified by triple_llm_verify",
+      "The Boltz-2 rescore was interrupted due to server instability, resulting in a partial library (n=29) being used for analysis",
+      "The top-5 selectivity_z values are preliminary and may shift as more compounds are added to the library"
+    ],
+    "non_blocking_suggestions": [
+      "Consider adding more details about the GenMol expansion parameters, such as the temperature and noise values used",
+      "Provide more information about the RDKit filter and the criteria used to select the top-N compounds for Boltz-2 rescore"
+    ],
+    "dataset_identity": "OK",
+    "effect_size_plausibility": "OK",
+    "citation_traceability": "OK",
+    "narrative_consistency": "OK",
+    "risk_flags": "The document mentions that the results are preliminary and may change as more data is added, which is a correct caveat"
+  },
+  "Gemini 2.0 Flash": {
+    "verdict": "FAIL",
+    "blocking_issues": [
+      "The document states that rankings are preliminary and that specific selectivity_z values should not be cited in external communication until the rescore reaches n\u2265100 compounds. However, the document then proceeds to list the top 5 compounds by selectivity_z. This is a direct contradiction and a blocking issue because it violates the stated constraint against citing specific selectivity_z values before the rescore is complete.",
+      "The document states that the Boltz-2 rescore was interrupted and only 31 compounds were fully rescored across all 5 targets. The Z-score selectivity is computed from this partial library. The document explicitly warns that the numbers will shift with more data. Citing specific selectivity_z values from this partial dataset is premature and could lead to misleading conclusions. This is a blocking issue because the analysis is based on an incomplete dataset and the results are likely to change significantly as more data is added."
+    ],
+    "non_blocking_suggestions": [
+      "Consider adding a disclaimer to the table of top 5 compounds, reiterating the preliminary nature of the data and the potential for significant changes upon completion of the rescore.",
+      "Clarify the criteria used to select the initial 150 compounds for Boltz-2 rescoring. Was it purely QED \u00d7 BBB, or were other factors considered?",
+      "Consider adding a column to the top_hits.tsv file indicating whether the iptm value comes from the primary or secondary observation window."
+    ],
+    "dataset_identity": "OK",
+    "effect_size_plausibility": "OK",
+    "citation_traceability": "OK",
+    "narrative_consistency": "OK",
+    "risk_flags": "OK"
+  }
+}

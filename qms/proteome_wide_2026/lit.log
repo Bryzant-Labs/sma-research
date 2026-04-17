@@ -1,0 +1,30 @@
+[filter] running PubMed on top 500
+[pubmed] 25 / 500 queried (last: MGRN1 -> 0)
+[pubmed] 50 / 500 queried (last: RB1 -> 26)
+[pubmed] 75 / 500 queried (last: APC -> 17)
+[pubmed] 100 / 500 queried (last: PRUNE2 -> 0)
+[pubmed] 125 / 500 queried (last: TMEM268 -> 0)
+[pubmed] 150 / 500 queried (last: TMF1 -> 1)
+[pubmed] 175 / 500 queried (last: RXRB -> 0)
+[pubmed] 200 / 500 queried (last: CCP110 -> 1)
+[pubmed] 225 / 500 queried (last: ZC3HAV1 -> 0)
+[pubmed] 250 / 500 queried (last: MAP4K4 -> 1)
+[pubmed] 275 / 500 queried (last: PJA1 -> 0)
+[pubmed] 300 / 500 queried (last: BMPR2 -> 11)
+[pubmed] 325 / 500 queried (last: TBC1D5 -> 0)
+[pubmed] 350 / 500 queried (last: TNS2 -> 1)
+[pubmed] 375 / 500 queried (last: UHRF2 -> 0)
+[pubmed] 400 / 500 queried (last: RNF103 -> 0)
+[pubmed] 425 / 500 queried (last: LRSAM1 -> 0)
+[pubmed] 450 / 500 queried (last: ULK2 -> 1)
+[pubmed] 475 / 500 queried (last: ZDHHC11B -> 0)
+[pubmed] 500 / 500 queried (last: TYW3 -> 0)
+[pubmed] total cached: 500
+[write] candidates_with_literature.tsv
+novelty_bucket
+query_failed       4867
+truly_novel         361
+some_prior_work     110
+over_studied         29
+Name: count, dtype: int64
+[survivors] post-literature filter: 471

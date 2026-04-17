@@ -1,0 +1,29 @@
+{
+  "iptm_scores": [
+    0.14740467071533203
+  ],
+  "ligand_iptm_scores": [
+    0.14740467071533203
+  ],
+  "protein_iptm_scores": [
+    0.0
+  ],
+  "ptm_scores": [
+    0.5795923471450806
+  ],
+  "complex_plddt_scores": [
+    0.8403235673904419
+  ],
+  "confidence_scores": [
+    0.7017397880554199
+  ],
+  "metrics": {
+    "total_time_seconds": 2.3785133679707844
+  },
+  "affinities": {},
+  "chains_ptm_scores": [],
+  "pair_chains_iptm_scores": [],
+  "pae": null,
+  "pde": null,
+  "structure_length": 336311
+}

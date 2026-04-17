@@ -1,0 +1,19 @@
+{
+  "id": "pocketxmol_kmt5b_sma_atlas_ext",
+  "type": "pocketxmol",
+  "target": "KMT5B_SMA_ATLAS_EXT",
+  "uniprot": "Q4FZB7",
+  "pdb_id": "3S8P",
+  "pocket_center": [
+    5.2,
+    36.29,
+    -5.36
+  ],
+  "pocket_radius": 10.0,
+  "n_molecules": 600,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 2,
+  "status": "queued",
+  "_notes": "KMT5B/SUV420H1 SET domain SAM cofactor site. TITLE-verified 2026-04-17 (see TITLE_AUDIT_extended.md). Atlas extended campaign ranks 6-25 Phase-3."
+}

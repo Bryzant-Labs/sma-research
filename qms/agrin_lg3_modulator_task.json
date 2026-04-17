@@ -1,0 +1,35 @@
+{
+  "id": "agrin_lg3_modulator",
+  "type": "pocketxmol",
+  "target": "AGRIN_LG3_LRP4-interface_modulator_denovo",
+  "pdb_id": "3V64",
+  "pocket_center": [-27.992, 10.692, -38.546],
+  "pocket_radius": 12.0,
+  "n_molecules": 600,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 1,
+  "status": "running",
+  "_campaign": {
+    "name": "AGRIN-LG3 LRP4-interface allosteric modulator (SMA NMJ-restorative, first-in-class)",
+    "campaign_id": "agrin_lg3_modulator",
+    "gpu": "A100 PCIE 40GB",
+    "location": "Japan",
+    "ssh": "ssh -i ~/.ssh/id_ed25519_vastai -p 10540 root@ssh4.vast.ai"
+  },
+  "_pocket": {
+    "pdb_title_verified": "CRYSTAL STRUCTURE OF AGRIN AND LRP4",
+    "chain_A_source": "RAT AGRIN (UniProt P25304) LG3 domain, residues 1759-1948",
+    "chain_D_source": "RAT LRP4 (UniProt Q9QYP1) beta1-propeller, residues 396-737",
+    "interface_strategy": "SEA/Z-exon face loop 1779-1788 - canonical LRP4-binding face on AGRIN LG3",
+    "pocket_residues": ["S1779","E1780","L1781","T1782","N1783","E1784","I1785","P1786","A1787","E1788"],
+    "n_interface_residues_under_5A": 10,
+    "sanity_checks": "PASS"
+  },
+  "_rationale": {
+    "sma_link": "AGRIN-LRP4-MuSK axis is the master NMJ development switch. In SMA, NMJ fails to mature even when SMN is restored. AGRIN-potentiator small molecule = NMJ-restorative modality orthogonal to SMN therapy.",
+    "selectivity_panel": "Top 100 queue Boltz-2 vs AGRIN + LRP4 counter + LAMA2/LAMB1 LG counters.",
+    "first_in_class": "No reported small-molecule AGRIN-LRP4-interface drug. Pharma white space.",
+    "simon_relevance": "Christian Simon lab (Schöneberg) works on SMA NMJ failure. Direct collaboration payload."
+  }
+}

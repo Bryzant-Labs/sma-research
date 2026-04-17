@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.2061
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.3018
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5254
+HEADER 5  - Mean B-factor of pocket residues  : 0.1927
+HEADER 6  - Hydrophobicity Score              : 9.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 481.3298
+HEADER 10  -Pocket volume (convex hull)       : 29.2750
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM     37    O GLY A   5     -15.203  26.016  11.234  0.00  0.00           O 0
+ATOM   2930   CB ALA B 184     -10.781  31.188   8.922  0.00  0.00           C 0
+ATOM     49   CB ALA A   7     -13.344  26.547   7.715  0.00  0.00           C 0
+ATOM   2936    O LYS B 185     -14.039  34.375   8.414  0.47  9.64           O 0
+ATOM   2956  NH1 ARG B 187     -19.438  30.203   3.629  0.00  0.00           N 0
+ATOM   2958   CZ ARG B 187     -18.438  31.000   3.229  0.00  0.00           C 0
+ATOM   2957  NH2 ARG B 187     -17.828  30.734   2.080  0.00  0.00           N 0
+ATOM   2929    C ALA B 184     -11.141  33.656   8.727  0.00  0.00           C 0
+ATOM   2932    N LYS B 185     -11.289  34.781   7.887  0.50  1.09           N 0
+ATOM   2928   CA ALA B 184     -10.180  32.500   8.453  0.00  0.00           C 0
+ATOM   2951   CB ARG B 187     -18.406  33.906   7.254  0.00  0.00           C 0
+ATOM   2954   CD ARG B 187     -18.641  32.406   5.242  0.00  0.00           C 0
+ATOM   2955   NE ARG B 187     -18.047  32.031   3.965  0.00  0.00           N 0
+ATOM   2953   CG ARG B 187     -18.000  33.656   5.809  0.00  0.00           C 0
+ATOM   2935   CB LYS B 185     -12.539  36.406   6.527  0.00  0.00           C 0
+ATOM   2938   CD LYS B 185     -11.875  37.875   4.602  0.00  0.00           C 0
+TER
+END

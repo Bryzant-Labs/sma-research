@@ -1,0 +1,19 @@
+{
+  "id": "pocketxmol_ehmt1_sma_atlas_ext",
+  "type": "pocketxmol",
+  "target": "EHMT1_SMA_ATLAS_EXT",
+  "uniprot": "Q9H9B1",
+  "pdb_id": "3HNA",
+  "pocket_center": [
+    14.96,
+    2.07,
+    14.52
+  ],
+  "pocket_radius": 10.0,
+  "n_molecules": 600,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 2,
+  "status": "queued",
+  "_notes": "EHMT1/GLP SET domain SAH cofactor site. TITLE-verified 2026-04-17 (see TITLE_AUDIT_extended.md). Atlas extended campaign ranks 6-25 Phase-3."
+}

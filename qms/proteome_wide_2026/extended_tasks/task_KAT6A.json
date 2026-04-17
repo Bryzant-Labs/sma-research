@@ -1,0 +1,19 @@
+{
+  "id": "pocketxmol_kat6a_sma_atlas_ext",
+  "type": "pocketxmol",
+  "target": "KAT6A_SMA_ATLAS_EXT",
+  "uniprot": "Q92794",
+  "pdb_id": "9DZN",
+  "pocket_center": [
+    13.14,
+    11.03,
+    16.47
+  ],
+  "pocket_radius": 10.0,
+  "n_molecules": 600,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 2,
+  "status": "queued",
+  "_notes": "KAT6A MYST HAT bisubstrate pocket (CMC co-crystal). TITLE-verified 2026-04-17 (see TITLE_AUDIT_extended.md). Atlas extended campaign ranks 6-25 Phase-3."
+}

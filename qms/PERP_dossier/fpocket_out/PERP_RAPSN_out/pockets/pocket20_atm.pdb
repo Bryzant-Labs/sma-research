@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.0331
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9786
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5760
+HEADER 5  - Mean B-factor of pocket residues  : 0.9889
+HEADER 6  - Hydrophobicity Score              : 27.7500
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 215.0706
+HEADER 10  -Pocket volume (convex hull)       : 6.3356
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2941
+ATOM   3163  CE1 TYR B 210      -1.754  11.477  12.945  0.00  0.00           C 0
+ATOM   3175  CE1 HIS B 211      -1.162   8.305  10.336  0.00  0.00           C 0
+ATOM   3447  CD1 LEU B 247       0.576  14.375  11.789  0.00  0.00           C 0
+ATOM   3176  NE2 HIS B 211       0.064   8.234  10.820  0.73  4.37           N 0
+ATOM   3448  CD2 LEU B 247      -1.471  15.734  11.281  0.00  0.00           C 0
+ATOM   2839   OG SER B 171      -4.043   9.078   6.734  0.64  6.43           O 0
+ATOM   3733    N GLY B 284      -3.320  19.750   6.223  0.00  0.00           N 0
+ATOM   3730   CG LEU B 283      -4.461  17.109   3.473  0.00  0.00           C 0
+ATOM   3728   CB LEU B 283      -3.410  18.219   3.473  0.00  0.00           C 0
+ATOM   3732  CD2 LEU B 283      -3.834  15.789   3.051  0.00  0.00           C 0
+ATOM   3165   OH TYR B 210      -3.338  13.203  12.500  0.56  6.43           O 0
+ATOM   3760  NE2 GLN B 287      -6.371  15.195   6.953  0.62  4.37           N 0
+ATOM   3761  OE1 GLN B 287      -5.684  16.422   8.711  0.73  3.21           O 0
+ATOM   3734   CA GLY B 284      -3.627  19.891   7.637  0.00  0.00           C 0
+ATOM   3712  ND2 ASN B 281       0.633  18.500   7.355  0.00  0.00           N 0
+ATOM   3713  OD1 ASN B 281      -0.563  19.406   5.680  0.67  3.21           O 0
+TER
+END

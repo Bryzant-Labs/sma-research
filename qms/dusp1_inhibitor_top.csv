@@ -1,0 +1,6 @@
+rank,cfd_pos,cfd_node,cfd_edge,qed,bbb_score,mw,logp,tpsa,hbd,hba,lipinski_pass,filename,smiles
+1,2.0321,8.592,16.812,0.369,0.65,378.35,2.51,112.58,4,7,True,422.sdf,"O=C(CP(=O)(O)Oc1ccccc1)NNNc1nc2ccccc2s1"
+2,2.0498,7.907,17.726,0.205,0.65,407.48,3.44,113.01,4,6,True,217.sdf,"NC(=CCc1ccc(O)c(O)c1F)C(O)C=CC(=O)OCCCCC1CCCC1"
+3,2.0584,8.779,17.277,0.26,0.65,359.34,1.58,105.06,4,5,True,445.sdf,"O=C(Nc1ccc(F)c(F)c1)c1cc(NNCC=CC2NC2=O)ccn1"
+4,2.2515,8.775,18.003,0.397,0.75,381.52,4.17,61.77,1,4,True,374.sdf,"O=C(CCCCNN=C1CC=CCC1)Cc1ccc(N2CCCCC2=O)cc1"
+5,2.2686,8.828,18.009,0.399,0.65,373.46,2.1,120.0,4,5,True,479.sdf,"O=C(O)CCNCCCCCCC(=O)NCc1n[nH]c(-c2ccccc2)n1"

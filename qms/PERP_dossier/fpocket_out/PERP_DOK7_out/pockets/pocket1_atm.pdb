@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     1:
+HEADER 0  - Pocket Score                      : 0.0653
+HEADER 1  - Drug Score                        : 0.0024
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1534
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7482
+HEADER 5  - Mean B-factor of pocket residues  : 0.0814
+HEADER 6  - Hydrophobicity Score              : -9.5000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 2.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 354.2243
+HEADER 10  -Pocket volume (convex hull)       : 10.8516
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5625
+ATOM   5068   CB PRO B 480       9.484  20.266  68.375  0.00  0.00           C 0
+ATOM   5058   CA GLY B 478      14.398  24.766  69.375  0.00  0.00           C 0
+ATOM   5061    N GLY B 479      13.938  22.359  68.562  0.43  2.19           N 0
+ATOM   5070   CG PRO B 480       9.492  21.531  67.562  0.00  0.00           C 0
+ATOM   5059    C GLY B 478      13.930  23.797  68.312  0.00  0.00           C 0
+ATOM   5062   CA GLY B 479      14.219  21.031  68.062  0.00  0.00           C 0
+ATOM   5066   CA PRO B 480      10.867  19.656  68.125  0.00  0.00           C 0
+ATOM   5063    C GLY B 479      12.969  20.312  67.562  0.00  0.00           C 0
+ATOM   5081  NE2 HIS B 481      10.391  16.078  72.062  0.79  3.28           N 0
+ATOM   5078  CD2 HIS B 481       9.492  16.516  71.125  0.00  0.00           C 0
+ATOM   5065    N PRO B 480      11.672  20.797  67.688  0.00  0.00           N 0
+ATOM   5071   CD PRO B 480      10.906  21.828  67.188  0.00  0.00           C 0
+ATOM   5060    O GLY B 478      13.508  24.219  67.250  0.00  0.00           O 0
+ATOM   5064    O GLY B 479      13.055  19.203  67.000  0.00  0.00           O 0
+ATOM   5080  CE1 HIS B 481      10.969  14.969  71.625  0.00  0.00           C 0
+TER
+END

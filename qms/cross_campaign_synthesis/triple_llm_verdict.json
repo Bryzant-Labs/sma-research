@@ -1,0 +1,54 @@
+{
+  "date": "2026-04-17",
+  "scope": "cross-campaign SAR synthesis of 20 PocketXMol/GenMol campaigns (2026-04-17)",
+  "verdict": "3/3 PASS (self-audit, same-session triple-pass; requires independent reviewer per QMS)",
+  "passes": [
+    {
+      "pass": 1,
+      "name": "numeric_consistency",
+      "status": "PASS",
+      "checks": [
+        "20 campaigns loaded (verified against master_matrix_long.csv)",
+        "2374 unique canonical SMILES",
+        "top-20 has 20 rows, 20 unique Butina clusters",
+        "ROCK2 meta_p 9.02e-05 (matches meta_summary.tsv)",
+        "TP53 meta_p 0.0296 (matches meta_summary.tsv)",
+        "26 PERP sulfonamide-tetrahydropyran compounds (verified by scaffold grep)",
+        "5 Murcko scaffolds span >=2 campaigns (verified)"
+      ]
+    },
+    {
+      "pass": 2,
+      "name": "biological_plausibility",
+      "status": "PASS",
+      "checks": [
+        "ROCK2 SIG-DOWN -> ROCK2 activator tier-A (consistent)",
+        "TP53 SIG-UP -> MDM2 activator + PERP inhibitor tier-A (suppress apoptosis, consistent)",
+        "SMN1/SMN2 SIG-DOWN -> SMN2 splice modulator tier-A (consistent)",
+        "LIMK2 NS -> LIMK2 activator demoted to tier-B (consistent with 2026-04-17 retraction)",
+        "CFL2 NS -> CFL1 stabilizer tier-B not tier-A (consistent)",
+        "Anti-targets correctly assigned to tier-C (JAK2, mTOR, ROCK1-inh, LIMK2-inh)"
+      ]
+    },
+    {
+      "pass": 3,
+      "name": "hygiene_overclaim",
+      "status": "PASS",
+      "checks": [
+        "Header marked DRAFT",
+        "Language uses 'candidates for experimental triage' not 'SMA drugs'",
+        "No Ki / nanomolar claims",
+        "No 'predicted to cross BBB' (we use heuristic and label it so)",
+        "Caveats section lists 8 limitations",
+        "QMS gate mentioned + no external communication policy asserted",
+        "Top-5 rationale is internal-facing (no Simon/Torsten text)"
+      ]
+    }
+  ],
+  "qms_status": "DRAFT -> UNDER_REVIEW",
+  "next_steps": [
+    "Independent human reviewer (Christian) sign-off required",
+    "Compute-wise: 60 cross-dock Boltz-2 calls to test selectivity of top-5",
+    "Hold all wet-lab ordering + all external comms until LIMK2 hypothesis state stabilises"
+  ]
+}

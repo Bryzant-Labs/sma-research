@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : -0.0344
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    31
+HEADER 3  - Mean alpha-sphere radius          : 3.8648
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6783
+HEADER 5  - Mean B-factor of pocket residues  : 0.6183
+HEADER 6  - Hydrophobicity Score              : 37.0000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 196.1974
+HEADER 10  -Pocket volume (convex hull)       : 4.5743
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 21.0000
+HEADER 13 - Number of apolar alpha sphere     :    22
+HEADER 14 - Proportion of apolar alpha sphere : 0.7097
+ATOM   2275   CA GLY B 101      10.961  27.984   3.818  0.00  0.00           C 0
+ATOM   2288   CB GLN B 103       6.602  32.219   0.590  0.00  0.00           C 0
+ATOM   2284   CD PRO B 102      10.711  30.734   4.035  0.00  0.00           C 0
+ATOM   2293  OE1 GLN B 103       8.344  33.781  -0.878  0.71  4.29           O 0
+ATOM   2248    O PHE B  97      11.203  25.047   1.552  0.53  1.07           O 0
+ATOM   2322   CG PHE B 107       6.605  25.266  -2.742  0.00  0.00           C 0
+ATOM   2320   CB PHE B 107       5.578  26.078  -2.006  0.00  0.00           C 0
+ATOM   2289    O GLN B 103       5.410  29.797   0.274  0.67  7.50           O 0
+ATOM   2285    N GLN B 103       7.344  31.312   2.748  0.51  1.09           N 0
+ATOM   2276    C GLY B 101       9.711  28.672   4.312  0.00  0.00           C 0
+ATOM   2287    C GLN B 103       5.664  30.062   1.451  0.00  0.00           C 0
+ATOM   2299   CG MET B 104       7.117  27.312   3.910  0.00  0.00           C 0
+ATOM   2324  CD2 PHE B 107       7.055  25.656  -3.996  0.00  0.00           C 0
+ATOM   2247   CB PHE B  97      12.602  23.859  -1.122  0.00  0.00           C 0
+ATOM   2256   CA ALA B  98       8.656  24.016   1.026  0.00  0.00           C 0
+ATOM   2327   CZ PHE B 107       8.508  23.750  -4.109  0.00  0.00           C 0
+ATOM   2326  CE2 PHE B 107       8.000  24.906  -4.680  0.00  0.00           C 0
+ATOM   2246    C PHE B  97      11.109  24.016   0.884  0.00  0.00           C 0
+ATOM   2323  CD1 PHE B 107       7.121  24.109  -2.180  0.00  0.00           C 0
+ATOM   2325  CE1 PHE B 107       8.070  23.344  -2.859  0.00  0.00           C 0
+ATOM   2255    N ALA B  98       9.922  23.438   0.583  0.00  0.00           N 0
+ATOM   2295   CA MET B 104       5.234  27.672   2.217  0.00  0.00           C 0
+TER
+END

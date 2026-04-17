@@ -1,0 +1,111 @@
+[calib] n_pairs=20 kinases=['LIMK2', 'ROCK2', 'JAK2', 'MAPK14']
+  LIMK2 P53671 KD 330-610 len=281
+  ROCK2 O75116 KD 92-354 len=263
+  JAK2 O60674 KD 840-1132 len=293
+  MAPK14 Q16539 KD 4-353 len=350
+
+=== LIMK2 ===
+  [LIMK2] ChEMBL Ki entries: 46
+  [LIMK2] picked 20 diverse pairs (log-Ki range 0.48..3.45)
+  [LIMK2 1/20] iptm=0.946 log10Ki=0.48 err=None t=35.7s
+  [LIMK2 2/20] iptm=0.936 log10Ki=0.85 err=None t=33.8s
+  [LIMK2 3/20] iptm=0.947 log10Ki=0.95 err=None t=35.6s
+  [LIMK2 4/20] iptm=0.905 log10Ki=1.08 err=None t=37.5s
+  [LIMK2 5/20] iptm=0.961 log10Ki=1.23 err=None t=35.1s
+  [LIMK2 6/20] iptm=0.944 log10Ki=1.32 err=None t=36.6s
+  [LIMK2 7/20] iptm=0.960 log10Ki=1.40 err=None t=33.2s
+  [LIMK2 8/20] iptm=0.957 log10Ki=1.51 err=None t=34.7s
+  [LIMK2 9/20] iptm=0.883 log10Ki=1.59 err=None t=36.7s
+  [LIMK2 10/20] iptm=0.937 log10Ki=1.93 err=None t=34.2s
+  [LIMK2 11/20] iptm=0.963 log10Ki=2.00 err=None t=34.5s
+  [LIMK2 12/20] iptm=0.945 log10Ki=2.03 err=None t=34.3s
+  [LIMK2 13/20] iptm=0.945 log10Ki=2.06 err=None t=38.6s
+  [LIMK2 14/20] iptm=0.935 log10Ki=2.11 err=None t=37.8s
+  [LIMK2 15/20] iptm=0.939 log10Ki=2.18 err=None t=33.7s
+  [LIMK2 16/20] iptm=0.946 log10Ki=2.26 err=None t=32.7s
+  [LIMK2 17/20] iptm=0.901 log10Ki=2.27 err=None t=36.8s
+  [LIMK2 18/20] iptm=0.895 log10Ki=2.42 err=None t=34.4s
+  [LIMK2 19/20] iptm=0.942 log10Ki=2.50 err=None t=34.0s
+  [LIMK2 20/20] iptm=0.948 log10Ki=3.45 err=None t=37.0s
+  [LIMK2 FIT] log10(Ki_nM) = -2.519 * iptm + 4.141  R^2=0.007 pearson=-0.082 n=20
+
+=== ROCK2 ===
+  [ROCK2] ChEMBL Ki entries: 400
+  [ROCK2] picked 20 diverse pairs (log-Ki range -0.30..3.90)
+  [ROCK2 1/20] iptm=0.988 log10Ki=-0.30 err=None t=30.4s
+  [ROCK2 2/20] iptm=0.971 log10Ki=1.00 err=None t=40.5s
+  [ROCK2 3/20] iptm=0.956 log10Ki=1.20 err=None t=33.6s
+  [ROCK2 4/20] iptm=0.975 log10Ki=1.40 err=None t=36.8s
+  [ROCK2 5/20] iptm=0.963 log10Ki=1.60 err=None t=34.9s
+  [ROCK2 6/20] iptm=0.957 log10Ki=1.70 err=None t=34.1s
+  [ROCK2 7/20] iptm=0.963 log10Ki=1.90 err=None t=36.6s
+  [ROCK2 8/20] iptm=0.978 log10Ki=2.00 err=None t=35.0s
+  [ROCK2 9/20] iptm=0.969 log10Ki=2.20 err=None t=36.9s
+  [ROCK2 10/20] iptm=0.970 log10Ki=2.30 err=None t=35.6s
+  [ROCK2 11/20] iptm=0.980 log10Ki=2.45 err=None t=34.5s
+  [ROCK2 12/20] iptm=0.932 log10Ki=2.50 err=None t=32.0s
+  [ROCK2 13/20] iptm=0.938 log10Ki=2.70 err=None t=33.3s
+  [ROCK2 14/20] iptm=0.951 log10Ki=2.80 err=None t=32.5s
+  [ROCK2 15/20] iptm=0.970 log10Ki=3.00 err=None t=36.2s
+  [ROCK2 16/20] iptm=0.958 log10Ki=3.20 err=None t=33.9s
+  [ROCK2 17/20] iptm=0.963 log10Ki=3.30 err=None t=38.1s
+  [ROCK2 18/20] iptm=0.972 log10Ki=3.50 err=None t=36.3s
+  [ROCK2 19/20] iptm=0.902 log10Ki=3.70 err=None t=37.0s
+  [ROCK2 20/20] iptm=0.976 log10Ki=3.90 err=None t=34.9s
+  [ROCK2 FIT] log10(Ki_nM) = -20.967 * iptm + 22.463  R^2=0.158 pearson=-0.398 n=20
+
+=== JAK2 ===
+  [JAK2] ChEMBL Ki entries: 400
+  [JAK2] picked 20 diverse pairs (log-Ki range -1.00..5.00)
+  [JAK2 1/20] iptm=0.983 log10Ki=-1.00 err=None t=32.7s
+  [JAK2 2/20] iptm=0.992 log10Ki=0.00 err=None t=37.6s
+  [JAK2 3/20] iptm=0.988 log10Ki=0.46 err=None t=35.1s
+  [JAK2 4/20] iptm=0.981 log10Ki=0.75 err=None t=38.6s
+  [JAK2 5/20] iptm=0.953 log10Ki=1.11 err=None t=34.2s
+  [JAK2 6/20] iptm=0.978 log10Ki=1.40 err=None t=38.0s
+  [JAK2 7/20] iptm=0.933 log10Ki=1.62 err=None t=35.0s
+  [JAK2 8/20] iptm=0.968 log10Ki=1.85 err=None t=35.8s
+  [JAK2 9/20] iptm=0.986 log10Ki=2.20 err=None t=33.8s
+  [JAK2 10/20] iptm=0.910 log10Ki=2.32 err=None t=32.5s
+  [JAK2 11/20] iptm=0.977 log10Ki=2.57 err=None t=40.7s
+  [JAK2 12/20] iptm=0.986 log10Ki=2.70 err=None t=34.2s
+  [JAK2 13/20] iptm=0.980 log10Ki=2.80 err=None t=36.9s
+  [JAK2 14/20] iptm=0.982 log10Ki=2.90 err=None t=33.5s
+  [JAK2 15/20] iptm=0.778 log10Ki=3.00 err=None t=32.9s
+  [JAK2 16/20] iptm=0.956 log10Ki=3.10 err=None t=40.8s
+  [JAK2 17/20] iptm=0.987 log10Ki=3.23 err=None t=34.9s
+  [JAK2 18/20] iptm=0.984 log10Ki=3.40 err=None t=35.3s
+  [JAK2 19/20] iptm=0.975 log10Ki=4.40 err=None t=33.7s
+  [JAK2 20/20] iptm=0.976 log10Ki=5.00 err=None t=32.7s
+  [JAK2 FIT] log10(Ki_nM) = -4.448 * iptm + 6.473  R^2=0.022 pearson=-0.147 n=20
+
+=== MAPK14 ===
+  [MAPK14] ChEMBL Ki entries: 400
+  [MAPK14] picked 20 diverse pairs (log-Ki range -0.90..5.00)
+  [MAPK14 1/20] iptm=0.990 log10Ki=-0.90 err=None t=36.0s
+  [MAPK14 2/20] iptm=0.987 log10Ki=-0.30 err=None t=33.5s
+  [MAPK14 3/20] iptm=0.993 log10Ki=0.18 err=None t=36.6s
+  [MAPK14 4/20] iptm=0.984 log10Ki=0.48 err=None t=33.9s
+  [MAPK14 5/20] iptm=0.993 log10Ki=0.78 err=None t=35.8s
+  [MAPK14 6/20] iptm=0.988 log10Ki=1.00 err=None t=34.9s
+  [MAPK14 7/20] iptm=0.990 log10Ki=1.20 err=None t=36.5s
+  [MAPK14 8/20] iptm=0.988 log10Ki=1.69 err=None t=34.4s
+  [MAPK14 9/20] iptm=0.984 log10Ki=2.00 err=None t=33.0s
+  [MAPK14 10/20] iptm=0.970 log10Ki=2.15 err=None t=33.9s
+  [MAPK14 11/20] iptm=0.967 log10Ki=2.40 err=None t=33.7s
+  [MAPK14 12/20] iptm=0.969 log10Ki=2.51 err=None t=32.7s
+  [MAPK14 13/20] iptm=0.989 log10Ki=2.66 err=None t=36.7s
+  [MAPK14 14/20] iptm=0.970 log10Ki=2.80 err=None t=36.3s
+  [MAPK14 15/20] iptm=0.902 log10Ki=3.00 err=None t=36.7s
+  [MAPK14 16/20] iptm=0.977 log10Ki=3.16 err=None t=34.1s
+  [MAPK14 17/20] iptm=0.973 log10Ki=3.32 err=None t=34.7s
+  [MAPK14 18/20] iptm=0.899 log10Ki=3.50 err=None t=32.8s
+  [MAPK14 19/20] iptm=0.755 log10Ki=4.30 err=None t=32.8s
+  [MAPK14 20/20] iptm=0.960 log10Ki=5.00 err=None t=35.1s
+  [MAPK14 FIT] log10(Ki_nM) = -15.342 * iptm + 16.797  R^2=0.307 pearson=-0.554 n=20
+
+=== DONE — fits per kinase ===
+  LIMK2: {'slope': -2.518881263858129, 'intercept': 4.14055498967978, 'r2': 0.006672141258429964, 'n': 20, 'pearson': -0.08168317610395703, 'iptm_range': [0.8830963969230652, 0.9633810520172119], 'log10Ki_range': [0.47712125471966244, 3.45484486000851]}
+  ROCK2: {'slope': -20.9670426041554, 'intercept': 22.462845977126012, 'r2': 0.1580879375516503, 'n': 20, 'pearson': -0.3976027383603519, 'iptm_range': [0.9018093943595886, 0.9877249598503113], 'log10Ki_range': [-0.29998893767788765, 3.899999871665804]}
+  JAK2: {'slope': -4.448083497381914, 'intercept': 6.472911960327283, 'r2': 0.02150855350986791, 'n': 20, 'pearson': -0.14665794731233592, 'iptm_range': [0.7776018381118774, 0.9924803376197815], 'log10Ki_range': [-1.0, 5.0]}
+  MAPK14: {'slope': -15.342034046675714, 'intercept': 16.797010275251044, 'r2': 0.30666130207089637, 'n': 20, 'pearson': -0.553770080512568, 'iptm_range': [0.7547897100448608, 0.9928588271141052], 'log10Ki_range': [-0.8999742698921374, 5.0]}

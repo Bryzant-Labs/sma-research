@@ -1,0 +1,42 @@
+{
+  "id": "nudt21_modulator",
+  "type": "pocketxmol",
+  "target": "NUDT21_CPSF5_UGUA-site_splice-modifier_denovo",
+  "pdb_id": "3MDI",
+  "pocket_center": null,
+  "pocket_radius": 10.0,
+  "n_molecules": 600,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 1,
+  "status": "pending",
+  "_campaign": {
+    "name": "NUDT21 UGUA-pocket modulator (orthogonal SMN2 splice-modifier via APA, first-in-class)",
+    "campaign_id": "nudt21_modulator",
+    "gpu": "A100 PCIE 40GB",
+    "location": "Japan",
+    "ssh": "ssh -i ~/.ssh/id_ed25519_vastai -p 10540 root@ssh4.vast.ai"
+  },
+  "_pocket": {
+    "pdb_title_verified": "Crystal Structure of the 25kDa Subunit of Human Cleavage factor Im in complex with RNA UGUAAA",
+    "chain_used": "A",
+    "chain_A_source": "NUDT21 / CPSF5 (UniProt O43809) residues 21-225 (full Nudix fold)",
+    "chain_C_source": "RNA 5'-UGUAAA-3' 6-mer (target mimic, used to locate pocket only)",
+    "pocket_strategy": "UGUA-RNA-binding site - compute pocket_center as mean heavy-atom coord of chain C RNA (UGUAAA); NUDT21 residues within 5A of RNA are the canonical UGUA-contact residues",
+    "expected_contact_residues": ["Y25","R63","F103","F104","R181"],
+    "resolution_A": 2.07,
+    "sanity_checks": "TBD_on_instance"
+  },
+  "_rationale": {
+    "sma_link": "NUDT21 governs alternative polyadenylation (APA) via UGUA motif recognition. NUDT21 knockdown alters APA for splicing regulators (SRSF1/2/3, SRPK1) → SMN2 exon 7 inclusion modulated indirectly. Mechanism orthogonal to risdiplam (direct SMN2 binder).",
+    "selectivity_panel": "Boltz-2 queue vs NUDT21 primary + NUDT2/NUDT5/NUDT7 (catalytic Nudix family) + SRSF1 RRM1 + PABPN1 (off-target RBPs)",
+    "first_in_class": "No reported small-molecule NUDT21 modulator; UGUA pocket is defined but unexplored pharma white space.",
+    "mechanism_uncertainty": "Ligand could act as UGUA-competitor (blocker) OR UGUA-bound conformation stabilizer (activator). Downstream SMN2 minigene splicing assay required for direction."
+  },
+  "_caveats": [
+    "NUDT21 -> SMN2 link is indirect (APA -> SRSF/SRPK dosage -> SMN2 splicing).",
+    "Direction (competitive vs stabilizer) not determinable from docking alone.",
+    "Pleiotropic APA effects - selective NUDT21 modulator still shifts hundreds of 3'UTRs.",
+    "No co-crystal small-molecule reference; Z-score is primary selectivity metric."
+  ]
+}

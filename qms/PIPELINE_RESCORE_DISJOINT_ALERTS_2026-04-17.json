@@ -1,0 +1,72 @@
+[
+  {
+    "campaign": "atlas_top5_pxm/BPTF",
+    "severity": "RETRACTION_WARNING",
+    "reason": "ZERO_SMA_SCORE_PASS",
+    "pass_rate": 0.0071,
+    "n_pass": 4,
+    "n_compounds": 566,
+    "source_file": "pxm_smiles_master.csv",
+    "note": "No compounds cleared the SMA-Score gate \u2014 library is not SMA-mission-aligned relative to the 15 POS anchors."
+  },
+  {
+    "campaign": "atlas_top5_pxm/LARP1",
+    "severity": "RETRACTION_WARNING",
+    "reason": "ZERO_SMA_SCORE_PASS",
+    "pass_rate": 0.0019,
+    "n_pass": 1,
+    "n_compounds": 523,
+    "source_file": "pxm_smiles_master.csv",
+    "note": "No compounds cleared the SMA-Score gate \u2014 library is not SMA-mission-aligned relative to the 15 POS anchors."
+  },
+  {
+    "campaign": "limk2_activator_alphaC",
+    "severity": "REVIEW_NEEDED",
+    "reason": "DISJOINT_TOP20",
+    "iptm_source": "top_hits.tsv",
+    "overlap_top20": 4,
+    "disjoint_count": 11,
+    "source_file": "pxm_smiles_raw.csv",
+    "n_compounds": 558
+  },
+  {
+    "campaign": "limk2_atp_inhibitor",
+    "severity": "RETRACTION_WARNING",
+    "reason": "ZERO_SMA_SCORE_PASS",
+    "pass_rate": 0.0058,
+    "n_pass": 3,
+    "n_compounds": 515,
+    "source_file": "gen_info.csv",
+    "note": "No compounds cleared the SMA-Score gate \u2014 library is not SMA-mission-aligned relative to the 15 POS anchors."
+  },
+  {
+    "campaign": "mtor_frb_allosteric",
+    "severity": "RETRACTION_WARNING",
+    "reason": "ZERO_SMA_SCORE_PASS",
+    "pass_rate": 0.0053,
+    "n_pass": 3,
+    "n_compounds": 569,
+    "source_file": "gen_info.csv",
+    "note": "No compounds cleared the SMA-Score gate \u2014 library is not SMA-mission-aligned relative to the 15 POS anchors."
+  },
+  {
+    "campaign": "nrf2_keap1_campaign",
+    "severity": "RETRACTION_WARNING",
+    "reason": "ZERO_SMA_SCORE_PASS",
+    "pass_rate": 0.0088,
+    "n_pass": 5,
+    "n_compounds": 567,
+    "source_file": "master_library_combined.csv",
+    "note": "No compounds cleared the SMA-Score gate \u2014 library is not SMA-mission-aligned relative to the 15 POS anchors."
+  },
+  {
+    "campaign": "rock2_activator_alphaC",
+    "severity": "RETRACTION_WARNING",
+    "reason": "ZERO_SMA_SCORE_PASS",
+    "pass_rate": 0.0,
+    "n_pass": 0,
+    "n_compounds": 241,
+    "source_file": "pxm_smiles_raw.csv",
+    "note": "No compounds cleared the SMA-Score gate \u2014 library is not SMA-mission-aligned relative to the 15 POS anchors."
+  }
+]

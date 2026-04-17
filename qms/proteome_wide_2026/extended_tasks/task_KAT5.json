@@ -1,0 +1,19 @@
+{
+  "id": "pocketxmol_kat5_sma_atlas_ext",
+  "type": "pocketxmol",
+  "target": "KAT5_SMA_ATLAS_EXT",
+  "uniprot": "Q92993",
+  "pdb_id": "2OU2",
+  "pocket_center": [
+    27.46,
+    24.07,
+    10.28
+  ],
+  "pocket_radius": 10.0,
+  "n_molecules": 600,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 2,
+  "status": "queued",
+  "_notes": "KAT5/TIP60 MYST HAT acetyl-CoA pocket. TITLE-verified 2026-04-17 (see TITLE_AUDIT_extended.md). Atlas extended campaign ranks 6-25 Phase-3."
+}

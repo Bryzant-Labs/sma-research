@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    28:
+HEADER 0  - Pocket Score                      : -0.1580
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0099
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5515
+HEADER 5  - Mean B-factor of pocket residues  : 0.4219
+HEADER 6  - Hydrophobicity Score              : 44.6667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 192.1330
+HEADER 10  -Pocket volume (convex hull)       : 2.3338
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.7222
+ATOM   2905  CD1 LEU B 180      -3.990  24.297  13.289  0.00  0.00           C 0
+ATOM     45  CD2 LEU A   6     -10.875  22.688  12.859  0.00  0.00           C 0
+ATOM   2871  CE2 TYR B 176      -5.750  21.219  11.961  0.00  0.00           C 0
+ATOM   2872   OH TYR B 176      -4.734  20.906  14.102  0.89  3.21           O 0
+ATOM   2894   CB ASP B 179      -8.117  26.766  10.188  0.00  0.00           C 0
+ATOM   2904   CG LEU B 180      -4.102  25.562  14.117  0.00  0.00           C 0
+ATOM   1375  OE1 GLU A 177      -6.223  22.453  17.969  0.00  0.00           O 0
+ATOM   2895    O ASP B 179      -7.453  28.922  12.562  0.00  0.00           O 0
+ATOM   2900   CA LEU B 180      -5.086  27.766  13.148  0.00  0.00           C 0
+ATOM   1408  CD2 LEU A 181      -4.453  27.812  18.438  0.00  0.00           C 0
+ATOM   2903    O LEU B 180      -4.691  29.641  14.586  0.27  9.64           O 0
+ATOM   2893    C ASP B 179      -6.832  28.297  11.703  0.00  0.00           C 0
+ATOM   2899    N LEU B 180      -5.719  27.703  11.836  0.00  0.00           N 0
+TER
+END

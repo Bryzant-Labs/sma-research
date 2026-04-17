@@ -1,0 +1,798 @@
+[
+  {
+    "rank": 1,
+    "ecl": "ECL1",
+    "design_id": "H1a_38_s7",
+    "hotspot": "H1a",
+    "length": 85,
+    "plddt": 0.802,
+    "iptm_target": 0.573,
+    "delta_iptm": 0.438,
+    "pdb": "/home/bryza/gpu-fleet/campaigns/perp_interactome_v6e8/binders/ecl1/H1a/H1a_38_s7_target.pdb",
+    "sasa": {
+      "complex_sasa_A": 10483.588279357471,
+      "complex_sasa_B": 4718.0373252148,
+      "alone_sasa_A": 11067.592371183466,
+      "alone_sasa_B": 5227.405896652707,
+      "buried_A": 584.0040918259947,
+      "buried_B": 509.3685714379071,
+      "interface_area_A2": 546.6863316319509
+    },
+    "contacts": {
+      "heavy_atom_contacts": 93,
+      "interface_residues_A": 11,
+      "interface_residues_B": 16,
+      "iface_res_A_list": [
+        1,
+        99,
+        102,
+        103,
+        177,
+        178,
+        179,
+        180,
+        181,
+        183,
+        193
+      ],
+      "iface_res_B_list": [
+        8,
+        12,
+        15,
+        16,
+        18,
+        19,
+        20,
+        22,
+        23,
+        27,
+        60,
+        63,
+        71,
+        74,
+        75,
+        78
+      ]
+    },
+    "salt_bridges": {
+      "salt_bridges": 6,
+      "details": [
+        "A:ARG187-B:GLU15(4.80A)",
+        "A:GLU177-B:ARG19(4.99A)",
+        "A:GLU177-B:ARG19(4.94A)",
+        "A:GLU177-B:ARG19(4.15A)",
+        "A:GLU177-B:ARG19(4.89A)",
+        "A:ASP179-B:ARG27(4.05A)"
+      ]
+    },
+    "hbonds": {
+      "hbonds": 2
+    }
+  },
+  {
+    "rank": 2,
+    "ecl": "ECL1",
+    "design_id": "H1c_25_s4",
+    "hotspot": "H1c",
+    "length": 84,
+    "plddt": 0.804,
+    "iptm_target": 0.522,
+    "delta_iptm": 0.415,
+    "pdb": "/home/bryza/gpu-fleet/campaigns/perp_interactome_v6e8/binders/ecl1/H1c/H1c_25_s4_target.pdb",
+    "sasa": {
+      "complex_sasa_A": 10901.812110216231,
+      "complex_sasa_B": 5148.148892409262,
+      "alone_sasa_A": 11275.632042190622,
+      "alone_sasa_B": 5451.001339613302,
+      "buried_A": 373.8199319743908,
+      "buried_B": 302.8524472040399,
+      "interface_area_A2": 338.33618958921534
+    },
+    "contacts": {
+      "heavy_atom_contacts": 96,
+      "interface_residues_A": 6,
+      "interface_residues_B": 10,
+      "iface_res_A_list": [
+        3,
+        179,
+        180,
+        181,
+        182,
+        193
+      ],
+      "iface_res_B_list": [
+        4,
+        6,
+        7,
+        10,
+        11,
+        14,
+        73,
+        76,
+        77,
+        80
+      ]
+    },
+    "salt_bridges": {
+      "salt_bridges": 3,
+      "details": [
+        "A:LYS185-B:ASP7(4.77A)",
+        "A:ASP179-B:ARG80(4.23A)",
+        "A:ASP179-B:ARG80(4.89A)"
+      ]
+    },
+    "hbonds": {
+      "hbonds": 0
+    }
+  },
+  {
+    "rank": 3,
+    "ecl": "ECL1",
+    "design_id": "H1c_25_s5",
+    "hotspot": "H1c",
+    "length": 84,
+    "plddt": 0.825,
+    "iptm_target": 0.492,
+    "delta_iptm": 0.373,
+    "pdb": "/home/bryza/gpu-fleet/campaigns/perp_interactome_v6e8/binders/ecl1/H1c/H1c_25_s5_target.pdb",
+    "sasa": {
+      "complex_sasa_A": 9455.150551818651,
+      "complex_sasa_B": 2985.572076926569,
+      "alone_sasa_A": 11290.456137215042,
+      "alone_sasa_B": 4833.696164597326,
+      "buried_A": 1835.3055853963906,
+      "buried_B": 1848.124087670757,
+      "interface_area_A2": 1841.7148365335738
+    },
+    "contacts": {
+      "heavy_atom_contacts": 612,
+      "interface_residues_A": 44,
+      "interface_residues_B": 46,
+      "iface_res_A_list": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        16,
+        19,
+        20,
+        22,
+        23,
+        26,
+        29,
+        30,
+        33,
+        36,
+        37,
+        40,
+        41,
+        44,
+        45,
+        47,
+        48,
+        49,
+        52,
+        56,
+        57,
+        59,
+        60,
+        61,
+        62,
+        75,
+        78,
+        81,
+        82,
+        85,
+        88,
+        153,
+        156,
+        157,
+        160,
+        163,
+        164,
+        191
+      ],
+      "iface_res_B_list": [
+        3,
+        6,
+        7,
+        8,
+        10,
+        11,
+        14,
+        15,
+        18,
+        19,
+        21,
+        22,
+        25,
+        26,
+        28,
+        29,
+        32,
+        33,
+        35,
+        36,
+        39,
+        42,
+        44,
+        45,
+        47,
+        48,
+        49,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        58,
+        59,
+        60,
+        62,
+        66,
+        67,
+        69,
+        70,
+        72,
+        73,
+        76,
+        77,
+        80
+      ]
+    },
+    "salt_bridges": {
+      "salt_bridges": 20,
+      "details": [
+        "A:ARG33-B:GLU21(2.95A)",
+        "A:ARG33-B:GLU21(2.95A)",
+        "A:ARG33-B:GLU21(4.90A)",
+        "A:ARG33-B:GLU21(4.28A)",
+        "A:ASP26-B:ARG54(2.79A)",
+        "A:ASP26-B:ARG54(4.56A)",
+        "A:ASP26-B:ARG54(4.36A)",
+        "A:ASP26-B:ARG54(2.35A)",
+        "A:ASP26-B:ARG54(2.98A)",
+        "A:ASP40-B:ARG18(2.22A)",
+        "A:ASP40-B:ARG18(4.08A)",
+        "A:ASP40-B:ARG18(4.27A)",
+        "A:ASP40-B:ARG18(3.00A)",
+        "A:ASP40-B:ARG18(4.78A)",
+        "A:ASP40-B:ARG18(3.99A)",
+        "A:GLU62-B:ARG69(4.65A)",
+        "A:GLU62-B:ARG69(4.75A)",
+        "A:GLU62-B:ARG69(3.58A)",
+        "A:GLU62-B:ARG69(4.26A)",
+        "A:GLU62-B:ARG69(2.81A)"
+      ]
+    },
+    "hbonds": {
+      "hbonds": 13
+    }
+  },
+  {
+    "rank": 4,
+    "ecl": "ECL1",
+    "design_id": "H1b_14_s6",
+    "hotspot": "H1b",
+    "length": 72,
+    "plddt": 0.796,
+    "iptm_target": 0.448,
+    "delta_iptm": 0.36,
+    "pdb": "/home/bryza/gpu-fleet/campaigns/perp_interactome_v6e8/binders/ecl1/H1b/H1b_14_s6_target.pdb",
+    "sasa": {
+      "complex_sasa_A": 10545.194396073171,
+      "complex_sasa_B": 4440.718348232002,
+      "alone_sasa_A": 11088.207979698407,
+      "alone_sasa_B": 4940.339286515317,
+      "buried_A": 543.0135836252357,
+      "buried_B": 499.6209382833149,
+      "interface_area_A2": 521.3172609542753
+    },
+    "contacts": {
+      "heavy_atom_contacts": 107,
+      "interface_residues_A": 9,
+      "interface_residues_B": 14,
+      "iface_res_A_list": [
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        185,
+        190,
+        193
+      ],
+      "iface_res_B_list": [
+        4,
+        7,
+        8,
+        11,
+        34,
+        36,
+        37,
+        38,
+        40,
+        41,
+        44,
+        46,
+        50,
+        54
+      ]
+    },
+    "salt_bridges": {
+      "salt_bridges": 6,
+      "details": [
+        "A:ASP178-B:ARG7(3.76A)",
+        "A:ASP178-B:ARG7(4.87A)",
+        "A:ASP179-B:ARG44(4.85A)",
+        "A:ASP179-B:ARG44(2.75A)",
+        "A:ASP179-B:ARG44(3.39A)",
+        "A:ASP179-B:ARG44(4.79A)"
+      ]
+    },
+    "hbonds": {
+      "hbonds": 4
+    }
+  },
+  {
+    "rank": 5,
+    "ecl": "ECL1",
+    "design_id": "H1b_10_s3",
+    "hotspot": "H1b",
+    "length": 85,
+    "plddt": 0.798,
+    "iptm_target": 0.351,
+    "delta_iptm": 0.26,
+    "pdb": "/home/bryza/gpu-fleet/campaigns/perp_interactome_v6e8/binders/ecl1/H1b/H1b_10_s3_target.pdb",
+    "sasa": {
+      "complex_sasa_A": 10563.772003168253,
+      "complex_sasa_B": 4731.77264475645,
+      "alone_sasa_A": 11464.08846972792,
+      "alone_sasa_B": 5615.677607222952,
+      "buried_A": 900.3164665596669,
+      "buried_B": 883.9049624665022,
+      "interface_area_A2": 892.1107145130845
+    },
+    "contacts": {
+      "heavy_atom_contacts": 322,
+      "interface_residues_A": 22,
+      "interface_residues_B": 22,
+      "iface_res_A_list": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        61,
+        136,
+        139,
+        140,
+        141,
+        142,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        151,
+        152,
+        153,
+        155,
+        156
+      ],
+      "iface_res_B_list": [
+        10,
+        13,
+        14,
+        17,
+        18,
+        20,
+        21,
+        24,
+        25,
+        28,
+        32,
+        53,
+        57,
+        60,
+        61,
+        64,
+        65,
+        67,
+        68,
+        71,
+        72,
+        75
+      ]
+    },
+    "salt_bridges": {
+      "salt_bridges": 3,
+      "details": [
+        "A:HIS140-B:GLU64(4.73A)",
+        "A:HIS140-B:GLU64(3.84A)",
+        "A:HIS140-B:GLU64(2.79A)"
+      ]
+    },
+    "hbonds": {
+      "hbonds": 11
+    }
+  },
+  {
+    "rank": 1,
+    "ecl": "ECL2",
+    "design_id": "H2b_9_s2",
+    "hotspot": "H2b",
+    "length": 87,
+    "plddt": 0.794,
+    "iptm_target": 0.596,
+    "delta_iptm": 0.468,
+    "pdb": "/home/bryza/gpu-fleet/campaigns/perp_interactome_v6e8/binders/ecl2/H2b/H2b_9_s2_target.pdb",
+    "sasa": {
+      "complex_sasa_A": 10596.693016478996,
+      "complex_sasa_B": 5452.119482704195,
+      "alone_sasa_A": 11231.153624728504,
+      "alone_sasa_B": 5987.485638129242,
+      "buried_A": 634.4606082495084,
+      "buried_B": 535.3661554250466,
+      "interface_area_A2": 584.9133818372775
+    },
+    "contacts": {
+      "heavy_atom_contacts": 126,
+      "interface_residues_A": 10,
+      "interface_residues_B": 17,
+      "iface_res_A_list": [
+        179,
+        180,
+        181,
+        183,
+        185,
+        188,
+        189,
+        190,
+        192,
+        193
+      ],
+      "iface_res_B_list": [
+        13,
+        16,
+        17,
+        20,
+        21,
+        24,
+        64,
+        67,
+        68,
+        71,
+        72,
+        74,
+        75,
+        76,
+        78,
+        79,
+        82
+      ]
+    },
+    "salt_bridges": {
+      "salt_bridges": 3,
+      "details": [
+        "A:LYS185-B:GLU75(3.69A)",
+        "A:LYS185-B:GLU82(3.18A)",
+        "A:LYS185-B:GLU82(3.02A)"
+      ]
+    },
+    "hbonds": {
+      "hbonds": 5
+    }
+  },
+  {
+    "rank": 2,
+    "ecl": "ECL2",
+    "design_id": "H2c_11_s1",
+    "hotspot": "H2c",
+    "length": 81,
+    "plddt": 0.797,
+    "iptm_target": 0.528,
+    "delta_iptm": 0.433,
+    "pdb": "/home/bryza/gpu-fleet/campaigns/perp_interactome_v6e8/binders/ecl2/H2c/H2c_11_s1_target.pdb",
+    "sasa": {
+      "complex_sasa_A": 9945.815990685414,
+      "complex_sasa_B": 4840.882067703959,
+      "alone_sasa_A": 10646.9174194709,
+      "alone_sasa_B": 5455.841013361641,
+      "buried_A": 701.101428785485,
+      "buried_B": 614.9589456576814,
+      "interface_area_A2": 658.0301872215832
+    },
+    "contacts": {
+      "heavy_atom_contacts": 164,
+      "interface_residues_A": 14,
+      "interface_residues_B": 19,
+      "iface_res_A_list": [
+        177,
+        178,
+        179,
+        180,
+        181,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193
+      ],
+      "iface_res_B_list": [
+        11,
+        12,
+        15,
+        18,
+        19,
+        22,
+        26,
+        29,
+        30,
+        33,
+        45,
+        48,
+        49,
+        52,
+        56,
+        59,
+        62,
+        63,
+        66
+      ]
+    },
+    "salt_bridges": {
+      "salt_bridges": 8,
+      "details": [
+        "A:LYS185-B:GLU22(4.78A)",
+        "A:ARG187-B:GLU22(4.37A)",
+        "A:ARG187-B:GLU59(4.70A)",
+        "A:ARG187-B:GLU59(4.25A)",
+        "A:ARG187-B:GLU59(4.33A)",
+        "A:ARG187-B:GLU22(3.99A)",
+        "A:GLU177-B:ARG52(4.78A)",
+        "A:GLU177-B:ARG52(4.14A)"
+      ]
+    },
+    "hbonds": {
+      "hbonds": 5
+    }
+  },
+  {
+    "rank": 3,
+    "ecl": "ECL2",
+    "design_id": "H2b_3_s4",
+    "hotspot": "H2b",
+    "length": 75,
+    "plddt": 0.799,
+    "iptm_target": 0.561,
+    "delta_iptm": 0.366,
+    "pdb": "/home/bryza/gpu-fleet/campaigns/perp_interactome_v6e8/binders/ecl2/H2b/H2b_3_s4_target.pdb",
+    "sasa": {
+      "complex_sasa_A": 10920.6770473754,
+      "complex_sasa_B": 5449.635299729294,
+      "alone_sasa_A": 11290.926823192765,
+      "alone_sasa_B": 5744.683666357069,
+      "buried_A": 370.24977581736493,
+      "buried_B": 295.04836662777507,
+      "interface_area_A2": 332.64907122257
+    },
+    "contacts": {
+      "heavy_atom_contacts": 74,
+      "interface_residues_A": 6,
+      "interface_residues_B": 9,
+      "iface_res_A_list": [
+        179,
+        180,
+        181,
+        182,
+        183,
+        185
+      ],
+      "iface_res_B_list": [
+        14,
+        17,
+        18,
+        21,
+        22,
+        25,
+        56,
+        60,
+        63
+      ]
+    },
+    "salt_bridges": {
+      "salt_bridges": 3,
+      "details": [
+        "A:LYS185-B:GLU18(3.63A)",
+        "A:LYS185-B:GLU18(4.56A)",
+        "A:ASP179-B:LYS14(3.98A)"
+      ]
+    },
+    "hbonds": {
+      "hbonds": 1
+    }
+  },
+  {
+    "rank": 4,
+    "ecl": "ECL2",
+    "design_id": "H2a_1_s5",
+    "hotspot": "H2a",
+    "length": 83,
+    "plddt": 0.796,
+    "iptm_target": 0.415,
+    "delta_iptm": 0.328,
+    "pdb": "/home/bryza/gpu-fleet/campaigns/perp_interactome_v6e8/binders/ecl2/H2a/H2a_1_s5_target.pdb",
+    "sasa": {
+      "complex_sasa_A": 10791.01765006668,
+      "complex_sasa_B": 5104.835653963252,
+      "alone_sasa_A": 11802.80712308996,
+      "alone_sasa_B": 6005.711525077187,
+      "buried_A": 1011.7894730232802,
+      "buried_B": 900.8758711139344,
+      "interface_area_A2": 956.3326720686073
+    },
+    "contacts": {
+      "heavy_atom_contacts": 195,
+      "interface_residues_A": 18,
+      "interface_residues_B": 24,
+      "iface_res_A_list": [
+        6,
+        101,
+        102,
+        105,
+        106,
+        109,
+        175,
+        176,
+        177,
+        179,
+        180,
+        181,
+        183,
+        184,
+        187,
+        188,
+        191,
+        192
+      ],
+      "iface_res_B_list": [
+        2,
+        3,
+        6,
+        7,
+        10,
+        13,
+        14,
+        21,
+        22,
+        25,
+        28,
+        32,
+        36,
+        39,
+        40,
+        43,
+        46,
+        47,
+        50,
+        51,
+        53,
+        54,
+        55,
+        56
+      ]
+    },
+    "salt_bridges": {
+      "salt_bridges": 8,
+      "details": [
+        "A:ARG187-B:GLU25(2.86A)",
+        "A:ARG187-B:GLU25(4.49A)",
+        "A:ARG187-B:GLU25(3.90A)",
+        "A:ARG187-B:GLU25(4.93A)",
+        "A:ARG187-B:GLU25(3.80A)",
+        "A:ARG187-B:GLU25(4.34A)",
+        "A:ASP179-B:LYS14(4.19A)",
+        "A:ASP179-B:LYS14(4.00A)"
+      ]
+    },
+    "hbonds": {
+      "hbonds": 4
+    }
+  },
+  {
+    "rank": 5,
+    "ecl": "ECL2",
+    "design_id": "H2c_26_s4",
+    "hotspot": "H2c",
+    "length": 68,
+    "plddt": 0.799,
+    "iptm_target": 0.385,
+    "delta_iptm": 0.291,
+    "pdb": "/home/bryza/gpu-fleet/campaigns/perp_interactome_v6e8/binders/ecl2/H2c/H2c_26_s4_target.pdb",
+    "sasa": {
+      "complex_sasa_A": 10173.78782300891,
+      "complex_sasa_B": 4481.730043333621,
+      "alone_sasa_A": 10941.626380994758,
+      "alone_sasa_B": 5162.702559138059,
+      "buried_A": 767.8385579858477,
+      "buried_B": 680.9725158044375,
+      "interface_area_A2": 724.4055368951426
+    },
+    "contacts": {
+      "heavy_atom_contacts": 129,
+      "interface_residues_A": 12,
+      "interface_residues_B": 21,
+      "iface_res_A_list": [
+        1,
+        2,
+        3,
+        6,
+        9,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        193
+      ],
+      "iface_res_B_list": [
+        1,
+        6,
+        9,
+        10,
+        13,
+        17,
+        20,
+        23,
+        24,
+        27,
+        39,
+        42,
+        43,
+        46,
+        49,
+        50,
+        53,
+        56,
+        57,
+        60,
+        64
+      ]
+    },
+    "salt_bridges": {
+      "salt_bridges": 16,
+      "details": [
+        "A:ARG3-B:GLU20(4.66A)",
+        "A:ARG3-B:GLU27(4.95A)",
+        "A:ARG3-B:GLU27(3.59A)",
+        "A:ARG3-B:GLU20(4.28A)",
+        "A:ARG3-B:GLU27(4.39A)",
+        "A:ARG3-B:GLU27(3.08A)",
+        "A:ARG3-B:GLU20(3.18A)",
+        "A:ARG3-B:GLU20(4.73A)",
+        "A:ARG3-B:GLU27(4.53A)",
+        "A:ARG3-B:GLU27(4.08A)",
+        "A:GLU9-B:LYS39(4.21A)",
+        "A:GLU9-B:LYS39(3.13A)",
+        "A:ASP178-B:ARG9(4.07A)",
+        "A:ASP178-B:ARG9(3.09A)",
+        "A:ASP178-B:ARG9(4.54A)",
+        "A:ASP178-B:ARG9(4.53A)"
+      ]
+    },
+    "hbonds": {
+      "hbonds": 7
+    }
+  }
+]

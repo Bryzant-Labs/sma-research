@@ -1,0 +1,2 @@
+/home/bryza/sma-research/qms/proteome_wide_2026/build_final_report.py:132: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")

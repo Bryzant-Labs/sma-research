@@ -1,0 +1,41 @@
+{
+  "OpenAI GPT-4o": {
+    "verdict": "PASS",
+    "blocking_issues": [],
+    "non_blocking_suggestions": [
+      "Consider adding more detail on the methodology used for the dataset discovery audit to enhance transparency.",
+      "Include a brief explanation of why certain datasets were rejected to provide more context for the decision-making process."
+    ],
+    "dataset_identity": "OK",
+    "effect_size_plausibility": "OK",
+    "citation_traceability": "OK",
+    "narrative_consistency": "OK",
+    "risk_flags": "OK"
+  },
+  "Groq Llama-3.3-70B": {
+    "verdict": "PASS",
+    "blocking_issues": [],
+    "non_blocking_suggestions": [
+      "Consider adding more details on the cerebellar cell-type marker panel curation process",
+      "Provide more context on the Budapest 2026 priority and its relevance to the study"
+    ],
+    "dataset_identity": "OK",
+    "effect_size_plausibility": "OK",
+    "citation_traceability": "OK",
+    "narrative_consistency": "OK",
+    "risk_flags": "OK"
+  },
+  "Gemini 2.0 Flash": {
+    "verdict": "PASS",
+    "blocking_issues": [],
+    "non_blocking_suggestions": [
+      "Consider adding a brief discussion of potential confounders in the negative result, such as the possibility that SMA-related changes in the cerebellum are subtle and require more sensitive methods than bulk RNA-seq, or that the relevant changes occur at a different developmental stage than those typically studied.",
+      "In the 'Druggability + novelty shortlist' section, consider adding a brief explanation of how the PubMed counts are used to assess novelty and druggability. For example, mention that low PubMed counts for a gene in combination with SMA suggest a novel target, while higher counts in combination with other diseases might indicate druggability based on existing research."
+    ],
+    "dataset_identity": "OK",
+    "effect_size_plausibility": "OK",
+    "citation_traceability": "OK",
+    "narrative_consistency": "OK",
+    "risk_flags": "OK"
+  }
+}

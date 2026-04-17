@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0032
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0638
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6853
+HEADER 5  - Mean B-factor of pocket residues  : 0.7454
+HEADER 6  - Hydrophobicity Score              : 17.3333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 326.2915
+HEADER 10  -Pocket volume (convex hull)       : 9.3265
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.8571
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3684
+ATOM   1025   CB THR A 134      10.203 -20.562   3.576  0.00  0.00           C 0
+ATOM   1080  NE2 HIS A 140      14.188 -20.719   1.739  0.00  0.00           N 0
+ATOM   1027  CG2 THR A 134      11.359 -21.141   2.764  0.00  0.00           C 0
+ATOM   1028  OG1 THR A 134       9.531 -19.562   2.795  0.00  0.00           O 0
+ATOM   1077  CD2 HIS A 140      14.242 -22.078   1.917  0.00  0.00           C 0
+ATOM   1034   CG GLN A 135      12.117 -21.812   8.305  0.00  0.00           C 0
+ATOM   1030   CA GLN A 135      10.703 -23.469   6.957  0.00  0.00           C 0
+ATOM   1036  NE2 GLN A 135      13.367 -20.312   9.742  0.54  6.56           N 0
+ATOM    991    O PRO A 130       8.367 -17.969   4.707  0.74  1.07           O 0
+ATOM   1150   OH TYR A 149       7.797 -15.312   1.859  0.57  4.29           O 0
+ATOM   1000  CG2 VAL A 131      10.750 -15.047   7.648  0.00  0.00           C 0
+ATOM    989    C PRO A 130       7.930 -16.953   5.258  0.00  0.00           C 0
+ATOM    990   CB PRO A 130       7.297 -14.930   3.898  0.00  0.00           C 0
+ATOM    994    N VAL A 131       8.445 -16.578   6.398  0.00  0.00           N 0
+ATOM    995   CA VAL A 131       9.609 -17.203   7.012  0.00  0.00           C 0
+ATOM    998    O VAL A 131       9.906 -19.594   7.176  0.53  1.07           O 0
+ATOM    999  CG1 VAL A 131      11.234 -17.141   8.945  0.00  0.00           C 0
+TER
+END

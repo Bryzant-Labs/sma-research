@@ -1,0 +1,196 @@
+[triage-FL] output dir: /home/bryza/sma-research/qms/mdm2_fulllength_triage
+[triage-FL] N_REPLICAS=2 endpoints=['http://localhost:8003/predict', 'http://localhost:8004/predict']
+[triage-FL] MDM2 length=491 (expect 491) — N-term (17, 125) RING (430, 491)
+[triage-FL] loaded 40 compounds from a31633bf
+
+=== STEP 1: baseline MDM2-FL + TP53 (no ligand) ===
+[baseline rep1] iptm=0.3044 err=None t=54.7s
+[baseline rep0] iptm=0.2145 err=None t=147.0s
+[baseline] mean_iptm=0.2594 sd=0.0636
+
+--- 1/40 V1_rank1 (V1) ---
+  [V1_rank1 rep1] iptm=0.5405 n_term=67 ring=0 sel=0.0 err=None t=94.9s
+  [V1_rank1 rep0] iptm=0.5797 n_term=69 ring=0 sel=0.0 err=None t=109.2s
+  [V1_rank1] iptm=0.5601 drop=-0.3007 sel=0.0 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 2/40 V1_rank2 (V1) ---
+  [V1_rank2 rep0] iptm=0.0000 n_term=- ring=- sel=- err=ERR(http://localhost:8003/predict): [Errno 104] Connection reset by peer t=5.7s
+  [V1_rank2 rep1] iptm=0.6009 n_term=51 ring=17 sel=0.25 err=None t=70.5s
+  [V1_rank2] iptm=0.6009 drop=-0.3415 sel=0.25 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 3/40 V1_rank3 (V1) ---
+  [V1_rank3 rep0] iptm=0.4172 n_term=70 ring=8 sel=0.103 err=None t=33.2s
+  [V1_rank3 rep1] iptm=0.2636 n_term=61 ring=25 sel=0.291 err=None t=154.5s
+  [V1_rank3] iptm=0.3404 drop=-0.0810 sel=0.201 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 4/40 V1_rank4 (V1) ---
+  [V1_rank4 rep0] iptm=0.3841 n_term=57 ring=0 sel=0.0 err=None t=41.0s
+  [V1_rank4 rep1] iptm=0.4005 n_term=44 ring=0 sel=0.0 err=None t=82.0s
+  [V1_rank4] iptm=0.3923 drop=-0.1329 sel=0.0 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 5/40 V1_rank5 (V1) ---
+  [V1_rank5 rep0] iptm=0.4818 n_term=58 ring=6 sel=0.094 err=None t=43.1s
+  [V1_rank5 rep1] iptm=0.4841 n_term=51 ring=14 sel=0.215 err=None t=75.1s
+  [V1_rank5] iptm=0.4830 drop=-0.2236 sel=0.155 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 6/40 V1_rank6 (V1) ---
+  [V1_rank6 rep0] iptm=0.4997 n_term=63 ring=4 sel=0.06 err=None t=49.7s
+[triage-FL] output dir: /home/bryza/sma-research/qms/mdm2_fulllength_triage
+[triage-FL] N_REPLICAS=1 endpoints=['http://localhost:8004/predict', 'http://localhost:8004/predict']
+[triage-FL] MDM2 length=491 (expect 491) — N-term (17, 125) RING (430, 491)
+[triage-FL] loaded 40 compounds from a31633bf
+[triage-FL] RESUME from checkpoint: 5 compounds already done, baseline_iptm=0.25944097340106964
+
+--- 1/40 V1_rank1 (SKIP — already in checkpoint) ---
+
+--- 2/40 V1_rank2 (SKIP — already in checkpoint) ---
+
+--- 3/40 V1_rank3 (SKIP — already in checkpoint) ---
+
+--- 4/40 V1_rank4 (SKIP — already in checkpoint) ---
+
+--- 5/40 V1_rank5 (SKIP — already in checkpoint) ---
+
+--- 6/40 V1_rank6 (V1) ---
+  [V1_rank6 rep0] iptm=0.4906 n_term=43 ring=22 sel=0.338 err=None t=35.9s
+  [V1_rank6] iptm=0.4906 drop=-0.2312 sel=0.338 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 7/40 V1_rank7 (V1) ---
+  [V1_rank7 rep0] iptm=0.6115 n_term=47 ring=17 sel=0.266 err=None t=32.9s
+  [V1_rank7] iptm=0.6115 drop=-0.3521 sel=0.266 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 8/40 V1_rank8 (V1) ---
+  [V1_rank8 rep0] iptm=0.5933 n_term=49 ring=3 sel=0.058 err=None t=33.2s
+  [V1_rank8] iptm=0.5933 drop=-0.3339 sel=0.058 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 9/40 V1_rank9 (V1) ---
+  [V1_rank9 rep0] iptm=0.5204 n_term=52 ring=11 sel=0.175 err=None t=36.7s
+  [V1_rank9] iptm=0.5204 drop=-0.2610 sel=0.175 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 10/40 V1_rank10 (V1) ---
+  [V1_rank10 rep0] iptm=0.5551 n_term=64 ring=0 sel=0.0 err=None t=34.3s
+  [V1_rank10] iptm=0.5551 drop=-0.2957 sel=0.0 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 11/40 V1_rank11 (V1) ---
+  [V1_rank11 rep0] iptm=0.6813 n_term=62 ring=5 sel=0.075 err=None t=34.2s
+  [V1_rank11] iptm=0.6813 drop=-0.4219 sel=0.075 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 12/40 V1_rank12 (V1) ---
+  [V1_rank12 rep0] iptm=0.6286 n_term=78 ring=0 sel=0.0 err=None t=33.7s
+  [V1_rank12] iptm=0.6286 drop=-0.3692 sel=0.0 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 13/40 V1_rank13 (V1) ---
+  [V1_rank13 rep0] iptm=0.3647 n_term=56 ring=20 sel=0.263 err=None t=34.3s
+  [V1_rank13] iptm=0.3647 drop=-0.1053 sel=0.263 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 14/40 V1_rank14 (V1) ---
+  [V1_rank14 rep0] iptm=0.5098 n_term=47 ring=21 sel=0.309 err=None t=34.2s
+  [V1_rank14] iptm=0.5098 drop=-0.2504 sel=0.309 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 15/40 V1_rank15 (V1) ---
+  [V1_rank15 rep0] iptm=0.4701 n_term=47 ring=15 sel=0.242 err=None t=36.9s
+  [V1_rank15] iptm=0.4701 drop=-0.2107 sel=0.242 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 16/40 V1_rank16 (V1) ---
+  [V1_rank16 rep0] iptm=0.4847 n_term=55 ring=2 sel=0.035 err=None t=34.4s
+  [V1_rank16] iptm=0.4847 drop=-0.2253 sel=0.035 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 17/40 V1_rank17 (V1) ---
+  [V1_rank17 rep0] iptm=0.4064 n_term=46 ring=1 sel=0.021 err=None t=34.7s
+  [V1_rank17] iptm=0.4064 drop=-0.1470 sel=0.021 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 18/40 V1_rank18 (V1) ---
+  [V1_rank18 rep0] iptm=0.6184 n_term=59 ring=0 sel=0.0 err=None t=34.1s
+  [V1_rank18] iptm=0.6184 drop=-0.3590 sel=0.0 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 19/40 V1_rank19 (V1) ---
+  [V1_rank19 rep0] iptm=0.5298 n_term=51 ring=0 sel=0.0 err=None t=33.1s
+  [V1_rank19] iptm=0.5298 drop=-0.2704 sel=0.0 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 20/40 V1_rank20 (V1) ---
+  [V1_rank20 rep0] iptm=0.5967 n_term=53 ring=1 sel=0.019 err=None t=33.7s
+  [V1_rank20] iptm=0.5967 drop=-0.3373 sel=0.019 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 21/40 V2_97-incomp.sdf (V2) ---
+  [V2_97-incomp.sdf rep0] iptm=0.4061 n_term=34 ring=0 sel=0.0 err=None t=36.7s
+  [V2_97-incomp.sdf] iptm=0.4061 drop=-0.1467 sel=0.0 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 22/40 V2_115-incomp.sdf (V2) ---
+  [V2_115-incomp.sdf rep0] iptm=0.5414 n_term=46 ring=34 sel=0.425 err=None t=33.8s
+  [V2_115-incomp.sdf] iptm=0.5414 drop=-0.2820 sel=0.425 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 23/40 V2_227-incomp.sdf (V2) ---
+  [V2_227-incomp.sdf rep0] iptm=0.4749 n_term=47 ring=0 sel=0.0 err=None t=34.6s
+  [V2_227-incomp.sdf] iptm=0.4749 drop=-0.2155 sel=0.0 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 24/40 V2_320.sdf (V2) ---
+  [V2_320.sdf rep0] iptm=0.5921 n_term=73 ring=16 sel=0.18 err=None t=33.2s
+  [V2_320.sdf] iptm=0.5921 drop=-0.3327 sel=0.18 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 25/40 V2_358.sdf (V2) ---
+  [V2_358.sdf rep0] iptm=0.5116 n_term=40 ring=0 sel=0.0 err=None t=33.0s
+  [V2_358.sdf] iptm=0.5116 drop=-0.2522 sel=0.0 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 26/40 V2_291.sdf (V2) ---
+  [V2_291.sdf rep0] iptm=0.6345 n_term=56 ring=3 sel=0.051 err=None t=33.3s
+  [V2_291.sdf] iptm=0.6345 drop=-0.3751 sel=0.051 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 27/40 V2_313.sdf (V2) ---
+  [V2_313.sdf rep0] iptm=0.5996 n_term=53 ring=1 sel=0.019 err=None t=33.4s
+  [V2_313.sdf] iptm=0.5996 drop=-0.3402 sel=0.019 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 28/40 V2_407.sdf (V2) ---
+  [V2_407.sdf rep0] iptm=0.5419 n_term=61 ring=14 sel=0.187 err=None t=33.4s
+  [V2_407.sdf] iptm=0.5419 drop=-0.2825 sel=0.187 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 29/40 V2_554.sdf (V2) ---
+  [V2_554.sdf rep0] iptm=0.6013 n_term=67 ring=0 sel=0.0 err=None t=33.0s
+  [V2_554.sdf] iptm=0.6013 drop=-0.3419 sel=0.0 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 30/40 V2_323.sdf (V2) ---
+  [V2_323.sdf rep0] iptm=0.5480 n_term=49 ring=0 sel=0.0 err=None t=36.6s
+  [V2_323.sdf] iptm=0.5480 drop=-0.2886 sel=0.0 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 31/40 V2_64.sdf (V2) ---
+  [V2_64.sdf rep0] iptm=0.2961 n_term=69 ring=0 sel=0.0 err=None t=35.7s
+  [V2_64.sdf] iptm=0.2961 drop=-0.0367 sel=0.0 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 32/40 V2_509.sdf (V2) ---
+  [V2_509.sdf rep0] iptm=0.4113 n_term=57 ring=0 sel=0.0 err=None t=34.5s
+  [V2_509.sdf] iptm=0.4113 drop=-0.1519 sel=0.0 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 33/40 V2_276.sdf (V2) ---
+  [V2_276.sdf rep0] iptm=0.5237 n_term=37 ring=16 sel=0.302 err=None t=33.0s
+  [V2_276.sdf] iptm=0.5237 drop=-0.2643 sel=0.302 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 34/40 V2_403.sdf (V2) ---
+  [V2_403.sdf rep0] iptm=0.4348 n_term=52 ring=11 sel=0.175 err=None t=32.9s
+  [V2_403.sdf] iptm=0.4348 drop=-0.1754 sel=0.175 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 35/40 V2_13.sdf (V2) ---
+  [V2_13.sdf rep0] iptm=0.4548 n_term=58 ring=0 sel=0.0 err=None t=33.7s
+  [V2_13.sdf] iptm=0.4548 drop=-0.1954 sel=0.0 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 36/40 V2_390.sdf (V2) ---
+  [V2_390.sdf rep0] iptm=0.4719 n_term=54 ring=0 sel=0.0 err=None t=37.7s
+  [V2_390.sdf] iptm=0.4719 drop=-0.2125 sel=0.0 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 37/40 V2_385.sdf (V2) ---
+  [V2_385.sdf rep0] iptm=0.3799 n_term=58 ring=9 sel=0.134 err=None t=33.7s
+  [V2_385.sdf] iptm=0.3799 drop=-0.1205 sel=0.134 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 38/40 V2_489.sdf (V2) ---
+  [V2_489.sdf rep0] iptm=0.4889 n_term=69 ring=0 sel=0.0 err=None t=34.1s
+  [V2_489.sdf] iptm=0.4889 drop=-0.2295 sel=0.0 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 39/40 V2_513.sdf (V2) ---
+  [V2_513.sdf rep0] iptm=0.4331 n_term=68 ring=0 sel=0.0 err=None t=34.6s
+  [V2_513.sdf] iptm=0.4331 drop=-0.1737 sel=0.0 cys_block=False => AMBIGUOUS [HIGH]
+
+--- 40/40 V2_389.sdf (V2) ---
+  [V2_389.sdf rep0] iptm=0.4476 n_term=78 ring=12 sel=0.133 err=None t=35.9s
+  [V2_389.sdf] iptm=0.4476 drop=-0.1882 sel=0.133 cys_block=False => AMBIGUOUS [HIGH]
+
+=== SUMMARY ===
+  V1 AMBIGUOUS: 20
+  V2 AMBIGUOUS: 20

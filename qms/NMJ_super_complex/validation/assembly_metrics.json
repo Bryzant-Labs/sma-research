@@ -1,0 +1,55 @@
+{
+  "alignments": [
+    {
+      "what": "CHRNA1->A(7SMQ) for A",
+      "rmsd_A": 1.05342733754227,
+      "pairs": 273
+    },
+    {
+      "what": "CHRNA1->D(7SMQ) for C",
+      "rmsd_A": 1.074051050319058,
+      "pairs": 275
+    },
+    {
+      "what": "CHRNB1->C(7SMQ, beta)",
+      "rmsd_A": 1.2384195916424976,
+      "pairs": 12
+    },
+    {
+      "what": "CHRND->B(7SMQ, delta)",
+      "rmsd_A": 0.6747636638472351,
+      "pairs": 299
+    },
+    {
+      "what": "CHRNE->E(7SMQ, gamma-as-scaffold)",
+      "rmsd_A": 1.1370198871214556,
+      "pairs": 102,
+      "caveat": "7SMQ chain E is Torpedo gamma; using as scaffold for adult CHRNE(\u03b5)"
+    },
+    {
+      "what": "RAPSN translational placement below AChR COM",
+      "rmsd_A": null,
+      "pairs": 0,
+      "caveat": "No experimental AChR-RAPSN complex template exists"
+    },
+    {
+      "what": "LRP4 bprop (404-744)->3V64 chain C",
+      "rmsd_A": 0.4930882235285139,
+      "pairs": 288
+    },
+    {
+      "what": "AGRIN LG3 (1758-1948)->3V64 chain A (post-LRP4-translation)",
+      "rmsd_A": 0.9290210414650565,
+      "pairs": 40
+    },
+    {
+      "what": "MUSK_ecto (24-210)->2IEP chain A",
+      "rmsd_A": 1.6108713139410673,
+      "pairs": 151
+    }
+  ],
+  "total_chains": 13,
+  "total_residues": 8463,
+  "total_atoms": 65228,
+  "out_pdb": "/home/bryza/sma-research/qms/NMJ_super_complex/assembly/nmj_super_complex.pdb"
+}

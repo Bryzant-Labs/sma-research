@@ -1,0 +1,11 @@
+[EP400] total=600 valid=530 passed_filters=326 top100=100
+[PEAK1] total=600 valid=492 passed_filters=76 top100=76
+[KAT7] total=600 valid=533 passed_filters=278 top100=100
+[RNF213] total=600 valid=535 passed_filters=90 top100=90
+[EHMT2] total=600 valid=575 passed_filters=158 top100=100
+[KAT6A] total=600 valid=514 passed_filters=108 top100=100
+[KAT5] total=600 valid=521 passed_filters=212 top100=100
+[KMT5B] total=600 valid=559 passed_filters=339 top100=100
+[EHMT1] total=600 valid=549 passed_filters=244 top100=100
+
+Wrote summary: /home/bryza/sma-research/qms/proteome_wide_2026/cascade_extended_output/cascade_summary.tsv

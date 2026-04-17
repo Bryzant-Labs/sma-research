@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.0906
+HEADER 1  - Drug Score                        : 0.0042
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.6513
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3996
+HEADER 5  - Mean B-factor of pocket residues  : 0.4710
+HEADER 6  - Hydrophobicity Score              : 41.2000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 118.5499
+HEADER 10  -Pocket volume (convex hull)       : 3.9713
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.4800
+ATOM   1400  CD2 LEU A 180       4.039 -17.312 -11.109  0.00  0.00           C 0
+ATOM    753    O ALA A  98       4.324 -16.156 -17.531  0.31  2.14           O 0
+ATOM    771    O GLY A 101       4.191 -13.125 -17.203  0.27  1.07           O 0
+ATOM     92  NH2 ARG A  12       6.668 -14.844 -16.266  0.00  0.00           N 0
+ATOM   1408  CD2 LEU A 181       3.186 -11.398 -13.062  0.00  0.00           C 0
+ATOM   1396   CB LEU A 180       3.047 -15.938  -9.266  0.00  0.00           C 0
+ATOM    803  CD2 LEU A 105      -1.883 -15.664 -12.648  0.00  0.00           C 0
+ATOM   1406   CG LEU A 181       2.260 -11.820 -11.930  0.00  0.00           C 0
+ATOM   1373   CG GLU A 177      -1.411 -13.422 -11.523  0.00  0.00           C 0
+ATOM     90   NE ARG A  12       7.445 -15.984 -14.422  0.47  1.09           N 0
+ATOM   1397    O LEU A 180       5.449 -13.742  -9.180  0.68  2.14           O 0
+ATOM    801   CG LEU A 105      -1.700 -14.641 -13.766  0.00  0.00           C 0
+ATOM    776    O PRO A 102       1.198 -11.273 -15.883  0.58  1.07           O 0
+ATOM    796    N LEU A 105      -1.077 -15.070 -17.016  0.45  1.09           N 0
+ATOM    828  CD1 LEU A 108       0.620 -18.406 -14.188  0.00  0.00           C 0
+ATOM    790    C MET A 104      -0.333 -15.609 -17.922  0.00  0.00           C 0
+ATOM     93   CZ ARG A  12       7.395 -14.875 -15.156  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,550 @@
+{
+  "compounds": [
+    {
+      "id": "1",
+      "smiles": "COc1ccc(O)c(NC(=O)C=Cc2cccc(-c3cnccn3)c2)c1",
+      "filename": "1.sdf"
+    },
+    {
+      "id": "2",
+      "smiles": "CCC[n+]1cc(C(=O)NC2=CC=C=CC2OC)ccc1-c1ccc(C(=N)O)cc1",
+      "filename": "2.sdf"
+    },
+    {
+      "id": "3",
+      "smiles": "COc1cc(OC)c(OC)c(C(=O)N2CCN(C(=O)c3ccncc3)CC2)c1",
+      "filename": "3.sdf"
+    },
+    {
+      "id": "14",
+      "smiles": "COc1cc(C)ccc1C(C)NCC1=CC=[N+]2C1=Nc1c[n+](Cc3cncc[nH+]3)ccc12",
+      "filename": "14.sdf"
+    },
+    {
+      "id": "22",
+      "smiles": "CS(=O)(=O)c1ccc(OCc2ccc(F)c(-c3cccnc3)c2)cc1",
+      "filename": "22.sdf"
+    },
+    {
+      "id": "31",
+      "smiles": "COc1cccc(Nc2nc[nH+]c(-c3cc(C)c(-c4cccc[nH+]4)[nH]3)c2C)c1",
+      "filename": "31.sdf"
+    },
+    {
+      "id": "34",
+      "smiles": "O=C(NCc1cccnc1)c1ccc2c(ccn2-c2ccccc2)c1",
+      "filename": "34.sdf"
+    },
+    {
+      "id": "42",
+      "smiles": "CN=C1N=C2[S+]=C(CNCC(c3ccc(O)cc3)C(C)C)C=C2C(=O)N1C",
+      "filename": "42.sdf"
+    },
+    {
+      "id": "43",
+      "smiles": "CS(=O)(=O)c1ccccc1-c1cccc(Oc2ccc(C(N)=O)cc2)c1",
+      "filename": "43.sdf"
+    },
+    {
+      "id": "45",
+      "smiles": "CNC(=CC(C)=O)c1cc2c(cc1O)Nc1nc3ccccc3nc1C=C2",
+      "filename": "45.sdf"
+    },
+    {
+      "id": "46",
+      "smiles": "O=C(NCc1ccccc1)c1ccc(Cc2cccnc2)nc1",
+      "filename": "46.sdf"
+    },
+    {
+      "id": "50",
+      "smiles": "CC(=O)OCCCNCc1cccc(C(O)=NC=Cc2ccccc2)c1",
+      "filename": "50.sdf"
+    },
+    {
+      "id": "58",
+      "smiles": "Cc1oc(Cc2ccc(F)cc2)nc1-c1cccc(N(C)CC(=O)O)c1",
+      "filename": "58.sdf"
+    },
+    {
+      "id": "65",
+      "smiles": "COC(=O)c1ccccc1C(=O)C=CC(=O)c1ccc(-c2cncnc2)cc1",
+      "filename": "65.sdf"
+    },
+    {
+      "id": "66",
+      "smiles": "CNC1=C=CC(=O)C(O)C1C(N)=Cc1ccc(OCc2ccccc2)cc1",
+      "filename": "66.sdf"
+    },
+    {
+      "id": "68",
+      "smiles": "COc1ccc(-c2ccc(C(=O)c3ccc4nccnc4c3)nc2)cc1OC",
+      "filename": "68.sdf"
+    },
+    {
+      "id": "78",
+      "smiles": "CNc1cn(C)c(=O)c2cc(Cc3cc(Cc4ccn[nH]4)c(F)cc3F)c[nH+]c12",
+      "filename": "78.sdf"
+    },
+    {
+      "id": "82",
+      "smiles": "O=C1c2oc(-c3ccccc3)cc(=O)c2C(=O)N1Cc1cccc2cc(O)ccc12",
+      "filename": "82.sdf"
+    },
+    {
+      "id": "84",
+      "smiles": "CCC(Cn1nccc1C(N)=O)c1ccc(C(=O)c2ccccc2)cc1",
+      "filename": "84.sdf"
+    },
+    {
+      "id": "92",
+      "smiles": "COC(=O)C1CCCN(C(=O)c2ccc(OCCc3ccccn3)cc2)C1",
+      "filename": "92.sdf"
+    },
+    {
+      "id": "102-incomp",
+      "smiles": "CN1CCCCC1=O.Cc1cnc2ccc(C(=O)NCc3ccncc3)cc2c1",
+      "filename": "102-incomp.sdf"
+    },
+    {
+      "id": "109",
+      "smiles": "CC(=O)N(CCO)c1ccc(C(=O)c2cc(F)cc(-c3cnccn3)c2)cc1",
+      "filename": "109.sdf"
+    },
+    {
+      "id": "118",
+      "smiles": "COc1ccc(Oc2cc(-c3cc(=O)n4ccnc4n3C)ccc2F)cc1",
+      "filename": "118.sdf"
+    },
+    {
+      "id": "119",
+      "smiles": "COc1ccc(CN2CCc3c(ccnc3-c3cccnc3)C2=O)cc1",
+      "filename": "119.sdf"
+    },
+    {
+      "id": "122",
+      "smiles": "Cc1ccc2ncc(N3C(=O)c4cc(-c5cnccn5)cnc4C3=O)cc2c1",
+      "filename": "122.sdf"
+    },
+    {
+      "id": "124",
+      "smiles": "CNc1cc(O)cc(CNC(=O)Cc2cccc(-c3cccnc3)c2)c1C",
+      "filename": "124.sdf"
+    },
+    {
+      "id": "125",
+      "smiles": "C=C(C)C1=C(OC)CN(C(=O)c2ccc(C(C)c3cccc(OC)c3)o2)CC1=O",
+      "filename": "125.sdf"
+    },
+    {
+      "id": "126",
+      "smiles": "Cc1cn2c(=O)ccc(CC(=O)Nc3ccc(Oc4ccccc4)cc3)[n+]2[nH]1",
+      "filename": "126.sdf"
+    },
+    {
+      "id": "132",
+      "smiles": "Cc1c(C=Cc2cc(F)cc(F)c2F)n[nH]c1C(=O)c1ccc[nH+]c1",
+      "filename": "132.sdf"
+    },
+    {
+      "id": "141",
+      "smiles": "Fc1ccc(OCCNCc2ccn[nH]2)cc1Oc1ccc2ncc[nH+]c2c1",
+      "filename": "141.sdf"
+    },
+    {
+      "id": "147-incomp",
+      "smiles": "Cn1[nH]c(=O)c2cc(C(=O)NCc3ccc(F)cc3)ccc21.c1ccccc1",
+      "filename": "147-incomp.sdf"
+    },
+    {
+      "id": "148",
+      "smiles": "O=c1[nH]ccnc1-c1ccc2c(=O)c(-c3ccc4c(c3)OCC4)c[nH]c2c1",
+      "filename": "148.sdf"
+    },
+    {
+      "id": "160",
+      "smiles": "CC(C(N)=O)N(CCO)Cc1ccc2nc(Cc3ccc(F)cc3)ccc2c1",
+      "filename": "160.sdf"
+    },
+    {
+      "id": "162",
+      "smiles": "Cn1cccc1C(=O)c1cccc(Oc2ccc(-c3cnccn3)nn2)c1",
+      "filename": "162.sdf"
+    },
+    {
+      "id": "163",
+      "smiles": "CCC(COC(=O)c1cc(OC)ccc1N)c1cccc(O)c1",
+      "filename": "163.sdf"
+    },
+    {
+      "id": "164",
+      "smiles": "Cc1ccc2nc(C3CNc4c(cc[nH+]c4Oc4ccccc4)C3=O)[nH]c2c1",
+      "filename": "164.sdf"
+    },
+    {
+      "id": "165",
+      "smiles": "Nc1ncnc2cc(Oc3ccc(-c4ccccn4)nc3)ccc12",
+      "filename": "165.sdf"
+    },
+    {
+      "id": "173",
+      "smiles": "CC1=C(Cc2ccc(C(=O)c3ccncc3)cc2)c2nccn2C1=O",
+      "filename": "173.sdf"
+    },
+    {
+      "id": "176",
+      "smiles": "CCc1nc2ccc[nH+]c2cc1OCc1ccc2[nH]cc(C(=O)O)c2c1",
+      "filename": "176.sdf"
+    },
+    {
+      "id": "197",
+      "smiles": "C=CN(CCO)C(=O)c1cccc(-c2ccc(Oc3cnccn3)nc2)c1",
+      "filename": "197.sdf"
+    },
+    {
+      "id": "200",
+      "smiles": "Cc1cc(C(=O)O)c(Cc2n[nH]c(Cc3ccccc3)c2C)c[nH+]1",
+      "filename": "200.sdf"
+    },
+    {
+      "id": "206",
+      "smiles": "COc1cc(-c2ccc(OC)c(C(O)O)c2)ccc1Oc1ccnc(C)c1",
+      "filename": "206.sdf"
+    },
+    {
+      "id": "218",
+      "smiles": "COc1cc(C(F)(F)F)c(-c2ccc(C(=O)NCCCc3ncccn3)cc2)cn1",
+      "filename": "218.sdf"
+    },
+    {
+      "id": "219",
+      "smiles": "CC1(C)CNN(c2cccc(C(=O)c3ccc(-c4ccccn4)nc3)c2)C1=O",
+      "filename": "219.sdf"
+    },
+    {
+      "id": "222",
+      "smiles": "C[n+]1ccc(O)c2cc(C(=O)c3ccc(Oc4nccc[nH+]4)cc3)ccc21",
+      "filename": "222.sdf"
+    },
+    {
+      "id": "238",
+      "smiles": "COc1cc(C(=O)c2ccc(-c3ccccc3)nc2)cc([N+](=O)O)c1",
+      "filename": "238.sdf"
+    },
+    {
+      "id": "244-incomp",
+      "smiles": "COc1cccc2c1N(C)C(C(=O)OCc1ccccc1)=CN2.OC1CCNCC1",
+      "filename": "244-incomp.sdf"
+    },
+    {
+      "id": "257",
+      "smiles": "CC1=C(c2ccccc2)N=[N+](C2=CNc3cccc(O)c3C2)C1=O",
+      "filename": "257.sdf"
+    },
+    {
+      "id": "267",
+      "smiles": "COc1cc(O)ccc1CCCc1ccc(OC2=C(C)C(=O)N=C2)nc1",
+      "filename": "267.sdf"
+    },
+    {
+      "id": "274",
+      "smiles": "COc1[nH]c2ccc(OC(C)CCc3ccccc3)cc2c(=O)c1C#N",
+      "filename": "274.sdf"
+    },
+    {
+      "id": "278",
+      "smiles": "CCc1[nH+]c2cc(OC3=Cc4cc(C(N)=O)ccc4C=CN3)ccc2n1CC",
+      "filename": "278.sdf"
+    },
+    {
+      "id": "280-incomp",
+      "smiles": "CC(=O)NCCN.Cc1cc(O)cc2c1CCN(CCCC=CCc1ccccc1)C2",
+      "filename": "280-incomp.sdf"
+    },
+    {
+      "id": "281",
+      "smiles": "CCN(Cc1ccc(C(=O)Nc2ccccc2)cc1)[SH](C)(=O)O",
+      "filename": "281.sdf"
+    },
+    {
+      "id": "296",
+      "smiles": "Cc1cccc(Oc2ccc(Cn3cc(C(=O)O)c(C)n3)cn2)c1",
+      "filename": "296.sdf"
+    },
+    {
+      "id": "299",
+      "smiles": "CNc1c[n+](C)c(=O)c2ccc(Oc3cccc(-c4cnc[nH]4)c3)ccc1-2",
+      "filename": "299.sdf"
+    },
+    {
+      "id": "301",
+      "smiles": "O=C(O)c1c[nH]c2ccc(-c3cnnc(Cc4ccccc4)c3)cc12",
+      "filename": "301.sdf"
+    },
+    {
+      "id": "307",
+      "smiles": "Cc1cccc(NC(=O)c2cccc(Oc3ccncn3)c2)c1O",
+      "filename": "307.sdf"
+    },
+    {
+      "id": "313",
+      "smiles": "CCc1cc(C2=CNC3=Nc4cc(N5CCCC5=O)ccc4NC3=C2)[nH]n1",
+      "filename": "313.sdf"
+    },
+    {
+      "id": "314",
+      "smiles": "CNc1cc(C)cc2c1NCC(C(=O)N(C)C(=O)C(C)c1ccccc1)=C2",
+      "filename": "314.sdf"
+    },
+    {
+      "id": "317",
+      "smiles": "Cc1ccc(-c2ccc(-c3c[nH]c4c(N)cccc4c3=O)c(C)c2)[nH+]n1",
+      "filename": "317.sdf"
+    },
+    {
+      "id": "319",
+      "smiles": "Cc1[nH+]c2ccccc2cc1C(=O)NC1=CC=C2NC=CC(C#N)=C2C=C1",
+      "filename": "319.sdf"
+    },
+    {
+      "id": "327",
+      "smiles": "COc1cc2cccnc2cc1OCCN(C)c1cccc(OC)c1O",
+      "filename": "327.sdf"
+    },
+    {
+      "id": "339",
+      "smiles": "N#Cc1cccc(-c2ccc(NC(=O)c3ccc(O)cc3)nc2)c1",
+      "filename": "339.sdf"
+    },
+    {
+      "id": "348",
+      "smiles": "O=C1C(Cc2ccc(O)cc2)=CC(O)c2cc(-c3ccccn3)ccc21",
+      "filename": "348.sdf"
+    },
+    {
+      "id": "351",
+      "smiles": "COc1ccc(F)c(N(C)C(=O)c2cccnc2NC(=O)c2cccnc2)c1",
+      "filename": "351.sdf"
+    },
+    {
+      "id": "373",
+      "smiles": "Cc1ccc(CN2C(=O)c3ccc(-c4cnccn4)cc3C2=O)cc1",
+      "filename": "373.sdf"
+    },
+    {
+      "id": "374",
+      "smiles": "Oc1cccc(-c2cc(N3CCc4ncc5ccccc5c4C3)ncn2)c1",
+      "filename": "374.sdf"
+    },
+    {
+      "id": "378",
+      "smiles": "O=C(Nc1ccccc1)C1=CC(=O)c2c1ncnc2-c1ccccc1",
+      "filename": "378.sdf"
+    },
+    {
+      "id": "381-incomp",
+      "smiles": "CN1CCCCC1.Cc1ccc(OC(=O)c2cccc(S(N)(=O)=O)c2)cc1",
+      "filename": "381-incomp.sdf"
+    },
+    {
+      "id": "382-incomp",
+      "smiles": "C1COCCO1.Cc1c(-c2ccccc2)n[nH]c1Cc1c[nH+]cc(O)c1",
+      "filename": "382-incomp.sdf"
+    },
+    {
+      "id": "387",
+      "smiles": "COc1cc(N)nc(C#Cc2cncc(-c3ccccc3F)c2F)c1",
+      "filename": "387.sdf"
+    },
+    {
+      "id": "388",
+      "smiles": "Cc1cnc(N2CCN(C(=O)c3ccc(F)c(-c4cnccn4)c3)C2)nc1",
+      "filename": "388.sdf"
+    },
+    {
+      "id": "390",
+      "smiles": "Cc1cccc(OCc2c(C)nc3n(C)ncn3c2=O)c1Oc1cnn(C)c1",
+      "filename": "390.sdf"
+    },
+    {
+      "id": "395-incomp",
+      "smiles": "COC(=O)c1cc(C(=O)c2n[nH]c(-c3ccccc3)c2C)cc[nH+]1.c1ccccc1",
+      "filename": "395-incomp.sdf"
+    },
+    {
+      "id": "399",
+      "smiles": "Nc1cc(-c2cccnc2)ccc1C(=O)c1cnc2cccc(O)c2c1",
+      "filename": "399.sdf"
+    },
+    {
+      "id": "403",
+      "smiles": "CCC(CCCN1C(=O)c2ccc(-c3cccnc3)cc2C1=O)C(=O)O",
+      "filename": "403.sdf"
+    },
+    {
+      "id": "409",
+      "smiles": "Cn1c(O)nc2ccc(-c3ccc(-c4ccccc4)o3)cc2c1=O",
+      "filename": "409.sdf"
+    },
+    {
+      "id": "411",
+      "smiles": "CC1=CN2C(=NC=CC2=C(O)C(C)N=Cc2ccc(Oc3cccc[nH+]3)cc2)N1",
+      "filename": "411.sdf"
+    },
+    {
+      "id": "415",
+      "smiles": "COc1cc(C)ccc1N1CCCC(c2ccc(-c3cnccn3)cn2)C1=O",
+      "filename": "415.sdf"
+    },
+    {
+      "id": "418-incomp",
+      "smiles": "COc1cccc(Cn2cc(-c3cccc(C)c3)[nH+]n2)c1.C[n+]1ccccc1",
+      "filename": "418-incomp.sdf"
+    },
+    {
+      "id": "427",
+      "smiles": "COc1ccc(COc2ccc(NC(=O)c3ccncn3)cc2F)cc1OC",
+      "filename": "427.sdf"
+    },
+    {
+      "id": "435-incomp",
+      "smiles": "C=C1C=C(c2cc(C#N)ccc2N)C=NN1Cc1ccccc1.CN1CCCC1=O",
+      "filename": "435-incomp.sdf"
+    },
+    {
+      "id": "440",
+      "smiles": "O=C(Nc1ccc2c(c1)Oc1ccccc1N2)c1ccc[nH+]c1",
+      "filename": "440.sdf"
+    },
+    {
+      "id": "446",
+      "smiles": "COc1ccc(-c2cnc3c(-c4ccccc4)ncnc3n2)cc1C#N",
+      "filename": "446.sdf"
+    },
+    {
+      "id": "449",
+      "smiles": "Cc1ccc2c(C(=O)c3ccc(Oc4ccc(F)c[nH+]4)[nH+]c3)c[nH]c2c1",
+      "filename": "449.sdf"
+    },
+    {
+      "id": "451",
+      "smiles": "Nc1cccc(NC(=O)c2ccc(C(=O)c3ccncc3)cc2F)c1",
+      "filename": "451.sdf"
+    },
+    {
+      "id": "452",
+      "smiles": "Cc1cc(C(N)=O)c2cc(Nc3ccc(-c4ccc(F)cc4)[nH+]c3)cc-2[nH]1",
+      "filename": "452.sdf"
+    },
+    {
+      "id": "459",
+      "smiles": "Cc1cnc2ccc(NC(=O)Cc3cccc(-c4cnccn4)c3)cc2c1O",
+      "filename": "459.sdf"
+    },
+    {
+      "id": "475",
+      "smiles": "COc1cc(F)cc(C(=O)COC(=O)c2ccncc2-c2cccc(O)c2)c1",
+      "filename": "475.sdf"
+    },
+    {
+      "id": "487-incomp",
+      "smiles": "Cc1ccccc1.O=C(NNC(=O)c1ccncc1)C1=Cc2ccccc2NC1",
+      "filename": "487-incomp.sdf"
+    },
+    {
+      "id": "495",
+      "smiles": "COc1cc(OC)cc(S(=O)(=O)c2ccc(Oc3ccc(F)cc3)nc2)c1",
+      "filename": "495.sdf"
+    },
+    {
+      "id": "498",
+      "smiles": "CC1c2ccccc2CN1C(=O)c1ccc(-n2nccc2C(N)=O)cc1",
+      "filename": "498.sdf"
+    },
+    {
+      "id": "504",
+      "smiles": "CC(NC(=O)c1cccnc1)c1ccccc1Oc1ccc2c(c1)c(O)nn2C",
+      "filename": "504.sdf"
+    },
+    {
+      "id": "506",
+      "smiles": "Cc1ccc(C(=O)c2ccc(C(=NO)c3nn(C)cc3C)cc2C)cc1",
+      "filename": "506.sdf"
+    },
+    {
+      "id": "508",
+      "smiles": "CN(c1ccc(-c2nnccc2C(N)=O)cc1)c1cc(F)c2cccnc2c1",
+      "filename": "508.sdf"
+    },
+    {
+      "id": "514",
+      "smiles": "Cc1ccnc2c(Cc3ccc(OCc4ccc[nH+]c4)[nH+]c3)c[nH]c12",
+      "filename": "514.sdf"
+    },
+    {
+      "id": "515",
+      "smiles": "O=S1(=O)c2ccccc2N(CCc2cc(F)c(-c3cccnc3)cc2F)C12COC2",
+      "filename": "515.sdf"
+    },
+    {
+      "id": "516",
+      "smiles": "Cc1cc(OCc2cnccc2C(=O)O)cnc1C(=O)c1ccc(F)cc1",
+      "filename": "516.sdf"
+    },
+    {
+      "id": "517",
+      "smiles": "COc1cc2nccnc2cc1OCC(=O)NCc1cccc2ccccc12",
+      "filename": "517.sdf"
+    },
+    {
+      "id": "522",
+      "smiles": "CC(=Cc1ccccc1)Oc1ccc(CC2C(=O)NC(=O)NC2=O)cc1",
+      "filename": "522.sdf"
+    },
+    {
+      "id": "523",
+      "smiles": "Cn1cc(C(=O)O)cc1CNC(=O)c1cccc(C(=O)c2ccccc2)c1",
+      "filename": "523.sdf"
+    },
+    {
+      "id": "530",
+      "smiles": "Cn1c2c(c3ccccc31)CC(c1c(O)nc(Cc3cccnc3)nc1O)CC2",
+      "filename": "530.sdf"
+    },
+    {
+      "id": "534",
+      "smiles": "Cc1ccc(CNC(=O)c2ccc(C(=O)c3cccnc3)cc2)c(N)c1",
+      "filename": "534.sdf"
+    },
+    {
+      "id": "539",
+      "smiles": "CNc1cc2c(c3ccc[nH+]c13)=CC1=CC(OCCc3cccc[nH+]3)=CNC1=CC=2",
+      "filename": "539.sdf"
+    },
+    {
+      "id": "554",
+      "smiles": "NC(=O)c1ccnn1CCc1ccc(Oc2cccnc2)cc1",
+      "filename": "554.sdf"
+    },
+    {
+      "id": "560",
+      "smiles": "O=c1cc(C(CCO)c2ccccc2)[nH]c2ccc(CCc3[nH+]cccc3F)cc12",
+      "filename": "560.sdf"
+    },
+    {
+      "id": "561",
+      "smiles": "CCCOc1ccc(C(=O)c2ccc(OC)c(C(CC)C(N)=O)c2)cc1",
+      "filename": "561.sdf"
+    },
+    {
+      "id": "568",
+      "smiles": "NC1=C2C=CC(OCc3cccc(-c4ccc[nH+]c4)c3)=CN=C2NC=C1",
+      "filename": "568.sdf"
+    },
+    {
+      "id": "584",
+      "smiles": "O=C(NCc1ccccc1)c1cnc(Oc2ccccc2)cc1O",
+      "filename": "584.sdf"
+    }
+  ],
+  "limk2_seq_len": 281
+}

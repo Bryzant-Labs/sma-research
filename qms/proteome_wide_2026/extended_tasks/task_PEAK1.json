@@ -1,0 +1,19 @@
+{
+  "id": "pocketxmol_peak1_sma_atlas_ext",
+  "type": "pocketxmol",
+  "target": "PEAK1_SMA_ATLAS_EXT",
+  "uniprot": "Q9H792",
+  "pdb_id": "6BHC",
+  "pocket_center": [
+    -20.15,
+    -9.4,
+    49.13
+  ],
+  "pocket_radius": 10.0,
+  "n_molecules": 600,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 2,
+  "status": "queued",
+  "_notes": "PEAK1 pseudokinase ATP cleft (K1435/E1454/DFG C\u03b1 centroid). TITLE-verified 2026-04-17 (see TITLE_AUDIT_extended.md). Atlas extended campaign ranks 6-25 Phase-3."
+}

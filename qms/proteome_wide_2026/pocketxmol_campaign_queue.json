@@ -1,0 +1,73 @@
+{
+  "campaign_id": "sma_novel_targets_2026",
+  "parent_atlas": "/home/bryza/sma-research/qms/SMA_NOVEL_TARGET_ATLAS_2026.md",
+  "status": "QUEUED (not fired yet) — awaiting human sign-off per QMS SOP.md",
+  "triple_llm_verdict": "/home/bryza/sma-research/qms/SMA_NOVEL_TARGET_ATLAS_2026_triple_llm.json",
+  "rationale": "Top 5 truly_novel + druggable (OpenTargets bucket=4) candidates from proteome-wide ESM-2 signature-similarity screen against verified SMA-MN meta-anchors (SMN1, SMN2, ROCK2, TP53, PERP).",
+  "launch_requirements": [
+    "Human reviewer sign-off in CLAIMS_REGISTRY.md row #11",
+    "For each target, fetch AlphaFold v4 structure from EBI-AlphaFold",
+    "Run fpocket (or P2rank) to identify predicted small-molecule pocket",
+    "Truncated-embedding verification: re-embed full length via TPU ProtT5 to confirm signature_score rank is stable (per caveat #3)",
+    "PubMed manual disambiguation of 'some_prior_work' gene-symbols before inclusion in any external Simon/Torsten comms"
+  ],
+  "campaigns": [
+    {
+      "target": "PCIF1",
+      "uniprot": "Q9H4Z3",
+      "ensembl": "ENSG00000100982",
+      "description": "Phosphorylated CTD-interacting factor 1 (a.k.a. CAPAM); RNA pol II C-terminal domain binder; m6A methyltransferase for RNA Pol II CTD transcription start site mRNAs",
+      "rationale": "truly_novel (0 SMA papers), druggable bucket=4 (Structure with Ligand exists). Near TP53 axis (cos_TP53=0.826) and PERP (cos_PERP=0.786). Transcription / m6A modification is a plausible SMN-downstream axis (SMN's role in snRNP assembly + splicing regulation).",
+      "pocketxmol_plan": "600 molecules guided by PCIF1 SAM-binding pocket (co-crystal PDB 7VS2 as seed)",
+      "signature_score": 0.709,
+      "atlas_rank": 1
+    },
+    {
+      "target": "BPTF",
+      "uniprot": "Q12830",
+      "ensembl": "ENSG00000171634",
+      "description": "Bromodomain PHD finger transcription factor; largest subunit of NURF chromatin remodeler; reads H3K4me3 + acetyl-lysine",
+      "rationale": "truly_novel (0 SMA papers), druggable bucket=4. PHD/bromodomain readers are targetable (see BET inhibitors). Chromatin mis-regulation is a plausible SMA mechanism via Cajal body disruption and snRNP biogenesis failure.",
+      "pocketxmol_plan": "600 molecules guided by BPTF bromodomain acetyl-lysine pocket (PDB 3UV2)",
+      "signature_score": 0.705,
+      "atlas_rank": 4
+    },
+    {
+      "target": "LARP1",
+      "uniprot": "Q6PKG0",
+      "ensembl": "ENSG00000155506",
+      "description": "La ribonucleoprotein 1; translational regulator of terminal oligopyrimidine (TOP) mRNAs downstream of mTORC1",
+      "rationale": "truly_novel (0 SMA papers), druggable bucket=4. mTOR axis + translation regulation is plausibly disrupted in SMA (SMN regulates local translation at axon terminals). Near TP53 (cos_TP53=0.787) and PERP (cos_PERP=0.788).",
+      "pocketxmol_plan": "600 molecules guided by LARP1 La-module cap-binding pocket (PDB 5V87)",
+      "signature_score": 0.692,
+      "atlas_rank": 7
+    },
+    {
+      "target": "SH3BP5",
+      "uniprot": "O60239",
+      "ensembl": "ENSG00000131370",
+      "description": "SH3 domain binding protein 5 (SAB); mitochondrial outer membrane JNK scaffolder; GEF for Rab11",
+      "rationale": "truly_novel (0 SMA papers), druggable bucket=4. Mitochondrial / JNK stress signaling is a plausible SMA convergence point. sc_nTPM=35.9 (well-expressed in spinal cord).",
+      "pocketxmol_plan": "600 molecules guided by SH3BP5 JNK-binding face (NMR structure 1OEB)",
+      "signature_score": 0.691,
+      "atlas_rank": 8
+    },
+    {
+      "target": "KAT6B",
+      "uniprot": "Q8WYB5",
+      "ensembl": "ENSG00000156650",
+      "description": "Lysine acetyltransferase 6B (MORF); MYST-family HAT; links to Say-Barber-Biesecker-Young-Simpson + Genitopatellar developmental syndromes",
+      "rationale": "truly_novel (0 SMA papers), druggable bucket=5 (High-Quality Ligand exists: WM-1119 KAT6A/B inhibitor). Chromatin-acetylation axis near TP53 response. KAT6A/B inhibitors are clinical-stage in oncology — rapid re-indication possible.",
+      "pocketxmol_plan": "600 molecules guided by KAT6B MYST-domain acetyl-CoA pocket (PDB 6LIM)",
+      "signature_score": 0.688,
+      "atlas_rank": 10
+    }
+  ],
+  "total_molecules_planned": 3000,
+  "compute_budget_estimate": {
+    "rental_A100_hours": 24,
+    "estimated_usd": "8-20",
+    "fallback": "GB10 Spark when it arrives; free-tier MolMIM NIM for baseline comparison"
+  },
+  "wet_lab_status": "none — in silico hypothesis generation only"
+}

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    28:
+HEADER 0  - Pocket Score                      : -0.1451
+HEADER 1  - Drug Score                        : 0.0029
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.2307
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6363
+HEADER 5  - Mean B-factor of pocket residues  : 0.8431
+HEADER 6  - Hydrophobicity Score              : 74.1667
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 5.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 238.7043
+HEADER 10  -Pocket volume (convex hull)       : 1.4449
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.8750
+ATOM    136   CG LEU A  17     -12.219 -15.250  -0.641  0.00  0.00           C 0
+ATOM    736  CE2 PHE A  96      -9.438 -15.555   6.727  0.00  0.00           C 0
+ATOM    138  CD2 LEU A  17     -13.156 -16.422  -0.924  0.00  0.00           C 0
+ATOM    162  CD2 LEU A  20     -11.609 -20.797   0.619  0.00  0.00           C 0
+ATOM    704   CZ PHE A  92      -7.750 -19.812   3.754  0.00  0.00           C 0
+ATOM    703  CE2 PHE A  92      -7.195 -19.047   2.738  0.00  0.00           C 0
+ATOM    127   CB PRO A  16      -7.434 -14.695   2.320  0.00  0.00           C 0
+ATOM    103  CE3 TRP A  13     -11.062 -12.594   4.871  0.00  0.00           C 0
+ATOM    137  CD1 LEU A  17     -12.969 -13.922  -0.745  0.00  0.00           C 0
+ATOM    107  CZ3 TRP A  13     -10.977 -13.195   6.121  0.00  0.00           C 0
+ATOM    128    O PRO A  16      -7.754 -17.156   0.153  0.00  0.00           O 0
+ATOM    132   CA LEU A  17      -9.836 -16.141  -1.196  0.00  0.00           C 0
+ATOM    131    N LEU A  17      -8.875 -15.352  -0.428  0.00  0.00           N 0
+ATOM    126    C PRO A  16      -7.910 -15.930   0.179  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,30 @@
+[load] 471 candidates
+[ot] 20 queried
+[ot] 40 queried
+[ot] 60 queried
+[ot] 80 queried
+[ot] 100 queried
+[ot] 120 queried
+[ot] 140 queried
+[ot] 160 queried
+[ot] 180 queried
+[ot] 200 queried
+[ot] 220 queried
+[ot] 240 queried
+[ot] 260 queried
+[ot] 280 queried
+[ot] 300 queried
+[ot] 320 queried
+[ot] 340 queried
+[ot] 360 queried
+[ot] 380 queried
+[ot] 400 queried
+[ot] 420 queried
+[ot] 440 queried
+[ot] 460 queried
+druggability_tier
+difficult                304
+druggable                125
+clinical_precedent        28
+discovery_opportunity     14
+Name: count, dtype: int64

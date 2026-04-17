@@ -1,0 +1,19 @@
+{
+  "id": "pocketxmol_ep400_sma_atlas_ext",
+  "type": "pocketxmol",
+  "target": "EP400_SMA_ATLAS_EXT",
+  "uniprot": "Q96L91",
+  "pdb_id": "9C57",
+  "pocket_center": [
+    209.03,
+    163.39,
+    213.97
+  ],
+  "pocket_radius": 10.0,
+  "n_molecules": 600,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 2,
+  "status": "queued",
+  "_notes": "EP400 ATPase AMP-PNP pocket (TIP60 complex). TITLE-verified 2026-04-17 (see TITLE_AUDIT_extended.md). Atlas extended campaign ranks 6-25 Phase-3."
+}

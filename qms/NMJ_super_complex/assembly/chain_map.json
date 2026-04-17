@@ -1,0 +1,106 @@
+{
+  "A": {
+    "new_chain": "A",
+    "protein": "CHRNA1 (AChR\u03b11)",
+    "source": "ColabFold single-chain, UniProt P02708",
+    "note": "Superposed onto 7SMQ chain A (\u03b11 copy 1)",
+    "pLDDT": 93.73,
+    "pTM": 0.75
+  },
+  "C": {
+    "new_chain": "C",
+    "protein": "CHRNA1 (AChR\u03b11)",
+    "source": "ColabFold single-chain, UniProt P02708",
+    "note": "Superposed onto 7SMQ chain D (\u03b11 copy 2)",
+    "pLDDT": 93.73,
+    "pTM": 0.75
+  },
+  "B": {
+    "new_chain": "B",
+    "protein": "CHRNB1 (AChR\u03b21)",
+    "source": "AlphaFold DB AF-P11230-F1 (ColabFold fold pending on TPU v6e-4)",
+    "note": "Superposed onto 7SMQ chain B",
+    "pLDDT": null,
+    "pTM": null
+  },
+  "D": {
+    "new_chain": "D",
+    "protein": "CHRND (AChR\u03b4)",
+    "source": "AlphaFold DB AF-Q07001-F1",
+    "note": "Superposed onto 7SMQ chain C",
+    "pLDDT": null,
+    "pTM": null
+  },
+  "E": {
+    "new_chain": "E",
+    "protein": "CHRNE (AChR\u03b5, adult)",
+    "source": "AlphaFold DB AF-Q04844-F1",
+    "note": "Superposed onto 7SMQ chain E (adult NMJ isoform; \u03b3 not used)",
+    "pLDDT": null,
+    "pTM": null
+  },
+  "F": {
+    "new_chain": "F",
+    "protein": "RAPSN (rapsyn)",
+    "source": "ColabFold single-chain, UniProt Q13702",
+    "note": "Placed ~55 A cytoplasmic of AChR COM. No cryo-EM AChR-RAPSN complex available at residue resolution; this is a plausible placement based on biochemistry (rapsyn clusters AChR via \u03b21 intracellular loop).",
+    "pLDDT": 95.54,
+    "pTM": 0.93
+  },
+  "J": {
+    "new_chain": "J",
+    "protein": "LRP4 (ectodomain, full)",
+    "source": "AlphaFold DB AF-O75096-F1",
+    "note": "LRP4 \u03b2-propeller 1-2 (res 404-744) superposed onto 3V64 chain C (AGRIN-binding \u03b2-propeller), then translated into plausible synaptic-cleft position lateral to AChR. LRP4 \u03b2prop3-4 and LDLR repeats flop as AFDB model; atomic placement of those regions is LOW confidence.",
+    "pLDDT": null,
+    "pTM": null
+  },
+  "K": {
+    "new_chain": "K",
+    "protein": "AGRIN (full-length)",
+    "source": "AlphaFold DB AF-O00468-F1 (canonical; Z+ is +8aa insert not modeled)",
+    "note": "LG3 domain (res 1758-1948) superposed onto 3V64 chain A to place AGRIN relative to LRP4. The rest of AGRIN (N-term laminin-binding, NtA, LG1, LG2) extends out of the synapse and its placement relative to the basal lamina is low confidence. The Z+ insert (critical for AChR clustering) is NOT present in AFDB canonical \u2014 we add a caveat.",
+    "pLDDT": null,
+    "pTM": null
+  },
+  "G": {
+    "new_chain": "G",
+    "protein": "MuSK ECD (Ig1-Fz-like)",
+    "source": "ColabFold single-chain residues 1-490, UniProt O15146",
+    "note": "Ig1+Ig2 superposed onto 2IEP template. Absolute placement relative to LRP4 and AChR is a plausibility model \u2014 no atomic-resolution AGRIN-LRP4-MUSK tripartite structure exists. Interface residues from the MuSK-LRP4 and MuSK-AGRIN Ig domains should be further validated via Boltz-2 on the relevant pair.",
+    "pLDDT": 90.05,
+    "pTM": 0.57
+  },
+  "H": {
+    "new_chain": "H",
+    "protein": "MuSK intracellular (JM + kinase)",
+    "source": "ColabFold single-chain, UniProt O15146 intracellular fragment",
+    "note": "Placed cytoplasmic side, below MuSK ECD. The TM helix is not explicitly modelled (ColabFold run excluded it); the ~30 A gap between ECD and kinase domains represents the TM region implicitly.",
+    "pLDDT": 90.19,
+    "pTM": 0.77
+  },
+  "I": {
+    "new_chain": "I",
+    "protein": "DOK7 (PH-PTB)",
+    "source": "AlphaFold DB AF-Q18PE1-F1",
+    "note": "Placed adjacent to MuSK intracellular domain. DOK7-PTB binds MuSK JM phosphotyrosines \u2014 true binding pose should be validated via Boltz-2 on the MUSK-JM + DOK7-PTB pair.",
+    "pLDDT": null,
+    "pTM": null
+  },
+  "P": {
+    "new_chain": "P",
+    "protein": "PERP (UniProt Q96FX8)",
+    "source": "Boltz-2 co-fold with H2b_9_s2 binder (boltz2_H2b9s2_PERP_WT)",
+    "note": "PERP placed lateral to AChR pentamer in muscle membrane plane. Exact positioning is HYPOTHESIS-ONLY: no published PERP-AChR / PERP-MuSK / PERP-LRP4 complex exists. iPTM from our v6e-8 PERP\u00d7AGRN = 0.48, PERP\u00d7RAPSN = 0.25, PERP\u00d7DOK7 = 0.21 \u2014 weakest partner PERP\u00d7DOK7 suggests PERP is NOT a direct DOK7 client. AGRN iptm 0.48 is the strongest NMJ partner signal.",
+    "pLDDT": null,
+    "pTM": null
+  },
+  "Z": {
+    "new_chain": "Z",
+    "protein": "H2b_9_s2 de novo binder (87 aa)",
+    "source": "RFdiffusion + ProteinMPNN + Boltz-2 co-fold (PERP_binder_design_RESULTS)",
+    "note": "Binds PERP ECL1/ECL2 face; carries along with PERP in NMJ assembly.",
+    "pLDDT": null,
+    "pTM": null
+  }
+}

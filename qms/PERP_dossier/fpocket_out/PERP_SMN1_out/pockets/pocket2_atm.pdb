@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     2:
+HEADER 0  - Pocket Score                      : 0.1119
+HEADER 1  - Drug Score                        : 0.0142
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9644
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7390
+HEADER 5  - Mean B-factor of pocket residues  : 0.6787
+HEADER 6  - Hydrophobicity Score              : 56.4286
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 257.7068
+HEADER 10  -Pocket volume (convex hull)       : 6.4647
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.8947
+ATOM   1843    N VAL B  47     -26.000 -37.438 -10.344  0.00  0.00           N 0
+ATOM   1840    C ALA B  46     -25.016 -38.219 -10.656  0.00  0.00           C 0
+ATOM   1841   CB ALA B  46     -23.516 -36.781 -12.086  0.00  0.00           C 0
+ATOM   1849  CG2 VAL B  47     -26.844 -35.062  -8.641  0.00  0.00           C 0
+ATOM   1842    O ALA B  46     -24.547 -39.094  -9.922  0.68  4.29           O 0
+ATOM   1877   CG LYS B  51     -29.969 -41.344  -4.547  0.00  0.00           C 0
+ATOM   1873   CA LYS B  51     -27.734 -42.281  -5.383  0.00  0.00           C 0
+ATOM   1867  CD1 PHE B  50     -23.359 -39.906  -4.234  0.00  0.00           C 0
+ATOM   1902  CD1 LEU B  54     -24.641 -41.594  -1.744  0.00  0.00           C 0
+ATOM   1872    N LYS B  51     -26.656 -41.781  -6.238  0.00  0.00           N 0
+ATOM   1875   CB LYS B  51     -29.047 -41.594  -5.742  0.00  0.00           C 0
+ATOM   1864   CB PHE B  50     -24.047 -40.188  -6.637  0.00  0.00           C 0
+ATOM   1866   CG PHE B  50     -23.000 -40.094  -5.559  0.00  0.00           C 0
+ATOM   1868  CD2 PHE B  50     -21.641 -40.219  -5.879  0.00  0.00           C 0
+ATOM   1848  CG1 VAL B  47     -28.484 -36.625  -7.562  0.00  0.00           C 0
+ATOM   1503    C ALA A 193     -22.781 -30.922 -10.414  0.00  0.00           C 0
+ATOM   1818  CE2 TYR B  43     -24.938 -31.344  -9.516  0.00  0.00           C 0
+ATOM   1847    O VAL B  47     -27.359 -39.531  -7.898  0.50  1.07           O 0
+ATOM   1844   CA VAL B  47     -26.641 -37.531  -9.039  0.00  0.00           C 0
+TER
+END

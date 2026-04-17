@@ -1,0 +1,32 @@
+{
+  "status": "STAGED — not fired. Awaiting Boltz-2 panel complete OR manual trigger.",
+  "staged_at": "2026-04-17T16:31Z",
+  "strategy": "25 ns MD on top-3 cross-target hits (selectivity_z ranking)",
+  "fallback_used": "pxm_composite (cfd_pos × QED × BBB) — used since Boltz-2 panel was slow-running at stage time",
+  "candidates": [
+    {
+      "target": "PEAK1",
+      "pdb_id": "6BHC",
+      "smiles": "Cc1ccc(C)c2c1=NC1=C(Nc3ccc(F)cc3)C(=O)N=NC=21",
+      "rationale": "Top PXM cfd_pos × QED × BBB composite for PEAK1 pseudokinase atypical ATP cleft. Novel kinase scaffold (pseudokinase = no canonical catalysis; scaffold function only)."
+    },
+    {
+      "target": "EHMT2",
+      "pdb_id": "5VSC",
+      "smiles": "O=C(CNC(=O)c1ccc(-c2ccccc2)cc1)NCCOCc1ccccc1",
+      "rationale": "Top PXM composite for EHMT2/G9a SET-domain inhibitor pocket. Cross-connects to EHMT1 (obligate heterodimer partner) and KMT5B (SAM-cofactor cluster)."
+    },
+    {
+      "target": "KAT5",
+      "pdb_id": "2OU2",
+      "smiles": "O=c1[nH]c(-c2c[nH+]c3ccccc3c2)nc2cc3ccccc3cc12",
+      "rationale": "Top PXM composite for KAT5/TIP60 MYST HAT acetyl-CoA pocket. Biological triangle: TIP60 + TP53 + PERP (arm-4 campaign) — TIP60 acetylates p53 K120 to activate PERP-mediated apoptosis; KAT5 modulators could synergize with PERP-binders."
+    }
+  ],
+  "gpu_target": "35141589 (RTX_4090 @ ssh2:21588, 0% util, $0.2744/hr) OR 35120547 (A100 SXM4 protected — do NOT touch)",
+  "md_duration_ns": 25,
+  "expected_wall_time_hours": "1.5-2 per compound on RTX 4090; 0.8-1.2 per compound on A100",
+  "total_expected_cost_usd": "1.0 - 2.5 if RTX 4090",
+  "fire_condition": "ONLY after Boltz-2 panel complete AND top-3 ranked by selectivity_z > 0. If panel shows hits with sel_z > 0, fire that set instead of the composite fallback.",
+  "next_action_for_operator": "After Boltz-2 panel (zscore_combined.csv) exists, re-run pick_md_candidates.py and compare candidate sets. If Boltz-2 selection differs, prefer Boltz-2 ranking."
+}

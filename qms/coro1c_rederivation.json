@@ -1,0 +1,123 @@
+{
+  "gene": "CORO1C",
+  "target_original_claim": {
+    "fold_change": -1.77,
+    "log2FC": -0.8237493603082727,
+    "source_cited": "GSE87281 bulk RNA-seq"
+  },
+  "per_contrast": [
+    {
+      "dataset": "GSE290979",
+      "contrast": "organoid SMA vs CTRL (NT)",
+      "n_total": 15,
+      "log2FC": 0.1505625958820961,
+      "lfcSE": 0.1932155157404014,
+      "padj": 0.6704578939210422
+    },
+    {
+      "dataset": "GSE87281",
+      "contrast": "SH-SY5Y shSMN vs shCtrl",
+      "n_total": 9,
+      "log2FC": -0.5455485580278128,
+      "lfcSE": 0.1607594934835682,
+      "padj": 0.0036666231989287
+    },
+    {
+      "dataset": "GSE87281",
+      "contrast": "hiPSC-MN shSMN vs shCtrl",
+      "n_total": 7,
+      "log2FC": -0.0421204201333849,
+      "lfcSE": 0.1377417998392097,
+      "padj": 0.9062691920203622
+    },
+    {
+      "dataset": "GSE302774",
+      "contrast": "Hb9-iMN SMN-KD vs Scramble",
+      "n_total": 6,
+      "log2FC": -0.0026834869880276,
+      "lfcSE": 0.032709916873783,
+      "padj": 0.959674521957233
+    },
+    {
+      "dataset": "GSE302774",
+      "contrast": "iN SMN-KD vs Scramble",
+      "n_total": 6,
+      "log2FC": 0.144746775104683,
+      "lfcSE": 0.0436997853728329,
+      "padj": 0.0020888132434863
+    }
+  ],
+  "per_contrast_target_ci_match": [
+    {
+      "dataset": "GSE290979",
+      "contrast": "organoid SMA vs CTRL (NT)",
+      "log2FC": 0.1505625958820961,
+      "ci95_lo": -0.22813981496909067,
+      "ci95_hi": 0.5292650067332829,
+      "contains_target_-0.82": false
+    },
+    {
+      "dataset": "GSE87281",
+      "contrast": "SH-SY5Y shSMN vs shCtrl",
+      "log2FC": -0.5455485580278128,
+      "ci95_lo": -0.8606371652556064,
+      "ci95_hi": -0.23045995080001913,
+      "contains_target_-0.82": true
+    },
+    {
+      "dataset": "GSE87281",
+      "contrast": "hiPSC-MN shSMN vs shCtrl",
+      "log2FC": -0.0421204201333849,
+      "ci95_lo": -0.3120943478182359,
+      "ci95_hi": 0.2278535075514661,
+      "contains_target_-0.82": false
+    },
+    {
+      "dataset": "GSE302774",
+      "contrast": "Hb9-iMN SMN-KD vs Scramble",
+      "log2FC": -0.0026834869880276,
+      "ci95_lo": -0.06679492406064229,
+      "ci95_hi": 0.06142795008458708,
+      "contains_target_-0.82": false
+    },
+    {
+      "dataset": "GSE302774",
+      "contrast": "iN SMN-KD vs Scramble",
+      "log2FC": 0.144746775104683,
+      "ci95_lo": 0.05909519577393052,
+      "ci95_hi": 0.2303983544354355,
+      "contains_target_-0.82": false
+    }
+  ],
+  "meta_all_k5": {
+    "k": 5,
+    "log2FC_pooled_fe": 0.034248656177687596,
+    "log2FC_pooled_re": -0.02516145922661783,
+    "se_re": 0.08030428846296966,
+    "ci95_lo": -0.18255786461403836,
+    "ci95_hi": 0.1322349461608027,
+    "Q": 21.345954631949823,
+    "I2_pct": 81.26108637927605,
+    "tau2": 0.02052156648644889,
+    "z": -0.31332646995833124,
+    "pvalue": 0.7540326417573193,
+    "fold_change_linear_re": 0.9827106123250609,
+    "direction_uniform": false
+  },
+  "meta_sensitivity_drop_SHSY5Y_k4": {
+    "k": 4,
+    "log2FC_pooled_fe": 0.04883779098407057,
+    "log2FC_pooled_re": 0.05953742604283381,
+    "se_re": 0.05605734880727977,
+    "ci95_lo": -0.050334977619434534,
+    "ci95_hi": 0.16940982970510216,
+    "Q": 8.010995388901307,
+    "I2_pct": 62.55147014369403,
+    "tau2": 0.0063499845407564825,
+    "z": 1.0620806604236357,
+    "pvalue": 0.2881990689536691,
+    "fold_change_linear_re": 1.042131566711623,
+    "direction_uniform": false
+  },
+  "decision": "RETRACTED"
+}

@@ -1,0 +1,21 @@
+rank	gene	uniprot	n_pdbs_xref	best_pdb	best_resolution	best_method	best_ligands	title	verdict	note
+2	TEF	Q10587	1						SKIP	No X-ray/EM PDB ≤3.0 Å for Q10587; 1 xrefs total
+3	PIK3C2A	O00443	8	6BTY	1.68	X-ray	O4B(1,4,7,10,13,16-HEXAOXACYCLOOCT)	Crystal structure of the PI3KC2alpha C2 domain in space group P41212	CHECK	
+5	RANBP2	P49792	33	7MNR	1.80	X-ray	GDP(GUANOSINE-5'-DIPHOSPHATE)	Crystal Structure of the ZnF3 of Nucleoporin NUP358/RanBP2 in complex with Ran-GDP	PASS	
+6	OPTN	Q96CV9	13	9B0B	1.70	X-ray	PGE(TRIETHYLENE GLYCOL)	Structure of Optineurin bound to HOIP NZF1 domain	CHECK	
+9	PI4KA	P42356	3						SKIP	No X-ray/EM PDB ≤3.0 Å for P42356; 3 xrefs total
+11	EP400	Q96L91	13	9CAF	2.35	EM	IHP(INOSITOL HEXAKISPHOSPHATE)	Cryo-EM structure of the reconstituted TRRAP lobe of the human TIP60 complex (composite structure)	CHECK	
+12	PEAK1	Q9H792	2	6BHC	2.30	X-ray		Crystal structure of pseduokinase PEAK1 (Sugen Kinase 269)	PASS	
+13	USP34	Q70CQ2	2	7W3R	1.92	X-ray		USP34 catalytic domain	PASS	
+14	KAT7	O95251	8	7D0P	1.80	X-ray	1VU(propionyl Coenzyme A)	Crystal structure of human HBO1-BRPF2 in complex with propionyl-coenzyme A	CHECK	
+15	RNF213	Q63HN8	4	9JTA	1.70	X-ray		Crystal structure of RNF213 RING domain bound to IpaH1.4 LRR domain	PASS	
+16	BTF3	P20290	12	3MCB	1.90	X-ray		Crystal structure of NAC domains of human nascent polypeptide-associated complex (NAC)	CHECK	
+17	EHMT2	Q96KQ7	32	5VSC	1.40	X-ray	SAM(S-ADENOSYLMETHIONINE);9HJ(6,7-dimethoxy-N~2~-methyl-N~4~)	Structure of human G9a SET-domain (EHMT2) in complex with inhibitor 13	PASS	
+18	EIF4G1	Q04637	14	5T46	1.53	X-ray	MGP(7-METHYL-GUANOSINE-5'-TRIPHOSP)	Crystal structure of the human eIF4E-eIF4G complex	CHECK	
+19	TIAM1	Q13009	10	4GVC	1.54	X-ray	ANS(5-(DIMETHYLAMINO)-1-NAPHTHALEN)	Crystal Structure of T-cell Lymphoma Invasion and Metastasis-1 PDZ in complex with phosphorylated Sy	CHECK	
+20	KAT6A	Q92794	21	5B78	1.40	X-ray		Crystal structure of MOZ double PHD finger mutant-S210D/N235R in complex with histone H3 crotonylati	CHECK	
+21	KAT5	Q92993	3	2OU2	2.30	X-ray	ACO(ACETYL COENZYME *A)	Acetyltransferase domain of Human HIV-1 Tat interacting protein, 60kDa, isoform 3	CHECK	
+22	MYCBP2	O75592	2	5O6C	1.75	X-ray		Crystal Structure of a threonine-selective RCR E3 ligase	CHECK	
+23	MRPS31	Q92665	57	7QI4	2.21	EM	NAD(NICOTINAMIDE-ADENINE-DINUCLEOT);SPM(SPERMINE);SPD(SPERMIDINE)	Human mitochondrial ribosome at 2.2 A resolution (bound to partly built tRNAs and mRNA)	CHECK	
+24	KMT5B	Q4FZB7	10	3S8P	1.85	X-ray	SAM(S-ADENOSYLMETHIONINE)	Crystal Structure of the SET Domain of Human Histone-Lysine N-Methyltransferase SUV420H1 In Complex 	CHECK	
+25	EHMT1	Q9H9B1	22	3HNA	1.50	X-ray	SAH(S-ADENOSYL-L-HOMOCYSTEINE)	Crystal structure of catalytic domain of human euchromatic histone methyltransferase 1 in complex wi	CHECK	

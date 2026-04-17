@@ -1,0 +1,19 @@
+{
+  "id": "pocketxmol_rnf213_sma_atlas_ext",
+  "type": "pocketxmol",
+  "target": "RNF213_SMA_ATLAS_EXT",
+  "uniprot": "Q63HN8",
+  "pdb_id": "8S24",
+  "pocket_center": [
+    221.02,
+    280.24,
+    184.81
+  ],
+  "pocket_radius": 10.0,
+  "n_molecules": 600,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 2,
+  "status": "queued",
+  "_notes": "RNF213 AAA+ ATPase ATP pocket. TITLE-verified 2026-04-17 (see TITLE_AUDIT_extended.md). Atlas extended campaign ranks 6-25 Phase-3."
+}

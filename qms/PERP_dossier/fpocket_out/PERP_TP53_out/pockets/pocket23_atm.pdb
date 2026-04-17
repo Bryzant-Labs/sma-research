@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    23:
+HEADER 0  - Pocket Score                      : -0.0667
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9442
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5917
+HEADER 5  - Mean B-factor of pocket residues  : 0.7165
+HEADER 6  - Hydrophobicity Score              : 25.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 215.4729
+HEADER 10  -Pocket volume (convex hull)       : 1.7459
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM   4085   CB ARG B 333      37.406  10.203  26.828  0.00  0.00           C 0
+ATOM   4083   CA ARG B 333      36.781  10.570  28.172  0.00  0.00           C 0
+ATOM   4073  OE1 GLN B 331      39.500   3.605  29.844  0.00  0.00           O 0
+ATOM   4087   CG ARG B 333      38.875  10.625  26.688  0.00  0.00           C 0
+ATOM   4088   CD ARG B 333      39.438  10.195  25.359  0.00  0.00           C 0
+ATOM   4069    O GLN B 331      34.875   5.977  28.984  0.00  0.00           O 0
+ATOM   4068   CB GLN B 331      36.938   4.430  30.500  0.00  0.00           C 0
+ATOM   4078    O ILE B 332      36.156   9.852  30.531  0.44  9.64           O 0
+ATOM   4071   CD GLN B 331      39.219   3.467  31.031  0.00  0.00           C 0
+ATOM   4070   CG GLN B 331      37.844   3.795  31.562  0.00  0.00           C 0
+ATOM   4066   CA GLN B 331      35.719   5.129  31.078  0.00  0.00           C 0
+ATOM   4082    N ARG B 333      35.781   9.578  28.562  0.65  3.28           N 0
+ATOM   4067    C GLN B 331      35.250   6.238  30.125  0.00  0.00           C 0
+TER
+END

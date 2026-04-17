@@ -1,0 +1,141 @@
+[triage] output dir: /home/bryza/sma-research/qms/mdm2_mechanism_triage
+[triage] N_REPLICAS=2 recycling=1 sampling=25
+
+=== STEP 1: baseline MDM2+TP53-peptide (no ligand) ===
+[baseline rep0] iptm=0.9607 ptm=0.8751 plddt=0.9318 err=None t=31.1s
+[baseline rep1] iptm=0.9592 ptm=0.8930 plddt=0.9347 err=None t=30.7s
+[baseline] mean_iptm=0.9600 sd=0.0011 n_ok=2
+
+=== STEP 2: loaded 20 V1 + 20 V2 compounds ===
+
+=== STEP 3: V1 compounds (20) ===
+  [V1_rank1 rep0] iptm=0.9854 err=None t=31.2s
+  [V1_rank1 rep1] iptm=0.9792 err=None t=30.4s
+  [V1_rank1] mean_iptm=0.9823 sd=0.0044 delta=+0.0223 => AMBIGUOUS
+  [V1_rank2 rep0] iptm=0.9848 err=None t=30.8s
+  [V1_rank2 rep1] iptm=0.9854 err=None t=30.7s
+  [V1_rank2] mean_iptm=0.9851 sd=0.0004 delta=+0.0251 => AMBIGUOUS
+  [V1_rank3 rep0] iptm=0.9803 err=None t=37.0s
+  [V1_rank3 rep1] iptm=0.9550 err=None t=33.2s
+  [V1_rank3] mean_iptm=0.9676 sd=0.0179 delta=+0.0077 => AMBIGUOUS
+  [V1_rank4 rep0] iptm=0.9794 err=None t=36.1s
+  [V1_rank4 rep1] iptm=0.9801 err=None t=37.5s
+  [V1_rank4] mean_iptm=0.9797 sd=0.0006 delta=+0.0198 => AMBIGUOUS
+  [V1_rank5 rep0] iptm=0.9659 err=None t=35.4s
+  [V1_rank5 rep1] iptm=0.9693 err=None t=36.6s
+  [V1_rank5] mean_iptm=0.9676 sd=0.0024 delta=+0.0076 => AMBIGUOUS
+  [V1_rank6 rep0] iptm=0.9414 err=None t=33.1s
+  [V1_rank6 rep1] iptm=0.9487 err=None t=34.8s
+  [V1_rank6] mean_iptm=0.9451 sd=0.0052 delta=-0.0149 => AMBIGUOUS
+  [V1_rank7 rep0] iptm=0.9575 err=None t=36.7s
+  [V1_rank7 rep1] iptm=0.9387 err=None t=34.2s
+  [V1_rank7] mean_iptm=0.9481 sd=0.0133 delta=-0.0118 => AMBIGUOUS
+  [V1_rank8 rep0] iptm=0.9748 err=None t=34.5s
+  [V1_rank8 rep1] iptm=0.9723 err=None t=34.1s
+  [V1_rank8] mean_iptm=0.9735 sd=0.0017 delta=+0.0135 => AMBIGUOUS
+  [V1_rank9 rep0] iptm=0.9062 err=None t=37.5s
+  [V1_rank9 rep1] iptm=0.9783 err=None t=37.8s
+  [V1_rank9] mean_iptm=0.9423 sd=0.0510 delta=-0.0177 => AMBIGUOUS
+  [V1_rank10 rep0] iptm=0.9693 err=None t=34.1s
+  [V1_rank10 rep1] iptm=0.9667 err=None t=33.9s
+  [V1_rank10] mean_iptm=0.9680 sd=0.0019 delta=+0.0080 => AMBIGUOUS
+  [V1_rank11 rep0] iptm=0.8867 err=None t=36.8s
+  [V1_rank11 rep1] iptm=0.9675 err=None t=34.1s
+  [V1_rank11] mean_iptm=0.9271 sd=0.0571 delta=-0.0329 => AMBIGUOUS
+  [V1_rank12 rep0] iptm=0.9752 err=None t=33.9s
+  [V1_rank12 rep1] iptm=0.9632 err=None t=37.1s
+  [V1_rank12] mean_iptm=0.9692 sd=0.0085 delta=+0.0092 => AMBIGUOUS
+  [V1_rank13 rep0] iptm=0.9726 err=None t=33.2s
+  [V1_rank13 rep1] iptm=0.9159 err=None t=40.6s
+  [V1_rank13] mean_iptm=0.9443 sd=0.0401 delta=-0.0157 => AMBIGUOUS
+  [V1_rank14 rep0] iptm=0.8486 err=None t=33.4s
+  [V1_rank14 rep1] iptm=0.9727 err=None t=37.0s
+  [V1_rank14] mean_iptm=0.9107 sd=0.0877 delta=-0.0493 => AMBIGUOUS
+  [V1_rank15 rep0] iptm=0.9636 err=None t=34.7s
+  [V1_rank15 rep1] iptm=0.8483 err=None t=34.1s
+  [V1_rank15] mean_iptm=0.9060 sd=0.0815 delta=-0.0540 => AMBIGUOUS
+  [V1_rank16 rep0] iptm=0.9668 err=None t=36.7s
+  [V1_rank16 rep1] iptm=0.9212 err=None t=35.0s
+  [V1_rank16] mean_iptm=0.9440 sd=0.0322 delta=-0.0160 => AMBIGUOUS
+  [V1_rank17 rep0] iptm=0.9256 err=None t=36.9s
+  [V1_rank17 rep1] iptm=0.9715 err=None t=35.8s
+  [V1_rank17] mean_iptm=0.9486 sd=0.0325 delta=-0.0114 => AMBIGUOUS
+  [V1_rank18 rep0] iptm=0.9687 err=None t=34.0s
+  [V1_rank18 rep1] iptm=0.9785 err=None t=32.2s
+  [V1_rank18] mean_iptm=0.9736 sd=0.0070 delta=+0.0136 => AMBIGUOUS
+  [V1_rank19 rep0] iptm=0.9746 err=None t=33.3s
+  [V1_rank19 rep1] iptm=0.9797 err=None t=32.5s
+  [V1_rank19] mean_iptm=0.9772 sd=0.0037 delta=+0.0172 => AMBIGUOUS
+  [V1_rank20 rep0] iptm=0.9520 err=None t=36.3s
+  [V1_rank20 rep1] iptm=0.9518 err=None t=33.8s
+  [V1_rank20] mean_iptm=0.9519 sd=0.0001 delta=-0.0081 => AMBIGUOUS
+
+=== STEP 3: V2 compounds (20) ===
+  [V2_97-incomp.sdf] multi-frag detected; using larger fragment: CCOC(O)c1cc2[nH+]ccc-2c2c(c1)CC(C)(C)C2 (orig: CCOC(O)c1cc2[nH+]ccc-2c2c(c1)CC(C)(C)C2.c1ccc2[nH]nnc2c1)
+  [V2_97-incomp.sdf rep0] iptm=0.9794 err=None t=38.2s
+  [V2_97-incomp.sdf rep1] iptm=0.9772 err=None t=36.2s
+  [V2_97-incomp.sdf] mean_iptm=0.9783 sd=0.0016 delta=+0.0183 => AMBIGUOUS
+  [V2_115-incomp.sdf] multi-frag detected; using larger fragment: O=C1OC2=C3C(CCC2)OOC3c2ccc(O)c(O)c21 (orig: CN1CCCCCN1.O=C1OC2=C3C(CCC2)OOC3c2ccc(O)c(O)c21)
+  [V2_115-incomp.sdf rep0] iptm=0.9572 err=None t=37.1s
+  [V2_115-incomp.sdf rep1] iptm=0.8469 err=None t=34.7s
+  [V2_115-incomp.sdf] mean_iptm=0.9020 sd=0.0780 delta=-0.0579 => AMBIGUOUS
+  [V2_227-incomp.sdf] multi-frag detected; using larger fragment: c1ccc2c(c1)=NC1=c3ccccc3=NC=21 (orig: Cc1cc(O)ccc(C=O)c1=O.c1ccc2c(c1)=NC1=c3ccccc3=NC=21)
+  [V2_227-incomp.sdf rep0] iptm=0.9658 err=None t=34.0s
+  [V2_227-incomp.sdf rep1] iptm=0.9688 err=None t=37.7s
+  [V2_227-incomp.sdf] mean_iptm=0.9673 sd=0.0021 delta=+0.0073 => AMBIGUOUS
+  [V2_320.sdf rep0] iptm=0.9839 err=None t=35.1s
+  [V2_320.sdf rep1] iptm=0.9786 err=None t=38.0s
+  [V2_320.sdf] mean_iptm=0.9813 sd=0.0037 delta=+0.0213 => AMBIGUOUS
+  [V2_358.sdf rep0] iptm=0.9733 err=None t=34.7s
+  [V2_358.sdf rep1] iptm=0.9775 err=None t=38.1s
+  [V2_358.sdf] mean_iptm=0.9754 sd=0.0030 delta=+0.0154 => AMBIGUOUS
+  [V2_291.sdf rep0] iptm=0.9327 err=None t=35.0s
+  [V2_291.sdf rep1] iptm=0.8290 err=None t=35.8s
+  [V2_291.sdf] mean_iptm=0.8809 sd=0.0733 delta=-0.0791 => AMBIGUOUS
+  [V2_313.sdf rep0] iptm=0.9717 err=None t=33.0s
+  [V2_313.sdf rep1] iptm=0.9769 err=None t=32.7s
+  [V2_313.sdf] mean_iptm=0.9743 sd=0.0037 delta=+0.0143 => AMBIGUOUS
+  [V2_407.sdf rep0] iptm=0.9127 err=None t=39.8s
+  [V2_407.sdf rep1] iptm=0.9199 err=None t=35.4s
+  [V2_407.sdf] mean_iptm=0.9163 sd=0.0051 delta=-0.0437 => AMBIGUOUS
+  [V2_554.sdf rep0] iptm=0.9765 err=None t=36.8s
+  [V2_554.sdf rep1] iptm=0.9522 err=None t=33.7s
+  [V2_554.sdf] mean_iptm=0.9644 sd=0.0172 delta=+0.0044 => AMBIGUOUS
+  [V2_323.sdf rep0] iptm=0.9832 err=None t=33.1s
+  [V2_323.sdf rep1] iptm=0.9840 err=None t=40.9s
+  [V2_323.sdf] mean_iptm=0.9836 sd=0.0006 delta=+0.0236 => AMBIGUOUS
+  [V2_64.sdf rep0] iptm=0.9583 err=None t=35.0s
+  [V2_64.sdf rep1] iptm=0.9708 err=None t=35.1s
+  [V2_64.sdf] mean_iptm=0.9645 sd=0.0089 delta=+0.0045 => AMBIGUOUS
+  [V2_509.sdf rep0] iptm=0.8906 err=None t=33.6s
+  [V2_509.sdf rep1] iptm=0.8660 err=None t=32.7s
+  [V2_509.sdf] mean_iptm=0.8783 sd=0.0174 delta=-0.0817 => AMBIGUOUS
+  [V2_276.sdf rep0] iptm=0.9739 err=None t=37.6s
+  [V2_276.sdf rep1] iptm=0.8887 err=None t=33.6s
+  [V2_276.sdf] mean_iptm=0.9313 sd=0.0602 delta=-0.0287 => AMBIGUOUS
+  [V2_403.sdf rep0] iptm=0.9546 err=None t=36.3s
+  [V2_403.sdf rep1] iptm=0.9119 err=None t=33.9s
+  [V2_403.sdf] mean_iptm=0.9332 sd=0.0302 delta=-0.0268 => AMBIGUOUS
+  [V2_13.sdf rep0] iptm=0.9669 err=None t=35.8s
+  [V2_13.sdf rep1] iptm=0.8312 err=None t=34.7s
+  [V2_13.sdf] mean_iptm=0.8991 sd=0.0959 delta=-0.0609 => AMBIGUOUS
+  [V2_390.sdf rep0] iptm=0.9639 err=None t=34.3s
+  [V2_390.sdf rep1] iptm=0.9369 err=None t=34.6s
+  [V2_390.sdf] mean_iptm=0.9504 sd=0.0191 delta=-0.0096 => AMBIGUOUS
+  [V2_385.sdf rep0] iptm=0.9656 err=None t=34.3s
+  [V2_385.sdf rep1] iptm=0.9429 err=None t=34.4s
+  [V2_385.sdf] mean_iptm=0.9542 sd=0.0160 delta=-0.0057 => AMBIGUOUS
+  [V2_489.sdf rep0] iptm=0.9704 err=None t=33.8s
+  [V2_489.sdf rep1] iptm=0.9740 err=None t=32.9s
+  [V2_489.sdf] mean_iptm=0.9722 sd=0.0026 delta=+0.0122 => AMBIGUOUS
+  [V2_513.sdf rep0] iptm=0.8645 err=None t=36.7s
+  [V2_513.sdf rep1] iptm=0.8687 err=None t=36.3s
+  [V2_513.sdf] mean_iptm=0.8666 sd=0.0030 delta=-0.0934 => AMBIGUOUS
+  [V2_389.sdf rep0] iptm=0.9633 err=None t=36.7s
+  [V2_389.sdf rep1] iptm=0.9767 err=None t=34.0s
+  [V2_389.sdf] mean_iptm=0.9700 sd=0.0095 delta=+0.0101 => AMBIGUOUS
+
+=== DONE ===
+Baseline iptm: 0.9600 +/- 0.0011
+V1 (20): INHIBITOR=0 ACTIVATOR=0 AMBIGUOUS=20
+V2 (20): INHIBITOR=0 ACTIVATOR=0 AMBIGUOUS=20

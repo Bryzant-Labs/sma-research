@@ -1,0 +1,1 @@
+canonical_smiles,MW,logP,TPSA,HBD,HBA,QED,BBB_heuristic,Lipinski_pass,PAINS_count,has_charged_center,has_reactive_group,murcko_scaffold,campaigns_hit,targets_hit,n_campaigns,tier_A_hits,tier_B_hits,tier_C_hits,PAINS_penalty,composite,polypharm_bonus,anti_target_penalty,final_score

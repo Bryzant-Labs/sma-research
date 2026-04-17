@@ -1,0 +1,210 @@
+{
+  "PIK3C2A": {
+    "uniprot": "O00443",
+    "pdb_id": "6BU0",
+    "pocket_strategy": "ligand",
+    "pocket_spec": "IHP",
+    "pocket_center": [
+      -37.43,
+      12.29,
+      -17.33
+    ],
+    "pocket_radius": 10.0,
+    "rationale": "PI3K-C2alpha PX domain + IP6 lipid pocket"
+  },
+  "RANBP2": {
+    "uniprot": "P49792",
+    "pdb_id": "4I9Y",
+    "pocket_strategy": "fpocket",
+    "pocket_spec": "",
+    "pocket_center": [
+      -1.16,
+      -9.09,
+      27.87
+    ],
+    "pocket_radius": 10.0,
+    "rationale": "RanBP2 C-term cyclophilin-like domain apo"
+  },
+  "OPTN": {
+    "uniprot": "Q96CV9",
+    "pdb_id": "5B83",
+    "pocket_strategy": "residues",
+    "pocket_spec": "424,430,431,434,438,443,462,466",
+    "pocket_center": [
+      38.45,
+      23.65,
+      24.16
+    ],
+    "pocket_radius": 10.0,
+    "rationale": "OPTN UBAN ubiquitin-binding surface (PPI inhibitor target)"
+  },
+  "EP400": {
+    "uniprot": "Q96L91",
+    "pdb_id": "9C57",
+    "pocket_strategy": "ligand",
+    "pocket_spec": "AGS",
+    "pocket_center": [
+      209.03,
+      163.39,
+      213.97
+    ],
+    "pocket_radius": 10.0,
+    "rationale": "EP400 ATPase domain ATP-binding pocket (9C57 AMP-PNP analog)"
+  },
+  "PEAK1": {
+    "uniprot": "Q9H792",
+    "pdb_id": "6BHC",
+    "pocket_strategy": "residues",
+    "pocket_spec": "1435,1454,1571,1572,1573",
+    "pocket_center": [
+      -20.15,
+      -9.4,
+      49.13
+    ],
+    "pocket_radius": 10.0,
+    "rationale": "PEAK1 ATP-binding cleft (apo pseudokinase)"
+  },
+  "USP34": {
+    "uniprot": "Q70CQ2",
+    "pdb_id": "7W3R",
+    "pocket_strategy": "fpocket",
+    "pocket_spec": "",
+    "pocket_center": [
+      39.7,
+      66.32,
+      60.58
+    ],
+    "pocket_radius": 10.0,
+    "rationale": "USP34 catalytic domain apo (fpocket)"
+  },
+  "KAT7": {
+    "uniprot": "O95251",
+    "pdb_id": "7D0P",
+    "pocket_strategy": "ligand",
+    "pocket_spec": "1VU",
+    "pocket_center": [
+      196.25,
+      -0.02,
+      95.29
+    ],
+    "pocket_radius": 10.0,
+    "rationale": "KAT7/HBO1 MYST HAT + propionyl-CoA pocket"
+  },
+  "RNF213": {
+    "uniprot": "Q63HN8",
+    "pdb_id": "8S24",
+    "pocket_strategy": "ligand",
+    "pocket_spec": "ATP",
+    "pocket_center": [
+      221.02,
+      280.24,
+      184.81
+    ],
+    "pocket_radius": 10.0,
+    "rationale": "RNF213 AAA ATPase ATP pocket (cryoEM 3.0\u00c5)"
+  },
+  "BTF3": {
+    "uniprot": "P20290",
+    "pdb_id": "3MCB",
+    "pocket_strategy": "fpocket",
+    "pocket_spec": "",
+    "pocket_center": [
+      1.22,
+      18.78,
+      63.84
+    ],
+    "pocket_radius": 10.0,
+    "rationale": "BTF3 NAC dimer surface (fpocket)"
+  },
+  "EHMT2": {
+    "uniprot": "Q96KQ7",
+    "pdb_id": "5VSC",
+    "pocket_strategy": "ligand",
+    "pocket_spec": "9HJ",
+    "pocket_center": [
+      22.05,
+      16.51,
+      8.15
+    ],
+    "pocket_radius": 10.0,
+    "rationale": "EHMT2/G9a SET domain inhibitor site (co-crystal)"
+  },
+  "TIAM1": {
+    "uniprot": "Q13009",
+    "pdb_id": "4K2P",
+    "pocket_strategy": "fpocket",
+    "pocket_spec": "",
+    "pocket_center": [
+      19.93,
+      -1.08,
+      21.91
+    ],
+    "pocket_radius": 10.0,
+    "rationale": "TIAM1 PH-CC-Ex GEF catalytic surface"
+  },
+  "KAT6A": {
+    "uniprot": "Q92794",
+    "pdb_id": "9DZN",
+    "pocket_strategy": "ligand",
+    "pocket_spec": "CMC",
+    "pocket_center": [
+      13.14,
+      11.03,
+      16.47
+    ],
+    "pocket_radius": 10.0,
+    "rationale": "KAT6A MYST HAT + bisubstrate inhibitor (co-crystal)"
+  },
+  "KAT5": {
+    "uniprot": "Q92993",
+    "pdb_id": "2OU2",
+    "pocket_strategy": "ligand",
+    "pocket_spec": "ACO",
+    "pocket_center": [
+      27.46,
+      24.07,
+      10.28
+    ],
+    "pocket_radius": 10.0,
+    "rationale": "KAT5/TIP60 MYST HAT + acetyl-CoA"
+  },
+  "MYCBP2": {
+    "uniprot": "O75592",
+    "pdb_id": "5O6C",
+    "pocket_strategy": "fpocket",
+    "pocket_spec": "",
+    "pocket_center": [
+      26.52,
+      14.3,
+      26.44
+    ],
+    "pocket_radius": 10.0,
+    "rationale": "MYCBP2 RCR E3 ligase catalytic pocket (apo, fpocket)"
+  },
+  "KMT5B": {
+    "uniprot": "Q4FZB7",
+    "pdb_id": "3S8P",
+    "pocket_strategy": "ligand",
+    "pocket_spec": "SAM",
+    "pocket_center": [
+      5.2,
+      36.29,
+      -5.36
+    ],
+    "pocket_radius": 10.0,
+    "rationale": "KMT5B/SUV420H1 SET domain + SAM cofactor"
+  },
+  "EHMT1": {
+    "uniprot": "Q9H9B1",
+    "pdb_id": "3HNA",
+    "pocket_strategy": "ligand",
+    "pocket_spec": "SAH",
+    "pocket_center": [
+      14.96,
+      2.07,
+      14.52
+    ],
+    "pocket_radius": 10.0,
+    "rationale": "EHMT1/GLP SET domain + SAH cofactor"
+  }
+}

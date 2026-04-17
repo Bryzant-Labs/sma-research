@@ -1,0 +1,79 @@
+{
+  "pdb": "4TPT",
+  "title_verified": "CRYSTAL STRUCTURE OF THE HUMAN LIMK2 KINASE DOMAIN IN COMPLEX WITH A NON-ATP COMPETITIVE INHIBITOR",
+  "note": "Task spec mentioned K383/T407/G408/T409/D460 but 4TPT local numbering is UniProt; resolved mappings: catalytic K360, \u03b1C-Glu E376, DFG D469, gatekeeper ~T405. Strategies use these real anchors.",
+  "prior_alphaC_pocket": [
+    9.556,
+    -12.361,
+    17.014
+  ],
+  "pocket_A_activator_Dfg_oriented": {
+    "center": [
+      7.629016121369579,
+      -8.294468489829104,
+      17.021389741921208
+    ],
+    "radius": 10,
+    "anchor": "shifted 4.5\u00c5 from prior \u03b1C toward DFG-Asp D469 C\u03b1"
+  },
+  "pocket_B_limki3_seeded": {
+    "center": [
+      9.384,
+      7.372,
+      20.916
+    ],
+    "radius": 10,
+    "anchor": "35H (LIMKi3 analog) ligand COM in 4TPT"
+  },
+  "pocket_C_Hbond_network": {
+    "center": [
+      3.6195000000000004,
+      -8.196250000000001,
+      22.835
+    ],
+    "radius": 8,
+    "anchor": "midpoint of E376 \u03b1C-Glu carboxylate and D469 DFG-Asp carboxylate"
+  },
+  "key_residues_4TPT": {
+    "catalytic_K360_NZ": [
+      13.546,
+      -0.318,
+      19.293
+    ],
+    "\u03b1C_E376_OE1": [
+      4.344,
+      -12.284,
+      25.643
+    ],
+    "\u03b1C_E376_OE2": [
+      2.318,
+      -12.803,
+      26.272
+    ],
+    "gatekeeper_T405_OG1": [
+      13.558,
+      -6.385,
+      13.897
+    ],
+    "HRD_D451_CA": [
+      -1.066,
+      0.522,
+      19.374
+    ],
+    "DFG_D469_OD1": [
+      3.97,
+      -2.76,
+      19.567
+    ],
+    "DFG_D469_OD2": [
+      3.846,
+      -4.938,
+      19.858
+    ]
+  },
+  "35H_ligand_COM": [
+    9.384,
+    7.372,
+    20.916
+  ]
+}

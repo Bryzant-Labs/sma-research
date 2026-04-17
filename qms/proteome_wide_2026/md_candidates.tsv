@@ -1,0 +1,4 @@
+bbb_score	cfd_pos	composite	compound_id	filename	method	qed	smiles	target
+1.0	2.902360916137696	2.680848881817018	PEAK1_r?	421.sdf	pxm_composite	0.92367867376899	Cc1ccc(C)c2c1=NC1=C(Nc3ccc(F)cc3)C(=O)N=NC=21	PEAK1
+0.85	2.9483091831207275	1.3837858782866894	EHMT2_r?	182.sdf	pxm_composite	0.5521752588025541	O=C(CNC(=O)c1ccc(-c2ccccc2)cc1)NCCOCc1ccccc1	EHMT2
+1.0	2.8836476802825928	1.377942021923902	KAT5_r?	219.sdf	pxm_composite	0.4778468712893754	O=c1[nH]c(-c2c[nH+]c3ccccc3c2)nc2cc3ccccc3cc12	KAT5

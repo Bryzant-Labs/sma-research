@@ -1,0 +1,484 @@
+[
+  {
+    "complex": "PERP_DOK7",
+    "partner": "DOK7 (Q18PE1)",
+    "n_interface_residues_on_PERP": 18,
+    "perp_interface_residues": [
+      4,
+      5,
+      6,
+      8,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190
+    ],
+    "n_total_pockets": 19,
+    "n_interface_pockets": 6,
+    "best_interface_pocket": {
+      "pocket_num": 17,
+      "druggability_score": 0.273,
+      "volume_A3": 1881.584,
+      "hydrophobicity_score": 45.179,
+      "total_SASA": 532.207,
+      "apolar_alpha_sphere_proportion": 0.623,
+      "center_xyz": [
+        5.90089,
+        -7.184730000000001,
+        5.368049999999999
+      ],
+      "dist_to_nearest_interface_CA_A": 4.955892833027522,
+      "pocket_score_fpocket": -0.371,
+      "num_alpha_spheres": 162.0
+    },
+    "top5_interface_pockets_druggability": [
+      {
+        "pocket_num": 17,
+        "drug": 0.273,
+        "vol": 1881.584,
+        "score": -0.371,
+        "dist_A": 4.955892833027522
+      },
+      {
+        "pocket_num": 3,
+        "drug": 0.012,
+        "vol": 700.15,
+        "score": -0.066,
+        "dist_A": 3.0662685878205176
+      },
+      {
+        "pocket_num": 10,
+        "drug": 0.001,
+        "vol": 334.61,
+        "score": -0.122,
+        "dist_A": 7.267514232090401
+      },
+      {
+        "pocket_num": 4,
+        "drug": 0.0,
+        "vol": 134.378,
+        "score": -0.072,
+        "dist_A": 7.487321778079653
+      },
+      {
+        "pocket_num": 7,
+        "drug": 0.0,
+        "vol": 302.896,
+        "score": -0.103,
+        "dist_A": 4.391602514545532
+      }
+    ]
+  },
+  {
+    "complex": "PERP_TP53",
+    "partner": "TP53 (P04637)",
+    "n_interface_residues_on_PERP": 11,
+    "perp_interface_residues": [
+      177,
+      178,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190
+    ],
+    "n_total_pockets": 35,
+    "n_interface_pockets": 7,
+    "best_interface_pocket": {
+      "pocket_num": 3,
+      "druggability_score": 0.198,
+      "volume_A3": 806.674,
+      "hydrophobicity_score": 18.941,
+      "total_SASA": 248.764,
+      "apolar_alpha_sphere_proportion": 0.364,
+      "center_xyz": [
+        10.042214285714286,
+        8.416553571428569,
+        -3.1868214285714287
+      ],
+      "dist_to_nearest_interface_CA_A": 4.2554063384622065,
+      "pocket_score_fpocket": 0.108,
+      "num_alpha_spheres": 99.0
+    },
+    "top5_interface_pockets_druggability": [
+      {
+        "pocket_num": 3,
+        "drug": 0.198,
+        "vol": 806.674,
+        "score": 0.108,
+        "dist_A": 4.2554063384622065
+      },
+      {
+        "pocket_num": 32,
+        "drug": 0.141,
+        "vol": 771.579,
+        "score": -0.149,
+        "dist_A": 6.163503968869387
+      },
+      {
+        "pocket_num": 28,
+        "drug": 0.007,
+        "vol": 986.351,
+        "score": -0.095,
+        "dist_A": 7.448060659955893
+      },
+      {
+        "pocket_num": 2,
+        "drug": 0.003,
+        "vol": 127.23,
+        "score": 0.111,
+        "dist_A": 6.313317372847426
+      },
+      {
+        "pocket_num": 20,
+        "drug": 0.001,
+        "vol": 464.845,
+        "score": -0.042,
+        "dist_A": 7.377443916820361
+      }
+    ]
+  },
+  {
+    "complex": "PERP_AGRN_LG3",
+    "partner": "AGRN LG3 (O00468)",
+    "n_interface_residues_on_PERP": 18,
+    "perp_interface_residues": [
+      105,
+      109,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      190,
+      192,
+      193
+    ],
+    "n_total_pockets": 38,
+    "n_interface_pockets": 7,
+    "best_interface_pocket": {
+      "pocket_num": 34,
+      "druggability_score": 0.858,
+      "volume_A3": 599.266,
+      "hydrophobicity_score": 65.25,
+      "total_SASA": 217.398,
+      "apolar_alpha_sphere_proportion": 0.984,
+      "center_xyz": [
+        -4.623333333333333,
+        -3.401476190476191,
+        -2.360785714285715
+      ],
+      "dist_to_nearest_interface_CA_A": 5.818260801005942,
+      "pocket_score_fpocket": -0.222,
+      "num_alpha_spheres": 61.0
+    },
+    "top5_interface_pockets_druggability": [
+      {
+        "pocket_num": 34,
+        "drug": 0.858,
+        "vol": 599.266,
+        "score": -0.222,
+        "dist_A": 5.818260801005942
+      },
+      {
+        "pocket_num": 5,
+        "drug": 0.584,
+        "vol": 346.118,
+        "score": 0.004,
+        "dist_A": 5.903010415543505
+      },
+      {
+        "pocket_num": 22,
+        "drug": 0.069,
+        "vol": 289.737,
+        "score": -0.095,
+        "dist_A": 7.45825017931926
+      },
+      {
+        "pocket_num": 16,
+        "drug": 0.007,
+        "vol": 294.922,
+        "score": -0.063,
+        "dist_A": 4.727449417723812
+      },
+      {
+        "pocket_num": 18,
+        "drug": 0.002,
+        "vol": 315.971,
+        "score": -0.077,
+        "dist_A": 4.306974636363936
+      }
+    ]
+  },
+  {
+    "complex": "PERP_RAPSN",
+    "partner": "RAPSN (Q13702)",
+    "n_interface_residues_on_PERP": 13,
+    "perp_interface_residues": [
+      109,
+      175,
+      178,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      188,
+      189,
+      190,
+      192
+    ],
+    "n_total_pockets": 46,
+    "n_interface_pockets": 8,
+    "best_interface_pocket": {
+      "pocket_num": 6,
+      "druggability_score": 0.079,
+      "volume_A3": 525.393,
+      "hydrophobicity_score": 13.0,
+      "total_SASA": 153.163,
+      "apolar_alpha_sphere_proportion": 0.353,
+      "center_xyz": [
+        -3.6279782608695657,
+        -9.63941304347826,
+        0.2966956521739131
+      ],
+      "dist_to_nearest_interface_CA_A": 4.088368506648181,
+      "pocket_score_fpocket": 0.051,
+      "num_alpha_spheres": 68.0
+    },
+    "top5_interface_pockets_druggability": [
+      {
+        "pocket_num": 6,
+        "drug": 0.079,
+        "vol": 525.393,
+        "score": 0.051,
+        "dist_A": 4.088368506648181
+      },
+      {
+        "pocket_num": 45,
+        "drug": 0.015,
+        "vol": 457.486,
+        "score": -0.265,
+        "dist_A": 6.441243324416111
+      },
+      {
+        "pocket_num": 25,
+        "drug": 0.005,
+        "vol": 541.844,
+        "score": -0.053,
+        "dist_A": 3.0259382080824757
+      },
+      {
+        "pocket_num": 3,
+        "drug": 0.004,
+        "vol": 118.55,
+        "score": 0.091,
+        "dist_A": 5.239655073885787
+      },
+      {
+        "pocket_num": 24,
+        "drug": 0.001,
+        "vol": 217.211,
+        "score": -0.045,
+        "dist_A": 7.116576962885011
+      }
+    ]
+  },
+  {
+    "complex": "PERP_SMN1",
+    "partner": "SMN1 (Q16637)",
+    "n_interface_residues_on_PERP": 15,
+    "perp_interface_residues": [
+      37,
+      54,
+      150,
+      151,
+      157,
+      161,
+      178,
+      179,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      193
+    ],
+    "n_total_pockets": 26,
+    "n_interface_pockets": 10,
+    "best_interface_pocket": {
+      "pocket_num": 22,
+      "druggability_score": 0.733,
+      "volume_A3": 814.675,
+      "hydrophobicity_score": 55.737,
+      "total_SASA": 281.855,
+      "apolar_alpha_sphere_proportion": 0.578,
+      "center_xyz": [
+        -6.615327868852457,
+        10.625475409836065,
+        -1.3097377049180332
+      ],
+      "dist_to_nearest_interface_CA_A": 6.775737329098141,
+      "pocket_score_fpocket": -0.106,
+      "num_alpha_spheres": 109.0
+    },
+    "top5_interface_pockets_druggability": [
+      {
+        "pocket_num": 22,
+        "drug": 0.733,
+        "vol": 814.675,
+        "score": -0.106,
+        "dist_A": 6.775737329098141
+      },
+      {
+        "pocket_num": 14,
+        "drug": 0.062,
+        "vol": 448.859,
+        "score": -0.056,
+        "dist_A": 6.256187476857913
+      },
+      {
+        "pocket_num": 13,
+        "drug": 0.014,
+        "vol": 462.029,
+        "score": -0.053,
+        "dist_A": 4.662330297306093
+      },
+      {
+        "pocket_num": 8,
+        "drug": 0.008,
+        "vol": 352.945,
+        "score": -0.032,
+        "dist_A": 5.279344632235366
+      },
+      {
+        "pocket_num": 20,
+        "drug": 0.004,
+        "vol": 188.267,
+        "score": -0.104,
+        "dist_A": 5.774553674850828
+      }
+    ]
+  },
+  {
+    "complex": "PERP_homodimer",
+    "partner": "PERP (Q96FX8)",
+    "n_interface_residues_on_PERP": 35,
+    "perp_interface_residues": [
+      6,
+      7,
+      8,
+      10,
+      11,
+      14,
+      15,
+      18,
+      25,
+      37,
+      38,
+      39,
+      40,
+      41,
+      54,
+      144,
+      146,
+      148,
+      149,
+      150,
+      151,
+      158,
+      161,
+      162,
+      165,
+      168,
+      169,
+      172,
+      173,
+      175,
+      176,
+      177,
+      179,
+      180,
+      181
+    ],
+    "n_total_pockets": 31,
+    "n_interface_pockets": 17,
+    "best_interface_pocket": {
+      "pocket_num": 16,
+      "druggability_score": 0.971,
+      "volume_A3": 1352.967,
+      "hydrophobicity_score": 47.292,
+      "total_SASA": 425.917,
+      "apolar_alpha_sphere_proportion": 0.821,
+      "center_xyz": [
+        -5.674861386138614,
+        20.02623762376238,
+        11.963029702970294
+      ],
+      "dist_to_nearest_interface_CA_A": 6.410777819523754,
+      "pocket_score_fpocket": -0.057,
+      "num_alpha_spheres": 190.0
+    },
+    "top5_interface_pockets_druggability": [
+      {
+        "pocket_num": 16,
+        "drug": 0.971,
+        "vol": 1352.967,
+        "score": -0.057,
+        "dist_A": 6.410777819523754
+      },
+      {
+        "pocket_num": 10,
+        "drug": 0.881,
+        "vol": 696.301,
+        "score": -0.02,
+        "dist_A": 5.089278400183976
+      },
+      {
+        "pocket_num": 14,
+        "drug": 0.046,
+        "vol": 328.278,
+        "score": -0.044,
+        "dist_A": 4.299048600782287
+      },
+      {
+        "pocket_num": 26,
+        "drug": 0.037,
+        "vol": 323.596,
+        "score": -0.127,
+        "dist_A": 4.612990674485067
+      },
+      {
+        "pocket_num": 27,
+        "drug": 0.022,
+        "vol": 284.412,
+        "score": -0.142,
+        "dist_A": 4.437319928294115
+      }
+    ]
+  }
+]

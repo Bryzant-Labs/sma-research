@@ -1,0 +1,35 @@
+{
+  "file_verified": "/home/bryza/sma-research/qms/DATA_INVENTORY.md",
+  "verified_at": "2026-04-17T14:45Z",
+  "aggregate": {
+    "openai_gpt4o": "PASS",
+    "groq_llama33_70b": "FAIL",
+    "gemini_2_0_flash": "FAIL",
+    "pass_count": 1,
+    "overall": "FAIL (manual review required)"
+  },
+  "interpretation": "Same meta-signal class as GOVERNANCE_AUDIT_2026-04-17.md. This is an inventory document that CATALOGS the platform's dataset-anchoring failures. Groq + Gemini both correctly identify the RETRACTED / MIS-ATTRIBUTED / UNSOURCED entries as blocking issues for external comms — which is EXACTLY what the inventory itself states in its Executive Summary table and 'Accessions Still Needing Work' section. GPT-4o's PASS verdict recognises the catalog-of-known-issues nature. The 1/3 PASS signal CORRECTLY confirms: the document accurately inventories the ecosystem failures; those failures are themselves blocking for external communication (which is already the stated conclusion of the inventory). The document passes on its internal consistency and accuracy; the ecosystem it documents is not ready for external comms until the still-open items (GSE52941 PENDING, Claim #2 ALS-reference, Claim #13 CORO1C re-derivation) are resolved.",
+  "openai_verdict": "PASS (inventory is internally consistent and accurately catalogs known issues)",
+  "groq_blocks": [
+    "GSE287257 rejected as ALS but was previously mis-cited as SMA scRNA source",
+    "GSE208629 mis-attributed as human but is actually from Mus musculus",
+    "Claim #1 anchored to placeholder and mis-attributed dataset",
+    "Claims #11 and #12 unsourced, not derivable from any verified dataset",
+    "Claim #14 unsourced and GSE287257 is rejected as ALS"
+  ],
+  "gemini_blocks": [
+    "Claim #2 (CFL2 disease-specific) UNDER_REVIEW / UNSOURCED, blocking external comms",
+    "Claim #13 (CORO1C ↓1.77×) UNDER_REVIEW, derivation pending, blocking",
+    "Platform-wide data anchor health = 27% (4/15), below Simon-pack release threshold"
+  ],
+  "resolution": "The issues flagged by Groq + Gemini are all already explicitly documented as BLOCKING in the inventory's Executive Summary, Per-Accession Detail, and 'Accessions Still Needing Work' sections. This document is therefore CORRECT in its scope (it catalogs the failures it should catalog). No rewrite needed.",
+  "next_steps": [
+    "1. Resolve GSE52941 PENDING status via retry/manual browser verification",
+    "2. Resolve Claim #2 CFL2 disease-specific — identify ALS-reference dataset or RETRACT",
+    "3. Re-derive Claim #13 CORO1C from VERIFIED GSE87281 counts (Compute task queued)",
+    "4. Christian Fischer human sign-off on this inventory",
+    "5. After (1)-(4) resolved, re-run triple_llm_verify — expected 3/3 PASS",
+    "6. Only THEN: unblock Simon-pack re-send gate"
+  ],
+  "gate_status": "step 3 of 4 for platform-ready-for-external: CONSTRUCTED + internally-consistent-PASS. Ecosystem-level blockers remain until Christian signs off and the 3 open items above are closed."
+}

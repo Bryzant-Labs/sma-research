@@ -1,0 +1,94 @@
+[2026-04-17 07:33:29] ======================================================================
+[2026-04-17 07:33:29] meta_deseq2_3dataset.py run start
+[2026-04-17 07:33:29]   sma-research git SHA: baff0a0f5b7417170752e78291dc30035244bfc9
+[2026-04-17 07:33:29]   Python: 3.12.3
+[2026-04-17 07:33:29]   pydeseq2: 0.5.4
+[2026-04-17 07:33:29]   scipy: 1.17.1
+[2026-04-17 07:33:29]   numpy: 2.4.4
+[2026-04-17 07:33:29]   pandas: 2.3.3
+[2026-04-17 07:33:29]   matplotlib: 3.10.8
+[2026-04-17 07:33:29]   out_dir: /home/bryza/sma-research/qms/meta_analysis
+[2026-04-17 07:33:29]   target_genes (18): ['LIMK2', 'LIMK1', 'ROCK1', 'ROCK2', 'CFL1', 'CFL2', 'PFN1', 'PFN2', 'TP53', 'PERP', 'SMN1', 'SMN2', 'MAPT', 'NEFL', 'NEFH', 'CHAT', 'MNX1', 'ISL1']
+[2026-04-17 07:33:29] ======================================================================
+[2026-04-17 07:33:29] dataset_verify(GSE290979) ...
+[2026-04-17 07:33:29]   verify: === dataset_verify: GSE290979 ===
+[2026-04-17 07:33:29]   verify: --- key fields ---
+[2026-04-17 07:33:29]   verify:   title: !Series_title	"Targeted Antisense Oligonucleotide Treatment Rescues Developmental Alterations in Spinal Muscular Atrophy Organoids [bulk RNA-seq]"
+[2026-04-17 07:33:29]   verify:   organism: —
+[2026-04-17 07:33:29]   verify:   type: !Series_type	"Expression profiling by high throughput sequencing"
+[2026-04-17 07:33:29]   verify:   sample_chars (first 200 chars): !Sample_characteristics_ch1	"cell line: C2"	"cell line: C2"	"cell line: C2"	"cell line: C3"	"cell line: C3"	"cell line: C3"	"cell line: C1"	"cell line: C1"	"cell line: C1"	"cell line: S3"	"cell line: 
+[2026-04-17 07:33:29]   verify: 
+[2026-04-17 07:33:29]   verify: --- verification ---
+[2026-04-17 07:33:29]   verify:   ✓ expect_disease: 'spinal muscular atrophy|SMA|SMN' found: yes
+[2026-04-17 07:33:29]   verify:   ✓ expect_organism: 'Homo sapiens' found: yes
+[2026-04-17 07:33:29]   verify:   ✓ expect_tissue: 'motor neuron|spinal|organoid|neuron' found: yes
+[2026-04-17 07:33:29]   verify:   ✓ reject_any: no prohibited terms (ALS\b|salmon|HepG2\b)
+[2026-04-17 07:33:29]   verify: 
+[2026-04-17 07:33:29]   verify: === PASS — GSE290979 verified for use ===
+[2026-04-17 07:33:29]   -> PASS
+[2026-04-17 07:33:29]   GSE290979: loading count matrix /home/bryza/data/scrnaseq/GSE290979/GSE290979_count_matrix.txt.gz
+[2026-04-17 07:33:29]   GSE290979: matrix shape (19417, 31)
+[2026-04-17 07:33:29]   GSE290979: fetching https://ftp.ncbi.nlm.nih.gov/geo/series/GSE290nnn/GSE290979/matrix/GSE290979_series_matrix.txt.gz
+[2026-04-17 07:33:29]   GSE290979: NT-only samples = 15
+[2026-04-17 07:33:29]   GSE290979: group counts
+genotype  treatment
+CTRL      NT           9
+SMA       NT           6
+Name: count, dtype: int64
+[2026-04-17 07:33:30]   GSE290979: running pydeseq2 with design ~genotype
+[2026-04-17 07:33:40]   GSE290979: DESeq2 complete, 19417 genes
+[2026-04-17 07:33:40]   GSE290979: extracted 16/18 target genes
+[2026-04-17 07:33:40]   GSE302774: applying sample-scope verifier (title mentions ALS as mechanistic comparison; samples are SMA MN)
+[2026-04-17 07:33:40]   GSE302774: sample-scope  SMA-match=True  Human=True  ALS-in-samples=False
+[2026-04-17 07:33:40]   GSE302774: PASS (samples are SMN-shRNA vs Scramble in human MN model)
+[2026-04-17 07:33:40]   GSE302774 (Hb9-iMN): loaded 16406 rows
+[2026-04-17 07:33:40]   GSE302774 (Hb9-iMN): extracted 18/18 targets
+[2026-04-17 07:33:40]   GSE302774 (iN): loaded 19016 rows
+[2026-04-17 07:33:40]   GSE302774 (iN): extracted 18/18 targets
+[2026-04-17 07:33:40] dataset_verify_direct_url(GSE87281, https://ftp.ncbi.nlm.nih.gov/geo/series/GSE87nnn/GSE87281/matrix/GSE87281-GPL11154_series_matrix.txt.gz) ...
+[2026-04-17 07:33:41]   disease match: True  tissue match: True  reject hit: False
+[2026-04-17 07:33:41]   -> PASS
+[2026-04-17 07:33:41]   GSE87281 (hiPSC-MN): matrix shape (58088, 7)  samples: ['shCtrl_R1_hiPSC_MN', 'shCtrl_R2_hiPSC_MN', 'shCtrl_R3_hiPSC_MN', 'shSMN_1_R1_hiPSC_MN', 'shSMN_1_R3_hiPSC_MN', 'shSMN_2_R2_hiPSC_MN', 'shSMN_2_R3_hiPSC_MN']
+[2026-04-17 07:33:41]   GSE87281 (hiPSC-MN): condition counts = {'shSMN': 4, 'shCtrl': 3}
+[2026-04-17 07:33:41]   GSE87281 (hiPSC-MN): running pydeseq2
+[2026-04-17 07:33:51]   GSE87281 (hiPSC-MN): DESeq2 complete, 58088 genes
+[2026-04-17 07:33:51]   GSE87281 (hiPSC-MN): extracted 18/18 targets
+[2026-04-17 07:33:51]   GSE87281 (SH-SY5Y): matrix shape (58088, 9)  samples: ['shCtrl_R1_SHSY5Y', 'shCtrl_R2_SHSY5Y', 'shCtrl_R3_SHSY5Y', 'shSMN_1_R1_SHSY5Y', 'shSMN_1_R2_SHSY5Y', 'shSMN_1_R3_SHSY5Y', 'shSMN_2_R1_SHSY5Y', 'shSMN_2_R2_SHSY5Y', 'shSMN_2_R3_SHSY5Y']
+[2026-04-17 07:33:51]   GSE87281 (SH-SY5Y): condition counts = {'shSMN': 6, 'shCtrl': 3}
+[2026-04-17 07:33:51]   GSE87281 (SH-SY5Y): running pydeseq2
+[2026-04-17 07:34:01]   GSE87281 (SH-SY5Y): DESeq2 complete, 58088 genes
+[2026-04-17 07:34:01]   GSE87281 (SH-SY5Y): extracted 17/18 targets
+[2026-04-17 07:34:01] ======================================================================
+[2026-04-17 07:34:01] Datasets successfully processed: 5
+[2026-04-17 07:34:01]   - GSE290979 (SMA organoid bulk, NT only) (genotype: SMA vs CTRL, n=15, target_genes_found=16/18)
+[2026-04-17 07:34:01]   - GSE302774 (Hb9-iMN) (SMN-KD vs Scramble, n=6, target_genes_found=18/18)
+[2026-04-17 07:34:01]   - GSE302774 (iN) (SMN-KD vs Scramble, n=6, target_genes_found=18/18)
+[2026-04-17 07:34:01]   - GSE87281 (hiPSC-MN) (condition: shSMN vs shCtrl, n=7, target_genes_found=18/18)
+[2026-04-17 07:34:01]   - GSE87281 (SH-SY5Y) (condition: shSMN vs shCtrl, n=9, target_genes_found=17/18)
+[2026-04-17 07:34:01] wrote /home/bryza/sma-research/qms/meta_analysis/results.tsv  (90 rows)
+[2026-04-17 07:34:01] wrote /home/bryza/sma-research/qms/meta_analysis/meta_summary.tsv  (18 rows)
+[2026-04-17 07:34:03] wrote 18 forest plots
+[2026-04-17 07:34:03] wrote /home/bryza/sma-research/qms/meta_analysis/CORRECTED_SIGNATURE.md
+[2026-04-17 07:34:03] Running triple_llm_verify on CORRECTED_SIGNATURE.md ...
+[2026-04-17 07:34:08]   llm: [triple-llm] verifying /home/bryza/sma-research/qms/meta_analysis/CORRECTED_SIGNATURE.md (14190 chars)
+[2026-04-17 07:34:08]   llm: 
+[2026-04-17 07:34:08]   llm: === OpenAI GPT-4o ===
+[2026-04-17 07:34:08]   llm:   verdict: PASS
+[2026-04-17 07:34:08]   llm:   note: Consider providing more context on the biological significance of the observed changes in gene expression.
+[2026-04-17 07:34:08]   llm:   note: Clarify the rationale for using the DerSimonian-Laird method over other meta-analysis techniques.
+[2026-04-17 07:34:08]   llm: === Groq Llama-3.3-70B ===
+[2026-04-17 07:34:08]   llm:   verdict: PASS
+[2026-04-17 07:34:08]   llm:   note: Consider adding more details about the rationale behind the selection of the 18 target genes
+[2026-04-17 07:34:08]   llm:   note: Provide a clear explanation for the choice of DerSimonian-Laird random-effects pooling method
+[2026-04-17 07:34:08]   llm: === Gemini 2.0 Flash ===
+[2026-04-17 07:34:08]   llm:   verdict: PASS
+[2026-04-17 07:34:08]   llm:   note: Consider adding a brief discussion of the heterogeneity observed in the per-dataset evidence table, particularly for genes like LIMK2 and TP53, and how the random-effects meta-analysis addresses this.
+[2026-04-17 07:34:08]   llm:   note: For the target gene panel, briefly mention why these specific genes were chosen (e.g., literature support, prior findings in SMA research).
+[2026-04-17 07:34:08]   llm:   note: Consider adding a column for adjusted p-value in the Pooled meta-analysis table for easier interpretation.
+[2026-04-17 07:34:08]   llm: 
+[2026-04-17 07:34:08]   llm: === AGGREGATE: 3/3 LLMs PASS ===
+[2026-04-17 07:34:08]   llm: saved → /home/bryza/sma-research/qms/meta_analysis/triple_llm_verdict.json
+[2026-04-17 07:34:08]   llm: OVERALL: PASS
+[2026-04-17 07:34:08]   triple_llm_verify exit=0 -> PASS
+[2026-04-17 07:34:08] ======================================================================
+[2026-04-17 07:34:08] PIPELINE END. triple_llm_verify: PASS (3/3)

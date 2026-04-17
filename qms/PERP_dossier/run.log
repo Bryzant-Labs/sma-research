@@ -1,0 +1,131 @@
+# PERP Dossier — Reproducibility Run Log
+# Date: 2026-04-17
+# Operator: Opus lead (automated)
+# Task: Build PERP research dossier + internal LIMK2 retraction brief (pharma-grade QMS).
+
+## Directory creation
+
+2026-04-17 07:25Z  mkdir -p /home/bryza/sma-research/qms/PERP_dossier/raw
+
+## External HTTP fetches (all data saved to raw/)
+
+### UniProt + AlphaFold
+2026-04-17 07:25Z  curl https://rest.uniprot.org/uniprotkb/Q96FX8.json  →  raw/uniprot_Q96FX8.json  (39415 bytes)
+2026-04-17 07:25Z  curl https://alphafold.ebi.ac.uk/files/AF-Q96FX8-F1-model_v4.pdb  →  404 NoSuchKey
+2026-04-17 07:26Z  curl https://alphafold.ebi.ac.uk/files/AF-Q96FX8-F1-model_v6.pdb  →  raw/AF-Q96FX8-F1-model_v6.pdb  (1569 PDB lines, 193 CA atoms)
+2026-04-17 07:27Z  curl https://www.ebi.ac.uk/proteins/api/proteins/Q96FX8  →  raw/proteins_api_Q96FX8.json  (35793 bytes)
+# Note: model versions v2, v3, v4, v5 all return HTTP 404. Only v6 is currently published at AlphaFoldDB.
+
+### PubMed esearch (9 topical queries)
+2026-04-17 07:25Z  esearch PERP+apoptosis  → raw/pubmed_perp_apoptosis.json  (count=103, top-50 IDs pulled)
+2026-04-17 07:25Z  esearch PERP+desmosome  → raw/pubmed_perp_desmosome.json  (count=29)
+2026-04-17 07:25Z  esearch PERP+neuromuscular  → raw/pubmed_perp_nmj.json  (count=0)
+2026-04-17 07:25Z  esearch PERP+Simon+C  → raw/pubmed_perp_simon.json  (count=1, PMID 36419936)
+2026-04-17 07:25Z  esearch PERP+spinal+muscular+atrophy  → raw/pubmed_perp_sma.json  (count=1, PMID 36419936)
+2026-04-17 07:25Z  esearch PERP+tumor+suppressor  → raw/pubmed_perp_tumor.json  (count=93)
+2026-04-17 07:25Z  esearch PERP+tight+junction  → raw/pubmed_perp_junction.json
+2026-04-17 07:25Z  esearch PERP+skin+epithelium  → raw/pubmed_perp_skin.json
+2026-04-17 07:25Z  esearch PERP+Leipzig  → raw/pubmed_perp_leipzig.json  (count=1, PMID 36419936)
+2026-04-17 07:25Z  esearch PERP+motor+neuron  → raw/pubmed_perp_motorneuron.json  (count=2: PMIDs 36419936 + 19016545)
+2026-04-17 07:25Z  esearch PERP+muscle  → raw/pubmed_perp_muscle.json  (count=26)
+2026-04-17 07:25Z  esearch PERP+p53  → raw/pubmed_perp_p53.json
+2026-04-17 07:25Z  esearch TP53I4  → raw/pubmed_tp53i4.json  (count=0 — TP53I4 is not a valid alt symbol)
+
+### Simon CM author-specific SMA queries
+2026-04-17 07:26Z  esearch Simon+CM+spinal+muscular+atrophy  → raw/simon_cm_sma.json  (count=20)
+2026-04-17 07:26Z  esearch Simon+CM+Leipzig  → raw/simon_cm_leipzig.json  (count=12)
+2026-04-17 07:26Z  esearch Simon+CM+neuromuscular+junction  → raw/simon_cm_nmj.json
+
+### PubMed esummary + efetch (top papers)
+2026-04-17 07:26Z  esummary 20 PERP paper PMIDs  → raw/perp_tp53_summaries.json  (29253 bytes)
+2026-04-17 07:26Z  esummary 19 Simon CM SMA PMIDs  → raw/simon_cm_summaries.json  (48169 bytes)
+2026-04-17 07:26Z  esummary PMID 36419936 alone  → raw/perp_36419936_summary.json
+2026-04-17 07:26Z  efetch top-20 PMID abstracts (XML)  → raw/perp_abstracts_top20.xml  (390964 bytes)
+2026-04-17 07:26Z  efetch PMID 29281826 abstract  → raw/simon_p53_2017.xml
+2026-04-17 07:29Z  parsed top-20 abstracts → raw/parsed_top20_abstracts.txt (100 lines)
+
+### STRING-DB + PDBe
+2026-04-17 07:28Z  curl STRING network for Q96FX8  → raw/stringdb_Q96FX8.json  (176 edges, 30 PERP-direct)
+2026-04-17 07:28Z  curl PDBe mappings for Q96FX8  → 404 (no deposited PDB entries)
+2026-04-17 07:28Z  RCSB POST full-text search "PERP p53 apoptosis effector PMP-22"  → HTTP 204 (no structures)
+                   # confirmed separately: no PDB structure exists for PERP Q96FX8 as of 2026-04-17.
+
+### Paralog / family sequence check
+2026-04-17 07:30Z  pulled FASTA for TMEM47 (Q9BQJ4), PMP22 (Q01453), EMP1/2/3, CLDN1 (O95832), CLDN3 (O15551), TP53I3 (Q53FA7)
+2026-04-17 07:30Z  crude 4-mer identity analysis  → raw/family_sequences.json
+                   # all pairs < 2 % 4-mer match — TP53I3 confirmed as NOT a paralog (unrelated fold).
+
+## On-disk compute state snapshot
+
+### v6e-4 (TPU) ColabFold monomer folds — /home/bryza/fleet-results/perp_multimer/
+2026-04-17 07:27Z  ls /home/bryza/fleet-results/perp_multimer/*.done.txt  →  2 completed (PERP_Q96FX8 + CHRNA1)
+                   # CONTRADICTS the task brief's "37 multimer folds" — actual: 2.
+                   # PERP monomer ptm = 0.83, mean pLDDT = 91.2 (confirmed by parsing rank_001 JSON)
+
+### v6e-8 PERP × NMJ partner multimer folds — /home/bryza/gpu-fleet/results/perp_binders/perp_v6e8_multimer/
+2026-04-17 07:28Z  ls *.done.txt  → 6 completed: PERP_AGRN_LG3, PERP_SMN1, PERP_homodimer, PERP_TP53, PERP_RAPSN, PERP_DOK7
+2026-04-17 07:28Z  parsed rank_001 iptm/ptm per complex (see PERP_compute_status.md §2)
+                   # all six iptm < 0.3 — no confident heteromeric interface predicted yet.
+
+### v6e-8 campaign queue — /home/bryza/gpu-fleet/campaigns/perp_interactome_v6e8/
+2026-04-17 07:31Z  ls *.fasta  →  14 partner FASTAs written (AGRN, CHAT, CHRND, CHRNE, CHRNG, COLQ, DMD, DOK7, LAMA4, LAMB2, RAPSN, SMN1, TP53, UTRN)
+                   # fetch_and_queue.sh: pulls PERP (Q96FX8) FASTA, then concatenates with each partner for ColabFold multimer input format.
+
+### Boltz-2 PERP × ligand batch — /home/bryza/fleet-results/boltz2_perp_*
+2026-04-17 07:27Z  count *_w3_*  → 39 completed (10 × 4 partners minus 1 missing CHRNA1 seed)
+                   # API code 200 for all 39; structure + score data populated in result.iptm_scores/ligand_iptm_scores/confidence_scores.
+                   # top-level affinity_pred_value is empty {} across all — Boltz-2 was called in structure-only mode; Kd predictions not available.
+2026-04-17 07:29Z  parsed all 39 score JSONs  →  raw/boltz2_perp_summary.json
+                   # per-partner means: CHRNA1 lig_iptm 0.71, LRP4 0.45, MUSK 0.85 (best!), PERP 0.62.
+2026-04-17 07:27Z  cat perp_panel_throttled.log → campaign ran 40 tasks in 86.6 min at avg 2 req/min.
+
+### PERP binder SMILES library
+2026-04-17 07:26Z  wc -l /home/bryza/gpu-fleet/results/perp_binders/perp_binder_seeds.jsonl  →  112 SMILES
+                   # tetrahydropyran sulfonamides + triazole ureas + pyrazole carboxamides (GenMol SAFE output).
+
+## QMS artifacts incorporated
+
+### Meta-analysis (arrived during session via coordinator message)
+2026-04-17 07:34Z  coordinator reported: meta_analysis/CORRECTED_SIGNATURE.md — triple_llm_verify 3/3 PASS.
+                   Read /home/bryza/sma-research/qms/meta_analysis/CORRECTED_SIGNATURE.md
+                   Read /home/bryza/sma-research/qms/meta_analysis/meta_summary.tsv
+                   Read /home/bryza/sma-research/qms/meta_analysis/results.tsv (144 lines)
+                   Read /home/bryza/sma-research/qms/meta_analysis/triple_llm_verdict.json (PASS x 3)
+                   # Finding: LIMK2 direction is model-dependent (meta I²=98%), ROCK2 is the robust DOWN hit (pooled -0.254, CI [-0.381,-0.127], p=9e-5, I²=56%), TP53 mildly UP (+0.26, p=0.03), PERP DOWN in iPSC-MN (padj 3.5e-3 and 6.5e-19 in the two Lauria 2025 contrasts) but high heterogeneity pooled.
+
+## Direct GSE302774 author-DESeq2 read
+2026-04-17 07:29Z  zcat /home/bryza/data/scrnaseq/GSE302774/Hb9-iMN_LFC.csv.gz | grep KEY_GENES
+                   # confirmed: LIMK2 -0.407 padj 2.35e-12, PERP -0.243 padj 3.52e-3, TP53 +0.496 padj 9.41e-7,
+                   # PFN2 +0.283 padj 1.70e-16, SMN1 -1.282 padj 1.48e-3, SMN2 -3.025 padj 2.33e-47.
+
+## Deliverables written
+
+2026-04-17 07:32Z  wrote  /home/bryza/sma-research/qms/LIMK2_retraction_brief_INTERNAL.md    (v1 — single-dataset) 186 lines
+2026-04-17 07:44Z  wrote  /home/bryza/sma-research/qms/LIMK2_retraction_brief_INTERNAL.md    (v2 — meta-analysis-updated) 218 lines
+2026-04-17 07:33Z  wrote  /home/bryza/sma-research/qms/PERP_dossier/PERP_literature_review.md  (179 lines)
+2026-04-17 07:45Z  wrote  /home/bryza/sma-research/qms/PERP_dossier/PERP_structure_biology.md  (178 lines)
+2026-04-17 07:46Z  wrote  /home/bryza/sma-research/qms/PERP_dossier/PERP_SMA_expression.md     (89 lines)
+2026-04-17 07:47Z  wrote  /home/bryza/sma-research/qms/PERP_dossier/PERP_NMJ_relevance.md      (131 lines)
+2026-04-17 07:48Z  wrote  /home/bryza/sma-research/qms/PERP_dossier/PERP_compute_status.md     (125 lines)
+2026-04-17 07:48Z  wrote  /home/bryza/sma-research/qms/PERP_dossier/run.log                   (this file)
+
+## Dead ends / missing data requiring user decision
+
+1. **PDB entries**: RCSB POST returned HTTP 204 + PDBe mappings returned 404. No experimental structure exists for PERP. This is confirmed. AF2 v6 monomer is the only structural starting point.
+2. **Boltz-2 affinity values** are EMPTY ({}) across all 39 runs — the API was called in structure-only mode. To get Kd/IC50 predictions, re-run with affinity-endpoint enabled (a separate NIM call path).
+3. **AlphaFold model versions v2-v5** return HTTP 404. Only v6 was obtainable. Noted in dossier; v6 is recent (dated 2025-08-01 in PDB HEADER).
+4. **Task-brief n-counts were inflated**: "37 v6e-4 multimer folds" → actual 2; "40 Boltz-2 rescore dirs" → actual 39. Corrected in `PERP_compute_status.md` §1.
+5. **v6e-8 partner list missing MUSK / LRP4 / CHRNA1** — only Boltz-2 multimer covers these; AF2-Multimer does not. Flagged as gap in `PERP_compute_status.md` §6.
+6. **GSE87281 SH-SY5Y PERP contrast** has lfcSE = 3.87 (essentially NA) — it is the primary driver of the meta-analysis I² = 90 % for PERP. Decision for user: drop SH-SY5Y from PERP pooled estimate, or report with and without?
+7. **Simon's unpublished NMJ PERP protein data** is the ground truth the dossier cannot access. Several dossier sections explicitly reference this gap.
+
+## Triple-LLM QC status
+
+- Meta-analysis CORRECTED_SIGNATURE.md: 3/3 PASS (OpenAI GPT-4o, Groq Llama-3.3-70B, Gemini 2.0 Flash) — evidence in `meta_analysis/triple_llm_verdict.json`.
+- LIMK2 retraction brief v2 (this session): not yet submitted to triple_llm_verify — user to run before sign-off.
+- PERP dossier (5 files): not yet submitted to triple_llm_verify — user to run before Simon-facing release.
+
+## Human sign-off
+
+All files written are DRAFT / INTERNAL. No external communication. Simon-comms gate is HELD pending Christian Fischer human sign-off.
+

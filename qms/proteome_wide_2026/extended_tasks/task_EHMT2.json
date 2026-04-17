@@ -1,0 +1,19 @@
+{
+  "id": "pocketxmol_ehmt2_sma_atlas_ext",
+  "type": "pocketxmol",
+  "target": "EHMT2_SMA_ATLAS_EXT",
+  "uniprot": "Q96KQ7",
+  "pdb_id": "5VSC",
+  "pocket_center": [
+    22.05,
+    16.51,
+    8.15
+  ],
+  "pocket_radius": 10.0,
+  "n_molecules": 600,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 2,
+  "status": "queued",
+  "_notes": "EHMT2/G9a SET-domain inhibitor pocket (9HJ co-crystal). TITLE-verified 2026-04-17 (see TITLE_AUDIT_extended.md). Atlas extended campaign ranks 6-25 Phase-3."
+}

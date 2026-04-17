@@ -1,0 +1,49 @@
+{
+  "OpenAI GPT-4o": {
+    "verdict": "PASS",
+    "blocking_issues": [],
+    "non_blocking_suggestions": [
+      "Consider providing more context on the implications of the inconclusive results for future research directions.",
+      "Clarify if there are any plans to adjust the classification thresholds based on these findings."
+    ],
+    "dataset_identity": "OK",
+    "effect_size_plausibility": "OK",
+    "citation_traceability": "OK",
+    "narrative_consistency": "OK",
+    "risk_flags": "OK"
+  },
+  "Groq Llama-3.3-70B": {
+    "verdict": "FAIL",
+    "blocking_issues": [
+      "Lack of explicit citable source for some numerical claims",
+      "Insufficient information to verify dataset identity",
+      "Narrative consistency issue: conclusions do not fully follow from the data presented"
+    ],
+    "non_blocking_suggestions": [
+      "Provide more detailed information about the dataset used",
+      "Include explicit citable sources for all numerical claims",
+      "Consider adding more controls to the experiment"
+    ],
+    "dataset_identity": "Insufficient information to verify",
+    "effect_size_plausibility": "OK",
+    "citation_traceability": "Gap: some numerical claims lack explicit citable source",
+    "narrative_consistency": "Issue: conclusions do not fully follow from the data presented",
+    "risk_flags": "Wrong direction of effect: V2 compounds designed for RING domain show less RING contact than V1 compounds"
+  },
+  "Gemini 2.0 Flash": {
+    "verdict": "FAIL",
+    "blocking_issues": [
+      "The document claims that the a31633bf flaw was that V2 compounds were co-folded against MDM2 17-125 only, but the document also states that the parent task was INCONCLUSIVE due to domain-mismatch + iptm-ceiling confounds. The domain mismatch was already known, so it is unclear why this follow-up was necessary. This is a narrative inconsistency."
+    ],
+    "non_blocking_suggestions": [
+      "Consider adding a brief explanation of why the iptm-delta scheme failed in the original a31633bf experiment, beyond just the domain mismatch.",
+      "The document mentions that 3 V2 compounds with '.' in SMILES were reduced to the largest fragment. It would be helpful to specify which compounds were affected and why this reduction was necessary.",
+      "The document states that the classification thresholds were pre-registered. Consider including a link to the pre-registration or a more detailed explanation of the rationale behind these thresholds."
+    ],
+    "dataset_identity": "OK",
+    "effect_size_plausibility": "OK",
+    "citation_traceability": "OK",
+    "narrative_consistency": "Narrative inconsistency: The document claims that the a31633bf flaw was that V2 compounds were co-folded against MDM2 17-125 only, but the document also states that the parent task was INCONCLUSIVE due to domain-mismatch + iptm-ceiling confounds. The domain mismatch was already known, so it is unclear why this follow-up was necessary.",
+    "risk_flags": "OK"
+  }
+}

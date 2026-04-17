@@ -1,0 +1,68 @@
+sample:
+  seed: 2025
+  batch_size: 50
+  num_mols: 500
+  save_traj_prob: 0.01
+  complete_seed: 10678
+
+
+data:
+  protein_path: /results/limk2_arm1_redesign/4tpt_chainA_apo.pdb
+  is_pep: False
+  pocket_args:
+    pocket_coord: [9.384, 7.372, 20.916]
+    radius: 10
+  pocmol_args:
+    data_id: limk2_arm1_B_limki3_seeded
+    pdbid: 4TPT
+
+
+transforms:
+  featurizer_pocket:
+    center: [9.384, 7.372, 20.916]
+  variable_mol_size:
+    name: variable_mol_size
+    num_atoms_distri:
+      strategy: mol_atoms_based
+      mean:
+        coef: 0
+        bias: 28
+      std:
+        coef: 0
+        bias: 2
+      min: 5
+
+
+task:
+  name: sbdd
+  transform:
+    name: ar
+    part1_pert: small
+
+noise:
+  name: maskfill
+  num_steps: 100
+  ar_config:
+    strategy: refine
+    r: 3
+    threshold_node: 0.98
+    threshold_pos: 0.91
+    threshold_bond: 0.98
+    max_ar_step: 10
+    change_init_step: 1
+  prior:
+    part1: from_train
+    part2: from_train
+  level:
+    part1:
+      name: uniform
+      min: 0.6
+      max: 1.0
+    part2:
+      name: advance
+      min: 0.0
+      max: 1.0
+      step2level:
+        scale_start: 0.99999
+        scale_end: 1.0e-05
+        width: 3

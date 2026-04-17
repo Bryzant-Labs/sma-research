@@ -1,0 +1,48 @@
+[15:30:21] Waiting for extended PXM campaign to complete on GPU 14116...
+[15:30:26]   progress:     produced 600 SDFs under /results/pocketxmol/pocketxmol_ep400_sma_atlas_ext/  >>> [15:29:25] FIRING PEAK1 (task: /workspace/extended_tasks/task_PEAK1.json) 
+[15:32:31]   progress:     produced 600 SDFs under /results/pocketxmol/pocketxmol_ep400_sma_atlas_ext/  >>> [15:29:25] FIRING PEAK1 (task: /workspace/extended_tasks/task_PEAK1.json) 
+[15:34:37]   progress:     produced 600 SDFs under /results/pocketxmol/pocketxmol_peak1_sma_atlas_ext/  >>> [15:33:11] FIRING KAT7 (task: /workspace/extended_tasks/task_KAT7.json) 
+[15:36:43]   progress:     produced 600 SDFs under /results/pocketxmol/pocketxmol_peak1_sma_atlas_ext/  >>> [15:33:11] FIRING KAT7 (task: /workspace/extended_tasks/task_KAT7.json) 
+[15:38:48]   progress:     produced 600 SDFs under /results/pocketxmol/pocketxmol_kat7_sma_atlas_ext/  >>> [15:38:43] FIRING RNF213 (task: /workspace/extended_tasks/task_RNF213.json) 
+[15:40:53]   progress:     produced 600 SDFs under /results/pocketxmol/pocketxmol_kat7_sma_atlas_ext/  >>> [15:38:43] FIRING RNF213 (task: /workspace/extended_tasks/task_RNF213.json) 
+[15:42:59]   progress:     produced 600 SDFs under /results/pocketxmol/pocketxmol_kat7_sma_atlas_ext/  >>> [15:38:43] FIRING RNF213 (task: /workspace/extended_tasks/task_RNF213.json) 
+[15:45:04]   progress:     produced 600 SDFs under /results/pocketxmol/pocketxmol_rnf213_sma_atlas_ext/  >>> [15:44:10] FIRING EHMT2 (task: /workspace/extended_tasks/task_EHMT2.json) 
+[15:47:09]   progress:     produced 600 SDFs under /results/pocketxmol/pocketxmol_rnf213_sma_atlas_ext/  >>> [15:44:10] FIRING EHMT2 (task: /workspace/extended_tasks/task_EHMT2.json) 
+[15:49:14]   progress:     produced 600 SDFs under /results/pocketxmol/pocketxmol_ehmt2_sma_atlas_ext/  >>> [15:48:44] FIRING KAT6A (task: /workspace/extended_tasks/task_KAT6A.json) 
+[15:51:20]   progress:     produced 600 SDFs under /results/pocketxmol/pocketxmol_ehmt2_sma_atlas_ext/  >>> [15:48:44] FIRING KAT6A (task: /workspace/extended_tasks/task_KAT6A.json) 
+[15:53:26]   progress:     produced 600 SDFs under /results/pocketxmol/pocketxmol_kat6a_sma_atlas_ext/  >>> [15:53:24] FIRING KAT5 (task: /workspace/extended_tasks/task_KAT5.json) 
+[15:55:31]   progress:     produced 600 SDFs under /results/pocketxmol/pocketxmol_kat6a_sma_atlas_ext/  >>> [15:53:24] FIRING KAT5 (task: /workspace/extended_tasks/task_KAT5.json) 
+[15:57:36]   progress:     produced 600 SDFs under /results/pocketxmol/pocketxmol_kat6a_sma_atlas_ext/  >>> [15:53:24] FIRING KAT5 (task: /workspace/extended_tasks/task_KAT5.json) 
+[15:59:41]   progress:     produced 600 SDFs under /results/pocketxmol/pocketxmol_kat5_sma_atlas_ext/  >>> [15:59:10] FIRING KMT5B (task: /workspace/extended_tasks/task_KMT5B.json) 
+[16:01:46]   progress:     produced 600 SDFs under /results/pocketxmol/pocketxmol_kat5_sma_atlas_ext/  >>> [15:59:10] FIRING KMT5B (task: /workspace/extended_tasks/task_KMT5B.json) 
+[16:03:51]   progress:     produced 600 SDFs under /results/pocketxmol/pocketxmol_kat5_sma_atlas_ext/  >>> [15:59:10] FIRING KMT5B (task: /workspace/extended_tasks/task_KMT5B.json) 
+[16:05:56]   progress:     produced 600 SDFs under /results/pocketxmol/pocketxmol_kmt5b_sma_atlas_ext/  >>> [16:04:17] FIRING EHMT1 (task: /workspace/extended_tasks/task_EHMT1.json) 
+[16:08:01]   progress:     produced 600 SDFs under /results/pocketxmol/pocketxmol_kmt5b_sma_atlas_ext/  >>> [16:04:17] FIRING EHMT1 (task: /workspace/extended_tasks/task_EHMT1.json) 
+[16:10:04] Campaign complete.
+[16:10:04] Pulling PXM results for all 9 targets...
+[16:10:04]   pulling EP400 (pocketxmol_ep400_sma_atlas_ext)
+[16:10:11]   pulling PEAK1 (pocketxmol_peak1_sma_atlas_ext)
+[16:10:18]   pulling KAT7 (pocketxmol_kat7_sma_atlas_ext)
+[16:10:25]   pulling RNF213 (pocketxmol_rnf213_sma_atlas_ext)
+[16:10:32]   pulling EHMT2 (pocketxmol_ehmt2_sma_atlas_ext)
+[16:10:39]   pulling KAT6A (pocketxmol_kat6a_sma_atlas_ext)
+[16:10:45]   pulling KAT5 (pocketxmol_kat5_sma_atlas_ext)
+[16:10:53]   pulling KMT5B (pocketxmol_kmt5b_sma_atlas_ext)
+[16:11:00]   pulling EHMT1 (pocketxmol_ehmt1_sma_atlas_ext)
+[16:11:06] Running cascade filter (RDKit/Lipinski/QED/BBB)...
+[EP400] total=600 valid=530 passed_filters=326 top100=100
+[PEAK1] total=600 valid=492 passed_filters=76 top100=76
+[KAT7] total=600 valid=533 passed_filters=278 top100=100
+[RNF213] total=600 valid=535 passed_filters=90 top100=90
+[EHMT2] total=600 valid=575 passed_filters=158 top100=100
+[KAT6A] total=600 valid=514 passed_filters=108 top100=100
+[KAT5] total=600 valid=521 passed_filters=212 top100=100
+[KMT5B] total=600 valid=559 passed_filters=339 top100=100
+[EHMT1] total=600 valid=549 passed_filters=244 top100=100
+
+Wrote summary: /home/bryza/sma-research/qms/proteome_wide_2026/cascade_extended_output/cascade_summary.tsv
+[16:11:13] Boltz-2 server ready; firing panel...
+[16:18:10] Building final report...
+/home/bryza/sma-research/qms/proteome_wide_2026/build_final_report.py:132: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+[16:18:10] All done. See /home/bryza/sma-research/qms/ATLAS_TOP25_CASCADE_RESULTS.md

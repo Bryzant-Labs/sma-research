@@ -1,0 +1,37 @@
+{
+  "id": "pak1_activator_alphaC",
+  "type": "pocketxmol",
+  "target": "PAK1_alphaC_helix_allosteric_activator",
+  "pdb_id": "3Q52",
+  "pocket_center": [-28.055, -32.408, 10.574],
+  "pocket_radius": 10.0,
+  "n_molecules": 600,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 1,
+  "status": "running",
+  "_campaign": {
+    "name": "PAK1 alphaC-helix allosteric activator (NMJ actin dynamics, complements PAK4 panel)",
+    "campaign_id": "pak1_activator_alphaC",
+    "instance_id": "35120540",
+    "gpu": "A100 PCIE 40GB",
+    "location": "Japan",
+    "cost_per_hr_est": 0.65,
+    "ssh": "ssh -i ~/.ssh/id_ed25519_vastai -p 10540 root@ssh4.vast.ai"
+  },
+  "_pocket": {
+    "pdb_title_verified": "Structure of phosphorylated PAK1 kinase domain",
+    "pdb_mutations": "K299R, L516I (crystallography stabilization)",
+    "pdb_resolution_A": 1.801,
+    "beta3_K_canonical": "K299 (mutated to R299 in 3Q52, accepted)",
+    "alphaC_E_native": "E315",
+    "HRD_catalytic": "H387",
+    "DFG_Asp": "D407",
+    "alphaC_helix_range": "307-319 (13 CAs)"
+  },
+  "_rationale": {
+    "sma_link": "PAK1 phosphorylates LIMK1 → cofilin → F-actin at NMJ. Activation stabilizes synaptic F-actin, plausibly rescues SMA NMJ.",
+    "selectivity_panel": "Top 100 → Boltz-2 vs PAK1 + PAK2/3 (Group-I) + PAK4 (Group-II) reference; compare within-PAK selectivity to PAK4 campaign.",
+    "oncology_caveat": "PAK1 hyperactivation oncogenic (breast, colon). Activator is narrow therapeutic-window. First-in-class, highly exploratory. No external surface without Christian sign-off."
+  }
+}

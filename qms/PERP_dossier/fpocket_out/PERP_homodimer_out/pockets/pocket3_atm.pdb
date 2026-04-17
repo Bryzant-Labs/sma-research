@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.0241
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.4561
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3585
+HEADER 5  - Mean B-factor of pocket residues  : 0.6214
+HEADER 6  - Hydrophobicity Score              : 65.8000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 56.0848
+HEADER 10  -Pocket volume (convex hull)       : 0.0851
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   1596   NE ARG B  12       9.555  22.297   6.898  0.00  0.00           N 0
+ATOM   2263   CB LEU B  99       8.844  21.234   4.910  0.00  0.00           C 0
+ATOM   2273   SG CYS B 100      13.883  22.594   5.465  0.00  0.00           S 0
+ATOM   1612  CZ2 TRP B  13      14.562  18.141   7.285  0.00  0.00           C 0
+ATOM   1611  CH2 TRP B  13      14.664  17.781   5.969  0.00  0.00           C 0
+ATOM   1608  CE2 TRP B  13      13.648  17.453   8.078  0.00  0.00           C 0
+ATOM   1594   CG ARG B  12       8.508  20.359   8.016  0.00  0.00           C 0
+ATOM   1607  CD2 TRP B  13      12.836  16.406   7.562  0.00  0.00           C 0
+ATOM   2266  CD1 LEU B  99       8.094  18.859   4.531  0.00  0.00           C 0
+ATOM   1609  CE3 TRP B  13      12.961  16.062   6.211  0.00  0.00           C 0
+ATOM   2237    O PHE B  96      12.609  21.797   2.512  0.00  0.00           O 0
+ATOM   1613  CZ3 TRP B  13      13.875  16.750   5.426  0.00  0.00           C 0
+ATOM   2234   CA PHE B  96      12.312  19.750   1.306  0.00  0.00           C 0
+TER
+END

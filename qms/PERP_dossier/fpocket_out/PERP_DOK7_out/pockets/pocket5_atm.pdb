@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : -0.0751
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9049
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5876
+HEADER 5  - Mean B-factor of pocket residues  : 0.0194
+HEADER 6  - Hydrophobicity Score              : -9.6667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 293.6125
+HEADER 10  -Pocket volume (convex hull)       : 9.2789
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7059
+ATOM   4039   OG SER B 334      -2.973  57.188 -30.469  0.60  5.36           O 0
+ATOM   4031   CD GLN B 333       0.248  54.719 -34.250  0.00  0.00           C 0
+ATOM   4033  OE1 GLN B 333      -0.639  53.875 -34.250  0.70  6.43           O 0
+ATOM   4032  NE2 GLN B 333       0.612  55.375 -35.375  0.00  0.00           N 0
+ATOM   4019   CG ARG B 332       5.355  57.031 -30.188  0.00  0.00           C 0
+ATOM   4027    C GLN B 333       0.394  54.625 -29.312  0.00  0.00           C 0
+ATOM   4018    O ARG B 332       3.129  54.344 -28.297  0.54  7.50           O 0
+ATOM   4035   CA SER B 334      -1.407  56.562 -28.734  0.00  0.00           C 0
+ATOM   4026   CA GLN B 333       1.334  54.594 -30.516  0.00  0.00           C 0
+ATOM   4021   NE ARG B 332       5.699  59.469 -30.391  0.00  0.00           N 0
+ATOM   4020   CD ARG B 332       5.176  58.281 -31.047  0.00  0.00           C 0
+ATOM   4037   CB SER B 334      -1.906  57.656 -29.672  0.00  0.00           C 0
+ATOM   4022  NH1 ARG B 332       5.035  60.938 -32.062  0.00  0.00           N 0
+ATOM   4024   CZ ARG B 332       5.617  60.719 -30.891  0.00  0.00           C 0
+ATOM   4030   CG GLN B 333       0.983  55.125 -33.000  0.00  0.00           C 0
+ATOM   4034    N SER B 334      -0.750  55.500 -29.484  0.00  0.00           N 0
+TER
+END

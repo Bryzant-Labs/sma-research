@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-04-17T15:06:11Z",
+  "document": "SMA_NOVEL_TARGET_ATLAS_TOP5_PXM_RESULTS.md",
+  "verifier": "/home/bryza/gpu-fleet/scripts/triple_llm_verify.py",
+  "context": "In silico PocketXMol molecule generation results. DRAFT INTERNAL only. No external comms. Simon-Comms-Gate HELD. TITLE audit corrected 3 PDBs. No experimental/biological fold-change claims \u2014 only compound generation statistics.",
+  "results": {
+    "openai_gpt4o": {
+      "verdict": "PASS",
+      "advisory_notes": [
+        "Consider adding more context on the biological relevance of the generated compounds.",
+        "Include a brief explanation of the significance of the BBB-pass rates for each target."
+      ]
+    },
+    "groq_llama33_70b": {
+      "verdict": "PASS",
+      "advisory_notes": [
+        "Consider adding more context about the PocketXMol algorithm and its limitations",
+        "Provide more information about the biological significance of the top hits",
+        "Include a discussion on the potential applications and future directions of the research"
+      ]
+    },
+    "gemini_2_flash": {
+      "verdict": "PASS",
+      "advisory_notes": []
+    }
+  },
+  "aggregate": "3/3 LLMs PASS",
+  "overall": "PASS",
+  "gate_status": "CLEARED for internal use only; Simon-Comms-Gate remains HELD per rule-no-public-outreach-mentions"
+}

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : -0.0060
+HEADER 1  - Drug Score                        : 0.0015
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9206
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7340
+HEADER 5  - Mean B-factor of pocket residues  : 0.8520
+HEADER 6  - Hydrophobicity Score              : 72.6667
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 229.9022
+HEADER 10  -Pocket volume (convex hull)       : 7.6575
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.8667
+ATOM   1727  CD1 ILE B  28      10.477  -2.174  -3.732  0.00  0.00           C 0
+ATOM   2679  CZ3 TRP B 151       9.344  -6.609  -7.270  0.00  0.00           C 0
+ATOM   1726  CG2 ILE B  28       9.258  -3.566  -6.258  0.00  0.00           C 0
+ATOM   1725  CG1 ILE B  28      10.914  -1.997  -5.180  0.00  0.00           C 0
+ATOM   2710  CE2 PHE B 155       6.922  -5.270  -3.178  0.00  0.00           C 0
+ATOM   2677  CH2 TRP B 151      10.148  -7.336  -8.156  0.00  0.00           C 0
+ATOM   1746    N GLY B  32      10.453  -4.094 -11.523  0.00  0.00           N 0
+ATOM   1724    O ILE B  28       9.359  -3.027  -9.352  0.00  0.00           O 0
+ATOM   1744   CB ALA B  31      13.211  -2.102 -11.586  0.00  0.00           C 0
+ATOM   1747   CA GLY B  32      10.047  -5.438 -11.148  0.00  0.00           C 0
+ATOM   1745    O ALA B  31      12.258  -4.832 -12.570  0.48  6.43           O 0
+ATOM   1743    C ALA B  31      11.562  -3.896 -12.164  0.00  0.00           C 0
+ATOM   1721   CA ILE B  28      10.250  -1.660  -7.594  0.00  0.00           C 0
+ATOM   1718  CG2 ILE B  27      13.688   1.300  -8.281  0.00  0.00           C 0
+ATOM   1716    O ILE B  27      11.336  -0.296  -9.672  0.70  1.07           O 0
+TER
+END

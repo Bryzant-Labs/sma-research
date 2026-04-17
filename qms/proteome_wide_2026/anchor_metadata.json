@@ -1,0 +1,54 @@
+{
+  "anchors": {
+    "SMN1_P14639": {
+      "acc": "P14639",
+      "role": "DOWN_positive_control"
+    },
+    "SMN2_Q16637": {
+      "acc": "Q16637",
+      "role": "DOWN_positive_control"
+    },
+    "ROCK2_O75116": {
+      "acc": "O75116",
+      "role": "DOWN_novel"
+    },
+    "TP53_P04637": {
+      "acc": "P04637",
+      "role": "UP_novel"
+    },
+    "PERP_P60468": {
+      "acc": "P60468",
+      "role": "DOWN_weak"
+    }
+  },
+  "metadata": {
+    "SMN1_P14639": {
+      "acc": "P14639",
+      "seq_len": 607,
+      "truncated": false
+    },
+    "SMN2_Q16637": {
+      "acc": "Q16637",
+      "seq_len": 294,
+      "truncated": false
+    },
+    "ROCK2_O75116": {
+      "acc": "O75116",
+      "seq_len": 1022,
+      "truncated": true
+    },
+    "TP53_P04637": {
+      "acc": "P04637",
+      "seq_len": 393,
+      "truncated": false
+    },
+    "PERP_P60468": {
+      "acc": "P60468",
+      "seq_len": 96,
+      "truncated": false
+    }
+  },
+  "model": "facebook/esm2_t33_650M_UR50D",
+  "pooling": "attention-masked mean",
+  "max_len": 1022
+}

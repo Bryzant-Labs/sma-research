@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : -0.0875
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9761
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5612
+HEADER 5  - Mean B-factor of pocket residues  : 0.6980
+HEADER 6  - Hydrophobicity Score              : 19.4286
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 295.1751
+HEADER 10  -Pocket volume (convex hull)       : 12.9240
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0556
+ATOM   2364   CA GLY B 119       1.821  59.469  18.344  0.00  0.00           C 0
+ATOM   2466  OD1 ASP B 133       1.453  56.375  11.656  0.49  5.36           O 0
+ATOM   2365    C GLY B 119       1.914  57.969  18.562  0.00  0.00           C 0
+ATOM   2363    N GLY B 119       0.828  59.844  17.359  0.00  0.00           N 0
+ATOM   2366    O GLY B 119       1.051  57.219  18.094  0.54  5.36           O 0
+ATOM   2467  OD2 ASP B 133      -0.148  57.719  12.320  0.65  8.57           O 0
+ATOM   2367    N PRO B 120       2.996  57.562  19.172  0.00  0.00           N 0
+ATOM   2315    O CYS B 111      -1.542  52.906  16.484  0.66  4.29           O 0
+ATOM   2330   SG CYS B 113      -2.406  56.438  17.547  0.00  0.00           S 0
+ATOM   2368   CA PRO B 120       3.170  56.125  19.453  0.00  0.00           C 0
+ATOM   2370   CB PRO B 120       4.531  56.062  20.156  0.00  0.00           C 0
+ATOM   2371    O PRO B 120       1.693  54.406  20.234  0.76  1.07           O 0
+ATOM   2296    O TYR B 109       3.529  49.031  19.094  0.60  6.43           O 0
+ATOM   2309  CG1 VAL B 110       1.093  50.219  15.211  0.00  0.00           C 0
+ATOM   2311    N CYS B 111      -0.161  51.094  18.250  0.64  1.09           N 0
+ATOM   2305   CA VAL B 110       1.342  49.312  17.562  0.00  0.00           C 0
+ATOM   2310  CG2 VAL B 110       2.889  48.531  15.719  0.00  0.00           C 0
+TER
+END

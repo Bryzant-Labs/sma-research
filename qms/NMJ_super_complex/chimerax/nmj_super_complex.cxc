@@ -1,0 +1,53 @@
+# ChimeraX command script for NMJ super-complex visualization
+# Usage:
+#   chimerax --script nmj_super_complex.cxc
+#   or inside chimerax: `open nmj_super_complex.cxc`
+#
+# Opens the assembly, colors by chain (protein identity), renders three
+# canonical views and saves a session .cxs file.
+
+open ../assembly/nmj_super_complex.pdb
+rename #1 nmj_super_complex
+
+# Protein identity colors
+# AChR pentamer: A,C = α1 (goldenrod); B = β1 (tomato); D = δ (turquoise); E = ε (violet)
+color /A,C goldenrod
+color /B tomato
+color /D turquoise
+color /E violet
+# Intracellular scaffold
+color /F salmon      ;# RAPSN
+# Receptor-tyrosine-kinase axis
+color /G seagreen    ;# MuSK ECD
+color /H forest green ;# MuSK intracellular
+color /I lightgreen  ;# DOK7
+# AGRIN-LRP4
+color /J steelblue   ;# LRP4
+color /K deepskyblue ;# AGRIN
+# PERP + binder
+color /P orchid      ;# PERP
+color /Z magenta     ;# H2b_9_s2 binder
+
+# Render cartoon + hide atoms
+cartoon
+hide atoms
+show cartoon
+style cartoon
+
+# View 1: default orientation
+view orient
+save ../figures/nmj_super_complex_view1.png width 1600 height 1200 supersample 3
+
+# View 2: rotate 90 around Y (side view showing membrane axis)
+turn y 90
+save ../figures/nmj_super_complex_view2.png width 1600 height 1200 supersample 3
+
+# View 3: top-down (looking down membrane normal)
+turn y -90
+turn x 90
+save ../figures/nmj_super_complex_view3.png width 1600 height 1200 supersample 3
+
+# Save full session for later use
+save ../chimerax/nmj_super_complex.cxs
+
+echo "Saved views + session"

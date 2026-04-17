@@ -1,0 +1,360 @@
+[2026-04-17 17:15:06] ======================================================================
+[2026-04-17 17:15:06] cerebellum_sma_meta.py  pipeline START
+[2026-04-17 17:15:06] ======================================================================
+[2026-04-17 17:15:06] ======================================================================
+[2026-04-17 17:15:06] STEP 1  Dataset discovery
+[2026-04-17 17:15:06] ======================================================================
+[2026-04-17 17:15:06]   query: (spinal muscular atrophy[All Fields] OR SMN1[All Fields] OR SMN2[All Fields]) AND (cerebellum[All Fields] OR Purkinje[All Fields])
+[2026-04-17 17:15:36]   esearch ERR on '(spinal muscular atrophy[All Fields] OR SMN1[All Fields] OR SMN2[All Fields]) AND (cerebellum[All Fields] OR Purkinje[All Fields])': <urlopen error [Errno 101] Network is unreachable>
+[2026-04-17 17:15:36]     -> 0 hits
+[2026-04-17 17:15:36]   query: SMA[All Fields] AND cerebellum[All Fields] AND expression[All Fields]
+[2026-04-17 17:16:06]   esearch ERR on 'SMA[All Fields] AND cerebellum[All Fields] AND expression[All Fields]': <urlopen error [Errno 101] Network is unreachable>
+[2026-04-17 17:16:06]     -> 0 hits
+[2026-04-17 17:16:07]   query: SMN[All Fields] AND Purkinje[All Fields]
+[2026-04-17 17:16:14]     -> 0 hits
+[2026-04-17 17:16:15]   query: (spinal muscular atrophy OR SMN deficiency OR Smn1) AND brain AND expression profiling by high throughput sequencing[DataSet Type]
+[2026-04-17 17:16:20]     -> 12 hits
+[2026-04-17 17:16:21]   query: "Smn" AND "cerebellum"
+[2026-04-17 17:16:21]     -> 2 hits
+[2026-04-17 17:16:22]   query: "SMN" AND "Purkinje cell"
+[2026-04-17 17:16:23]     -> 0 hits
+[2026-04-17 17:16:23]   query: Smn knockout cerebellum transcriptome
+[2026-04-17 17:16:24]     -> 0 hits
+[2026-04-17 17:16:24]   query: SMA adult type 3 cerebellum
+[2026-04-17 17:16:25]     -> 4 hits
+[2026-04-17 17:16:25]   unique GSE candidates: 16
+[2026-04-17 17:16:39]   deep-check GSE290980
+[2026-04-17 17:16:40]   deep-check GSE290979
+[2026-04-17 17:16:40]   deep-check GSE289197
+[2026-04-17 17:16:41]   fetch GSE289197: ERR HTTP Error 404: Not Found
+[2026-04-17 17:16:41]   deep-check GSE232391
+[2026-04-17 17:16:41]   fetch GSE232391: ERR HTTP Error 404: Not Found
+[2026-04-17 17:16:41]   deep-check GSE197638
+[2026-04-17 17:16:42]   deep-check GSE143161
+[2026-04-17 17:16:43]   deep-check GSE174841
+[2026-04-17 17:16:43]   deep-check GSE168622
+[2026-04-17 17:16:44]   deep-check GSE115706
+[2026-04-17 17:16:44]   deep-check GSE117217
+[2026-04-17 17:16:45]   fetch GSE117217: ERR HTTP Error 404: Not Found
+[2026-04-17 17:16:45]   deep-check GSE102204
+[2026-04-17 17:16:46]   deep-check GSE69175
+[2026-04-17 17:16:46]   deep-check GSE54418
+[2026-04-17 17:16:49]   deep-check GSE35583
+[2026-04-17 17:16:49]   deep-check GSE30263
+[2026-04-17 17:16:50]   fetch GSE30263: ERR HTTP Error 404: Not Found
+[2026-04-17 17:16:50]   deep-check GSE19090
+[2026-04-17 17:18:51]   wrote /home/bryza/sma-research/qms/cerebellum_meta/dataset_discovery.tsv  (16 rows)
+[2026-04-17 17:18:51]   CEREBELLUM_SMA_VERIFIED = 0
+[2026-04-17 17:18:51] STEP 2  marker panel
+[2026-04-17 17:18:51]   wrote /home/bryza/sma-research/qms/cerebellum_meta/cerebellar_markers.tsv  (39 marker gene-type pairs across 6 cell types)
+[2026-04-17 17:18:51] ======================================================================
+[2026-04-17 17:18:51] STEP 3 (fallback)  cerebellar-marker expression in verified MN datasets
+[2026-04-17 17:18:51] ======================================================================
+[2026-04-17 17:18:51]   wrote /home/bryza/sma-research/qms/cerebellum_meta/cerebellar_markers.tsv  (39 marker gene-type pairs across 6 cell types)
+[2026-04-17 17:18:51]   GSE290979_organoid: 19417 genes
+[2026-04-17 17:18:51]   GSE87281_SH-SY5Y: 58088 genes
+[2026-04-17 17:18:51]   GSE87281_hiPSC-MN: 58088 genes
+[2026-04-17 17:18:52]   GSE302774_Hb9-iMN: 15899 genes
+[2026-04-17 17:18:52]   GSE302774_iN: 18390 genes
+[2026-04-17 17:18:52]   wrote /home/bryza/sma-research/qms/cerebellum_meta/marker_expression_in_MN.tsv  (162 rows)
+[2026-04-17 17:18:52]   wrote /home/bryza/sma-research/qms/cerebellum_meta/marker_expression_summary.tsv
+[2026-04-17 17:18:52] ======================================================================
+[2026-04-17 17:18:52] STEP 4  cross-compartment comparison (MN signature vs cerebellar markers)
+[2026-04-17 17:18:52] ======================================================================
+[2026-04-17 17:18:52]   MN meta_summary: 18 genes
+[2026-04-17 17:18:52]   MN panel <-> cerebellar panel overlap: 0  -> []
+[2026-04-17 17:18:52]   wrote /home/bryza/sma-research/qms/cerebellum_meta/cross_compartment.tsv  (0 overlapping genes)
+[2026-04-17 17:18:52] ======================================================================
+[2026-04-17 17:18:52] STEP 5  druggability + PubMed novelty (top candidates)
+[2026-04-17 17:18:52] ======================================================================
+[2026-04-17 17:18:52]   scoring 25 genes
+[2026-04-17 17:18:54]     PVALB       SMA=   0  cerebellum=    9  any=   262  novelty=NOVEL
+[2026-04-17 17:18:56]     CALB1       SMA=   1  cerebellum=   88  any=   917  novelty=UNDER
+[2026-04-17 17:18:59]     PCP2        SMA=   0  cerebellum=  104  any=   216  novelty=NOVEL
+[2026-04-17 17:19:01]     CALB2       SMA=   9  cerebellum=   66  any=  1384  novelty=ESTABLISHED
+[2026-04-17 17:19:04]     CA8         SMA=   0  cerebellum=   16  any=   199  novelty=NOVEL
+[2026-04-17 17:19:07]     ITPR1       SMA=   0  cerebellum=  115  any=  1005  novelty=NOVEL
+[2026-04-17 17:19:10]     PCP4        SMA=   0  cerebellum=   25  any=   169  novelty=NOVEL
+[2026-04-17 17:19:12]     HOMER3      SMA=   0  cerebellum=   10  any=    84  novelty=NOVEL
+[2026-04-17 17:19:15]     CBLN1       SMA=   0  cerebellum=   66  any=   144  novelty=NOVEL
+[2026-04-17 17:19:18]     CBLN3       SMA=   0  cerebellum=    9  any=    22  novelty=NOVEL
+[2026-04-17 17:19:20]     GRID2       SMA=   0  cerebellum=   41  any=   145  novelty=NOVEL
+[2026-04-17 17:19:23]     GABRA6      SMA=   0  cerebellum=   34  any=   156  novelty=NOVEL
+[2026-04-17 17:19:26]     NEUROD1     SMA=   2  cerebellum=   31  any=  1334  novelty=UNDER
+[2026-04-17 17:19:29]     RBFOX3      SMA=   0  cerebellum=    7  any=   350  novelty=NOVEL
+[2026-04-17 17:19:31]     ETV1        SMA=   2  cerebellum=    8  any=   544  novelty=UNDER
+[2026-04-17 17:19:34]     ATOH1       SMA=   0  cerebellum=  162  any=   854  novelty=NOVEL
+[2026-04-17 17:19:36]     ZIC1        SMA=   1  cerebellum=   74  any=   366  novelty=UNDER
+[2026-04-17 17:19:39]     ZIC2        SMA=   0  cerebellum=   30  any=   381  novelty=NOVEL
+[2026-04-17 17:19:42]     CBLN4       SMA=   0  cerebellum=   14  any=    51  novelty=NOVEL
+[2026-04-17 17:19:45]     GRIA2       SMA=   1  cerebellum=    4  any=   267  novelty=UNDER
+[2026-04-17 17:19:47]     GRM4        SMA=   0  cerebellum=    1  any=    87  novelty=NOVEL
+[2026-04-17 17:19:50]     SORCS3      SMA=   0  cerebellum=    1  any=    65  novelty=NOVEL
+[2026-04-17 17:19:53]     CARTPT      SMA=   0  cerebellum=    0  any=   103  novelty=NOVEL
+[2026-04-17 17:19:56]     KIT         SMA= 828  cerebellum=   78  any=107487  novelty=ESTABLISHED
+[2026-04-17 17:19:58]     SST         SMA=  40  cerebellum=   32  any=  8993  novelty=ESTABLISHED
+[2026-04-17 17:19:58]   wrote /home/bryza/sma-research/qms/cerebellum_meta/druggability.tsv
+[2026-04-17 17:19:58] ======================================================================
+[2026-04-17 17:19:58] STEP 6  report draft
+[2026-04-17 17:19:58] ======================================================================
+[2026-04-17 17:19:58] wrote /home/bryza/sma-research/qms/CEREBELLUM_SMA_META_ANALYSIS_RESULTS.md
+[2026-04-17 17:19:58] Running triple_llm_verify on report ...
+[2026-04-17 17:20:04]   llm: [triple-llm] verifying /home/bryza/sma-research/qms/CEREBELLUM_SMA_META_ANALYSIS_RESULTS.md (14422 chars)
+[2026-04-17 17:20:04]   llm: 
+[2026-04-17 17:20:04]   llm: === OpenAI GPT-4o ===
+[2026-04-17 17:20:04]   llm:   verdict: PASS
+[2026-04-17 17:20:04]   llm:   note: Consider providing more detailed methodology for the dataset discovery audit to enhance reproducibility.
+[2026-04-17 17:20:04]   llm:   note: Clarify if there are any ongoing efforts to generate the needed SMA cerebellum datasets.
+[2026-04-17 17:20:04]   llm: === Groq Llama-3.3-70B ===
+[2026-04-17 17:20:04]   llm:   verdict: PASS
+[2026-04-17 17:20:04]   llm:   note: Consider adding more details on the search strategy for the dataset discovery audit
+[2026-04-17 17:20:04]   llm:   note: Provide more context on the cerebellar cell-type marker panel curation process
+[2026-04-17 17:20:04]   llm: === Gemini 2.0 Flash ===
+[2026-04-17 17:20:04]   llm:   verdict: PASS
+[2026-04-17 17:20:04]   llm:   note: In the discovery summary table, consider adding a column for 'Query' to indicate which of the 8 queries led to the candidate. This would improve traceability.
+[2026-04-17 17:20:04]   llm:   note: For the 'druggability.tsv' output, consider adding a column indicating the specific PubMed IDs of the co-mentions (if any exist) to facilitate quick validation of the novelty claims.
+[2026-04-17 17:20:04]   llm: 
+[2026-04-17 17:20:04]   llm: === AGGREGATE: 3/3 LLMs PASS ===
+[2026-04-17 17:20:04]   llm: saved → /home/bryza/sma-research/qms/CEREBELLUM_SMA_META_ANALYSIS_RESULTS_triple_llm.json
+[2026-04-17 17:20:04]   llm: OVERALL: PASS
+[2026-04-17 17:20:04]   triple_llm_verify exit=0 -> PASS
+[2026-04-17 17:20:04] ======================================================================
+[2026-04-17 17:20:04] PIPELINE END  triple_llm=PASS (3/3)
+[2026-04-17 17:21:57] ======================================================================
+[2026-04-17 17:21:57] cerebellum_sma_meta.py  pipeline START
+[2026-04-17 17:21:57] ======================================================================
+[2026-04-17 17:21:57] ======================================================================
+[2026-04-17 17:21:57] STEP 1  Dataset discovery
+[2026-04-17 17:21:57] ======================================================================
+[2026-04-17 17:21:57]   query: (spinal muscular atrophy[All Fields] OR SMN1[All Fields] OR SMN2[All Fields]) AND (cerebellum[All Fields] OR Purkinje[All Fields])
+[2026-04-17 17:21:57]     -> 4 hits
+[2026-04-17 17:21:58]   query: SMA[All Fields] AND cerebellum[All Fields] AND expression[All Fields]
+[2026-04-17 17:21:58]     -> 5 hits
+[2026-04-17 17:21:59]   query: SMN[All Fields] AND Purkinje[All Fields]
+[2026-04-17 17:21:59]     -> 0 hits
+[2026-04-17 17:22:00]   query: (spinal muscular atrophy OR SMN deficiency OR Smn1) AND brain AND expression profiling by high throughput sequencing[DataSet Type]
+[2026-04-17 17:22:00]     -> 12 hits
+[2026-04-17 17:22:01]   query: "Smn" AND "cerebellum"
+[2026-04-17 17:22:01]     -> 2 hits
+[2026-04-17 17:22:02]   query: "SMN" AND "Purkinje cell"
+[2026-04-17 17:22:02]     -> 0 hits
+[2026-04-17 17:22:03]   query: Smn knockout cerebellum transcriptome
+[2026-04-17 17:22:03]     -> 0 hits
+[2026-04-17 17:22:04]   query: SMA adult type 3 cerebellum
+[2026-04-17 17:22:04]     -> 4 hits
+[2026-04-17 17:22:05]   unique GSE candidates: 16
+[2026-04-17 17:22:19]   deep-check GSE174841
+[2026-04-17 17:22:20]   deep-check GSE168622
+[2026-04-17 17:22:21]   deep-check GSE54418
+[2026-04-17 17:22:24]   deep-check GSE30263
+[2026-04-17 17:22:25]   fetch GSE30263 (FTP): ERR HTTP Error 404: Not Found -- trying acc.cgi fallback
+[2026-04-17 17:22:25]   deep-check GSE19090
+[2026-04-17 17:24:49]   deep-check GSE290980
+[2026-04-17 17:24:50]   deep-check GSE290979
+[2026-04-17 17:24:51]   deep-check GSE289197
+[2026-04-17 17:24:51]   fetch GSE289197 (FTP): ERR HTTP Error 404: Not Found -- trying acc.cgi fallback
+[2026-04-17 17:24:52]   deep-check GSE232391
+[2026-04-17 17:24:52]   fetch GSE232391 (FTP): ERR HTTP Error 404: Not Found -- trying acc.cgi fallback
+[2026-04-17 17:24:53]   deep-check GSE197638
+[2026-04-17 17:24:54]   deep-check GSE143161
+[2026-04-17 17:24:55]   deep-check GSE115706
+[2026-04-17 17:24:55]   deep-check GSE117217
+[2026-04-17 17:24:56]   fetch GSE117217 (FTP): ERR HTTP Error 404: Not Found -- trying acc.cgi fallback
+[2026-04-17 17:24:57]   deep-check GSE102204
+[2026-04-17 17:24:58]   deep-check GSE69175
+[2026-04-17 17:24:59]   deep-check GSE35583
+[2026-04-17 17:24:59]   wrote /home/bryza/sma-research/qms/cerebellum_meta/dataset_discovery.tsv  (16 rows)
+[2026-04-17 17:24:59]   CEREBELLUM_SMA_VERIFIED = 0
+[2026-04-17 17:24:59] STEP 2  marker panel
+[2026-04-17 17:24:59]   wrote /home/bryza/sma-research/qms/cerebellum_meta/cerebellar_markers.tsv  (39 marker gene-type pairs across 6 cell types)
+[2026-04-17 17:24:59] ======================================================================
+[2026-04-17 17:24:59] STEP 3 (fallback)  cerebellar-marker expression in verified MN datasets
+[2026-04-17 17:24:59] ======================================================================
+[2026-04-17 17:24:59]   wrote /home/bryza/sma-research/qms/cerebellum_meta/cerebellar_markers.tsv  (39 marker gene-type pairs across 6 cell types)
+[2026-04-17 17:24:59]   GSE290979_organoid: 19417 genes
+[2026-04-17 17:24:59]   GSE87281_SH-SY5Y: 58088 genes
+[2026-04-17 17:24:59]   GSE87281_hiPSC-MN: 58088 genes
+[2026-04-17 17:24:59]   GSE302774_Hb9-iMN: 15899 genes
+[2026-04-17 17:24:59]   GSE302774_iN: 18390 genes
+[2026-04-17 17:24:59]   wrote /home/bryza/sma-research/qms/cerebellum_meta/marker_expression_in_MN.tsv  (162 rows)
+[2026-04-17 17:24:59]   wrote /home/bryza/sma-research/qms/cerebellum_meta/marker_expression_summary.tsv
+[2026-04-17 17:24:59] ======================================================================
+[2026-04-17 17:24:59] STEP 4  cross-compartment comparison (MN signature vs cerebellar markers)
+[2026-04-17 17:24:59] ======================================================================
+[2026-04-17 17:24:59]   MN meta_summary: 18 genes
+[2026-04-17 17:24:59]   MN panel <-> cerebellar panel overlap: 0  -> []
+[2026-04-17 17:24:59]   wrote /home/bryza/sma-research/qms/cerebellum_meta/cross_compartment.tsv  (0 overlapping genes)
+[2026-04-17 17:24:59] ======================================================================
+[2026-04-17 17:24:59] STEP 5  druggability + PubMed novelty (top candidates)
+[2026-04-17 17:24:59] ======================================================================
+[2026-04-17 17:24:59]   scoring 25 genes
+[2026-04-17 17:25:02]     PVALB       SMA=   0  cerebellum=    9  any=   262  novelty=NOVEL
+[2026-04-17 17:25:05]     CALB1       SMA=   1  cerebellum=   88  any=   917  novelty=UNDER
+[2026-04-17 17:25:08]     PCP2        SMA=   0  cerebellum=  104  any=   216  novelty=NOVEL
+[2026-04-17 17:25:10]     CALB2       SMA=   9  cerebellum=   66  any=  1384  novelty=ESTABLISHED
+[2026-04-17 17:25:13]     CA8         SMA=   0  cerebellum=   16  any=   199  novelty=NOVEL
+[2026-04-17 17:25:15]     ITPR1       SMA=   0  cerebellum=  115  any=  1005  novelty=NOVEL
+[2026-04-17 17:25:18]     PCP4        SMA=   0  cerebellum=   25  any=   169  novelty=NOVEL
+[2026-04-17 17:25:22]     HOMER3      SMA=   0  cerebellum=   10  any=    84  novelty=NOVEL
+[2026-04-17 17:25:25]     CBLN1       SMA=   0  cerebellum=   66  any=   144  novelty=NOVEL
+[2026-04-17 17:25:27]     CBLN3       SMA=   0  cerebellum=    9  any=    22  novelty=NOVEL
+[2026-04-17 17:25:30]     GRID2       SMA=   0  cerebellum=   41  any=   145  novelty=NOVEL
+[2026-04-17 17:25:32]     GABRA6      SMA=   0  cerebellum=   34  any=   156  novelty=NOVEL
+[2026-04-17 17:25:35]     NEUROD1     SMA=   2  cerebellum=   31  any=  1334  novelty=UNDER
+[2026-04-17 17:25:37]     RBFOX3      SMA=   0  cerebellum=    7  any=   350  novelty=NOVEL
+[2026-04-17 17:25:40]     ETV1        SMA=   2  cerebellum=    8  any=   544  novelty=UNDER
+[2026-04-17 17:25:42]     ATOH1       SMA=   0  cerebellum=  162  any=   854  novelty=NOVEL
+[2026-04-17 17:25:44]     ZIC1        SMA=   1  cerebellum=   74  any=   366  novelty=UNDER
+[2026-04-17 17:25:47]     ZIC2        SMA=   0  cerebellum=   30  any=   381  novelty=NOVEL
+[2026-04-17 17:25:50]     CBLN4       SMA=   0  cerebellum=   14  any=    51  novelty=NOVEL
+[2026-04-17 17:25:53]     GRIA2       SMA=   1  cerebellum=    4  any=   267  novelty=UNDER
+[2026-04-17 17:25:55]     GRM4        SMA=   0  cerebellum=    1  any=    87  novelty=NOVEL
+[2026-04-17 17:25:59]     SORCS3      SMA=   0  cerebellum=    1  any=    65  novelty=NOVEL
+[2026-04-17 17:26:01]     CARTPT      SMA=   0  cerebellum=    0  any=   103  novelty=NOVEL
+[2026-04-17 17:26:03]     KIT         SMA= 828  cerebellum=   78  any=107487  novelty=ESTABLISHED
+[2026-04-17 17:26:06]     SST         SMA=  40  cerebellum=   32  any=  8993  novelty=ESTABLISHED
+[2026-04-17 17:26:06]   wrote /home/bryza/sma-research/qms/cerebellum_meta/druggability.tsv
+[2026-04-17 17:26:06] ======================================================================
+[2026-04-17 17:26:06] STEP 6  report draft
+[2026-04-17 17:26:06] ======================================================================
+[2026-04-17 17:26:06] wrote /home/bryza/sma-research/qms/CEREBELLUM_SMA_META_ANALYSIS_RESULTS.md
+[2026-04-17 17:26:06] Running triple_llm_verify on report ...
+[2026-04-17 17:26:17]   llm: [triple-llm] verifying /home/bryza/sma-research/qms/CEREBELLUM_SMA_META_ANALYSIS_RESULTS.md (15514 chars)
+[2026-04-17 17:26:17]   llm: 
+[2026-04-17 17:26:17]   llm: === OpenAI GPT-4o ===
+[2026-04-17 17:26:17]   llm:   verdict: PASS
+[2026-04-17 17:26:17]   llm:   note: Consider adding more detail on the methodology used for the dataset discovery audit to enhance reproducibility.
+[2026-04-17 17:26:17]   llm:   note: Clarify the criteria used for the 'druggability + novelty shortlist' to ensure transparency in gene selection.
+[2026-04-17 17:26:17]   llm: === Groq Llama-3.3-70B ===
+[2026-04-17 17:26:17]   llm:   verdict: PASS
+[2026-04-17 17:26:17]   llm:   note: Consider adding more details on the cerebellar cell-type marker panel curation process
+[2026-04-17 17:26:17]   llm:   note: Provide additional context on the druggability shortlist and its implications
+[2026-04-17 17:26:17]   llm: === Gemini 2.0 Flash ===
+[2026-04-17 17:26:17]   llm:   verdict: PASS
+[2026-04-17 17:26:17]   llm: 
+[2026-04-17 17:26:17]   llm: === AGGREGATE: 3/3 LLMs PASS ===
+[2026-04-17 17:26:17]   llm: saved → /home/bryza/sma-research/qms/CEREBELLUM_SMA_META_ANALYSIS_RESULTS_triple_llm.json
+[2026-04-17 17:26:17]   llm: OVERALL: PASS
+[2026-04-17 17:26:17]   triple_llm_verify exit=0 -> PASS
+[2026-04-17 17:26:17] ======================================================================
+[2026-04-17 17:26:17] PIPELINE END  triple_llm=PASS (3/3)
+[2026-04-17 17:28:34] ======================================================================
+[2026-04-17 17:28:34] cerebellum_sma_meta.py  pipeline START
+[2026-04-17 17:28:34] ======================================================================
+[2026-04-17 17:28:34] ======================================================================
+[2026-04-17 17:28:34] STEP 1  Dataset discovery
+[2026-04-17 17:28:34] ======================================================================
+[2026-04-17 17:28:34]   query: (spinal muscular atrophy[All Fields] OR SMN1[All Fields] OR SMN2[All Fields]) AND (cerebellum[All Fields] OR Purkinje[All Fields])
+[2026-04-17 17:28:34]     -> 4 hits
+[2026-04-17 17:28:35]   query: SMA[All Fields] AND cerebellum[All Fields] AND expression[All Fields]
+[2026-04-17 17:28:35]     -> 5 hits
+[2026-04-17 17:28:36]   query: SMN[All Fields] AND Purkinje[All Fields]
+[2026-04-17 17:28:36]     -> 0 hits
+[2026-04-17 17:28:37]   query: (spinal muscular atrophy OR SMN deficiency OR Smn1) AND brain AND expression profiling by high throughput sequencing[DataSet Type]
+[2026-04-17 17:28:37]     -> 12 hits
+[2026-04-17 17:28:38]   query: "Smn" AND "cerebellum"
+[2026-04-17 17:28:38]     -> 2 hits
+[2026-04-17 17:28:39]   query: "SMN" AND "Purkinje cell"
+[2026-04-17 17:28:39]     -> 0 hits
+[2026-04-17 17:28:40]   query: Smn knockout cerebellum transcriptome
+[2026-04-17 17:28:40]     -> 0 hits
+[2026-04-17 17:28:41]   query: SMA adult type 3 cerebellum
+[2026-04-17 17:28:41]     -> 4 hits
+[2026-04-17 17:28:42]   unique GSE candidates: 16
+[2026-04-17 17:28:56]   deep-check GSE174841
+[2026-04-17 17:28:57]   deep-check GSE168622
+[2026-04-17 17:28:57]   deep-check GSE54418
+[2026-04-17 17:28:59]   deep-check GSE30263
+[2026-04-17 17:28:59]   fetch GSE30263 (FTP): ERR HTTP Error 404: Not Found -- trying acc.cgi fallback
+[2026-04-17 17:29:00]   deep-check GSE19090
+[2026-04-17 17:30:04]   deep-check GSE290980
+[2026-04-17 17:30:04]   deep-check GSE290979
+[2026-04-17 17:30:05]   deep-check GSE289197
+[2026-04-17 17:30:06]   fetch GSE289197 (FTP): ERR HTTP Error 404: Not Found -- trying acc.cgi fallback
+[2026-04-17 17:30:06]   deep-check GSE232391
+[2026-04-17 17:30:07]   fetch GSE232391 (FTP): ERR HTTP Error 404: Not Found -- trying acc.cgi fallback
+[2026-04-17 17:30:07]   deep-check GSE197638
+[2026-04-17 17:30:08]   deep-check GSE143161
+[2026-04-17 17:30:09]   deep-check GSE115706
+[2026-04-17 17:30:10]   deep-check GSE117217
+[2026-04-17 17:30:10]   fetch GSE117217 (FTP): ERR HTTP Error 404: Not Found -- trying acc.cgi fallback
+[2026-04-17 17:30:11]   deep-check GSE102204
+[2026-04-17 17:30:12]   deep-check GSE69175
+[2026-04-17 17:30:13]   deep-check GSE35583
+[2026-04-17 17:30:14]   wrote /home/bryza/sma-research/qms/cerebellum_meta/dataset_discovery.tsv  (16 rows)
+[2026-04-17 17:30:14]   CEREBELLUM_SMA_VERIFIED = 0
+[2026-04-17 17:30:14] STEP 2  marker panel
+[2026-04-17 17:30:14]   wrote /home/bryza/sma-research/qms/cerebellum_meta/cerebellar_markers.tsv  (39 marker gene-type pairs across 6 cell types)
+[2026-04-17 17:30:14] ======================================================================
+[2026-04-17 17:30:14] STEP 3 (fallback)  cerebellar-marker expression in verified MN datasets
+[2026-04-17 17:30:14] ======================================================================
+[2026-04-17 17:30:14]   wrote /home/bryza/sma-research/qms/cerebellum_meta/cerebellar_markers.tsv  (39 marker gene-type pairs across 6 cell types)
+[2026-04-17 17:30:14]   GSE290979_organoid: 19417 genes
+[2026-04-17 17:30:14]   GSE87281_SH-SY5Y: 58088 genes
+[2026-04-17 17:30:14]   GSE87281_hiPSC-MN: 58088 genes
+[2026-04-17 17:30:14]   GSE302774_Hb9-iMN: 15899 genes
+[2026-04-17 17:30:14]   GSE302774_iN: 18390 genes
+[2026-04-17 17:30:14]   wrote /home/bryza/sma-research/qms/cerebellum_meta/marker_expression_in_MN.tsv  (162 rows)
+[2026-04-17 17:30:14]   wrote /home/bryza/sma-research/qms/cerebellum_meta/marker_expression_summary.tsv
+[2026-04-17 17:30:14] ======================================================================
+[2026-04-17 17:30:14] STEP 4  cross-compartment comparison (MN signature vs cerebellar markers)
+[2026-04-17 17:30:14] ======================================================================
+[2026-04-17 17:30:14]   MN meta_summary: 18 genes
+[2026-04-17 17:30:14]   MN panel <-> cerebellar panel overlap: 0  -> []
+[2026-04-17 17:30:14]   wrote /home/bryza/sma-research/qms/cerebellum_meta/cross_compartment.tsv  (0 overlapping genes)
+[2026-04-17 17:30:14] ======================================================================
+[2026-04-17 17:30:14] STEP 5  druggability + PubMed novelty (top candidates)
+[2026-04-17 17:30:14] ======================================================================
+[2026-04-17 17:30:14]   scoring 25 genes
+[2026-04-17 17:30:16]     PVALB       SMA=   0  cerebellum=    9  any=   262  novelty=NOVEL
+[2026-04-17 17:30:19]     CALB1       SMA=   1  cerebellum=   88  any=   917  novelty=UNDER
+[2026-04-17 17:30:22]     PCP2        SMA=   0  cerebellum=  104  any=   216  novelty=NOVEL
+[2026-04-17 17:30:24]     CALB2       SMA=   9  cerebellum=   66  any=  1384  novelty=ESTABLISHED
+[2026-04-17 17:30:27]     CA8         SMA=   0  cerebellum=   16  any=   199  novelty=NOVEL
+[2026-04-17 17:30:29]     ITPR1       SMA=   0  cerebellum=  115  any=  1005  novelty=NOVEL
+[2026-04-17 17:30:32]     PCP4        SMA=   0  cerebellum=   25  any=   169  novelty=NOVEL
+[2026-04-17 17:30:34]     HOMER3      SMA=   0  cerebellum=   10  any=    84  novelty=NOVEL
+[2026-04-17 17:30:37]     CBLN1       SMA=   0  cerebellum=   66  any=   144  novelty=NOVEL
+[2026-04-17 17:30:39]     CBLN3       SMA=   0  cerebellum=    9  any=    22  novelty=NOVEL
+[2026-04-17 17:30:42]     GRID2       SMA=   0  cerebellum=   41  any=   145  novelty=NOVEL
+[2026-04-17 17:30:44]     GABRA6      SMA=   0  cerebellum=   34  any=   156  novelty=NOVEL
+[2026-04-17 17:30:47]     NEUROD1     SMA=   2  cerebellum=   31  any=  1334  novelty=UNDER
+[2026-04-17 17:30:49]     RBFOX3      SMA=   0  cerebellum=    7  any=   350  novelty=NOVEL
+[2026-04-17 17:30:52]     ETV1        SMA=   2  cerebellum=    8  any=   544  novelty=UNDER
+[2026-04-17 17:30:55]     ATOH1       SMA=   0  cerebellum=  162  any=   854  novelty=NOVEL
+[2026-04-17 17:30:57]     ZIC1        SMA=   1  cerebellum=   74  any=   366  novelty=UNDER
+[2026-04-17 17:31:00]     ZIC2        SMA=   0  cerebellum=   30  any=   381  novelty=NOVEL
+[2026-04-17 17:31:02]     CBLN4       SMA=   0  cerebellum=   14  any=    51  novelty=NOVEL
+[2026-04-17 17:31:05]     GRIA2       SMA=   1  cerebellum=    4  any=   267  novelty=UNDER
+[2026-04-17 17:31:07]     GRM4        SMA=   0  cerebellum=    1  any=    87  novelty=NOVEL
+[2026-04-17 17:31:10]     SORCS3      SMA=   0  cerebellum=    1  any=    65  novelty=NOVEL
+[2026-04-17 17:31:12]     CARTPT      SMA=   0  cerebellum=    0  any=   103  novelty=NOVEL
+[2026-04-17 17:31:15]     KIT         SMA= 828  cerebellum=   78  any=107487  novelty=ESTABLISHED
+[2026-04-17 17:31:18]     SST         SMA=  40  cerebellum=   32  any=  8993  novelty=ESTABLISHED
+[2026-04-17 17:31:18]   wrote /home/bryza/sma-research/qms/cerebellum_meta/druggability.tsv
+[2026-04-17 17:31:18] ======================================================================
+[2026-04-17 17:31:18] STEP 6  report draft
+[2026-04-17 17:31:18] ======================================================================
+[2026-04-17 17:31:18] wrote /home/bryza/sma-research/qms/CEREBELLUM_SMA_META_ANALYSIS_RESULTS.md
+[2026-04-17 17:31:18] Running triple_llm_verify on report ...
+[2026-04-17 17:31:24]   llm: [triple-llm] verifying /home/bryza/sma-research/qms/CEREBELLUM_SMA_META_ANALYSIS_RESULTS.md (16912 chars)
+[2026-04-17 17:31:24]   llm: 
+[2026-04-17 17:31:24]   llm: === OpenAI GPT-4o ===
+[2026-04-17 17:31:24]   llm:   verdict: PASS
+[2026-04-17 17:31:24]   llm:   note: Consider adding more detail on the methodology used for the dataset discovery audit to enhance transparency.
+[2026-04-17 17:31:24]   llm:   note: Include a brief explanation of why certain datasets were rejected to provide more context for the decision-making process.
+[2026-04-17 17:31:24]   llm: === Groq Llama-3.3-70B ===
+[2026-04-17 17:31:24]   llm:   verdict: PASS
+[2026-04-17 17:31:24]   llm:   note: Consider adding more details on the cerebellar cell-type marker panel curation process
+[2026-04-17 17:31:24]   llm:   note: Provide more context on the Budapest 2026 priority and its relevance to the study
+[2026-04-17 17:31:24]   llm: === Gemini 2.0 Flash ===
+[2026-04-17 17:31:24]   llm:   verdict: PASS
+[2026-04-17 17:31:24]   llm:   note: Consider adding a brief discussion of potential confounders in the negative result, such as the possibility that SMA-related changes in the cerebellum are subtle and require more sensitive methods than bulk RNA-seq, or that the relevant changes occur at a different developmental stage than those typically studied.
+[2026-04-17 17:31:24]   llm:   note: In the 'Druggability + novelty shortlist' section, consider adding a brief explanation of how the PubMed counts are used to assess novelty and druggability. For example, mention that low PubMed counts for a gene in combination with SMA suggest a novel target, while higher counts in combination with other diseases might indicate druggability based on existing research.
+[2026-04-17 17:31:24]   llm: 
+[2026-04-17 17:31:24]   llm: === AGGREGATE: 3/3 LLMs PASS ===
+[2026-04-17 17:31:24]   llm: saved → /home/bryza/sma-research/qms/CEREBELLUM_SMA_META_ANALYSIS_RESULTS_triple_llm.json
+[2026-04-17 17:31:24]   llm: OVERALL: PASS
+[2026-04-17 17:31:24]   triple_llm_verify exit=0 -> PASS
+[2026-04-17 17:31:24] ======================================================================
+[2026-04-17 17:31:24] PIPELINE END  triple_llm=PASS (3/3)

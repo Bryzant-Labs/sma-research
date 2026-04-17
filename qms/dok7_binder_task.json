@@ -1,0 +1,38 @@
+{
+  "id": "dok7_binder",
+  "type": "pocketxmol",
+  "target": "DOK7_PTB_pY-groove_MuSK-dimer-stabilizer_denovo",
+  "pdb_id": "3ML4",
+  "pocket_center": [-80.758, -17.716, -27.745],
+  "pocket_radius": 10.0,
+  "n_molecules": 600,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 1,
+  "status": "running",
+  "_campaign": {
+    "name": "DOK7 PTB MuSK-dimer stabilizer (CMS + SMA NMJ, Simon-relevant)",
+    "campaign_id": "dok7_binder",
+    "instance_id": "35120543",
+    "gpu": "A100 SXM4 40GB",
+    "location": "Slovenia",
+    "cost_per_hr": 0.6944,
+    "ssh": "ssh -i ~/.ssh/id_ed25519_vastai -p 10542 root@ssh2.vast.ai"
+  },
+  "_pocket": {
+    "pdb_title_verified": "CRYSTAL STRUCTURE OF A COMPLEX BETWEEN DOK7 PH-PTB AND THE MUSK JUXTAMEMBRANE REGION",
+    "chain_A_source": "HUMAN DOK-7 (UniProt Q18PE1) PH-PTB tandem, residues 1-220",
+    "chain_E_source": "HUMAN MUSK (UniProt O15146) juxtamembrane region residues 544-556 (pY-containing peptide)",
+    "interface_strategy": "Canonical PTB pY-recognition groove: R158/R159/Y160 triad + flanking 154-168",
+    "core_triad": ["R158","R159","Y160"],
+    "triad_geometry_verified": "R158-R159 CA-CA=3.79A, R159-Y160 CA-CA=3.79A (sequential trans-peptide)",
+    "n_interface_residues_under_5A": 15,
+    "sanity_checks": "PASS"
+  },
+  "_rationale": {
+    "sma_link": "DOK7 PTB reads MuSK phospho-Y553 to sustain MuSK autophosphorylation and drive AChR clustering. In SMA, NMJ fails to mature. DOK7 enhancer = NMJ booster, orthogonal to SMN therapy.",
+    "cms_overlap": "Human DOK7 LoF mutations cause Congenital Myasthenic Syndrome. DOK7 enhancer useful in CMS + SMA.",
+    "selectivity_panel": "Top 100 queue Boltz-2 vs DOK7 PTB + MuSK counter + IRS1/SHC1 PTB cross-family counters.",
+    "simon_relevance": "Christian Simon lab NMJ focus - direct collaboration payload."
+  }
+}

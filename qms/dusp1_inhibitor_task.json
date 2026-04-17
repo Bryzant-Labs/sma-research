@@ -1,0 +1,37 @@
+{
+  "id": "dusp1_inhibitor",
+  "type": "pocketxmol",
+  "target": "DUSP1_active_site_denovo_inhibitor",
+  "structure_source": "AlphaFold2_P28562_v6",
+  "pocket_center": [5.203, 0.802, -17.015],
+  "pocket_radius": 10.0,
+  "n_molecules": 600,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 1,
+  "status": "running",
+  "_campaign": {
+    "name": "DUSP1/MKP-1 active-site inhibitor (sister to DUSP6; extends phosphatase panel; SMA MAPK survival axis)",
+    "campaign_id": "dusp1_inhibitor",
+    "instance_id": "35120543",
+    "gpu": "A100 SXM4 40GB",
+    "location": "Slovenia",
+    "cost_per_hr": 0.6944,
+    "ssh": "ssh -i ~/.ssh/id_ed25519_vastai -p 10542 root@ssh2.vast.ai"
+  },
+  "_pocket": {
+    "source_title_verified": "ALPHAFOLD MONOMER V2.0 PREDICTION FOR DUAL SPECIFICITY PROTEIN PHOSPHATASE 1 (P28562)",
+    "model": "AF-P28562-F1-model_v6",
+    "global_pLDDT": 79.2,
+    "catalytic_cys": "Cys258 (pLDDT 97.3)",
+    "p_loop_arg": "Arg264 (pLDDT 98.6)",
+    "cys_arg_CA_CA_A": 6.11,
+    "motif": "DSP CX5R (classical: C258-QAGIS-R264)",
+    "pocket_residues": ["GLY184","SER185","ALA186","VAL206","SER207","ASP227","HIS257","CYS258","GLN259","ALA260","GLY261","ILE262","SER263","ARG264","SER265","ALA266"]
+  },
+  "_rationale": {
+    "sma_link": "DUSP1 inactivates ERK/JNK/p38 MAPKs. Inhibition sustains multi-MAPK pro-survival signalling in SMA motor neurons (broader than DUSP6 which is ERK-selective).",
+    "selectivity_panel": "Top 100 → Boltz-2 vs DUSP1 + DUSP6 + SSH1 + SSH2 + SSH3 phosphatase panel; DUSP1-selective if z_DUSP1 > 0 AND z_DUSP1 > z_DUSP6.",
+    "direction_status": "UNRESOLVED — DUSP1 direction for SMA MN requires meta-analysis. Exploratory compute, not therapy claim."
+  }
+}

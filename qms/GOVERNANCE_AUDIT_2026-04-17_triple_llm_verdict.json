@@ -1,0 +1,45 @@
+{
+  "file_verified": "/home/bryza/sma-research/qms/GOVERNANCE_AUDIT_2026-04-17.md",
+  "verified_at": "2026-04-17T13:00Z",
+  "aggregate": {
+    "openai_gpt4o": "FAIL",
+    "groq_llama33_70b": "FAIL",
+    "gemini_2_0_flash": "FAIL",
+    "pass_count": 0,
+    "overall": "FAIL"
+  },
+  "interpretation": "Expected behaviour on an audit document. The triple_llm_verify.py prompt rule (lines 36-41 of the script) says past errors being corrected are NOT current claims. An audit report is a MIDDLE category: it CATALOGS issues that currently EXIST in the ecosystem and need fixing. The 3 LLMs correctly identify those unfixed issues (U2, U3, U5, U7, U9, U11, U12 etc.) as blocking — because from the external-comms perspective they ARE blocking. This is the correct signal: platform is NOT ready for external comms until URGENT list is resolved.",
+  "openai_blocks": [
+    "U2: CFL2 disease-specific claim unsourced and contradicts meta-analysis",
+    "U3: PFN2 magnitude incorrect, not supported by any dataset",
+    "U4: Conflicting sources for CORO1C retraction",
+    "U5: ROCK-ALS Phase 2 trial citation unverified",
+    "U7: GSE208629 cited without verification",
+    "U8: LIMK2/LIMK1 retracted claim with false framing"
+  ],
+  "groq_blocks": [
+    "GSE208629 cited without verification",
+    "LIMK2 +2.81× claim still present in multiple files despite retraction",
+    "PFN2 +1.22 log2FC claim inconsistent with meta-analysis",
+    "ROCK-ALS Phase 2 trial citation unverified",
+    "CFL2 disease-specific claim unsourced and contradicted by meta-analysis"
+  ],
+  "gemini_blocks": [
+    "U2: CFL2 disease-specific claim UNSOURCED and contradicts meta-analysis",
+    "U3: PFN2 log2FC magnitude WRONG and inconsistent with meta-analysis",
+    "U4: CORO1C retraction conflicting sources",
+    "U5: ROCK-ALS Phase 2 trial citation unverified (no PMID/DOI)",
+    "U7: GSE208629 unverified, likely hallucinated accession",
+    "U9: PFN2 and LIMK1 magnitudes inconsistent with meta-analysis",
+    "U11: README.md Status field still says VALIDATED despite retraction banner",
+    "U12: Strikethrough syntax malformed"
+  ],
+  "audit_verdict": "The 0/3 PASS signal is CORRECT and ACTIONABLE. It confirms that the ecosystem still contains blocking issues that need fixing. The URGENT-list items U1-U28 in the audit report itself are the fix plan. The audit report's recommendation (NOT ready for external comms; 2-3 days of cleanup) is validated by the LLMs' responses.",
+  "next_steps": [
+    "1. Execute URGENT fixes U1-U28 (banners, text replacements, retraction notices)",
+    "2. Derive new CLAIMS_REGISTRY rows 11-15 (LIMK1, PFN2 magnitude, CORO1C, scRNA-table, GSE208629)",
+    "3. Re-run triple_llm_verify AFTER fixes applied to confirm remaining (now-corrected) ecosystem passes",
+    "4. Christian Fischer human sign-off on audit + sign-off on fixed items",
+    "5. Only THEN: re-open external comms channel to Simon / Torsten"
+  ]
+}

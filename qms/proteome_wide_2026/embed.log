@@ -1,0 +1,73 @@
+[todo] 5376 proteins to embed
+[load] facebook/esm2_t33_650M_UR50D
+Loading weights:   0%|          | 0/566 [00:00<?, ?it/s]Loading weights:  27%|██▋       | 150/566 [00:00<00:00, 1474.43it/s]Loading weights:  53%|█████▎    | 298/566 [00:00<00:00, 1407.10it/s]Loading weights:  78%|███████▊  | 439/566 [00:00<00:00, 1399.64it/s]Loading weights: 100%|██████████| 566/566 [00:00<00:00, 1636.27it/s]
+[1mEsmModel LOAD REPORT[0m from: facebook/esm2_t33_650M_UR50D
+Key                         | Status     | 
+----------------------------+------------+-
+lm_head.dense.bias          | UNEXPECTED | 
+lm_head.bias                | UNEXPECTED | 
+lm_head.layer_norm.bias     | UNEXPECTED | 
+esm.embeddings.position_ids | UNEXPECTED | 
+lm_head.layer_norm.weight   | UNEXPECTED | 
+lm_head.dense.weight        | UNEXPECTED | 
+pooler.dense.weight         | MISSING    | 
+pooler.dense.bias           | MISSING    | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING[3m	:those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.[0m
+[device] cuda
+[100/5376] cached=100 rate=60.32/s eta=1.5min
+[200/5376] cached=200 rate=62.79/s eta=1.4min
+[300/5376] cached=300 rate=60.53/s eta=1.4min
+[400/5376] cached=400 rate=57.86/s eta=1.4min
+[500/5376] cached=500 rate=54.34/s eta=1.5min
+[600/5376] cached=600 rate=50.26/s eta=1.6min
+[700/5376] cached=700 rate=45.58/s eta=1.7min
+[800/5376] cached=800 rate=40.08/s eta=1.9min
+[900/5376] cached=900 rate=36.23/s eta=2.1min
+[1000/5376] cached=1000 rate=34.00/s eta=2.1min
+[1100/5376] cached=1100 rate=31.78/s eta=2.2min
+[1200/5376] cached=1200 rate=29.95/s eta=2.3min
+[1300/5376] cached=1300 rate=28.45/s eta=2.4min
+[1400/5376] cached=1400 rate=27.14/s eta=2.4min
+[1500/5376] cached=1500 rate=25.98/s eta=2.5min
+[1600/5376] cached=1600 rate=25.01/s eta=2.5min
+[1700/5376] cached=1700 rate=24.13/s eta=2.5min
+[1800/5376] cached=1800 rate=23.27/s eta=2.6min
+[1900/5376] cached=1900 rate=22.54/s eta=2.6min
+[2000/5376] cached=2000 rate=21.83/s eta=2.6min
+[2100/5376] cached=2100 rate=21.18/s eta=2.6min
+[2200/5376] cached=2200 rate=20.61/s eta=2.6min
+[2300/5376] cached=2300 rate=19.99/s eta=2.6min
+[2400/5376] cached=2400 rate=19.58/s eta=2.5min
+[2500/5376] cached=2500 rate=19.48/s eta=2.5min
+[2600/5376] cached=2600 rate=19.32/s eta=2.4min
+[2700/5376] cached=2700 rate=19.21/s eta=2.3min
+[2800/5376] cached=2800 rate=19.10/s eta=2.2min
+[2900/5376] cached=2900 rate=19.00/s eta=2.2min
+[3000/5376] cached=3000 rate=18.88/s eta=2.1min
+[3100/5376] cached=3100 rate=18.74/s eta=2.0min
+[3200/5376] cached=3200 rate=18.60/s eta=1.9min
+[3300/5376] cached=3300 rate=18.41/s eta=1.9min
+[3400/5376] cached=3400 rate=18.21/s eta=1.8min
+[3500/5376] cached=3500 rate=17.98/s eta=1.7min
+[3600/5376] cached=3600 rate=17.79/s eta=1.7min
+[3700/5376] cached=3700 rate=17.54/s eta=1.6min
+[3800/5376] cached=3800 rate=17.31/s eta=1.5min
+[3900/5376] cached=3900 rate=17.05/s eta=1.4min
+[4000/5376] cached=4000 rate=16.80/s eta=1.4min
+[4100/5376] cached=4100 rate=16.54/s eta=1.3min
+[4200/5376] cached=4200 rate=16.28/s eta=1.2min
+[4300/5376] cached=4300 rate=16.01/s eta=1.1min
+[4400/5376] cached=4400 rate=15.72/s eta=1.0min
+[4500/5376] cached=4500 rate=15.42/s eta=0.9min
+[4600/5376] cached=4600 rate=15.10/s eta=0.9min
+[4700/5376] cached=4700 rate=14.77/s eta=0.8min
+[4800/5376] cached=4800 rate=14.51/s eta=0.7min
+[4900/5376] cached=4900 rate=14.28/s eta=0.6min
+[5000/5376] cached=5000 rate=14.06/s eta=0.4min
+[5100/5376] cached=5100 rate=13.86/s eta=0.3min
+[5200/5376] cached=5200 rate=13.67/s eta=0.2min
+[5300/5376] cached=5300 rate=13.50/s eta=0.1min
+[done] total cached: 5376, elapsed: 6.7min

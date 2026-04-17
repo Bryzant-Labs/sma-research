@@ -1,0 +1,47 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0733
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    29
+HEADER 3  - Mean alpha-sphere radius          : 3.9027
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5155
+HEADER 5  - Mean B-factor of pocket residues  : 0.9510
+HEADER 6  - Hydrophobicity Score              : 12.3000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.7000
+HEADER 9  - Pocket volume (Monte Carlo)       : 408.8231
+HEADER 10  -Pocket volume (convex hull)       : 39.3527
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.2414
+ATOM   3410  NH2 ARG B 242       7.078  26.000  18.875  0.00  0.00           N 0
+ATOM   1966  NH2 ARG B  58      14.617  25.969  13.945  0.00  0.00           N 0
+ATOM   3408   NE ARG B 242       7.055  24.219  17.422  0.00  0.00           N 0
+ATOM   3692  OE1 GLU B 278       7.309  27.094  13.312  0.00  0.00           O 0
+ATOM   1960   CB ARG B  58      12.258  23.844   8.742  0.00  0.00           C 0
+ATOM   1994   CG GLU B  61      14.625  26.688   5.727  0.00  0.00           C 0
+ATOM   1996  OE1 GLU B  61      14.969  28.078   7.641  0.00  0.00           O 0
+ATOM   1995   CD GLU B  61      15.078  26.938   7.156  0.00  0.00           C 0
+ATOM   1949    O MET B  56       9.820  21.578  12.469  0.62  1.07           O 0
+ATOM   1964   NE ARG B  58      13.625  25.250  12.000  0.00  0.00           N 0
+ATOM   1962   CG ARG B  58      12.242  24.375  10.164  0.00  0.00           C 0
+ATOM   1983   CB LYS B  60      10.109  26.562   3.107  0.00  0.00           C 0
+ATOM   3406   CG ARG B 242       7.520  22.641  15.586  0.00  0.00           C 0
+ATOM   1952   CE MET B  56      14.547  22.781  14.445  0.00  0.00           C 0
+ATOM   3392    O GLY B 240      10.258  19.547  16.719  0.69  3.21           O 0
+ATOM   3689    O GLU B 278       5.641  27.109   8.461  0.40  9.64           O 0
+ATOM   1958   CA ARG B  58      10.906  23.297   8.258  0.00  0.00           C 0
+ATOM   1968    N TYR B  59       9.875  22.750   6.203  0.44  1.09           N 0
+ATOM   1986   CD LYS B  60       8.234  28.250   3.158  0.00  0.00           C 0
+ATOM   1985   CG LYS B  60       8.617  26.781   2.912  0.00  0.00           C 0
+ATOM   1980    N LYS B  60      10.062  24.219   3.877  0.00  0.00           N 0
+ATOM   3698    O ILE B 279       5.469  23.656   6.242  0.00  0.00           O 0
+ATOM   1956    O GLY B  57       8.352  22.828   8.977  0.57  2.14           O 0
+ATOM   1989    N GLU B  61      12.750  25.094   3.891  0.00  0.00           N 0
+ATOM   1959    C ARG B  58      11.008  22.859   6.805  0.00  0.00           C 0
+TER
+END

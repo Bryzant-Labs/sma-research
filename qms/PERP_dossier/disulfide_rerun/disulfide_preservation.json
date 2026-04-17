@@ -1,0 +1,74 @@
+[
+  {
+    "name": "H1a_38_s7",
+    "SG_SG_dist_A": 2.06,
+    "CA_CA_dist_A": 3.74,
+    "SS_bond_intact": true
+  },
+  {
+    "name": "H1c_25_s4",
+    "SG_SG_dist_A": 2.12,
+    "CA_CA_dist_A": 4.53,
+    "SS_bond_intact": true
+  },
+  {
+    "name": "H1c_25_s5",
+    "SG_SG_dist_A": 1.86,
+    "CA_CA_dist_A": 5.22,
+    "SS_bond_intact": true
+  },
+  {
+    "name": "H1b_14_s6",
+    "SG_SG_dist_A": 7.62,
+    "CA_CA_dist_A": 6.61,
+    "SS_bond_intact": false
+  },
+  {
+    "name": "H1b_10_s3",
+    "SG_SG_dist_A": 2.21,
+    "CA_CA_dist_A": 5.29,
+    "SS_bond_intact": true
+  },
+  {
+    "name": "H2b_9_s2",
+    "SG_SG_dist_A": 2.35,
+    "CA_CA_dist_A": 4.76,
+    "SS_bond_intact": true
+  },
+  {
+    "name": "H2c_11_s1",
+    "SG_SG_dist_A": 2.32,
+    "CA_CA_dist_A": 3.92,
+    "SS_bond_intact": true
+  },
+  {
+    "name": "H2b_3_s4",
+    "SG_SG_dist_A": 2.02,
+    "CA_CA_dist_A": 3.84,
+    "SS_bond_intact": true
+  },
+  {
+    "name": "H2a_1_s5",
+    "SG_SG_dist_A": 2.06,
+    "CA_CA_dist_A": 3.84,
+    "SS_bond_intact": true
+  },
+  {
+    "name": "H2c_26_s4",
+    "SG_SG_dist_A": 1.52,
+    "CA_CA_dist_A": 6.16,
+    "SS_bond_intact": true
+  },
+  {
+    "name": "PERP_AF_reference",
+    "SG_SG_dist_A": 2.03,
+    "CA_CA_dist_A": 4.18,
+    "SS_bond_intact": true
+  },
+  {
+    "name": "PERP_ECL1core_reference",
+    "SG_SG_dist_A": 2.03,
+    "CA_CA_dist_A": 4.18,
+    "SS_bond_intact": true
+  }
+]
