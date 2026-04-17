@@ -1,0 +1,8 @@
+{"compound_id": "KAT7_cpd_1", "target": "KAT7", "smiles": "c1ccc(CCNc2nc3ccccc3c3ccccc23)cc1", "iptm": 0.2926969826221466, "ptm": 0.2529827058315277, "plddt": 0.4073050618171692, "conf": 0.3843834400177002}
+{"compound_id": "KAT7_cpd_1", "target": "LIMK1", "smiles": "c1ccc(CCNc2nc3ccccc3c3ccccc23)cc1", "iptm": 0.9357252717018127, "ptm": 0.947393536567688, "plddt": 0.8737094402313232, "conf": 0.886112630367279}
+{"compound_id": "KAT7_cpd_1", "target": "LIMK2", "smiles": "c1ccc(CCNc2nc3ccccc3c3ccccc23)cc1", "iptm": 0.9463423490524292, "ptm": 0.9317300319671631, "plddt": 0.853484570980072, "conf": 0.8720561265945435}
+{"compound_id": "KAT7_cpd_1", "target": "ROCK1", "smiles": "c1ccc(CCNc2nc3ccccc3c3ccccc23)cc1", "iptm": 0.9433809518814087, "ptm": 0.9598997235298157, "plddt": 0.9163604378700256, "conf": 0.9217645525932312}
+{"compound_id": "KAT7_cpd_1", "target": "ROCK2", "smiles": "c1ccc(CCNc2nc3ccccc3c3ccccc23)cc1", "iptm": 0.899494469165802, "ptm": 0.9527883529663086, "plddt": 0.9272120594978333, "conf": 0.921668529510498}
+{"compound_id": "KAT7_cpd_1", "target": "JAK1", "smiles": "c1ccc(CCNc2nc3ccccc3c3ccccc23)cc1", "iptm": 0.9590660929679871, "ptm": 0.9745433926582336, "plddt": 0.9564740657806396, "conf": 0.9569924473762512}
+{"compound_id": "KAT7_cpd_1", "target": "JAK2", "smiles": "c1ccc(CCNc2nc3ccccc3c3ccccc23)cc1", "iptm": 0.9423889517784119, "ptm": 0.9685457348823547, "plddt": 0.9370079636573792, "conf": 0.9380841255187988}
+{"compound_id": "KAT7_cpd_1", "target": "JAK3", "smiles": "c1ccc(CCNc2nc3ccccc3c3ccccc23)cc1", "iptm": 0.9406934380531311, "ptm": 0.9363017678260803, "plddt": 0.9076482057571411, "conf": 0.9142572283744812}

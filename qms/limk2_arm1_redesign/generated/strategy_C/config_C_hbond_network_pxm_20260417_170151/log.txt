@@ -1,0 +1,518 @@
+[2026-04-17 17:01:51,807::sample::INFO] Load from data/trained_models/pxm/checkpoints/pocketxmol.ckpt...
+[2026-04-17 17:01:51,807::sample::INFO] Namespace(config_task='/root/results_limk2_arm1/configs/config_C_hbond_network.yml', config_model='configs/sample/pxm.yml', outdir='/root/results_limk2_arm1/generated_C', device='cuda:0', batch_size=0, shuffle=False, num_workers=-1)
+[2026-04-17 17:01:51,807::sample::INFO] {'sample': {'seed': 2026, 'batch_size': 50, 'num_mols': 500, 'save_traj_prob': 0.01, 'complete_seed': 11424}, 'data': {'protein_path': '/root/results_limk2_arm1/4tpt_chainA_apo.pdb', 'is_pep': False, 'pocket_args': {'pocket_coord': [3.62, -8.196, 22.835], 'radius': 8}, 'pocmol_args': {'data_id': 'limk2_arm1_C_hbond_network', 'pdbid': '4TPT'}}, 'transforms': {'featurizer_pocket': {'center': [3.62, -8.196, 22.835]}, 'variable_mol_size': {'name': 'variable_mol_size', 'num_atoms_distri': {'strategy': 'mol_atoms_based', 'mean': {'coef': 0, 'bias': 28}, 'std': {'coef': 0, 'bias': 2}, 'min': 5}}}, 'task': {'name': 'sbdd', 'transform': {'name': 'ar', 'part1_pert': 'small'}}, 'noise': {'name': 'maskfill', 'num_steps': 100, 'ar_config': {'strategy': 'refine', 'r': 3, 'threshold_node': 0.98, 'threshold_pos': 0.91, 'threshold_bond': 0.98, 'max_ar_step': 10, 'change_init_step': 1}, 'prior': {'part1': 'from_train', 'part2': 'from_train'}, 'level': {'part1': {'name': 'uniform', 'min': 0.6, 'max': 1.0}, 'part2': {'name': 'advance', 'min': 0.0, 'max': 1.0, 'step2level': {'scale_start': 0.99999, 'scale_end': 1e-05, 'width': 3}}}}, 'model': {'checkpoint': 'data/trained_models/pxm/checkpoints/pocketxmol.ckpt'}}
+[2026-04-17 17:01:51,810::sample::INFO] Loading data placeholder...
+[2026-04-17 17:01:51,827::sample::INFO] Loading dataset...
+[2026-04-17 17:01:51,860::sample::INFO] Loading diffusion model...
+[2026-04-17 17:01:52,352::sample::INFO] Start sampling... (Total: n_mols=500)
+[2026-04-17 17:01:52,352::sample::INFO] Generating molecules.
+[2026-04-17 17:03:41,118::sample::WARNING] Incomplete molecule: Cc1[nH+]nc(-c2cnc3[nH]cccc2-3)c(C)c1O.NC(=O)c1ccc(F)cc1
+[2026-04-17 17:03:41,125::sample::WARNING] Reconstruction error encountered.
+[2026-04-17 17:03:41,130::sample::WARNING] Incomplete molecule: C1=Nc2cccc3nnc(N4CCCC4)c(c23)N1.Cc1ccccc1C
+[2026-04-17 17:03:41,131::sample::INFO] Success: Oc1cccc2c1CC1CN(c3ccc4ncccc4c3)CCN1C2
+[2026-04-17 17:03:41,136::sample::WARNING] Incomplete molecule: COc1ccccc1.O=C(Nc1c[nH]c2ccccc12)c1cccc2ccc[nH+]c12
+[2026-04-17 17:03:41,137::sample::WARNING] Incomplete molecule: Oc1ccc2ccccc2c1.c1ccc(-c2ccc(-c3ccccc3)nn2)cc1
+[2026-04-17 17:03:41,138::sample::WARNING] Incomplete molecule: O=C(O)c1ccc2c(c1)-c1cccc3cccc-2c13.Oc1ccccc1O
+[2026-04-17 17:03:41,142::sample::WARNING] Incomplete molecule: Cc1nnc(-c2ccccc2)[nH]1.O=C1CCCN1c1ccc2ccccc2c1
+[2026-04-17 17:03:41,143::sample::WARNING] Incomplete molecule: N=C(O)c1ccccc1.O=c1c2ccccc2nc2sc3ccccc3n12
+[2026-04-17 17:03:41,144::sample::WARNING] Incomplete molecule: CC1=CC=c2c(nc3ncnc4ccn2c43)C=C1C.NS(=O)(=O)c1ccccc1
+[2026-04-17 17:03:41,145::sample::WARNING] Incomplete molecule: COc1ccc(-n2ccc3c(N)ncnc32)cc1.Cc1cccc(N)c1
+[2026-04-17 17:03:41,145::sample::WARNING] Incomplete molecule: Cc1nc2c(O)ncc(C)c2nc1Cc1ccccc1.c1ccc2ccccc2c1
+[2026-04-17 17:03:41,146::sample::WARNING] Incomplete molecule: COc1ccc(NC(=O)CN)cc1.O=C(O)c1ccc(C(=O)N2CCCC2)cc1
+[2026-04-17 17:03:41,147::sample::WARNING] Incomplete molecule: Oc1ccccc1.c1ccc(-c2cc3cc4ccccc4nc3nn2)cc1
+[2026-04-17 17:03:41,152::sample::WARNING] Incomplete molecule: c1ccc(-c2c[nH+]c3ccccc3n2)cc1.c1ccc(CCc2nnn[nH]2)cc1
+[2026-04-17 17:03:41,158::sample::WARNING] Incomplete molecule: c1ccc2c(c1)CC[NH+](c1n[nH]c3ncccc13)C2.c1ccc2ccccc2c1
+[2026-04-17 17:03:41,158::sample::WARNING] Incomplete molecule: CC(C)C.O=C(Nc1ccccc1)c1nc2ccccc2c2cncnc12
+[2026-04-17 17:03:41,159::sample::WARNING] Incomplete molecule: C1=C(c2cccnc2)Oc2cncc3c2c1nc1ccccc13.FC(F)(F)F
+[2026-04-17 17:03:41,163::sample::WARNING] Incomplete molecule: Fc1ccccc1.Oc1cccc(C2=CC=C3C=CC=CC=C3N2)c1
+[2026-04-17 17:03:41,168::sample::WARNING] Incomplete molecule: C[N+]1=C2C(c3ccccc3)=N[NH+]=C2c2ccccc21.O=C(O)c1ccccc1
+[2026-04-17 17:03:41,169::sample::WARNING] Incomplete molecule: C(#Cc1ccccc1)c1ccccc1.c1ccc(-c2ccnc(-c3cccnc3)c2)cc1
+[2026-04-17 17:03:41,173::sample::WARNING] Incomplete molecule: Cc1ccccc1N.NC(=O)c1[nH]c(-c2ccccc2)c(-c2ccc(F)cc2)c1N
+[2026-04-17 17:03:41,174::sample::WARNING] Incomplete molecule: CC(=O)Nc1ccc(-c2cc(-c3ccccc3)on2)c(O)n1.Cc1ccccc1
+[2026-04-17 17:03:41,175::sample::WARNING] Incomplete molecule: CCCC.O=C(Nc1cccc([SH](=O)(O)O)c1)c1nccc2ccccc12
+[2026-04-17 17:03:41,176::sample::WARNING] Incomplete molecule: Oc1ccccc1.c1ccc(N2CCCN(c3ncnc4ccccc34)CC2)cc1
+[2026-04-17 17:03:41,176::sample::WARNING] Incomplete molecule: CC(NC(=O)c1cc(-c2ccc(O)cc2)on1)C(=O)O.O=C(O)c1ccccc1
+[2026-04-17 17:03:41,177::sample::WARNING] Incomplete molecule: Nc1ncc2cc(N3CCOCC3)ccc2n1.OCc1cccc2ccccc12
+[2026-04-17 17:03:41,178::sample::WARNING] Incomplete molecule: NC(=O)c1ccc(S(=O)(=O)O)cc1.c1ccc(-c2cnc3ccccc3n2)cc1
+[2026-04-17 17:03:41,182::sample::WARNING] Incomplete molecule: Cc1ccc2c(c1)N=CNC(c1cc[nH+]cc1C)=N2.Cc1ccccc1O
+[2026-04-17 17:03:41,183::sample::WARNING] Incomplete molecule: O=C(O)c1coc(-c2ccccc2)n1.Oc1ncc2ccccc2n1
+[2026-04-17 17:03:41,188::sample::WARNING] Incomplete molecule: c1ccc(-c2n[nH+]cc3c2CCCC3)cc1.c1ccc(-c2nnc[nH]2)cc1
+[2026-04-17 17:03:41,189::sample::INFO] Success: c1ccc(-c2ccc3c(c2)ncc2c(N4CCOCC4)ncnc23)cc1
+[2026-04-17 17:03:41,189::sample::WARNING] Incomplete molecule: CC(N)=O.c1ccc(-c2ccnc3c(-c4ccccc4)ccnc23)cc1
+[2026-04-17 17:03:41,190::sample::WARNING] Incomplete molecule: CC(=O)c1ccccc1.O=c1c2ccccc2oc2ccc(-c3ccc(O)cc3)cc12
+[2026-04-17 17:03:41,246::sample::WARNING] Reconstruction error encountered.
+[2026-04-17 17:03:41,254::sample::WARNING] Incomplete molecule: O=c1[nH+]c2oc(-c3cc[nH+]cc3)cn2cc1N1CCOCC1.c1ccc2[nH]nnc2c1
+[2026-04-17 17:03:41,254::sample::INFO] Success: O=C(CCc1nccc2c(-c3ccccc3)ccnc12)NCc1ccccc1
+[2026-04-17 17:03:41,260::sample::WARNING] Incomplete molecule: Cc1ccc2nccc(N3CCOCC3)c2[nH+]1.Nc1ccc2nc[nH]c2c1
+[2026-04-17 17:03:41,262::sample::INFO] Success: O=C(Nc1cccc(-c2ccc(-c3ccccc3)cn2)c1)c1ccc([N+](=O)O)cc1
+[2026-04-17 17:03:41,262::sample::WARNING] Incomplete molecule: Fc1ccc(CN2CCCNCC2)cc1.NCCCN(c1ccccc1)c1ccccc1
+[2026-04-17 17:03:41,263::sample::WARNING] Incomplete molecule: O=C1Cc2ccccc2N1c1ccccc1.c1ccc2nc3ccccc3nc2c1
+[2026-04-17 17:03:41,268::sample::INFO] Success: O=C(NCc1ccc(N2CCCCC2=O)cc1)C1=CNc2cccc3cccc1c23
+[2026-04-17 17:03:41,271::sample::WARNING] Incomplete molecule: COC(=O)C1=C2C=CC=CC=C2NC=C1.O=C(O)c1ccc(-c2ccc(F)cc2)[nH]1
+[2026-04-17 17:03:41,272::sample::WARNING] Incomplete molecule: Cn1nc(-c2ccc(F)cc2)c2ccccc21.O=C(O)c1cccc2ccccc12
+[2026-04-17 17:03:41,273::sample::INFO] Success: c1ccc(Cc2cc3c(ccc4cnc(Nc5ccccc5)nc43)cn2)cc1
+[2026-04-17 17:03:41,274::sample::WARNING] Incomplete molecule: N=C(N)c1ccccc1.Nc1cc(-c2cnc3ccccc3n2)ccn1
+[2026-04-17 17:03:41,274::sample::WARNING] Incomplete molecule: CN(C)C(=O)c1cnc2ccc(O)cc2c1.Oc1ccc(C#Cc2ccccc2)cc1
+[2026-04-17 17:03:41,279::sample::WARNING] Incomplete molecule: O=C(O)c1ccccc1.O=c1c2ccccc2nc2[nH]c3ccccc3n12
+[2026-04-17 17:03:41,286::sample::WARNING] Incomplete molecule: C1=[NH+]c2cccc3cccc1c23.c1ccc2c(c1)Nc1cccc3cncc-2c13
+[2026-04-17 17:03:41,292::sample::WARNING] Incomplete molecule: O=C1N=c2ccc(Nc3ccccc3)cc2=[NH+]1.c1ccc2n[nH]nc2c1
+[2026-04-17 17:03:41,320::sample::INFO] [Pool] Succ/Incomp/Bad: 6/42/2
+[2026-04-17 17:05:51,685::sample::WARNING] Incomplete molecule: O=C(c1ccccc1)c1ccccc1.c1ccc(-c2cnn[nH]2)cc1
+[2026-04-17 17:05:51,686::sample::WARNING] Incomplete molecule: Cc1cc(C)c2ccccc2n1.Cn1cc2c3c(ncnc31)NCC2
+[2026-04-17 17:05:51,687::sample::WARNING] Incomplete molecule: CN1CCc2cc(O)ccc2C1=O.c1ccc(Cc2ccccc2)cc1
+[2026-04-17 17:05:51,688::sample::WARNING] Incomplete molecule: Nc1ccc(Oc2ccccc2)cc1.Oc1cccc(-c2ccccc2)c1
+[2026-04-17 17:05:51,688::sample::WARNING] Incomplete molecule: O=c1cc(-c2ccccc2)cnn1-c1ccccc1.Oc1cccc(F)c1
+[2026-04-17 17:05:51,689::sample::WARNING] Incomplete molecule: COc1ccc(-c2ccccc2)cc1.Fc1ccc(CN2CCOCC2)cc1
+[2026-04-17 17:05:51,690::sample::WARNING] Incomplete molecule: Cc1ccccc1.O=C(Nc1cccc2ccccc12)c1cccnc1
+[2026-04-17 17:05:51,691::sample::WARNING] Incomplete molecule: NC(=O)Nc1ccc(-c2ccccn2)cc1.c1ccc2ccccc2c1
+[2026-04-17 17:05:51,691::sample::WARNING] Incomplete molecule: Fc1ccc2ccccc2c1.Oc1ccc(Nc2cnc3ccccc3n2)cc1
+[2026-04-17 17:05:51,692::sample::WARNING] Incomplete molecule: CN1Cc2cccc3ccc4cccc1c4c23.Nc1nc(N)c2ccccc2n1
+[2026-04-17 17:05:51,698::sample::WARNING] Incomplete molecule: Nc1ccccc1Nc1ccc2ccccc2c1.O=c1cc[nH]c2ccccc12
+[2026-04-17 17:05:51,698::sample::WARNING] Incomplete molecule: Cc1ccc(-c2cccc(C)c2)cc1.c1ccc2c(-n3cnnn3)ccnc2c1
+[2026-04-17 17:05:51,703::sample::WARNING] Incomplete molecule: CCCCc1nn[nH]n1.c1ccc(-c2cc(NC3CCCCC3)[nH+]cn2)cc1
+[2026-04-17 17:05:51,708::sample::INFO] Success: Cc1ccc(-c2cccc(C3=C4NC(=N)N=C4N=C3c3ccc(C(=O)O)cc3)c2)cc1
+[2026-04-17 17:05:51,709::sample::WARNING] Incomplete molecule: Nc1ccc(S(N)(=O)=O)cc1.O=C1NCCCC1=CNc1ccc2ccccc2c1
+[2026-04-17 17:05:51,710::sample::INFO] Success: Nc1nc(-c2cccnc2Nc2ccc(-c3ncccn3)cc2)nc2ccccc12
+[2026-04-17 17:05:51,714::sample::WARNING] Incomplete molecule: O=C(O)c1cccc(-c2ccccc2)[nH+]1.c1ccc(-c2nnn[nH]2)cc1
+[2026-04-17 17:05:51,719::sample::INFO] Success: CC(=O)c1ccc(N2CCCC(c3nc4ccc[nH]c-4n3)CC2C)cc1
+[2026-04-17 17:05:51,722::sample::WARNING] Incomplete molecule: Cc1cccc2[nH]c(CN)nc(=O)c12.O=c1[nH]c2ccccc2cc1O
+[2026-04-17 17:05:51,723::sample::WARNING] Incomplete molecule: Oc1ccc(-c2ccccc2)cc1.Oc1cccc(-c2ccccc2)c1
+[2026-04-17 17:05:51,724::sample::WARNING] Incomplete molecule: Sc1nc2ccccc2n1Cc1ccccc1.c1ccc(-c2cccnc2)cc1
+[2026-04-17 17:05:51,724::sample::WARNING] Incomplete molecule: COc1cccc(-c2nc3ccccc3n2CCO)c1.N=C(N)c1ccccc1
+[2026-04-17 17:05:51,725::sample::WARNING] Incomplete molecule: Cn1c2ccccc2c2c3ccccc3ncc21.O=C(O)c1cccc2ccccc12
+[2026-04-17 17:05:51,726::sample::WARNING] Incomplete molecule: COc1ccc2ccccc2c1.O=C(O)c1cccc2ccccc12
+[2026-04-17 17:05:51,732::sample::INFO] Success: Fc1[nH+]cc(Cc2nc3ccccc3[nH]2)cc1C[n+]1cnc2nc3ccccc3ncc1-2
+[2026-04-17 17:05:51,737::sample::WARNING] Incomplete molecule: NC(=O)C1Cc2ccc(=O)[nH]c2S1.c1ccc(-c2cc3ccccc3[nH]2)cc1
+[2026-04-17 17:05:51,741::sample::WARNING] Incomplete molecule: Cc1ccccc1-c1nn[nH]n1.NC(=O)c1cccc(-c2ccccc2)c1
+[2026-04-17 17:05:51,742::sample::WARNING] Incomplete molecule: Nc1ncc2c(ccc3ccccc32)n1.c1ccc(Nc2ccccn2)cc1
+[2026-04-17 17:05:51,743::sample::WARNING] Incomplete molecule: O=C(O)C1CCCCc2nc3ccccc3nc2N1.c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:05:51,744::sample::WARNING] Incomplete molecule: Nc1nncc(-c2ccccc2)n1.O=C(c1ccccc1)c1ccccc1
+[2026-04-17 17:05:51,748::sample::WARNING] Incomplete molecule: Nc1nc(=O)c(Cc2ccc(Cl)cc2)c[nH]1.c1ccc(-c2ncc[nH]2)cc1
+[2026-04-17 17:05:51,748::sample::WARNING] Incomplete molecule: COc1ccc2c(c1)C1C(C)Cc3ccccc3N1C2=O.Nc1cccc(O)c1
+[2026-04-17 17:05:51,749::sample::WARNING] Incomplete molecule: Cc1ccc(C(=O)Nc2ccccn2)cc1.Cc1ccc2ccccc2c1
+[2026-04-17 17:05:51,754::sample::WARNING] Incomplete molecule: CC[N+]1=CN=C2C(=Cc3ccccc32)C1=O.COc1ccccc1C(=O)O
+[2026-04-17 17:05:51,754::sample::WARNING] Incomplete molecule: O=C(O)c1ncccc1-c1ccc2ccccc2n1.c1cnc2ncccc2c1
+[2026-04-17 17:05:51,755::sample::WARNING] Incomplete molecule: Cc1ncc2cc(-c3ccccc3)ccc2n1.O=C(O)C1CCCN1
+[2026-04-17 17:05:51,756::sample::WARNING] Incomplete molecule: Cc1ccccc1N.O=C(O)c1cccc2nc(Nc3ncnc4ncccc34)ccc12
+[2026-04-17 17:05:51,757::sample::WARNING] Incomplete molecule: COc1ccc(S(=O)(=O)N2CCCOCC2)cc1.c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:05:51,757::sample::WARNING] Incomplete molecule: Cc1ccc(N)c2ccccc12.Cc1ccc(N2Cc3noc(C)c3C2)cc1
+[2026-04-17 17:05:51,758::sample::WARNING] Incomplete molecule: COc1cccc2cc(C)ccc12.c1cnc2c(CCCN3CCCCC3)cccc2c1
+[2026-04-17 17:05:51,759::sample::WARNING] Incomplete molecule: Oc1cccc2nc3ccccc3nc12.c1ccc2c(c1)ccc1ccccc12
+[2026-04-17 17:05:51,763::sample::WARNING] Incomplete molecule: NC(=O)c1ccccc1.c1ccc(-c2cc(-c3ccccc3)[nH]n2)cc1
+[2026-04-17 17:05:51,764::sample::WARNING] Incomplete molecule: O=C1C=CC(c2ccccc2)=NC1=O.c1ccc(COc2ccccc2)cc1
+[2026-04-17 17:05:51,764::sample::WARNING] Incomplete molecule: Cn1c(-c2ccc(O)cc2)nc2ccccc21.O=C(O)Cc1ccccc1
+[2026-04-17 17:05:51,773::sample::WARNING] Reconstruction error encountered.
+[2026-04-17 17:05:51,781::sample::WARNING] Incomplete molecule: c1ccc(-c2ccc(-c3cc(-c4ccccc4)[nH]n3)cc2)cc1.c1ccc2n[nH]cc2c1
+[2026-04-17 17:05:51,785::sample::WARNING] Incomplete molecule: O=c1[nH]c2ccccc2c2ccccc12.c1ccc(Cc2ccccc2)cc1
+[2026-04-17 17:05:51,789::sample::WARNING] Incomplete molecule: COc1ccc(Cc2ccccc2)cc1.O=c1ccc2ccccc2[nH]1
+[2026-04-17 17:05:51,795::sample::WARNING] Incomplete molecule: Cc1ccc(-c2ccccc2)cc1.c1ccc(-c2nc3ccccc3[nH]2)[nH+]c1
+[2026-04-17 17:05:51,795::sample::WARNING] Incomplete molecule: CN1CCOCC1.O=C1NCCN(c2ccc(F)cc2)CC1c1ccccc1
+[2026-04-17 17:05:51,828::sample::INFO] [Pool] Succ/Incomp/Bad: 10/87/3
+[2026-04-17 17:08:04,542::sample::WARNING] Incomplete molecule: Cc1ccc(-c2nc(=O)c3ccccc3[nH]2)cc1.NC(=O)c1ccccc1
+[2026-04-17 17:08:04,543::sample::WARNING] Incomplete molecule: O=C1NCC(c2ccccc2)=NN1.c1ccc(-c2ccc3ccccc3c2)cc1
+[2026-04-17 17:08:04,548::sample::INFO] Success: O=c1nc[nH]c2c1ccc1c3ccccc3n(CCc3ccccc3)c12
+[2026-04-17 17:08:04,548::sample::WARNING] Incomplete molecule: Cc1cccc2c1NC(=O)C2.O=C(O)C1Cc2cc3ccccc3c3cccc1c23
+[2026-04-17 17:08:04,554::sample::WARNING] Incomplete molecule: Cc1c[nH+]cc(-c2ncc[nH]2)c1.Cn1[nH+]c(-c2ccccc2)ccc1=O
+[2026-04-17 17:08:04,559::sample::INFO] Success: c1ccc(-c2cccc(Nc3ncnc4c3[nH]c3ccccc34)c2)[nH+]c1
+[2026-04-17 17:08:04,559::sample::WARNING] Incomplete molecule: O=C(O)c1ccc(Nc2ccccc2)cc1.O=C(c1ccccc1)c1ccccc1
+[2026-04-17 17:08:04,588::sample::WARNING] Reconstruction error encountered.
+[2026-04-17 17:08:04,589::sample::WARNING] Incomplete molecule: Nc1cccc2ccccc12.O=c1[nH]c(=O)c2c(=O)n(Cc3ccccc3)[nH]c2[nH]1
+[2026-04-17 17:08:04,594::sample::WARNING] Incomplete molecule: Cc1[nH+]cccc1Cc1c[nH]c2ccccc12.c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:08:04,636::sample::WARNING] Incomplete molecule: C1=CC=C2NC=CC=C2C=C1.O=c1[nH]c(=O)c2cc3ccccc3nc2[nH]1
+[2026-04-17 17:08:04,642::sample::WARNING] Incomplete molecule: C1=Cc2ccccc2NC=N1.c1ccc(Cc2c[nH+]cc3ccncc23)[nH+]c1
+[2026-04-17 17:08:04,643::sample::INFO] Success: CN(Cc1ccc(F)cc1)c1c(O)n(-c2ccccc2)c2cc3ccccc3nc12
+[2026-04-17 17:08:04,644::sample::WARNING] Incomplete molecule: OCc1cc(-c2ccccc2)nc2ccccc12.c1ccc2ncccc2c1
+[2026-04-17 17:08:04,648::sample::INFO] Success: O=C(C=Cc1ccc(Oc2ccccc2)cc1)Nc1ccccc1-c1nn[nH]n1
+[2026-04-17 17:08:04,653::sample::WARNING] Incomplete molecule: Oc1ccc(-c2ccc3ccc(O)cc3[nH+]2)cc1.c1ccc2[nH]nnc2c1
+[2026-04-17 17:08:04,654::sample::INFO] Success: C1=CN(CCc2ccnc3ccccc23)C=CC(c2ccccc2)=N1
+[2026-04-17 17:08:04,658::sample::WARNING] Incomplete molecule: O=C(O)Cc1[nH]nc2ccccc12.O=c1cc(-c2ccccc2)[nH]c2ccccc12
+[2026-04-17 17:08:04,664::sample::WARNING] Incomplete molecule: O=C1N=c2ccc3c(c2C(=O)N1)[NH+]=c1ccccc1=3.c1ccc2ccccc2c1
+[2026-04-17 17:08:04,665::sample::WARNING] Incomplete molecule: CC(C)C.Cc1c(CC(N)=O)c2c(=O)n3ccccc3nc2n1-c1ccccc1
+[2026-04-17 17:08:04,669::sample::WARNING] Incomplete molecule: c1ccc(-c2c[nH+]c3ccccc3n2)cc1.c1ccc2[nH]cnc2c1
+[2026-04-17 17:08:04,673::sample::WARNING] Incomplete molecule: Cc1ccc2c(c1)C(=O)NC(C(C)C)C2=O.c1ccc(-c2cc[nH]c2)cc1
+[2026-04-17 17:08:04,673::sample::WARNING] Incomplete molecule: COc1ccc(N=C(O)c2ccccc2)cc1.Cc1cccc(-c2ccccc2)c1
+[2026-04-17 17:08:04,691::sample::WARNING] Incomplete molecule: C1CCOC1.Nc1[nH]c(=O)[nH]c(=O)c1CN1CCN(c2ccc3ccccc3n2)CC1
+[2026-04-17 17:08:04,705::sample::WARNING] Incomplete molecule: O=c1[nH]c(=O)c2ncc(N3CCC(O)CC3)nc2[nH]1.c1ccccc1
+[2026-04-17 17:08:04,706::sample::WARNING] Incomplete molecule: Cc1cc(-c2ccc(-c3ccccc3)cc2)ncn1.Oc1cccnn1
+[2026-04-17 17:08:04,707::sample::WARNING] Incomplete molecule: Oc1ccc2c(c1)=C1N=NC(c3ccccc3)=C1N=2.c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:08:04,708::sample::INFO] Success: CC(=O)Nc1ccc(C(=O)c2ccc(CN(C)Cc3ccccc3)cc2)cc1
+[2026-04-17 17:08:04,730::sample::WARNING] Incomplete molecule: O=c1cc(-c2ccc(-c3ccccc3)cc2)[nH]c(=O)[nH]1.c1ccc2ncccc2c1
+[2026-04-17 17:08:04,731::sample::WARNING] Incomplete molecule: COc1ccc(C)cc1.O=c1nc2sc(-c3ccccc3)nn2c2ccccc12
+[2026-04-17 17:08:04,749::sample::WARNING] Reconstruction error encountered.
+[2026-04-17 17:08:04,754::sample::WARNING] Incomplete molecule: NC1=CC=C2C=c3ccccc3=CC=C2N1.c1ccc(-c2cnn[nH]2)cc1
+[2026-04-17 17:08:04,755::sample::WARNING] Incomplete molecule: c1ccc(Cc2ccc3ncccc3n2)cc1.c1ccc2ccccc2c1
+[2026-04-17 17:08:04,760::sample::WARNING] Incomplete molecule: Cc1ccccc1.O=c1[nH+]c2cccc(-c3ncn[nH]3)cc-2c2ccccc12
+[2026-04-17 17:08:04,764::sample::WARNING] Incomplete molecule: C1CCCCCC1.CC(=O)Nc1ccc2c(ccc3c4cc(C)ccc4[nH]c23)c1
+[2026-04-17 17:08:04,765::sample::WARNING] Incomplete molecule: O=C(O)c1ccccc1.c1ccc(-c2cnnc(-c3ccccc3)c2)cc1
+[2026-04-17 17:08:04,770::sample::WARNING] Incomplete molecule: Oc1cnc2ccc[nH+]c2c1Nc1cccc(-c2nnn[nH]2)c1.c1ccccc1
+[2026-04-17 17:08:04,771::sample::WARNING] Incomplete molecule: Cc1ccc2c(c1)NC(=O)CC2=O.c1ccc(-c2ccc(N3CCCC3)nc2)cc1
+[2026-04-17 17:08:04,772::sample::WARNING] Incomplete molecule: CC(=O)Nc1ccccc1.Cn1nc(-c2cnc3ccccc3c2)c2ncccc2c1=O
+[2026-04-17 17:08:04,779::sample::WARNING] Incomplete molecule: c1ccc(-c2n[nH]c3c2CCC3)cc1.c1ccc2c(-c3cncc[nH+]3)cc[nH+]c2c1
+[2026-04-17 17:08:04,779::sample::WARNING] Incomplete molecule: NC(=O)C(O)=Cc1ccc(F)cc1.Oc1ccc(-c2ccccc2)cc1O
+[2026-04-17 17:08:04,794::sample::WARNING] Reconstruction error encountered.
+[2026-04-17 17:08:04,795::sample::WARNING] Incomplete molecule: O=C(c1ccc(-c2ccccc2)cc1)N1CCNCC1.c1nnc2n1CCC2
+[2026-04-17 17:08:04,796::sample::WARNING] Incomplete molecule: CCn1nnc2c(-c3ccc(C)cc3)ncnc21.O=C(O)c1ccccc1
+[2026-04-17 17:08:04,797::sample::WARNING] Incomplete molecule: Cc1ccccc1Nc1ccc(-c2ccccc2)cc1C(=O)O.c1ccc2ccccc2c1
+[2026-04-17 17:08:04,797::sample::WARNING] Incomplete molecule: NC(=O)c1ccc(-c2ccccc2)cc1.c1ccc(-n2cnnn2)cc1
+[2026-04-17 17:08:04,804::sample::WARNING] Incomplete molecule: O=C1c2ccccc2-c2cc[nH]c(=O)c21.c1ccc2[nH+]cc(-n3cnn[nH+]3)cc2c1
+[2026-04-17 17:08:04,809::sample::WARNING] Incomplete molecule: Cc1ccc2c(Cc3cn(C)c(=O)n(C)c3=O)c[nH]c2c1.Cc1ccccc1O
+[2026-04-17 17:08:04,810::sample::WARNING] Incomplete molecule: Cc1ccc(Cl)c(C)c1.O=C1NC(=O)C(c2ccccc2)NC1=O
+[2026-04-17 17:08:04,815::sample::WARNING] Incomplete molecule: O=c1ccc2ccc(N3CCCC3)cc2[nH]1.c1ccc2c[nH+]ccc2c1
+[2026-04-17 17:08:04,846::sample::INFO] [Pool] Succ/Incomp/Bad: 16/128/6
+[2026-04-17 17:10:15,478::sample::WARNING] Incomplete molecule: COc1ccc(N2CCCNCC2)cc1.COc1cccc(-c2ccccc2C)c1
+[2026-04-17 17:10:15,479::sample::WARNING] Incomplete molecule: Cc1cccc(-c2ccccc2O)c1.c1ccc2c(c1)cnc1ccccc12
+[2026-04-17 17:10:15,480::sample::WARNING] Incomplete molecule: Cc1ccc(S(N)(=O)=O)cc1.Cn1ccc(O)c2c(=O)n3ccccc3c1-2
+[2026-04-17 17:10:15,487::sample::INFO] Success: c1cnc(Nc2ccccc2C[n+]2ccc3c(c2)n[nH+]c2ccccc23)[nH+]c1
+[2026-04-17 17:10:15,493::sample::WARNING] Incomplete molecule: c1ccc2c(c1)[nH+]cc1cc(-c3nn[nH]n3)ccc12.c1ccc2ccccc2c1
+[2026-04-17 17:10:15,494::sample::WARNING] Incomplete molecule: O=Cc1c(O)ccc(C(=O)O)c1O.Oc1ccc(-c2ccc(O)c(O)c2)cc1
+[2026-04-17 17:10:15,494::sample::INFO] Success: O=C(Nc1ccccc1)c1ccc(C(=O)N2CCN(c3ncccn3)CC2)cc1
+[2026-04-17 17:10:15,498::sample::WARNING] Incomplete molecule: O=C(O)c1cccc(C(=O)O)c1.c1ccc(Cc2c[nH]c3ccccc23)cc1
+[2026-04-17 17:10:15,503::sample::WARNING] Incomplete molecule: Cc1[nH]ncc1-c1ccccc1.O=C(O)c1cccc(Cc2ccccc2)c1
+[2026-04-17 17:10:15,508::sample::WARNING] Incomplete molecule: Cc1ccccc1O.O=c1c2ccccc2[nH]c2[nH+]c3ccc4ccccc4n3c12
+[2026-04-17 17:10:15,509::sample::WARNING] Incomplete molecule: Nc1ccccc1N.Oc1nccc(-c2ccc(-c3nnc[nH]3)cc2)n1
+[2026-04-17 17:10:15,514::sample::WARNING] Incomplete molecule: Cc1cc(=O)c2ccccc2[nH]1.Nc1cccc2c1C(=O)[NH+]1CCNCC21
+[2026-04-17 17:10:15,514::sample::WARNING] Incomplete molecule: Oc1ccc(-c2ccc(O)cn2)cc1.c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:10:15,515::sample::WARNING] Incomplete molecule: O=C1NCc2ccccc21.c1cncc(-c2ccc3ccccc3n2)c1
+[2026-04-17 17:10:15,516::sample::INFO] Success: COc1ccc(C(Nc2ccc(F)cc2)C(=O)Nc2ccc(Cl)cc2)cc1
+[2026-04-17 17:10:15,516::sample::WARNING] Incomplete molecule: NC1=NC(=O)C2=NC=NC2=N1.O=C(O)c1cccc(-c2ccccc2)c1
+[2026-04-17 17:10:15,521::sample::WARNING] Incomplete molecule: Cc1cc(C(=O)O)c2ccccc2[nH+]1.Oc1ccc2c(c1)C=Cc1ccccc1N2
+[2026-04-17 17:10:15,522::sample::WARNING] Incomplete molecule: C1CCCCCC1.Cn1ccc2c3nc4ccccc4nc3ccc21
+[2026-04-17 17:10:15,523::sample::WARNING] Incomplete molecule: CC(=O)Nc1ccc(F)cc1.c1ccc(Nc2cncc(N3CCNCC3)n2)cc1
+[2026-04-17 17:10:15,523::sample::WARNING] Incomplete molecule: Nc1ccc(Cc2ccccc2)cc1.c1ccc(-c2cccnc2)cc1
+[2026-04-17 17:10:15,528::sample::WARNING] Incomplete molecule: C1=CC=C2NC(c3ccccc3)=CC=C2C=C1.Nc1c(C(=O)O)ccc2ccccc12
+[2026-04-17 17:10:15,529::sample::WARNING] Incomplete molecule: Cc1ccc2ccccc2n1.O=C(O)CCc1cccc(-c2ccccc2)c1
+[2026-04-17 17:10:15,530::sample::WARNING] Incomplete molecule: c1ccc(-c2ccc(N3CCCNCC3)cc2)nc1.c1ccc(-c2nn[nH]n2)cc1
+[2026-04-17 17:10:15,530::sample::WARNING] Incomplete molecule: Cc1cccc(Oc2ccccc2)c1.O=C(c1ccccc1)N1CCCNCC1
+[2026-04-17 17:10:15,531::sample::WARNING] Incomplete molecule: Cc1ccc2ccccc2c1N.c1ccc(-c2ccc(N3CCOCC3)nn2)cc1
+[2026-04-17 17:10:15,532::sample::WARNING] Incomplete molecule: O=C1Cc2ccccc2N1.c1ccc(Cn2ccc(-c3ccccc3)n2)cc1
+[2026-04-17 17:10:15,533::sample::WARNING] Incomplete molecule: Cc1ccc(NC(=O)c2cncc([N+](=O)O)c2)cc1.c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:10:15,534::sample::INFO] Success: Cc1cc(Cc2cccc(F)c2NCc2cccc3ccccc23)ccn1
+[2026-04-17 17:10:15,540::sample::WARNING] Incomplete molecule: O=c1[nH]c(O)nc2ccccc12.c1ccc(-c2nc(-c3ccc[nH+]c3)n[nH]2)cc1
+[2026-04-17 17:10:15,544::sample::WARNING] Incomplete molecule: Cc1ccccc1.O=c1nc2ncc(Cc3ccccc3O)c-2nc[nH]1
+[2026-04-17 17:10:15,545::sample::WARNING] Incomplete molecule: CC(=O)Nc1cccc(-c2ccc(O)cc2)c1.Oc1ccc2ccccc2c1
+[2026-04-17 17:10:15,549::sample::WARNING] Incomplete molecule: CNC(=O)c1ccc(-c2ccccc2)cc1.Nc1nc2ccccc2[nH]1
+[2026-04-17 17:10:15,549::sample::WARNING] Incomplete molecule: N=C(N)c1ccccc1.O=C(O)c1cccc(C(=O)c2ccccc2)c1
+[2026-04-17 17:10:15,555::sample::INFO] Success: c1ccc(-c2ccc3c4nc5cccc(-c6ccccc6)c5c-4c[nH]c3c2)cc1
+[2026-04-17 17:10:15,555::sample::WARNING] Incomplete molecule: Oc1ccc2ccccc2c1.c1ccc(-c2ccc(N3CCCCC3)cc2)cc1
+[2026-04-17 17:10:15,561::sample::WARNING] Incomplete molecule: Cc1ccc2[nH+]c3nc4c5ccccc5[nH]cc4n3c2c1.Cc1ccccc1O
+[2026-04-17 17:10:15,561::sample::WARNING] Incomplete molecule: CC(=O)Nc1nc(-c2ccccc2)cs1.O=C(Nc1ccnc2ccccc12)C1CCCN1
+[2026-04-17 17:10:15,562::sample::WARNING] Incomplete molecule: Cc1ccc2ccc(-c3ccc(O)cc3)cc2n1.Cn1nnc2ccccc21
+[2026-04-17 17:10:15,563::sample::INFO] Success: O=C(c1cccc(-c2ccccc2)c1)N(CCc1ccccn1)c1ccccc1
+[2026-04-17 17:10:15,564::sample::WARNING] Incomplete molecule: O=C(O)CCN1CCCN(Cc2ccnc3ccccc23)CC1.c1ccccc1
+[2026-04-17 17:10:15,564::sample::WARNING] Incomplete molecule: c1ccc(-c2cccnc2)nc1.c1ccc(-c2ccnc3ccccc23)cc1
+[2026-04-17 17:10:15,565::sample::WARNING] Incomplete molecule: C1=Nc2c3c(cnc2=C1)=Nc1ccccc1-3.c1ccc2ccccc2c1
+[2026-04-17 17:10:15,566::sample::WARNING] Incomplete molecule: O=C1NC(=O)N2Cc3cccc(O)c3C=C12.c1ccc(COc2ccccc2)cc1
+[2026-04-17 17:10:15,566::sample::WARNING] Incomplete molecule: CCN1C(=O)c2ccccc2C1=O.O=C(O)c1ccc(Oc2ccccc2)cc1
+[2026-04-17 17:10:15,572::sample::WARNING] Incomplete molecule: Cc1cccc2nc(N)[nH]c12.c1ccc2c(c1)C[NH+]1N=NN=C1C1CCCCCC21
+[2026-04-17 17:10:15,573::sample::WARNING] Incomplete molecule: Cc1ccc2ncc3ccccc3c2c1.O=C(c1ccc(O)cc1)N1CCCC1
+[2026-04-17 17:10:15,574::sample::WARNING] Incomplete molecule: CC(N)=O.c1ccc(CN(Cc2ccccc2)Cc2ccccc2)cc1
+[2026-04-17 17:10:15,577::sample::WARNING] Incomplete molecule: Cc1cc(=O)c2ccc(-c3ccccc3)cc2[nH]1.O=C(O)c1ccccc1
+[2026-04-17 17:10:15,583::sample::WARNING] Incomplete molecule: Cc1c[nH]c2ccc3ccccc3c12.c1ccc(-c2ncnc3[nH]cnc23)cc1
+[2026-04-17 17:10:15,588::sample::WARNING] Incomplete molecule: Cc1nc2ncccc2[nH]c1=O.Oc1ccc(-c2ccc3ccccc3c2)cc1
+[2026-04-17 17:10:15,635::sample::INFO] [Pool] Succ/Incomp/Bad: 22/172/6
+[2026-04-17 17:11:48,232::sample::WARNING] Incomplete molecule: O=C1c2cccc3cccc(c23)C2CCC(O)CN12.Oc1ccc(-c2ccccc2)cc1O
+[2026-04-17 17:11:48,233::sample::WARNING] Incomplete molecule: COc1ccc2c(c1)CN(Cc1ccccc1)C2.Cc1nc2ccccc2n1C
+[2026-04-17 17:11:48,234::sample::WARNING] Incomplete molecule: O=C(O)c1ccc2ccc(O)cc2c1.O=C(O)c1ccccc1-c1ccc(O)cc1
+[2026-04-17 17:11:48,235::sample::INFO] Success: Cc1cnc(-c2ccccc2)c(Nc2ccc(CN=CCC(=O)O)cc2)n1
+[2026-04-17 17:11:48,235::sample::WARNING] Incomplete molecule: c1ccc(-c2cnc3cnccc3n2)cc1.c1ccc(Cc2ccccn2)cc1
+[2026-04-17 17:11:48,241::sample::WARNING] Incomplete molecule: Cc1nc2c(o1)=CC=C1Nc3ccccc3N=C1C=2.c1ccccc1
+[2026-04-17 17:11:48,245::sample::WARNING] Incomplete molecule: O=c1nc[nH]c2ccccc12.Oc1ccc2[nH+]cccc2c1
+[2026-04-17 17:11:48,251::sample::WARNING] Incomplete molecule: C1=Cc2cccc3cccc(c23)N1.Cc1cnc2c(Nc3ccc(C)c(C)c3)[nH+]cnc2n1
+[2026-04-17 17:11:48,274::sample::WARNING] Incomplete molecule: Cc1ccc(Cn2c(C)nc3c(=O)[nH]c(=O)[nH]c32)cc1.O=C(O)C=Cc1ccccc1
+[2026-04-17 17:11:48,275::sample::WARNING] Incomplete molecule: Oc1ccccc1-c1ccccc1.c1cc2c(C3CCNCC3)cnc-2ncn1
+[2026-04-17 17:11:48,306::sample::WARNING] Incomplete molecule: Cc1[nH]c(=O)[nH]c(=O)c1C.O=C1N=C2C(=Nc3ccccc32)c2ccccc21
+[2026-04-17 17:11:48,306::sample::WARNING] Incomplete molecule: O=C(c1ccccc1)c1ccccc1.Oc1ccc(-c2ccccc2)cc1
+[2026-04-17 17:11:48,307::sample::WARNING] Incomplete molecule: O=C(Cc1ccccc1)N1CCc2ccccc2C1.c1ccc2ccccc2c1
+[2026-04-17 17:11:48,308::sample::WARNING] Incomplete molecule: O=c1nc(O)ccn1-c1ccccc1.Oc1ccc(F)cc1Oc1ccccc1
+[2026-04-17 17:11:48,309::sample::WARNING] Incomplete molecule: C(=Cc1cc(-c2ccccc2)ncn1)c1ccccc1.c1ccccc1
+[2026-04-17 17:11:48,309::sample::WARNING] Incomplete molecule: Cc1ccc(-c2ccccc2)cc1.c1ccc(CN2Cc3nccn3C2)cc1
+[2026-04-17 17:11:48,310::sample::WARNING] Incomplete molecule: Cn1ccc2c1c(=O)nc1sccn12.c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:11:48,322::sample::WARNING] Incomplete molecule: Cc1ccc(Oc2ccccc2)cc1.O=c1[nH]c(=O)c2ccccc2[nH]1
+[2026-04-17 17:11:48,322::sample::WARNING] Incomplete molecule: Cc1ccc2c(ccc3[nH]c(=O)c4cnc(N)nc4c32)n1.Oc1ccccc1
+[2026-04-17 17:11:48,327::sample::WARNING] Incomplete molecule: Cc1ccc2c(c1)NC(=O)CC2.O=C(NO)c1ccc(-c2c[nH]nn2)cc1
+[2026-04-17 17:11:48,331::sample::INFO] Success: Cc1n[nH]c(-c2n[nH+]c(-c3ccccc3)cc2NCc2ccc(Cl)c(Cl)c2)n1
+[2026-04-17 17:11:48,338::sample::WARNING] Incomplete molecule: Clc1cccc(Nc2ccccc2)c1.Nc1nc2c([nH]1)Cc1cccc3[nH+]ccc(c13)C2
+[2026-04-17 17:11:48,344::sample::WARNING] Incomplete molecule: O=C(O)c1ccccc1.Oc1[nH+]ccc2c3c(ccc12)=[N+]1C(=CC=C1c1ccc(Cl)cc1)C=3
+[2026-04-17 17:11:48,350::sample::WARNING] Incomplete molecule: Cc1ccc2cc3c(C)[nH]nc3nc2c1.c1ccc2c[nH+]ccc2c1
+[2026-04-17 17:11:48,351::sample::WARNING] Incomplete molecule: Cn1cc2c3c(cccc31)C(=O)N=N2.OCc1ccc2ccccc2c1
+[2026-04-17 17:11:48,428::sample::WARNING] Incomplete molecule: Fc1ccc(Cc2ccccc2)cc1.c1ccc(-c2[nH]nc3ccccc23)cc1
+[2026-04-17 17:11:48,431::sample::WARNING] Incomplete molecule: COc1ccccc1.Cc1ccc(C)c2[nH]c3nc(=O)nc(N)c-3nc12
+[2026-04-17 17:11:48,432::sample::WARNING] Incomplete molecule: COc1ccc(C(=O)N2CCCC2)cc1.Fc1ccc(-c2ccccc2)cc1F
+[2026-04-17 17:11:48,433::sample::WARNING] Incomplete molecule: CC(=O)O.c1ccc(-c2cc3c(cn2)CN(c2ccnc4ccccc24)CC3)cc1
+[2026-04-17 17:11:48,434::sample::WARNING] Incomplete molecule: CC(=O)Nc1cccc(C=CC(=O)O)c1.Fc1ccc(-c2ccccc2)cc1
+[2026-04-17 17:11:48,434::sample::WARNING] Incomplete molecule: Cc1cccc(-c2cccnc2)c1.O=C1CCCN(C(=O)c2ccccc2)C1
+[2026-04-17 17:11:48,439::sample::WARNING] Incomplete molecule: O=C(O)c1cccc(-c2ccccc2)c1.c1c[nH]c2c(C3CCCCC3)cnc-2c1
+[2026-04-17 17:11:48,440::sample::INFO] Success: O=c1c2c(oc3ccccc13)CCN(Cc1cc3ccccc3nc1O)C2
+[2026-04-17 17:11:48,444::sample::WARNING] Incomplete molecule: O=C(O)c1ccc2nc3ccc(=O)[nH]c3cc2c1.c1ccccc1
+[2026-04-17 17:11:48,448::sample::WARNING] Incomplete molecule: Cc1[nH]c2ccccc2c1C(=O)O.c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:11:48,524::sample::WARNING] Incomplete molecule: O=c1nc[nH]nc1-c1ccccc1.c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:11:48,525::sample::WARNING] Incomplete molecule: Cn1c2ccccc2c2oc3ccccc3c(=O)c21.Fc1ccccc1
+[2026-04-17 17:11:48,526::sample::WARNING] Incomplete molecule: Fc1ccc(-c2ccccc2)cc1.c1ccc2c(N3CCCC3)ncnc2c1
+[2026-04-17 17:11:48,534::sample::WARNING] Incomplete molecule: Cc1ccc2c(O)c3c(=O)n(C)c[nH+]c3[n+](C)c2c1.Nc1ccc2ccccc2c1
+[2026-04-17 17:11:48,538::sample::WARNING] Incomplete molecule: N=C(N)c1cccc(-c2ccccc2)c1.c1ccc(-c2ccn[nH]2)cc1
+[2026-04-17 17:11:48,542::sample::WARNING] Incomplete molecule: c1ccc2c(c1)ccc1c3ccccc3[nH]c21.c1ccc2ccccc2c1
+[2026-04-17 17:11:48,543::sample::WARNING] Incomplete molecule: Fc1ccc(-c2ccn(Cc3ccccc3)n2)cc1.c1ccc2ccccc2c1
+[2026-04-17 17:11:48,624::sample::WARNING] Incomplete molecule: O=c1[nH]c2cnc3ccccc3c2c2ccccc12.c1ccccc1
+[2026-04-17 17:11:48,625::sample::WARNING] Incomplete molecule: Cc1cccc2c(O)cccc12.O=C(O)CCc1ccc(-c2ccccc2)cc1
+[2026-04-17 17:11:48,626::sample::INFO] Success: O=C(Nc1cc2ccccc2[nH]c1=O)C(CN1CCNCC1)c1ccccc1
+[2026-04-17 17:11:48,627::sample::WARNING] Incomplete molecule: Cc1cccc(CC2=NC(=O)C(=O)NC2=O)c1.c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:11:48,631::sample::WARNING] Incomplete molecule: Cn1c(=O)[nH]c(=O)c2cccnc21.FC(F)(F)c1cccc(-c2ccccc2)c1
+[2026-04-17 17:11:48,636::sample::WARNING] Incomplete molecule: Cc1cc2nc(N)[nH]c2cc1C.c1ccc(CN2CCCCC2)cc1
+[2026-04-17 17:11:48,642::sample::WARNING] Incomplete molecule: COc1[nH+]ccc2ccccc12.c1ccc(-c2c[nH]c3ccccc23)cc1
+[2026-04-17 17:11:48,646::sample::WARNING] Incomplete molecule: NC1=NC(=O)C2=CC=[N+](c3ccccc3)C2=N1.O=C(O)Cc1ccccc1
+[2026-04-17 17:11:48,827::sample::INFO] [Pool] Succ/Incomp/Bad: 26/218/6
+[2026-04-17 17:14:00,260::sample::WARNING] Incomplete molecule: Cc1cccc2ccccc12.NCCc1ccc(Nc2ncccn2)c(O)c1
+[2026-04-17 17:14:00,261::sample::WARNING] Incomplete molecule: Oc1cccc(Cc2ccc(F)cc2)c1.c1ccc2c(c1)Nc1ccccc1N2
+[2026-04-17 17:14:00,261::sample::WARNING] Incomplete molecule: O=c1ccc2cccc3c(O)nn1c23.c1ccc2nc3sccc3nc2c1
+[2026-04-17 17:14:00,266::sample::WARNING] Incomplete molecule: Fc1ccc2ccccc2c1.O=c1[nH]c2ccccc2c2ccccc12
+[2026-04-17 17:14:00,271::sample::WARNING] Incomplete molecule: Cc1cccc2c1CCC2.NS(=O)(=O)c1ccc(-c2nc3ccccc3[nH]2)cc1
+[2026-04-17 17:14:00,272::sample::WARNING] Incomplete molecule: Cc1ncc2ccccc2n1.c1ccc(-c2cnc3ccccc3n2)cc1
+[2026-04-17 17:14:00,276::sample::WARNING] Incomplete molecule: O=c1nc[nH]c2ccccc12.c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:14:00,276::sample::WARNING] Incomplete molecule: c1ccc(-c2c[nH]nn2)cc1.c1ccc(-c2ccnc(-c3ccccc3)c2)cc1
+[2026-04-17 17:14:00,277::sample::INFO] Success: O=C(c1cccc(OCc2ccccc2)c1)c1ccc2ncccc2c1
+[2026-04-17 17:14:00,281::sample::WARNING] Incomplete molecule: CC(=O)Nc1ccc(NCc2nnn[nH]2)cc1.Nc1cccc2ccccc12
+[2026-04-17 17:14:00,287::sample::INFO] Success: O=c1[nH]c2ccc(-c3cccc[nH+]3)cc2c2nn(-c3ccccc3)cc12
+[2026-04-17 17:14:00,292::sample::WARNING] Incomplete molecule: Cc1ccccc1N.NC(=O)[N+]1=c2ccc3ccccc3c2=C2C=N[NH+]=C21
+[2026-04-17 17:14:00,301::sample::WARNING] Incomplete molecule: CCn1[nH+]c(Nc2ccccc2)c2c(=O)n(C)cnc21.c1ccc2n[nH]nc2c1
+[2026-04-17 17:14:00,319::sample::WARNING] Reconstruction error encountered.
+[2026-04-17 17:14:00,320::sample::INFO] Success: COc1ccc(CNc2nc(-c3ccccc3N)nc3ccncc23)cc1
+[2026-04-17 17:14:00,321::sample::WARNING] Incomplete molecule: Cc1cccc(-c2ccccc2)n1.O=C(O)c1ccc2c(c1)CCC2
+[2026-04-17 17:14:00,321::sample::WARNING] Incomplete molecule: CC(=O)N1CCC(NC(=O)c2ccccc2)CC1.Cc1nc(N)c2ccccc2n1
+[2026-04-17 17:14:00,322::sample::WARNING] Incomplete molecule: Cc1ccc(-c2ccc(C(N)=O)cc2)cc1.c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:14:00,328::sample::WARNING] Incomplete molecule: O=c1nc[nH]c2c(N3CCCC3)nccc12.c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:14:01,720::sample::WARNING] Reconstruction error encountered.
+[2026-04-17 17:14:01,725::sample::WARNING] Incomplete molecule: Cc1ccc2cccc3c2[n+]1C=C3.NC(=O)c1ccc(-c2cn[nH]n2)cc1
+[2026-04-17 17:14:01,726::sample::WARNING] Incomplete molecule: N[SH](=O)(O)c1ccccc1.c1cnc(N2CCc3c(cnc4ccccc34)C2)nc1
+[2026-04-17 17:14:01,726::sample::WARNING] Incomplete molecule: CC(C)(C)c1ccc(Nc2cccc(O)c2)cn1.Nc1ccnc2ccccc12
+[2026-04-17 17:14:01,732::sample::WARNING] Incomplete molecule: C[n+]1cccc(S(N)(=O)=O)c1.Oc1cccc(-c2ccc(Cc3ccccc3)cc2)c1
+[2026-04-17 17:14:01,732::sample::WARNING] Incomplete molecule: Cc1ccc2ncc3cc(N)ccc3c2n1.c1ccc(-n2cnnc2)cc1
+[2026-04-17 17:14:01,733::sample::WARNING] Incomplete molecule: CCCCCCC(N)C(=O)O.c1ccc(Oc2ccc3ccccc3c2)cc1
+[2026-04-17 17:14:01,738::sample::WARNING] Incomplete molecule: O=c1cnc2c(-c3ccccc3)cccc2[nH]1.c1ccc(Oc2cccc[nH+]2)cc1
+[2026-04-17 17:14:01,743::sample::WARNING] Incomplete molecule: c1ccc(-c2nn[nH]n2)cc1.c1ccc2c(N3CCCCC3)[nH+]cnc2c1
+[2026-04-17 17:14:01,749::sample::WARNING] Incomplete molecule: O=c1[nH]c2ccccc2c2c1NC1CCNCC21.c1ccc2ccccc2c1
+[2026-04-17 17:14:01,754::sample::WARNING] Incomplete molecule: Cc1ccc2cc(C[n+]3ccc(C(=O)O)cc3)ccc2[nH+]1.Oc1ccccc1
+[2026-04-17 17:14:03,121::sample::WARNING] Incomplete molecule: O=c1ccn(Cc2ccc(F)cc2)c(=O)[nH]1.c1ccc(Oc2ccccc2)cc1
+[2026-04-17 17:14:03,121::sample::WARNING] Incomplete molecule: Cc1ccc(-c2ccccc2)cc1.NC(C(=O)O)c1cccc(C(=O)O)c1
+[2026-04-17 17:14:03,122::sample::WARNING] Incomplete molecule: C(=Cc1ccccc1)c1ccccc1.Oc1ccc(Cc2ccccc2)cc1
+[2026-04-17 17:14:03,131::sample::WARNING] Reconstruction error encountered.
+[2026-04-17 17:14:03,132::sample::WARNING] Incomplete molecule: CCn1c2ccccc2c2c(=O)nc(S)nc(-c3ccccc3)c21.FC(F)(F)F
+[2026-04-17 17:14:03,132::sample::WARNING] Incomplete molecule: Clc1ccc2c(c1)CCO2.Nc1ccc(Nc2ccccc2)cc1
+[2026-04-17 17:14:03,133::sample::WARNING] Incomplete molecule: C1CCOC1.O=c1c2ccccc2ccn1C1=Cc2ccccc2NC1
+[2026-04-17 17:14:03,138::sample::WARNING] Incomplete molecule: O=c1c2nc3ccccc3[nH]c-2nc2ccccc12.c1ccc2ccccc2c1
+[2026-04-17 17:14:03,143::sample::WARNING] Incomplete molecule: Cc1ccc2ccccc2[nH+]1.c1ccc(-c2ccc(-c3cc[nH]n3)cc2)cc1
+[2026-04-17 17:14:03,149::sample::WARNING] Incomplete molecule: c1ccc(C2=N[n+]3cccc4cccc2c43)cc1.c1ccccc1
+[2026-04-17 17:14:03,149::sample::WARNING] Incomplete molecule: COc1ccc2c(c1)OCCO2.NC(=O)c1cccc(-c2ccccc2)c1
+[2026-04-17 17:14:03,155::sample::WARNING] Incomplete molecule: Nc1[nH+]c2ccccc2c2ccccc12.c1ccc(-c2c[nH]c3ccccc23)cc1
+[2026-04-17 17:14:03,156::sample::WARNING] Incomplete molecule: Cc1cc2c3c(ncnc3c1)N=C2.O=C(O)C(Cc1ccccc1)c1ccccc1
+[2026-04-17 17:14:03,157::sample::WARNING] Incomplete molecule: c1ccc(-c2ccccc2)cc1.c1ccc(Cn2ccc(-c3ccccc3)n2)cc1
+[2026-04-17 17:14:03,162::sample::WARNING] Incomplete molecule: COc1ccc(C=NC(=O)c2ccc[nH+]c2)cc1.c1ccc(-c2cn[nH]n2)cc1
+[2026-04-17 17:14:03,162::sample::INFO] Success: O=c1cnc(-c2ccccc2)cn1-c1ccc(Oc2ccccc2)cc1
+[2026-04-17 17:14:03,168::sample::WARNING] Incomplete molecule: Cc1cc(Cc2ccccc2)[nH+]n1-c1ccccc1.c1ccc(-c2ccn[nH]2)cc1
+[2026-04-17 17:14:03,169::sample::WARNING] Incomplete molecule: c1ccc(Nc2ncccc2-c2ccc3ccccc3n2)nc1.c1ccccc1
+[2026-04-17 17:14:03,170::sample::WARNING] Incomplete molecule: CN1Cc2ccccc2C1c1ccc2ccccc2n1.Nc1cccc2ccccc12
+[2026-04-17 17:14:03,171::sample::WARNING] Incomplete molecule: Oc1ccc(Oc2ccc(F)cc2)cc1.c1ccc2c(c1)cnc1ccccc12
+[2026-04-17 17:14:03,226::sample::INFO] [Pool] Succ/Incomp/Bad: 30/261/9
+[2026-04-17 17:15:39,929::sample::WARNING] Incomplete molecule: Cc1ccc(-c2cnc3ncnc(N)c3n2)cc1.N=C(N)c1ccccc1
+[2026-04-17 17:15:39,930::sample::WARNING] Incomplete molecule: Nc1ccc2ccccc2c1.c1ccc2nc3ccccc3nc2c1
+[2026-04-17 17:15:39,931::sample::WARNING] Incomplete molecule: Fc1ccc(-c2ccccc2)cc1.c1ccc(N2CCOCC2)cc1
+[2026-04-17 17:15:39,935::sample::WARNING] Incomplete molecule: Cn1cc(-c2ccccc2)c(=O)[nH]c1=O.c1ccc(-c2nnn[nH]2)cc1
+[2026-04-17 17:15:39,941::sample::WARNING] Incomplete molecule: NC1=Nc2cccc3cccc(c23)N1.Nc1nc2nc3ccccc3nc2c[nH+]1
+[2026-04-17 17:15:39,941::sample::WARNING] Incomplete molecule: CC(=O)Nc1ccccc1-c1ncccn1.CCc1ccc(N2CCCC2)cc1
+[2026-04-17 17:15:39,947::sample::WARNING] Incomplete molecule: Nc1nc(=O)c2ccccc2[nH]1.c1ccc2c(c1)-c1cccc3cccc-2c13
+[2026-04-17 17:15:39,947::sample::WARNING] Incomplete molecule: Nc1ccc2ccccc2n1.c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:15:39,952::sample::WARNING] Incomplete molecule: Cc1ccccc1Cc1ccc(C(=O)O)cc1.Cn1c(=O)[nH]c2ncccc2c1=O
+[2026-04-17 17:15:39,956::sample::WARNING] Incomplete molecule: NC(=O)c1ccccc1.Oc1ccccc1Cc1c[nH]c2ccccc12
+[2026-04-17 17:15:39,961::sample::WARNING] Incomplete molecule: O=c1[nH]nc(-c2ccccc2)c2ccccc12.c1ccc2ccccc2c1
+[2026-04-17 17:15:39,973::sample::WARNING] Incomplete molecule: O=c1[nH]c(=O)c2cc(-c3ccc(O)cc3)ccc2[nH]1.Oc1ccccc1O
+[2026-04-17 17:15:39,973::sample::WARNING] Incomplete molecule: Cc1ccc(O)c2ccc(C(=O)O)cc12.c1ccc2c(c1)ccc1ccccc12
+[2026-04-17 17:15:39,977::sample::WARNING] Incomplete molecule: Cc1cc2c3c(c[nH]c3n1)C1CCCCN1C2=O.Cc1ccccc1
+[2026-04-17 17:15:39,978::sample::WARNING] Incomplete molecule: Cc1ccccc1O.c1ccc2c(NCC3CCOCC3)ncnc2c1
+[2026-04-17 17:15:39,979::sample::WARNING] Incomplete molecule: O=C(O)c1ccc2ccccc2c1O.Oc1ccc(-c2ccc(O)cc2)cc1
+[2026-04-17 17:15:39,989::sample::WARNING] Reconstruction error encountered.
+[2026-04-17 17:15:39,990::sample::WARNING] Incomplete molecule: Oc1ccc2ccccc2c1.c1ccc(Cc2cnc3ccccc3n2)cc1
+[2026-04-17 17:15:39,995::sample::WARNING] Incomplete molecule: O=c1c2ccccc2[nH]c2ccccc12.Oc1ccc(-c2ccc(O)cc2)cc1
+[2026-04-17 17:15:39,996::sample::WARNING] Incomplete molecule: N=C(N)Nc1ccccc1.O=c1oc(-c2ccccc2)nc2ccccc12
+[2026-04-17 17:15:39,997::sample::WARNING] Incomplete molecule: O=C(O)Cc1ccccc1.c1ccc(-c2ccc3c(c2)OCCO3)cc1
+[2026-04-17 17:15:39,997::sample::WARNING] Incomplete molecule: Oc1cccc(-c2ccc(-c3ccccc3)cc2)c1.c1ccc(-n2cnnc2)cc1
+[2026-04-17 17:15:39,998::sample::WARNING] Incomplete molecule: Cc1ccc(-c2cnc3c(N)ncnc3n2)cc1.Cc1ccc(O)cc1
+[2026-04-17 17:15:40,002::sample::WARNING] Incomplete molecule: Cn1c(=O)[nH]c(=O)c2cccnc21.c1ccc(Nc2ccccc2)cc1
+[2026-04-17 17:15:40,007::sample::WARNING] Incomplete molecule: Oc1ccc2ccccc2c1.c1ccc2[nH]c3c4ccccc4nc-3nc2c1
+[2026-04-17 17:15:40,012::sample::WARNING] Incomplete molecule: Nc1nc2ccc3ccccc3c2c[nH+]1.c1ccc2[nH]cnc2c1
+[2026-04-17 17:15:40,013::sample::WARNING] Incomplete molecule: Nc1cccnc1.c1ccc2c(c1)Nc1ccccc1-c1ccccc1-2
+[2026-04-17 17:15:40,018::sample::WARNING] Incomplete molecule: O=c1ccc2c(-c3ccccc3)ccnc2[nH]1.c1ccc(COc2ccccc2)cc1
+[2026-04-17 17:15:40,019::sample::WARNING] Incomplete molecule: c1ccc(-c2ccc(-c3ccccc3)cc2)cc1.c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:15:40,019::sample::WARNING] Incomplete molecule: c1ccc(-c2ccccn2)cc1.c1ccc(-c2cnc3ccccc3c2)cc1
+[2026-04-17 17:15:40,024::sample::WARNING] Incomplete molecule: O=C1Cc2ccccc2N1.c1c[nH+]cc(Cc2n[nH]c3ccccc23)c1
+[2026-04-17 17:15:40,031::sample::WARNING] Incomplete molecule: O=C(O)c1ccc(-c2csc(-c3c[nH]cn3)[nH+]2)cc1.c1ccc2c(c1)CCC2
+[2026-04-17 17:15:40,037::sample::WARNING] Incomplete molecule: O=C1CC(=O)c2ccccc2N1.c1ccc(-c2cnc3[nH]c4ccccc4cc2-3)cc1
+[2026-04-17 17:15:40,037::sample::INFO] Success: Clc1ccc(-c2ccc(Nc3cc(C4COc5ccccc5C4)ccn3)cc2)nc1
+[2026-04-17 17:15:40,041::sample::WARNING] Incomplete molecule: Cc1cc2c(Cc3ccccc3)[nH]c(N)nc-2nc1=O.c1ccccc1
+[2026-04-17 17:15:40,046::sample::WARNING] Incomplete molecule: Nc1nc[nH+]c2c(Cc3ccccc3)cccc12.c1ccc2[nH]cnc2c1
+[2026-04-17 17:15:40,047::sample::INFO] Success: Fc1ccc(C(OCc2ccccc2)c2cnc3ccccc3c2)cc1
+[2026-04-17 17:15:40,052::sample::WARNING] Incomplete molecule: NC(=O)c1ccc(-c2ccccc2)cc1.c1ccc(C2CCCN(c3nnn[nH]3)C2)cc1
+[2026-04-17 17:15:40,061::sample::INFO] Success: NC(=O)Nc1nc2c([nH]1)-c1ccccc1OC(c1cccc([N+](=O)O)c1)=C2
+[2026-04-17 17:15:40,067::sample::WARNING] Incomplete molecule: Nc1cc[nH+]c2ccccc12.c1ccc(-c2ccc(-c3cn[nH]n3)cc2)cc1
+[2026-04-17 17:15:40,067::sample::WARNING] Incomplete molecule: C1CC2CC3CC1C1CC3CC21.O=S(=O)(O)c1cccc(-c2ccccc2F)c1
+[2026-04-17 17:15:40,073::sample::WARNING] Incomplete molecule: C1=Cn2cc(-c3ccccc3)c3cccc(c32)N1.c1ccc(-c2cc[nH+]cc2)cc1
+[2026-04-17 17:15:40,074::sample::WARNING] Incomplete molecule: c1ccc2c(c1)CCO2.c1cncc(CNc2ncnc3nc4ccccc4nc23)c1
+[2026-04-17 17:15:40,074::sample::INFO] Success: c1ccc(-c2cnc3cnccc3c2CCCc2ccnc3ccccc23)nc1
+[2026-04-17 17:15:40,075::sample::INFO] Success: Fc1ccc(-c2cc3nc4ccccc4c(-c4ccccc4)n3n2)cc1
+[2026-04-17 17:15:40,080::sample::WARNING] Incomplete molecule: Cc1ccc2c[nH+]ccc2c1.O=c1ccc2cc(-c3ccccc3)ccc2[nH]1
+[2026-04-17 17:15:40,081::sample::WARNING] Incomplete molecule: CC(=O)Nc1ccnc2ccccc12.N=C(O)c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:15:40,086::sample::WARNING] Incomplete molecule: Cc1ccc(C2=C3C(=O)NC(=O)N=C3N=C2)cc1C.Oc1cccc2ccccc12
+[2026-04-17 17:15:40,091::sample::WARNING] Incomplete molecule: O=c1cc(NCc2ccccc2)c2ccc(-c3ccccc3)cc2[nH]1.c1ccccc1
+[2026-04-17 17:15:40,095::sample::WARNING] Incomplete molecule: O=c1c[nH+]c2cc(O)ccc2o1.Oc1cccc2c1C=Cc1ccccc1N2
+[2026-04-17 17:15:40,125::sample::INFO] [Pool] Succ/Incomp/Bad: 35/305/10
+[2026-04-17 17:17:49,556::sample::WARNING] Incomplete molecule: O=C(Nc1ccc(O)cc1)c1c[nH+]c2ccccc2c1.Oc1ccc2[nH]ccc2c1
+[2026-04-17 17:17:49,561::sample::WARNING] Incomplete molecule: O=c1ccc2c(N3CCCC3)cccc2[nH]1.c1ccc(COc2ccccc2)cc1
+[2026-04-17 17:17:49,567::sample::WARNING] Incomplete molecule: Oc1cc[n+](Cc2ccccc2)cc1.c1ccc2c(c1)ccc1ccc[nH+]c12
+[2026-04-17 17:17:49,568::sample::WARNING] Incomplete molecule: Nc1ncnc2cccnc12.c1ccc(COc2ccccc2)cc1
+[2026-04-17 17:17:49,569::sample::WARNING] Incomplete molecule: Fc1ccc(N2CCCCC2)cc1.NC(=O)c1ccc(C2CCc3ccccc3O2)cc1
+[2026-04-17 17:17:49,570::sample::WARNING] Incomplete molecule: C1CCCCC1.Fc1ccc(-n2cc(-c3ccccc3)c3ccncc32)cc1
+[2026-04-17 17:17:49,575::sample::WARNING] Incomplete molecule: c1ccc(NNc2ccccc2)cc1.c1ccc(Nc2nc3ccccc3[nH]2)cc1
+[2026-04-17 17:17:49,580::sample::WARNING] Incomplete molecule: Cc1ccc2[nH]c(-c3ccccc3)nc2c1.Oc1ccccc1-c1ccccc1
+[2026-04-17 17:17:49,580::sample::WARNING] Incomplete molecule: O=C(O)c1csc(-c2ccc(O)cc2)n1.c1ccc(Cc2ccccc2)cc1
+[2026-04-17 17:17:49,581::sample::INFO] Success: CN(C)c1ccc(C(=O)Nc2cncc(Oc3ccc(Cn4cnnn4)cc3)c2)cc1
+[2026-04-17 17:17:49,582::sample::WARNING] Incomplete molecule: O=C1Cc2ccccc2N1.O=c1[nH]c2ccccc2c2ccccc12
+[2026-04-17 17:17:49,583::sample::WARNING] Incomplete molecule: Cc1ccc2ccccc2n1.c1ccc(Nc2ncnc3ncccc23)cc1
+[2026-04-17 17:17:49,615::sample::WARNING] Reconstruction error encountered.
+[2026-04-17 17:17:49,619::sample::WARNING] Incomplete molecule: CC(=O)Nc1[nH]ncc1-c1ccccc1.c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:17:49,620::sample::WARNING] Incomplete molecule: Nc1ccc(-c2ccccc2)cc1.Nc1ccc2nc3ccccc3nc2c1
+[2026-04-17 17:17:49,621::sample::WARNING] Incomplete molecule: COc1ccc(CNCc2ccccc2)cc1.c1ccc2cnccc2c1
+[2026-04-17 17:17:49,621::sample::WARNING] Incomplete molecule: CCn1c2ccncc2c2c3ccccc3ncc21.NC(=O)c1ccc2ncccc2c1
+[2026-04-17 17:17:49,627::sample::WARNING] Incomplete molecule: NC(=O)c1ccc(-c2ccc3nc[nH]c3c2)cc1.c1ccc2[nH+]cncc2c1
+[2026-04-17 17:17:49,628::sample::WARNING] Incomplete molecule: C1CCCOCC1.O=C1CC(c2ccccc2)c2ccc(Cc3ccccc3)cc21
+[2026-04-17 17:17:49,629::sample::WARNING] Incomplete molecule: Clc1ccc(-c2cn3ccsc3n2)cc1.O=C1Nc2ccc([N+](=O)O)cc2C1=O
+[2026-04-17 17:17:49,630::sample::WARNING] Incomplete molecule: COc1cccc2ccccc12.Cc1cccc2c1ncc1ccccc12
+[2026-04-17 17:17:49,635::sample::WARNING] Incomplete molecule: C1=Nc2nccn2C1.c1ccc(-c2cc(-c3ccccc3)[nH]n2)cc1
+[2026-04-17 17:17:49,783::sample::WARNING] Reconstruction error encountered.
+[2026-04-17 17:17:49,784::sample::WARNING] Incomplete molecule: Cc1cnc2cnccc2c1N.c1ccc2c(c1)ccc1ccncc12
+[2026-04-17 17:17:49,785::sample::WARNING] Incomplete molecule: Cc1ccc2nc3c(nc2c1)N(c1ccccc1)C(=O)C3.O=C(O)c1ccccc1
+[2026-04-17 17:17:49,786::sample::WARNING] Incomplete molecule: OC1=NN=C(c2ccccc2)C1.Oc1ccc(Cc2ccc(O)cc2)cc1
+[2026-04-17 17:17:49,786::sample::WARNING] Incomplete molecule: Nc1ccnc2cc(-c3ccccc3)cnc12.c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:17:49,790::sample::INFO] Success: O=C(C=Cn1c(=O)[nH]c2cc(-c3ccccc3)ccc2c1=O)c1ccccc1
+[2026-04-17 17:17:49,875::sample::WARNING] Incomplete molecule: Nc1c2c(nc3[nH]c(=O)[nH]c(=O)c13)CCC2.c1ccc(-c2nn[nH]n2)cc1
+[2026-04-17 17:17:49,879::sample::WARNING] Incomplete molecule: NC(=O)c1c[nH]c2ccccc12.O=C1Cc2ccc(-c3ccccc3)cc2N1
+[2026-04-17 17:17:49,884::sample::WARNING] Incomplete molecule: Cc1ccccc1C.O=c1c2[nH+]c3ccccc3oc-2cc[n+]1-c1ccccc1
+[2026-04-17 17:17:49,885::sample::WARNING] Incomplete molecule: Oc1ccnc2ccccc12.c1ccc(-c2cnc(-c3ccccc3)cn2)cc1
+[2026-04-17 17:17:49,889::sample::INFO] Success: COCCCOC(c1ccccc1F)c1c[nH]c(-c2ccccc2)c2ncnc1-2
+[2026-04-17 17:17:49,890::sample::WARNING] Incomplete molecule: C[N+]1=Cc2ccccc2CC1.Cc1ncc(O)c(NC(=O)c2ccccc2)c1C
+[2026-04-17 17:17:49,892::sample::WARNING] Incomplete molecule: COc1ccccc1.O=C(O)c1ccc(-c2ccc(-c3ccc(F)cc3)cn2)cc1
+[2026-04-17 17:17:49,920::sample::WARNING] Reconstruction error encountered.
+[2026-04-17 17:17:49,924::sample::WARNING] Incomplete molecule: Cc1cccc(C(=O)Nc2ccc(O)[nH]c2=O)c1.Oc1ccccc1
+[2026-04-17 17:17:49,936::sample::WARNING] Incomplete molecule: Cc1ccccc1.O=c1[nH]c2c(c(=O)[nH]1)-c1cccc3cccc(c13)O2
+[2026-04-17 17:17:49,937::sample::WARNING] Incomplete molecule: c1ccc(-c2ccccc2)cc1.c1ccc(Cn2ncnc2N2CCOCC2)cc1
+[2026-04-17 17:17:49,941::sample::WARNING] Incomplete molecule: COc1ccc(-c2c[nH]c(=O)c3ccccc23)cc1.c1ccc2ccccc2c1
+[2026-04-17 17:17:49,942::sample::INFO] Success: O=c1ccc(-c2ccccc2)nn1-c1cccc(-c2ccc(O)cc2)c1
+[2026-04-17 17:17:49,946::sample::WARNING] Incomplete molecule: Fc1ccccc1.Nc1ccccc1NC(=O)c1cc2ccnc(=O)c-2c[nH]1
+[2026-04-17 17:17:49,949::sample::WARNING] Incomplete molecule: Cc1ccc2[nH]c3nc(=O)nccc3c2c1.Cc1ccccc1
+[2026-04-17 17:17:49,950::sample::WARNING] Incomplete molecule: O=c1nc2n(c3ccccc13)CCC2.c1ccc(-c2cnc3ccccc3n2)cc1
+[2026-04-17 17:17:49,951::sample::WARNING] Incomplete molecule: c1ccc2nc(-c3ncnc4ccccc34)ccc2c1.c1ccncc1
+[2026-04-17 17:17:49,952::sample::WARNING] Incomplete molecule: CN1CCN(c2ccccc2)CC1.O=C(O)c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:17:49,952::sample::WARNING] Incomplete molecule: Cc1cn(C)c(=O)nc1O.c1ccc(-c2csc(Nc3ccccn3)n2)cc1
+[2026-04-17 17:17:49,953::sample::WARNING] Incomplete molecule: Cc1ncc(-c2ncc3ccncc3n2)cn1.c1ccc2ccccc2c1
+[2026-04-17 17:17:49,958::sample::WARNING] Incomplete molecule: O=C(O)c1ccccc1.c1ccc2c(c1)C[NH+](c1[nH]cnc3nncc1-3)C2
+[2026-04-17 17:17:49,959::sample::WARNING] Incomplete molecule: c1ccc(N2CCc3c(cnc4c3cnc3ccccc34)C2)cc1.c1ccncc1
+[2026-04-17 17:17:51,556::sample::INFO] [Pool] Succ/Incomp/Bad: 39/348/13
+[2026-04-17 17:19:38,623::sample::WARNING] Incomplete molecule: Oc1nc2ccccc2c2ccccc12.c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:19:38,624::sample::INFO] Success: OC1CN(c2ccc(-c3ccccn3)nn2)CCC1c1ccnc2ccccc12
+[2026-04-17 17:19:38,625::sample::WARNING] Incomplete molecule: Fc1ccc(-c2ccc(-c3ccccc3)cc2)cc1.O=C(O)Cc1ccccc1
+[2026-04-17 17:19:38,629::sample::WARNING] Incomplete molecule: Cc1ccc(S(N)(=O)=O)cc1.Cc1cccc(-c2nc3cc(C)ccc3[nH]2)c1
+[2026-04-17 17:19:38,630::sample::INFO] Success: c1ccc(CCCc2nc3c4ccccc4ccc3n2CCc2ccccc2)cc1
+[2026-04-17 17:19:38,631::sample::WARNING] Incomplete molecule: O=c1[nH]c2ccccc2c(=O)n1-c1ccc2ccccc2c1.c1ccccc1
+[2026-04-17 17:19:38,632::sample::WARNING] Incomplete molecule: Oc1cccc(-c2ccc(C#Cc3ccccc3)nn2)c1.c1ccc2ccccc2c1
+[2026-04-17 17:19:38,632::sample::WARNING] Incomplete molecule: Cc1cc2ccccc2nc1C.O=C(O)C(=O)NCCc1ccccc1
+[2026-04-17 17:19:38,633::sample::WARNING] Incomplete molecule: Fc1ccccc1.O=C(c1ccccc1)c1cccnc1N1CCCNCC1
+[2026-04-17 17:19:38,638::sample::WARNING] Incomplete molecule: O=c1[nH]c(=O)n(Cc2ccccc2)c2ccccc12.c1ccc2[nH]cnc2c1
+[2026-04-17 17:19:38,639::sample::WARNING] Incomplete molecule: OC1CCN(c2ncccn2)CC1.c1ccc(-c2noc(-c3ccccc3)n2)cc1
+[2026-04-17 17:19:38,640::sample::WARNING] Incomplete molecule: Cn1c(=O)c2ccccc2n2c3ccccc3nc12.NN=Cc1ccccc1
+[2026-04-17 17:19:38,641::sample::WARNING] Incomplete molecule: O=c1c2ccccc2nc2ccccn12.c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:19:38,642::sample::INFO] Success: c1ccc(-c2cnc3cc(Nc4ccc5ncccc5c4)ncc3c2)cc1
+[2026-04-17 17:19:38,647::sample::WARNING] Incomplete molecule: c1ccc(-c2[nH]cc3ccccc23)cc1.c1ccc2[nH+]c3ccccc3cc2c1
+[2026-04-17 17:19:38,662::sample::WARNING] Incomplete molecule: C1=C[n+]2ccnc3c(-c4ccccc4)ccc(c32)N1.c1ccccc1
+[2026-04-17 17:19:38,663::sample::WARNING] Incomplete molecule: C1CCCCCC1.CC(=O)c1ccc(-c2ccc(-c3ccccc3)cc2)cc1
+[2026-04-17 17:19:38,667::sample::WARNING] Incomplete molecule: Nc1[nH]c2c3c(cccc13)C=CC=C2.c1ccc(-c2nn[nH]n2)cc1
+[2026-04-17 17:19:38,668::sample::WARNING] Incomplete molecule: COc1ccc2c(=O)n(-c3ccc(F)cc3)ncc2c1.c1ccc2ccccc2c1
+[2026-04-17 17:19:38,669::sample::WARNING] Incomplete molecule: CC1c2nc3ccccc3nc2CN1C(=O)c1ccccc1.c1ccc2ccccc2c1
+[2026-04-17 17:19:38,670::sample::WARNING] Incomplete molecule: CC1CC(=O)Nc2cc(-c3ccccc3)ccc21.Clc1ccc(Cn2cccn2)cc1
+[2026-04-17 17:19:38,670::sample::INFO] Success: O=C(CN(C(=O)c1cnc2ccccc2c1)c1ccc(F)cc1)NCc1ccccc1
+[2026-04-17 17:19:38,676::sample::WARNING] Incomplete molecule: c1ccc(-c2nnn[nH]2)cc1.c1ccc(Nc2cccc(-c3nnn[nH]3)c2)cc1
+[2026-04-17 17:19:38,676::sample::WARNING] Incomplete molecule: COc1ccc(-c2ccc(O)cc2)cc1.c1ccc2nc3ccccc3cc2c1
+[2026-04-17 17:19:38,677::sample::WARNING] Incomplete molecule: c1ccc2ccccc2c1.c1ccc2nc(-c3ccc4c(c3)CCO4)ccc2c1
+[2026-04-17 17:19:38,678::sample::WARNING] Incomplete molecule: O=c1ncnc2c3c1ccc1cccc(c13)C2.c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:19:38,679::sample::INFO] Success: c1ccc(-c2cccc(CN3CCN(c4ccc(-c5ccccn5)cn4)CC3)c2)cc1
+[2026-04-17 17:19:38,680::sample::INFO] Success: O=C(CCc1ccccc1)Nc1nonc1Nc1cccc(-c2ccccc2)c1
+[2026-04-17 17:19:38,680::sample::WARNING] Incomplete molecule: Cc1ccc(-c2ccccn2)cc1.c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:19:38,681::sample::WARNING] Incomplete molecule: Cc1nc2ccccc2cc1C(=O)O.Fc1ccc(-c2ccccc2)cc1
+[2026-04-17 17:19:38,682::sample::WARNING] Incomplete molecule: COc1cccc(-c2nnc(-c3ccccc3)o2)c1.Cc1ccc(-c2cccc(O)c2)cc1
+[2026-04-17 17:19:38,682::sample::WARNING] Incomplete molecule: COc1ccccc1N.O=C(c1ccccc1)n1cccn1
+[2026-04-17 17:19:38,687::sample::WARNING] Incomplete molecule: COc1ccc(-c2ccc(Cl)cc2)c[nH+]1.Nc1ccc(-c2ncc[nH]2)cc1
+[2026-04-17 17:19:38,688::sample::WARNING] Incomplete molecule: Cc1ccc(C)cc1.O=C(O)Nc1cccc(Nc2ccccc2)c1
+[2026-04-17 17:19:38,688::sample::WARNING] Incomplete molecule: Oc1ccc2ccccc2n1.c1ccc2nc3ccoc3cc2c1
+[2026-04-17 17:19:38,689::sample::WARNING] Incomplete molecule: CCn1c(=O)ccc2ccccc21.c1ccc(-c2ccnc3ccccc23)cc1
+[2026-04-17 17:19:38,690::sample::WARNING] Incomplete molecule: CC(=O)Nc1ccc(OS(C)(=O)=O)cc1.Nc1ccc2nc3ccccc3cc2c1
+[2026-04-17 17:19:38,693::sample::WARNING] Incomplete molecule: COc1ccc(N2CCN(C)C2=O)cc1.Cc1nc2nc(C)c(C)cc2[nH]1
+[2026-04-17 17:19:38,698::sample::WARNING] Incomplete molecule: Cc1cn[nH]c1-c1ccccc1.c1ccc(Nc2[nH+]cnc3ccccc23)cc1
+[2026-04-17 17:19:38,703::sample::WARNING] Incomplete molecule: Fc1ccccc1.Nc1[nH]c(-c2ccccc2O)nc2c3ccccc3nc(=O)c1-2
+[2026-04-17 17:19:38,704::sample::WARNING] Incomplete molecule: Cc1ccccc1.Nc1nc2nnnn2c2cc(-c3ccccc3)sc12
+[2026-04-17 17:19:38,704::sample::WARNING] Incomplete molecule: Oc1ccc2ccccc2c1.c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:19:39,767::sample::WARNING] Incomplete molecule: Cn1c(=O)n(CCO)c2cccnc21.c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:19:39,773::sample::WARNING] Incomplete molecule: c1ccc(-c2ccc[nH+]c2)[nH+]c1.c1ccc(-c2cn[nH]c2-c2ccccc2)cc1
+[2026-04-17 17:19:39,774::sample::WARNING] Incomplete molecule: CS(=O)(=O)Nc1ccccc1.Oc1c(NCc2ccccc2)cnc2ccccc12
+[2026-04-17 17:19:39,779::sample::WARNING] Incomplete molecule: COc1ccc(Nc2ncnc3ncc[nH+]c23)cc1.Cc1ccc2[nH]ccc2c1
+[2026-04-17 17:19:39,791::sample::WARNING] Incomplete molecule: Nc1nc[nH+]c2ccccc12.O=c1nc(-c2ccc[nH]2)[nH]nc1Nc1ccccc1
+[2026-04-17 17:19:39,796::sample::WARNING] Incomplete molecule: COc1cccc(C)c1.Cc1ccc2c(c1)cc1nc(=O)[nH]c3c1[n+]2C=N3
+[2026-04-17 17:19:39,797::sample::WARNING] Incomplete molecule: c1ccc(Nc2nnc3ccccc3n2)cc1.c1ccc2ccccc2c1
+[2026-04-17 17:19:39,798::sample::WARNING] Incomplete molecule: Cn1c(=O)c2ccccc2c2ccccc21.Oc1ccccc1N1CCOCC1
+[2026-04-17 17:19:39,840::sample::INFO] [Pool] Succ/Incomp/Bad: 45/392/13
+[2026-04-17 17:21:05,957::sample::WARNING] Incomplete molecule: NC(=O)c1ccccc1.Nc1ncc(C(=O)Nc2ccccc2)cn1
+[2026-04-17 17:21:05,963::sample::WARNING] Incomplete molecule: Cc1ccccc1.c1ccc(-c2[nH]c3ccccc3c2-c2ccccc2)cc1
+[2026-04-17 17:21:05,964::sample::WARNING] Incomplete molecule: COc1cnc2ccccc2c1O.Cc1ccc(Oc2ccccc2)cc1
+[2026-04-17 17:21:05,974::sample::WARNING] Incomplete molecule: O=c1oc2ccccc2c(=O)n1N=Cc1ccc(Cl)cc1.c1ccc(-c2nnn[nH]2)cc1
+[2026-04-17 17:21:05,979::sample::WARNING] Incomplete molecule: Cc1[nH]c2ccccc2c1C(=O)O.c1ccc2[nH+]c3ccccc3nc2c1
+[2026-04-17 17:21:05,980::sample::WARNING] Incomplete molecule: COc1ccc(-c2ccc(C(N)=O)cc2)cc1.Oc1ccc(-c2ccccc2)nc1O
+[2026-04-17 17:21:05,980::sample::INFO] Success: O=C(c1ccc2oc(=O)ccc2c1)N1CCN(Cc2ccccc2)CC1
+[2026-04-17 17:21:05,981::sample::WARNING] Incomplete molecule: c1ccc(Nc2ncccn2)cc1.c1cncc(-c2ccncc2)c1
+[2026-04-17 17:21:05,985::sample::WARNING] Incomplete molecule: Cn1c(=O)[nH]c2ccccc2c1=O.O=C(O)c1ccc2ccccc2c1
+[2026-04-17 17:21:05,985::sample::WARNING] Incomplete molecule: C1=c2ccccc2=Nc2ncnc3c2c1nn3-c1ccccc1.CC(C)=O
+[2026-04-17 17:21:05,989::sample::WARNING] Incomplete molecule: COc1ccccc1CNC(=O)c1cc(=O)[nH]c2c(C)cccc12.Fc1cccc(F)c1
+[2026-04-17 17:21:05,997::sample::WARNING] Incomplete molecule: Cc1ccc2c(c1)Oc1ccccc1N2.Cn1c(=O)[nH]c(=O)c2cncnc21
+[2026-04-17 17:21:05,998::sample::WARNING] Incomplete molecule: c1ccc(Cc2cnc(-c3cccnc3)cn2)cc1.c1ccc2ccccc2c1
+[2026-04-17 17:21:05,998::sample::WARNING] Incomplete molecule: COc1ccc(NC(C)=O)cc1O.O=C(O)c1cccc(Oc2ccccc2)c1
+[2026-04-17 17:21:05,999::sample::WARNING] Incomplete molecule: Nc1ccccc1.c1ccc(CC2Nc3ncnc4ncnc(c34)N2)cc1
+[2026-04-17 17:21:06,000::sample::WARNING] Incomplete molecule: Cc1ccc2c(ccc3cccnc32)c1.c1ccc(CNCc2ccccc2)cc1
+[2026-04-17 17:21:06,056::sample::WARNING] Incomplete molecule: O=c1cc(N2CCc3ccccc3C2)[nH]c(=O)[nH]1.c1ccc2nccnc2c1
+[2026-04-17 17:21:06,060::sample::WARNING] Incomplete molecule: Fc1ccc(Nc2ccccc2)cc1.c1ccc(-c2nn[nH]n2)cc1
+[2026-04-17 17:21:06,061::sample::WARNING] Incomplete molecule: CC(=O)Nc1ccc(C(=O)O)cc1.NC(=O)c1cc(-c2ccc(Cl)cc2)nc2ccccc12
+[2026-04-17 17:21:06,062::sample::INFO] Success: O=[N+](O)c1ccc(-c2ccnc(-c3ccc4ccccc4c3)n2)cc1
+[2026-04-17 17:21:06,074::sample::WARNING] Incomplete molecule: O=c1ncc2nc3cc([N+](=O)O)ccc3[nH]c-2n1.c1ccc2ccccc2c1
+[2026-04-17 17:21:06,074::sample::WARNING] Incomplete molecule: O=C(O)c1ccc(Oc2cc3ccccc3nn2)cc1.Oc1ccccc1
+[2026-04-17 17:21:06,075::sample::WARNING] Incomplete molecule: Cc1ccc(O)c(-c2nc3ccccc3o2)c1.NS(=O)(=O)c1ccccc1
+[2026-04-17 17:21:06,083::sample::WARNING] Reconstruction error encountered.
+[2026-04-17 17:21:06,084::sample::INFO] Success: Cc1cc(-c2ccc3c(c2)OCc2cn(-c4ccccc4)nc2N3)ncn1
+[2026-04-17 17:21:06,088::sample::WARNING] Incomplete molecule: Cc1n[nH]c(=O)c2ccccc12.O=C(O)c1cccc(-c2ccccc2)c1
+[2026-04-17 17:21:06,092::sample::WARNING] Incomplete molecule: COc1ccc(-c2ccccc2)cc1C.O=c1nc(-c2cccc[nH+]2)[nH]cc1O
+[2026-04-17 17:21:06,096::sample::WARNING] Incomplete molecule: Cc1cccc(N)c1.O=C(O)c1c[nH]c2ncc(-c3ccccc3)c-2c1
+[2026-04-17 17:21:06,097::sample::WARNING] Incomplete molecule: Cc1cccc(Nc2ccccn2)c1.Nc1ncc2ccccc2n1
+[2026-04-17 17:21:06,102::sample::WARNING] Incomplete molecule: CC(=O)Nc1ccc2nn(-c3ccccc3)c3c2c1NC=N3.c1ccccc1
+[2026-04-17 17:21:06,102::sample::WARNING] Incomplete molecule: O=C(O)CCC(=O)NCc1ccccc1.c1ccc(Cc2ccccc2)cc1
+[2026-04-17 17:21:06,103::sample::WARNING] Incomplete molecule: Oc1ccccc1.c1ccc(Oc2ccc(Nc3cccnc3)cc2)cc1
+[2026-04-17 17:21:06,109::sample::WARNING] Incomplete molecule: Cc1ccccc1.O=c1[nH]c(=O)n(Cc2ccccc2)c2[nH+]c3ccccc3nc12
+[2026-04-17 17:21:06,113::sample::WARNING] Incomplete molecule: Cc1[nH+]nc(-c2ccccc2)o1.Cc1cc(=O)c2ccccc2[nH]1
+[2026-04-17 17:21:06,114::sample::WARNING] Incomplete molecule: Cc1cccc(CNc2nccc3nc(C)nn23)c1.O=C(O)CCc1ccccc1
+[2026-04-17 17:21:06,115::sample::WARNING] Incomplete molecule: NC(=O)c1ccc(-c2ccccc2)cc1.O=C(O)c1ccc2ccccc2c1
+[2026-04-17 17:21:06,115::sample::WARNING] Incomplete molecule: NS(=O)(=O)c1ccccc1.c1ccc(-c2ncnc3cccnc23)cc1
+[2026-04-17 17:21:06,119::sample::WARNING] Incomplete molecule: Cc1ccccc1.O=C(Nc1ccccc1)c1nccc2[nH]cnc12
+[2026-04-17 17:21:06,120::sample::WARNING] Incomplete molecule: Cc1cccc(Cn2cnc3ccccc32)c1.Nc1ccc(S(N)(=O)=O)cc1
+[2026-04-17 17:21:06,121::sample::WARNING] Incomplete molecule: O=C(Nc1ccccc1)c1ccccc1.O=C(O)C1CCN(C(=O)O)CC1
+[2026-04-17 17:21:06,122::sample::WARNING] Incomplete molecule: O=C(O)c1ccc(-c2ccc3ccccc3c2)cc1.c1ccc2c(c1)cnc1ccccc12
+[2026-04-17 17:21:06,128::sample::WARNING] Incomplete molecule: Cc1ccc(Oc2ccccc2)cc1.Cc1cccc2nc3c(nc12)[nH]c1ccccc13
+[2026-04-17 17:21:06,132::sample::INFO] Success: O=C(Nc1ccc[nH+]c1)c1ccc2nc(-c3ccccc3)[nH]c(=O)c2c1
+[2026-04-17 17:21:06,148::sample::WARNING] Reconstruction error encountered.
+[2026-04-17 17:21:06,149::sample::WARNING] Incomplete molecule: Cc1nc(-c2cc(-c3cccnc3)ccn2)cs1.c1ccc(-c2ccccc2)cc1
+[2026-04-17 17:21:06,150::sample::WARNING] Incomplete molecule: COc1ccc2c(-c3ccccc3)cccc2c1.O=C1CC(=O)c2ccccc2N1
+[2026-04-17 17:21:06,150::sample::WARNING] Incomplete molecule: Nc1ncnc2sccc12.O=C1CCNCCN1c1ccc(-n2ccnc2)cc1
+[2026-04-17 17:21:06,151::sample::WARNING] Incomplete molecule: N=C(N)c1ccc(-c2ccccc2)cc1.c1ccc(Oc2ccccc2)cc1
+[2026-04-17 17:21:06,152::sample::WARNING] Incomplete molecule: c1ccc(-c2ccc3ccccc3c2)cc1.c1ccc2c(c1)ncc1cnccc12
+[2026-04-17 17:21:06,153::sample::WARNING] Incomplete molecule: C1CCCNCC1.Oc1ccc2ccc(-c3ccccc3)cc2c1
+[2026-04-17 17:21:06,183::sample::INFO] [Pool] Succ/Incomp/Bad: 49/436/15

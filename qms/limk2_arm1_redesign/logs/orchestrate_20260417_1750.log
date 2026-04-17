@@ -1,0 +1,52 @@
+[2026-04-17 19:50:27] === LIMK2 Arm 1 Redesign Orchestrator ===
+[2026-04-17 19:50:27] STEP 1-6: filter + Boltz-2 affinity head rescore
+=== LIMK2 Arm 1 Redesign — filter + score cascade ===
+Step 1: fetch SDFs from asxm
+Step 2: read SDFs
+  Strategy A: 485 mols
+  Strategy B: 480 mols
+  Strategy C: 49 mols
+Total raw: 1014
+Step 3: RDKit filter (uniqueness, descriptors)
+Unique RDKit-valid: 1011
+Step 4: apply filter cascade
+Survivors by strategy: {'A': 27, 'B': 1, 'C': 3}
+Total survivors for Boltz-2 affinity: 31
+Step 5: build Boltz-2 affinity YAMLs
+Step 6: run Boltz-2 on sma-h100-two (31 YAMLs)
+running boltz...
+elapsed=395.7s rc=0
+Step 7: fetch + parse results
+Step 8: gate decision
+Binary-binder gate (prob>0.3) survivors: 4
+  A LIMK2_ARM1_REDESIGN_A_001: Ki=1166.5nM prob_bin=0.342 QED=0.77 BBB=0.70
+  A LIMK2_ARM1_REDESIGN_A_016: Ki=9287.2nM prob_bin=0.309 QED=0.48 BBB=0.54
+  A LIMK2_ARM1_REDESIGN_A_005: Ki=37275.8nM prob_bin=0.330 QED=0.57 BBB=0.52
+  A LIMK2_ARM1_REDESIGN_A_002: Ki=86143.2nM prob_bin=0.349 QED=0.54 BBB=0.52
+
+[2026-04-17 19:57:17] Affinity gate: 4 binders passed (>= 5 to proceed)
+[2026-04-17 19:57:17] === FINAL DECISION: EXHAUSTED (n_binders=4, n_pass=0) ===
+[2026-04-17 19:57:17] Wrote RESULTS: /home/bryza/sma-research/qms/limk2_arm1_redesign/LIMK2_ARM1_REDESIGN_RESULTS.md
+[2026-04-17 19:57:17] STEP 9: triple-LLM verification
+[triple-llm] verifying /home/bryza/sma-research/qms/limk2_arm1_redesign/LIMK2_ARM1_REDESIGN_RESULTS.md (7451 chars)
+
+=== OpenAI GPT-4o ===
+  verdict: PASS
+  note: Consider providing more detailed rationale for the choice of specific redesign strategies.
+  note: Clarify any assumptions made during the computational modeling process.
+=== Groq Llama-3.3-70B ===
+  verdict: FAIL
+  BLOCK: Lack of explicit citable sources for numerical claims
+  BLOCK: Insufficient information to verify dataset identity
+  BLOCK: Narrative consistency issue: conclusions may not follow from the data presented
+  note: Provide explicit citable sources for numerical claims
+  note: Include more details about the dataset to verify its identity
+  note: Consider adding more controls or data to support the conclusions
+=== Gemini 2.0 Flash ===
+  verdict: PASS
+
+=== AGGREGATE: 2/3 LLMs PASS ===
+OVERALL: FAIL — manual review required
+
+STDERR tail: 
+[2026-04-17 19:57:25] Triple-LLM verification: REJECTED / ERROR

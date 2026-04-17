@@ -1,0 +1,95 @@
+{
+  "gate": "affinity_binary_prob_gt_0.3",
+  "n_boltz_scored": 31,
+  "n_binders": 4,
+  "binders": [
+    {
+      "job_id": "LIMK2_ARM1_REDESIGN_A_001",
+      "strategy": "A",
+      "smiles": "Oc1ccccc1CNC1=CNC2=CC=C(Oc3cccc[nH+]3)C=CC2=C1",
+      "MW": 358.4210000000001,
+      "logP": 3.0835000000000017,
+      "TPSA": 67.66000000000001,
+      "HBD": 3,
+      "HBA": 4,
+      "QED": 0.768386052082703,
+      "BBB": 0.695334192914471,
+      "tanimoto_limki3": 0.11538461538461539,
+      "affinity_pred_value": -0.38612040877342224,
+      "affinity_probability_binary": 0.34218260645866394,
+      "pred_log10_ki_nM": 3.0668767521558045,
+      "pred_ki_nM": 1166.4785367169873,
+      "ki_95pi_nM": [
+        212.07075707503503,
+        6416.123540031358
+      ],
+      "iptm": 0.9123594760894775
+    },
+    {
+      "job_id": "LIMK2_ARM1_REDESIGN_A_016",
+      "strategy": "A",
+      "smiles": "c1ccc(Nc2ncnc3cc(OCCNc4ccccn4)ccc23)cc1",
+      "MW": 357.41700000000003,
+      "logP": 4.259300000000002,
+      "TPSA": 71.96000000000001,
+      "HBD": 2,
+      "HBA": 6,
+      "QED": 0.48164498673574385,
+      "BBB": 0.5382447967113656,
+      "tanimoto_limki3": 0.14084507042253522,
+      "affinity_pred_value": 0.3353694975376129,
+      "affinity_probability_binary": 0.3091898560523987,
+      "pred_log10_ki_nM": 3.9678836892835965,
+      "pred_ki_nM": 9287.176286602742,
+      "ki_95pi_nM": [
+        1688.4481318724927,
+        51083.383463359954
+      ],
+      "iptm": 0.899677038192749
+    },
+    {
+      "job_id": "LIMK2_ARM1_REDESIGN_A_005",
+      "strategy": "A",
+      "smiles": "COc1ccc(-c2cc3c(Nc4ccccc4)nnc-3[nH]c2C)cc1",
+      "MW": 330.3910000000001,
+      "logP": 4.637120000000003,
+      "TPSA": 62.83,
+      "HBD": 2,
+      "HBA": 4,
+      "QED": 0.5721678523160622,
+      "BBB": 0.5173326617593186,
+      "tanimoto_limki3": 0.18461538461538463,
+      "affinity_pred_value": 0.818662166595459,
+      "affinity_probability_binary": 0.32969847321510315,
+      "pred_log10_ki_nM": 4.571426502114581,
+      "pred_ki_nM": 37275.759592247545,
+      "ki_95pi_nM": [
+        6776.891565895037,
+        205032.38684999154
+      ],
+      "iptm": 0.9593783020973206
+    },
+    {
+      "job_id": "LIMK2_ARM1_REDESIGN_A_002",
+      "strategy": "A",
+      "smiles": "O=c1[nH]cnc2nc(C#Cc3ccccc3)nc(Nc3ccc(F)cc3)c12",
+      "MW": 357.348,
+      "logP": 2.9956000000000005,
+      "TPSA": 83.56,
+      "HBD": 2,
+      "HBA": 5,
+      "QED": 0.5389987783878138,
+      "BBB": 0.5173454999486055,
+      "tanimoto_limki3": 0.15492957746478872,
+      "affinity_pred_value": 1.1099740266799927,
+      "affinity_probability_binary": 0.3490050435066223,
+      "pred_log10_ki_nM": 4.935220928769544,
+      "pred_ki_nM": 86143.18574083703,
+      "ki_95pi_nM": [
+        15661.197391878777,
+        473823.824826343
+      ],
+      "iptm": 0.8652382493019104
+    }
+  ]
+}
