@@ -1,6 +1,30 @@
 # Cross-Connection Insights v3 (LLM-synthesized) — 2026-04-10
 
-**Generated**: 2026-04-10T21:15:31.954425+00:00
+> ### ⚠️ HISTORICAL SNAPSHOT / PARTIAL RETRACTION — 2026-04-17
+>
+> This is an LLM-synthesized insights document generated 2026-04-10, before the
+> LIMK2 +2.81× retraction (Incident 2026-04-17-001) and the 3-dataset meta-analysis
+> (see `qms/meta_analysis/CORRECTED_SIGNATURE.md`). Specific claims below that reference
+> the "ROCK-LIMK2-CFL2 axis validated by 3 independent datasets" (Insight 1 line 36;
+> Insight 6 line 154) or "ROCK2 hyperactivation as biomarker for Risdiplam resistance"
+> (Insight 6 line 163) are **RETRACTED** per meta:
+>
+> - ROCK2 meta pooled log2FC = **−0.254** (p=9.0e-5, I²=56%) — DOWN in SMA MN, not
+>   hyperactivated. "Hyperactivation-as-biomarker" framing is inverted.
+> - LIMK2 meta pooled log2FC = −0.20 (NS, I²=98%) — model-system-dependent, not a
+>   uniform validated signal.
+> - The "Fasudil + 4-AP dual-node attack" synergy claim (Insight 1) loses its transcriptomic
+>   rationale; the pharmacodynamic argument (upstream Kv + distinct target) can survive
+>   separately.
+>
+> Do NOT export this document to any external "insights" feed without re-synthesis against
+> the corrected signature. Kept here for audit-history and cross-connection-engine
+> debugging. References: `qms/CORRECTIONS_LOG.md` Audit-Event 2026-04-17-002;
+> `qms/GOVERNANCE_AUDIT_2026-04-17.md` §U21.
+
+---
+
+**Generated**: 2026-04-10T21:15:31.954425+00:00 (HISTORICAL SNAPSHOT — supersedes retracted 2026-04-17)
 **Engine**: `cross_connection_engine_v3.py` (retrieval + LLM synthesis)
 **Model**: claude-opus-4-20250514
 **Data sources**: 18 (CORTEX + Platform API + local)

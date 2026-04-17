@@ -1,3 +1,36 @@
+# === Secrets — NEVER commit ===
+.env
+.env.*
+*.env
+credentials*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*token*.json
+*token*.txt
+.secrets/
+.claude/secrets/
+
+# === Presentations / large binary artifacts ===
 4AP-Presentation.pptx
 *.pptx
+
+# === Trajectories / heavy sim data ===
 *.dcd
+*.xtc
+*.trr
+*.nc
+
+# === Python / node caches ===
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+venv/
+.venv/
+
+# === Internal-only QMS documents (do NOT share with collaborators) ===
+qms/**/*_INTERNAL_DO_NOT_SEND*
+qms/**/*_INTERNAL.md
+qms/**/*retraction_brief*

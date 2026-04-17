@@ -1,5 +1,14 @@
 # SMA Research — Open Drug Discovery
 
+> **⚠️ UNSOURCED 2026-04-17** — CFL2 "disease-specific (UP in SMA, DOWN in ALS)" Claim hat keine primäre Datenquelle im Repo. Verifikation gegen GSE302774 + ALS-Referenzdataset ausstehend.
+
+
+> **⚠️ RETRACTED 2026-04-17** — Die Claim "LIMK2 +2.81× hoch in SMA Motoneuronen" wurde zurückgezogen. 
+> Re-Analyse aus zwei verifizierten SMA-Datasets (GSE290979, GSE302774) zeigt LIMK2 ist **mild DOWN** in SMA MN (nicht UP). 
+> Die ROCK-LIMK2-CFL2 "core therapeutic axis" Claim wird überprüft — alle Downstream-Hypothesen (Fasudil-Rationale etc.) sind betroffen.
+> Details: `qms/CORRECTIONS_LOG.md` Incident #2026-04-17-001.
+
+
 Evidence-first computational drug discovery for Spinal Muscular Atrophy (SMA).
 All data **CC-BY-4.0**. Platform: https://sma-research.info
 
@@ -65,7 +74,7 @@ sma-research/
 
 ## Key Findings (current verdicts)
 
-- **ROCK-LIMK2-CFL2 is the core therapeutic axis for SMA** — validated across 3 independent datasets. LIMK2 is +2.81x in SMA motor neurons; CFL2 is disease-specific (UP in SMA, DOWN in ALS).
+- **ROCK-LIMK2-CFL2 "core therapeutic axis" — UNDER_REVIEW 2026-04-17**: the "hyperactive axis in SMA MN" framing is RETRACTED per 3-dataset meta-analysis (GSE290979+GSE302774+GSE87281). ROCK2 is robustly **DOWN** in SMA MN (pooled log2FC −0.254, p=9.0e-5, I²=56%, 5/5 contrasts DOWN). LIMK2 is model-system-dependent (pooled −0.20 NS; DOWN in iPSC-Hb9-iMN padj 2.3e-12 and iN padj 1.4e-63; UP in SH-SY5Y shSMN padj 3.8e-6). The prior "+2.81×" value is not reproducible in any verified dataset. CFL2 "disease-specific (UP in SMA, DOWN in ALS)" is UNSOURCED — meta pooled +0.002 NS, no ALS reference ever cited. See `qms/meta_analysis/CORRECTED_SIGNATURE.md`, `qms/CORRECTIONS_LOG.md` Incident 2026-04-17-001 + Audit-Event 002, `qms/CLAIMS_REGISTRY.md` rows 1, 4, 9, 10.
 - **Fasudil is muscle-mediated, not neuroprotective** (Bowerman 2012).
 - **ESM-2 empirically validates why kinase selectivity is hard** — LIMK1/LIMK2 cosine similarity = 0.990, ROCK1/ROCK2 = 0.998. Pocket-level methods are required.
 - **4-AP does NOT bind CORO1C therapeutically** — the April 2 CORO1C claim is withdrawn. Current interpretation: 4-AP is a Kv-channel compensator for proprioceptive motor-neuron dysfunction (Simon's hypothesis), complementary to any SMN-restoration therapy.

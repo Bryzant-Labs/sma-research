@@ -3,10 +3,24 @@ title: "Three-Mechanism Combination Therapy Framing for SMA"
 date: 2026-04-12
 author: Christian Fischer, Bryzant Labs
 context: "Post-SMA Congress 2026 (Budapest, 11–14 March 2026) + Cure SMA 2025 Anaheim synthesis. Proposes a rational 3-mechanism combination that complements Fasudil rather than replacing it. Public version — the private collaborator memo lives off-repo."
-status: public-summary
+status: UNDER_REVIEW 2026-04-17 (Fasudil rationale affected by Incident 001 retraction)
 ---
 
 # Three-Mechanism Combination Therapy Framing for SMA
+
+> ⚠️ **UNDER_REVIEW 2026-04-17** — the "Cytoskeletal rescue — Fasudil — ROCK2 → LIMK2 → Cofilin-2"
+> row in the table below asserts Fasudil operates via ROCK2-hyperactivation rescue in SMA MN.
+> A 2026-04-17 3-dataset meta-analysis inverts this premise: ROCK2 is pooled log2FC **−0.254**
+> (DOWN, p=9.0e-5, I²=56%, 5/5 contrasts DOWN) in SMA MN. Pan-ROCK inhibition at the
+> MN-intrinsic transcriptional layer is potentially contraindicated.
+>
+> The MuSK-agonist track and the NRF2-KEAP1 redox track are independent of the LIMK2 retraction
+> and survive. Bowerman 2012's muscle-mediated Fasudil benefit also survives (it operates at
+> muscle/protein-activity layer, not MN transcription).
+>
+> The 3-mechanism-combo framing **needs re-derivation** before external use. See
+> `qms/CORRECTIONS_LOG.md` Incident 2026-04-17-001 + Audit-Event 002,
+> `qms/meta_analysis/CORRECTED_SIGNATURE.md`, `qms/GOVERNANCE_AUDIT_2026-04-17.md` §U22.
 
 **One-line thesis:** Fasudil alone is a single-mechanism cytoskeletal rescue. The 2026 SMA Congress (Budapest) and the Cure SMA 2025 Anaheim meeting together named two orthogonal axes the field has not yet integrated — NMJ-directed rescue (first-in-class MuSK agonist Fabs, exemplified by argenx ARGX-119) and NRF2-driven redox rescue (omaveloxolone / bardoxolone / sulforaphane). A rational three-mechanism combo (ROCK inhibitor + MuSK agonist + NRF2 activator) covers the three major failure modes of SMA motor units simultaneously and positions Bryzant Labs as a cross-mechanism synthesis group.
 
@@ -24,7 +38,7 @@ status: public-summary
 
 | Mechanism | Drug | Target | Status | Evidence |
 |---|---|---|---|---|
-| **Cytoskeletal rescue** | Fasudil | ROCK2 → LIMK2 → Cofilin-2 | Off-patent, generic, CNS-penetrant | Bowerman 2012 (SMA mouse, PMID 22397316) + our ROCK2 apo 100 ns MD baseline (2026-04-12) |
+| **Cytoskeletal rescue** *(⚠️ UNDER_REVIEW 2026-04-17)* | Fasudil | ~~ROCK2 → LIMK2 → Cofilin-2 (MN-intrinsic rescue)~~ — **direction-inverted per 3-dataset meta**: ROCK2 is DOWN in SMA MN (pooled −0.254, p=9.0e-5). Muscle-layer mechanism (Bowerman 2012) survives as independent rationale. | Off-patent, generic, CNS-penetrant | ~~Bowerman 2012 SMA-mouse MN-rescue framing~~ — re-frame as muscle-layer only; + our ROCK2 apo 100 ns MD baseline (2026-04-12) remains valid as structural/apo reference |
 | **NMJ stabilisation** | MuSK agonist Fab *or* salbutamol as small-molecule bridge | MuSK kinase domain (agrin-LRP4-MuSK-DOK7 axis) | Phase 1 complete for first-in-class Fab | Congress 2026, O28 |
 | **Redox / anti-oxidant rescue** | CDDO-Me (bardoxolone) *or* omaveloxolone (Skyclarys, approved for Friedreich ataxia) | KEAP1 Kelch domain → NRF2 nuclear translocation | FDA approval for an adjacent inherited neurodegeneration | Congress 2026, O16 |
 

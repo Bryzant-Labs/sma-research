@@ -1,5 +1,11 @@
 # Combination Protocol: ABE Base Editing + Fasudil ROCK Inhibition for SMA
 
+> **⚠️ UNDER_REVIEW 2026-04-17** — Die "ROCK-LIMK2-CFL2 therapeutische Achse" Hypothese wird überprüft.
+> Zwei verifizierte SMA-Datasets (GSE290979 + GSE302774) zeigen LIMK2/ROCK2/CFL1 sind in SMA MN **DOWN**, nicht UP.
+> Fasudil als ROCK-Inhibitor-Rationale hängt an dieser Prämisse und muss neu bewertet werden.
+> Details: `qms/CORRECTIONS_LOG.md` Incident #2026-04-17-001.
+
+
 Version: 1.0
 Date: 2026-04-08
 Authors: Christian Fischer, Bryzant Labs
@@ -31,7 +37,7 @@ ABE + Fasudil could be synergistic because they operate on different timescales 
 
 2. **Fasudil** = the bridge. During the gap period (days 0-14 after AAV-ABE injection), Fasudil provides immediate neuroprotection by:
    - Inhibiting ROCK -> reducing LIMK2 hyperphosphorylation -> normalizing cofilin (CFL2) activity
-   - Improving actin dynamics at NMJs (the ROCK-LIMK2-CFL2 axis, validated in 3 independent SMA datasets)
+   - Improving actin dynamics at NMJs (the ROCK-LIMK2-CFL2 axis, ~~validated in 3 independent SMA datasets~~ **RETRACTED 2026-04-17** — meta of 3 verified SMA datasets (GSE290979+GSE302774+GSE87281) shows ROCK2 is DOWN in SMA MN (pooled −0.254, p=9.0e-5) and LIMK2 is model-system-dependent — the hyperactive-axis rescue rationale is inverted at the transcriptional layer; see `qms/meta_analysis/CORRECTED_SIGNATURE.md`)
    - Preventing further NMJ denervation while SMN protein levels are still rising
 
 3. **Analogy**: Treating a bacterial infection with antibiotics (cure, takes days) PLUS anti-inflammatory drugs (immediate symptom relief). Neither alone is as good as the combination.
@@ -39,15 +45,16 @@ ABE + Fasudil could be synergistic because they operate on different timescales 
 ### Why This Combination is Novel
 - The Liu lab (Science 2023) tested ABE + nusinersen combination and achieved the best result: 111-day lifespan in delta7 mice
 - NOBODY has tested ABE + ROCK inhibitor
-- ROCK-LIMK2-CFL2 is a therapeutic axis we identified across 3 independent SMA datasets
+- ~~ROCK-LIMK2-CFL2 is a therapeutic axis we identified across 3 independent SMA datasets~~ — **RETRACTED 2026-04-17**. Meta shows ROCK2 DOWN (pooled −0.254, p=9.0e-5) and LIMK2 model-dependent (pooled −0.20 NS). "Therapeutic axis" framing is RETRACTED pending protein-level re-derivation. See `qms/CORRECTIONS_LOG.md` Incident 001 + Audit-Event 002.
 - Fasudil is generic, orally bioavailable, crosses BBB, and has extensive human safety data (approved in Japan/China for cerebral vasospasm)
-- LIMK2-selective SMA therapy = ZERO global competitors
+- LIMK2-selective SMA therapy = ZERO global competitors *(chemistry-side observation, survives retraction; not a disease-axis rescue claim)*
 
-### Supporting Evidence for the ROCK Pathway in SMA
-- Bowerman et al. (2012): ROCK pathway hyperactivated in SMA muscle -- Fasudil improves muscle function
-- Our analysis: ROCK-LIMK2-CFL2 axis consistently dysregulated across SMA transcriptomic datasets
-- CORO1C identified as passenger (NOT driver) -- the real target is LIMK2
-- Fasudil acts on the muscle/NMJ side, which is mechanistically distinct from SMN protein restoration
+### Supporting Evidence for the ROCK Pathway in SMA *(⚠️ UNDER_REVIEW 2026-04-17 — see inline corrections)*
+- Bowerman et al. (2012): ROCK pathway hyperactivated in **SMA muscle** — Fasudil improves muscle function. **This MUSCLE-tissue mechanism remains a valid, independent track** — it operates at a distinct signalling layer (protein-level kinase activity in muscle) from the MN-intrinsic transcriptional signature reported in our 2026-04-17 meta, which shows ROCK2 DOWN in SMA MN. The two are not incompatible: muscle ROCK may be hyperactive while MN ROCK2 transcript is reduced.
+- ~~Our analysis: ROCK-LIMK2-CFL2 axis consistently dysregulated across SMA transcriptomic datasets~~ — **RETRACTED**. Meta shows ROCK2 DOWN, LIMK2 model-dependent, CFL2 unchanged. "Consistently dysregulated" does not survive the meta.
+- CORO1C identified as passenger (NOT driver) — the real target is LIMK2 *[LIMK2 direction claim UNDER_REVIEW: meta model-system-dependent; LIMK2-selective chemistry is defensible independently of the SMA direction, but "the real SMA target is LIMK2" claim does not survive at the MN-intrinsic transcriptional layer.]*
+- Fasudil acts on the muscle/NMJ side, which is mechanistically distinct from SMN protein restoration *(this framing actually SURVIVES better post-retraction — muscle-layer mechanism decouples from the retracted MN-intrinsic axis)*
+- **New caveat (2026-04-17)**: pan-ROCK inhibition at the MN-intrinsic level may be contraindicated if ROCK2 is already DOWN. The combination rationale therefore rests primarily on Bowerman's muscle-layer mechanism + the "bridge during SMN gap" pharmacodynamic argument, NOT on rescuing a hyperactive MN-intrinsic axis.
 
 ---
 
@@ -162,10 +169,10 @@ SMN:    0%   0%   0%   ~5%  ~10% ~15% ~20% ~30%  ~60%  ~90%  ~95%
    - Full restoration takes 2-4 weeks post-injection
    - During the gap, motor neurons and NMJs continue to degenerate
 
-2. **Fasudil protects during the gap** (downstream effect)
-   - ROCK hyperactivation -> LIMK2 hyperphosphorylation -> CFL2 inactivation -> frozen actin dynamics
+2. **Fasudil protects during the gap** (downstream effect) *[⚠️ UNDER_REVIEW 2026-04-17 — the "ROCK hyperactivation → LIMK2 hyperphosphorylation → CFL2 inactivation" cascade is RETRACTED at the MN-intrinsic transcriptional layer; meta shows ROCK2 DOWN. If the cascade operates it must be at the protein/kinase-activity level (not transcript level), or in muscle (Bowerman 2012) rather than MN. Re-frame before using this as rationale.]*
+   - ~~ROCK hyperactivation -> LIMK2 hyperphosphorylation -> CFL2 inactivation -> frozen actin dynamics~~ [direction retracted at transcriptional layer]
    - This causes NMJ retraction and muscle denervation
-   - Fasudil immediately normalizes this pathway
+   - Fasudil immediately normalizes this pathway *[only defensible at muscle/protein-activity layer post-retraction]*
    - Prevents irreversible NMJ loss during the critical P1-P14 window
 
 3. **Together: fix the cause AND prevent damage during the fix**
@@ -212,10 +219,10 @@ SMN:    0%   0%   0%   ~5%  ~10% ~15% ~20% ~30%  ~60%  ~90%  ~95%
 ## 5. Our Unique Contribution
 
 ### What Nobody Else Does
-- ROCK-LIMK2-CFL2 therapeutic axis: identified across 3 independent SMA datasets
-- Fasudil for SMA muscle: we understand the muscle-mediated (not neuroprotective) mechanism
-- LIMK2-selective strategy: ZERO global competitors
-- ABE + ROCK inhibitor combination: never proposed or tested
+- ~~ROCK-LIMK2-CFL2 therapeutic axis: identified across 3 independent SMA datasets~~ — **RETRACTED 2026-04-17** (meta shows ROCK2 DOWN, LIMK2 model-dependent; "therapeutic axis" framing does not survive at the MN-intrinsic transcriptional layer — see `qms/CORRECTIONS_LOG.md` Audit-Event 002)
+- Fasudil for SMA muscle: we understand the muscle-mediated (not neuroprotective) mechanism *(survives retraction — this is the muscle-layer claim, independent of the MN-intrinsic axis)*
+- LIMK2-selective strategy: ZERO global competitors *(chemistry-side observation; survives retraction; not a disease-axis rescue claim)*
+- ABE + ROCK inhibitor combination: never proposed or tested *(pharmacodynamic argument; rationale UNDER_REVIEW post-retraction)*
 
 ### Collaboration Potential
 - **Liu Lab / Broad**: ABE constructs + ICV injection expertise

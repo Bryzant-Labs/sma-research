@@ -1,5 +1,11 @@
 # SMN2 Base Editing — Competitive Landscape Analysis
 
+> **⚠️ UNDER_REVIEW 2026-04-17** — Die "ROCK-LIMK2-CFL2 therapeutische Achse" Hypothese wird überprüft.
+> Zwei verifizierte SMA-Datasets (GSE290979 + GSE302774) zeigen LIMK2/ROCK2/CFL1 sind in SMA MN **DOWN**, nicht UP.
+> Fasudil als ROCK-Inhibitor-Rationale hängt an dieser Prämisse und muss neu bewertet werden.
+> Details: `qms/CORRECTIONS_LOG.md` Incident #2026-04-17-001.
+
+
 Generated: 2026-04-08
 Status: NO company has a clinical SMA base editing program. The field is pre-IND.
 
@@ -126,10 +132,10 @@ Base editing for SMA (SMN2 C6T correction) is currently in **late preclinical** 
 4. ABE + nusinersen combo (Liu lab, 111 days) is the current benchmark to beat
 
 ### Our Unique Angles
-1. ROCK-LIMK2-CFL2 therapeutic axis (3 datasets, zero competitors)
+1. ~~ROCK-LIMK2-CFL2 therapeutic axis (3 datasets, zero competitors)~~ — **RETRACTED 2026-04-17**: meta of 3 verified SMA datasets (GSE290979+GSE302774+GSE87281) shows ROCK2 DOWN (pooled −0.254, p=9.0e-5) and LIMK2 model-dependent. The "therapeutic axis" framing does not survive at the MN-intrinsic transcriptional layer. "Zero competitors in LIMK2-selective chemistry" is a chemistry-side observation and survives the retraction independently. See `qms/CORRECTIONS_LOG.md` Audit-Event 2026-04-17-002.
 2. Fasudil is generic — no IP barriers
-3. Combination rationale is novel and publishable
-4. Addresses the gap between editing and SMN restoration
+3. Combination rationale is novel and publishable *(rationale UNDER_REVIEW — rests on the retracted hyperactive-axis premise at the MN-intrinsic layer)*
+4. Addresses the gap between editing and SMN restoration *(pharmacodynamic argument — survives independent of transcriptomic signature)*
 
 ### Recommended Actions
 1. Publish the combination rationale (ABE + ROCK inhibitor) to establish priority

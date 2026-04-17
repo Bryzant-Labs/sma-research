@@ -1,5 +1,14 @@
 # SMA Research — PROJECT CATALOG (Single Source of Truth)
 
+> **⚠️ UNSOURCED 2026-04-17** — CFL2 "disease-specific (UP in SMA, DOWN in ALS)" Claim hat keine primäre Datenquelle im Repo. Verifikation gegen GSE302774 + ALS-Referenzdataset ausstehend.
+
+
+> **⚠️ RETRACTED 2026-04-17** — Die Claim "LIMK2 +2.81× hoch in SMA Motoneuronen" wurde zurückgezogen. 
+> Re-Analyse aus zwei verifizierten SMA-Datasets (GSE290979, GSE302774) zeigt LIMK2 ist **mild DOWN** in SMA MN (nicht UP). 
+> Die ROCK-LIMK2-CFL2 "core therapeutic axis" Claim wird überprüft — alle Downstream-Hypothesen (Fasudil-Rationale etc.) sind betroffen.
+> Details: `qms/CORRECTIONS_LOG.md` Incident #2026-04-17-001.
+
+
 > **RULE #1 FOR CLAUDE**: BEFORE starting ANY new computational work, search this file for the topic.
 > If it's here → read the existing data BEFORE touching the GPU.
 > NEVER re-run what's already done. Extend what exists.
@@ -81,7 +90,7 @@ Repo layout: `campaigns/<name>/` per campaign, `findings/YYYY-MM-DD/` chronologi
 **File**: `4-AP-Correction-Follow-Up.md`
 - GSE287257 scRNA-seq (240 MNs): CORO1C NOT motor neuron-enriched (p=0.52 NS)
 - CORO1C expression: 0.601 endothelial > 0.570 microglia > 0.405 MNs
-- Real MN actin genes: **PFN2** (+1.22 log2FC, p=5.3e-18) and **LIMK1** (+1.20, p=8.4e-24)
+- Real MN actin genes: **PFN2** (per-contrast +0.283 log2FC in GSE302774 Hb9-iMN padj 1.7e-16 / +0.362 in iN padj 2.1e-20; pooled meta +0.025 NS, I²=97% — cite per-contrast only, direction is model-dependent) and **LIMK1** ~~(+1.20, p=8.4e-24)~~ [RETRACTED 2026-04-17 — pooled meta LIMK1 +0.033 NS, I²=64%; magnitude +1.20 untraceable to any verified dataset — `qms/CLAIMS_REGISTRY.md` row 11, Audit-Event 002]
 - 4-AP at MW 94 triggers fragment-artifact flag in ADMET v2 (too small → nonspecific binding suspected)
 
 #### Simon's ACTUAL hypothesis (from Correction doc)
@@ -215,13 +224,21 @@ All three batches finished. **The reframe is sharper than expected:**
 
 ### <a name="rock-limk-axis"></a>ROCK-LIMK2-CFL2 Axis
 
-**Hypothesis**: SMN deficiency → ROCK2 hyperactivation → LIMK phosphorylation → cofilin inactivation → actin rod formation → axonal transport block → motor neuron death
-**Status**: VALIDATED by 3 independent datasets (see session recaps)
-**Key findings**:
-- LIMK2 +2.81× in SMA motor neurons
-- CFL2 is disease-specific (UP in SMA, DOWN in ALS)
-- PFN2 +1.22 log2FC MN-enriched
-- Zero competitors in LIMK2-selective drug space globally
+> ⚠️ **RETRACTED / UNDER_REVIEW 2026-04-17** — the "hyperactive axis" premise is inverted at the
+> transcriptional layer. 3-dataset meta-analysis (GSE290979+GSE302774+GSE87281) shows ROCK2 is
+> robustly **DOWN** in SMA MN (pooled log2FC −0.254, p=9.0e-5, I²=56%, 5/5 contrasts DOWN). LIMK2
+> is model-system-dependent (pooled −0.20 NS, DOWN in iPSC-MN, UP in SH-SY5Y). CFL2 is unchanged
+> (pooled +0.002 NS). The Fasudil "rescue the hyperactive axis" rationale on which this section
+> rested is RETRACTED pending protein-level re-derivation. See `qms/CORRECTIONS_LOG.md` Audit-Event
+> 2026-04-17-002, `qms/meta_analysis/CORRECTED_SIGNATURE.md`, `qms/CLAIMS_REGISTRY.md` rows 1, 4, 9, 10.
+
+**Hypothesis (RETRACTED)**: SMN deficiency → ROCK2 hyperactivation → LIMK phosphorylation → cofilin inactivation → actin rod formation → axonal transport block → motor neuron death
+**Status**: **UNDER_REVIEW** (previously "VALIDATED by 3 independent datasets" — assertion RETRACTED per meta-analysis)
+**Key findings (all audited 2026-04-17):**
+- LIMK2 ~~+2.81×~~ [RETRACTED] in SMA motor neurons — corrected: pooled log2FC −0.20 NS, model-dependent (cite per-contrast only)
+- CFL2 ~~is disease-specific (UP in SMA, DOWN in ALS)~~ [UNSOURCED] — corrected: pooled CFL2 +0.002 NS, no ALS reference ever cited
+- PFN2 per-contrast +0.283 log2FC MN-enriched in GSE302774 Hb9-iMN (pooled meta +0.025 NS, model-dependent; cite per-contrast only)
+- Zero competitors in LIMK2-selective drug space globally — chemistry-side observation, survives retraction
 
 **Compounds tested**:
 - Fasudil (ROCK inhibitor, approved in Japan) — structure validated, MD 100ns done

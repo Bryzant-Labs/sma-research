@@ -1,5 +1,13 @@
 # SMA CURE — Action Plan 2026
 
+> ⚠️ **UNDER_REVIEW 2026-04-17** — The "ROCK-LIMK2-CFL2 axis (3 datasets)" framing on line 19
+> and the "ABE + Fasudil = cure" premise on line 6 rest on the RETRACTED hyperactive-axis
+> rationale (Incident 2026-04-17-001). ROCK2 is pooled DOWN in SMA MN (−0.254, p=9.0e-5),
+> LIMK2 model-dependent. Track A (ABE base editing) survives independently; Fasudil side of
+> the combination is UNDER_REVIEW at the MN-intrinsic rescue layer but survives at the
+> muscle-layer (Bowerman 2012). See `qms/CORRECTIONS_LOG.md` Audit-Event 2026-04-17-002 §U20
+> and `qms/meta_analysis/CORRECTED_SIGNATURE.md`.
+
 ## From the SMA Omni Model Vision → Concrete Execution
 
 The original SMA Moonshot++ plan (€500K, 1,280 GPUs, 6 weeks) outlined the vision.
@@ -16,7 +24,7 @@ Today we have the specific path: **ABE base editing + ROCK-LIMK2-CFL2 recovery =
 | "AAV 2.0 capsid designs" | Still needed — delivery remains the bottleneck |
 | "SMA OmniModel" | Partially built — 5968 sources, 80 targets, 19454 claims in our platform |
 | "€500K GPU sprint" | Can start with €300-500 on Vast.ai, scale when XE9680 arrives |
-| "Unknown therapeutic targets" | Found: ROCK-LIMK2-CFL2 axis (3 datasets), ZERO competitors in LIMK2-selective |
+| "Unknown therapeutic targets" | ~~Found: ROCK-LIMK2-CFL2 axis (3 datasets), ZERO competitors in LIMK2-selective~~ **RETRACTED 2026-04-17** — axis framing inverted (ROCK2 DOWN in SMA MN per meta, p=9.0e-5). Re-framed: ZERO competitors in LIMK2-selective chemistry (structural/selectivity claim, survives), but the disease-axis rationale needs re-derivation. See `qms/CORRECTIONS_LOG.md` Audit-Event 002. |
 
 **The biggest shift**: We don't need to find the genetic fix — **Liu lab already found it (99% editing)**. We need to:
 1. Optimize delivery (AAV capsid design — WP4 from original plan)

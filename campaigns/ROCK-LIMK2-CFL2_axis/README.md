@@ -1,19 +1,43 @@
 # ROCK–LIMK2–CFL2 Axis
 
-**Status**: **VALIDATED** across 3 independent datasets
-**Priority**: CRITICAL (core therapeutic axis for SMA)
+> **⚠️ UNSOURCED 2026-04-17** — CFL2 "disease-specific (UP in SMA, DOWN in ALS)" Claim hat keine primäre Datenquelle im Repo. Verifikation gegen GSE302774 + ALS-Referenzdataset ausstehend.
+
+
+> **⚠️ RETRACTED 2026-04-17** — Die Claim "LIMK2 +2.81× hoch in SMA Motoneuronen" wurde zurückgezogen. 
+> Re-Analyse aus zwei verifizierten SMA-Datasets (GSE290979, GSE302774) zeigt LIMK2 ist **mild DOWN** in SMA MN (nicht UP). 
+> Die ROCK-LIMK2-CFL2 "core therapeutic axis" Claim wird überprüft — alle Downstream-Hypothesen (Fasudil-Rationale etc.) sind betroffen.
+> Details: `qms/CORRECTIONS_LOG.md` Incident #2026-04-17-001.
+
+
+**Status**: **UNDER_REVIEW** (see retraction banner above — previously asserted VALIDATED, that assertion does not survive the 2026-04-17 meta-analysis; Incident 001)
+**Priority**: CRITICAL (core therapeutic axis for SMA — rationale RETRACTED pending re-derivation)
 **Started**: 2026-03-24
 
-## Hypothesis
+## Hypothesis (RETRACTED 2026-04-17)
 
 > SMN deficiency → ROCK2 hyperactivation → LIMK phosphorylation → cofilin inactivation → actin-rod formation → axonal-transport block → motor-neuron death
 
-## Evidence
+The "ROCK2 hyperactivation" premise is inverted per the corrected signature. ROCK2 pooled
+log2FC = **−0.254** (95% CI [−0.381, −0.127], I²=56%, p=9.0e-5, k=5) — robustly DOWN in SMA MN.
+Downstream ("LIMK phosphorylation → cofilin inactivation") is not directly testable at the
+transcriptional layer and requires protein-level kinase-activity assays to revise.
 
-- LIMK2 is **+2.81×** in SMA motor neurons
-- CFL2 is **disease-specific**: UP in SMA, DOWN in ALS
-- PFN2 is **+1.22 log2FC** MN-enriched
-- Zero competitors in the LIMK2-selective drug-space globally
+## Evidence (all audited 2026-04-17 — see `qms/CORRECTIONS_LOG.md` Audit-Event 002)
+
+- LIMK2: **RETRACTED** (see `qms/CORRECTIONS_LOG.md` Incident 001). Direction is
+  model-system-dependent per `qms/meta_analysis/CORRECTED_SIGNATURE.md` — DOWN in
+  iPSC-Hb9-iMN (padj 2.3e-12) and iN (padj 1.4e-63), UP in SH-SY5Y shSMN (padj 3.8e-6),
+  DOWN-tendency in GSE290979 organoid (padj 0.37 NS). Pooled log2FC = −0.20 (I²=98%, NS).
+  Cite per-contrast, never pooled; never cite the retracted +2.81×.
+- CFL2: **UNSOURCED** "disease-specific: UP in SMA, DOWN in ALS" — meta pooled CFL2
+  log2FC = +0.002 (I²=28%, NS). No primary ALS reference dataset was ever cited.
+  Correction pending re-derivation from a named ALS dataset.
+- PFN2: per-contrast +0.283 log2FC in GSE302774 Hb9-iMN (padj 1.7e-16) and +0.362 in
+  GSE302774 iN (padj 2.1e-20) are significant, BUT pooled meta = +0.025 (I²=97%, NS),
+  model-dependent (DOWN in GSE87281 SH-SY5Y shSMN padj 2.8e-6). **Do NOT cite as
+  "MN-enriched" pooled** — cite per-contrast with explicit heterogeneity caveat.
+- Zero competitors in the LIMK2-selective drug-space globally — chemistry-side
+  observation, survives the retraction. Not a disease-axis claim.
 
 ## Compounds characterized
 
