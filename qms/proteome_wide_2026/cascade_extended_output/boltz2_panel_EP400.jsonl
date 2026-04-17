@@ -20,3 +20,8 @@
 {"compound_id": "EP400_cpd_2", "target": "ROCK1", "smiles": "Oc1ccc(-c2cnc(-c3ccccc3)nc2-c2cccnc2)cc1", "iptm": 0.9367116689682007, "ptm": 0.9570741057395935, "plddt": 0.9291653633117676, "conf": 0.93067467212677}
 {"compound_id": "EP400_cpd_2", "target": "ROCK2", "smiles": "Oc1ccc(-c2cnc(-c3ccccc3)nc2-c2cccnc2)cc1", "iptm": 0.8911222219467163, "ptm": 0.9458768367767334, "plddt": 0.9086640477180481, "conf": 0.9051556587219238}
 {"compound_id": "EP400_cpd_2", "target": "JAK1", "smiles": "Oc1ccc(-c2cnc(-c3ccccc3)nc2-c2cccnc2)cc1", "iptm": 0.9092801809310913, "ptm": 0.9672746658325195, "plddt": 0.9254111647605896, "conf": 0.922184944152832}
+{"compound_id": "EP400_cpd_2", "target": "JAK2", "smiles": "Oc1ccc(-c2cnc(-c3ccccc3)nc2-c2cccnc2)cc1", "iptm": 0.9370356202125549, "ptm": 0.969016432762146, "plddt": 0.9232391119003296, "conf": 0.9259983897209167}
+{"compound_id": "EP400_cpd_2", "target": "JAK3", "smiles": "Oc1ccc(-c2cnc(-c3ccccc3)nc2-c2cccnc2)cc1", "iptm": 0.9214882254600525, "ptm": 0.932041347026825, "plddt": 0.8933250904083252, "conf": 0.8989577293395996}
+{"compound_id": "EP400_cpd_2", "target": "CDK2", "smiles": "Oc1ccc(-c2cnc(-c3ccccc3)nc2-c2cccnc2)cc1", "iptm": 0.9084707498550415, "ptm": 0.959256112575531, "plddt": 0.920981228351593, "conf": 0.9184791445732117}
+{"compound_id": "EP400_cpd_2", "target": "CDK5", "smiles": "Oc1ccc(-c2cnc(-c3ccccc3)nc2-c2cccnc2)cc1", "iptm": 0.9570118188858032, "ptm": 0.9616988301277161, "plddt": 0.9126314520835876, "conf": 0.9215075373649597}
+{"compound_id": "EP400_cpd_2", "target": "SRC", "smiles": "Oc1ccc(-c2cnc(-c3ccccc3)nc2-c2cccnc2)cc1", "iptm": 0.9024444222450256, "ptm": 0.9552345275878906, "plddt": 0.9211972951889038, "conf": 0.9174467325210571}
