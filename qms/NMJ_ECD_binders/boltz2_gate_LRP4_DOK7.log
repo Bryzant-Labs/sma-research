@@ -30,3 +30,59 @@ self-host health: b'{"status":"ready","backend":"boltz2-batched"}'
   [200/705] iptm=0.2704203128814697 ok=True
   [210/705] iptm=0.34265005588531494 ok=True
   [220/705] iptm=0.31213805079460144 ok=True
+  [230/705] iptm=0.25852692127227783 ok=True
+  [240/705] iptm=0.1751604676246643 ok=True
+  [250/705] iptm=0.22476594150066376 ok=True
+  [260/705] iptm=0.13528235256671906 ok=True
+  [270/705] iptm=? ok=False
+  [280/705] iptm=? ok=False
+  [290/705] iptm=? ok=False
+  [300/705] iptm=? ok=False
+  [310/705] iptm=? ok=False
+  [320/705] iptm=? ok=False
+  [330/705] iptm=? ok=False
+  [340/705] iptm=? ok=False
+  [350/705] iptm=? ok=False
+  [360/705] iptm=? ok=False
+  [370/705] iptm=? ok=False
+  [380/705] iptm=? ok=False
+  [390/705] iptm=0.1217363253235817 ok=True
+  [400/705] iptm=0.11329379677772522 ok=True
+  [410/705] iptm=0.10683070123195648 ok=True
+  [420/705] iptm=0.1010020524263382 ok=True
+  [430/705] iptm=0.15185563266277313 ok=True
+  [440/705] iptm=0.1785554438829422 ok=True
+  [450/705] iptm=0.1290963888168335 ok=True
+  [460/705] iptm=0.11810410767793655 ok=True
+  [470/705] iptm=? ok=False
+  [480/705] iptm=? ok=False
+  [490/705] iptm=? ok=False
+  [500/705] iptm=? ok=False
+  [510/705] iptm=? ok=False
+  [520/705] iptm=? ok=False
+  [530/705] iptm=? ok=False
+  [540/705] iptm=? ok=False
+  [550/705] iptm=? ok=False
+  [560/705] iptm=? ok=False
+  [570/705] iptm=? ok=False
+  [580/705] iptm=0.10987343639135361 ok=True
+  [590/705] iptm=0.12216956168413162 ok=True
+  [600/705] iptm=0.14764396846294403 ok=True
+  [610/705] iptm=0.12297491729259491 ok=True
+  [620/705] iptm=0.1377866566181183 ok=True
+  [630/705] iptm=0.14084559679031372 ok=True
+  [640/705] iptm=0.12626667320728302 ok=True
+  [650/705] iptm=0.13021284341812134 ok=True
+  [660/705] iptm=? ok=False
+  [670/705] iptm=? ok=False
+  [680/705] iptm=? ok=False
+  [690/705] iptm=? ok=False
+  [700/705] iptm=? ok=False
+
+=== GATE SUMMARY ===
+Total survivors evaluated: 705
+Passed iptm>0.5 gate:      33
+  MuSK: 31/257
+  LRP4: 1/234
+  DOK7: 1/214
+  CHRNA1: 0/0
