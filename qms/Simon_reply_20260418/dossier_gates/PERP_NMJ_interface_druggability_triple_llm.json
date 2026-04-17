@@ -1,0 +1,44 @@
+{
+  "OpenAI GPT-4o": {
+    "verdict": "PASS",
+    "blocking_issues": [],
+    "non_blocking_suggestions": [
+      "Consider adding more detailed information on the methodology used for fpocket analysis to enhance reproducibility.",
+      "Clarify the potential impact of missing membrane context on the interpretation of druggability scores."
+    ],
+    "dataset_identity": "OK",
+    "effect_size_plausibility": "OK",
+    "citation_traceability": "OK",
+    "narrative_consistency": "OK",
+    "risk_flags": "OK"
+  },
+  "Groq Llama-3.3-70B": {
+    "verdict": "FAIL",
+    "blocking_issues": [
+      "Low iptm confidence for all heterodimers (0.14-0.29 range)",
+      "C-terminal-tail dominance in interfaces, potentially due to AF2-Multimer's preference for flexible regions",
+      "Missing membrane context in ColabFold multimer folds",
+      "Incomplete analysis due to missing partners (12 remaining PERP heterodimer folds not yet locally available)"
+    ],
+    "non_blocking_suggestions": [
+      "Consider re-scoring interfaces with higher iptm confidence",
+      "Investigate the biological plausibility of C-terminal-tail dominated interfaces",
+      "Perform membrane-embedded MD to validate interfaces"
+    ],
+    "dataset_identity": "OK",
+    "effect_size_plausibility": "OK",
+    "citation_traceability": "OK",
+    "narrative_consistency": "OK",
+    "risk_flags": "Missing caveats regarding iptm confidence and membrane context"
+  },
+  "Gemini 2.0 Flash": {
+    "verdict": "PASS",
+    "blocking_issues": [],
+    "non_blocking_suggestions": [],
+    "dataset_identity": "OK",
+    "effect_size_plausibility": "OK",
+    "citation_traceability": "OK",
+    "narrative_consistency": "OK",
+    "risk_flags": "OK"
+  }
+}

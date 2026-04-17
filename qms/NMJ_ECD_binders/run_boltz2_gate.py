@@ -18,7 +18,7 @@ RESULTS_ROOT = Path("/home/bryza/fleet-results/nmj_ecd_binders_35134656/nmj_ecd_
 OUT = Path("/home/bryza/sma-research/qms/NMJ_ECD_binders")
 OUT.mkdir(parents=True, exist_ok=True)
 
-SELF_HOSTED = "http://sma-h100-two:8003/predict"
+SELF_HOSTED = "http://localhost:8003/predict"  # SSH tunnel to sma-h100-two
 
 # Target scaffold sequences — extracted from receptor PDBs (chain A/B as used in rfdiff)
 def load_target_seqs():

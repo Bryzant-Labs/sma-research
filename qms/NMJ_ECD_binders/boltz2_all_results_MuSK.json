@@ -1,0 +1,2806 @@
+[
+  {
+    "id": "M1a_0_s4",
+    "seq": "ELEKKREELLKKAEELKAEAEKLSAEAEKLRKKAEELAADPAKAAEAEKALKEAAELTKQAGEKLREANKLEAEAKKL",
+    "plddt": 0.793,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "Remote end closed connection without response"
+    }
+  },
+  {
+    "id": "M1a_0_s5",
+    "seq": "SLEKRREELLAEAERLLAEAEALEKKAAELRAKAAALAADPAKAAEAEAALKEAAELTTQAGKLLRQANKKRAEARKL",
+    "plddt": 0.792,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "Remote end closed connection without response"
+    }
+  },
+  {
+    "id": "M1a_0_s3",
+    "seq": "SLEEKKKELLEKAEELEKEADKKSAEAAALRAKAEALAADPAKAAEAEAALKKSAELTTEAGKLLREANKYRQEAKKL",
+    "plddt": 0.791,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "Remote end closed connection without response"
+    }
+  },
+  {
+    "id": "M1a_0_s1",
+    "seq": "SLAAEKAALLAEAAAKEAQAAALSAEAAKLRALAEKYAADPSKAAQADAYLKAAAAKTKQAGAALAEANKLRQQAKEL",
+    "plddt": 0.803,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "Remote end closed connection without response"
+    }
+  },
+  {
+    "id": "M1a_0_s6",
+    "seq": "ELEKLREELLAQAEAAEAEAAALSAQAAALRAQAAALAADPAQAAAAAAALAAAAAATTAAGKALARANELRAQAKKL",
+    "plddt": 0.817,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "Remote end closed connection without response"
+    }
+  },
+  {
+    "id": "M1a_0_s2",
+    "seq": "ELEEKKAELLAKAAELLAEAEKLSAQAAQLRAQAAALAADPAQAAQAEAALKQAAELTKQAGEKLREANKYKAEAKKL",
+    "plddt": 0.788,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "Remote end closed connection without response"
+    }
+  },
+  {
+    "id": "M1a_1_s4",
+    "seq": "SAEEQEKKREELRDKAADALAKLAAEGTVEDVKIAVSKMSPESAEELAKRIKEKGYEEEAKKLREALEEVK",
+    "plddt": 0.776,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_0_s8",
+    "seq": "SLEAEKAALLAAAAAKQAQAAALAAEAAALRAKAEALAKDPAKAAEAEAALKQAAAKTQESGAALKEANALLAQAKKL",
+    "plddt": 0.815,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_1_s2",
+    "seq": "AEAAQQARRAALAAQSAAALAELAAAGGVEEVEIAVRKMSPESARELAARIAEAGREEEARKLREALERVL",
+    "plddt": 0.762,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_0_s7",
+    "seq": "SLEALKEQLLAEAEAKEAEAEALSAKAAELRAEAEKLAADPSKAAEAEAKLKQAAEATKQAGEALREANELRQQAKKL",
+    "plddt": 0.801,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_1_s1",
+    "seq": "SAAAQAAREAALLERTARAMAELAREGGVEDVEIAVRKMSPESAREVAERIRAAGEEEAARILEEALERVQ",
+    "plddt": 0.757,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_1_s3",
+    "seq": "SREEQERRREEQLERAAEAVAELAEAGTVEEVKIYVSKMSPESAKELAKRIKEAGREEAAKKLEEALKEVS",
+    "plddt": 0.753,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_1_s6",
+    "seq": "SKEEQEKKRAELRKQSAAALAKLAAEGDVATVEIWVKKTSPESAEELAKIIEEAGHTEEAAKLREALAAVK",
+    "plddt": 0.759,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_10_s4",
+    "seq": "GAQEALANAEAQAAGGRAAAEIARANATQPSAVRTLERAIASLTTALARYTALAAAATDAADKALYDAGAAALQAALDDAQATLAAIRAARAAAAS",
+    "plddt": 0.813,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_1_s7",
+    "seq": "SLEEQQRRIEEQELKSAEALARLAREGDVSTVEIAVKKMSEESARRLAEIIREKGYEEEAEKLEEALKRVL",
+    "plddt": 0.743,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_1_s8",
+    "seq": "SEEEQRRREEEALRRAAEAAARLAEEGDVEDVEIWVSKTSPESAERLAEIIREEGREEAAEKLREALRRVR",
+    "plddt": 0.774,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_10_s3",
+    "seq": "GAAAALANARSQAEGGRAAAEIARRNRSQESALRTLERAIASLRTALARAAAEAAAAKDAADKAALAAGAEALQAALADAEATLAEIRAARAAEAA",
+    "plddt": 0.803,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_10_s1",
+    "seq": "GADAALENAKSIAEGGRATADIARQNWRQESAVRALERAIASLAKANAIMTAKAAASKDPADKEKYQAGADALTDALAYAQATLEEIKARRAALAA",
+    "plddt": 0.819,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_10_s5",
+    "seq": "GAAAAQANAEATAAGIRSTADIARKNRRQESALRALERAIRTAETALARATAAAAAAKDAADKAKYQAGAAALQAALEYAKATLEEILREREEEER",
+    "plddt": 0.814,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_10_s6",
+    "seq": "GAQAALANAQATAEGGRAAAEIARKNWEQESAVRTLRRAIETLRKAAARYAALAAASKDPADKALYQAGLEALQAALEYAEATLREIEERRRELAE",
+    "plddt": 0.807,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_11_s1",
+    "seq": "EEEKRLEKAKEEAEREIKEAEKALEEAEKHPLTAKTAKRMRKALEAVRKANLKMAEAYRKAGDLKAALEVMESLREGAKETLKTAKHMIEKAEAK",
+    "plddt": 0.75,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_10_s8",
+    "seq": "GAAAAQANALATAAGIRAAADIAEKNWKQESAVRTLERAIATAETAAATLAAKAAAATDAADKAKYQAGLAALEAALAYAKATLAKIKERREKEAA",
+    "plddt": 0.814,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_11_s2",
+    "seq": "AAQQALDAAQAAAAAATAAANAALDEAAKDPLTKATAERMRKALAAASAANTANAQAYTAAGDLQAAQATAQAARDGAQATLATAQHAIAKAKAK",
+    "plddt": 0.802,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_10_s7",
+    "seq": "GAKEALENALNAARGGRSTAEIARKNWKQESARKALERAKESLKKQLERLKALAAASKDEEDKKLYEEGAKALKAALEYAEKTLEEIEKRLKEEEE",
+    "plddt": 0.793,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_11_s3",
+    "seq": "AAKEAIAKAQAAAEAATAATLAALAALAADPRTAATAARMTAALAAVRAANLANAKAYIAAGDLAAAEATTKALAAGAQAALATAQHAIAKAAAA",
+    "plddt": 0.775,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_11_s6",
+    "seq": "SDQAALAAAKAEADKAYAEAEKALKEAAENPLTKKTAERMKKALDAVRAANLAMAAAYTAAGDLAAATAVAKALKEGAKKLLETAKYAIEKAKKK",
+    "plddt": 0.735,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_11_s5",
+    "seq": "AAAAALAAALAAAAAAAAALKAALAEAAADPRTAAAAARQAAAAAAATAANLAMAAAYAAAGDLAAAAAVAQALRDGAKAALATAQHAIAKAKAA",
+    "plddt": 0.803,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_11_s7",
+    "seq": "DAEAALAEARAEAEKAREEALKALEEAEKNPLTAETAKRMREALKAVSEANDRMAAAYEAAGDLAEALAVQQSLRDGALKALETAKYMIEKAKKK",
+    "plddt": 0.726,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_11_s4",
+    "seq": "AAAAALAAAKAARDAAKAAALAALKEAAANPLTKATAERMKAALDAADAANDKLAAAYVAAGDLAAATAVANNAKDGAVKTLETAKHAIAKAKAK",
+    "plddt": 0.721,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_11_s8",
+    "seq": "SAEAALAAAQAAAAAARAAALAALDAAAADPLTAATAARMRAALDAAAAANAKMAAAYRAAGDLAAALAVAQAARDGAEAALATAEHALARAAAK",
+    "plddt": 0.805,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_12_s1",
+    "seq": "MEAREYAERVEEEAKKYAEEAAAKVSPELAAEIKKHAEEAAESLREILAIYADDPERVRRAAEGMLASVKAAADQALEADA",
+    "plddt": 0.779,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_12_s3",
+    "seq": "MKAEKYAKEKAEEARKIAEEAAAKVSPELAEKIKKHAEEAEESLWRILEIYKEDEERVKKAADGHLASVRAFAEQALEEDA",
+    "plddt": 0.778,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_12_s5",
+    "seq": "MEAEKYVEEEAEKMRKYAKEAAAKVSPELAAKIEKFAKEAEEGLREVLEIYKSDPERVKRAAEGFLASARAAADQALQADA",
+    "plddt": 0.725,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_12_s4",
+    "seq": "DAAKAYADKKAAEAKAYAAAAAAKVSPELAAKIAAHAEAAEASLKLILSIYASDKEKVKKAADGLLASVKAFADQALQEDA",
+    "plddt": 0.793,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_12_s6",
+    "seq": "AEAAAVADAAAAEAKAYAEAAAAQVSPELAARIRAHAAEAEAGLRLILEIYADDPARVARAAQGMLASVKAAADQALEEDK",
+    "plddt": 0.796,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_12_s2",
+    "seq": "MEAEKYVEEKMKEAKEYAEKAAAKVSPELAAKIKAFAEEAKESAKEILEIYKDDPERVKKAAEGMLASVKAAADQALEADA",
+    "plddt": 0.79,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_12_s8",
+    "seq": "SEAEKYAEEKAKEMEAYAKEAAAKVSPELAAKIKKFAEEAKESLKEILKIYKDDPERVKRAAEGMLAAVKAKADQALEADK",
+    "plddt": 0.785,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_13_s4",
+    "seq": "MEEEKKKKEEEEKKKKEEELKEKGKELKEKLEELKKKAEEYEKDPSKKAEAEKAQAEAGALKEENKEALKQYAKDLKEESKELSERRRKEREA",
+    "plddt": 0.707,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_13_s3",
+    "seq": "GLLAALLAAALAALLALLAALAAGVLLKEKLEELTKLAEEYKADPEKAALAEEAEAEAGRLKEEYRLALVVYSAAQRALSKALSALRRALREA",
+    "plddt": 0.777,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_13_s1",
+    "seq": "AALAAAAAAAAAAAARAEKLRAAGKALAAANAALTALAKAAAADPALAALGEAADAARGALVAAHAEALRAYAAAQREASKRESELRRKLKEE",
+    "plddt": 0.718,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_13_s5",
+    "seq": "AAALAAAAAAAAAAAAAAALAAAGKALAAALAELTAAAAAAAADPARAAEGAAAEAAAGALRAAHKAALAAHAAALRAESAERSKALRAAREA",
+    "plddt": 0.709,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_13_s8",
+    "seq": "GLLAALAALLAAAAARRAALAAAGRALAAELAALAAAAAAYAADPALAALGEAAQAAAGALKAANREALLVWAEQQREESKKLSELRRKLREL",
+    "plddt": 0.728,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_14_s1",
+    "seq": "MDELIAGVAEMGAAMIADPAAGRAAAAALAAKFPEAKAVIEAGAAEMAAAAADPEAVKAVAGVTAAKAAKVLVAAEKAKK",
+    "plddt": 0.811,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_14_s2",
+    "seq": "LDDLIRGVEEAGEAMIRDPEEGRRVAEELAARYPAAREEIEAGLRAMEAAADDPEAVRAVAGVTAARCAKVLVAKQRAEK",
+    "plddt": 0.787,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_14_s3",
+    "seq": "MDDLIAGVAAMGAAMIASPAAGAAAAAAIAAKYPAAAEAIAAGAAAMAAAASDPEAVKAVAAVTAGECAKILVATRKAEK",
+    "plddt": 0.797,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_14_s5",
+    "seq": "MDELIDAMAEAGAKMKADKAAGKEAAAAAAKAWPAAAAVIADGAKKMEEAAGDPEAVEAVAAVTAGRAARVLVAAERAAK",
+    "plddt": 0.716,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_14_s8",
+    "seq": "LDDAIEAMAAAGEAVIADPAAGRAAAAALAAAYPAAAAVVADGLARMLAAAADPEAVRAAAAVAAGKVAKTLVAAAKAAK",
+    "plddt": 0.81,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_14_s7",
+    "seq": "MDEAIEMMKKAGEAMIKDPKEGEKVAEELAKKFPEAAEVIKEGLEKMKEAAADPEAVKAVAGVTAGKVVKVLVDAERKKK",
+    "plddt": 0.731,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_15_s4",
+    "seq": "MEKAKEENRERQEAAARRAGEGAAAVADFLVAAARAAAAAGDGAAAAAAYAAARATLAAAAEDPVTREAAAAAAARVDAAAAADAALLAARAAAAA",
+    "plddt": 0.807,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_16_s1",
+    "seq": "AKAEALRKAAARVRAAQAAIDANLTATAAALRAAAAAAEAAGKAAEAAADRAAAAAVEAQRAQARAEADALLAELEERAKAAEEAAK",
+    "plddt": 0.796,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_15_s3",
+    "seq": "MEEARRENAERQRAAARRAGAGALTVADHLAAVAEADAKAGDAAAADAAYAAARATLQEAAKIPETAAAAAAALADVDARAKAARALAQARAAAAA",
+    "plddt": 0.791,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_15_s1",
+    "seq": "MEEAREANRKAQEEADRRAGEGALRVAEFLMQAGREDAEAGNLAAAEAAYAEARRVLKEAQKIPVTKAQAEAALKRVEAAAAADRALAEARAAAAA",
+    "plddt": 0.785,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_16_s2",
+    "seq": "SKAEALARAAERVRAARAAVDAALDKTAAALKAAAAAAAAAGNLAAAAADNAAAAAVEAARAKARAEADAEIARLEERRRRALEEEA",
+    "plddt": 0.794,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_15_s8",
+    "seq": "MEAARAENKAAQEAAAKKAGEGAKKVADSLVATAAEDAAAGDGAAANAAFAAAKAVLEEAQKIPVTKADADAALKAVDAAAAAAKAALAARAAAAA",
+    "plddt": 0.802,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_16_s4",
+    "seq": "AKAAALDRAAARLEAARAATTANLTAVAAALTAAAAAAAAAGDAAAAAADAAAAAATTAARAAADAEAQAAIDALRAAAAAARAAAA",
+    "plddt": 0.832,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_16_s6",
+    "seq": "SKVEALKRAAARVEAARAATNANLTAVAAALNAAAAAAAAAGNAAAAAADAAAAAATNAARAAADAEADARIAELRARAEAAAAAEA",
+    "plddt": 0.778,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_16_s7",
+    "seq": "AKAAALERARARLEAARAATTANYTATAAALNAAAAAAAAAGDAAAAAADAAAAAAVTAAQAAADAEADAAIAELAARAAAARAAAA",
+    "plddt": 0.74,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_16_s3",
+    "seq": "SKAAALARAEAALERARAAATAAYDATAAALKAAAAAAAAAGDAATAAADAAAAAAVEAARAQGEAEADEAIAELKARREAALAAEA",
+    "plddt": 0.815,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_16_s8",
+    "seq": "ALAEALARARDRVRAARAASTAALTAMAAALTAAAAALRAAGDEAAAAAAAAAAAAVTAARAAGDAEADAKIAELEAREAAARAAEA",
+    "plddt": 0.808,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_16_s5",
+    "seq": "AKAKALEKALKDVEAAKAAITAAYTATEAALNAAAAAAAAAGDAATAAADAAAAAAVAAAKAAATAEADAKAAELRKRAEEAKAEEA",
+    "plddt": 0.815,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_17_s1",
+    "seq": "SKEEIAKLAEEANAEFDAIAAALDATLAAQAAAEAAALAAAAADPANKAAKLAAAAAARAAAEAARAEAAAAMKAVAAETAAKCKAL",
+    "plddt": 0.796,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_17_s4",
+    "seq": "SKEQIQALADEYNAAVDAIAAARDAAAAAQAAAAAAAEAAAAADPATKAQALAAAAAARAAAAAAAAAAAAAMKALAAETAAQAKAL",
+    "plddt": 0.794,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_17_s3",
+    "seq": "SKEERQALADAMNARFDAIAAELAATQAAQAAAEAAALALAAADPALAAEYEAAAAAARAAAAAARAAAAAQMRALAAETAAQAKAL",
+    "plddt": 0.745,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_17_s2",
+    "seq": "SKEEREALAKELLEKFDAIAAKLAAARAAADAAEAAALAAAAADPAKAAEYAAAAAAARAAAEAARAAAAAEMKAAAKALAQRCKEL",
+    "plddt": 0.754,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_17_s5",
+    "seq": "SKEEIAALAAAYNAEADAIAAAAAAAAAAADAAAAAAAALAAADPERAAEYEAAAAAARAAAAAARAAAAAAMKAAAAALAAKCKAL",
+    "plddt": 0.794,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_17_s6",
+    "seq": "SKEERRKLAEEYDAKVDAIAEELAKAQAEQDAAAEAALKKAAEDPATKEEQLKAAEAARAAAAAAKAKAAAEMKALAKETAEKCKAL",
+    "plddt": 0.762,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_18_s1",
+    "seq": "SAKLAAARAALEAAIAALRAVAEQAEAENPECGAALRRAAEAAAAALADLSQFPACLDTMGECAAAAAALDAEAHRAIAAVIKALCAVHAAAS",
+    "plddt": 0.76,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_17_s8",
+    "seq": "SLEERQALADEMNARFDAIAAELAAAQAKQDAAEAAALAAGAADPATKAAQEAAAAAARAAAAAARAAAAAAMAAAAKETAAKCKAL",
+    "plddt": 0.735,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_17_s7",
+    "seq": "SKEERAALAAEYNARFDAIAAALQAAAAAQDAAAAAALALAAEDPARAAEALAAAAAARAAAAAARAAAAAQMKAAAAETAARCRAL",
+    "plddt": 0.765,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_18_s2",
+    "seq": "SPRLEEARRELEEAIERLREEARRARERNPELGEALERAAEAARRALEDPALYPECLEEMGECNNRAAALDAEGARVIAEVIRALERYRAAYS",
+    "plddt": 0.792,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_18_s4",
+    "seq": "SEKLEEAKKKLEKAIKELEKKAKEAKKKNPEAGEALKKAAEAAKAALKDISLYPECLETMGECNNKAAALDAEAAKAVAKVIKALEAVHAAYS",
+    "plddt": 0.778,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_18_s3",
+    "seq": "SAKLEEAKKALKEAIAALKAKAQEAKKRNPELGEALEKAAEAGEAALADISKFEECLEIMGEQNAKAAALDPEAARAIAALIKALCDVKAAYS",
+    "plddt": 0.804,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_18_s8",
+    "seq": "SAALEAAKAALQAAIAALKKKAQEAKKRNAETGEALEKAAAAAQAALADPSKYDAALATMGEQNNKAAALDAEAAKAIAAVIKELEKYRAAYS",
+    "plddt": 0.796,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_18_s6",
+    "seq": "SAKLEAAKAALEAAIRALEEQARRAEKEDPETGEALRRAAEAAKAALEDPSKFPECLEIMGECAARAAALDPEAHRVVAAVIKALCDYHAAYS",
+    "plddt": 0.784,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_18_s5",
+    "seq": "SAALAAAKAALEAAIAALEAVAAKAEAKNPELGAALKAAAAAGKAALADPSKYPECLDTMGACNAKAAALDAEAAKAIAALIKALEDYKAAYS",
+    "plddt": 0.774,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_18_s7",
+    "seq": "SSTLAAAAAALRAAIAALEEQAARAKERNPETGAALEQAAAAGRAALADPSTFPAALDTMGAANNKAAALDAEAARAVAALIAALCKYQAAYS",
+    "plddt": 0.803,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_19_s1",
+    "seq": "SEVRELERQAKAYEAAAAAAKTQAAVANEAAAASTPAEAAKLKAEAAKLEAAAAEAKAKAEEARKKAEELKK",
+    "plddt": 0.793,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_19_s2",
+    "seq": "SKLAELKRQAAAYDAAAAAAATQAAAANAGAAASTPAEAAKAKAEAAAYAAAAAAAKAAADKAKAEAAALEK",
+    "plddt": 0.798,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_19_s3",
+    "seq": "SELARLEREAKAYKAAAEAAKTQAKVAKEAAAASSPEEAAKLNAEAKKLEAEAKKYKAEAEKAAAQAAALAA",
+    "plddt": 0.807,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_19_s7",
+    "seq": "AEIAELERQAKAYEALAASCNAQAKVAREAAAASSPEEAAKLLALAEELEAKAKEAAAKAAEAKAKAAALKA",
+    "plddt": 0.814,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_19_s4",
+    "seq": "SEIARLKRQAAAAAAAAAAATAQAAAAAAAAAASSPAQAAADNAEAAALAAAAAAAAAASAAYAAAAAALEA",
+    "plddt": 0.831,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_19_s6",
+    "seq": "SKLAQLEREAKAYEAAAAAAKTQAAVALEAAAASSPEEAAKLKALAAEYKAQAEKAAAAAAKAKAEAEALKA",
+    "plddt": 0.808,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_19_s8",
+    "seq": "SAVAQLQREAAAATAAAAAATAQAAAAEEGAAAATPEEAAKAKAEAAAAKAAAAAAAAKAAAYAAAAAALAA",
+    "plddt": 0.833,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_19_s5",
+    "seq": "SELRELQRQAAAYNAAAAAANAQAAAANAAAAAATPAEAAKLNAEAAKLNAQAAEAAAKAAEYAAKAAELAA",
+    "plddt": 0.82,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_2_s2",
+    "seq": "EEEEREERQRKNQELLEQLAKELAAIDARGAAEVAAAEAAGPEAARAAAAAATREKAAAAAKTAAEMKAVSR",
+    "plddt": 0.773,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_2_s3",
+    "seq": "EEELKRERREKNEAILARTAEQLAAIAAAGAAAVAAAQAAGAAAAAAAAAAAAQQAAEVARQAAEEMKAVSR",
+    "plddt": 0.764,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_2_s1",
+    "seq": "AEAEKAARQAANAAVLARLDAELAALDAAGAAAVAAAQAAGPEAAAAAARATAKAKAAVARAAAAEMRAISR",
+    "plddt": 0.797,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_2_s4",
+    "seq": "KEKEREERRKRNEEILAELDKRLAEIDAAGAAAAAAAQAAGAAAAAAAAAAATAAKAAAAREAAARMKEVSK",
+    "plddt": 0.738,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_2_s5",
+    "seq": "KEAERAARQAQNQAILDALDKELAAIRAAGAERVAAAEAEGPAAAEAAARAAVKEAAAAAAAAAAQMKAVSA",
+    "plddt": 0.783,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_2_s6",
+    "seq": "AEEEREKRREKNREILEELDAELAAIDAETAAAVARAQAIGPEAALAALRAGVERKAAKAKEAAEKMKEISK",
+    "plddt": 0.78,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_2_s8",
+    "seq": "EKEKKEEIQKKNEEILAKLDKELAELNAKGEEEAAKAAAEGPAAAEAAARATVEAKAEAARKAAEEMKEVSK",
+    "plddt": 0.785,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_20_s1",
+    "seq": "SEKEKAKKELAKLLKEAAKLSKDKEVAKKLEELAELALNGGDLQAIKAGEEGAKIAEKINKEVAEKIKEAAKKLKE",
+    "plddt": 0.798,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_20_s2",
+    "seq": "EEVERVKREGAELCRELAEKSPDEELRERLLELARLVLEGGTLAAIAALKEAAKIAKEIDEELAKKLKEAAEQLAA",
+    "plddt": 0.795,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_2_s7",
+    "seq": "EEEEKKKRQEENKKLLEELDAKLAAIDAATAAAAAAAQAAGPEAAIAALKAGTDEKAAAAAETAKKMKEVSK",
+    "plddt": 0.787,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_20_s3",
+    "seq": "EEVEKTKEEAAKLLKEAAKKSPDKEVAEKLLELAELVLNGGTLEAIRALEEGAKIAEKIDPELAKKIKEAAKKLKA",
+    "plddt": 0.81,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_20_s4",
+    "seq": "EEVEKTREEGAKLLRQAAKKSKDAETKARLEELADLVLNGGTLQAIKALEEGAKIAAKIDAELAKKIKEAAKKLRE",
+    "plddt": 0.805,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_20_s6",
+    "seq": "EEVEKTKEEAAKLIKEAAEKSPDEEVAKELEEYAELVLNGGTLMAIEKAKKAAEIAKEIDEELAKKIKEAAEKLKA",
+    "plddt": 0.804,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_20_s5",
+    "seq": "EEVERTREEAARLAEEAAEESEDEETAERLRELAERIRNGGVLEAIRAAREAAKIAEEINPELAEKLRRAAERLAA",
+    "plddt": 0.802,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_20_s8",
+    "seq": "KEVEEAKKKGAELLKEAAKKSKDKKTAEKLKALADLALNGGDLAAIAALKEGAKIAAKIDAELAKKIAEEAKKLAA",
+    "plddt": 0.805,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_20_s7",
+    "seq": "KEVEKTREKGAKLCEEAAKKSKDPEVAKKLKEYAELVLNGGTLMAIQKLKEAAEIAKKIDPELAKKLEEVAKKLES",
+    "plddt": 0.801,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_21_s2",
+    "seq": "SEAKARQRHNLALAEAISGSIKNAVESPETAEELAKQIAELGEFSAEIGEKALEAAELSKKDPEKGKKLAEEAIKEAKEKAKKE",
+    "plddt": 0.717,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_21_s1",
+    "seq": "AKAAAAARQAAAEAETVSGAIWNAVNSPETAKELAAEIAKLGPFFAEIGKEALKAAELAKKDKEEGKKLAEKAAEKVKAYCAAK",
+    "plddt": 0.735,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_22_s2",
+    "seq": "EGEKILEEAKKLLEEGEKYFEKGKKSKEEGITYYNKALASYSKALALAITAEGKGLLPKEAKELAEKAEKEAEEAQKKIEELEK",
+    "plddt": 0.757,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_22_s1",
+    "seq": "EAEETLKKAKEHLEKGKELYKKGQESEEEGITYFNQALAHFAQAAALARTLRGKGGLPEEAKELEEEARKEAEKCQAEIEKLAK",
+    "plddt": 0.754,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_21_s5",
+    "seq": "SAAAAAAAREAAIAKTVAGAIKAAVASPEIAEELAAQIAALGAFYAEIGKKALEAAKLSKEDPEKGKKLAEEAIKEAKAAAAAK",
+    "plddt": 0.792,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_21_s8",
+    "seq": "SAAAAAARQLAAEAATAGGAIRQAVASPETAPELAAQMAALGPFWAAIGAAALAAAALSKADPAAGAALAAAAIAAVRAYAAAK",
+    "plddt": 0.76,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_22_s3",
+    "seq": "EGEERLEEAKKHLELGKEYYKLGEESEEKGPEYYNKALAHFSKAAAIARELEGKGLLPEEAKKLLEEAEEGAKECEKKLKELAA",
+    "plddt": 0.795,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_22_s4",
+    "seq": "EGEKILKEAEEHLKKGKEYYEKGKKSKVLAPEYYNKARAHFAKAAALARTLEGKGLLPEEAKKLLEEAEKQAEECTKELEKQAK",
+    "plddt": 0.798,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_22_s5",
+    "seq": "TGEELLKQAKELLKKGEELYKEGEKSKEKGIEYYNKAAAYYAQALAIATTLQGKGLLPEEAAKLAKEAEENYKKCQKKIEELEK",
+    "plddt": 0.793,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_22_s8",
+    "seq": "EGEELLEQAREHLRRGRELFAKGQASETEAGTYYAQARAHFAQALALAETAAGRGLRPEEARALAEEARAAAAEADAALKAKAA",
+    "plddt": 0.795,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_22_s7",
+    "seq": "EAEERLKKAKELIEKGEKLYEKGDKSKEKGIDYYNQALAYFSKAAALAEELAGSGGKPEEAKELLKKAEELAEKAQKKIEELAK",
+    "plddt": 0.754,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_22_s6",
+    "seq": "EGEETLKRAEELLREGERLYEKGEESEEEAGDYYARARAKFAQAAALARTLEGKGLLPERAKELLERAERQAEEAERKLREVAE",
+    "plddt": 0.794,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_23_s1",
+    "seq": "SEAAEALRAAAQATLAACDAEAAATAAANAALLAKAKEEAAKLREAGKEAEAEQLEADAQAAANAANAATAAACAARLRAVAAA",
+    "plddt": 0.805,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_23_s2",
+    "seq": "SAAAEARRAAARAALEECDAEAAATAAANAAALAAAKAQAAALKAAGKEAEAAALEAAAQDAANAAAAATARACAARLAAIAAA",
+    "plddt": 0.814,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_23_s3",
+    "seq": "SSAKAALQKKALEALAACDKEAAATAAANAAALEAAAAKAAELAAAGKAAEGAALVAAAQAAANAARAATAKACAARLAAIAAE",
+    "plddt": 0.799,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_23_s5",
+    "seq": "SEAVEARRARAREALAACDEEAAKTKAENAKLLAEAKKKAEELEKQGKKEEAKQLVADAQAAANKAAADTARACAARLAAIAAE",
+    "plddt": 0.786,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_23_s7",
+    "seq": "SEAKEKLKEEAKKALKACDEKLAKTQADNAALLAQAKAQAKALEAEGKKEEGAKLVADAQAAANAALAQTAKDCAAELEKISKK",
+    "plddt": 0.782,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_23_s6",
+    "seq": "AAAKEARRAEAAAALAECDAAAAATNAANAALLAAAKAQAAALEAAGKKAEAEKVVADAQAAANAARAATARACAARLAAIAAK",
+    "plddt": 0.803,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_23_s4",
+    "seq": "SAAKAARRAAAQAALAECDARYAAVKAEAAALKAEAEAQAAKLKAEGKEEEAAKLVADAQAQANAMLAATARECAARLRAIAAA",
+    "plddt": 0.787,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_23_s8",
+    "seq": "EEEKAALRAAAAALLAECDAAAAAVNAANEAALAAAKAQAAALKAAGKDAAAAQVEADAQTAANAARAAQAKACAERLRALAAE",
+    "plddt": 0.807,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_24_s3",
+    "seq": "AEVEKLRAQAQALLDQAAAIGEQAAALYEATEAAAAALAAAGDEAAKAAADALLAAALAQRAALQAQITAAVQAANAALAQANELKAKS",
+    "plddt": 0.769,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.2439880520105362,
+      "ptm": 0.6025028824806213,
+      "plddt": 0.9153756499290466,
+      "elapsed": 46.45992875099182,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_24_s1",
+    "seq": "DEVARLREQARRLLDEAAALGAQRAALVAAAEAAAKALAAAGDAAAKAAAAALAAAAAAQAAALQAQITALVQEARAALAAANAARAAS",
+    "plddt": 0.788,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.3458142876625061,
+      "ptm": 0.59315425157547,
+      "plddt": 0.9065025448799133,
+      "elapsed": 46.54073476791382,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_24_s4",
+    "seq": "AEVEELRAQARALLDQAAAVGAAAAAAYAATAAAAAALAASGDAAAKAAADALVAAALAARAAQQAQITALVNQARAALAQANALRAAS",
+    "plddt": 0.788,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.24356329441070557,
+      "ptm": 0.5788203477859497,
+      "plddt": 0.8805380463600159,
+      "elapsed": 46.6489143371582,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_24_s5",
+    "seq": "SLVEELREKAKELLAQAAELGDQANALYAAAEAAAAALAASGDAASKAAADALLAAALAQRAALQAQITALVKEANAALKKANEEKAKA",
+    "plddt": 0.789,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.343149870634079,
+      "ptm": 0.6045534610748291,
+      "plddt": 0.9392092227935791,
+      "elapsed": 46.72776746749878,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_24_s6",
+    "seq": "AEVEKLREEARRLLDEAARLGEEARALEEAAAAAAAALAASGDAAAKAAAAALAEAALARRAALRAEIQALVDAARAALAAANAARAAA",
+    "plddt": 0.718,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.20567189157009125,
+      "ptm": 0.5691181421279907,
+      "plddt": 0.9056961536407471,
+      "elapsed": 46.72769856452942,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_24_s2",
+    "seq": "EEVERLREEARRLLDQAAELGKQREEYMKAAEALAAALAAAGGPAAKAAADALRAAALAKAAQMQAEIQALVAEANAALAKANELKAAS",
+    "plddt": 0.79,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.3655010759830475,
+      "ptm": 0.6408041715621948,
+      "plddt": 0.9463502168655396,
+      "elapsed": 46.731356620788574,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_24_s7",
+    "seq": "DKVAQLKAEAQALLEQAAALGAEAEALYAATEAAADALAASTDAAGKAAADALRAAALAERAALQAQITALVQQANAKLAEANKLKAES",
+    "plddt": 0.776,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.2222614735364914,
+      "ptm": 0.5935522317886353,
+      "plddt": 0.9039493799209595,
+      "elapsed": 46.763776779174805,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_24_s8",
+    "seq": "AEVAALRAQAAALLAQAAALGAAAAAAYAAAAAAAAALAAAGDAAAAAAAAALAAAALAARAAMQAQITALVQQARAALAQAAALRAAA",
+    "plddt": 0.749,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.2829824984073639,
+      "ptm": 0.5991637706756592,
+      "plddt": 0.8560465574264526,
+      "elapsed": 46.69006681442261,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_25_s1",
+    "seq": "KEEKLAEARAKVAALGDALAAKTAEAQAKIAEAAKLGEEAAKVRAAAWAEVTAAAKAVDAETKALRAEVAA",
+    "plddt": 0.783,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.34267544746398926,
+      "ptm": 0.6240066885948181,
+      "plddt": 0.8928220868110657,
+      "elapsed": 46.68452548980713,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_25_s4",
+    "seq": "EEAKREAARRRVEELQAELAALGEAAAATREAAAKLGAEAAAVRAAAAAALTAAARAVQAEMDRIRAEVAA",
+    "plddt": 0.789,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.19504711031913757,
+      "ptm": 0.6258809566497803,
+      "plddt": 0.8214423656463623,
+      "elapsed": 46.60909962654114,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_25_s5",
+    "seq": "REEKIEEAREKVLALQEELAKKTEEALKKIEEAAKLGEEAAAKQAAAWQENTDAQREYAAKARAIRAEVAA",
+    "plddt": 0.708,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.21511466801166534,
+      "ptm": 0.5933622717857361,
+      "plddt": 0.8431109189987183,
+      "elapsed": 46.61453700065613,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_25_s2",
+    "seq": "RKEALEAARAQVQALGDALAAKGKEAQAKIEQAAKKGEEAAKLMAAAYADLTAAMRAVQAQTAALRAQVAA",
+    "plddt": 0.768,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.20476669073104858,
+      "ptm": 0.5853974223136902,
+      "plddt": 0.8755131959915161,
+      "elapsed": 46.7117645740509,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_25_s8",
+    "seq": "EEEKRAEALREVQELQDEAQAATDAANAAIDAAAKLGAAAAAVMAAAYAANTAKMKEVQARFDAIRAEVAA",
+    "plddt": 0.77,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.340863436460495,
+      "ptm": 0.6278758645057678,
+      "plddt": 0.838299036026001,
+      "elapsed": 42.402559757232666,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_26_s1",
+    "seq": "AAAAVEAKAAALAALLAAEGAKNPEKAVELRSLAGGLRGAAELALRDRAAGAARARALAAAAAAVAENGAAIAAAGEALIAAIEA",
+    "plddt": 0.802,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.4201171100139618,
+      "ptm": 0.6520050168037415,
+      "plddt": 0.9105194211006165,
+      "elapsed": 42.404459714889526,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_25_s6",
+    "seq": "KEEKREEALRRVQELNDELAAKTAAANAAIAAAAALGAAAAAARAAAWAANTAARQEVAARHRALREEVAA",
+    "plddt": 0.784,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.17309440672397614,
+      "ptm": 0.5765755772590637,
+      "plddt": 0.8351308107376099,
+      "elapsed": 42.61729311943054,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_26_s2",
+    "seq": "AEAAVAAAADRLAALLAAEGAAEPAAATSLASLAGGIRGAAELAARDPAAGAAAAERLGAAAAAVSARGAAVAAATAALVALIRA",
+    "plddt": 0.807,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.3179430365562439,
+      "ptm": 0.619983434677124,
+      "plddt": 0.9129695892333984,
+      "elapsed": 42.50685501098633,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_26_s3",
+    "seq": "GAAAAEAAAAALAALLAAEGARQPDAAASLASLAGGVRGAAELAARDRERGAAALARLAAAAAAVAADGAAILAAGKALLATIRA",
+    "plddt": 0.779,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.35417431592941284,
+      "ptm": 0.6163842678070068,
+      "plddt": 0.8283003568649292,
+      "elapsed": 42.50694417953491,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_26_s5",
+    "seq": "AAAAVAAAAAALAALLAAEGAANPDKATALASQAGGVAAAAELALRDTEKGAERLRRLTAAAAAIATNGAAIKAAGAALEAAIRA",
+    "plddt": 0.789,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.24426645040512085,
+      "ptm": 0.6059439182281494,
+      "plddt": 0.8330562114715576,
+      "elapsed": 42.50532937049866,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_26_s6",
+    "seq": "AAAAAAAAAAALAALLAAEGARNPEKAVSLASQAGAIRGAVELAARDPARGAAALERATAAAAAIADAGAAVKAAGAALLAVVRA",
+    "plddt": 0.793,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.7308695316314697,
+      "ptm": 0.7438774704933167,
+      "plddt": 0.9366260766983032,
+      "elapsed": 44.37408900260925,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_26_s7",
+    "seq": "ARAAAEAAAAALEALLAAEGAAEPDKATSLASLAGGIRGAAELAFRDRERGIAALRRLTAAAAAVSSNGAAIAAAGAALAATLAA",
+    "plddt": 0.796,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.4191373586654663,
+      "ptm": 0.6515939831733704,
+      "plddt": 0.8786050081253052,
+      "elapsed": 44.36819887161255,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_26_s8",
+    "seq": "ARAAVERLVAELRALLAAEGARNPEKATELASLAGGIAGAAELAAQNRERGAALLRRQTEAAAAVAEAGEEVRRAGERVLEAIRA",
+    "plddt": 0.729,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.17160621285438538,
+      "ptm": 0.5867562294006348,
+      "plddt": 0.8141714930534363,
+      "elapsed": 44.27192282676697,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_27_s1",
+    "seq": "DKYRRAARRIREATDRAAATLDAMEAKARAEGAAATPEEGAGLNAIAAQIAAARDALLAEGAELVAELEEKARKLE",
+    "plddt": 0.774,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.31821975111961365,
+      "ptm": 0.6086475849151611,
+      "plddt": 0.9151572585105896,
+      "elapsed": 44.273258686065674,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_27_s2",
+    "seq": "SHHRRAAEAIRAATERAAATLTAMAARARAAGAAATPEEGAGLAAMAAQIEASRDALRAETARLVAELDARAEEAE",
+    "plddt": 0.775,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.4514351487159729,
+      "ptm": 0.6498555541038513,
+      "plddt": 0.925746500492096,
+      "elapsed": 44.3589768409729,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_27_s3",
+    "seq": "SKAARAAAAIKAAAARAAATLDAMAAKLRAAGAAATPEEGAGLNAMADQVLANRQALAAATAAEVAALEAAAAALA",
+    "plddt": 0.788,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.4237079620361328,
+      "ptm": 0.6547971367835999,
+      "plddt": 0.8729250431060791,
+      "elapsed": 44.27049803733826,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_27_s4",
+    "seq": "SKYKKAAEAIKAATAKAAATLDAQAAKLTAQAAASTPEEGAGLNAIAEQVKANRAKLKAEGEKLVKELEEKAEKLE",
+    "plddt": 0.786,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.24864397943019867,
+      "ptm": 0.590242326259613,
+      "plddt": 0.902185320854187,
+      "elapsed": 41.58735990524292,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_27_s6",
+    "seq": "EKYLKQAKAIREAAEKAAATLDAMAAAARARGAAATPAEGAGWNAIADQIEAARAELKKQTEEEVKRLEEKAKELE",
+    "plddt": 0.785,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.19433879852294922,
+      "ptm": 0.5879335403442383,
+      "plddt": 0.8734672665596008,
+      "elapsed": 41.58828639984131,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_27_s5",
+    "seq": "SRYRRAAEAIRAAAERAAATLAAMAAAAAAAGAAATPAEGAGLAALAAAIDAARAELLAETRELVEELERKAEEES",
+    "plddt": 0.783,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.15643437206745148,
+      "ptm": 0.5869573354721069,
+      "plddt": 0.9133372902870178,
+      "elapsed": 41.69952058792114,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_27_s7",
+    "seq": "SKARRAAEAIAAAGDRAAATLTAMAERAEAEGAASTPEEGAGLAAIAAQIRANRDALLAQTAAEVAALRAKAAEAE",
+    "plddt": 0.783,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.7316384315490723,
+      "ptm": 0.7523577213287354,
+      "plddt": 0.9627858400344849,
+      "elapsed": 41.69175934791565,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_27_s8",
+    "seq": "SKYKRAAEAIAAATAKAAATLAAMAAKARAEGAAATPEEGAGLRAIAAQIEADRDALLAQGAEEVAALNAKAEAAA",
+    "plddt": 0.8,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.5316465497016907,
+      "ptm": 0.6661823987960815,
+      "plddt": 0.8926870822906494,
+      "elapsed": 41.60606074333191,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_28_s1",
+    "seq": "MKSPAEQYRAQAELLAAQRAAREAAAAAAAAAAAQAAKEDAAAAAALAAEAAAAQAGAAELAAAEATALALAEAAL",
+    "plddt": 0.787,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.21196959912776947,
+      "ptm": 0.5996796488761902,
+      "plddt": 0.8848745226860046,
+      "elapsed": 41.697113275527954,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_28_s2",
+    "seq": "AKTPAEQAAAAAAALDAREAELAAKAAALAAAAAAAAAADPAAAAALAAEAAAAAAGAAEVAAARAEARALAAAAA",
+    "plddt": 0.806,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.18224582076072693,
+      "ptm": 0.6075162887573242,
+      "plddt": 0.8579280376434326,
+      "elapsed": 44.02528643608093,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_28_s5",
+    "seq": "AKSPYEQYLEKAEELEKRAAELEAKAAAATAAAKEAAAKDPATAAAYKAKAAAYKAGAEEVKKAREEALQLAKEKL",
+    "plddt": 0.801,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.3284589648246765,
+      "ptm": 0.6032739281654358,
+      "plddt": 0.8962830901145935,
+      "elapsed": 43.91830348968506,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_28_s4",
+    "seq": "MKSPVEQYEAKAAELAAQAAKLKAAAEAAKAAAEQAAAKDAAAAAAYQAQADAYKAGAAEVEAARDEALKLAEEKK",
+    "plddt": 0.793,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.2501998841762543,
+      "ptm": 0.5882284045219421,
+      "plddt": 0.86625075340271,
+      "elapsed": 44.12370014190674,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_28_s6",
+    "seq": "AKSPAEQARAQAEQLAAQLAAAQAAAAAAAAEAAAAAKADPALAAEKQAEAARLKAGAAELAAARDRALELAAELE",
+    "plddt": 0.752,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.3805115818977356,
+      "ptm": 0.6717404127120972,
+      "plddt": 0.9363898634910583,
+      "elapsed": 44.020113468170166,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_28_s7",
+    "seq": "SMTPAEQAKAEAEKLAAAAAAAAAKAAEYKAKAAEAAKKDPATAAEYNAKAAAAEAGEAELKAARDTVLERAAALE",
+    "plddt": 0.814,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.49376943707466125,
+      "ptm": 0.7036603093147278,
+      "plddt": 0.8976571559906006,
+      "elapsed": 44.02018213272095,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_28_s8",
+    "seq": "AMSPAEQYEKKYEELEKLRAEAEKKAAEAAAAAKEAAAKDPALAAELKAEAERYKKGAEELKKAAEEAKKLAEEKK",
+    "plddt": 0.792,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.4405059516429901,
+      "ptm": 0.6929922699928284,
+      "plddt": 0.8680258989334106,
+      "elapsed": 44.01667785644531,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_29_s3",
+    "seq": "SAARERVREIAERLHRLADALQAERDALAAAGAAATAAAAAASPELAKQADAAAAAALAAKAREAAAALAAGIAELDAANQARREAE",
+    "plddt": 0.723,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.5837962031364441,
+      "ptm": 0.7063875198364258,
+      "plddt": 0.9454604387283325,
+      "elapsed": 42.80862617492676,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_29_s2",
+    "seq": "DEADAKVRATFAAFQAQADANQAALDALIAEGEAATAEALARSPELGAEADAQRAAAVAAARAAAAAANAAAIAALAAANAAREAAR",
+    "plddt": 0.765,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.5987037420272827,
+      "ptm": 0.7355014681816101,
+      "plddt": 0.8285980224609375,
+      "elapsed": 43.01325440406799,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_29_s1",
+    "seq": "EEMKKKVEEIFKEFQEKADELQKRRDALAAAGAAATAAAAALSPALAAAADAQAAADLAALAREAAAVNQEMIDKLKKANEEREKAE",
+    "plddt": 0.775,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.3206738829612732,
+      "ptm": 0.6330693364143372,
+      "plddt": 0.8875701427459717,
+      "elapsed": 43.218865633010864,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_29_s5",
+    "seq": "DEARAEVDAINARFLAQADAAQAEIDALEAAGAKATAEAAKQSPELGAEADAKRAADLAAKRAAAAAAAAAAIAELKAANEAREKAA",
+    "plddt": 0.732,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.31071409583091736,
+      "ptm": 0.6113548278808594,
+      "plddt": 0.8907973766326904,
+      "elapsed": 43.01325821876526,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_29_s6",
+    "seq": "AELKAEVQAKFAEFQAAADANQAAIDALAAAGAAATEEAKALSPELGAAADAEAAAALAAARRAAAAAAAAKIAELKAANAKREAAE",
+    "plddt": 0.726,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.14190447330474854,
+      "ptm": 0.5685581564903259,
+      "plddt": 0.8109970688819885,
+      "elapsed": 43.01365780830383,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_29_s7",
+    "seq": "EELDERVRAIFEEFQAQADAAGAELAALLAAGAAATAAAAALSPALGAAAAAAAAAAVAAARAAAAAANQAAIDKLKAANKEREAAR",
+    "plddt": 0.769,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.3833865225315094,
+      "ptm": 0.6237973570823669,
+      "plddt": 0.8660901188850403,
+      "elapsed": 43.01183462142944,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_3_s2",
+    "seq": "DNKLAAKIIYEKITEECKAVAAEYPETAPGAELVIKAAKESAKKGDSIEKTVEKLEKAVAEVEKQLSWELANKLRAAVVKGLAKGINEADKAK",
+    "plddt": 0.794,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.7536276578903198,
+      "ptm": 0.7912595272064209,
+      "plddt": 0.9618988037109375,
+      "elapsed": 45.728880882263184,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_3_s3",
+    "seq": "AAATAAAIAADAVTAAMDAAAAEHPETAPCCERVKAAAAAAAAAGATLDEVAAALAAAVAACAAELSPELAARVAAAVVRGLAAGIEAADRAA",
+    "plddt": 0.808,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.6399009823799133,
+      "ptm": 0.7443948984146118,
+      "plddt": 0.9270289540290833,
+      "elapsed": 45.73552203178406,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_29_s8",
+    "seq": "MEMKEEVEKKFEEMQALADARQAAINELAAAAAAAAAAAAALSAALGAAVDAAGAAALAAARRAAAAAAAAAIAELDALNKKREEAE",
+    "plddt": 0.751,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.1252252608537674,
+      "ptm": 0.58165043592453,
+      "plddt": 0.8227607011795044,
+      "elapsed": 46.04711675643921,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_3_s4",
+    "seq": "SNKEEAKIIYEEIKKEMDAVAKEHPETAPCCELVKKAAEEAAKEGVSIDEAIERLEKAVRECEARLSHELANRVRAAVVKGLAKGINKADKAK",
+    "plddt": 0.782,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.4027438461780548,
+      "ptm": 0.6450954079627991,
+      "plddt": 0.902989387512207,
+      "elapsed": 45.84224486351013,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_3_s5",
+    "seq": "AAATAAAIVRDKITAAMAAAAAADPALAPGAARLVAAADAAAAAGATIEEVAEALAAAVAEVEKELSWELAQRARAAVVRGLAEGIRAADRAA",
+    "plddt": 0.793,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.66062992811203,
+      "ptm": 0.7241814136505127,
+      "plddt": 0.910722553730011,
+      "elapsed": 45.842029094696045,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_3_s6",
+    "seq": "MKKEEAEIVYEEITREMDAAAAANPATAPGCERVKEAAKESAERGDSIEETVKRLEEAVKEVAKELSWEDANRLAAAVVRGLARGIERADRAR",
+    "plddt": 0.784,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.2806457281112671,
+      "ptm": 0.580231249332428,
+      "plddt": 0.9390657544136047,
+      "elapsed": 45.84558725357056,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_3_s7",
+    "seq": "SNATAAKILADAIKAAMDACAAADPATAPCAELIKAAADKAADEGLTPEEVVKLLEEAVEKCKKEVSWELANKAAAAVVKGLAAGINAADRAK",
+    "plddt": 0.721,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.20549796521663666,
+      "ptm": 0.5882385969161987,
+      "plddt": 0.8944212794303894,
+      "elapsed": 43.840571641922,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_3_s8",
+    "seq": "SAAEAAAILYTEVKAAMEAEAKANPATAPCCDRVIAAAEAAAKAGVSPDEFVARLEAAVEACAAELSHADAMRVAAAVVRGVAAGINAADKAK",
+    "plddt": 0.806,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.2963816225528717,
+      "ptm": 0.5973628163337708,
+      "plddt": 0.9414529204368591,
+      "elapsed": 43.84052300453186,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_30_s1",
+    "seq": "SMAENEKKNVEKVKTAAETTAKNTNAICAELAKYDPATAAKLAKEANKAAKEAKESTDYNKALELATKAGEINNEAEAKLKAAK",
+    "plddt": 0.774,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.21035179495811462,
+      "ptm": 0.618746817111969,
+      "plddt": 0.8967891335487366,
+      "elapsed": 43.8332781791687,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_30_s2",
+    "seq": "SKAEREKKNTEKVKTAAATAAKNTKAIAEDLAKYDPEKAKKLAEEAKKKAEEAKASTDYEEAAKLAEEVGKILNEAEKLNAEAK",
+    "plddt": 0.795,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.14029687643051147,
+      "ptm": 0.5876795649528503,
+      "plddt": 0.9099298715591431,
+      "elapsed": 43.833757638931274,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_30_s3",
+    "seq": "SSEERERKNVQKVQEAARTAARNAAAVCADLAKYDPEKAAALAAQAAALAAAAAASTDYEEALALAEQVGAVLNEAYALNKAAK",
+    "plddt": 0.806,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.6234560012817383,
+      "ptm": 0.7469146847724915,
+      "plddt": 0.9632948040962219,
+      "elapsed": 43.83407282829285,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_30_s4",
+    "seq": "SKEEQERRNVEKVKEAAETTERNTEAVCKELAKYDPEEAKKLAEEARKLAEKAKESKDYEEALKYAEKAGEVLKKAEELLKKAK",
+    "plddt": 0.784,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.13522407412528992,
+      "ptm": 0.5810393691062927,
+      "plddt": 0.9131635427474976,
+      "elapsed": 43.8309600353241,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_30_s5",
+    "seq": "SKEENDKKNVEKVQKAAETAARNTERVCEELAKYDPELAKKLAEEAREKAERAKKSTDYEEALRLAEEVGRILREAEERLKAAK",
+    "plddt": 0.789,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.19433332979679108,
+      "ptm": 0.5482833385467529,
+      "plddt": 0.8908680081367493,
+      "elapsed": 42.48433709144592,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_30_s7",
+    "seq": "SSAERDARNVQLVQTAARTTARNTEAVCKELAKYDPEKAKALAEEARKLAEEAEKSTDYQEALRLAEKVGEVENEAYKLDAAAK",
+    "plddt": 0.79,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.29107144474983215,
+      "ptm": 0.5935113430023193,
+      "plddt": 0.9331308007240295,
+      "elapsed": 42.38255310058594,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_30_s6",
+    "seq": "SSAENEAKNTEKVKEAARTTAANTKAVCKELAKYDPEKAAKLAKEAEKLAEEAEKSTDYEKAAELAEKAGEVLNEAEKLLKEAK",
+    "plddt": 0.788,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.2424788773059845,
+      "ptm": 0.5956386923789978,
+      "plddt": 0.9404948949813843,
+      "elapsed": 42.584038496017456,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_30_s8",
+    "seq": "SSAANEARNTEKVKAAAATTAKNTKAVCAELAKYDPEKAAAIAKQAAEAAAKAAAATDYDEALALAEEAGKLLEEAEKLLKEAK",
+    "plddt": 0.802,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.2697910964488983,
+      "ptm": 0.5985877513885498,
+      "plddt": 0.8982360363006592,
+      "elapsed": 42.48376965522766,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_32_s1",
+    "seq": "LEAARRAALERERAAAAAVRALQEAARWERATAEYGAEYVEAHREEMLARVEAEDAAGAAAARAARAAAA",
+    "plddt": 0.742,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.28489062190055847,
+      "ptm": 0.6083703637123108,
+      "plddt": 0.8302327394485474,
+      "elapsed": 42.48218297958374,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_32_s2",
+    "seq": "LAAAREAALAREAAAAEAVRALQEQNRIANATAEYGAEYVEAHREEMLARQAAADAAGAAAARAARAAAA",
+    "plddt": 0.741,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.16026118397712708,
+      "ptm": 0.5887429714202881,
+      "plddt": 0.8614872097969055,
+      "elapsed": 42.483872175216675,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_32_s3",
+    "seq": "LSAARAAALAAEAAAAAAVRALQEAARRERAAEEHGPEWVEAHWEAALAEQEAADAAGRAAYRAARAAAA",
+    "plddt": 0.73,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.218423992395401,
+      "ptm": 0.5893927812576294,
+      "plddt": 0.8032026886940002,
+      "elapsed": 42.58012866973877,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_32_s4",
+    "seq": "LEEARAAALAALAAASARVRQLQEENRRANATAAHGAAWVEAHREEALAEQAAADAAGAAAARAARAALA",
+    "plddt": 0.758,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.3244500756263733,
+      "ptm": 0.605908215045929,
+      "plddt": 0.8057346940040588,
+      "elapsed": 42.58140444755554,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_32_s5",
+    "seq": "LEEAREAALRRLAEAEARVRQLQEENRRRNATEEFGAELVEAHYEEMLALQEARDAAGHAAALAARAAAA",
+    "plddt": 0.742,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.4959762692451477,
+      "ptm": 0.6801554560661316,
+      "plddt": 0.9040332436561584,
+      "elapsed": 42.583940267562866,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_32_s8",
+    "seq": "MEERRREALARREAAAAQIRALQEANARANAIAEHGEAWVEAHWEEALAAQAAANAAGAAAARAARAAAA",
+    "plddt": 0.771,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.14604312181472778,
+      "ptm": 0.582852840423584,
+      "plddt": 0.8308499455451965,
+      "elapsed": 42.58284068107605,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_33_s1",
+    "seq": "SEAARARLERLAAQINAAAAAAAAAAATAAANAAAAAAAAAAALTTPEEAAAFGAAAAAAAAAAAAAEAAAIAAAAAEAIAAERARAEA",
+    "plddt": 0.764,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.1570831835269928,
+      "ptm": 0.5528408885002136,
+      "plddt": 0.8550966382026672,
+      "elapsed": 42.583555936813354,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_33_s2",
+    "seq": "SMARAAALARQAAAIDAAAAAAAAAAAAAAAAAADAAGAAAAAATTPAAAAAAKAAAAAAAAAEAAATAAAIAAEAAAAIAELRARAEA",
+    "plddt": 0.769,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.24598421156406403,
+      "ptm": 0.5916612148284912,
+      "plddt": 0.8498721122741699,
+      "elapsed": 42.58404231071472,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_33_s3",
+    "seq": "SAAAAAALARQAAAIRAAAAAAAAAAAAEAAAAAAAAGAAAAAATTPAAAAALLAAALAAAAAAAAARAAAIRAEAEAAIAELRARVEA",
+    "plddt": 0.715,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.31382617354393005,
+      "ptm": 0.620517373085022,
+      "plddt": 0.9246002435684204,
+      "elapsed": 43.26638627052307,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_33_s4",
+    "seq": "KEEIEERVKKEAERIEKAAEEAKKAVAFEEKCAAEDAGAKAAAATTPEEAAAFLAKAKAEAAKKAEEKAKEIEKEAEEEIKRLKERAEK",
+    "plddt": 0.711,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.2764415442943573,
+      "ptm": 0.6069393157958984,
+      "plddt": 0.855874240398407,
+      "elapsed": 43.271756649017334,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_33_s8",
+    "seq": "AAAREAAVERQAAAIDAAAAAAAAAVAAAQAAAAADAGAAAAAATTPEAAAAYAAAAAAAAAAEAAAQAAKIEADAAALKAELRARAAA",
+    "plddt": 0.722,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.20093467831611633,
+      "ptm": 0.5593794584274292,
+      "plddt": 0.7951678037643433,
+      "elapsed": 43.26737642288208,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_34_s1",
+    "seq": "AEAEKKAKELEKEVEKLKKAAEEAKKGTAEEAEKVAKEAEELAKKALELAPFIGSAAYKKRAEAIKVLAEAIKAADKLRKEEEEKA",
+    "plddt": 0.782,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.7535725235939026,
+      "ptm": 0.7564851641654968,
+      "plddt": 0.9559632539749146,
+      "elapsed": 43.269681215286255,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_34_s2",
+    "seq": "EEAKKLAEELKEKAKKLKEEVKKAKKGTAEEAAKVAEEAEKAAKEALEKAPFIGSEGYKVKAELIKVLAEAIEIKDKLEREEKEKA",
+    "plddt": 0.773,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.39186012744903564,
+      "ptm": 0.6378629803657532,
+      "plddt": 0.9040378928184509,
+      "elapsed": 43.269970655441284,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_34_s3",
+    "seq": "AEAEKLAKELKEKAEELRRRVERAKEGTAEEAERVAEEAERLAKEAIELAPKIGEEGWKVAAEAIAALARALEIADRLRREEEKAA",
+    "plddt": 0.783,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.4909517168998718,
+      "ptm": 0.675755500793457,
+      "plddt": 0.9503577351570129,
+      "elapsed": 43.2685809135437,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_34_s4",
+    "seq": "AEAEKQAKALKKEAEAIKKEVEKAKEGTAEEAKAVAEKAAAAAKKALELAPKIGSAGYKVAAELIAALAEAIEIEDRLRREEKEKA",
+    "plddt": 0.789,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.22225239872932434,
+      "ptm": 0.5972970724105835,
+      "plddt": 0.937505841255188,
+      "elapsed": 42.16689085960388,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_34_s7",
+    "seq": "AEAKKLAEKLKKEAEKIKKAVEAAKKGTAEEAKKVAEKAEEAAKKALELAPKIGSEGYKVAAELIKALAEAIEIEGKLKREEKEKA",
+    "plddt": 0.786,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.35471293330192566,
+      "ptm": 0.6259757876396179,
+      "plddt": 0.9494986534118652,
+      "elapsed": 42.05930733680725,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_34_s5",
+    "seq": "AEAEAKAKELKEKAEALKKAAEKAKAGTAEEAKAVLEEALAAAKEAEKLAPFIGSAAWQEKAKLNKIAAEAIKTKDRLTKAEEAAA",
+    "plddt": 0.754,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.6768480539321899,
+      "ptm": 0.7612932920455933,
+      "plddt": 0.9349537491798401,
+      "elapsed": 42.25889277458191,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_34_s8",
+    "seq": "AEAEKLAEELKKEAEELKKRAEEAATGTAEEAAKVLEEALAAAKKALELAPFIGSPAYKVAAELIAIAARAIEIEGRLRREEEKAA",
+    "plddt": 0.784,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.19705352187156677,
+      "ptm": 0.5648922920227051,
+      "plddt": 0.9175435304641724,
+      "elapsed": 42.159175395965576,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_35_s4",
+    "seq": "MTAAEAAQREKDASAAALDATIASLKAAGGDAAFAAAAAAARDAALAQDAAAGAAALRATADAAAAYLKELTAKEKAA",
+    "plddt": 0.728,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.2827649712562561,
+      "ptm": 0.6307996511459351,
+      "plddt": 0.8365415334701538,
+      "elapsed": 42.15865659713745,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_35_s6",
+    "seq": "MTAEEAAKRQKEASATAVNATIASMEAAGGDAAFAAAARAKLAAANALDAKTGAEAATATGEEAAAHLKAATAAAKAA",
+    "plddt": 0.724,
+    "target": "MuSK",
+    "boltz2": {
+      "iptm": 0.32697537541389465,
+      "ptm": 0.6175627112388611,
+      "plddt": 0.8342607021331787,
+      "elapsed": 42.15689420700073,
+      "ok": true
+    }
+  },
+  {
+    "id": "M1a_37_s3",
+    "seq": "EGEALLAAAAAELAAAEAALAAARAERDALLAEGAAATPEEAAALAAEGAAILAAALKAYAAALEKAGNAARKVAK",
+    "plddt": 0.799,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "Remote end closed connection without response"
+    }
+  },
+  {
+    "id": "M1a_37_s2",
+    "seq": "AAAAALAAAEALLAAAEAALAAAQAQKAALLAQGAASTPEQALALASEAAQLVAAALRALAAAFEEAGNAARKAAK",
+    "plddt": 0.777,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "Remote end closed connection without response"
+    }
+  },
+  {
+    "id": "M1a_37_s4",
+    "seq": "ECEALLAAAEAALAAAEAALAAARAERDALLAAGAASTPEEAARLAAEAAARLAAALRALAAALEAAGNARRKCAK",
+    "plddt": 0.763,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "Remote end closed connection without response"
+    }
+  },
+  {
+    "id": "M1a_35_s7",
+    "seq": "MTKEEANKRLLEATAKATEAQVASLRAAGGDEEFAERALKRLEEAKKLDAEEGAKRASEIAEEVAEHWRALTAAAKAA",
+    "plddt": 0.785,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "Remote end closed connection without response"
+    }
+  },
+  {
+    "id": "M1a_37_s5",
+    "seq": "ECEATLAEAEALLAAAEERLAAAKAKAAALAAQGAAATPEEAAALAAQAAAELAAALRELGRALEEAGNARRRCAK",
+    "plddt": 0.779,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "Remote end closed connection without response"
+    }
+  },
+  {
+    "id": "M1a_37_s1",
+    "seq": "ECEAALAAAEALLAAAEAALAAAKAEKAALDAEGAASTPEEAEKLRAEGAKLVAAALKALAAALEEAGNTRRRCAK",
+    "plddt": 0.8,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "Remote end closed connection without response"
+    }
+  },
+  {
+    "id": "M1a_37_s6",
+    "seq": "ACAALAAAAAAALAAAEAALAAARATAAALDALGAASDPETAAALRAAAAAKLAAALRALGAALEWAGNALRRCAK",
+    "plddt": 0.792,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_38_s4",
+    "seq": "SSIEAKRAAQLAEVEAEAEARRAARLAAARAAVASGADPERAAIGAALLDAAAAEAAAAAAAAAAALLAA",
+    "plddt": 0.723,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_37_s7",
+    "seq": "ECAKILAEAAALLAAAEAALAAAKAERDALLAEGAASTPAEAAALAAAAAAKLAAALAALGKALEAAGNAARKCAK",
+    "plddt": 0.777,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_37_s8",
+    "seq": "AAAAAVAAAAERLAAAEAALAEARAQQAALLAEGAASTPEQAAALAAQGAQLLAAALRALAEAFEAAGNALRRVAR",
+    "plddt": 0.782,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_38_s8",
+    "seq": "EEKKKKREEQLRKVEEEAEEREAARLAAGKAAVASGADPEKAAIGAAFIAEKERRRREEEERRRRLEEEL",
+    "plddt": 0.767,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_39_s2",
+    "seq": "MEERRRRGLEETLARVRAEAAARIAAGEAIKDTPEGWNLKAAGYAALAGADEENAAAYQAAAAAAQAAAAAKAAAAAAAAAAAAAAAAAA",
+    "plddt": 0.723,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_39_s5",
+    "seq": "MAEKREAGLAATKARVRAEAQARIAKGEAIKETPEGWNLRALGYQALADTDEENREEYKAKAEEAKAAAEAKAAAEAAAAAAAAALAAAA",
+    "plddt": 0.732,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_39_s8",
+    "seq": "MEAKREAGLAATREKVRALAEKRIAEGEAIKETPEGWNLIEKGYRALAGTDEANKAEYDAKAKEAKAKAEEAAAAAAAAAAAAAAAAAAA",
+    "plddt": 0.797,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_4_s3",
+    "seq": "AALAAARAAAAREAAAYTAAANLYRRKAEELEAKYSEELKPELDEALAKAAAAAAAAAAAAAKAAALAAAAA",
+    "plddt": 0.785,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_4_s2",
+    "seq": "AELAKQAAQKAREAANYTAAANLYNRYAAYLESQYSPELKPELEAAKAKAAEAKAKADAAAAEEAALKAQLE",
+    "plddt": 0.801,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_4_s1",
+    "seq": "AALKAAAARARREAANYAAAAALYKREADYLESKASPELAPQLEAAKAAAAEAAAKAAEAAAKAAELAAAAA",
+    "plddt": 0.801,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_39_s6",
+    "seq": "MEETRARGLAETRERVKALADARIAAGDAIAATPEGWRLRETGYRMLAETDEENAEEYAAKAAEAAAAAAAKAAAAAAAAAAAAAAAAAA",
+    "plddt": 0.794,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_4_s4",
+    "seq": "AALAAAQKAAQREAANYTAAANLYNRYAEYLESKYSPELKPKLEEAKAKAKEAAAKAKEKAAKAAALAAELA",
+    "plddt": 0.794,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_4_s6",
+    "seq": "AELEAQAKEAERLAKNYEAAANLYKRKADYLKAQYSPELKPELDAAEAAAKEAQAKADEAQAKAAALKAELA",
+    "plddt": 0.763,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_4_s5",
+    "seq": "SELEKEAAKAEREAKAYEAAANLYNREAEYLKAQLSPELQPQLEKAQAEAAKAKAEAAAAKAKAEALKAELA",
+    "plddt": 0.787,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_5_s1",
+    "seq": "SAAEARRAALTAKLRELARTNRRNAEAERDAAEADPALAPAAEVLARALREAEELEREEPLEGARRAAEALGRGLREARALRAAL",
+    "plddt": 0.751,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_4_s8",
+    "seq": "AELAAAAAEAARLARAYEAAARLYEREAEYLESKYSPELEPEREKKLAEAAEARAKAEEARALAEALAAQAA",
+    "plddt": 0.786,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_4_s7",
+    "seq": "EELKKEAERLERLAKNYQAAANLYNREAEYLEAKYSPELKPKLEEAKKKAEEAQKKAKEYEAKAKEAKEKLA",
+    "plddt": 0.782,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_5_s2",
+    "seq": "AAAAARRAALTAKLRTLAETNRRNAEAERAACLADPRLAPAAEVLEAALARAEELLKGEPLEGAEEAARALGEGLAEAKAIRAAL",
+    "plddt": 0.767,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_5_s3",
+    "seq": "AAKAERLEKLTAKLKTLAATNRANAEAERAAAEADPALAPAAAVLKAAIAAAEKLLATEPYEGALKAAEALGAGLAAAKAIRAAL",
+    "plddt": 0.751,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_5_s4",
+    "seq": "SEAEKRLEELTKKLKTLRDTAAKNAKAEREAALADPRLAPAAKVLEKALKEAEELAKEEPYEGALKAAEALGKGLKAAKAIRDAL",
+    "plddt": 0.736,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_5_s6",
+    "seq": "MEKEERERKLTEKLKKLAETNRKNAEAERDAAEADPELAEAAKVLKEAIEKARELEKKEPLKGAREAAEALGEGLRKAKEIREAK",
+    "plddt": 0.78,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_5_s7",
+    "seq": "AAAAARLAALTAKLRTLADTLEANARAAREAALADPRLAPAAAVLDRALEEAARLREGEPLEGARRAAEALGRGLAEARALVAAA",
+    "plddt": 0.774,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_5_s8",
+    "seq": "AEAAARAARLTAQLRTLAETNRRNAEALRAACEADPKLAPAAKVLKEAIEKAEEALKGEPLEGAREAAELLGEGLKKAKEIIEKL",
+    "plddt": 0.788,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_6_s1",
+    "seq": "ALEEELRRELEKKREEILAQASAQGAALAAAAAAAQAAADAAAKADPAAAAAAAAAATALTAERAALMAETAAKMRELSRK",
+    "plddt": 0.717,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_6_s2",
+    "seq": "MEEEEERERRREEAEEILRESSARGAALAAQAAALQAAADAAAKEDPAAAAALAAQATAVTAERAALMAETARRVRELSRE",
+    "plddt": 0.785,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_6_s3",
+    "seq": "EEEERRKEELRRKAEEVLAQAAAEGAALAAQRDALQAQAAKAAAEDPAAAAAYAAQATAVAAQAAALAKQTAAEVAELSKK",
+    "plddt": 0.798,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_6_s4",
+    "seq": "SLEEELREQLRKEAQAVLEQGAAEGAKLQAAADEAYALADKAAAEDPAAAAAWAAKADALTAQRAALMAATAARVRELSRK",
+    "plddt": 0.781,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_6_s5",
+    "seq": "SEEEREREERRRERDAVLAAAEAQGAALAAQAAALDAAADAAAKEDPAAAAAYAAQAAAARAQRAALMAATAEEVRRLSRK",
+    "plddt": 0.782,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_6_s6",
+    "seq": "EEEEELRRRLREEAERLLEETAARGAALAAEADALDAKAAEAAKADPAAAAEYAAKATAVRAERAALMAETAREVRELSRK",
+    "plddt": 0.782,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_6_s7",
+    "seq": "EEEEKRKEELRKQAEEVMQQSSEEGAKLQQQADEANAKAAEAAKKDPAAAAEWAAKATELTQQRAALMQQTAETVKELSRK",
+    "plddt": 0.765,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_6_s8",
+    "seq": "EEEERLKEELREEARRLEEEAAAKGAELAAQAAAAQAAAAAAAAADPAAAAAYDAQATALQAQRAALMAETAARVRELSKK",
+    "plddt": 0.786,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_7_s1",
+    "seq": "EAELAAAKAAAEAACAAIKAEAKAKMAEIGKEAQAKMDALRAEGDAATAAALAAGDEEAAKAAMDAANAAMEAVAKEAKEEKAKIKAEAEKKCAEIWAAV",
+    "plddt": 0.8,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_7_s2",
+    "seq": "AEAAAAALAAVAAACAAAEAAAKAAIAAAGAECRAEQDALRAAADAAAAAAAAAGDAAAAAAARDAAAAAMTAAAAEYKAQAAALEAEAKAACAAAAAAA",
+    "plddt": 0.75,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_7_s4",
+    "seq": "AAAAAAARAAADAAAAAAAAAAAAAKAAVGAEAQARQAALRAEARARTAAYLAAGDAAAAQAAADAAAAAATAVAEEAAAAKAALDAAAAAAAAAARAAV",
+    "plddt": 0.818,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_7_s3",
+    "seq": "SAALEAALAAAKAQCAAIKAAAQAKKAEAGAEAQKKQDELRAKADAEAAAYLAAGDEEAAEAAREKAAEEMEKVAKEYKAKKAEIEAAAAAACAAVWAAV",
+    "plddt": 0.786,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_7_s5",
+    "seq": "AAAAAAAAAAVAAKCAEIKAAAKAEIDKVSAEAQAKMDALRAEGDAAAARALAAGDREAAQAALDAAAAAMTAVAEEAKEKAAAIKAEAAAKCAAAKAAA",
+    "plddt": 0.798,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_7_s6",
+    "seq": "AALAAAAAAAVAAACAAAKAAAAAAKAAAGAKAQAEQDALKAEAAAKAAEALAAGDEEAAKAALDAANARATAVADKYKAEAAALDAAAAAECAALKAAA",
+    "plddt": 0.796,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_8_s1",
+    "seq": "SEAKNNAKAAAQYRAAAAALKATAAKLKALAAEAAAKNPEAKADIAAINAAAAAKAAAAAAAAAAAAAAEA",
+    "plddt": 0.768,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_8_s2",
+    "seq": "MEAANNAKAAAQYLKAAAAAKATAAALKALAAQAAAADPGATAAIAAINAAAAAKEAAAAALEAEAAKLAA",
+    "plddt": 0.838,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_7_s7",
+    "seq": "SAAAAAAAAAVAAACAAANAAAAAENAAAGAALAAEQAALKAAADAAAAAAKAAGDEAAAQAAIDAANAAATAAAEAYKAKVAAANAKAAAACAAAAAAA",
+    "plddt": 0.82,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_7_s8",
+    "seq": "AAAAAAAAAAVAEACAAARAAAQAQNAAVSAAAQAQQAALAAAAAAEAAAAAAAGDAAAAQAALDAAAAASTAVAQAAQAARAAADAQAAAACAAARAAA",
+    "plddt": 0.805,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_8_s5",
+    "seq": "MEEANAAKAAAQATAAAAALQATAAALTALAAAAAAANPADTAAIAAIQAQAAAKAAAAAAAKAEAAAAAA",
+    "plddt": 0.799,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_9_s1",
+    "seq": "SAHRLAGQLLEEATAAAEAASVAERAALAERWEALGRAALADPATAVTGRVALAAAEAIRADRANAEAAAAAAAAAAAAA",
+    "plddt": 0.728,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_8_s4",
+    "seq": "MEERNRAKLAEQYEKAAAAANATAAALKAAAAAAAAANPAATAAIAALNAQAAAKEAAAAELKAAAEAARA",
+    "plddt": 0.819,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_8_s8",
+    "seq": "SAAANNAKAAAQYAAAAAALAATAAALAAAAAAAAAANPGDTAGIAAIQAQAAAKQAAAAAAAAEAAALAA",
+    "plddt": 0.842,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_8_s3",
+    "seq": "AEAKNAAKRAAQYRKAAAAAKALEAKLKALAAEAAAKAPEAKAAIAEIKAQAAAAAAAAKALAAEAAAAAA",
+    "plddt": 0.782,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_8_s6",
+    "seq": "MEAKNAAKAAAQYKAAAAALAATAAALKAAAAAAAAAAPADTAAIAALAAAAAAKEAAAAAAKAEAAALAA",
+    "plddt": 0.802,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_9_s2",
+    "seq": "MAHELAGKLAEEGTERAAAATVEERAELAAEFAALGEEYLADPALAYTGKVALALSTAINNIARNEAAAAAEAAAAAAAA",
+    "plddt": 0.783,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_9_s4",
+    "seq": "MAHREAGKALEELTARAAAASVAEREALAAEAEALGKEKLADPETAYTGRVLLGASTAIRNDRANEAAAAAAAAAAAALA",
+    "plddt": 0.737,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_9_s3",
+    "seq": "DAHKLAGEFAEEFAARNAASSVEERDALAAEAEALGEELLKDPATAYTGRVALGVSTAIRNNRDNERAAAAEAAAAAAAA",
+    "plddt": 0.795,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_9_s5",
+    "seq": "SAHRLAGELAAELTARAEAASVEERAALAAEAEALGREYLADPATAYTGRVALAMSTAIRNNAANEAAAAAAAAAAAAAA",
+    "plddt": 0.801,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "id": "M1a_9_s6",
+    "seq": "AAHEEAGKLADEASKRAEESSVEELEELAKELEELGKEKLADPATAYTGKVALAMSIAIRNDARNRRAAEAAARAAALAA",
+    "plddt": 0.79,
+    "target": "MuSK",
+    "boltz2": {
+      "ok": false,
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  }
+]

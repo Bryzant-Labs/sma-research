@@ -1,0 +1,32 @@
+[MuSK] chain A: 187 aa (24-210)
+[LRP4] chain A: 191 aa (1758-1948)
+[DOK7] chain A: 200 aa (3-210)
+[CHRNA1] chain B: 212 aa (0-211)
+[MuSK] 257 survivors to gate
+[LRP4] 234 survivors to gate
+[DOK7] 214 survivors to gate
+[CHRNA1] 0 survivors to gate
+self-host health: b'{"status":"ready","backend":"boltz2-batched"}'
+  [0/705] iptm=0.3919720947742462 ok=True
+  [10/705] iptm=0.8808838725090027 ok=True
+  [20/705] iptm=0.6509348750114441 ok=True
+  [30/705] iptm=0.34102433919906616 ok=True
+  [40/705] iptm=0.2676745355129242 ok=True
+  [50/705] iptm=0.40526995062828064 ok=True
+  [60/705] iptm=0.30389007925987244 ok=True
+  [70/705] iptm=0.48514336347579956 ok=True
+  [80/705] iptm=? ok=False
+  [90/705] iptm=? ok=False
+  [100/705] iptm=? ok=False
+  [110/705] iptm=? ok=False
+  [120/705] iptm=? ok=False
+  [130/705] iptm=? ok=False
+  [140/705] iptm=? ok=False
+  [150/705] iptm=? ok=False
+  [160/705] iptm=? ok=False
+  [170/705] iptm=? ok=False
+  [180/705] iptm=? ok=False
+  [190/705] iptm=0.4907209277153015 ok=True
+  [200/705] iptm=0.2704203128814697 ok=True
+  [210/705] iptm=0.34265005588531494 ok=True
+  [220/705] iptm=0.31213805079460144 ok=True
