@@ -1,0 +1,42 @@
+[REF] Reference compound calibration on SSH1:
+  sanguinarine: {'name': 'sanguinarine', 'smiles': '[O-][N+]1=Cc2c3OCOc3ccc2-c2c1ccc1cc3OCOc3cc21', 'top_conf': -1.2905923128128052, 'all_confs': [-1.2905923128128052, -2.7876944541931152, -3.164715051651001]}
+  SP-2509: {'name': 'SP-2509', 'smiles': 'CC(=O)NN=Cc1ccc(O)c(Oc2ccccc2)c1', 'top_conf': -1.4534053802490234, 'all_confs': [-1.4534053802490234, -1.9286812543869019, -2.8589231967926025]}
+  BCI: {'name': 'BCI', 'smiles': 'O=C(/C=C/c1ccco1)NN=Cc1ccc(O)cc1', 'top_conf': -1.7145603895187378, 'all_confs': [-1.7145603895187378, -1.8147568702697754, -2.224839687347412]}
+[REF] C_rel baseline (median ref conf): -1.4534053802490234
+[LIB] Docking 3568 compounds against SSH1...
+  [100/3568] errors=5
+  [200/3568] errors=7
+  [300/3568] errors=7
+  [400/3568] errors=58
+  [500/3568] errors=148
+  [600/3568] errors=242
+  [700/3568] errors=340
+  [800/3568] errors=436
+  [900/3568] errors=533
+  [1000/3568] errors=632
+  [1100/3568] errors=729
+  [1200/3568] errors=827
+  [1300/3568] errors=926
+  [1400/3568] errors=1024
+  [1500/3568] errors=1123
+  [1600/3568] errors=1221
+  [1700/3568] errors=1320
+  [1800/3568] errors=1418
+  [1900/3568] errors=1517
+  [2000/3568] errors=1615
+  [2100/3568] errors=1713
+  [2200/3568] errors=1811
+  [2300/3568] errors=1909
+  [2400/3568] errors=2007
+  [2500/3568] errors=2106
+  [2600/3568] errors=2205
+  [2700/3568] errors=2303
+  [2800/3568] errors=2402
+  [2900/3568] errors=2500
+  [3000/3568] errors=2598
+  [3100/3568] errors=2696
+  [3200/3568] errors=2795
+  [3300/3568] errors=2893
+  [3400/3568] errors=2991
+  [3500/3568] errors=3090
+[DONE] DiffDock done: 414 with conf, 414 top C_rel>0: 192

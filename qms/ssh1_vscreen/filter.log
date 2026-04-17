@@ -1,0 +1,4 @@
+Raw: 6720
+After RDKit+Lipinski+QED: 6298
+BBB pass: 3568
+DiffDock input (BBB pass): 3568

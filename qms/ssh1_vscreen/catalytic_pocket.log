@@ -1,0 +1,9 @@
+Top 5 Cys-Arg pairs by 3D distance:
+  CYS393 - ARG399  d=4.87 Å  seq_gap=+6
+  CYS393 - ARG427  d=8.43 Å  seq_gap=+34
+  CYS389 - ARG384  d=12.39 Å  seq_gap=-5
+  CYS393 - ARG431  d=12.40 Å  seq_gap=+38
+  CYS393 - ARG359  d=13.44 Å  seq_gap=-34
+
+Catalytic pocket center (Cys393 SG / Arg399 CZ midpoint): -5.872 1.155 9.541
+Wrote pocket_center.txt + pocket_catalytic.txt

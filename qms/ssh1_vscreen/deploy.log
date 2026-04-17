@@ -1,0 +1,70 @@
+[2026-04-17T14:15:32Z] === SSH1 inhibitor vscreen H100 (retry on clean instance) ===
+GPU 0: NVIDIA H100 80GB HBM3 (UUID: GPU-329da95c-4af8-c320-b71c-10f798ab1bf8)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+[2026-04-17T14:15:36Z] SSH1 (Q8WYL5): 667358 bytes
+[2026-04-17T14:15:36Z] SSH2 (Q76I76): 911006 bytes
+[2026-04-17T14:15:36Z] SSH3 (Q8TE77): 424115 bytes
+[2026-04-17T14:15:36Z] DUSP6 (Q16828): 247049 bytes
+SSH1 phosphatase domain: 2015 atoms, residues 214-459
+  page 5: 5000 rows total
+Total fetched: 6720 compounds
+Wrote /results/ssh1_vscreen/chembl_raw.tsv
+Raw: 6720
+After RDKit+Lipinski+QED: 6298
+BBB pass: 3568
+DiffDock input (BBB pass): 3568
+fpocket missing
+Top 5 Cys-Arg pairs by 3D distance:
+  CYS393 - ARG399  d=4.87 Å  seq_gap=+6
+  CYS393 - ARG427  d=8.43 Å  seq_gap=+34
+  CYS389 - ARG384  d=12.39 Å  seq_gap=-5
+  CYS393 - ARG431  d=12.40 Å  seq_gap=+38
+  CYS393 - ARG359  d=13.44 Å  seq_gap=-34
+
+Catalytic pocket center (Cys393 SG / Arg399 CZ midpoint): -5.872 1.155 9.541
+Wrote pocket_center.txt + pocket_catalytic.txt
+[2026-04-17T14:16:02Z] === Phase 1 complete (setup + AF2 + ChEMBL + filter + pocket) ===
+[REF] Reference compound calibration on SSH1:
+  sanguinarine: {'name': 'sanguinarine', 'smiles': '[O-][N+]1=Cc2c3OCOc3ccc2-c2c1ccc1cc3OCOc3cc21', 'top_conf': -1.2905923128128052, 'all_confs': [-1.2905923128128052, -2.7876944541931152, -3.164715051651001]}
+  SP-2509: {'name': 'SP-2509', 'smiles': 'CC(=O)NN=Cc1ccc(O)c(Oc2ccccc2)c1', 'top_conf': -1.4534053802490234, 'all_confs': [-1.4534053802490234, -1.9286812543869019, -2.8589231967926025]}
+  BCI: {'name': 'BCI', 'smiles': 'O=C(/C=C/c1ccco1)NN=Cc1ccc(O)cc1', 'top_conf': -1.7145603895187378, 'all_confs': [-1.7145603895187378, -1.8147568702697754, -2.224839687347412]}
+[REF] C_rel baseline (median ref conf): -1.4534053802490234
+[LIB] Docking 3568 compounds against SSH1...
+  [100/3568] errors=5
+  [200/3568] errors=7
+  [300/3568] errors=7
+  [400/3568] errors=58
+  [500/3568] errors=148
+  [600/3568] errors=242
+  [700/3568] errors=340
+  [800/3568] errors=436
+  [900/3568] errors=533
+  [1000/3568] errors=632
+  [1100/3568] errors=729
+  [1200/3568] errors=827
+  [1300/3568] errors=926
+  [1400/3568] errors=1024
+  [1500/3568] errors=1123
+  [1600/3568] errors=1221
+  [1700/3568] errors=1320
+  [1800/3568] errors=1418
+  [1900/3568] errors=1517
+  [2000/3568] errors=1615
+  [2100/3568] errors=1713
+  [2200/3568] errors=1811
+  [2300/3568] errors=1909
+  [2400/3568] errors=2007
+  [2500/3568] errors=2106
+  [2600/3568] errors=2205
+  [2700/3568] errors=2303
+  [2800/3568] errors=2402
+  [2900/3568] errors=2500
+  [3000/3568] errors=2598
+  [3100/3568] errors=2696
+  [3200/3568] errors=2795
+  [3300/3568] errors=2893
+  [3400/3568] errors=2991
+  [3500/3568] errors=3090
+[DONE] DiffDock done: 414 with conf, 414 top C_rel>0: 192
+[2026-04-17T14:28:04Z] === Phase 2 complete (DiffDock ref cal + library). Phase 3 (Boltz-2 rescore) runs on dispatcher. ===
