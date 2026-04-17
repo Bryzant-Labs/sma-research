@@ -1,0 +1,10 @@
+Top 5 Cys-Arg pairs by 3D distance (SSH2):
+  CYS392 - ARG398  d=4.65 Å  seq_gap=+6
+  CYS392 - ARG426  d=9.19 Å  seq_gap=+34
+  CYS285 - ARG288  d=11.39 Å  seq_gap=+3
+  CYS388 - ARG335  d=11.62 Å  seq_gap=-53
+  CYS392 - ARG358  d=12.92 Å  seq_gap=-34
+
+Found canonical CX5R: CYS392 - ARG398
+Catalytic pocket center (Cys392 SG / Arg398 CZ midpoint): -3.000 0.817 7.572
+Wrote pocket_center.txt + pocket_catalytic.txt

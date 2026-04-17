@@ -1,0 +1,27 @@
+[2026-04-17T21:58:35Z] === SSH2 inhibitor vscreen H100 (instance 35137507) ===
+GPU 0: NVIDIA H100 80GB HBM3 (UUID: GPU-329da95c-4af8-c320-b71c-10f798ab1bf8)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+[2026-04-17T21:58:36Z] SSH2 (Q76I76): 911006 bytes
+[2026-04-17T21:58:36Z] SSH1 (Q8WYL5): 667358 bytes
+[2026-04-17T21:58:36Z] SSH3 (Q8TE77): 424115 bytes
+[2026-04-17T21:58:36Z] DUSP6 (Q16828): 247049 bytes
+SSH2 phosphatase domain: 2046 atoms, residues 212-457
+[2026-04-17T21:58:36Z] ChEMBL filtered reused: 6299 rows, 3568 docking inputs
+Top 5 Cys-Arg pairs by 3D distance (SSH2):
+  CYS392 - ARG398  d=4.65 Å  seq_gap=+6
+  CYS392 - ARG426  d=9.19 Å  seq_gap=+34
+  CYS285 - ARG288  d=11.39 Å  seq_gap=+3
+  CYS388 - ARG335  d=11.62 Å  seq_gap=-53
+  CYS392 - ARG358  d=12.92 Å  seq_gap=-34
+
+Found canonical CX5R: CYS392 - ARG398
+Catalytic pocket center (Cys392 SG / Arg398 CZ midpoint): -3.000 0.817 7.572
+Wrote pocket_center.txt + pocket_catalytic.txt
+[2026-04-17T21:58:36Z] === Phase 1 complete (setup + domain + ChEMBL reuse + pocket) ===
+[REF] Reference compound calibration on SSH2:
+  sanguinarine: {'name': 'sanguinarine', 'smiles': '[O-][N+]1=Cc2c3OCOc3ccc2-c2c1ccc1cc3OCOc3cc21', 'top_conf': -1.3072513341903687, 'all_confs': [-1.3072513341903687, -1.8198699951171875, -2.556821584701538]}
+  SP-2509: {'name': 'SP-2509', 'smiles': 'CC(=O)NN=Cc1ccc(O)c(Oc2ccccc2)c1', 'top_conf': -1.9819695949554443, 'all_confs': [-1.9819695949554443, -2.572016477584839, -3.2248165607452393]}
+  BCI: {'name': 'BCI', 'smiles': 'O=C(/C=C/c1ccco1)NN=Cc1ccc(O)cc1', 'top_conf': -0.8854819536209106, 'all_confs': [-0.8854819536209106, -1.189402461051941, -2.3015520572662354]}
+[REF] C_rel baseline (median ref conf): -1.3072513341903687
+[LIB] Docking 3568 compounds against SSH2...
+  [100/3568] errors=3

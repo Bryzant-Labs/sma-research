@@ -1,0 +1,4 @@
+CYS 392
+ARG 398
+distance 4.649
+center -3.000 0.817 7.572
