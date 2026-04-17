@@ -2,7 +2,7 @@
 
 **Agent:** Opus NMJ-MD-Opt1 recovery  
 **Started:** 2026-04-17 21:20 UTC  
-**Last update:** 2026-04-17 21:45 UTC  
+**Last update:** 2026-04-17 23:31 UTC  
 **Owner:** Opus fleet supervisor  
 **Sibling task:** Opt 2 bispecific farm (Vast 35151592, 8x B200, separate agent)
 
@@ -35,7 +35,7 @@ With 8x B200 (1.47 TB VRAM aggregate, 2 TB system RAM, 500 GB NVMe) we move from
 |---|---|---|---|
 | A.1 | Strip MuSK kinase | 1 s | DONE (local, 2026-04-17) |
 | A.2 | PDBFixer pH 7.4 | 30 s | DONE (local, 2026-04-17) |
-| A.3 | Solvate + build System.xml | 10-20 min | RUNNING on B200 (8+ min CPU, 1.8 GB RSS) |
+| A.3 | Solvate + build System.xml | 10-20 min | **PIVOT 2026-04-17 23:31 UTC** — OpenMM `Modeller.addSolvent` stuck twice (1st on `addHydrogens`, patched; 2nd on `addSolvent` itself, 46 min, 100% CPU, `wchar=0`). Killed PID 2342. Replaced with `03_tleap_solvate.py` (AmberTools tleap `solvateBox` + OpenMM `AmberPrmtopFile.createSystem(hydrogenMass=4 amu)` + XML serialise). tleap is O(N) lattice-fill; no template matching hang. Running now in tmux `solvate` (pdb4amber at 852% CPU). |
 | A.4 | Rsync prep/ to B200 | 2 min | DONE (14 MB transferred to ssh7.vast.ai:32540) |
 | B.1 | Minimise (10 000 steps L-BFGS) | 15-30 min | PENDING |
 | B.2 | NVT heat 10 -> 300 K (250 ps) | 30 min | PENDING |
@@ -71,7 +71,7 @@ No cross-ssh, no cross-tmux, no cross-mount. Agents communicate only via the Opu
 - [x] B200 SSH — opened ~60 s after launch. 8x B200 183 GB each, 500 GB NVMe, 2 TB RAM, Ubuntu 24.04 conda base.
 - [x] conda env installed: openmm 8.1.2, pdbfixer, mdanalysis 2.10, ambertools 23, pdb4amber. 60 s wall.
 - [x] Prep rsynced to /workspace/nmj_md/prep/ (12-chain stripped + fixed PDB + scripts).
-- [ ] **Currently blocking on:** OpenMM `Modeller.addSolvent` for 123 k protein atoms with 1 nm padding. Running 8 min so far, single-threaded, growing RSS (expected 15-30 min total for this system size). Will write `nmj_12chain_solvated.pdb` and `nmj_12chain_system.xml` when done.
+- [x] **Pivot 2026-04-17 23:31 UTC:** Abandoned OpenMM Modeller.addSolvent path. New `03_tleap_solvate.py` uses AmberTools tleap (solvateBox + addIonsRand for 0.15 M NaCl neutralise) then loads the produced prmtop+inpcrd into OpenMM, applies HMR (`hydrogenMass=4 amu`) at `createSystem`, and serialises `nmj_12chain_system.xml`. Also writes `nmj_12chain_solvated.pdb` and `solvation_stats.json` (expected by auto_fire watcher). Expected wall: pdb4amber 1-3 min, tleap pass1 (count waters) 5-10 min, tleap pass2 (final build) 5-10 min, OpenMM createSystem on 500k atoms 2-5 min. Total ETA ~25 min. Learning file: `/home/bryza/.claude/projects/-home-bryza/memory/learning-openmm-addsolvent-too-slow-multichain.md`.
 - [x] **Auto-fire dispatcher armed** (`/workspace/nmj_md/auto_fire_on_solvate.sh` in tmux session `auto_fire`). On solvation complete, will fire 3 parallel replicates in tmux sessions `rep0`/`rep1`/`rep2`: GPU 0/1/2, seeds 42/137/314. Each runs minimise -> NVT 250 ps -> NPT 1 ns -> 100 ns production. Expected wall-time ~16-24 h per replicate on a single B200 (B200 FP64/FP32 throughput ~2x H100, so 100 ns ~12-18 h for ~500 k atoms).
 
 ## 7. Next check-in
