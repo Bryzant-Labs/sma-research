@@ -1,0 +1,36 @@
+{
+  "id": "pocketxmol_atlas_ext_r29_nr4a2",
+  "type": "pocketxmol",
+  "target": "NR4A2_ATLAS_EXT_R29",
+  "rank": 29,
+  "uniprot": "P43354",
+  "gene": "NR4A2",
+  "pdb_id": "5Y41",
+  "af_model": false,
+  "pdb_title": "Crystal Structure of LIGAND-BOUND NURR1-LBD",
+  "verified_status": "PASS",
+  "pocket_center": [
+    18.01,
+    -38.88,
+    -16.63
+  ],
+  "pocket_radius": 10.0,
+  "hotspot_residues": [
+    "VAL373B",
+    "ASP374B",
+    "VAL373A",
+    "PRO377A",
+    "ARG370B",
+    "ILE500A",
+    "ALA378A",
+    "MET379A"
+  ],
+  "n_molecules": 500,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 3,
+  "status": "queued",
+  "campaign": "atlas_ranks26_50",
+  "_verification_note": "strategy=ligand_RPG_centroid",
+  "_title_audit": "TITLE-verified against 'Crystal Structure of LIGAND-BOUND NURR1-LBD' using rule-dataset-verify-before-use. status=PASS. PDB ligand centroid used as pocket center."
+}

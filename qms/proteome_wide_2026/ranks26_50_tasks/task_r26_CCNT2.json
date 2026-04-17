@@ -1,0 +1,36 @@
+{
+  "id": "pocketxmol_atlas_ext_r26_ccnt2",
+  "type": "pocketxmol",
+  "target": "CCNT2_ATLAS_EXT_R26",
+  "rank": 26,
+  "uniprot": "O60583",
+  "gene": "CCNT2",
+  "pdb_id": "2IVX",
+  "af_model": false,
+  "pdb_title": "Crystal structure of human cyclin T2 at 1.8 A resolution",
+  "verified_status": "PASS",
+  "pocket_center": [
+    -17.74,
+    22.75,
+    63.45
+  ],
+  "pocket_radius": 10.0,
+  "hotspot_residues": [
+    "LEU181A",
+    "ILE62A",
+    "HIS182A",
+    "HIS66A",
+    "ASN59A",
+    "THR178A",
+    "VAL63A",
+    "SER180A"
+  ],
+  "n_molecules": 500,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 3,
+  "status": "queued",
+  "campaign": "atlas_ranks26_50",
+  "_verification_note": "strategy=apo_chainA_centroid_LITERATURE_REFINE_NEEDED",
+  "_title_audit": "TITLE-verified against 'Crystal structure of human cyclin T2 at 1.8 A resolution' using rule-dataset-verify-before-use. status=PASS. PDB ligand centroid used as pocket center."
+}

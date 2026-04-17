@@ -1,0 +1,36 @@
+{
+  "id": "pocketxmol_atlas_ext_r45_med1",
+  "type": "pocketxmol",
+  "target": "MED1_ATLAS_EXT_R45",
+  "rank": 45,
+  "uniprot": "Q15648",
+  "gene": "MED1",
+  "pdb_id": "6D94",
+  "af_model": false,
+  "pdb_title": "Crystal structure of PPAR gamma in complex with Mediator of RNA polymerase II transcription subunit 1",
+  "verified_status": "PASS",
+  "pocket_center": [
+    -23.84,
+    -21.14,
+    11.09
+  ],
+  "pocket_radius": 10.0,
+  "hotspot_residues": [
+    "CYS285A",
+    "GLN286A",
+    "MET364A",
+    "HIS449A",
+    "PHE282A",
+    "SER289A",
+    "ILE281A",
+    "GLY284A"
+  ],
+  "n_molecules": 500,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 3,
+  "status": "queued",
+  "campaign": "atlas_ranks26_50",
+  "_verification_note": "strategy=ligand_EDK_centroid|PPI_INTERFACE:PPARgamma NR-box interface (HET=EDK is on PPARg; MED1 LXXLL peptide at interface)",
+  "_title_audit": "TITLE-verified against 'Crystal structure of PPAR gamma in complex with Mediator of RNA polymerase II transcription subunit 1' using rule-dataset-verify-before-use. status=PASS. PDB ligand centroid used as pocket center."
+}

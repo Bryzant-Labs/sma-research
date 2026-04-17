@@ -1,0 +1,36 @@
+{
+  "id": "pocketxmol_atlas_ext_r46_ehbp1",
+  "type": "pocketxmol",
+  "target": "EHBP1_ATLAS_EXT_R46",
+  "rank": 46,
+  "uniprot": "Q8NDI1",
+  "gene": "EHBP1",
+  "pdb_id": "6ZSI",
+  "af_model": false,
+  "pdb_title": "The mechanism of activation of the actin binding protein EHBP1 by Rab8 family members.",
+  "verified_status": "PASS",
+  "pocket_center": [
+    54.38,
+    30.01,
+    42.05
+  ],
+  "pocket_radius": 10.0,
+  "hotspot_residues": [
+    "ASN160A",
+    "PHE163A",
+    "GLU159A",
+    "THR164A",
+    "ASP31B",
+    "ARG167A",
+    "ALA161A",
+    "PHE162A"
+  ],
+  "n_molecules": 500,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 3,
+  "status": "queued",
+  "campaign": "atlas_ranks26_50",
+  "_verification_note": "strategy=ligand_GNP_centroid|PPI_INTERFACE:Rab8 PPI interface (HET=GNP is on Rab8, pocket is EHBP1 CH-Rab8 face)",
+  "_title_audit": "TITLE-verified against 'The mechanism of activation of the actin binding protein EHBP1 by Rab8 family members.' using rule-dataset-verify-before-use. status=PASS. PDB ligand centroid used as pocket center."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "pocketxmol_atlas_ext_r38_ptpn13",
+  "type": "pocketxmol",
+  "target": "PTPN13_ATLAS_EXT_R38",
+  "rank": 38,
+  "uniprot": "Q12923",
+  "gene": "PTPN13",
+  "pdb_id": "7XTY",
+  "af_model": false,
+  "pdb_title": "Crystal Structure of the second PDZ domain from human PTPN13 in complex with APC peptide",
+  "verified_status": "PASS",
+  "pocket_center": [
+    14.67,
+    0.2,
+    2.72
+  ],
+  "pocket_radius": 10.0,
+  "hotspot_residues": [
+    "VAL1418A",
+    "ILE1380A",
+    "LEU1438A",
+    "LEU1447A",
+    "VAL1382A",
+    "VAL1397A",
+    "LEU1449A",
+    "ILE1412A"
+  ],
+  "n_molecules": 500,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 3,
+  "status": "queued",
+  "campaign": "atlas_ranks26_50",
+  "_verification_note": "strategy=apo_chainA_centroid_LITERATURE_REFINE_NEEDED",
+  "_title_audit": "TITLE-verified against 'Crystal Structure of the second PDZ domain from human PTPN13 in complex with APC peptide' using rule-dataset-verify-before-use. status=PASS. PDB ligand centroid used as pocket center."
+}

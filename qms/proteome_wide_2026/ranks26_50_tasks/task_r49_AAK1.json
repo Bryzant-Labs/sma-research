@@ -1,0 +1,36 @@
+{
+  "id": "pocketxmol_atlas_ext_r49_aak1",
+  "type": "pocketxmol",
+  "target": "AAK1_ATLAS_EXT_R49",
+  "rank": 49,
+  "uniprot": "Q2M2I8",
+  "gene": "AAK1",
+  "pdb_id": "5TE0",
+  "af_model": false,
+  "pdb_title": "Crystal Structure of Adaptor Protein 2 Associated Kinase (AAK1) in complex with BIBF 1120",
+  "verified_status": "PASS",
+  "pocket_center": [
+    -2.84,
+    -34.14,
+    -7.8
+  ],
+  "pocket_radius": 10.0,
+  "hotspot_residues": [
+    "LEU52A",
+    "PHE128A",
+    "GLY132A",
+    "CYS129A",
+    "LEU62A",
+    "LEU183A",
+    "ALA72A",
+    "VAL60A"
+  ],
+  "n_molecules": 500,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 3,
+  "status": "queued",
+  "campaign": "atlas_ranks26_50",
+  "_verification_note": "strategy=ligand_XIN_centroid",
+  "_title_audit": "TITLE-verified against 'Crystal Structure of Adaptor Protein 2 Associated Kinase (AAK1) in complex with BIBF 1120' using rule-dataset-verify-before-use. status=PASS. PDB ligand centroid used as pocket center."
+}

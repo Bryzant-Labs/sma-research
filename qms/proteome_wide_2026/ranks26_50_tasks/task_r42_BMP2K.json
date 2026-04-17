@@ -1,0 +1,36 @@
+{
+  "id": "pocketxmol_atlas_ext_r42_bmp2k",
+  "type": "pocketxmol",
+  "target": "BMP2K_ATLAS_EXT_R42",
+  "rank": 42,
+  "uniprot": "Q9NSY1",
+  "gene": "BMP2K",
+  "pdb_id": "",
+  "af_model": true,
+  "pdb_title": "AlphaFold-DB v4 model for Q9NSY1",
+  "verified_status": "AF_FALLBACK",
+  "pocket_center": [
+    3.66,
+    10.93,
+    -5.45
+  ],
+  "pocket_radius": 10.0,
+  "hotspot_residues": [
+    "THR225A",
+    "THR226A",
+    "MET1A",
+    "LYS222A",
+    "LYS223A",
+    "TYR224A",
+    "ARG230A",
+    "ASP180A"
+  ],
+  "n_molecules": 500,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 3,
+  "status": "queued",
+  "campaign": "atlas_ranks26_50",
+  "_verification_note": "no_title_match_in_top20_of_5|used_alphafold_model|strategy=af_fullmodel_centroid_REFINE_NEEDED",
+  "_title_audit": "TITLE-verified against 'AlphaFold-DB v4 model for Q9NSY1' using rule-dataset-verify-before-use. status=AF_FALLBACK. AlphaFold fallback (v6 latest): pocket = full-model centroid, needs refinement before wet-lab."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "pocketxmol_atlas_ext_r30_ahcyl2",
+  "type": "pocketxmol",
+  "target": "AHCYL2_ATLAS_EXT_R30",
+  "rank": 30,
+  "uniprot": "Q96HN2",
+  "gene": "AHCYL2",
+  "pdb_id": "",
+  "af_model": true,
+  "pdb_title": "AlphaFold-DB v4 model for Q96HN2",
+  "verified_status": "AF_FALLBACK",
+  "pocket_center": [
+    -4.09,
+    3.63,
+    -2.77
+  ],
+  "pocket_radius": 10.0,
+  "hotspot_residues": [
+    "ASP369A",
+    "LYS365A",
+    "GLU335A",
+    "ASN370A",
+    "THR539A",
+    "LEU536A",
+    "ASN360A",
+    "ASP310A"
+  ],
+  "n_molecules": 500,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 3,
+  "status": "queued",
+  "campaign": "atlas_ranks26_50",
+  "_verification_note": "no_title_match_in_top20_of_1|used_alphafold_model|strategy=af_fullmodel_centroid_REFINE_NEEDED",
+  "_title_audit": "TITLE-verified against 'AlphaFold-DB v4 model for Q96HN2' using rule-dataset-verify-before-use. status=AF_FALLBACK. AlphaFold fallback (v6 latest): pocket = full-model centroid, needs refinement before wet-lab."
+}

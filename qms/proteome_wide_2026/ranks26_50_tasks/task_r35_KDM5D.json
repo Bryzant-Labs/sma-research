@@ -1,0 +1,36 @@
+{
+  "id": "pocketxmol_atlas_ext_r35_kdm5d",
+  "type": "pocketxmol",
+  "target": "KDM5D_ATLAS_EXT_R35",
+  "rank": 35,
+  "uniprot": "Q9BY66",
+  "gene": "KDM5D",
+  "pdb_id": "",
+  "af_model": true,
+  "pdb_title": "AlphaFold-DB v4 model for Q9BY66",
+  "verified_status": "AF_FALLBACK",
+  "pocket_center": [
+    -6.14,
+    4.59,
+    -6.43
+  ],
+  "pocket_radius": 10.0,
+  "hotspot_residues": [
+    "ASP483A",
+    "LYS437A",
+    "VAL489A",
+    "ILE484A",
+    "ALA482A",
+    "SER485A",
+    "LYS488A",
+    "ASN481A"
+  ],
+  "n_molecules": 500,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 3,
+  "status": "queued",
+  "campaign": "atlas_ranks26_50",
+  "_verification_note": "no_experimental_pdb|used_alphafold_model|strategy=af_fullmodel_centroid_REFINE_NEEDED",
+  "_title_audit": "TITLE-verified against 'AlphaFold-DB v4 model for Q9BY66' using rule-dataset-verify-before-use. status=AF_FALLBACK. AlphaFold fallback (v6 latest): pocket = full-model centroid, needs refinement before wet-lab."
+}

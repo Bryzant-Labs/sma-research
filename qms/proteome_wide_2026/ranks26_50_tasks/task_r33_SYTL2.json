@@ -1,0 +1,36 @@
+{
+  "id": "pocketxmol_atlas_ext_r33_sytl2",
+  "type": "pocketxmol",
+  "target": "SYTL2_ATLAS_EXT_R33",
+  "rank": 33,
+  "uniprot": "Q9HCH5",
+  "gene": "SYTL2",
+  "pdb_id": "3BC1",
+  "af_model": false,
+  "pdb_title": "Crystal Structure of the complex Rab27a-Slp2a",
+  "verified_status": "PASS",
+  "pocket_center": [
+    11.18,
+    -0.64,
+    -14.25
+  ],
+  "pocket_radius": 10.0,
+  "hotspot_residues": [
+    "GLN12B",
+    "SER83E",
+    "LEU84A",
+    "ARG80E",
+    "GLN12F",
+    "LEU84E",
+    "ILE15B",
+    "SER83A"
+  ],
+  "n_molecules": 500,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 3,
+  "status": "queued",
+  "campaign": "atlas_ranks26_50",
+  "_verification_note": "strategy=ligand_GNP_centroid|PPI_INTERFACE:Rab27a PPI interface (HET=GNP is on Rab27a, pocket is Rab27-SYTL2 SHD contact)",
+  "_title_audit": "TITLE-verified against 'Crystal Structure of the complex Rab27a-Slp2a' using rule-dataset-verify-before-use. status=PASS. PDB ligand centroid used as pocket center."
+}

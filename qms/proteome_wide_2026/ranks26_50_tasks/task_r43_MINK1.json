@@ -1,0 +1,36 @@
+{
+  "id": "pocketxmol_atlas_ext_r43_mink1",
+  "type": "pocketxmol",
+  "target": "MINK1_ATLAS_EXT_R43",
+  "rank": 43,
+  "uniprot": "Q8N4C8",
+  "gene": "MINK1",
+  "pdb_id": "",
+  "af_model": true,
+  "pdb_title": "AlphaFold-DB v4 model for Q8N4C8",
+  "verified_status": "AF_FALLBACK",
+  "pocket_center": [
+    0.05,
+    7.59,
+    -7.81
+  ],
+  "pocket_radius": 10.0,
+  "hotspot_residues": [
+    "ASN186A",
+    "LYS1123A",
+    "LYS1128A",
+    "GLY1068A",
+    "GLU1125A",
+    "ARG1302A",
+    "GLU1067A",
+    "ARG184A"
+  ],
+  "n_molecules": 500,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 3,
+  "status": "queued",
+  "campaign": "atlas_ranks26_50",
+  "_verification_note": "no_pdbs|used_alphafold_model|strategy=af_fullmodel_centroid_REFINE_NEEDED",
+  "_title_audit": "TITLE-verified against 'AlphaFold-DB v4 model for Q8N4C8' using rule-dataset-verify-before-use. status=AF_FALLBACK. AlphaFold fallback (v6 latest): pocket = full-model centroid, needs refinement before wet-lab."
+}

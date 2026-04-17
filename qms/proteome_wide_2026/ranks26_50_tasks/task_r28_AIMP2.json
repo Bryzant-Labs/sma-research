@@ -1,0 +1,36 @@
+{
+  "id": "pocketxmol_atlas_ext_r28_aimp2",
+  "type": "pocketxmol",
+  "target": "AIMP2_ATLAS_EXT_R28",
+  "rank": 28,
+  "uniprot": "Q13155",
+  "gene": "AIMP2",
+  "pdb_id": "6ILD",
+  "af_model": false,
+  "pdb_title": "Crystal Structure of Human LysRS: P38/AIMP2 Complex II",
+  "verified_status": "PASS",
+  "pocket_center": [
+    -10.49,
+    5.13,
+    46.5
+  ],
+  "pocket_radius": 10.0,
+  "hotspot_residues": [
+    "ARG553B",
+    "PHE335B",
+    "ARG323B",
+    "HIS331B",
+    "GLU494B",
+    "THR330B",
+    "THR337B",
+    "GLY550B"
+  ],
+  "n_molecules": 500,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 3,
+  "status": "queued",
+  "campaign": "atlas_ranks26_50",
+  "_verification_note": "strategy=ligand_45A_centroid|PPI_INTERFACE:KARS-AIMP2 complex (HET=45A cofactor on KARS; AIMP2 p38 interaction face)",
+  "_title_audit": "TITLE-verified against 'Crystal Structure of Human LysRS: P38/AIMP2 Complex II' using rule-dataset-verify-before-use. status=PASS. PDB ligand centroid used as pocket center."
+}

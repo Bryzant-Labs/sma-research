@@ -1,0 +1,36 @@
+{
+  "id": "pocketxmol_atlas_ext_r32_mphosph10",
+  "type": "pocketxmol",
+  "target": "MPHOSPH10_ATLAS_EXT_R32",
+  "rank": 32,
+  "uniprot": "O00566",
+  "gene": "MPHOSPH10",
+  "pdb_id": "",
+  "af_model": true,
+  "pdb_title": "AlphaFold-DB v4 model for O00566",
+  "verified_status": "AF_FALLBACK",
+  "pocket_center": [
+    -5.99,
+    -1.4,
+    3.49
+  ],
+  "pocket_radius": 10.0,
+  "hotspot_residues": [
+    "VAL442A",
+    "ARG443A",
+    "LYS594A",
+    "LEU598A",
+    "VAL441A",
+    "GLU445A",
+    "ASP440A",
+    "LYS444A"
+  ],
+  "n_molecules": 500,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 3,
+  "status": "queued",
+  "campaign": "atlas_ranks26_50",
+  "_verification_note": "no_title_match_in_top20_of_1|used_alphafold_model|strategy=af_fullmodel_centroid_REFINE_NEEDED",
+  "_title_audit": "TITLE-verified against 'AlphaFold-DB v4 model for O00566' using rule-dataset-verify-before-use. status=AF_FALLBACK. AlphaFold fallback (v6 latest): pocket = full-model centroid, needs refinement before wet-lab."
+}

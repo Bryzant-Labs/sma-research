@@ -1,0 +1,36 @@
+{
+  "id": "pocketxmol_atlas_ext_r27_gja1",
+  "type": "pocketxmol",
+  "target": "GJA1_ATLAS_EXT_R27",
+  "rank": 27,
+  "uniprot": "P17302",
+  "gene": "GJA1",
+  "pdb_id": "",
+  "af_model": true,
+  "pdb_title": "AlphaFold-DB v4 model for P17302",
+  "verified_status": "AF_FALLBACK",
+  "pocket_center": [
+    -19.71,
+    1.93,
+    5.37
+  ],
+  "pocket_radius": 10.0,
+  "hotspot_residues": [
+    "SER18A",
+    "TYR17A",
+    "VAL14A",
+    "LEU93A",
+    "TYR92A",
+    "LYS23A",
+    "LYS13A",
+    "ALA16A"
+  ],
+  "n_molecules": 500,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 3,
+  "status": "queued",
+  "campaign": "atlas_ranks26_50",
+  "_verification_note": "FORCE_AF_post_title_audit:see_script|forced_af|used_alphafold_model|strategy=af_fullmodel_centroid_REFINE_NEEDED",
+  "_title_audit": "TITLE-verified against 'AlphaFold-DB v4 model for P17302' using rule-dataset-verify-before-use. status=AF_FALLBACK. AlphaFold fallback (v6 latest): pocket = full-model centroid, needs refinement before wet-lab."
+}

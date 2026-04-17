@@ -1,0 +1,33 @@
+{
+  "id": "pocketxmol_atlas_ext_r36_dennd1a",
+  "type": "pocketxmol",
+  "target": "DENND1A_ATLAS_EXT_R36",
+  "rank": 36,
+  "uniprot": "Q8TEH3",
+  "gene": "DENND1A",
+  "pdb_id": "6EKK",
+  "af_model": false,
+  "pdb_title": "Crystal structure of GEF domain of DENND 1A in complex with Rab GTPase Rab35-GDP bound state.",
+  "verified_status": "PASS",
+  "pocket_center": [
+    21.86,
+    8.14,
+    11.24
+  ],
+  "pocket_radius": 10.0,
+  "hotspot_residues": [
+    "ALA261A",
+    "ASN259A",
+    "MET260A",
+    "ARG258A",
+    "LEU262A"
+  ],
+  "n_molecules": 500,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 3,
+  "status": "queued",
+  "campaign": "atlas_ranks26_50",
+  "_verification_note": "strategy=ligand_GDP_centroid|PPI_INTERFACE:Rab35 PPI interface (HET=GDP is on Rab35, pocket is DENN-Rab35 catalytic face)",
+  "_title_audit": "TITLE-verified against 'Crystal structure of GEF domain of DENND 1A in complex with Rab GTPase Rab35-GDP bound state.' using rule-dataset-verify-before-use. status=PASS. PDB ligand centroid used as pocket center."
+}

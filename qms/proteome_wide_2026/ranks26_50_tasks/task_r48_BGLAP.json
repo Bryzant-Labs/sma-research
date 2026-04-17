@@ -1,0 +1,36 @@
+{
+  "id": "pocketxmol_atlas_ext_r48_bglap",
+  "type": "pocketxmol",
+  "target": "BGLAP_ATLAS_EXT_R48",
+  "rank": 48,
+  "uniprot": "P02818",
+  "gene": "BGLAP",
+  "pdb_id": "",
+  "af_model": true,
+  "pdb_title": "AlphaFold-DB v4 model for P02818",
+  "verified_status": "AF_FALLBACK",
+  "pocket_center": [
+    -15.69,
+    1.95,
+    15.44
+  ],
+  "pocket_radius": 10.0,
+  "hotspot_residues": [
+    "VAL45A",
+    "ARG48A",
+    "VAL46A",
+    "GLY42A",
+    "VAL37A",
+    "GLU44A",
+    "LYS47A",
+    "GLU41A"
+  ],
+  "n_molecules": 500,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 3,
+  "status": "queued",
+  "campaign": "atlas_ranks26_50",
+  "_verification_note": "FORCE_AF_post_title_audit:see_script|forced_af|used_alphafold_model|strategy=af_fullmodel_centroid_REFINE_NEEDED",
+  "_title_audit": "TITLE-verified against 'AlphaFold-DB v4 model for P02818' using rule-dataset-verify-before-use. status=AF_FALLBACK. AlphaFold fallback (v6 latest): pocket = full-model centroid, needs refinement before wet-lab."
+}

@@ -151,12 +151,38 @@ def download_pdb(pdb_id: str, dest: Path) -> Path:
 def download_af(uniprot: str, dest: Path) -> bool:
     if dest.exists() and dest.stat().st_size > 0:
         return True
-    url = f"https://alphafold.ebi.ac.uk/files/AF-{uniprot}-F1-model_v4.pdb"
+    # AlphaFold DB versioning: v4 deprecated, v6 is latest. Try API first to learn
+    # the current latest version, else fall back to v6→v5→v4.
+    candidate_urls = []
     try:
-        urllib.request.urlretrieve(url, str(dest))
-        return dest.stat().st_size > 0
+        api = json.loads(http_get(f"https://alphafold.ebi.ac.uk/api/prediction/{uniprot}"))
+        if isinstance(api, list) and api:
+            entry = api[0]
+            latest = entry.get("latestVersion") or 6
+            pdb_url = entry.get("pdbUrl")
+            if pdb_url:
+                candidate_urls.append(pdb_url)
+            candidate_urls.append(f"https://alphafold.ebi.ac.uk/files/AF-{uniprot}-F1-model_v{latest}.pdb")
     except Exception:
-        return False
+        pass
+    for v in (6, 5, 4):
+        candidate_urls.append(f"https://alphafold.ebi.ac.uk/files/AF-{uniprot}-F1-model_v{v}.pdb")
+
+    seen = set()
+    for url in candidate_urls:
+        if url in seen:
+            continue
+        seen.add(url)
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=40) as resp:
+                data = resp.read()
+            if data and len(data) > 2000:
+                dest.write_bytes(data)
+                return True
+        except Exception:
+            continue
+    return False
 
 
 def parse_atoms_het(pdb_path: Path, target_hets: set[str] | None = None):
@@ -361,6 +387,20 @@ def af_pocket(uniprot: str, work_dir: Path):
     return center, 10.0, hotspots, "af_fullmodel_centroid_REFINE_NEEDED"
 
 
+# After rule-dataset-verify audit, a few PDB ligand-centroids are on the partner protein
+# (GTPase) rather than the target itself — the pocket is then the PPI interface which
+# is a legitimate drug target but should be flagged. Others (GJA1 lipid nanodisc, BGLAP
+# antibody-bound) are invalid and must fall back to AlphaFold.
+FORCE_AF = {"GJA1", "BGLAP"}
+FLAG_PPI_INTERFACE = {
+    "SYTL2": "Rab27a PPI interface (HET=GNP is on Rab27a, pocket is Rab27-SYTL2 SHD contact)",
+    "DENND1A": "Rab35 PPI interface (HET=GDP is on Rab35, pocket is DENN-Rab35 catalytic face)",
+    "EHBP1": "Rab8 PPI interface (HET=GNP is on Rab8, pocket is EHBP1 CH-Rab8 face)",
+    "MED1": "PPARgamma NR-box interface (HET=EDK is on PPARg; MED1 LXXLL peptide at interface)",
+    "AIMP2": "KARS-AIMP2 complex (HET=45A cofactor on KARS; AIMP2 p38 interaction face)",
+}
+
+
 def main():
     header = [
         "rank", "uniprot", "gene", "pdb", "pdb_title", "resolution",
@@ -372,18 +412,24 @@ def main():
     for rank, uniprot, gene, desc in TARGETS:
         print(f"[rank {rank:2d}] {gene} ({uniprot}) — {desc}", file=sys.stderr)
         note_parts = []
-        try:
-            pdbs = uniprot_pdb_xrefs(uniprot)
-        except Exception as e:
+        # Audit override: force AlphaFold for known bad-ligand-centroid cases
+        if gene.upper() in FORCE_AF:
+            note_parts.append("FORCE_AF_post_title_audit:see_script")
             pdbs = []
-            note_parts.append(f"uniprot_err={e}")
-        chosen, reason = (None, "no_pdbs")
-        if pdbs:
+            chosen, reason = (None, "forced_af")
+        else:
             try:
-                chosen, reason = pick_best_pdb(gene, uniprot, pdbs)
+                pdbs = uniprot_pdb_xrefs(uniprot)
             except Exception as e:
-                reason = f"pick_err:{e}"
-                chosen = None
+                pdbs = []
+                note_parts.append(f"uniprot_err={e}")
+            chosen, reason = (None, "no_pdbs")
+            if pdbs:
+                try:
+                    chosen, reason = pick_best_pdb(gene, uniprot, pdbs)
+                except Exception as e:
+                    reason = f"pick_err:{e}"
+                    chosen = None
 
         status = "SKIPPED"
         pdb_id = ""
@@ -403,7 +449,8 @@ def main():
             note_parts.append(reason)
 
         # AlphaFold fallback if no PDB or pocket failed badly
-        if chosen is None:
+        need_af = (chosen is None) or (pocket[0] is None)
+        if need_af:
             try:
                 af_center, af_r, af_hot, af_strategy = af_pocket(uniprot, AF_DIR)
                 if af_center:
@@ -421,6 +468,8 @@ def main():
         if center:
             cx, cy, cz = [str(v) for v in center]
         note_parts.append(f"strategy={strategy}")
+        if gene.upper() in FLAG_PPI_INTERFACE:
+            note_parts.append(f"PPI_INTERFACE:{FLAG_PPI_INTERFACE[gene.upper()]}")
         row = [
             str(rank), uniprot, gene, pdb_id, title, resolution,
             cx, cy, cz, f"{radius:.1f}",

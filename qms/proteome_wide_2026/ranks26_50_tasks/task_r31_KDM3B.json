@@ -1,0 +1,36 @@
+{
+  "id": "pocketxmol_atlas_ext_r31_kdm3b",
+  "type": "pocketxmol",
+  "target": "KDM3B_ATLAS_EXT_R31",
+  "rank": 31,
+  "uniprot": "Q7LBC6",
+  "gene": "KDM3B",
+  "pdb_id": "5RAR",
+  "af_model": false,
+  "pdb_title": "PanDDA analysis group deposition -- Crystal Structure of JMJD1B in complex with TD000005c",
+  "verified_status": "PASS",
+  "pocket_center": [
+    -20.38,
+    90.84,
+    141.64
+  ],
+  "pocket_radius": 10.0,
+  "hotspot_residues": [
+    "LYS1422A",
+    "GLU1608A",
+    "SER1418A",
+    "LYS1607A",
+    "GLY1419A",
+    "HIS1421A",
+    "HIS1394A",
+    "ARG1602A"
+  ],
+  "n_molecules": 500,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 3,
+  "status": "queued",
+  "campaign": "atlas_ranks26_50",
+  "_verification_note": "strategy=ligand_S9D_centroid",
+  "_title_audit": "TITLE-verified against 'PanDDA analysis group deposition -- Crystal Structure of JMJD1B in complex with TD000005c' using rule-dataset-verify-before-use. status=PASS. PDB ligand centroid used as pocket center."
+}

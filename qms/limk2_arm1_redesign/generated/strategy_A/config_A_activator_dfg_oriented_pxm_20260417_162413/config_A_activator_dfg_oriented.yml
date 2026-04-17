@@ -1,0 +1,69 @@
+sample:
+  seed: 2024
+  batch_size: 50
+  num_mols: 500
+  save_traj_prob: 0.01
+  complete_seed: 12348
+data:
+  protein_path: /root/results_limk2_arm1/4tpt_chainA_apo.pdb
+  is_pep: false
+  pocket_args:
+    pocket_coord:
+    - 7.629
+    - -8.294
+    - 17.021
+    radius: 10
+  pocmol_args:
+    data_id: limk2_arm1_A_activator_dfg
+    pdbid: 4TPT
+transforms:
+  featurizer_pocket:
+    center:
+    - 7.629
+    - -8.294
+    - 17.021
+  variable_mol_size:
+    name: variable_mol_size
+    num_atoms_distri:
+      strategy: mol_atoms_based
+      mean:
+        coef: 0
+        bias: 28
+      std:
+        coef: 0
+        bias: 2
+      min: 5
+task:
+  name: sbdd
+  transform:
+    name: ar
+    part1_pert: small
+noise:
+  name: maskfill
+  num_steps: 100
+  ar_config:
+    strategy: refine
+    r: 3
+    threshold_node: 0.98
+    threshold_pos: 0.91
+    threshold_bond: 0.98
+    max_ar_step: 10
+    change_init_step: 1
+  prior:
+    part1: from_train
+    part2: from_train
+  level:
+    part1:
+      name: uniform
+      min: 0.6
+      max: 1.0
+    part2:
+      name: advance
+      min: 0.0
+      max: 1.0
+      step2level:
+        scale_start: 0.99999
+        scale_end: 1.0e-05
+        width: 3
+model:
+  checkpoint: data/trained_models/pxm/checkpoints/pocketxmol.ckpt

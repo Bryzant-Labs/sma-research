@@ -1,0 +1,12 @@
+{
+  "total_generated": 485,
+  "after_lipinski": 438,
+  "after_QED_0.4": 413,
+  "after_BBB_0.5": 147,
+  "after_strategy_specific": 27,
+  "by_strategy": {
+    "A": 27,
+    "B": 0,
+    "C": 0
+  }
+}

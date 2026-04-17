@@ -1,0 +1,36 @@
+{
+  "id": "pocketxmol_atlas_ext_r39_tmpo",
+  "type": "pocketxmol",
+  "target": "TMPO_ATLAS_EXT_R39",
+  "rank": 39,
+  "uniprot": "P42166",
+  "gene": "TMPO",
+  "pdb_id": "",
+  "af_model": true,
+  "pdb_title": "AlphaFold-DB v4 model for P42166",
+  "verified_status": "AF_FALLBACK",
+  "pocket_center": [
+    -13.3,
+    8.34,
+    -3.94
+  ],
+  "pocket_radius": 10.0,
+  "hotspot_residues": [
+    "GLU635A",
+    "ALA583A",
+    "LEU580A",
+    "PHE224A",
+    "ALA587A",
+    "THR584A",
+    "ALA579A",
+    "ILE227A"
+  ],
+  "n_molecules": 500,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 3,
+  "status": "queued",
+  "campaign": "atlas_ranks26_50",
+  "_verification_note": "no_title_match_in_top20_of_5|used_alphafold_model|strategy=af_fullmodel_centroid_REFINE_NEEDED",
+  "_title_audit": "TITLE-verified against 'AlphaFold-DB v4 model for P42166' using rule-dataset-verify-before-use. status=AF_FALLBACK. AlphaFold fallback (v6 latest): pocket = full-model centroid, needs refinement before wet-lab."
+}

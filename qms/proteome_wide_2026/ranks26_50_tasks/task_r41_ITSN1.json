@@ -1,0 +1,36 @@
+{
+  "id": "pocketxmol_atlas_ext_r41_itsn1",
+  "type": "pocketxmol",
+  "target": "ITSN1_ATLAS_EXT_R41",
+  "rank": 41,
+  "uniprot": "Q15811",
+  "gene": "ITSN1",
+  "pdb_id": "6H5T",
+  "af_model": false,
+  "pdb_title": "Intersectin SH3A short isoform",
+  "verified_status": "PASS",
+  "pocket_center": [
+    35.34,
+    25.27,
+    39.99
+  ],
+  "pocket_radius": 10.0,
+  "hotspot_residues": [
+    "SER753B",
+    "PHE751B",
+    "GLU752B",
+    "ILE759B",
+    "THR760B",
+    "ILE761B",
+    "GLU758B",
+    "ARG754B"
+  ],
+  "n_molecules": 500,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 3,
+  "status": "queued",
+  "campaign": "atlas_ranks26_50",
+  "_verification_note": "strategy=ligand_7PG_centroid",
+  "_title_audit": "TITLE-verified against 'Intersectin SH3A short isoform' using rule-dataset-verify-before-use. status=PASS. PDB ligand centroid used as pocket center."
+}

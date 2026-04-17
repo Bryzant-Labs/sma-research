@@ -1,0 +1,36 @@
+{
+  "id": "pocketxmol_atlas_ext_r40_ezh1",
+  "type": "pocketxmol",
+  "target": "EZH1_ATLAS_EXT_R40",
+  "rank": 40,
+  "uniprot": "Q92800",
+  "gene": "EZH1",
+  "pdb_id": "7TD5",
+  "af_model": false,
+  "pdb_title": "Structure of human PRC2-EZH1 containing phosphorylated SUZ12",
+  "verified_status": "PASS",
+  "pocket_center": [
+    19.33,
+    91.25,
+    69.94
+  ],
+  "pocket_radius": 10.0,
+  "hotspot_residues": [
+    "ARG355B",
+    "ASP357B",
+    "ASP357G",
+    "SER69B",
+    "SER69G",
+    "GLU325B",
+    "TRP70B",
+    "SER71B"
+  ],
+  "n_molecules": 500,
+  "batch_size": 50,
+  "project": "SMA",
+  "priority": 3,
+  "status": "queued",
+  "campaign": "atlas_ranks26_50",
+  "_verification_note": "strategy=ligand_SAM_centroid",
+  "_title_audit": "TITLE-verified against 'Structure of human PRC2-EZH1 containing phosphorylated SUZ12' using rule-dataset-verify-before-use. status=PASS. PDB ligand centroid used as pocket center."
+}
