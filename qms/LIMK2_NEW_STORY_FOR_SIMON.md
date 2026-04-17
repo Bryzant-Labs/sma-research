@@ -105,17 +105,32 @@ Given the corrected signature, we did not abandon the program — we split it in
 - **Claim citation:** CLAIMS_REGISTRY.md row #9 (LIMK2 model-system-dependence, APPROVED) justifies why the activator hypothesis was on the table; but claim #9 alone does not support advancing any specific compound from this library. A new CLAIMS_REGISTRY row is required to flag Arm 1 as "exploratory — library redesign pending" rather than "lead delivered".
 - **Cross-reference:** Incident 2026-04-17-005 in `CORRECTIONS_LOG.md` for the retraction ledger entry.
 
-### Arm 2 — ROCK2-αC ACTIVATOR (robust meta target, sister-axis)
+### Arm 2 — ROCK2-αC ACTIVATOR (robust meta target, sister-axis) — **VALIDATED 2026-04-17 evening (affinity-head 241-compound rerun)**
 
-- **Rationale:** ROCK2 is the one robust meta-level hit (pooled -0.254, p=9.0e-5, I²=56% = moderate magnitude heterogeneity). All 5 per-dataset log2FC values are negative (GSE290979 -0.079, GSE302774-Hb9-iMN -0.161, GSE302774-iN -0.336, GSE87281-hiPSC-MN -0.342, GSE87281-SH-SY5Y -0.451) — direction is consistent across all contrasts; heterogeneity is in effect-size magnitude, not sign. If ROCK2 is DOWN across every SMA-MN model tested, ROCK2 **activation** (not inhibition) is the rescue direction — parallel to the LIMK2-activator logic in Hb9-iMN/iN. No ROCK2 activator exists clinically; again first-in-class.
-- **Target:** ROCK2 αC-helix allosteric pocket (PDB 4L6Q chain A; αC helix residues 143-167; pocket center 5.6/-4.8/-33.1 Å; 8.6 Å to K121 β3-Lys, 9.1 Å to E170 αC-Glu, 10.7 Å to D232 DFG-Asp).
-- **Pipeline:** PocketXMol (600 mol, Michigan A100, 2:53 wall-clock, 40.2% reconstruction success) → RDKit + Lipinski + BBB hardfilter (31 pass) → Boltz-2 rescore on sma-h100-two:8003 batched server (23/31 = 74% completion; 8 persistent server-side connection errors, documented).
-- **Top hit (recommended lead):**
-  `ClC1CCCC2NC(CNC3CCN(c4cccnc4)C3)NCC12`
-  Boltz-2 iptm 0.953, QED 0.72, MW 350, logP 1.54. Piperidine + pyridine scaffold, kinase-friendly, no obvious reactive groups. Ranks 1, 2, 4 in the top-10 contain hydrazine/azo fragments that need medchem triage first; rank 3 is the cleanest high-iptm lead.
-- **Full RESULTS:** `/home/bryza/sma-research/qms/rock2_activator_RESULTS.md` (DRAFT, triple_llm_verify pre-rescore PASS 3/3; post-rescore TODO).
-- **Hard caveat:** the meta-analysis magnitude is modest (~18% reduction). Statistically robust but translation from transcript-level DOWN to functional hypokinesis of ROCK2 *activity* is an inference, not a measured quantity. PocketXMol generates plausible αC-binders; distinguishing activator vs inhibitor chemistry requires in vitro enzymatic assay.
-- **Claim citation:** CLAIMS_REGISTRY.md row #10 (ROCK2 robust DOWN, APPROVED).
+> **Arm 2 survived the affinity-head audit.** Unlike Arm 1 (LIMK2-αC) which retracted at 0 nM-range binders, ROCK2-αC produced **48 / 241 (19.9 %)** affinity-binary-gate survivors under calibrated Ki, with **1 compound (328.sdf) confirmed PASS by BOTH affinity head AND orthogonal 15-kinase z-score panel** (z_ROCK2 +0.74, sel_z +0.80). Validation audit: Incident 2026-04-17-006 in `CORRECTIONS_LOG.md`. A 15-kinase panel on the top-15 chemotype-clean survivors is running at the time of this write-up to expand the dual-orthogonal-confirmed set.
+
+- **Rationale (unchanged):** ROCK2 is the one robust meta-level hit (pooled −0.254, p=9.0e-5, I²=56% = moderate magnitude heterogeneity). All 5 per-dataset log2FC values are negative (GSE290979 −0.079, GSE302774-Hb9-iMN −0.161, GSE302774-iN −0.336, GSE87281-hiPSC-MN −0.342, GSE87281-SH-SY5Y −0.451) — direction is consistent across all contrasts; heterogeneity is in effect-size magnitude, not sign. If ROCK2 is DOWN across every SMA-MN model tested, ROCK2 **activation** (not inhibition) is the rescue direction — parallel to the LIMK2-activator logic in Hb9-iMN/iN. No ROCK2 activator exists clinically; first-in-class.
+- **Target:** ROCK2 αC-helix allosteric pocket (PDB 4L6Q chain A; αC helix residues 143-167; pocket center 5.6/−4.8/−33.1 Å; 8.6 Å to K121 β3-Lys, 9.1 Å to E170 αC-Glu, 10.7 Å to D232 DFG-Asp).
+- **Scoring rebuilt (2026-04-17 evening):** Boltz-2 **affinity head** with ROCK2 calibration of record (slope 0.880, intercept 2.960, RMSE 0.693 log10-Ki, R² 0.528, n=20 ChEMBL Ki pairs, fits-of-record `/home/bryza/sma-research/qms/chembl_ki_affinity_head/fits.json`). Primary gate: `affinity_probability_binary > 0.3`. Secondary gate: calibrated Ki_nM + 95 % PI. Tertiary gate: z-score on 15-kinase Boltz-2 iptm panel (z_ROCK2 > 0 AND sel_z > 0).
+- **Pipeline re-audit:** PocketXMol (600 mol, Michigan A100, 2:53 wall-clock, 40.2 % reconstruction success → 241 valid) → **full 241-compound Boltz-2 affinity-head rerun on sma-h100-two** (H100 PCIe, 29m 35s wall, 0 failed examples, $0 marginal self-host cost). 48 / 241 pass binary gate (19.9 %); 43 of 48 chemotype-clean (no azide / poly-azo / poly-cation ≥ 3); 5 pass all of binary-gate + BBB-heuristic + chemotype-clean.
+- **Top hit (validated dual-orthogonal):**
+  `Clc1ccc2c(n1)NC(NC1CCCc3c(nc4ccncnc3-4)C1)C2` (328.sdf, originally iptm-rank-1)
+  - Calibrated Ki = **128 nM** (95 % PI 5.6 nM – 2.9 µM per R² 0.53 wide-fit)
+  - `affinity_probability_binary` = **0.442 PASS**
+  - Boltz-2 iptm_ROCK2 = 0.971, **z_ROCK2 = +0.744 PASS**, **sel_z = +0.797 PASS** (15-kinase panel; confirmed ROCK2 > LIMK1/LIMK2/ROCK1/JAK1-3/CDK2/CDK5/SRC/FYN/LCK/PAK1/PAK4/MAPK14 on Boltz-2 iptm z-score axis)
+  - Boltz-2 iptm_new (ROCK2) = 0.974, ptm 0.930, plddt 0.876
+  - QED 0.536, MW 367, logP 2.86, TPSA 75.6 Å², HBD 2 — **BBB-heuristic PASS**
+  - Chemotype: chloropyridine + pyrimido-pyridine fused bicycle linked via N-C-N to a cyclohexane-fused-pyridine. No azide, no polycation, no hydrazine — **clean drug-like kinase-binder scaffold**.
+  - **This is the only compound in the 241-library confirmed by BOTH orthogonal scoring systems.** The prior "recommended lead" 533.sdf (iptm-rank-3 piperidine-pyridine) did not survive the affinity-head audit (prob 0.130, Ki 283 nM, affinity FAIL).
+- **Backup clean leads (affinity-gate PASS, BBB PASS, no z-panel data yet — fresh panel running at write-up time):**
+  - 52.sdf `OC(NCc1cccc(Cl)c1)C1=NC2=CC=CC=CC2=Nc2ccccc21`, 76 nM point, QED 0.78 — chemotype: chloro-benzyl-amino phenazine, wide PI
+  - 39.sdf `O=c1c2ccc(O)ccc-2c2c(N3CCOCC3)cc3ccccc3n12`, 316 nM point, QED 0.57, BBB-Y — morpholinyl pyrimidoquinoline, clean kinase chemotype
+- **Full RESULTS:** `/home/bryza/sma-research/qms/rock2_activator_RESULTS.md` §0 Validation Note + §4 existing pipeline. Triple-LLM v2 gate pending. Raw outputs at `/home/bryza/sma-research/qms/rock2_affinity_rerun/` and ranked TSVs at `/home/bryza/fleet-results/rock2_activator_alphaC/top_hits_affinity_v2.tsv` (48 survivors) + `top_hits_affinity_v2_clean.tsv` (43 chemotype-clean) + `full_affinity_ranked_v2.tsv` (241 full audit).
+- **Hard caveat 1 (unchanged):** meta-analysis magnitude is modest (~18 % reduction). Statistically robust but translation from transcript-level DOWN to functional hypokinesis of ROCK2 *activity* is an inference, not measured. PocketXMol generates plausible αC-binders; distinguishing activator vs inhibitor chemistry requires in vitro enzymatic assay (Kinase-Glo, IMAP).
+- **Hard caveat 2 (new, quantified):** ROCK2 calibration R² is 0.528 (vs LIMK2 R² 0.690). Ki 95 % PI is ~4.9× multiplicative for ROCK2 vs 2.4× for LIMK2. Point Ki 128 nM has 95 % PI 5.6 nM – 2.9 µM — wet-lab triage should be batch-of-5 not single-compound.
+- **Hard caveat 3 (SMA-Score anchor mismatch, documented):** pipeline audit af9c9a90 reported SMA-Score Ranker 0 / 241 pass, but SMA-Score POS set is 15 ATP-site kinase inhibitors (Fasudil, LIMKi3, BMS5, Y27632, Ripasudil, etc.) while our library is αC-allosteric. Mode mismatch, not library-quality failure. Decision criterion here is affinity-head + selectivity panel, which validates the library.
+- **Claim citation:** CLAIMS_REGISTRY.md row #10 (ROCK2 robust DOWN, APPROVED). The 328.sdf validated hit is supported by this claim; any specific-compound wet-lab advance requires medchem triage + MD + Christian sign-off first.
+- **Cross-reference:** Incident 2026-04-17-006 in `CORRECTIONS_LOG.md` for the validation ledger entry (parallel to Incident 2026-04-17-005 which retracted Arm 1).
 
 ### Arm 3 — PERP ECL BINDER (Simon's specific NMJ request)
 
@@ -128,17 +143,42 @@ Given the corrected signature, we did not abandon the program — we split it in
 - **Hard caveat:** iptm 0.49-0.60 is in the "possible binder" zone (Ko et al. 2024), not "confirmed binder". PERP's native ECLs have disulfide bonds (ECL1 C19-C21, C45-C47) that our RFdiffusion contigs did not restrain — the designed binders may not present the same ECL conformation as the native oxidized folded loops. Next-round recommendation: rebuild ECL core PDBs with SSbond records. Real PERP is plasma-membrane-embedded; we did not model membrane context.
 - **Claim citation:** CLAIMS_REGISTRY.md row #6 (PERP DOWN in SMA MN per-contrast, APPROVED).
 
-### Arm 4 — MDM2 ACTIVATOR / ALLOSTERIC ENHANCER (reduce pathologically elevated TP53)
+### Arm 4 — MDM2 **RETRACTED / REDUCED** (see §1.4 Retraction block below)
 
-- **Rationale:** TP53 is mildly but consistently UP in SMA MN (pooled +0.260, p=0.030, 4/5 contrasts UP; consistent with your published p53-activation-in-SMA-MN story PMID 29281826 + 36419936). Rational rescue direction: activate MDM2 → increase p53 ubiquitination + proteasomal turnover → reduce p53 apoptotic signalling in SMA MN. All clinical MDM2 programs (Nutlin-3a, RG7112, idasanutlin, NVP-CGM097, HDM201) are INHIBITORS for oncology; an MDM2 activator is category-orthogonal and first-in-class.
-- **Target:** MDM2 p53-binding domain (PDB 4HG7, chain A, residues 17-125). Pocket derived from Nutlin-3a crystal coordinates (center -23.8 / +7.5 / -14.1, radius 10 Å).
+> **STATUS 2026-04-17 (latest):** V2 RING-allosteric-activator hypothesis is **computationally unprovable from our toolchain** (4 orthogonal compute paths all came back inconclusive or negative; full retraction document: `/home/bryza/sma-research/qms/MDM2_V2_RING_LASTSHOT_RESULTS.md`). V1 remains defined but is an orthosteric INHIBITOR direction (stabilizes p53, OPPOSITE of the SMA activator rationale). **This arm therefore no longer provides the first-in-class SMA-specific mechanism originally claimed. Recommended action: drop from 4-arm deliverable, OR re-frame as a tool-compound line.**
+
+#### 1.4.a Original Arm 4 V1 (orthosteric, p53-cleft) — now understood as INHIBITOR direction
+
+- **Rationale (unchanged):** TP53 is mildly but consistently UP in SMA MN (pooled +0.260, p=0.030, 4/5 contrasts UP; consistent with your published p53-activation-in-SMA-MN story PMID 29281826 + 36419936). Rational rescue direction *if we could achieve it*: activate MDM2 → increase p53 ubiquitination + proteasomal turnover → reduce p53 apoptotic signalling in SMA MN.
+- **Target (V1):** MDM2 p53-binding domain (PDB 4HG7, chain A, residues 17-125). Pocket derived from Nutlin-3a crystal coordinates (center -23.8 / +7.5 / -14.1, radius 10 Å).
 - **Pipeline:** PocketXMol (600 mol, Slovenia A100 SXM 80GB, 2 min 35 s, ~$0.03) → RDKit (525 valid) → Lipinski Ro5 (409) → BBB hardfilter (250).
-- **Top hit by QED:**
+- **Top hit by QED (retained as a structural record, NOT as a lead):**
   `C[C@@H]1NC(=O)C2=C1CCCc1nn(C[C@@H](C)c3ccccc3)cc12`
-  QED 0.943, MW 321, logP 3.30. Pyrazolo-fused bicycle with benzyl substitution. Distinct chemotype from the Nutlin-family inhibitor class.
+  QED 0.943, MW 321, logP 3.30.
 - **Full RESULTS:** `/home/bryza/sma-research/qms/mdm2_activator_RESULTS.md` (triple_llm_verify 3/3 PASS).
-- **Hard caveat:** MDM2 activation for SMA is novel and un-validated clinically. Critically, the pocket targeted IS the Nutlin p53-binding cleft — many generated compounds will act as p53-stabilizer INHIBITORS, which is the *wrong* direction for SMA. Mechanistic triage post-Boltz-2: compounds that preserve MDM2-p53-peptide iptm while binding MDM2 in adjacent/around position = candidate activators. Compounds that displace p53 peptide = inhibitors, discard.
-- **Claim citation:** CLAIMS_REGISTRY.md row #7 (TP53 mild UP in SMA MN, APPROVED).
+- **V1 is an INHIBITOR arm, not an activator arm.** The V1 pocket IS the Nutlin-3a cleft. Compounds designed there will competitively displace the p53 peptide (exactly the Nutlin/HDM201/idasanutlin oncology mechanism). Direction for SMA = WRONG. We documented this caveat in the V1 RESULTS § "Hard caveat" but for the 4-arm Simon pack it means V1 cannot serve as the "activator" claim.
+
+#### 1.4.b V2 (RING allosteric activator) — RETRACTED
+
+- V2 designed against AlphaFold MDM2 RING domain (aa 430-491) Zn-distal face to **allosterically enhance E3-ligase processivity** while leaving the p53-binding cleft free. This would have been the first-in-class SMA-specific MDM2 activator.
+- **Four sequential compute probes:**
+  1. PocketXMol generation (600 mol, 80% success) — **produced compounds**, but this only shows generation is feasible, not that the pocket is real.
+  2. Boltz-2 3-body triage (MDM2-17-125 + TP53-peptide + compound) — **inconclusive** (domain-mismatch confound; V2 compounds were designed against residues absent in the 17-125 truncate).
+  3. Boltz-2 full-length MDM2 3-body cofold — **failed** (Boltz-2 prior pushed every V2 compound to the N-term Nutlin cleft regardless of design intent; 0/20 compounds within 5 Å of Cys464/475).
+  4. **DiffDock v1.1 on RING fragment only** (this "last shot", 2026-04-17) — **0/20 compounds pass** the pre-registered three-gate test (confidence > negative-control noise + correct pocket + Zn-finger Cys contact). Full report: `MDM2_V2_RING_LASTSHOT_RESULTS.md`. Additionally, EtOH (a generic small molecule) out-scored every V2 compound on this receptor — a calibration warning that the designed "druggable cavity" on AlphaFold RING may be an AI-inflated artefact rather than a real pocket.
+- **Conclusion:** V2 activator hypothesis is **computationally unprovable** with our current toolchain. This does **not** definitively falsify MDM2 RING-binder activators in reality (wet-lab auto-ubiquitination ELISA could still rescue one of the 20 compounds) but it does mean **we cannot present this arm as validated to Simon**.
+- **Compute cost to learn this:** ~$5 over the campaign lifetime (well-spent — negative results have the same QMS status as positive).
+
+#### 1.4.c What this means for the 4-arm deliverable
+
+- **Before retraction:** "4 orthogonal attack vectors — LIMK2 activator (MN-intrinsic), ROCK2-αC activator (MN-intrinsic), MDM2 activator (reduce p53), PERP binder (NMJ)".
+- **After retraction:** 3 orthogonal attack vectors (LIMK2, ROCK2, PERP) plus **MDM2-V1 which is an inhibitor, wrong-direction for SMA**.
+- **Suggested re-frame options** (Christian to choose):
+  - **Option A (conservative):** Remove Arm 4 entirely from the Simon pack; offer a 3-arm deliverable. Most honest.
+  - **Option B (keep as negative evidence):** Retain Arm 4 as "computationally characterised as intractable via current pipelines — documents the limit of first-in-class allosteric activator design against MDM2 RING". Value to Simon = methodological transparency.
+  - **Option C (re-cast):** Frame V1 as a tool-compound line (MDM2 inhibitor → p53-stabilizer in iPSC-MN cultures, useful *experimental reagent* for validating the TP53-UP claim, not a therapeutic lead).
+- **Retraction trail:** this section, plus `MDM2_V2_RING_LASTSHOT_RESULTS.md`, plus `mdm2_mechanism_triage_RESULTS.md` (§ 5 inconclusive), plus `mdm2_fulllength_triage_RESULTS.md`. All 4 files document the same conclusion from 4 different compute angles.
+- **Claim citation (unchanged):** CLAIMS_REGISTRY.md row #7 (TP53 mild UP in SMA MN, APPROVED) justifies the *biological* rationale; it does **not** endorse any particular compound from Arm 4.
 
 ---
 
@@ -158,7 +198,7 @@ Murcko scaffolds: **20 unique / 20 compounds in each arm** (all singletons). No 
 
 PERP is the 4th arm — mini-protein binders, not small molecules — and is chemotypically orthogonal to the small-molecule arms by modality. Fasudil itself has ECFP4 Tanimoto < 0.15 to all 60 top small-molecule leads: our compounds are **not a fasudil-like chemotype series**.
 
-**Conclusion:** the 4 arms are 4 independent attack vectors. No single chemotype-specific liability can defeat all four. This is the scientifically correct outcome for a pocket-aware generative pipeline targeting 4 structurally dissimilar sites; it is a QC-pass, not a weakness.
+**Conclusion:** the 4 arms were designed as 4 independent attack vectors. After the 2026-04-17 Arm 4 V2 retraction (see § 1.4), the deliverable narrative is **3 validated-at-compute-level arms (LIMK2, ROCK2, PERP) + 1 retracted arm (MDM2)**. The SAR orthogonality finding remains valid across the 3 retained arms. The MDM2 scaffold set (arm 4) is chemotypically distinct from LIMK2/ROCK2 but mechanistically wrong-direction for SMA and should be treated as a negative-result catalogue, not a lead series.
 
 ---
 
@@ -188,7 +228,7 @@ Our ROCK2-αC activators (Arm 2) are **not** fasudil analogues — zero Tanimoto
 
 1. **Which cell model is your clinical-reference?** The LIMK2 direction depends on this. Hb9-iMN + cortical iN (Lauria 2025) say DOWN → activator. SH-SY5Y + hiPSC-MN shSMN (Jangi 2017) say UP → inhibitor. We have both arms scoped; your position on which model maps to patient MN would let us commit to one direction and sink the other.
 2. **Bowerman muscle-layer vs MN-intrinsic pathology — which dominates in the patients your group works with?** This determines whether Fasudil stays on the table as muscle-adjunct or is ruled out entirely.
-3. **Which of the 4 arms do you want to prioritise for wet-lab validation?** PERP is scoped specifically for your NMJ work. LIMK2 + ROCK2 + MDM2 are MN-intrinsic. Resource sequencing depends on your priority order.
+3. **Which of the remaining 3 arms do you want to prioritise for wet-lab validation?** PERP is scoped specifically for your NMJ work. LIMK2 + ROCK2 are MN-intrinsic. **Arm 4 (MDM2) retracted** (see § 1.4): computationally unprovable as activator; V1 is inhibitor-direction only and wrong for SMA. Resource sequencing depends on your priority order among LIMK2 / ROCK2 / PERP.
 4. **PERP disulfides + membrane context:** our RFdiffusion contigs did not restrain ECL1 C19-C21 / C45-C47 SSbonds, and did not model the plasma-membrane context. Are these next-round priorities for you, or will SPR against a soluble PERP-ECD fragment be your near-term wet-lab readout?
 5. **IP-novelty:** the 60 top small-molecule Murcko scaffolds (`scripts/out/murcko_cluster_per_arm.csv`) have not been screened against your group's patent-watch list. Is that a priority before any mentioning of specific SMILES externally?
 
@@ -201,6 +241,7 @@ Our ROCK2-αC activators (Arm 2) are **not** fasudil analogues — zero Tanimoto
 - LIMK2 direction is not settled by our work. We have scoped both activator (this document) and inhibitor arms; the inhibitor arm showed pan-kinase scaffolds (0/4 selective, documented as DEADEND). The choice is yours on the basis of your model-system expertise.
 - Fasudil is not validated as an SMA therapy. The two-layer diagram is a decision framework, not an endorsement.
 - The "4-arm orthogonality" claim is SAR-level (scaffold distinctness), not mechanism-level. Two arms targeting related kinase fold-families can be biochemically redundant even with 0 % scaffold overlap; this needs kinase panel data before external claim.
+- **Arm 4 (MDM2) is retracted as an activator candidate (2026-04-17).** 4 orthogonal compute probes could not confirm RING-binding. We do NOT claim an MDM2 activator from this work. V1 (orthosteric) compounds exist in the record but are an inhibitor-direction arm, which is the wrong direction for SMA. Simon pack should reflect 3 validated arms, not 4.
 - **Boltz-2 iptm is not a Ki metric** (per agent ae345009 LIMK2 calibration, R² iptm-vs-Ki = 0.007). We used it as an off-target geometry tiebreaker only. Affinity-head (R² 0.690 LIMK2) is the new primary Ki signal for this and downstream arms.
 
 ---

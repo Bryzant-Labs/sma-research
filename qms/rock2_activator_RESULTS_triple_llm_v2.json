@@ -1,0 +1,38 @@
+{
+  "OpenAI GPT-4o": {
+    "verdict": "PASS",
+    "blocking_issues": [],
+    "non_blocking_suggestions": [
+      "Consider providing more detailed information on the fresh 15-kinase panel results once available.",
+      "Clarify the specific criteria for the BBB-pass designation to ensure consistency in interpretation."
+    ],
+    "dataset_identity": "OK",
+    "effect_size_plausibility": "OK",
+    "citation_traceability": "OK",
+    "narrative_consistency": "OK",
+    "risk_flags": "OK"
+  },
+  "Groq Llama-3.3-70B": {
+    "verdict": "PASS",
+    "blocking_issues": [],
+    "non_blocking_suggestions": [
+      "Consider adding more details about the wet-lab progression plan",
+      "Provide more information about the 15-kinase panel used for selectivity assessment"
+    ],
+    "dataset_identity": "OK",
+    "effect_size_plausibility": "OK",
+    "citation_traceability": "OK",
+    "narrative_consistency": "OK",
+    "risk_flags": "OK"
+  },
+  "Gemini 2.0 Flash": {
+    "verdict": "PASS",
+    "blocking_issues": [],
+    "non_blocking_suggestions": [],
+    "dataset_identity": "OK",
+    "effect_size_plausibility": "OK",
+    "citation_traceability": "OK",
+    "narrative_consistency": "OK",
+    "risk_flags": "OK"
+  }
+}

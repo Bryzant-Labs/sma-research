@@ -1,0 +1,16 @@
+filename,canonical_smiles,cfd_pos,QED,Ki_nM,prob_binary,bbb_heuristic
+52.sdf,OC(NCc1cccc(Cl)c1)C1=NC2=CC=CC=CC2=Nc2ccccc21,,0.781,75.96,0.415,False
+58.sdf,C(=[N+]=Nc1cccnc1)c1cccc(NNc2cc3ccccc3cn2)c1,,0.24,124.05,0.494,False
+328.sdf,Clc1ccc2c(n1)NC(NC1CCCc3c(nc4ccncnc3-4)C1)C2,,0.536,127.99,0.442,True
+136.sdf,c1c[nH+]cc(-c2ccc3[nH][nH]c4cccc(NCc5ncn[nH]5)c4[nH]c3[nH+]2)c1,,0.331,136.23,0.590,False
+465.sdf,C=Cc1ccc2c(=O)c3nccc(Nc4cncnn4)c3cc-2cc1O,,0.59,147.43,0.378,False
+322.sdf,O=C(NNN=Cc1ccc2nc3ncccc3nc2c1)c1ccc2c(c1)OON2,,0.211,255.39,0.338,False
+41.sdf,Nc1nc[nH+]c2c1=NC1=C(N=NCCNC3CCCC3)C=C(CCc3ccccc3)[N+]=21,,0.385,310.23,0.331,False
+332.sdf,O=c1c2ccc(O)ccc-2c2c(N3CCOCC3)cc3ccccc3n12,,0.575,315.77,0.423,True
+591.sdf,Cc1cc(N=NCCC2=C(O)C(=O)C3=C4C(=O)CCC4CC(=O)C23)ccn1,,0.825,329.44,0.373,False
+338.sdf,Oc1c2ccccc2nc(-c2ccc(Cl)cc2)c2nc(-c3ccccc3)c[n+]1-2,,0.434,342.12,0.383,False
+148.sdf,Nc1ncc(N=NC2CC=C3N=C(NN=Cc4ccccc4)NNC3=N2)cn1,,0.359,394.23,0.436,False
+137.sdf,O=[N+](COCCCNNc1ncc(-c2ccccc2)nn1)N=C1C=Nc2nccnc21,,0.216,406.09,0.612,False
+72.sdf,ClC1C=CC(N=NNc2ncc3c4ccccc4c4ncccc4c3n2)C=C1,,0.172,420.00,0.330,False
+225.sdf,COc1ccccc1-c1nc2c3c(c4c[nH+]c(C(=O)O)cc4n13)=CC(O)=CN2,,0.505,449.60,0.369,False
+115.sdf,CC1C(=O)C(O)C(=N)C=C1CCNN=Cc1cn2cc3cnccc3c2[nH]1,,0.313,463.85,0.434,False

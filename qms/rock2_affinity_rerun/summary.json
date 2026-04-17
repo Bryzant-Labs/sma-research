@@ -1,0 +1,12 @@
+{
+  "n_compounds": 241,
+  "n_with_affinity": 241,
+  "n_pass_binary_gate": 48,
+  "n_pass_z_score_gate": 1,
+  "pct_pass_binary": 19.92,
+  "best_Ki_nM": 36.37141594866332,
+  "best_smiles": "c1ccc(N=[N+]=[N+]=NN=NN=NNc2cc3c(cn2)Cc2nncnc2C3)cc1",
+  "rock2_fit_r2": 0.5276815703770792,
+  "rock2_fit_rmse_log10_ki": 0.6926227617020417,
+  "gate_prob_threshold": 0.3
+}

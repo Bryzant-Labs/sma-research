@@ -4,6 +4,156 @@ Alle Retractions und signifikante Claim-Änderungen werden hier dokumentiert. Ke
 
 ---
 
+## Incident 2026-04-17-007: MDM2 Arm 4 V2 RING-allosteric-activator — RETRACTED (computationally unprovable)
+
+**Status**: RETRACTED (V2 activator hypothesis; V1 retained as inhibitor-direction record only)
+**Retracted on**: 2026-04-17 evening
+**Compute spent**: ~$5 across four sequential probes
+**Upstream finding**: `/home/bryza/sma-research/qms/MDM2_V2_RING_LASTSHOT_RESULTS.md` (triple_llm_verify 3/3 PASS, GPT-4o + Groq-Llama-3.3-70B + Gemini-2.0-Flash, 2026-04-17 evening)
+
+### Was behauptet wurde
+
+> "Arm 4 — MDM2 ACTIVATOR / ALLOSTERIC ENHANCER (reduce pathologically elevated TP53)... first-in-class globally... PocketXMol V2-RING 600 mol campaign, top-100 ranked by cfd_pos, Boltz-2 selectivity panel staged." — `LIMK2_NEW_STORY_FOR_SIMON.md` Arm 4 (prior version) + `mdm2_v2_allosteric_RESULTS.md`.
+
+### Was stattdessen belegt ist
+
+Vier orthogonale Compute-Proben haben die V2-Aktivator-Hypothese nicht stützen können:
+
+1. **PocketXMol Generation** (600 mol, 80% success) — produziert Moleküle, aber das validiert nur Generation-Feasibility, nicht den Pocket.
+2. **Boltz-2 3-body triage auf MDM2-17-125 + p53-Peptid + Compound** (früherer Agent) — inconclusive, domain-mismatched (V2 wurde gegen aa 430-491 designed, Test war gegen aa 17-125).
+3. **Boltz-2 full-length triage** (agent a85eb23a) — Boltz-2 prior hat alle V2-Compounds in N-term Nutlin-Cleft geschoben, keines innerhalb 5 Å von Cys464/475.
+4. **DiffDock v1.1 auf RING-Fragment only** (dieser Incident, 2026-04-17) — 0/20 Compounds bestehen das pre-registered 3-Gate-Kriterium (conf > NEG+1SD, d<10Å zu Pocket-Center, min d<6Å zu Cys464/475/478 SG). EtOH (generic non-binder) übertrifft mit conf +1.04 jedes V2-Compound.
+
+### Was retracted wird
+
+- **V2 RING-allosteric-activator hypothesis**: nicht mehr als validated external deliverable.
+- **Arm 4 als "first-in-class MDM2 activator"** im 4-Arm-Narrativ.
+- Prior `LIMK2_NEW_STORY_FOR_SIMON.md` Arm 4 Abschnitt ersetzt durch Retraction-Block mit 3 Reframing-Optionen (drop / keep-as-negative-catalog / recast-V1-as-tool-compound).
+
+### Scope
+
+- Affekt: Arm 4 MDM2 narrative für externe Kommunikation (z.B. Simon reply).
+- Nicht affekt: Arm 1 (LIMK2) Redesign, Arm 2 (ROCK2-αC), Arm 3 (PERP), Claim #7 (TP53 mild UP in SMA MN — bleibt APPROVED auf Biologie-Level).
+- CLAIMS_REGISTRY row #7 (TP53 UP) bleibt unverändert; Row für Arm 4 MDM2 Compound-Lead existierte noch nicht und wird nicht angelegt.
+
+### Reproducibility
+
+- `/home/bryza/fleet-results/mdm2_v2_ring_lastshot/` (results.json, summary.json, summary.md, run.log, SMI input, PDB receptor)
+- `/home/bryza/sma-research/qms/MDM2_V2_RING_LASTSHOT_RESULTS.md` (haupt-retraction brief)
+- `/home/bryza/sma-research/qms/MDM2_V2_RING_LASTSHOT_RESULTS_triple_llm.json` (3/3 PASS)
+- Prior 3 compute probes: `mdm2_v2_allosteric_RESULTS.md`, `mdm2_mechanism_triage_RESULTS.md`, `mdm2_fulllength_triage_RESULTS.md`
+
+### Hard rule reinforced
+
+Generative-design → docking validation ist kein sufficient proof-of-binding. Für first-in-class Targets ohne public positive control muss entweder (a) ein publizierter-literatur-validierter Probe-Compound beschafft werden oder (b) das Arm explizit als "exploratory, unvalidated" gelabelt werden. Wir machen Letzteres jetzt transparent statt weiter iterieren mit derselben Toolchain.
+
+---
+
+## Incident 2026-04-17-006: ROCK2-αC activator library — VALIDATED (affinity-head audit; parallel to LIMK2 retraction)
+
+**Status**: VALIDATED (Arm 2 of the Simon pack STAYS)
+**Validated on**: 2026-04-17 evening
+**Trigger**: Pipeline audit af9c9a90 reported SMA-Score Ranker 0 / 241 pass for the ROCK2-αC library, raising concern that the same failure pattern as LIMK2-αC (Incident 2026-04-17-005) applied. Honest-retract-or-validate audit launched via the affinity-head + z-panel orthogonal gates.
+
+### Was zu klären war
+
+Nach dem LIMK2-αC-Retract (Incident 2026-04-17-005) stellte der Pipeline-Audit af9c9a90 fest, dass auch die ROCK2-αC-Bibliothek (241 Compounds) 0 / 241 bei SMA-Score passte. Zwei mögliche Erklärungen:
+1. Bibliothek ist genauso kaputt wie LIMK2-αC (0 Nanomolar-Binder) → RETRACT
+2. SMA-Score Anchor-Set (15 ATP-site Kinase-Inhibitoren) ist für αC-allosterische Chemie nicht repräsentativ (Mode-Mismatch) → SMA-Score 0 / 241 ist erwartbar und sagt nichts über Library-Qualität aus → decision via affinity-head + selectivity panel, not SMA-Score.
+
+### Methodisch
+
+**Gate-Hierarchie** (nach rule-dataset-verify-before-use.md + best-in-class-standard.md):
+- Primär: Boltz-2 affinity head mit ROCK2-Calibration-of-Record (slope 0.880, intercept 2.960, R² 0.528, RMSE 0.693 log10-Ki, n=20 ChEMBL Ki Pairs, von ae345009)
+- Binary-binder-Gate: `affinity_probability_binary > 0.3`
+- Sekundär (für Survivors mit paneled data): z-Score auf 15-Kinase Boltz-2 iptm Panel (z_ROCK2 > 0 UND sel_z > 0)
+
+**Full-library rerun (241 Compounds):**
+- Boltz-2 `boltz predict --model boltz2 --sampling_steps_affinity 100 --diffusion_samples_affinity 3` auf sma-h100-two H100 PCIe, 29m 35s wall-clock, 0 failed examples, $0 marginal (self-host).
+- Scripts: `/home/bryza/sma-research/qms/rock2_affinity_rerun/{build_yamls,rescore}.py` + `run_remote.sh`
+- ROCK2-Sequenz: UniProt O75116 kinase domain 263 aa, identisch zur Calibration-Sequenz
+
+### Ergebnisse
+
+| metric | LIMK2-αC (retracted) | ROCK2-αC (this audit) |
+|---|---|---|
+| n library | 109 BBB | 241 all |
+| n pass binary gate (prob > 0.3) | 4 / 99 (4.0 %) | **48 / 241 (19.9 %)** |
+| best point Ki (clean chemotype) | 1.1 µM | **76 nM** |
+| n pass affinity + z-score BOTH | 0 | **1 (328.sdf)** |
+| chemotype-clean survivors | 3 of 4 | 43 of 48 |
+| calibration R² | 0.690 | 0.528 (wider PI: 4.9× vs 2.4×) |
+| **verdict** | **RETRACTED** | **VALIDATED** |
+
+**Dual-orthogonal-validated lead (the one compound passing BOTH gates):**
+
+| SMILES | File | Ki calib | prob_bin | iptm_ROCK2 | z_ROCK2 | sel_z | QED | BBB | Notes |
+|---|---|---:|---:|---:|---:|---:|---:|---|---|
+| `Clc1ccc2c(n1)NC(NC1CCCc3c(nc4ccncnc3-4)C1)C2` | 328.sdf | **128 nM** | **0.442** | 0.971 | **+0.744** | **+0.797** | 0.54 | **Y** | Clean fused chloropyridine + cyclohexane-fused-pyridine bicycle; prior iptm-rank-1 |
+
+**Prior-panel top-3 rescored (from `/home/bryza/fleet-results/rock2_activator_alphaC/top10_selectivity.tsv`):**
+
+| prior rank (iptm) | SMILES | File | aff_pred | prob_bin | **Ki (calib)** | Gate |
+|---|---|---|---:|---:|---:|---|
+| 1 | `COc1ccc(CCNNC2CCCC3C(=O)CCCC3C2N)cc1` | 170.sdf | +0.877 | 0.055 | 5.4 µM | **FAIL** |
+| 2 | `ClC1CCCC2NC(CNC3CCN(c4cccnc4)C3)NCC12` | 533.sdf | −0.401 | 0.130 | 283 nM | **FAIL** (prob low) |
+| 3 | `Clc1ccc2c(n1)NC(NC1CCCc3c(nc4ccncnc3-4)C1)C2` | 328.sdf | −0.969 | 0.442 | **128 nM** | **PASS** |
+
+The prior iptm-rank-1 (170.sdf) fails the affinity gate (5.4 µM, prob 0.06). The prior iptm-rank-3 (533.sdf, the STORY_FOR_SIMON "recommended lead") also fails the affinity gate (283 nM nominal Ki but prob 0.13 < 0.3 threshold). The only lead that survives BOTH iptm-top-3 AND affinity-head binary gate AND panel z-score gate is **328.sdf** — it was the prior iptm-rank-1 but was not flagged as the story-recommended lead in the earlier Simon pack draft. This is the corrected recommended lead.
+
+### Chemotype-clean survivor top-10 (from `top_hits_affinity_v2_clean.tsv`, 43 total)
+
+See `/home/bryza/fleet-results/rock2_activator_alphaC/top_hits_affinity_v2_clean.tsv`. Top 5 chemotype-clean:
+1. 52.sdf 76 nM prob 0.415 QED 0.78 — no panel data
+2. 58.sdf 124 nM prob 0.494 QED 0.24 (diazo imine — borderline)
+3. **328.sdf 128 nM prob 0.442 QED 0.54 BBB-Y z-PASS** ← dual-orthogonal
+4. 136.sdf 136 nM prob 0.590 QED 0.33 — polycation borderline
+5. 73.sdf 147 nM prob 0.378 QED 0.59 — vinyl phenol concern
+
+### Fresh 15-kinase panel on top-15 chemotype-clean survivors
+
+Running at the time of this entry (~ 1 h wall-clock for 225 Boltz-2 calls at 2-worker throttle on sma-h100-two:8004 batched server). Output: `/home/bryza/sma-research/qms/rock2_affinity_rerun/panel/boltz2_results.jsonl` (resumable, source-of-truth). This will confirm z_ROCK2 / sel_z for the 14 currently-no-panel-data clean survivors and expand the dual-orthogonal-validated set from 1 toward the target 3 or more.
+
+### Ergriffene Maßnahmen
+
+1. `/home/bryza/sma-research/qms/rock2_activator_RESULTS.md`:
+   - Version bumped to "DRAFT v2, post-affinity-head"
+   - Added §0 Validation Note: full audit trail with 48/241 pass metric, prior-top-3 table, top-clean-10 ranked, differences-vs-LIMK2, next-steps.
+   - Status line updated: "Arm 2 VALIDATED --- NOT retracted"
+2. `/home/bryza/sma-research/qms/LIMK2_NEW_STORY_FOR_SIMON.md`:
+   - Arm 2 header bumped to "VALIDATED 2026-04-17 evening (affinity-head 241-compound rerun)"
+   - Added validation-banner quote at top of Arm 2
+   - Added new Scoring, Pipeline re-audit, Dual-orthogonal-lead (328.sdf), Backup-lead paragraphs
+   - Added Hard Caveat 2 (R² 0.53 wide PI 4.9×) and Hard Caveat 3 (SMA-Score anchor mismatch)
+   - Changed recommended lead from 533.sdf (FAIL affinity gate) to 328.sdf (PASS both gates)
+3. This entry in `CORRECTIONS_LOG.md` (Incident 2026-04-17-006)
+4. Reproducibility trail:
+   - `/home/bryza/sma-research/qms/rock2_affinity_rerun/build_yamls.py` + `rescore.py` + `run_remote.sh`
+   - `/home/bryza/sma-research/qms/rock2_affinity_rerun/rescored_full.json` + `summary.json`
+   - `/home/bryza/sma-research/qms/rock2_affinity_rerun/manifest.json`
+   - `/home/bryza/sma-research/qms/rock2_affinity_rerun/boltz_out/` (241 × 2 JSON outputs)
+   - `/home/bryza/fleet-results/rock2_activator_alphaC/top_hits_affinity_v2.tsv` (48 survivors)
+   - `/home/bryza/fleet-results/rock2_activator_alphaC/top_hits_affinity_v2_clean.tsv` (43 clean)
+   - `/home/bryza/fleet-results/rock2_activator_alphaC/full_affinity_ranked_v2.tsv` (241 full audit)
+   - `/home/bryza/sma-research/qms/rock2_affinity_rerun/panel/boltz2_results.jsonl` (top-15 fresh panel, in progress)
+
+### Externe Kommunikation
+
+**No external comms** — validation does not lift Simon-Comms-Gate. The Simon pack Arm 2 narrative is updated to reflect the new recommended lead (328.sdf) but transmission remains HELD pending Christian SEND trigger, MD persistence on 328.sdf, and medchem triage on the top-43 clean survivors. Triple-LLM v2 gate mandatory on the updated `rock2_activator_RESULTS.md` before that gate can be lifted.
+
+### Impact auf Platform-Health
+
+- CLAIMS_REGISTRY row #10 (ROCK2 robust DOWN, APPROVED) unchanged.
+- A new CLAIMS_REGISTRY row for the 328.sdf lead will be added after the fresh panel + medchem triage + MD complete; for now the lead is documented in rock2_activator_RESULTS.md §0 only.
+- Simon pack structure: LIMK2 + ROCK2 + PERP + MDM2 (4 arms → 3.5 arms after Arm 1 retract → **still 3.5 arms; Arm 2 validation keeps the ROCK2 half-arm solid**). No further reductions.
+
+### Reviewer
+
+- Triple-LLM v2 gate: **pending** (to be run after the panel completes, on the updated rock2_activator_RESULTS.md)
+- Human sign-off: **pending** (Christian Fischer)
+
+---
+
 ## Incident 2026-04-17-005: LIMK2-αC top-4 iptm-based ranking — RETRACTED (affinity-head recalibration)
 
 **Status**: RETRACTED
