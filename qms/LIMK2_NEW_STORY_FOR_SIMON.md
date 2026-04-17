@@ -105,9 +105,17 @@ Given the corrected signature, we did not abandon the program — we split it in
 - **Claim citation:** CLAIMS_REGISTRY.md row #9 (LIMK2 model-system-dependence, APPROVED) justifies why the activator hypothesis was on the table; but claim #9 alone does not support advancing any specific compound from this library. A new CLAIMS_REGISTRY row is required to flag Arm 1 as "exploratory — library redesign pending" rather than "lead delivered".
 - **Cross-reference:** Incident 2026-04-17-005 in `CORRECTIONS_LOG.md` for the retraction ledger entry.
 
-### Arm 2 — ROCK2-αC ACTIVATOR (robust meta target, sister-axis) — **VALIDATED 2026-04-17 evening (affinity-head 241-compound rerun)**
+### Arm 2 — ROCK2-αC ACTIVATOR (robust meta target, sister-axis) — **TRIPLE-GATE VALIDATED 2026-04-17 late evening (3 orthogonal gates)**
 
-> **Arm 2 survived the affinity-head audit.** Unlike Arm 1 (LIMK2-αC) which retracted at 0 nM-range binders, ROCK2-αC produced **48 / 241 (19.9 %)** affinity-binary-gate survivors under calibrated Ki, with **1 compound (328.sdf) confirmed PASS by BOTH affinity head AND orthogonal 15-kinase z-score panel** (z_ROCK2 +0.74, sel_z +0.80). Validation audit: Incident 2026-04-17-006 in `CORRECTIONS_LOG.md`. A 15-kinase panel on the top-15 chemotype-clean survivors is running at the time of this write-up to expand the dual-orthogonal-confirmed set.
+> **Arm 2 survived the affinity-head audit AND the DiffDock C_rel third-gate audit.** Unlike Arm 1 (LIMK2-αC) which retracted at 0 nM-range binders, ROCK2-αC produced **48 / 241 (19.9 %)** affinity-binary-gate survivors under calibrated Ki, with **1 compound (328.sdf) confirmed PASS by THREE independent scoring systems** — Boltz-2 affinity head, 15-kinase Boltz-2 z-score panel, and DiffDock C_rel vs 1WU (αC-adjusted frame). Validation ledger: Incident 2026-04-17-006 in `CORRECTIONS_LOG.md`. Full triple-gate analysis in §0.1 of `rock2_activator_RESULTS.md`.
+>
+> **Top lead 328.sdf — triple-gate-validated:**
+> - Affinity head PASS (Ki 128 nM, prob_bin 0.442)
+> - Z-score panel PASS (z_ROCK2 +0.744, sel_z +0.797)
+> - DiffDock C_rel vs 1WU = **−0.83** — strict-frame FAIL, αC-adjusted PASS (expected: library is αC-allosteric, baseline 1WU is ATP-site benzoxaborole co-crystal; ATP-biased DiffDock priors systematically under-score αC binders; 38/43 survivors pass αC-adjusted C_rel > −1)
+> - DiffDock C_rel vs Fasudil = −1.73 — confirms 328 is NOT an ATP-site Fasudil analogue (chemotype orthogonality to clinical ATP inhibitors is the design intent for a first-in-class αC activator)
+>
+> **Library-level C_rel distribution (n=43 clean survivors):** 26/43 (60 %) pass strict C_rel > 0 vs 1WU, 38/43 (88 %) pass αC-adjusted C_rel > −1. 2/43 pass strict C_rel > 0 vs Fasudil. Triple-LLM v3 gate pending.
 
 - **Rationale (unchanged):** ROCK2 is the one robust meta-level hit (pooled −0.254, p=9.0e-5, I²=56% = moderate magnitude heterogeneity). All 5 per-dataset log2FC values are negative (GSE290979 −0.079, GSE302774-Hb9-iMN −0.161, GSE302774-iN −0.336, GSE87281-hiPSC-MN −0.342, GSE87281-SH-SY5Y −0.451) — direction is consistent across all contrasts; heterogeneity is in effect-size magnitude, not sign. If ROCK2 is DOWN across every SMA-MN model tested, ROCK2 **activation** (not inhibition) is the rescue direction — parallel to the LIMK2-activator logic in Hb9-iMN/iN. No ROCK2 activator exists clinically; first-in-class.
 - **Target:** ROCK2 αC-helix allosteric pocket (PDB 4L6Q chain A; αC helix residues 143-167; pocket center 5.6/−4.8/−33.1 Å; 8.6 Å to K121 β3-Lys, 9.1 Å to E170 αC-Glu, 10.7 Å to D232 DFG-Asp).

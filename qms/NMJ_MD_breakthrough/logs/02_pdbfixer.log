@@ -1,0 +1,7 @@
+[fixer] loading /home/bryza/sma-research/qms/NMJ_MD_breakthrough/prep/nmj_12chain_ecd_stripped.pdb
+[fixer] raw missing residues across all chains: 0
+[fixer] nonstandard residues: 0
+[fixer] missing heavy atoms on existing residues: 0 across 0 residues
+[fixer] wrote /home/bryza/sma-research/qms/NMJ_MD_breakthrough/prep/nmj_12chain_fixed_pH74.pdb
+[fixer] final: 12 chains, 8084 residues, 123137 atoms
+[fixer] elapsed: 26.2s
