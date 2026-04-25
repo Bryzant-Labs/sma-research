@@ -1,6 +1,6 @@
 # Cross-Chemotype SAR — 4-Arm SMA Attack
 
-**Status:** DRAFT v1 — triple_llm_verify 3/3 PASS gate **pending** before external use.
+**Status:** APPROVED 2026-04-19 (triple_llm_verify 3/3 PASS 2026-04-17; Christian Fischer human sign-off 2026-04-19 per Claim #16 in CLAIMS_REGISTRY.md)
 **Author:** Opus Master Agent
 **Date:** 2026-04-17
 **Pipeline script:** `/home/bryza/sma-research/qms/scripts/cross_chemotype_4arm_sar.py`
@@ -116,7 +116,7 @@ Mini-protein class, not small molecules. 3-helix bundle geometry, ~70-90 aa, amp
 
 1. **Which of the 4 arms does your NMJ biology prioritize?** Our PERP arm is specifically scoped to your unpublished ECL finding. LIMK2 + ROCK2 are MN-intrinsic cytoskeletal; MDM2 is MN-intrinsic apoptosis. Resource allocation for wet-lab validation depends on which arm you want to take into assay first.
 2. **Which cell model is reference for LIMK2 direction?** The meta-analysis split (DOWN in Hb9-iMN/iN, UP in SH-SY5Y) means activator vs inhibitor is a patient-model-dependent choice. Your position on Hb9-iMN vs SH-SY5Y as reference model would let us commit to one of the two LIMK2 directions.
-3. **Bowerman 2012 muscle-layer vs MN-intrinsic — which dominates in the patients you work with?** This determines whether Fasudil-class pan-ROCK inhibition stays on the table as adjunct or is ruled out.
+3. **Muscle-compartment vs MN-intrinsic pathology — which dominates in your patient cohorts?** This determines whether existing pan-ROCK-inhibitor pharmacology stays on the table as muscle-directed adjunct or is ruled out entirely in favor of MN-intrinsic rescue (our Arm 2 ROCK2-αC activator).
 4. **Scaffold-novelty / IP status:** are any of the top Murcko scaffolds (`/home/bryza/sma-research/qms/scripts/out/murcko_cluster_per_arm.csv`) already in your group's patent-watch list? We have not done an IP-novelty screen yet.
 
 ---
@@ -136,8 +136,8 @@ Advisory notes (all non-blocking):
 - Groq-Llama: add PocketXMol SDF generation notes; expand QM/MM neutralisation discussion.
 - Gemini: no blocking notes.
 
-External transmission still requires Christian Fischer human sign-off on composite-claim wording (see Claim #16 in `CLAIMS_REGISTRY.md`).
+External transmission: APPROVED. Christian Fischer human sign-off on Claim #16 (composite 4-arm response) recorded 2026-04-19 in `CLAIMS_REGISTRY.md`.
 
 ---
 
-*DRAFT. Do not distribute externally until triple_llm_verify 3/3 PASS and Christian Fischer human sign-off. Numbers in this file are traceable to the frozen input files listed in the header; they are not derivable from CLAIMS_REGISTRY.md — this document is a new SAR claim, and a new CLAIMS_REGISTRY row is needed for the "4-arm scaffold-distinctness" assertion if it is ever externally cited.*
+*APPROVED for external transmission 2026-04-19. Numbers in this file are traceable to the frozen input files listed in the header.*

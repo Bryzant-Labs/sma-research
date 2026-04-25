@@ -1,0 +1,285 @@
+gene_symbol	delta_depsc	pvalue	fdr	druggable_probe	has_approved_drug	open_targets_score	mechanism_hypothesis	mean_depsc_low	mean_depsc_high	t_stat	mwu_pvalue	n_low	n_high	passes_effect_filter
+CFL1	0.095362	0.012709	0.16021	no	no	0.40	Scaffold; indirect via LIMK/SSH axis	-0.6613	-0.75666	2.4998	0.007998	285	285	False
+ROCK2	0.059545	0.0027937	0.071396	yes	yes	0.90	Belumosudil approved (cGVHD); Bryzant lead axis	0.096208	0.036663	3.0032	0.00059037	285	285	False
+ZPR1	0.051053	0.075929	0.3738	no	no	0.30	SMN interactor; early-stage modifier	-1.5239	-1.575	1.7781	0.035394	285	285	False
+STMN1	0.048295	0.0021259	0.061729	no	no	0.40	Microtubule destabilizer; scaffold	-0.0056896	-0.053985	3.0876	0.003691	285	285	False
+HSP90AB1	0.046061	0.017116	0.18553	yes	no	0.55	HSP90 paralog	-0.21192	-0.25798	2.3914	0.020842	285	285	False
+ROCK1	0.028577	0.083243	0.39122	yes	yes	0.85	Fasudil / netarsudil / ripasudil approved; Bowerman 2012 SMA evidence under QMS audit	-0.014812	-0.043389	1.7352		285	285	False
+SSH1	-0.024884	0.034639	0.26238	partial	no	0.55	Phosphatase; Bryzant APPROVE/REJECT campaign pending	-0.19049	-0.16561	-2.1177		285	285	False
+CHRND	-0.0214	0.081012	0.38621	unknown	unknown	unknown	(no curated annotation)	-0.17979	-0.15839	-1.748		285	285	False
+LRP4	-0.019779	0.084525	0.39391	no	no	0.60	Extracellular receptor; antibody-accessible	-0.17784	-0.15806	-1.728		285	285	False
+CHRNG	0.019709	0.12003	0.45947	partial	yes	0.50	Fetal AChR; neonatal-specific	-0.24212	-0.26183	1.557		285	285	False
+RAPSN	-0.015471	0.082669	0.38983	no	no	0.50	Scaffold protein; indirect only	-0.015113	0.00035831	-1.7385		285	285	False
+DOK7	-0.014829	0.11324	0.44941	no	no	0.55	Gene therapy target (Bertolin 2018); not small-mol druggable	0.042039	0.056869	-1.5862		285	285	False
+KCNJ2	0.01399	0.1868	0.55331	partial	no	0.40	Kir2.1; chloroquine / pentamidine weak probes	0.054287	0.040297	1.3217		285	285	False
+LIMK1	0.013491	0.28069	0.6504	yes	no	0.50	LX7101 / T56-LIMKi probes	-0.023292	-0.036783	1.0798		285	285	False
+PAK4	-0.010416	0.41253	0.74981	yes	no	0.50	KPT-9274 / PF-3758309 probes; broad kinase family	-0.086099	-0.075683	-0.82006		285	285	False
+HSP90AA1	0.01016	0.44567	0.77087	yes	no	0.55	HSP90 — ganetespib / luminespib / 17-AAG	-0.19772	-0.20788	0.76318		285	285	False
+MUSK	0.009807	0.24644	0.62194	partial	no	0.70	Receptor tyrosine kinase — small-molecule activators in preclinical	0.039508	0.029701	1.1602		285	285	False
+CHRNA1	0.0088749	0.39052	0.73523	partial	yes	0.60	AChR alpha; pyridostigmine / 3,4-DAP indirect modulation	-0.014986	-0.023861	0.85933		285	285	False
+SSH2	-0.0087034	0.52684	0.81952	no	no	0.30	Phosphatase; redundant with SSH1	-0.21449	-0.20579	-0.63323		285	285	False
+KCNA2	0.008561	0.42593	0.75891	partial	no	0.50	Kv1.2 channel; 4-AP cross-reactive	-0.024657	-0.033218	0.79675		285	285	False
+PLS3	0.0083486	0.41875	0.75335	no	no	0.55	Actin-bundling protective modifier (Oprea 2008)	0.13874	0.13039	0.80918		285	285	False
+SCN5A	0.0083015	0.34889	0.70608	yes	yes	0.60	Mexiletine / flecainide approved for cardiac; CNS repurpose untested	-0.097651	-0.10595	0.93752		285	285	False
+CHRNE	-0.0076105	0.43458	0.76498	unknown	unknown	unknown	(no curated annotation)	-0.072438	-0.064827	-0.78194		285	285	False
+AGRN	0.0074195	0.5136	0.8118	no	no	0.65	Biologic/peptide modality only; Ataluren-like readthrough unlikely	-0.13378	-0.1412	0.65366		285	285	False
+CHRNB1	-0.0071373	0.343	0.70296	unknown	unknown	unknown	(no curated annotation)	-0.024442	-0.017305	-0.94906		285	285	False
+LIMK2	-0.0068051	0.57998	0.84602	yes	no	0.80	Bryzant αC-allosteric campaign; 5-SMILES pick-list 2026-04-18	0.057991	0.064796	-0.55374		285	285	False
+CHDH	-0.0063561	0.51914	0.81366	unknown	no	0.10	Choline dehydrogenase; mitochondrial modifier candidate	-0.010497	-0.0041408	-0.64507		285	285	False
+GAP43	0.0043646	0.64341	0.87527	no	no	0.45	Growth-cone marker; indirect	0.17392	0.16956	0.46318		285	285	False
+NCALD	-0.003827	0.73573	0.91552	partial	no	0.60	Riessland 2017: LoF protective in SMN-Δ7 mice; PROTAC/AON strategy	-0.064323	-0.060496	-0.33767		285	285	False
+HSPB1	0.0036167	0.75763	0.92491	no	no	0.40	HSP27; SMAD/MAPK chaperone	0.02583	0.022213	0.30875		285	285	False
+KCNQ2	0.0029677	0.7481	0.92202	yes	yes	0.55	Retigabine / XEN1101 for KCNQ2 encephalopathy	0.047083	0.044115	0.3213		285	285	False
+CFL2	-0.0029128	0.7352	0.91531	no	no	0.45	Scaffold; indirect via LIMK/SSH axis	-0.03103	-0.028117	-0.33838		285	285	False
+PERP	0.0022238	0.85047	0.95905	partial	no	0.50	Desmosomal tetraspan; binder-only modality	-0.065961	-0.068185	0.18861		285	285	False
+KCNQ3	-0.00098515	0.89572	0.97154	yes	yes	0.55	Retigabine / XEN1101	0.020833	0.021818	-0.13112		285	285	False
+COPG1	-0.3544	6.4426e-11	1.1459e-06	unknown	unknown	unknown	(no curated annotation)	-1.6044	-1.25	-6.6608	9.4341e-11	285	285	True
+CCND1	-0.30412	3.6615e-05	0.0062742	unknown	unknown	unknown	(no curated annotation)	-1.3569	-1.0528	-4.161	1.9441e-05	285	285	True
+GRB2	-0.27759	1.8664e-06	0.0011892	unknown	unknown	unknown	(no curated annotation)	-1.1475	-0.86996	-4.8179	9.3382e-06	285	285	False
+CRKL	-0.2432	7.9247e-06	0.0023108	unknown	unknown	unknown	(no curated annotation)	-1.084	-0.8408	-4.5095	8.9919e-06	285	285	False
+SBDS	-0.21457	8.4471e-05	0.0099502	unknown	unknown	unknown	(no curated annotation)	-2.2146	-2	-3.9601	0.0001434	285	285	False
+KLF5	-0.20656	2.1814e-08	6.7414e-05	unknown	unknown	unknown	(no curated annotation)	-0.50276	-0.2962	-5.688	1.0797e-06	285	285	False
+SNRPB2	-0.20607	2.12e-07	0.00031124	unknown	unknown	unknown	(no curated annotation)	-0.84868	-0.64262	-5.2545	2.6594e-07	285	285	False
+COPB1	-0.20515	4.8802e-08	9.6449e-05	unknown	unknown	unknown	(no curated annotation)	-2.4912	-2.2861	-5.5305	3.6131e-08	285	285	False
+SEPHS2	0.20469	9.723e-05	0.010233	unknown	unknown	unknown	(no curated annotation)	-0.79135	-0.99604	3.9254	1.1815e-06	285	285	False
+CFLAR	-0.20209	0.00025782	0.018487	unknown	unknown	unknown	(no curated annotation)	-0.8335	-0.63141	-3.6779	8.4799e-05	285	285	False
+CBFB	0.19858	8.2493e-07	0.00081517	unknown	unknown	unknown	(no curated annotation)	-0.13202	-0.33059	4.9925	0.00052426	285	285	False
+PPP1R12A	-0.19672	7.7281e-05	0.0095459	unknown	unknown	unknown	(no curated annotation)	-1.3122	-1.1154	-3.9818	0.00036712	285	285	False
+TYMS	-0.19567	0.0012724	0.046562	unknown	unknown	unknown	(no curated annotation)	-0.90663	-0.71096	-3.239	0.0023518	285	285	False
+RBM8A	-0.19381	1.158e-06	0.0010299	unknown	unknown	unknown	(no curated annotation)	-1.6003	-1.4065	-4.9161	1.5728e-06	285	285	False
+CDAN1	0.19333	0.00028341	0.019692	unknown	unknown	unknown	(no curated annotation)	-0.91962	-1.1129	3.6528	0.00047859	285	285	False
+CHMP4B	0.1921	0.00042909	0.025037	unknown	unknown	unknown	(no curated annotation)	-1.1764	-1.3685	3.5425	0.0012118	285	285	False
+UROD	0.18561	4.9475e-06	0.0016604	unknown	unknown	unknown	(no curated annotation)	-0.58062	-0.76624	4.6122	4.7416e-06	285	285	False
+ACTB	-0.18296	4.4982e-06	0.0016002	unknown	unknown	unknown	(no curated annotation)	-0.92302	-0.74007	-4.6328	3.5973e-06	285	285	False
+NXT1	0.18142	8.6966e-05	0.0099834	unknown	unknown	unknown	(no curated annotation)	-0.53198	-0.7134	3.9545	0.00025391	285	285	False
+VPS25	-0.18023	4.4025e-05	0.0070257	unknown	unknown	unknown	(no curated annotation)	-2.6208	-2.4406	-4.1173	4.6748e-05	285	285	False
+MED30	-0.17909	3.3377e-06	0.0013807	unknown	unknown	unknown	(no curated annotation)	-2.0757	-1.8966	-4.6956	1.0728e-05	285	285	False
+KIF18A	-0.17792	0.0056311	0.10509	unknown	unknown	unknown	(no curated annotation)	-1.4532	-1.2753	-2.7792	0.0070953	285	285	False
+EGFR	-0.17709	2.274e-08	6.7414e-05	unknown	unknown	unknown	(no curated annotation)	-0.33851	-0.16142	-5.6796	1.3663e-07	285	285	False
+UBR4	-0.1762	7.0683e-06	0.0021676	unknown	unknown	unknown	(no curated annotation)	-1.2507	-1.0745	-4.5339	5.0017e-05	285	285	False
+RPP21	0.17449	0.00045398	0.025336	unknown	unknown	unknown	(no curated annotation)	-1.5875	-1.762	3.5272	0.00078893	285	285	False
+HNF1B	-0.17095	6.941e-06	0.0021659	unknown	unknown	unknown	(no curated annotation)	-0.3662	-0.19526	-4.5544	0.00086152	285	285	False
+NF2	0.16864	1.9323e-06	0.0011892	unknown	unknown	unknown	(no curated annotation)	0.34906	0.18042	4.8124	2.4872e-06	285	285	False
+SNRPE	-0.16777	1.0001e-05	0.0026253	unknown	unknown	unknown	(no curated annotation)	-2.0869	-1.9192	-4.462	2.3423e-05	248	266	False
+RAB10	-0.16573	2.2362e-06	0.001243	unknown	unknown	unknown	(no curated annotation)	-0.57439	-0.40866	-4.7835	1.4455e-05	285	285	False
+SF3A3	-0.1639	2.7388e-05	0.0052382	unknown	unknown	unknown	(no curated annotation)	-2.2818	-2.1179	-4.2296	2.7791e-05	285	285	False
+MYC	-0.16217	0.0087417	0.13155	unknown	unknown	unknown	(no curated annotation)	-2.0693	-1.9071	-2.6316	0.051639	285	285	False
+LDB1	0.16009	1.4629e-08	6.5052e-05	unknown	unknown	unknown	(no curated annotation)	-0.19877	-0.35886	5.7667	1.0724e-08	285	285	False
+HNRNPK	-0.15933	2.5946e-05	0.0051221	unknown	unknown	unknown	(no curated annotation)	-2.5745	-2.4151	-4.242	0.00013933	285	285	False
+GUK1	0.15901	0.0007871	0.034568	unknown	unknown	unknown	(no curated annotation)	-1.6572	-1.8162	3.3756	0.0018078	285	285	False
+AIRIM	0.15755	0.0049812	0.097954	unknown	unknown	unknown	(no curated annotation)	-1.789	-1.9466	2.8194	0.0077251	285	285	False
+GGPS1	0.15179	0.00048629	0.026291	unknown	unknown	unknown	(no curated annotation)	-1.4435	-1.5953	3.5085	0.00030745	285	285	False
+ARHGEF7	-0.15153	4.7377e-07	0.00052668	unknown	unknown	unknown	(no curated annotation)	-0.4984	-0.34687	-5.097	9.0092e-07	285	285	False
+HNRNPH1	0.15096	0.0011244	0.043757	unknown	unknown	unknown	(no curated annotation)	-1.2666	-1.4175	3.2743	0.0011241	285	285	False
+TTF2	0.14946	5.4033e-10	4.8054e-06	unknown	unknown	unknown	(no curated annotation)	-0.58102	-0.73048	6.3166	1.5961e-10	285	285	False
+UBA5	-0.14937	2.5526e-06	0.0013019	unknown	unknown	unknown	(no curated annotation)	-0.6875	-0.53813	-4.7527	2.2058e-06	285	285	False
+TUBA1C	-0.1487	1.0875e-05	0.0027243	unknown	unknown	unknown	(no curated annotation)	-1.0137	-0.86498	-4.4438	9.4373e-07	246	266	False
+RBBP4	0.14834	1.9857e-05	0.004415	unknown	unknown	unknown	(no curated annotation)	-1.2972	-1.4455	4.3029	2.4564e-06	285	285	False
+YPEL5	-0.14829	0.00012365	0.011576	unknown	unknown	unknown	(no curated annotation)	-0.92069	-0.7724	-3.8663	0.00030029	285	285	False
+PGK1	0.14808	0.00063454	0.030806	unknown	unknown	unknown	(no curated annotation)	-1.0547	-1.2028	3.4356	0.00038607	285	285	False
+RPL32	0.14646	7.6819e-05	0.0095459	unknown	unknown	unknown	(no curated annotation)	-2.3593	-2.5057	3.9833	9.7249e-05	285	285	False
+MED1	-0.14602	0.00059428	0.029444	unknown	unknown	unknown	(no curated annotation)	-0.80802	-0.662	-3.4537	0.00048594	285	285	False
+UFM1	-0.146	2.9036e-05	0.0052699	unknown	unknown	unknown	(no curated annotation)	-0.68448	-0.53848	-4.2152	3.3971e-05	285	285	False
+DBR1	0.14564	0.00083894	0.03608	unknown	unknown	unknown	(no curated annotation)	-2.2875	-2.4331	3.3578	0.0023045	285	285	False
+RPAIN	-0.1446	0.00019402	0.015338	unknown	unknown	unknown	(no curated annotation)	-1.4095	-1.2649	-3.7513	0.00011118	285	285	False
+TPI1	0.14374	0.00031127	0.020506	unknown	unknown	unknown	(no curated annotation)	-0.91827	-1.062	3.6283	0.00036855	285	285	False
+CLTC	-0.14324	0.00036577	0.022669	unknown	unknown	unknown	(no curated annotation)	-1.6672	-1.5239	-3.5855	0.001201	285	285	False
+PSMD6	-0.14245	6.9503e-05	0.0090237	unknown	unknown	unknown	(no curated annotation)	-1.9259	-1.7834	-4.0077	2.0627e-05	285	285	False
+ATP6V1G1	-0.14199	0.00018241	0.014615	unknown	unknown	unknown	(no curated annotation)	-1.2399	-1.0979	-3.7676	9.5228e-05	285	285	False
+FAM50A	0.14127	0.0019621	0.058991	unknown	unknown	unknown	(no curated annotation)	-0.62071	-0.76197	3.1104	0.00071012	285	285	False
+CARS2	0.14057	2.0599e-07	0.00031124	unknown	unknown	unknown	(no curated annotation)	-0.26026	-0.40083	5.2622	1.4441e-07	285	285	False
+PSMA3	-0.13894	0.0012749	0.046562	unknown	unknown	unknown	(no curated annotation)	-2.9178	-2.7789	-3.2378	0.0011693	285	285	False
+MARK2	-0.13891	4.3591e-07	0.00052668	unknown	unknown	unknown	(no curated annotation)	-0.38178	-0.24287	-5.1126	6.4984e-08	285	285	False
+ATP1B3	0.13871	5.2326e-06	0.0017235	unknown	unknown	unknown	(no curated annotation)	-0.3395	-0.47822	4.6007	8.0113e-08	285	285	False
+TWNK	0.13814	1.6074e-05	0.003762	unknown	unknown	unknown	(no curated annotation)	-0.42916	-0.5673	4.3512	4.0989e-05	285	285	False
+METTL1	0.13801	9.1523e-05	0.010147	unknown	unknown	unknown	(no curated annotation)	-0.53405	-0.67206	3.9406	5.7463e-05	285	285	False
+RPA1	-0.13494	0.00012491	0.011632	unknown	unknown	unknown	(no curated annotation)	-2.3642	-2.2293	-3.8634	3.8793e-05	285	285	False
+RPA2	-0.13337	8.6737e-06	0.0023735	unknown	unknown	unknown	(no curated annotation)	-1.7072	-1.5739	-4.4889	2.3542e-06	285	285	False
+OXSM	0.1333	1.9319e-06	0.0011892	unknown	unknown	unknown	(no curated annotation)	-0.23219	-0.36549	4.8132	4.6165e-06	285	285	False
+RTCB	0.13269	1.9475e-05	0.004415	unknown	unknown	unknown	(no curated annotation)	-0.75403	-0.88672	4.3073	3.9296e-06	285	285	False
+ILK	-0.1307	2.5822e-06	0.0013019	unknown	unknown	unknown	(no curated annotation)	-0.41109	-0.2804	-4.7498	3.4642e-07	285	285	False
+NCAPG	-0.13069	0.00026592	0.018752	unknown	unknown	unknown	(no curated annotation)	-1.9273	-1.7966	-3.6696	0.00014369	285	285	False
+GAPDH	0.13035	0.00038393	0.023307	unknown	unknown	unknown	(no curated annotation)	-1.493	-1.6233	3.5723	0.00027106	285	285	False
+PABPC1	0.13025	0.00048511	0.026291	unknown	unknown	unknown	(no curated annotation)	-1.065	-1.1953	3.5092	0.0012669	285	285	False
+UXS1	-0.12961	8.0321e-05	0.0095971	unknown	unknown	unknown	(no curated annotation)	-0.49056	-0.36094	-3.9756	0.00038981	285	285	False
+PTPN23	-0.12912	1.1029e-05	0.0027246	unknown	unknown	unknown	(no curated annotation)	-1.1203	-0.9912	-4.4356	2.6691e-05	285	285	False
+LYRM4	0.12887	0.00015392	0.013158	unknown	unknown	unknown	(no curated annotation)	-1.4404	-1.5693	3.8105	6.8398e-05	285	285	False
+RAN	-0.12748	0.009378	0.13645	unknown	unknown	unknown	(no curated annotation)	-4.1383	-4.0108	-2.607	0.035528	285	285	False
+PPWD1	0.1264	0.0034885	0.0809	unknown	unknown	unknown	(no curated annotation)	-2.1461	-2.2725	2.9335	0.0058618	285	285	False
+RAB6A	-0.12629	0.00087387	0.037008	unknown	unknown	unknown	(no curated annotation)	-0.62105	-0.49476	-3.346	0.0005154	285	285	False
+CDS2	0.12504	1.9388e-06	0.0011892	unknown	unknown	unknown	(no curated annotation)	-0.28339	-0.40843	4.8097	9.753e-08	285	285	False
+DPM1	-0.12487	7.8801e-09	4.6721e-05	unknown	unknown	unknown	(no curated annotation)	-0.33499	-0.21012	-5.8599	4.4261e-10	285	285	False
+DNAJC11	0.1243	0.00050076	0.026829	unknown	unknown	unknown	(no curated annotation)	-0.60048	-0.72478	3.5009	0.00047315	285	285	False
+USPL1	-0.12339	3.7444e-05	0.0062831	unknown	unknown	unknown	(no curated annotation)	-1.2369	-1.1135	-4.1558	1.1322e-05	285	285	False
+CDC20	-0.12314	0.00016355	0.01362	unknown	unknown	unknown	(no curated annotation)	-2.1944	-2.0713	-3.7951	0.00011352	285	285	False
+IDH3A	0.12311	2.144e-05	0.0045947	unknown	unknown	unknown	(no curated annotation)	-0.43007	-0.55318	4.2866	8.2847e-05	285	285	False
+PPA1	0.12232	0.00012231	0.01153	unknown	unknown	unknown	(no curated annotation)	-0.98319	-1.1055	3.8685	0.00018501	285	285	False
+UBE2M	0.12201	0.010081	0.14188	unknown	unknown	unknown	(no curated annotation)	-1.5451	-1.6671	2.5817	0.018467	285	285	False
+DDX49	0.12198	0.0017423	0.055073	unknown	unknown	unknown	(no curated annotation)	-2.0216	-2.1436	3.1461	0.006028	285	285	False
+RPL35	-0.12196	3.6697e-05	0.0062742	unknown	unknown	unknown	(no curated annotation)	-1.6062	-1.4843	-4.1607	7.5778e-05	285	285	False
+PSMG4	0.12184	0.008622	0.13019	unknown	unknown	unknown	(no curated annotation)	-1.7956	-1.9174	2.6359	0.017003	285	285	False
+SF3B1	-0.12138	3.9221e-05	0.0064596	unknown	unknown	unknown	(no curated annotation)	-1.5337	-1.4123	-4.145	2.9589e-05	285	285	False
+UBE2H	-0.12138	3.6102e-06	0.0014272	unknown	unknown	unknown	(no curated annotation)	-0.54545	-0.42407	-4.6793	1.3919e-06	285	285	False
+TLN1	-0.12134	4.5932e-05	0.00723	unknown	unknown	unknown	(no curated annotation)	-0.63149	-0.51014	-4.1074	1.66e-05	285	285	False
+PTPN11	-0.12087	0.00041469	0.024669	unknown	unknown	unknown	(no curated annotation)	-0.76487	-0.644	-3.5516	0.00059482	285	285	False
+POLR3K	0.12064	0.0003798	0.023136	unknown	unknown	unknown	(no curated annotation)	-1.5982	-1.7189	3.5752	0.00019656	285	285	False
+UROS	0.12035	6.1034e-07	0.00063859	unknown	unknown	unknown	(no curated annotation)	-0.13168	-0.25203	5.0482	4.0566e-06	285	285	False
+NCKAP1	-0.12011	0.00010862	0.010733	unknown	unknown	unknown	(no curated annotation)	-0.57266	-0.45255	-3.8982	0.00030504	285	285	False
+RRM1	-0.1199	0.015924	0.17893	unknown	unknown	unknown	(no curated annotation)	-3.2726	-3.1527	-2.4179	0.013018	285	285	False
+MRPS23	0.11983	0.00047465	0.025818	unknown	unknown	unknown	(no curated annotation)	-0.86663	-0.98646	3.5152	0.0010275	285	285	False
+RPL14	0.11977	0.0011995	0.045154	unknown	unknown	unknown	(no curated annotation)	-2.2529	-2.3727	3.2555	0.0013768	285	285	False
+TPT1	0.11976	8.9409e-07	0.00083701	unknown	unknown	unknown	(no curated annotation)	-1.0007	-1.1204	4.9688	1.4206e-06	285	285	False
+TRA2B	0.11967	6.5749e-06	0.0021257	unknown	unknown	unknown	(no curated annotation)	-0.53802	-0.65769	4.5519	7.2098e-06	285	285	False
+PPP1R15B	-0.11966	0.00282	0.071767	unknown	unknown	unknown	(no curated annotation)	-0.9051	-0.78544	-3	0.0014592	285	285	False
+INTS9	-0.11934	0.00054837	0.028215	unknown	unknown	unknown	(no curated annotation)	-1.8548	-1.7355	-3.4761	0.0021314	285	285	False
+ZBTB8OS	0.11889	0.00010007	0.010377	unknown	unknown	unknown	(no curated annotation)	-1.221	-1.3399	3.9185	0.00022441	285	285	False
+MYB	0.11887	9.5267e-05	0.010147	unknown	unknown	unknown	(no curated annotation)	-0.30044	-0.41931	3.9398	0.044032	285	285	False
+EIF5A	0.11884	0.0012984	0.047037	unknown	unknown	unknown	(no curated annotation)	-1.0721	-1.1909	3.2333	0.0016573	268	276	False
+FAF2	-0.11854	3.7038e-05	0.0062742	unknown	unknown	unknown	(no curated annotation)	-0.66818	-0.54964	-4.159	0.00014788	285	285	False
+GPN1	-0.11834	0.00094717	0.038641	unknown	unknown	unknown	(no curated annotation)	-1.8201	-1.7017	-3.3232	0.00038607	285	285	False
+BCL2L1	-0.11821	0.038032	0.27342	unknown	unknown	unknown	(no curated annotation)	-1.2228	-1.1046	-2.0794	0.011338	285	285	False
+STAMBP	-0.11735	0.00032127	0.021087	unknown	unknown	unknown	(no curated annotation)	-0.52237	-0.40502	-3.6203	0.00038161	285	285	False
+PNKP	0.11727	1.075e-05	0.0027243	unknown	unknown	unknown	(no curated annotation)	-0.42476	-0.54203	4.4416	4.2184e-06	285	285	False
+IMPDH2	0.11726	6.7135e-05	0.0088453	unknown	unknown	unknown	(no curated annotation)	-0.50043	-0.61769	4.0167	6.5388e-05	285	285	False
+CIAO1	0.11695	0.0014014	0.049482	unknown	unknown	unknown	(no curated annotation)	-1.4129	-1.5299	3.2103	0.00086943	285	285	False
+YARS1	0.11678	0.00050683	0.026991	unknown	unknown	unknown	(no curated annotation)	-2.2839	-2.4007	3.4973	0.0029774	285	285	False
+NACA	-0.11669	0.00021307	0.016196	unknown	unknown	unknown	(no curated annotation)	-1.4086	-1.2919	-3.7271	0.00027483	285	285	False
+PPA2	0.11657	0.00036906	0.022791	unknown	unknown	unknown	(no curated annotation)	-0.43056	-0.54714	3.5828	9.9729e-05	285	285	False
+STX4	-0.11648	0.00026087	0.018487	unknown	unknown	unknown	(no curated annotation)	-0.43966	-0.32318	-3.6757	0.0014363	285	285	False
+DDX54	0.11614	0.00064413	0.030965	unknown	unknown	unknown	(no curated annotation)	-1.6008	-1.7169	3.4316	0.0006187	285	285	False
+POLG	0.1156	4.4312e-06	0.0016002	unknown	unknown	unknown	(no curated annotation)	-0.25606	-0.37166	4.636	9.1852e-06	285	285	False
+PKMYT1	0.11551	0.0045578	0.093291	unknown	unknown	unknown	(no curated annotation)	-1.2829	-1.3984	2.8482	0.0091506	285	285	False
+HEMK2	0.11537	0.00011733	0.011258	unknown	unknown	unknown	(no curated annotation)	-0.50214	-0.61751	3.8788	9.8275e-05	285	285	False
+POP5	0.11523	0.0036181	0.082191	unknown	unknown	unknown	(no curated annotation)	-1.6995	-1.8148	2.9218	0.012399	285	285	False
+MYH9	-0.11498	0.0020865	0.06114	unknown	unknown	unknown	(no curated annotation)	-0.59632	-0.48134	-3.0919	0.00027483	285	285	False
+EIF3I	0.11371	0.00012247	0.01153	unknown	unknown	unknown	(no curated annotation)	-1.5424	-1.6561	3.8679	0.00012541	285	285	False
+PKN2	-0.11364	1.5356e-05	0.0036418	unknown	unknown	unknown	(no curated annotation)	-0.41012	-0.29648	-4.3622	1.4289e-05	285	285	False
+CINP	0.11301	5.3268e-05	0.0078305	unknown	unknown	unknown	(no curated annotation)	-0.92839	-1.0414	4.0722	3.5198e-05	285	285	False
+LRPPRC	0.11254	0.00071815	0.032669	unknown	unknown	unknown	(no curated annotation)	-0.63378	-0.74632	3.4012	0.00085056	285	285	False
+KPNB1	-0.11239	0.0025222	0.067582	unknown	unknown	unknown	(no curated annotation)	-2.5096	-2.3972	-3.0347	0.0017193	285	285	False
+BIRC6	-0.11226	0.00010144	0.01043	unknown	unknown	unknown	(no curated annotation)	-0.41787	-0.30561	-3.9149	0.00011519	285	285	False
+MRM2	0.11202	1.4212e-06	0.0011892	unknown	unknown	unknown	(no curated annotation)	-0.34277	-0.45479	4.8783	5.8971e-05	285	285	False
+HAPSTR1	-0.11181	0.00063679	0.030806	unknown	unknown	unknown	(no curated annotation)	-0.51331	-0.4015	-3.4352	0.0022543	285	285	False
+VARS1	0.11115	0.00043635	0.025037	unknown	unknown	unknown	(no curated annotation)	-1.5712	-1.6823	3.538	0.00021217	285	285	False
+CEP55	0.11073	4.1636e-06	0.0015429	unknown	unknown	unknown	(no curated annotation)	-0.24343	-0.35416	4.6492	1.5849e-06	285	285	False
+EIF3G	-0.11063	0.00023576	0.017472	unknown	unknown	unknown	(no curated annotation)	-1.48	-1.3693	-3.7009	0.00010184	285	285	False
+NOL9	0.11057	7.1568e-05	0.0091484	unknown	unknown	unknown	(no curated annotation)	-1.089	-1.1996	4.0008	8.9021e-05	285	285	False
+PRPF31	-0.11039	0.00095527	0.038882	unknown	unknown	unknown	(no curated annotation)	-2.1591	-2.0487	-3.3208	0.00079184	285	285	False
+VIRMA	-0.11022	2.3807e-05	0.0049819	unknown	unknown	unknown	(no curated annotation)	-1.1618	-1.0516	-4.2612	2.3367e-05	285	285	False
+EXOSC2	0.11015	3.1259e-05	0.00556	unknown	unknown	unknown	(no curated annotation)	-1.1657	-1.2758	4.1981	0.00049432	285	285	False
+UTP4	0.1099	0.0054402	0.10266	unknown	unknown	unknown	(no curated annotation)	-2.076	-2.1859	2.7905	0.0086212	285	285	False
+PSMD4	-0.10961	0.003882	0.084723	unknown	unknown	unknown	(no curated annotation)	-1.8354	-1.7258	-2.8995	0.0023241	285	285	False
+RPL7A	0.10934	0.0091663	0.13509	unknown	unknown	unknown	(no curated annotation)	-2.4433	-2.5526	2.6149	0.00093856	285	285	False
+PSMB4	-0.10922	0.0022509	0.064059	unknown	unknown	unknown	(no curated annotation)	-2.3634	-2.2542	-3.069	0.0019234	285	285	False
+MARS2	0.10918	0.012798	0.16077	unknown	unknown	unknown	(no curated annotation)	-1.0539	-1.1631	2.4973	0.010665	285	285	False
+DARS2	0.10908	1.8794e-05	0.0043414	unknown	unknown	unknown	(no curated annotation)	-0.30687	-0.41595	4.3164	4.1169e-05	285	285	False
+RRM2	-0.10899	0.017791	0.18908	unknown	unknown	unknown	(no curated annotation)	-2.6842	-2.5752	-2.3769	0.008647	285	285	False
+CDIN1	0.10885	2.6151e-05	0.0051221	unknown	unknown	unknown	(no curated annotation)	-0.21249	-0.32133	4.2398	2.8357e-05	285	285	False
+CNOT3	-0.10851	0.0013769	0.048885	unknown	unknown	unknown	(no curated annotation)	-1.6631	-1.5546	-3.2153	0.00018917	285	285	False
+IMP4	0.10835	4.8684e-06	0.0016604	unknown	unknown	unknown	(no curated annotation)	-1.1729	-1.2812	4.6153	7.9304e-06	285	285	False
+NOL6	0.10834	2.6205e-05	0.0051221	unknown	unknown	unknown	(no curated annotation)	-1.1206	-1.229	4.239	4.4846e-05	285	285	False
+SDHA	0.10809	0.00016659	0.013719	unknown	unknown	unknown	(no curated annotation)	-0.25897	-0.36705	3.7904	0.00035729	285	285	False
+ARIH1	-0.10791	0.0014764	0.050597	unknown	unknown	unknown	(no curated annotation)	-1.4862	-1.3783	-3.1949	0.00088383	285	285	False
+PGS1	0.10789	0.00029258	0.02025	unknown	unknown	unknown	(no curated annotation)	-0.84587	-0.95376	3.6448	0.00012259	285	285	False
+ITGB1	-0.10787	0.0012021	0.045154	unknown	unknown	unknown	(no curated annotation)	-0.26174	-0.15387	-3.2561	0.0026767	285	285	False
+TFB2M	0.10783	9.6201e-05	0.010185	unknown	unknown	unknown	(no curated annotation)	-0.62416	-0.73199	3.928	7.0779e-05	285	285	False
+RPS6	0.10711	0.0042213	0.088199	unknown	unknown	unknown	(no curated annotation)	-2.3697	-2.4768	2.8728	0.0029971	285	285	False
+ATL2	0.10709	0.00365	0.082463	unknown	unknown	unknown	(no curated annotation)	-0.7142	-0.82129	2.9191	0.00082903	285	285	False
+TSG101	-0.10709	0.00014817	0.012894	unknown	unknown	unknown	(no curated annotation)	-1.1684	-1.0613	-3.8202	0.00021647	285	285	False
+FCHO2	-0.10706	2.8225e-06	0.0013164	unknown	unknown	unknown	(no curated annotation)	-0.21485	-0.10778	-4.7343	1.0855e-05	285	285	False
+UBTF	0.10689	0.00056681	0.028805	unknown	unknown	unknown	(no curated annotation)	-1.7146	-1.8215	3.4671	0.0003707	285	285	False
+DOHH	0.10679	2.4597e-05	0.0050874	unknown	unknown	unknown	(no curated annotation)	-0.54142	-0.64822	4.2547	2.8548e-05	285	285	False
+ACTR6	0.10675	2.9002e-05	0.0052699	unknown	unknown	unknown	(no curated annotation)	-0.68006	-0.78682	4.2155	2.7297e-05	285	285	False
+ATP1A1	-0.10619	0.049256	0.30806	unknown	unknown	unknown	(no curated annotation)	-1.2722	-1.166	-1.9706	0.045936	285	285	False
+TBL3	0.10606	8.7464e-05	0.0099834	unknown	unknown	unknown	(no curated annotation)	-1.1123	-1.2184	3.9515	0.00051442	285	285	False
+MTG2	0.10603	2.077e-05	0.0045076	unknown	unknown	unknown	(no curated annotation)	-0.47262	-0.57865	4.2931	6.6093e-05	285	285	False
+SDHB	0.1059	0.0089033	0.13297	unknown	unknown	unknown	(no curated annotation)	-0.49074	-0.59665	2.6249	0.02217	285	285	False
+MRPL43	0.1057	0.0016516	0.053706	unknown	unknown	unknown	(no curated annotation)	-0.73281	-0.83851	3.1619	0.0017253	285	285	False
+COA6	0.10568	0.00022814	0.01705	unknown	unknown	unknown	(no curated annotation)	-0.3188	-0.42448	3.7101	0.00027646	285	285	False
+EP300	0.10548	0.011509	0.15346	unknown	unknown	unknown	(no curated annotation)	-0.2997	-0.40518	2.5351	0.0058436	285	285	False
+FARS2	0.10525	0.00058538	0.029327	unknown	unknown	unknown	(no curated annotation)	-0.51731	-0.62256	3.4578	0.00067289	285	285	False
+FEN1	0.105	0.0025477	0.067843	unknown	unknown	unknown	(no curated annotation)	-0.92622	-1.0312	3.0311	0.0085826	285	285	False
+PAX8	-0.10479	0.0010146	0.04047	unknown	unknown	unknown	(no curated annotation)	-0.26092	-0.15614	-3.3093	0.89479	285	285	False
+LETM1	0.10447	0.0031459	0.076443	unknown	unknown	unknown	(no curated annotation)	-1.1353	-1.2398	2.9658	0.0056203	285	285	False
+ADAR	-0.10445	0.00093279	0.038318	unknown	unknown	unknown	(no curated annotation)	-0.54961	-0.44517	-3.3278	0.000975	285	285	False
+CAP1	-0.10444	2.8222e-05	0.0052699	unknown	unknown	unknown	(no curated annotation)	-0.6784	-0.57396	-4.2221	1.7701e-05	285	285	False
+SDHC	0.10434	0.0021261	0.061729	unknown	unknown	unknown	(no curated annotation)	-0.96948	-1.0738	3.0863	0.0030825	285	285	False
+NMNAT1	0.10419	0.0045798	0.093418	unknown	unknown	unknown	(no curated annotation)	-0.35651	-0.4607	2.8467	0.0019201	285	285	False
+KIF11	-0.10369	0.047184	0.30364	unknown	unknown	unknown	(no curated annotation)	-2.8728	-2.7691	-1.989	0.048543	285	285	False
+COG3	-0.10346	0.00053419	0.028028	unknown	unknown	unknown	(no curated annotation)	-1.004	-0.90059	-3.4829	0.0028994	285	285	False
+POLRMT	0.10324	3.8474e-05	0.0063957	unknown	unknown	unknown	(no curated annotation)	-0.54152	-0.64476	4.1495	0.00013098	285	285	False
+TEDC1	0.10307	4.3385e-05	0.0070257	unknown	unknown	unknown	(no curated annotation)	-0.36659	-0.46966	4.1211	4.0899e-05	285	285	False
+ZFP36L1	-0.10305	0.00081653	0.035556	unknown	unknown	unknown	(no curated annotation)	-0.31947	-0.21642	-3.3654	0.00064466	285	285	False
+NOA1	0.1029	1.0037e-05	0.0026253	unknown	unknown	unknown	(no curated annotation)	-0.27209	-0.37499	4.459	2.9788e-05	285	285	False
+TAF13	0.10285	4.4814e-08	9.6449e-05	unknown	unknown	unknown	(no curated annotation)	-0.38201	-0.48486	5.5462	1.4362e-08	285	285	False
+RPS8	0.1028	0.0069335	0.11701	unknown	unknown	unknown	(no curated annotation)	-3.1913	-3.2941	2.71	0.0063632	285	285	False
+NOP58	0.10254	0.0051388	0.099457	unknown	unknown	unknown	(no curated annotation)	-1.7213	-1.8238	2.8092	0.0062368	285	285	False
+PPP4C	0.10222	0.00109	0.042798	unknown	unknown	unknown	(no curated annotation)	-1.0943	-1.1965	3.2831	0.0043576	285	285	False
+TADA2B	0.10219	0.0011765	0.044812	unknown	unknown	unknown	(no curated annotation)	-0.17995	-0.28214	3.261	0.0050914	285	285	False
+TRMT61A	0.10214	9.8862e-06	0.0026253	unknown	unknown	unknown	(no curated annotation)	-0.21644	-0.31858	4.4608	8.8443e-06	285	285	False
+CSTF1	0.10192	5.1822e-05	0.0077459	unknown	unknown	unknown	(no curated annotation)	-0.98591	-1.0878	4.0785	3.7947e-05	285	285	False
+PSMB5	0.10163	0.085664	0.39638	unknown	unknown	unknown	(no curated annotation)	-1.8539	-1.9555	1.7217	0.018594	285	285	False
+HSPA14	0.10149	0.00049994	0.026829	unknown	unknown	unknown	(no curated annotation)	-0.36636	-0.46785	3.5012	0.0005622	285	285	False
+GATB	0.1014	8.3111e-06	0.0023293	unknown	unknown	unknown	(no curated annotation)	-0.26959	-0.37099	4.4983	1.1402e-05	285	285	False
+TEDC2	0.10133	2.6806e-05	0.0051826	unknown	unknown	unknown	(no curated annotation)	-0.33844	-0.43978	4.2346	4.5938e-05	285	285	False
+RPS13	-0.1012	0.00028015	0.019541	unknown	unknown	unknown	(no curated annotation)	-1.7039	-1.6027	-3.6559	0.00066418	285	285	False
+PRORP	0.10115	0.00010601	0.010713	unknown	unknown	unknown	(no curated annotation)	-0.42056	-0.52171	3.9039	0.00018917	285	285	False
+SLC2A1	-0.101	0.0037396	0.083548	unknown	unknown	unknown	(no curated annotation)	-0.54819	-0.44718	-2.9114	0.0061221	285	285	False
+SLC25A28	-0.10096	0.0006997	0.032382	unknown	unknown	unknown	(no curated annotation)	-0.43009	-0.32913	-3.4096	0.020534	285	285	False
+POLE2	-0.10094	0.011156	0.15044	unknown	unknown	unknown	(no curated annotation)	-1.8396	-1.7387	-2.5462	0.011305	285	285	False
+GRWD1	0.10079	7.5334e-05	0.0095033	unknown	unknown	unknown	(no curated annotation)	-0.88834	-0.98913	3.988	0.00015886	285	285	False
+MARS1	0.10013	0.0062162	0.11061	unknown	unknown	unknown	(no curated annotation)	-1.7778	-1.8779	2.7466	0.0026544	285	285	False
+RPL27A	0.10011	0.0032188	0.076851	unknown	unknown	unknown	(no curated annotation)	-1.9404	-2.0405	2.9587	0.0076091	285	285	False
+GSPT1	-0.099966	0.021621	0.20898	unknown	unknown	unknown	(no curated annotation)	-1.7447	-1.6447	-2.3034	0.018569	285	285	False
+PWP2	0.099846	0.0019421	0.05865	unknown	unknown	unknown	(no curated annotation)	-1.4558	-1.5556	3.1135	0.0032494	285	285	False
+RPS3	-0.099456	0.0013741	0.048881	unknown	unknown	unknown	(no curated annotation)	-2.2089	-2.1094	-3.216	0.00086468	285	285	False
+RPL18A	0.099315	0.0044495	0.091707	unknown	unknown	unknown	(no curated annotation)	-2.5142	-2.6135	2.856	0.021181	285	285	False
+SOCS3	-0.099058	7.332e-06	0.0022104	unknown	unknown	unknown	(no curated annotation)	-0.23485	-0.13579	-4.5292	0.00017659	285	285	False
+EED	0.098994	0.00045498	0.025336	unknown	unknown	unknown	(no curated annotation)	-0.22988	-0.32887	3.5268	0.0004417	285	285	False
+DCPS	0.098813	0.00036009	0.022517	unknown	unknown	unknown	(no curated annotation)	-0.18505	-0.28387	3.5894	0.00018689	285	285	False
+PSMD12	-0.098742	0.0012279	0.0455	unknown	unknown	unknown	(no curated annotation)	-1.555	-1.4563	-3.2494	0.00098031	285	285	False
+PET117	0.098262	0.0036507	0.082463	unknown	unknown	unknown	(no curated annotation)	-0.344	-0.44226	2.9196	0.00040918	268	276	False
+MRPL33	0.098219	0.013104	0.16288	unknown	unknown	unknown	(no curated annotation)	-0.91972	-1.0179	2.4888	0.040028	285	285	False
+MNAT1	0.097979	0.00040777	0.024421	unknown	unknown	unknown	(no curated annotation)	-0.801	-0.89897	3.5564	0.00047677	285	285	False
+SLC30A9	0.097891	6.2494e-05	0.0086169	unknown	unknown	unknown	(no curated annotation)	-0.19433	-0.29222	4.0336	3.8283e-05	285	285	False
+YARS2	0.097863	0.057113	0.32901	unknown	unknown	unknown	(no curated annotation)	-1.481	-1.5789	1.9063	0.068606	285	285	False
+EFR3A	-0.097545	0.0073147	0.12025	unknown	unknown	unknown	(no curated annotation)	-0.48142	-0.38388	-2.6919	0.0069452	285	285	False
+MRPS11	0.097479	0.0054427	0.10266	unknown	unknown	unknown	(no curated annotation)	-0.75842	-0.8559	2.7903	0.0040933	285	285	False
+MTG1	0.097474	7.2006e-05	0.0091484	unknown	unknown	unknown	(no curated annotation)	-0.25551	-0.35298	4.0008	0.0011756	285	285	False
+PFDN2	-0.097178	0.0016234	0.053374	unknown	unknown	unknown	(no curated annotation)	-1.7982	-1.701	-3.1669	0.0011693	285	285	False
+PARS2	0.097139	0.00093557	0.038343	unknown	unknown	unknown	(no curated annotation)	-0.54361	-0.64075	3.3269	0.0011081	285	285	False
+GFM1	0.097061	0.00046799	0.025692	unknown	unknown	unknown	(no curated annotation)	-0.51553	-0.61259	3.5189	0.00020016	285	285	False
+NUP43	-0.096965	0.01386	0.16885	unknown	unknown	unknown	(no curated annotation)	-1.2779	-1.1809	-2.4685	0.017771	285	285	False
+IK	-0.09655	0.00088956	0.037429	unknown	unknown	unknown	(no curated annotation)	-1.6092	-1.5127	-3.341	0.0010806	285	285	False
+WTAP	-0.096537	0.00013926	0.01251	unknown	unknown	unknown	(no curated annotation)	-0.65664	-0.5601	-3.8359	4.7261e-05	285	285	False
+DPM2	-0.096451	2.7161e-06	0.0013057	unknown	unknown	unknown	(no curated annotation)	-0.46908	-0.37263	-4.7399	2.3601e-06	285	285	False
+TRIAP1	0.096363	0.017961	0.1894	unknown	unknown	unknown	(no curated annotation)	-1.3955	-1.4918	2.3733	0.01313	285	285	False
+RTEL1	0.096351	8.0042e-05	0.0095971	unknown	unknown	unknown	(no curated annotation)	-0.56426	-0.66061	3.9735	0.00016446	285	285	False
+AURKB	0.096127	0.0011451	0.044002	unknown	unknown	unknown	(no curated annotation)	-2.147	-2.2432	3.2689	0.0015113	285	285	False
+PPP1R2	-0.096086	0.0015921	0.052734	unknown	unknown	unknown	(no curated annotation)	-0.91663	-0.82054	-3.1728	0.00081098	285	285	False
+SMARCD1	0.095808	0.00017801	0.01447	unknown	unknown	unknown	(no curated annotation)	-0.17226	-0.26807	3.7735	0.0012759	285	285	False
+DDX55	0.095361	0.0011184	0.043721	unknown	unknown	unknown	(no curated annotation)	-1.2923	-1.3877	3.2757	0.0005993	285	285	False
+RHEB	-0.095155	0.00010034	0.010377	unknown	unknown	unknown	(no curated annotation)	-0.46343	-0.36828	-3.9185	1.0069e-05	285	285	False
+ADSL	0.095144	0.078406	0.38094	unknown	unknown	unknown	(no curated annotation)	-1.03	-1.1252	1.7632	0.068298	285	285	False
+WDR55	0.09496	0.0032058	0.076849	unknown	unknown	unknown	(no curated annotation)	-1.2557	-1.3507	2.9599	0.00054139	285	285	False
+TAF4	0.094952	2.0529e-06	0.0012172	unknown	unknown	unknown	(no curated annotation)	-0.22902	-0.32397	4.7979	1.5217e-06	285	285	False
+XRN2	0.094918	0.0016153	0.053303	unknown	unknown	unknown	(no curated annotation)	-1.3081	-1.403	3.1686	0.0033688	285	285	False
+CDIPT	0.094916	0.0084318	0.1287	unknown	unknown	unknown	(no curated annotation)	-0.83977	-0.93469	2.6435	0.00098743	285	285	False
+WDR26	-0.094581	0.00025362	0.018338	unknown	unknown	unknown	(no curated annotation)	-0.56835	-0.47377	-3.6822	0.00033967	285	285	False
+MICOS10	0.094349	0.0023528	0.065287	unknown	unknown	unknown	(no curated annotation)	-0.53371	-0.62806	3.0568	0.015361	285	285	False
+PSMG2	0.09432	0.0056639	0.10509	unknown	unknown	unknown	(no curated annotation)	-0.70819	-0.80251	2.7772	0.006462	285	285	False
+NCOA4	-0.094251	8.7559e-05	0.0099834	unknown	unknown	unknown	(no curated annotation)	-0.50203	-0.40778	-3.9562	0.0013408	285	285	False
+NOP2	0.09422	9.5188e-05	0.010147	unknown	unknown	unknown	(no curated annotation)	-1.2078	-1.302	3.9306	0.00036147	285	285	False
+FASTKD5	0.094158	2.6016e-05	0.0051221	unknown	unknown	unknown	(no curated annotation)	-0.31664	-0.4108	4.241	2.3473e-05	285	285	False
+THG1L	0.093857	6.8946e-05	0.0090173	unknown	unknown	unknown	(no curated annotation)	-0.67663	-0.77049	4.0097	0.00012183	285	285	False
+POLR1G	0.093629	2.9128e-08	7.4014e-05	unknown	unknown	unknown	(no curated annotation)	-0.40636	-0.49999	5.6251	2.4052e-08	285	285	False
+DKC1	0.093563	0.0072381	0.11953	unknown	unknown	unknown	(no curated annotation)	-1.2652	-1.3588	2.6955	0.0036315	285	285	False
+MMGT1	0.093465	0.00019834	0.015473	unknown	unknown	unknown	(no curated annotation)	-0.39298	-0.48644	3.7456	0.00014399	285	285	False
+SLC35B1	0.093443	0.0023761	0.065525	unknown	unknown	unknown	(no curated annotation)	-1.2396	-1.333	3.0525	0.0023918	285	285	False
+DNAJA3	0.093245	1.7655e-06	0.0011892	unknown	unknown	unknown	(no curated annotation)	-0.82797	-0.92121	4.8297	1.0881e-06	285	285	False
+MEN1	0.093201	0.0068236	0.11641	unknown	unknown	unknown	(no curated annotation)	-0.32206	-0.41527	2.7158	0.0083669	285	285	False
+ZRSR2	-0.093127	0.0041566	0.087738	unknown	unknown	unknown	(no curated annotation)	-1.0016	-0.90852	-2.8778	0.0042338	285	285	False
+RNASEH2C	0.092911	0.00021992	0.016505	unknown	unknown	unknown	(no curated annotation)	-0.31867	-0.41158	3.7196	0.00038161	285	285	False
+TXNRD1	0.092675	0.019047	0.1956	unknown	unknown	unknown	(no curated annotation)	-0.56028	-0.65296	2.3514	0.008647	285	285	False
+ERBB2	-0.092557	0.00072883	0.032903	unknown	unknown	unknown	(no curated annotation)	-0.39258	-0.30002	-3.3985	5.2467e-05	285	285	False
+BUB3	0.092347	0.068304	0.35702	unknown	unknown	unknown	(no curated annotation)	-2.5939	-2.6862	1.8265	0.35642	285	285	False

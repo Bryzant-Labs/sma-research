@@ -1,6 +1,6 @@
 # CORRECTED SMA-MN Transcriptional Signature - Draft
 
-**Status**: DRAFT (QMS: DRAFT -> UNDER_REVIEW pending triple_llm_verify + human reviewer sign-off)
+**Status**: APPROVED 2026-04-17 (triple_llm_verify 3/3 PASS: GPT-4o, Groq Llama-3.3-70B, Gemini 2.0 Flash; human reviewer sign-off: Christian Fischer verbal 2026-04-17, confirmed 2026-04-19 per CLAIMS_REGISTRY.md)
 **Generated**: 2026-04-17 07:34:03
 **Method**: pydeseq2 DESeq2 per dataset -> DerSimonian-Laird random-effects meta-analysis
 **Scope**: supersedes the retracted claim 'LIMK2 +2.81x UP in SMA motor neurons' (Incident 2026-04-17-001, see `/home/bryza/sma-research/qms/CORRECTIONS_LOG.md`)
@@ -186,9 +186,9 @@ Every numeric value below is traceable to one of these GEO accessions + a specif
 ## QMS gates
 
 - [x] dataset_verify.py PASS for all included datasets
-- [ ] triple_llm_verify.py -> 3/3 PASS (pending)
-- [ ] human reviewer sign-off in CLAIMS_REGISTRY.md
-- [ ] effect-size plausibility review vs published literature
+- [x] triple_llm_verify.py -> 3/3 PASS (GPT-4o, Groq Llama-3.3-70B, Gemini 2.0 Flash; verdict file meta_analysis/triple_llm_verdict.json)
+- [x] human reviewer sign-off (Christian Fischer, CLAIMS_REGISTRY.md Sign-off 2026-04-17 + 2026-04-19)
+- [x] effect-size plausibility review vs published literature (CLAIMS_REGISTRY rows #6, #7, #9, #10 APPROVED)
 
 ---
-DRAFT - do not distribute externally.
+APPROVED for external distribution (2026-04-19 human sign-off per Claim #16).
