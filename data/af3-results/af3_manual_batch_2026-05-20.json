@@ -1,0 +1,1178 @@
+{
+  "batch": "manual_af3_server_2026-05-20",
+  "method": "AlphaFold 3 (alphafoldserver.com)",
+  "n_folds": 30,
+  "date": "2026-05-20",
+  "results": [
+    {
+      "job_name": "binder_limk2_nb1_x_limk2_kin",
+      "best_iptm": 0.72,
+      "best_ptm": 0.49,
+      "best_ranking_score": 0.75,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "kin",
+          "iptm": 0.71,
+          "ptm": 0.5,
+          "ranking_score": 0.75
+        },
+        {
+          "model": "kin",
+          "iptm": 0.71,
+          "ptm": 0.51,
+          "ranking_score": 0.75
+        },
+        {
+          "model": "kin",
+          "iptm": 0.72,
+          "ptm": 0.49,
+          "ranking_score": 0.75
+        },
+        {
+          "model": "kin",
+          "iptm": 0.71,
+          "ptm": 0.51,
+          "ranking_score": 0.75
+        },
+        {
+          "model": "kin",
+          "iptm": 0.71,
+          "ptm": 0.5,
+          "ranking_score": 0.74
+        }
+      ]
+    },
+    {
+      "job_name": "bdnf_full_x_ntrk2_ecd",
+      "best_iptm": 0.49,
+      "best_ptm": 0.42,
+      "best_ranking_score": 0.62,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "ecd",
+          "iptm": 0.49,
+          "ptm": 0.42,
+          "ranking_score": 0.62
+        },
+        {
+          "model": "ecd",
+          "iptm": 0.49,
+          "ptm": 0.42,
+          "ranking_score": 0.61
+        },
+        {
+          "model": "ecd",
+          "iptm": 0.49,
+          "ptm": 0.43,
+          "ranking_score": 0.61
+        },
+        {
+          "model": "ecd",
+          "iptm": 0.48,
+          "ptm": 0.42,
+          "ranking_score": 0.6
+        },
+        {
+          "model": "ecd",
+          "iptm": 0.49,
+          "ptm": 0.41,
+          "ranking_score": 0.6
+        }
+      ]
+    },
+    {
+      "job_name": "binder_rock2_alpha1_x_limk2_kin",
+      "best_iptm": 0.46,
+      "best_ptm": 0.48,
+      "best_ranking_score": 0.56,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "kin",
+          "iptm": 0.46,
+          "ptm": 0.48,
+          "ranking_score": 0.56
+        },
+        {
+          "model": "kin",
+          "iptm": 0.46,
+          "ptm": 0.47,
+          "ranking_score": 0.54
+        },
+        {
+          "model": "kin",
+          "iptm": 0.44,
+          "ptm": 0.47,
+          "ranking_score": 0.54
+        },
+        {
+          "model": "kin",
+          "iptm": 0.43,
+          "ptm": 0.47,
+          "ranking_score": 0.52
+        },
+        {
+          "model": "kin",
+          "iptm": 0.44,
+          "ptm": 0.47,
+          "ranking_score": 0.52
+        }
+      ]
+    },
+    {
+      "job_name": "dok7_ptb_x_musk_kin",
+      "best_iptm": 0.4,
+      "best_ptm": 0.41,
+      "best_ranking_score": 0.56,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "kin",
+          "iptm": 0.4,
+          "ptm": 0.41,
+          "ranking_score": 0.56
+        },
+        {
+          "model": "kin",
+          "iptm": 0.4,
+          "ptm": 0.41,
+          "ranking_score": 0.56
+        },
+        {
+          "model": "kin",
+          "iptm": 0.39,
+          "ptm": 0.41,
+          "ranking_score": 0.55
+        },
+        {
+          "model": "kin",
+          "iptm": 0.4,
+          "ptm": 0.4,
+          "ranking_score": 0.55
+        },
+        {
+          "model": "kin",
+          "iptm": 0.39,
+          "ptm": 0.39,
+          "ranking_score": 0.55
+        }
+      ]
+    },
+    {
+      "job_name": "agrn_lg3_x_lrp4_ldlr",
+      "best_iptm": 0.38,
+      "best_ptm": 0.44,
+      "best_ranking_score": 0.45,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "ldlr",
+          "iptm": 0.38,
+          "ptm": 0.44,
+          "ranking_score": 0.45
+        },
+        {
+          "model": "ldlr",
+          "iptm": 0.37,
+          "ptm": 0.44,
+          "ranking_score": 0.45
+        },
+        {
+          "model": "ldlr",
+          "iptm": 0.37,
+          "ptm": 0.44,
+          "ranking_score": 0.44
+        },
+        {
+          "model": "ldlr",
+          "iptm": 0.38,
+          "ptm": 0.44,
+          "ranking_score": 0.44
+        },
+        {
+          "model": "ldlr",
+          "iptm": 0.36,
+          "ptm": 0.44,
+          "ranking_score": 0.43
+        }
+      ]
+    },
+    {
+      "job_name": "binder_rock2_nb2_x_rock2_kin",
+      "best_iptm": 0.38,
+      "best_ptm": 0.36,
+      "best_ranking_score": 0.53,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "kin",
+          "iptm": 0.38,
+          "ptm": 0.36,
+          "ranking_score": 0.53
+        },
+        {
+          "model": "kin",
+          "iptm": 0.17,
+          "ptm": 0.36,
+          "ranking_score": 0.4
+        },
+        {
+          "model": "kin",
+          "iptm": 0.29,
+          "ptm": 0.36,
+          "ranking_score": 0.38
+        },
+        {
+          "model": "kin",
+          "iptm": 0.18,
+          "ptm": 0.36,
+          "ranking_score": 0.37
+        },
+        {
+          "model": "kin",
+          "iptm": 0.16,
+          "ptm": 0.36,
+          "ranking_score": 0.26
+        }
+      ]
+    },
+    {
+      "job_name": "binder_limk2_nb1_x_limk1_kin",
+      "best_iptm": 0.33,
+      "best_ptm": 0.44,
+      "best_ranking_score": 0.42,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "kin",
+          "iptm": 0.33,
+          "ptm": 0.44,
+          "ranking_score": 0.42
+        },
+        {
+          "model": "kin",
+          "iptm": 0.27,
+          "ptm": 0.43,
+          "ranking_score": 0.38
+        },
+        {
+          "model": "kin",
+          "iptm": 0.29,
+          "ptm": 0.44,
+          "ranking_score": 0.37
+        },
+        {
+          "model": "kin",
+          "iptm": 0.26,
+          "ptm": 0.44,
+          "ranking_score": 0.37
+        },
+        {
+          "model": "kin",
+          "iptm": 0.26,
+          "ptm": 0.44,
+          "ranking_score": 0.37
+        }
+      ]
+    },
+    {
+      "job_name": "deptor_322_409_x_nrg1_176_246",
+      "best_iptm": 0.28,
+      "best_ptm": 0.3,
+      "best_ranking_score": 0.55,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "246",
+          "iptm": 0.28,
+          "ptm": 0.3,
+          "ranking_score": 0.55
+        },
+        {
+          "model": "246",
+          "iptm": 0.27,
+          "ptm": 0.29,
+          "ranking_score": 0.54
+        },
+        {
+          "model": "246",
+          "iptm": 0.27,
+          "ptm": 0.29,
+          "ranking_score": 0.54
+        },
+        {
+          "model": "246",
+          "iptm": 0.27,
+          "ptm": 0.29,
+          "ranking_score": 0.53
+        },
+        {
+          "model": "246",
+          "iptm": 0.26,
+          "ptm": 0.29,
+          "ranking_score": 0.53
+        }
+      ]
+    },
+    {
+      "job_name": "hif1a_18_80_x_hnrnpa1_106_184",
+      "best_iptm": 0.27,
+      "best_ptm": 0.4,
+      "best_ranking_score": 0.56,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "184",
+          "iptm": 0.27,
+          "ptm": 0.4,
+          "ranking_score": 0.56
+        },
+        {
+          "model": "184",
+          "iptm": 0.26,
+          "ptm": 0.41,
+          "ranking_score": 0.55
+        },
+        {
+          "model": "184",
+          "iptm": 0.23,
+          "ptm": 0.4,
+          "ranking_score": 0.51
+        },
+        {
+          "model": "184",
+          "iptm": 0.22,
+          "ptm": 0.39,
+          "ranking_score": 0.51
+        },
+        {
+          "model": "184",
+          "iptm": 0.22,
+          "ptm": 0.39,
+          "ranking_score": 0.5
+        }
+      ]
+    },
+    {
+      "job_name": "cfl1_none_none_x_tp53_363_393",
+      "best_iptm": 0.26,
+      "best_ptm": 0.42,
+      "best_ranking_score": 0.47,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "393",
+          "iptm": 0.26,
+          "ptm": 0.42,
+          "ranking_score": 0.47
+        },
+        {
+          "model": "393",
+          "iptm": 0.26,
+          "ptm": 0.43,
+          "ranking_score": 0.46
+        },
+        {
+          "model": "393",
+          "iptm": 0.21,
+          "ptm": 0.43,
+          "ranking_score": 0.42
+        },
+        {
+          "model": "393",
+          "iptm": 0.16,
+          "ptm": 0.41,
+          "ranking_score": 0.38
+        },
+        {
+          "model": "393",
+          "iptm": 0.14,
+          "ptm": 0.42,
+          "ranking_score": 0.36
+        }
+      ]
+    },
+    {
+      "job_name": "deptor_full_x_smn1_full",
+      "best_iptm": 0.25,
+      "best_ptm": 0.36,
+      "best_ranking_score": 0.47,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "full",
+          "iptm": 0.25,
+          "ptm": 0.36,
+          "ranking_score": 0.47
+        },
+        {
+          "model": "full",
+          "iptm": 0.24,
+          "ptm": 0.36,
+          "ranking_score": 0.47
+        },
+        {
+          "model": "full",
+          "iptm": 0.22,
+          "ptm": 0.34,
+          "ranking_score": 0.45
+        },
+        {
+          "model": "full",
+          "iptm": 0.19,
+          "ptm": 0.38,
+          "ranking_score": 0.42
+        },
+        {
+          "model": "full",
+          "iptm": 0.17,
+          "ptm": 0.36,
+          "ranking_score": 0.4
+        }
+      ]
+    },
+    {
+      "job_name": "atf3_none_none_x_rock2_941_1010",
+      "best_iptm": 0.24,
+      "best_ptm": 0.35,
+      "best_ranking_score": 0.48,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "1010",
+          "iptm": 0.23,
+          "ptm": 0.35,
+          "ranking_score": 0.5
+        },
+        {
+          "model": "1010",
+          "iptm": 0.24,
+          "ptm": 0.35,
+          "ranking_score": 0.48
+        },
+        {
+          "model": "1010",
+          "iptm": 0.22,
+          "ptm": 0.35,
+          "ranking_score": 0.47
+        },
+        {
+          "model": "1010",
+          "iptm": 0.22,
+          "ptm": 0.35,
+          "ranking_score": 0.47
+        },
+        {
+          "model": "1010",
+          "iptm": 0.22,
+          "ptm": 0.35,
+          "ranking_score": 0.46
+        }
+      ]
+    },
+    {
+      "job_name": "hif1a_18_80_x_nrg1_176_246",
+      "best_iptm": 0.24,
+      "best_ptm": 0.33,
+      "best_ranking_score": 0.58,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "246",
+          "iptm": 0.24,
+          "ptm": 0.33,
+          "ranking_score": 0.58
+        },
+        {
+          "model": "246",
+          "iptm": 0.24,
+          "ptm": 0.33,
+          "ranking_score": 0.57
+        },
+        {
+          "model": "246",
+          "iptm": 0.23,
+          "ptm": 0.33,
+          "ranking_score": 0.57
+        },
+        {
+          "model": "246",
+          "iptm": 0.17,
+          "ptm": 0.33,
+          "ranking_score": 0.52
+        },
+        {
+          "model": "246",
+          "iptm": 0.15,
+          "ptm": 0.33,
+          "ranking_score": 0.51
+        }
+      ]
+    },
+    {
+      "job_name": "limk2_165_280_x_tp53_1_62",
+      "best_iptm": 0.22,
+      "best_ptm": 0.36,
+      "best_ranking_score": 0.39,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "62",
+          "iptm": 0.21,
+          "ptm": 0.36,
+          "ranking_score": 0.39
+        },
+        {
+          "model": "62",
+          "iptm": 0.22,
+          "ptm": 0.36,
+          "ranking_score": 0.39
+        },
+        {
+          "model": "62",
+          "iptm": 0.2,
+          "ptm": 0.37,
+          "ranking_score": 0.38
+        },
+        {
+          "model": "62",
+          "iptm": 0.2,
+          "ptm": 0.37,
+          "ranking_score": 0.38
+        },
+        {
+          "model": "62",
+          "iptm": 0.2,
+          "ptm": 0.37,
+          "ranking_score": 0.37
+        }
+      ]
+    },
+    {
+      "job_name": "binder_rock2_alpha2_x_rock2_kin",
+      "best_iptm": 0.21,
+      "best_ptm": 0.36,
+      "best_ranking_score": 0.38,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "kin",
+          "iptm": 0.15,
+          "ptm": 0.35,
+          "ranking_score": 0.4
+        },
+        {
+          "model": "kin",
+          "iptm": 0.16,
+          "ptm": 0.36,
+          "ranking_score": 0.39
+        },
+        {
+          "model": "kin",
+          "iptm": 0.21,
+          "ptm": 0.36,
+          "ranking_score": 0.38
+        },
+        {
+          "model": "kin",
+          "iptm": 0.17,
+          "ptm": 0.35,
+          "ranking_score": 0.37
+        },
+        {
+          "model": "kin",
+          "iptm": 0.18,
+          "ptm": 0.35,
+          "ranking_score": 0.34
+        }
+      ]
+    },
+    {
+      "job_name": "gfra3_132_255_x_atf3_none_none",
+      "best_iptm": 0.2,
+      "best_ptm": 0.53,
+      "best_ranking_score": 0.46,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "none",
+          "iptm": 0.2,
+          "ptm": 0.53,
+          "ranking_score": 0.46
+        },
+        {
+          "model": "none",
+          "iptm": 0.19,
+          "ptm": 0.53,
+          "ranking_score": 0.45
+        },
+        {
+          "model": "none",
+          "iptm": 0.19,
+          "ptm": 0.53,
+          "ranking_score": 0.44
+        },
+        {
+          "model": "none",
+          "iptm": 0.18,
+          "ptm": 0.53,
+          "ranking_score": 0.42
+        },
+        {
+          "model": "none",
+          "iptm": 0.17,
+          "ptm": 0.53,
+          "ranking_score": 0.41
+        }
+      ]
+    },
+    {
+      "job_name": "binder_rock2_nb1_x_rock1_kin",
+      "best_iptm": 0.18,
+      "best_ptm": 0.35,
+      "best_ranking_score": 0.31,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "kin",
+          "iptm": 0.15,
+          "ptm": 0.35,
+          "ranking_score": 0.34
+        },
+        {
+          "model": "kin",
+          "iptm": 0.18,
+          "ptm": 0.35,
+          "ranking_score": 0.31
+        },
+        {
+          "model": "kin",
+          "iptm": 0.15,
+          "ptm": 0.36,
+          "ranking_score": 0.3
+        },
+        {
+          "model": "kin",
+          "iptm": 0.16,
+          "ptm": 0.36,
+          "ranking_score": 0.3
+        },
+        {
+          "model": "kin",
+          "iptm": 0.15,
+          "ptm": 0.35,
+          "ranking_score": 0.29
+        }
+      ]
+    },
+    {
+      "job_name": "binder_rock2_nb1_x_rock2_kin",
+      "best_iptm": 0.18,
+      "best_ptm": 0.36,
+      "best_ranking_score": 0.4,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "kin",
+          "iptm": 0.18,
+          "ptm": 0.36,
+          "ranking_score": 0.4
+        },
+        {
+          "model": "kin",
+          "iptm": 0.16,
+          "ptm": 0.36,
+          "ranking_score": 0.39
+        },
+        {
+          "model": "kin",
+          "iptm": 0.17,
+          "ptm": 0.35,
+          "ranking_score": 0.37
+        },
+        {
+          "model": "kin",
+          "iptm": 0.16,
+          "ptm": 0.35,
+          "ranking_score": 0.29
+        },
+        {
+          "model": "kin",
+          "iptm": 0.15,
+          "ptm": 0.35,
+          "ranking_score": 0.29
+        }
+      ]
+    },
+    {
+      "job_name": "hif1a_18_80_x_tp53_1_62",
+      "best_iptm": 0.18,
+      "best_ptm": 0.37,
+      "best_ranking_score": 0.48,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "62",
+          "iptm": 0.18,
+          "ptm": 0.37,
+          "ranking_score": 0.48
+        },
+        {
+          "model": "62",
+          "iptm": 0.18,
+          "ptm": 0.37,
+          "ranking_score": 0.47
+        },
+        {
+          "model": "62",
+          "iptm": 0.16,
+          "ptm": 0.37,
+          "ranking_score": 0.44
+        },
+        {
+          "model": "62",
+          "iptm": 0.14,
+          "ptm": 0.36,
+          "ranking_score": 0.44
+        },
+        {
+          "model": "62",
+          "iptm": 0.17,
+          "ptm": 0.36,
+          "ranking_score": 0.22
+        }
+      ]
+    },
+    {
+      "job_name": "hif1a_18_80_x_tp53_323_356",
+      "best_iptm": 0.18,
+      "best_ptm": 0.37,
+      "best_ranking_score": 0.48,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "356",
+          "iptm": 0.18,
+          "ptm": 0.37,
+          "ranking_score": 0.48
+        },
+        {
+          "model": "356",
+          "iptm": 0.18,
+          "ptm": 0.37,
+          "ranking_score": 0.47
+        },
+        {
+          "model": "356",
+          "iptm": 0.16,
+          "ptm": 0.37,
+          "ranking_score": 0.44
+        },
+        {
+          "model": "356",
+          "iptm": 0.14,
+          "ptm": 0.36,
+          "ranking_score": 0.44
+        },
+        {
+          "model": "356",
+          "iptm": 0.17,
+          "ptm": 0.36,
+          "ranking_score": 0.22
+        }
+      ]
+    },
+    {
+      "job_name": "binder_rock2_alpha1_x_rock2_kin",
+      "best_iptm": 0.17,
+      "best_ptm": 0.35,
+      "best_ranking_score": 0.42,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "kin",
+          "iptm": 0.17,
+          "ptm": 0.35,
+          "ranking_score": 0.42
+        },
+        {
+          "model": "kin",
+          "iptm": 0.16,
+          "ptm": 0.36,
+          "ranking_score": 0.41
+        },
+        {
+          "model": "kin",
+          "iptm": 0.15,
+          "ptm": 0.35,
+          "ranking_score": 0.39
+        },
+        {
+          "model": "kin",
+          "iptm": 0.15,
+          "ptm": 0.35,
+          "ranking_score": 0.38
+        },
+        {
+          "model": "kin",
+          "iptm": 0.15,
+          "ptm": 0.35,
+          "ranking_score": 0.32
+        }
+      ]
+    },
+    {
+      "job_name": "atf3_none_none_x_pak1_74_149",
+      "best_iptm": 0.16,
+      "best_ptm": 0.5,
+      "best_ranking_score": 0.44,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "149",
+          "iptm": 0.16,
+          "ptm": 0.5,
+          "ranking_score": 0.44
+        },
+        {
+          "model": "149",
+          "iptm": 0.15,
+          "ptm": 0.5,
+          "ranking_score": 0.44
+        },
+        {
+          "model": "149",
+          "iptm": 0.14,
+          "ptm": 0.5,
+          "ranking_score": 0.44
+        },
+        {
+          "model": "149",
+          "iptm": 0.14,
+          "ptm": 0.5,
+          "ranking_score": 0.43
+        },
+        {
+          "model": "149",
+          "iptm": 0.13,
+          "ptm": 0.5,
+          "ranking_score": 0.42
+        }
+      ]
+    },
+    {
+      "job_name": "atf3_none_none_x_pak1_74_149_2",
+      "best_iptm": 0.16,
+      "best_ptm": 0.5,
+      "best_ranking_score": 0.44,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "149",
+          "iptm": 0.16,
+          "ptm": 0.5,
+          "ranking_score": 0.44
+        },
+        {
+          "model": "149",
+          "iptm": 0.15,
+          "ptm": 0.5,
+          "ranking_score": 0.44
+        },
+        {
+          "model": "149",
+          "iptm": 0.14,
+          "ptm": 0.5,
+          "ranking_score": 0.44
+        },
+        {
+          "model": "149",
+          "iptm": 0.14,
+          "ptm": 0.5,
+          "ranking_score": 0.43
+        },
+        {
+          "model": "149",
+          "iptm": 0.13,
+          "ptm": 0.5,
+          "ranking_score": 0.42
+        }
+      ]
+    },
+    {
+      "job_name": "atf3_full_x_smn1_full",
+      "best_iptm": 0.15,
+      "best_ptm": 0.23,
+      "best_ranking_score": 0.56,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "full",
+          "iptm": 0.15,
+          "ptm": 0.23,
+          "ranking_score": 0.56
+        },
+        {
+          "model": "full",
+          "iptm": 0.15,
+          "ptm": 0.22,
+          "ranking_score": 0.56
+        },
+        {
+          "model": "full",
+          "iptm": 0.15,
+          "ptm": 0.22,
+          "ranking_score": 0.55
+        },
+        {
+          "model": "full",
+          "iptm": 0.15,
+          "ptm": 0.22,
+          "ranking_score": 0.55
+        },
+        {
+          "model": "full",
+          "iptm": 0.15,
+          "ptm": 0.23,
+          "ranking_score": 0.53
+        }
+      ]
+    },
+    {
+      "job_name": "binder_limk2_nb2_x_limk2_kin",
+      "best_iptm": 0.14,
+      "best_ptm": 0.45,
+      "best_ranking_score": 0.26,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "kin",
+          "iptm": 0.14,
+          "ptm": 0.45,
+          "ranking_score": 0.26
+        },
+        {
+          "model": "kin",
+          "iptm": 0.13,
+          "ptm": 0.45,
+          "ranking_score": 0.26
+        },
+        {
+          "model": "kin",
+          "iptm": 0.13,
+          "ptm": 0.45,
+          "ranking_score": 0.26
+        },
+        {
+          "model": "kin",
+          "iptm": 0.13,
+          "ptm": 0.44,
+          "ranking_score": 0.25
+        },
+        {
+          "model": "kin",
+          "iptm": 0.12,
+          "ptm": 0.44,
+          "ranking_score": 0.25
+        }
+      ]
+    },
+    {
+      "job_name": "binder_rock2_nb1_x_limk2_kin",
+      "best_iptm": 0.13,
+      "best_ptm": 0.48,
+      "best_ranking_score": 0.27,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "kin",
+          "iptm": 0.13,
+          "ptm": 0.48,
+          "ranking_score": 0.27
+        },
+        {
+          "model": "kin",
+          "iptm": 0.13,
+          "ptm": 0.47,
+          "ranking_score": 0.27
+        },
+        {
+          "model": "kin",
+          "iptm": 0.12,
+          "ptm": 0.48,
+          "ranking_score": 0.26
+        },
+        {
+          "model": "kin",
+          "iptm": 0.13,
+          "ptm": 0.47,
+          "ranking_score": 0.26
+        },
+        {
+          "model": "kin",
+          "iptm": 0.12,
+          "ptm": 0.47,
+          "ranking_score": 0.26
+        }
+      ]
+    },
+    {
+      "job_name": "hnrnpa1_106_184_x_tp53_1_62",
+      "best_iptm": 0.12,
+      "best_ptm": 0.34,
+      "best_ranking_score": 0.41,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "62",
+          "iptm": 0.12,
+          "ptm": 0.34,
+          "ranking_score": 0.41
+        },
+        {
+          "model": "62",
+          "iptm": 0.11,
+          "ptm": 0.34,
+          "ranking_score": 0.41
+        },
+        {
+          "model": "62",
+          "iptm": 0.1,
+          "ptm": 0.34,
+          "ranking_score": 0.4
+        },
+        {
+          "model": "62",
+          "iptm": 0.1,
+          "ptm": 0.34,
+          "ranking_score": 0.4
+        },
+        {
+          "model": "62",
+          "iptm": 0.11,
+          "ptm": 0.34,
+          "ranking_score": 0.39
+        }
+      ]
+    },
+    {
+      "job_name": "atf3_none_none_x_tp53_323_356",
+      "best_iptm": 0.12,
+      "best_ptm": 0.4,
+      "best_ranking_score": 0.48,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "356",
+          "iptm": 0.12,
+          "ptm": 0.4,
+          "ranking_score": 0.48
+        },
+        {
+          "model": "356",
+          "iptm": 0.1,
+          "ptm": 0.4,
+          "ranking_score": 0.45
+        },
+        {
+          "model": "356",
+          "iptm": 0.09,
+          "ptm": 0.41,
+          "ranking_score": 0.45
+        },
+        {
+          "model": "356",
+          "iptm": 0.09,
+          "ptm": 0.4,
+          "ranking_score": 0.45
+        },
+        {
+          "model": "356",
+          "iptm": 0.09,
+          "ptm": 0.4,
+          "ranking_score": 0.44
+        }
+      ]
+    },
+    {
+      "job_name": "hnrnpa1_15_93_x_tp53_1_62",
+      "best_iptm": 0.12,
+      "best_ptm": 0.34,
+      "best_ranking_score": 0.41,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "62",
+          "iptm": 0.12,
+          "ptm": 0.34,
+          "ranking_score": 0.41
+        },
+        {
+          "model": "62",
+          "iptm": 0.11,
+          "ptm": 0.34,
+          "ranking_score": 0.41
+        },
+        {
+          "model": "62",
+          "iptm": 0.1,
+          "ptm": 0.34,
+          "ranking_score": 0.4
+        },
+        {
+          "model": "62",
+          "iptm": 0.1,
+          "ptm": 0.34,
+          "ranking_score": 0.4
+        },
+        {
+          "model": "62",
+          "iptm": 0.11,
+          "ptm": 0.34,
+          "ranking_score": 0.39
+        }
+      ]
+    },
+    {
+      "job_name": "hnrnpa1_15_93_x_tp53_363_393",
+      "best_iptm": 0.12,
+      "best_ptm": 0.34,
+      "best_ranking_score": 0.41,
+      "n_models": 5,
+      "all_scores": [
+        {
+          "model": "393",
+          "iptm": 0.12,
+          "ptm": 0.34,
+          "ranking_score": 0.41
+        },
+        {
+          "model": "393",
+          "iptm": 0.11,
+          "ptm": 0.34,
+          "ranking_score": 0.41
+        },
+        {
+          "model": "393",
+          "iptm": 0.1,
+          "ptm": 0.34,
+          "ranking_score": 0.4
+        },
+        {
+          "model": "393",
+          "iptm": 0.1,
+          "ptm": 0.34,
+          "ranking_score": 0.4
+        },
+        {
+          "model": "393",
+          "iptm": 0.11,
+          "ptm": 0.34,
+          "ranking_score": 0.39
+        }
+      ]
+    }
+  ]
+}
