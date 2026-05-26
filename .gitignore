@@ -34,3 +34,6 @@ venv/
 qms/**/*_INTERNAL_DO_NOT_SEND*
 qms/**/*_INTERNAL.md
 qms/**/*retraction_brief*
+qms/architecture/
+qms/plans/
+qms/workflows/

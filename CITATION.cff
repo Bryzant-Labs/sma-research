@@ -1,13 +1,14 @@
 cff-version: 1.2.0
 message: "If you use this data, please cite it as below."
-title: "SMA Research — Open Drug Discovery Catalog"
+title: "SMA Research -- Open Computational Drug Discovery"
 abstract: >-
   Open-source computational drug discovery data and findings for
-  Spinal Muscular Atrophy (SMA). Includes molecular dynamics
-  trajectories, docking results, ADMET profiles, selective
-  kinase-inhibitor campaigns, SMN2 base-editing guide designs,
-  and AAV capsid engineering. All artifacts are released under
-  CC-BY-4.0 to enable reproduction and extension by other groups.
+  Spinal Muscular Atrophy (SMA). Includes 40,000+ compute jobs
+  across AlphaFold 3, Boltz-2, Chai-1, DiffDock, GROMACS MD,
+  GenMol, and ADMET screening. Pipeline v2.5 with three knowledge
+  gates and multi-method consensus. 96 pipeline-complete compounds
+  targeting ROCK2 and emerging axes (p38/MK2, NRF2-KEAP1, Kv2.1).
+  All artifacts released under CC-BY-4.0.
 type: dataset
 authors:
   - family-names: "Fischer"
@@ -22,13 +23,13 @@ keywords:
   - spinal muscular atrophy
   - SMA
   - drug discovery
-  - molecular dynamics
-  - LIMK2
+  - computational biology
   - ROCK2
-  - fasudil
-  - SMN2
-  - base editing
-  - AAV capsid
+  - AlphaFold 3
+  - Boltz-2
+  - molecular dynamics
+  - NVIDIA NIM
+  - ADMET
   - open science
-date-released: 2026-04-10
-version: "2026.04.10"
+date-released: 2026-05-27
+version: "2026.05.27"

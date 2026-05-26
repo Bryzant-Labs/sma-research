@@ -1,6 +1,6 @@
 # SMA Research — Findings INDEX
 
-**Updated**: 2026-04-10
+**Updated**: 2026-05-27
 **License**: all findings published under CC-BY-4.0
 
 Every entry in this index is a computational result from the open-source SMA drug-discovery platform. "Preliminary" = computational only; "validated" = replicated across independent methods; "published" = Simon / collaborator / external audience has reviewed. Negative results are published with the same rigor as positive ones.
@@ -17,6 +17,7 @@ Every entry in this index is a computational result from the open-source SMA dru
 | 2026-04-10 | **Fasudil scaffold hop — NEGATIVE** (final) | 0/20 Fasudil variants achieved LIMK2 selectivity (margin > 0.3) across 115 scaffold modifications. Isoquinoline sulfonamide is inherently ROCK-preferring. | validated negative | [2026-04-10/FINDING_2026-04-10_Fasudil_scaffold_hop_NEGATIVE.md](2026-04-10/FINDING_2026-04-10_Fasudil_scaffold_hop_NEGATIVE.md) |
 | 2026-04-10 | **Cas-OFFinder SMN2 guide safety** | Of 6 candidate gRNAs for SMN2 base editing, 3 are safe (≤23 exact off-targets), 1 is the clear winner (antisense `TTTGTCTAAAACCCATATAA`, 14 exacts), 1 unusable (176 off-targets). | computational, ready for wet-lab review | [2026-04-10/FINDING_2026-04-10_casoffinder_SMN2_guide_safety.md](2026-04-10/FINDING_2026-04-10_casoffinder_SMN2_guide_safety.md) |
 | 2026-04-10 | **Seven new LIMK2-selective hits (overnight run)** | DiffDock selectivity screen on PocketXMol DFG-out library yielded 7 new hits (margin 0.33–0.68). Combined with prior session = **14 selective candidates** total. | preliminary (DiffDock only) | [2026-04-10/FINDING_2026-04-10_new_7_selective_hits.md](2026-04-10/FINDING_2026-04-10_new_7_selective_hits.md) |
+| 2026-05-27 | **May 2026 summary** | Pipeline v2.5, 3 knowledge gates, AF3 ROCK2xCFL2 iPTM 0.82 replicated, ROCK isoform selectivity (delta 0.70), NRG1xErbB3 0.800, 96 pipeline-complete compounds, p38/MAPK14 new axis (iPTM 0.89), NRF2-KEAP1 Budapest-validated, 40K+ jobs. | active | [2026-05/summary.md](2026-05/summary.md) |
 
 ## Tracks Referenced
 
